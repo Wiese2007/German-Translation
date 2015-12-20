@@ -1,0 +1,37 @@
+{
+   "info" : {
+      "name" : "German-Translation-v13.1", 
+      "version" : 1
+   },
+   "mixintos" : {
+      "stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
+   },
+   "overrides" : {
+      "frostfeast/locales/de-DE.json" : "file(translations/de-frostfeast.json)",
+      "frostfeast/locales/de.json" : "file(translations/de-frostfeast.json)",
+      "stonehearth/locales/de-DE.json": "file(translations/de-DE.json)",
+      "stonehearth/locales/de.json": "file(translations/de-DE.json)",
+      "rayyas_children/locales/de-DE.json" : "file(translations/de-rayya.json)",
+      "rayyas_children/locales/de.json" : "file(translations/de-rayya.json)",
+
+
+   	"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.eot" : "file(fonts/de-DE/komika_text.eot)",
+	   "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.svg" : "file(fonts/de-DE/komika_text.svg)",
+	   "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.ttf" : "file(fonts/de-DE/komika_text.ttf)",
+	   "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.woff" : "file(fonts/de-DE/komika_text.woff)",
+	   "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.eot" : "file(fonts/de-DE/komika_text.eot)",
+	   "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.svg" : "file(fonts/de-DE/komika_text.svg)",
+	   "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.ttf" : "file(fonts/de-DE/komika_text.ttf)",
+	   "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.woff" : "file(fonts/de-DE/komika_text.woff)",
+      "stonehearth/ui/shell/select_settlement/select_settlement.less" : "file(ui/shell/select_settlement/select_settlement.less)",
+      "stonehearth/ui/game/modes/build_mode/build_mode.less" : "file(ui/game/modes/build_mode/build_mode.less)",
+      "stonehearth/ui/game/modes/zones_mode/mining_zone/mining_zone.less" : "file(ui/game/modes/zones_mode/mining_zone/mining_zone.less)",
+      "stonehearth/ui/game/show_workshop/show_team_workshop.less" : "file(ui/game/show_workshop/show_team_workshop.less)",
+      "stonehearth/ui/game/party_editor/party_editor.less" : "file(ui/game/party_editor/party_editor.less)",
+      "stonehearth/ui/game/promotion_tree/promotion_tree.less" : "file(ui/game/promotion_tree/promotion_tree.less)",
+      "stonehearth/ui/game/citizens/citizens.less" : "file(ui/game/citizens/citizens.less)",
+      "stonehearth/services/server/population/data/ascendancy_population.json" : "file(translations/ascendancy_population.json)",
+      "stonehearth/services/server/population/data/goblin_population.json" : "file(translations/goblin_population.json)",
+      "stonehearth/services/server/population/data/undead_population.json" : "file(translations/undead_population.json)"
+   }
+}

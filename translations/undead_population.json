@@ -1,0 +1,114 @@
+{
+   "kingdom_name" : "The Undead (Stephanie, heeeeeelp!)",
+   "kingdom_id" : "undead",
+   "amenity_to_strangers" : "hostile",
+
+   "roles" : {
+      "skeleton" : {
+         "male" : {
+            "uri" : ["stonehearth:monsters:undead:skeleton"], 
+            "given_names" : [
+               "Broo",
+               "Jokok",
+               "Craglek",
+               "Lost",
+               "Empt",
+               "Brok",
+               "Holvo",
+               "Despr",
+               "Desnad",
+               "Ton",
+               "Ren",
+               "Trest",
+               "Garef",
+               "Lee",
+               "Dih",
+               "Sher",
+               "Beck",
+               "Ian",
+               "Namenlos"
+            ]
+         },
+         "female" : {
+            "uri" : ["stonehearth:monsters:undead:skeleton_female"],
+            "given_names" : [
+               "Kate",
+               "Amy",
+               "Idra",
+               "Loss",
+               "Mourn",
+               "Bleck",
+               "Ness",
+               "Lene",
+               "Elia",
+               "Essa",
+               "Elie",
+               "Namenlos"
+            ]
+         },
+         "surnames" : [
+            "Knochen",
+            "die Tode",
+            "die Vergessene",
+            "die Skelettin",
+            "Einmal-Menschen",
+            "Schnurlos"
+         ]
+      },
+      "zombie" : {
+         "male" : {
+            "uri" : ["stonehearth:monsters:undead:zombie"],
+            "given_names" : [
+               "Moulder",
+               "Ed",
+               "Fronk",
+               "Slem",
+               "Sowe",
+               "Denet",
+               "Lowder",
+               "Rot",
+               "Neb",
+               "Jonor",
+               "Nameless"
+            ]
+         },
+         "female" : {
+            "uri" : ["stonehearth:monsters:undead:zombie_female"],
+            "given_names" : [
+               "Twine",
+               "Losse",
+               "Zombi",
+               "Elva",
+               "Less",
+               "Sal",
+               "Em",
+               "Torie",
+               "Nameless"
+            ]
+         }, 
+         "surnames" : [
+            "der Zombie",
+            "der Verfallene",
+            "der Gefoltere",
+            "Wurmschädel",
+            "der Tode",
+            "der Traurige",
+            "der Langsame"
+         ]
+      }
+   },
+   "town_pieces" : {
+      "optional_prefix" : [
+         "Ay"
+      ], 
+      "town_name" : [
+         "Pohk"
+      ], 
+      "suffix" : [
+         "yu"
+      ]
+   }, 
+   "task_groups" : {
+      "stonehearth:task_group:restock" : "stonehearth:simple_labor"
+   }
+}

@@ -1,0 +1,123 @@
+{
+   "kingdom": {
+      "kingdom_name": "Rayya's Children",
+      "quote" : "Meditation, Mediation, Medikation: Ordnung im Selbst bringt Ordnung zu anderen und bringt Gesundheit für alle.",
+      "long_description" : "Die Leute aus der Wüste lernten früh das Sie sich gegenseitig benötigen um zu überleben, und vorzugsweise so viele andere wie sie erreichen können. Jetzt, finden Besucher bei Ihnen großzügige Gastgeber mit Zugang zu Waren aus der ganzen Welt." ,
+      "post_selection_description": ", einer Gesellschaft von charmanten Meisterhändlern... aus aller Welt"
+   },
+   "jobs": {
+      "potter": {
+         "potter_description": {
+            "requirements" : "Erfordert eine Töpfermesser."
+         },
+         "recipes": {
+            "mason_clay_chisel_recipe": {
+               "description": "Der Töpfer kann Lehm verwenden um Holz und Stein zu binden",
+               "recipe_name": "Steinmetz Lehmmeißel",
+               "flavor": "'Der Ofen erhitzt alle Dinge; er bezeugt wie Ton, durch die Alchimie des Monkey, so stark wie Stein wird.' --Meister Erisa"
+            }
+         }
+      },
+      "mason": {
+         "mason_description": {
+            "requirements" : "Erfordert einen Level 2 Töpfer und Steinmetzmeißel, durch den Töpfer hergestellt."
+         }
+      },
+      "cook": {
+         "recipes": {
+            "golden_gourd_curry_recipe": {
+               "description": "Sind Kürbisse geniessbarer wenn Sie gekocht sind?",
+               "recipe_name": "Goldener Kürbiscurry",
+               "flavor": "TODO(flavor!)"
+            },
+            "flat_bread_recipe": {
+               "description": "Fladenbrot aus Maismehl",
+               "recipe_name": "Flaches Brot"
+            },
+            "meat_tagine_recipe": {
+               "description": "Fleisch und Gemüse in einem Lehmtopf geschmort",
+               "recipe_name": "Fleischeintopf Tajine"
+            },
+            "vegetable_tagine_recipe": {
+               "description": "Gemüse in einem Lehmtopf geschmort",
+               "recipe_name": "Gemüseeintopf Tajine"
+            }
+         }
+      }
+   },
+   "data": {
+      "rayyas_children_population": {
+         "display_name": "Rayya's Kinder"
+      },
+      "gm": {
+         "campaigns": {
+            "trader": {
+               "iskender_caravan_1": {
+                  "shop_info": {
+                     "name": "Iskender Handelskarawane",
+                     "title": "Die Iskender Handelskarawane kehrt zurück!"
+                  }
+               },
+               "iskender_caravan_2": {
+                  "shop_info": {
+                     "name": "Iskender Handelskarawane",
+                     "title": "Die Iskender Handelskarawane kehr mit mehr Sachen zurück!"
+                  }
+               },
+               "iskender_caravan_3": {
+                  "shop_info": {
+                     "name": "Iskender Handelskarawane",
+                     "title": "Die Iskender Handelskarawane kehrt zurück!"
+                  }
+               },
+               "starting_food_donation": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "bulletin_message": {
+                              "000": "Haha, es gibt nichts wie den Anblick von einem brandneuen Außenposten, oder? Mit eurer harten Arbeit, wird dieses trostlose Land bald ein Nexus für Reichtum und Wohlstand sein! Wir werden morgen mit dem ganzen Laden zurück sein, aber in der Zwischenzeit, hier ist der Starteinsatz den euch eure Familien geschickt haben:",
+                              "001": "Monkey beschütze euch, Freunde! Es ist immer eine Freude eine Gruppe zu sehen, dies es zu Ihrem ausgewählten Handelspunkt schafft. Entsprechend unserem Vertrag, werden wir morgen mit dem ganzen Laden wiederkommen. In der Zwischenzeit, hier eine Lieferung die eure Familien für euch bestellt haben:",
+                              "002": "Die Iskender Händler sind immer auf der Suche nach einer neuen Bleibe zwischen Routen. Wir freuen uns, Euch hier zu sehen, Freunde! Wir kommen morgen mit dem Laden wieder, aber in der Zwischenzeit haben eine Probe von unseren Waren, für euren Start:",
+                              "003": "Alles bereit einen neuen Außenposten zu starten, ne! Meine Freunde die Wüste begrüßt alle seine Kinder. Wir kommen morgen wieder um nach euch zu sehen, aber in der Zwischenzeit schicken eure Eltern euch diese Unterstützung für euren Start:",
+                              "004": "Aha, ein neuer potenzieller Partner für die Iskender Händler! Wir müssen morgen mit dem ganzen Laden wieder herkommen, aber weisst du was: nehmt dies als Investment, und schaut was Ihr für uns daraus machen könnt, ok?"
+                           },
+                           "bulletin_title": "Ein Iskender Agent nähert sich",
+                           "dialog_title": "Naryal Iskender",
+                           "choice_000": "Vielen Dank, Geehrter Älterer!"
+                        }
+                     }
+                  }
+               },
+               "stonecutter_shop": {
+                  "shop_info": {
+                     "name": "Vosker Saji's Polierte Erde",
+                     "title": "Ein Meistersteinmetzkarren nähert sich"
+                  }
+               },
+               "tannery_shop": {
+                  "shop_info": {
+                     "name": "Rin's Feine Pelze und Teppiche",
+                     "title": "Ein Wagen aus feinen Tierwaren nähert sich"
+                  }
+               },
+               "woodcutter_shop": {
+                  "shop_info": {
+                     "name": "Rajin's Waren des fernen Westen",
+                     "title": "Ein exotischer Shop von seltenen Hölzern erscheint"
+                  }
+               }
+            }
+         }
+      }
+   },
+   "entities": {
+      "gizmos": {
+         "rc_camp_standard": {
+            "rc_camp_standard_ghost": {
+               "display_name": "Das Banner der Kinder von Rayya's",
+               "description": "Wie weißt du, das du nach Hause gekommen bist"
+            }
+         }
+      }
+   }
+}

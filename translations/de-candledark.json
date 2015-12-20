@@ -1,0 +1,271 @@
+{
+   "ui": {
+      "game": {
+         "candledark": {
+            "uh_what": "Uh..Was?",
+            "such_as": "So wie?",
+            "berry_wine": "Bist du schon wieder auf Beerenwein?",
+            "urm_thanks": "Urm..Danke!",
+            "dialog_nodes" : {
+               "bulletin_message" : {
+                  "000" : "Hier ein paar Lieferungen für den erfolgreichen Start! Dein Zimmermann kann damit Barrikaden gegen die Untoten herstellen.",
+                  "001" : "Ein hagerer alter Mann erscheint am Rande deiner Stadt. Das einzige, was krummer ist als sein Rücken sind seine Zähne ...",
+                  "002" : "'Hallo Ihr! Der Vorabend des Candledarks beginnt und Ihr habt noch nicht mal begonnen euch vorzubereiten!'",
+                  "003" : "'Du weißt? Candlebark! Seltsame Dinge passieren immer in dieser Zeit des Jahres.'",
+                  "004" : "'Es sind .. die Toten .. sie beginnen sich zu rühren. Du beachtest am besten Old Elbezars Warnungen und startest mit den Vorbereitungen!'",
+                  "005" : "'Bah! Verspotte nur alles, was du willst. Fang lieber an Barrikaden zu bauen, sonst gibts Ärger!'",
+                  "006" : "'Ich werde in ein paar Tagen mit meinem Wagen und einigen Waren zum Verkauf zurück sein, aber in der Zwischenzeit werde ich deinen Handwerker alles lehren was ich weiß.'",
+                  "007" : "'Nun, ich sehe Ihr habt es geschafft! Ih habt Candledark überlebt. Ich habe ein paar Kleinigkeiten gespart für einen besonderen Anlass und das hier gilt genauso gut wie jeder andere. Genieß deinen Erfolg! .... Bis nächstes Jahr ....",
+                  "008" : ""
+               },                                                                                          
+               "bulletin_title" : "Bevor ich gehe!",
+               "bulletin_title2" : "Ein hagerer alter Mann erscheint",
+               "bulletin_title3" : "Es ist endlich vorbei!",
+               "dialog_title" : "Ein hagerer alter Mann"
+            }
+         },     
+         "entities" : {
+            "bite_notification" : "[name(i18n_data.entity)] wurde gebissen.",
+            "turn_notification" : "[name(i18n_data.entity)] ist der Pest erlegen."
+         }
+      }
+   },
+   "data": {
+      "names": {
+         "plagued": {
+            "male_name": "Ein hirnloser Husk",
+            "female_name": "Ein hirnloser Husk"
+         }
+      },       
+      "buffs": {
+         "plagued": {
+            "display_name": "geplagt",
+            "description": "überhaupt nicht gut!"
+         }
+      },      
+      "commands": {
+         "smash_pinata": {
+            "display_name": "Zertrümmer die Piñata",
+            "description": "Sie ist gefüllt mit Süßigkeiten!"
+         }
+      },
+      "gm": {
+         "campaigns": {
+            "trader" : {
+               "candledark_shop": {
+                  "shop_info": {
+                     "name": "Verschiedene Candledark Schmuckstücke",
+                     "title": "Elbezar Grimrock kehrt mit seinem Karren zurück!"
+                  }
+               }
+            },
+            "darkness" : {
+               "mission": {
+                  "sighted_bulletin": {
+                     "title": "Die Untoten brechen aus dem Boden!"
+                  }
+               }
+            }
+         }
+      }
+   },
+   "entities": {
+      "critters": {
+         "black_cat": {
+            "display_name": "Eine schwarze Katze",
+            "description": "Es ist etwas unheimliches an Ihr."
+         }
+      },
+      "construction": {
+         "cobblestone_fence_rail" : {
+            "cobblestone_fence_rail": {
+               "display_name": "Verstärkte Kopfsteinwand",
+               "description": "Jetzt mit zusätzlichem Schutz."
+            },
+            "cobblestone_fence_rail_ghost": {
+               "display_name": "Verstärkte Kopfsteinwand",
+               "description": "Jetzt mit zusätzlichem Schutz."
+            }
+         },
+         "spooky_fence_gate" : {
+            "spooky_fence_gate": {
+               "display_name": "Ein Candledark Tor",
+               "description": "Stark verstärktes gruseliges Tor!"
+            },
+            "spooky_fence_gate_ghost": {
+               "display_name": "Ein Candledark Tor",
+               "description": "Stark verstärktes gruseliges Tor!"
+            }
+         }         
+      },
+      "decoration": {
+         "scarecrow": {
+            "scarecrow_ghost": {
+               "display_name": "Eine einfache Vogelscheuche",
+               "description": "Beängstigend!"
+            },
+            "scarecrow_iconic": {
+               "display_name": "Eine einfache Vogelscheuche",
+               "description": "Montage erforderlich."
+            }
+         },
+         "commemorative_tower_brazier": {
+            "commemorative_tower_brazier_ghost": {
+               "display_name": "Kohlebecken der Erinnerung",
+               "description": "Du hast Candledark II überlebt!"
+            },
+            "commemorative_tower_brazier_iconic": {
+               "display_name": "Kohlebecken der Erinnerung",
+               "description": "Du hast Candledark II überlebt!"
+            }
+         },         
+         "pinata": {
+            "pinata_ghost": {
+               "display_name": "Eine Candledark Piñata",
+               "description": "Gefüllt mit Leckereien!"
+            },
+            "pinata_iconic": {
+               "display_name": "Eine Candledark Piñata",
+               "description": "Montage erforderlich."
+            }
+         },         
+         "pumpkin_ward": {
+            "pumpkin_ward": {
+               "display_name": "geritzter Kürbis",
+               "description": "Hält die Untoten entfernt"
+            },
+            "pumpkin_ward_lantern": {
+               "display_name": "Kürbislaterne",
+               "description": "Hält die Untoten entfernt"
+            },
+            "pumpkin_ward_hanging_lantern": {
+               "display_name": "Hängende Kürbislaterne",
+               "description": "Hält die Untoten entfernt"
+            }
+         },
+         "decorative_burial_mound": {
+            "decorative_burial_mound" : {
+               "description": "Eine traditionelle Candledark Dekoration.",
+               "display_name": "Ein dekorativer Grabhügel"
+            }
+         }
+      },
+      "food": {
+         "candy_basket": {
+            "candy_basket": {
+               "display_name": "Korb mit Süßigkeiten",
+               "description": "Komm schon, es sind Süßigkeiten!"
+            },
+            "candy_serving": {
+               "display_name": "Süßigkeiten",
+               "description": "Komm schon, es sind Süßigkeiten!"
+            }
+         },
+         "pumpkin_soup": {
+            "pumpkin_soup": {
+               "display_name": "Eine Schüssel Kürbissuppe",
+               "description": "Eine Schüssel mit püriertem Kürbis!"
+            },
+            "pumpkin_soup_serving": {
+               "display_name": "Ein Portion Kürbis-Suppe",
+               "description": "Köstlich."
+            }
+         },
+         "pumpkin_pie": {
+            "pumpkin_pie": {
+               "display_name": "Ein Kürbiskuchen",
+               "description": "Am besten auf der Fensterbank gelassen!"
+            },
+            "pumpkin_pie_serving": {
+               "display_name": "Ein Stück Kürbiskuchen",
+               "description": "Süß und köstlich."
+            }
+         }                  
+      },
+      "toys": {
+         "plushie_toy_ghost": {
+            "plushie_toy_ghost": {
+               "display_name": "Eine plüschiger Spielzeug-Geist",
+               "description": "Awww.. niedlich"
+            }
+         },
+         "plushie_toy_hanging_ghost": {
+            "plushie_toy_hanging_ghost": {
+               "display_name": "Ein plüschiger, hängender Spielzeug-Geist",
+               "description": "Awww.. niedlich"
+            }
+         }         
+      },      
+      "pets": {
+         "bat": {
+            "display_name": "Eine Fledermaus",
+            "description": "...!"
+         }
+      }
+   },
+   "jobs": {
+      "weaver": {  
+      	"recipes": {
+            "plushie_toy_ghost_recipe": {
+               "description": "Ein traditionelles Candledark Spielzeug.",
+               "recipe_name": "Eine plüschiger Spielzeug-Geist"
+            },
+            "plushie_toy_hanging_ghost_recipe": {
+               "description": "Ein traditionelles Candledark Spielzeug.",
+               "recipe_name": "Ein plüschiger, hängender Spielzeug-Geist"
+            }          
+         }
+      },   	
+      "mason": {  
+      	"recipes": {
+            "decorative_burial_mound_recipe": {
+               "description": "Ein traditionelle Candledark Dekoration.",
+               "recipe_name": "Ein dekorativer Grabhügel"
+            }
+         }
+      },
+      "blacksmith": {  
+         "recipes": {
+            "cobblestone_fence_rail_recipe": {
+               "description": "Jetzt mit zusätzlichem Schutz.",
+               "recipe_name": "Eine verstärkte Kopfsteinwand"
+            },
+            "spooky_fence_gate_recipe": {
+               "description": "Stark verstärktes gruseliges Tor!",
+               "recipe_name": "Ein Candledark Tor"
+            }            
+         }
+      },      
+      "carpenter": {
+      	"recipes": {
+            "scarecrow_recipe": {
+               "description": "Ein traditionelle Candledark Dekoration.",
+               "recipe_name": "Eine einfache Vogelscheuche"
+            },
+            "pinata_recipe": {
+               "description": "Gefüllt mit Leckereien!",
+               "recipe_name": "Eine Candledark Piñata"
+            }            
+         }
+      },
+      "cook": {
+         "recipes": {
+            "holiday_recipes" : {
+               "candledark_name" : "Feiertags-Rezepte"             
+            },
+            "pumpkin_ward_recipe": {
+               "description": "Ein traditionelle Candledark Dekoration.",
+               "recipe_name": "geritzter Candledark Kürbis"
+            },
+            "pumpkin_ward_lantern_recipe": {
+               "description": "Ein traditionelle Candledark Dekoration. Jetzt mit extra pizzazz",
+               "recipe_name": "Candledark Kürbislaterne"
+            },
+            "pumpkin_ward_hanging_lantern_recipe": {
+               "description": "Ein traditionelle Candledark Dekoration. Platzierbar an Wänden!",
+               "recipe_name": "hängende Candledark Kürbislaterne"
+            }
+         }
+      }
+   }
+}
