@@ -13,6 +13,8 @@
       "stonehearth/locales/de.json": "file(translations/de-DE.json)",
       "rayyas_children/locales/de-DE.json" : "file(translations/de-rayya.json)",
       "rayyas_children/locales/de.json" : "file(translations/de-rayya.json)",
+      "brewerymod/locales/de-DE.json" : "file(translations/de-brewery.json)",
+      "brewerymod/locales/de.json" : "file(translations/de-brewery.json)",
 
 
    	"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.eot" : "file(fonts/de-DE/komika_text.eot)",
