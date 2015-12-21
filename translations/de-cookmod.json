@@ -315,192 +315,192 @@
                "flavor"       : "Ein einfaches Gericht aus Reis und Wasser"
             },
             "boiled_rice_serving" : {
-               "display_name" : "A Bowl of Boiled Rice",
-               "description"  : "Bland but filling"
+               "display_name" : "Eine Schüssel gekochten Reises",
+               "description"  : "Langweilig aber füllend"
             }            
          },
          "cake" : {
             "cake" : {
-               "display_name" : "Cake",
-               "description"  : "A Delicious Cake",
+               "display_name" : "Kuchen",
+               "description"  : "Ein köstlicher Kuchen",
                "flavor"       : ""
             },
             "cake_serving" : {
-               "display_name" : "A Slice of Cake",
-               "description"  : "Divine"
+               "display_name" : "Ein Stück des Kuchens",
+               "description"  : "Göttlich"
             }            
          },         
          "rice_pudding" : {
             "rice_pudding" : {
-               "display_name" : "Rice Pudding",
-               "description"  : "A dessert made from rice and milk",
+               "display_name" : "Reispudding",
+               "description"  : "Ein Dessert aus Reis und Milch",
                "flavor"       : ""
             },
             "rice_pudding_serving" : {
-               "display_name" : "Rice Pudding",
-               "description"  : "Delicious with a dollop of jam"
+               "display_name" : "Reispudding",
+               "description"  : "Köstlich mit einem Klecks Marmelade"
             }            
          },                  
          "berry_pie" : {
             "berry_pie" : {
-               "display_name" : "Berry Pie",
-               "description"  : "A Delicious Berry Pie.",
-               "flavor"       : "A light crust filled with ripe berries"
+               "display_name" : "Beerenkuchen",
+               "description"  : "Eine köstlicher Beerenkuchen.",
+               "flavor"       : "Eine leichte Kruste mit reifen Beeren gefüllt"
             },
             "berry_pie_serving" : {
-               "display_name" : "A Slice of Berry Pie",
-               "description"  : "Sweet and Delicious"
+               "display_name" : "Ein Stück des Beerenkuchens",
+               "description"  : "Süß und köstlich"
             }            
          },
          "cheese" : {
             "cheese" : {
-               "display_name" : "Cheese",
-               "description"  : "A medium hard cheese.",
-               "flavor"       : "Everything tastes better with chese Grommit!"
+               "display_name" : "Käse",
+               "description"  : "Eine mittel harter Käse.",
+               "flavor"       : "Alles schmeckt besser mit Käsekrümmeln!"
             },
             "cheese_serving" : {
-               "display_name" : "A Portion of Cheese",
-               "description"  : "Cheesy"
+               "display_name" : "Eine Portion vom Käse",
+               "description"  : "käsig"
             }            
          },
          "grits" : {
             "grits" : {
-               "display_name" : "Grits",
-               "description"  : "A Bland corn based dish.",
-               "flavor"       : "Please Sir, can I have NO more?!"
+               "display_name" : "Grütze",
+               "description"  : "Ein fades auf Mais basierendes Gericht.",
+               "flavor"       : "Bitte Sir, kann ich nicht mehr haben?!"
             },
             "grits_serving" : {
-               "display_name" : "Bowl of Grits",
-               "description"  : "A portion of Grits"
+               "display_name" : "Eine Schüssel voll mit Grütze",
+               "description"  : "Eine Portion Grütze"
             }
          },
          "honey_berry_wine" : {
             "honey_berry_wine" : {
-               "display_name" : "Fortified Berry Wine",
-               "description"  : "Delicious Honey Fortified Berry Wine.",
-               "flavor"       : "A Refreshing drink made from mushed up berries, water and honey."
+               "display_name" : "angereicherter Beerenwein",
+               "description"  : "Köstliche mit Honig angereicherter Beerenwein.",
+               "flavor"       : "Ein erfrischendes Getränk aus zerquetschten Beeren, Wasser und Honig."
             },
             "honey_berry_wine_serving" : {
-               "display_name" : "A Mug of Berry Wine",
-               "description"  : "Sweet and Refreshing"
+               "display_name" : "Ein Becher Beerenwein",
+               "description"  : "Süß und erfrischend"
             }
          },
          "honey_glazed_critter" : {
             "honey_glazed_critter" : {
-               "display_name" : "Glazed Roast Critter",
-               "description"  : "A Perfectly Honey Roasted Critter.",
-               "flavor"       : "Everything tastes better with Honey, right?"
+               "display_name" : "glasiertes, gebratenes Kleintier",
+               "description"  : "Ein perfekt Honig gebratenes Kleintier.",
+               "flavor"       : "Alles schmeckt besser mit Honig, richtig?"
             },
             "honey_glazed_critter_serving" : {
-               "display_name" : "A Portion of Glazed Roast Critter",
-               "description"  : "Tastes like chicken."
+               "display_name" : "Eine Portion des glasierten, gebratenen Kleintieres",
+               "description"  : "Schmeckt wie Hühnchen."
             }
          },
          "meat_and_potato_pie" : {
             "meat_and_potato_pie" : {
-               "display_name" : "Meat And Potato Pie",
-               "description"  : "A Pastry Crust with a delicious meat filling.",
-               "flavor"       : "Hearty and Delicious"
+               "display_name" : "Fleisch und Kartoffel Pastete",
+               "description"  : "Ein Pastete mit einer köstlichen Fleischfüllung.",
+               "flavor"       : "Herzhaft und lecker"
             },
             "meat_and_potato_pie_serving" : {
-               "display_name" : "A Slice of Meat And Potato Pie",
-               "description"  : "Tasty and filling."
+               "display_name" : "Ein Stück der Fleisch und Kartoffeln Pastetee",
+               "description"  : "Lecker und sättigend."
             }               
          },
          "meat_pie" : {
             "meat_pie" : {
-               "display_name" : "Meat Pie",
-               "description"  : "A tasty meat pie.",
-               "flavor"       : "A pastry container for the Trappers latest catch"
+               "display_name" : "Fleischpastete",
+               "description"  : "Eine schmackhafte Fleischpastete.",
+               "flavor"       : "Ein Pastete für des Trappers neusten Fang"
             },
             "meat_pie_serving" : {
-               "display_name" : "A Slice of Meat Pie",
-               "description"  : "A tasty meat pie."
+               "display_name" : "Ein Stück der Fleischpastete",
+               "description"  : "Eine schmackhafte Fleischpastete."
             }
          },
          "sheep_feed" : {
             "sheep_feed" : {
-               "display_name" : "Animal Feed",
-               "description"  : "Suitable for Yaks and Sheep",
+               "display_name" : "Tierfutter",
+               "description"  : "geeignet für Yaks und Schafe",
                "flavor"       : ""
             },
             "sheep_feed_ground" : {
-               "display_name" : "Animal Feed",
-               "description"  : "Suitable for Yaks and Sheep"
+               "display_name" : "Tierfutter",
+               "description"  : "geeignet für Yaks und Schafe"
             }
          },         
          "pig_feed" : {
             "pig_feed" : {
-               "display_name" : "Pig Feed",
-               "description"  : "If it's edible they'll eat it",
+               "display_name" : "Schweinefutter",
+               "description"  : "Wenn es essbar ist, essen Sie es",
                "flavor"       : ""
             },
             "pig_feed_ground" : {
-               "display_name" : "Pig Feed",
-               "description"  : "If it's edible they'll eat it"
+               "display_name" : "Schweinefutter",
+               "description"  : "Wenn es essbar ist, essen Sie es"
             }
          },
          "pig_meat" : {
-            "display_name" : "Pig Meat",
-            "description"  : "Succulent Pork"
+            "display_name" : "Schweinefleisch",
+            "description"  : "saftiges Schweinefleisch"
          }, 
          "yak_meat" : {
-            "display_name" : "Yak Meat",
-            "description"  : "Succulent Beef"
+            "display_name" : "Yakfleisch",
+            "description"  : "saftiges Rindfleisch"
          },                  
          "pumpkin_pie" : {
             "pumpkin_pie" : {
-               "display_name" : "Pumpkin Pie",
-               "description"  : "Best left on the window sill",
-               "flavor"       : "Sweet and Tasty"
+               "display_name" : "Kürbiskuchen",
+               "description"  : "Am besten auf dem Fensterbank gelassen",
+               "flavor"       : "Süß und lecker"
             },
             "pumpkin_pie_serving" : {
-               "display_name" : "A Slice of Pumpkin Pie",
+               "display_name" : "Ein Stück des Kürbiskuchens",
                "description"  : "Yummy"
             }
          },
          "pumpkin_soup" : {
             "pumpkin_soup" : {
-               "display_name" : "Pumpkin Soup",
-               "description"  : "A hearty pumpkin soup",
-               "flavor"       : "Sweet and Tasty"
+               "display_name" : "Kürbissuppe",
+               "description"  : "Ein herzhaftes Kürbissuppe",
+               "flavor"       : "Süß und lecker"
             },
             "pumpkin_soup_serving" : {
-               "display_name" : "A Bowl of Pumpkin Soup",
-               "description"  : "A hearty pumpkin soup"
+               "display_name" : "Eine Schüssel von der Kürbissuppe",
+               "description"  : "Ein herzhaftes Kürbissuppe"
             }
          },
          "pottage" : {
             "pottage" : {
-               "display_name" : "Pottage",
-               "description"  : "A hearty bowl of Pottage",
-               "flavor"       : "Tasty"
+               "display_name" : "Gemüsesuppe",
+               "description"  : "Ein herzhafte Gemüsesuppe",
+               "flavor"       : "Lecker"
             },
             "pottage_serving" : {
-               "display_name" : "A Bowl of Pottage",
-               "description"  : "Tasty"
+               "display_name" : "Eine Schüssel mit Gemüsesuppe",
+               "description"  : "Lecker"
             }
          },                     
          "roast_critter" : {
             "roast_critter" : {
-               "display_name" : "Roast Critter",
-               "description"  : "A Perfectly Roasted Critter.",
-               "flavor"       : "Tastes like chicken"
+               "display_name" : "gebratenes Kleintier",
+               "description"  : "Ein perfekt gebratenes Kleintier.",
+               "flavor"       : "Schmeckt wie Hühnchen"
             },
             "roast_critter_serving" : {
-               "display_name" : "A Portion of Roast Critter",
-               "description"  : "A Perfectly Roasted Critter."
+               "display_name" : "Eine Portion des gebratenen Kleintieres",
+               "description"  : "Ein perfekt gebratenes Kleintier."
             }
          },
          "roast_ham" : {
             "roast_ham" : {
-               "display_name" : "Roast Ham",
-               "description"  : "A hearty roast",
+               "display_name" : "Schinkenbraten",
+               "description"  : "Ein herzhafter Braten",
                "flavor"       : ""
             },
             "roast_ham_serving" : {
-               "display_name" : "A Portion of Roast Ham",
-               "description"  : "A hearty roast"
+               "display_name" : "Eine Portion des Schinkenbratens",
+               "description"  : "Ein herzhafter Braten"
             }
          },
          "roast_beef" : {
