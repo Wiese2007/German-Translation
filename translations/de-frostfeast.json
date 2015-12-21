@@ -135,22 +135,22 @@
                "flavor" : ""
             },
             "frostfeast_iron_door_recipe" : {
-               "recipe_name" : "Frostfest Eisentür",
+               "recipe_name" : "frostfest Eisentür",
                "description" : "Eine festliche Eisentür",
                "flavor" : ""
             },                           
             "frostfeast_lights_recipe" : {
-               "recipe_name" : "Frostfest Licht",
+               "recipe_name" : "frostfest Licht",
                "description" : "Verwende Metall und Splitter eines Drahtes um diese glänzende festliche Dekoration zu erstellen.",
                "flavor" : ""
             },
             "frostfeast_candle_recipe" : {
-               "recipe_name" : "Frostfest Kerze",
+               "recipe_name" : "frostfest Kerze",
                "description" : "Eine aufwändige festliche Kerze",
                "flavor" : ""
             },
             "festive_fighting_shield_recipe" : {
-               "recipe_name" : "Festlicher Kampfschild",
+               "recipe_name" : "festlicher Kampfschild",
                "description" : "Weil Krieg sich nie ändert..",
                "flavor" : "strahlt noch die Wärme der Schmiede aus"
             }                                       
@@ -493,7 +493,7 @@
          },
          "fhois_hat" : {
             "description": "Die Frostfestmütze der unmöglichen Pracht",
-            "display_name": "'FMDUP' Hat",
+            "display_name": "'FMDUP' Hut",
             "flavor": "Du hast gerade das Internet gewonnen."
          },
          "festive_fighting_shield" : {
@@ -503,7 +503,7 @@
       },
       "critters" : {
          "pig": {
-            "pig_description": "Ein einfaches Essen vakuum",
+            "pig_description": "Ein vakuum für einfaches Essen",
             "pig_display_name": "Ein Schwein"
          }
       },
