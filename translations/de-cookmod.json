@@ -137,58 +137,58 @@
                "flavor"      : "Ein erfrischendes Getränk aus zerquetschten Beeren, Wasser und Honig."
             },
             "honey_glazed_critter_recipe" : {
-               "recipe_name" : "Honey Glazed Roast Critter",
-               "description" : "A Perfectly Honey Roasted Critter.",
-               "flavor"      : "Everything tastes better with Honey, right?"
+               "recipe_name" : "Honig glasiertes, gebratenes Kleintier",
+               "description" : "Ein perfektes honig gebratenes Kleintier.",
+               "flavor"      : "Alles schmeckt mit Honig besser, richtig?"
             },
             "meat_and_potato_pie_recipe" : {
-               "recipe_name" : "Meat And Potato Pie",
-               "description" : "A Pastry Crust with a delicious meat filling.",
-               "flavor"      : "Hearty and Delicious"
+               "recipe_name" : "Fleisch und Kartoffel Paste",
+               "description" : "Eine Pastete mit köstlicher Fleischfüllung.",
+               "flavor"      : "Herzhaft und lecker"
             },
             "meat_pie_recipe" : {
-               "recipe_name" : "Meat Pie",
-               "description" : "A tasty meat pie.",
-               "flavor"      : "A pastry container for the Trappers latest catch"
+               "recipe_name" : "Fleischpastete",
+               "description" : "Eine schmackhafte Fleischpastete.",
+               "flavor"      : "Ein Pastete für des Trappers neusten Fang"
             },
             "pig_feed_recipe" : {
-               "recipe_name" : "Pig Feed",
-               "description" : "If it's edible they'll eat it",
+               "recipe_name" : "Schweinefutter",
+               "description" : "Wenn es essba ist, werden Sie es essen",
                "flavor" : ""
             },
             "sheep_feed_recipe" : {
-               "recipe_name" : "Animal Feed",
-               "description" : "Suitable for Yaks and Sheep",
+               "recipe_name" : "Tierfutter",
+               "description" : "Geeignet für Yaks und Schafe",
                "flavor" : ""
             },            
             "pottage_recipe" : {
-               "recipe_name" : "Pottage",
-               "description" : "A filling dish made from vegetables and grain",
+               "recipe_name" : "Gemüsesuppe",
+               "description" : "Ein füllendes Gericht gemacht aus Gemüse und Getreide",
                "flavor"      : "Filling!"
             },            
             "pumpkin_pie_recipe" : {
-               "recipe_name" : "Pumpkin Pie",
-               "description" : "Pumpkin and Pie. What's not to like?",
-               "flavor"      : "Sweet and Tasty"
+               "recipe_name" : "Kürbiskuchen",
+               "description" : "Kürbis und Kuchen. Was kann man daran nicht mögen?",
+               "flavor"      : "Süß und lecker"
             },
             "pumpkin_soup_recipe" : {
-               "recipe_name" : "Pumpkin Soup",
-               "description" : "A hearty pumpkin soup",
-               "flavor"      : "Sweet and Tasty"
+               "recipe_name" : "Kürbissuppe",
+               "description" : "Ein herzhaftes Kürbissuppe",
+               "flavor"      : "Süß und lecker"
             },            
             "roast_critter_recipe" : {
-               "recipe_name" : "Roast Critter",
-               "description" : "A Perfectly Roasted Critter.",
-               "flavor"      : "Tastes like chicken"
+               "recipe_name" : "gebratenes Kleintier",
+               "description" : "Ein perfekt gebratenes Kleintier.",
+               "flavor"      : "schmeckt wie Hühnchen"
             },
             "roast_ham_recipe" : {
-               "recipe_name" : "Roast Ham",
-               "description" : "A hearty roast",
+               "recipe_name" : "Schinkenbraten",
+               "description" : "Ein herzhafter Braten",
                "flavor" : ""
             },
             "roast_beef_recipe" : {
-               "recipe_name" : "Roast Beef",
-               "description" : "A hearty roast",
+               "recipe_name" : "Roastbeef",
+               "description" : "Ein herzhafter Braten",
                "flavor" : ""
             }
          }
@@ -196,8 +196,8 @@
       "mason": {
          "recipes" : {
             "well_recipe" : {
-               "recipe_name" : "Stone Well",
-               "description" : "A Source of clean water.",
+               "recipe_name" : "Steinbrunn",
+               "description" : "Eine Quelle sauberen Wassers.",
                "flavor"      : "Jessica McClure Beware!"
             }
          }
@@ -205,9 +205,9 @@
       "weaver": {
          "recipes" : {
             "cook_outfit_2_recipe" : {
-               "recipe_name" : "Fancy Cook Outfit",
-               "description" : "A Fancy Outfit for a Fancy Cook!",
-               "flavor"      : "It's Fancy!"
+               "recipe_name" : "Modischer Koch Outfit",
+               "description" : "Ein modisches Outfit für einen modischen Koch!",
+               "flavor"      : "Es ist MODISCH!"
             }
          }
       }
@@ -216,103 +216,103 @@
       "construction": {
          "apiary" : {
             "apiary" : {
-               "description"  : "Provides Honey",
-               "display_name" : "Apiary"
+               "description"  : "Ermöglicht Honig",
+               "display_name" : "Bienenhaus"
             },
             "apiary_ghost" : {
-               "description"  : "Provides Honey",
-               "display_name" : "Apiary"
+               "description"  : "Ermöglicht Honig",
+               "display_name" : "Bienenhaus"
             }            
          },
          "well" : {
             "well" : {
-               "description"  : "A source of clean water",
-               "display_name" : "Stone Well"
+               "description"  : "Eine Quelle sauberen Wassers",
+               "display_name" : "Steinbrunnen"
             },
             "well_ghost" : {
-               "description"  : "A source of clean water",
-               "display_name" : "Stone Well"
+               "description"  : "Eine Quelle sauberen Wassers",
+               "display_name" : "Steinbrunnen"
             }            
          }
       },
       "critters" : {
          "pig": {
-            "description" : "A low maintenance food vacuum",
-            "display_name": "A Pig"
+            "description" : "Ein vakuum für einfaches Essen",
+            "display_name": "Ein Schwein"
          },
          "bees": {
-            "tree_description"   : "It seems to be buzzing....",
-            "tree_display_name"  : "A Strange Tree",
-            "hive_description"   : "Handle with care!",
-            "hive_display_name"  : "A Large Beehive",            
-            "queen_description"  : "♫ She's Your Queeeeeeen to beeeeeee! ♫",
-            "queen_display_name" : "Sedated Queen Bee"
+            "tree_description"   : "Es scheint zu summen....",
+            "tree_display_name"  : "Eine seltsamer Baum",
+            "hive_description"   : "Mit Vorsicht behandeln!",
+            "hive_display_name"  : "Ein großer Bienenstock",            
+            "queen_description"  : "♫ Sie ist eure Bienenkönigin! ♫",
+            "queen_display_name" : "betäubte Bienenkönigin"
          },         
          "yak": {
-            "description" : "Slow and Stinky",
-            "display_name": "A Yak"
+            "description" : "Langsam und stinkend",
+            "display_name": "Ein Yak"
          }
       },
       "decoration" : {
          "wind_sail": {
-            "description" : "♫ You spin me right round baby right round..♫",
-            "display_name": "Wind Sail"
+            "description" : "♫ Du lässt mich durchdrehen Baby durchdrehen..♫",
+            "display_name": "Windsegel"
          },        
          "cook_sign": {
-            "description" : "A sign with the mark of the Cook, to be placed on buildings.",
-            "display_name": "Cook's Wall-Mounted Sign"
+            "description" : "Ein Schild mit dem Zeichen des Koches, zum anbringen an Gebäuden.",
+            "display_name": "Wandgebundenes Koch-Schild"
          }
       },      
       "food": {
          "honey_vat": {
             "honey_vat" : {
-               "display_name" : "Honey Vat",
-               "description"  : "A Vat of Delicious Honey",
+               "display_name" : "Honigbottich",
+               "description"  : "Ein Bottich mit köstlichem Honig",
                "flavor"       : "Yummy!"
             },
             "honey_vat_serving" : {
-               "display_name" : "Cup of Honey",
-               "description"  : "A cup of Delicious Honey"
+               "display_name" : "Eine Tasse Honig",
+               "description"  : "Ein Becher mit köstlichem Honig"
             }
          },
          "water": {
             "water": {
-               "display_name" : "Water Bucket",
-               "description"  : "Contains Dihydrogen Monoxide",
-               "flavor"       : "Refreshing!"
+               "display_name" : "Wassereimer",
+               "description"  : "Enthält Dihydrogenmonoxid",
+               "flavor"       : "Erfischend!"
             },
             "water_serving": {
-               "display_name" : "Cup of Water",
-               "description"  : "Contains Dihydrogen Monoxide"
+               "display_name" : "Eine Tasse Wasser",
+               "description"  : "Enthält Dihydrogenmonoxid"
             }           
          },
          "milk": {
             "milk": {
-               "display_name" : "Milk Vat",
-               "description"  : "No added preservatives",
-               "flavor"       : "Refreshing!"
+               "display_name" : "Milchbottich",
+               "description"  : "Keine Konservierungsstoffe",
+               "flavor"       : "Erfrischend!"
             },
             "milk_serving": {
-               "display_name" : "Cup of Milk",
-               "description"  : "Refreshing"
+               "display_name" : "Ein Becher Milch",
+               "description"  : "Erfrischend"
             }           
          },                   
          "berry_juice" : {
             "berry_juice" : {
-               "display_name" : "Berry Juice",
-               "description"  : "Delicious Berry Juice.",
-               "flavor"       : "A Refreshing drink made from mushed up berries and water."
+               "display_name" : "Beerensaft",
+               "description"  : "Köstlicher Beerensaft.",
+               "flavor"       : "Ein erfrischendes Getränk aus zerquetschen Beeren und Wasser."
             },
             "berry_juice_serving" : {
-               "display_name" : "A Mug of Berry Juice",
-               "description"  : "Delicious Berry Juice."
+               "display_name" : "Ein Becher Beerensaft",
+               "description"  : "Köstlicher Beerensaft."
             }            
          },
          "boiled_rice" : {
             "boiled_rice" : {
-               "display_name" : "Boiled Rice",
-               "description"  : "Basic source of sustenance",
-               "flavor"       : "A Simple dish of rice and water"
+               "display_name" : "gekochter Reis",
+               "description"  : "Grundnahrungsquelle",
+               "flavor"       : "Ein einfaches Gericht aus Reis und Wasser"
             },
             "boiled_rice_serving" : {
                "display_name" : "A Bowl of Boiled Rice",
