@@ -505,88 +505,88 @@
          },
          "roast_beef" : {
             "roast_beef" : {
-               "display_name" : "Roast Beef",
-               "description"  : "A hearty roast",
+               "display_name" : "Roastbeef",
+               "description"  : "Ein herzhafter Braten",
                "flavor"       : ""
             },
             "roast_beef_serving" : {
-               "display_name" : "A Portion of Roast Beef",
-               "description"  : "A hearty roast"
+               "display_name" : "Eine Portion des Roastbeef",
+               "description"  : "Ein herzhafter Braten"
             }
          }                
       },
       "plants": {
          "potato": {
             "potato_basket": {
-               "display_name": "Basket of Potatos",
-               "description": "Ready for cooking"
+               "display_name": "Korb mit Kartoffeln",
+               "description": "Bereit zum kochen"
             },
             "potato_serving": {
-               "display_name": "A Portion of Potatos",
-               "description": "Tastes like feet"
+               "display_name": "Eine Portion Kartoffeln",
+               "description": "Schmeckt wie Füße"
             }
          },
          "rice": {
             "rice_basket": {
-               "display_name": "A Sack of Rice",
-               "description": "Ready for cooking"
+               "display_name": "Ein Sack Reis",
+               "description": "Bereit zum kochen"
             }
          }  
       },             
       "crops": {
          "potato_crop": {
-            "display_name": "Potato",
-            "description": "What's taytos precious?",
+            "display_name": "Kartoffel",
+            "description": "Was macht Pringels köstlich?",
             "growth_stage": {
                "004": {
-                  "name": "Ripe Potato",
-                  "description": "Ready for harvest!"
+                  "name": "reife Kartoffel",
+                  "description": "Bereit zum ernten!"
                },
                "001": {
-                  "name": "Potato Seedling",
-                  "description": "Not ready for harvest"
+                  "name": "Kartoffel Setzling",
+                  "description": "Noch nicht bereit zum ernten"
                },
                "002": {
-                  "name": "Potato Sprout",
-                  "description": "Not ready for harvest"
+                  "name": "Kartoffel Sprössling",
+                  "description": "Noch nicht bereit zum ernten"
                },
                "003": {
-                  "name": "Baby Potato",
-                  "description": "Not ready for harvest"
+                  "name": "Baby Kartoffel",
+                  "description": "Noch nicht bereit zum ernten"
                },
                "007": {
-                  "name": "Rotten Potato",
-                  "description": "It's dead."
+                  "name": "verfaulte Kartoffel",
+                  "description": "Es ist tot."
                }
             }
          },
          "rice_crop": {
-            "display_name": "Rice",
-            "description": "Simple staple food",
+            "display_name": "Reis",
+            "description": "Einfaches Grundnahrungsmittel",
             "growth_stage": {
                "005": {
-                  "name": "Ripe Rice",
-                  "description": "Ready for harvest!"
+                  "name": "reifer Reis",
+                  "description": "Bereit zum ernten!"
                },
                "001": {
-                  "name": "Rice Plant",
-                  "description": "Not ready for harvest"
+                  "name": "Reis Setzling",
+                  "description": "Noch nicht bereit zum ernten"
                },
                "002": {
-                  "name": "Rice Plant",
-                  "description": "Not ready for harvest"
+                  "name": "Reis Sprössling",
+                  "description": "Noch nicht bereit zum ernten"
                },
                "003": {
-                  "name": "Rice Plant",
-                  "description": "Not ready for harvest"
+                  "name": "junge Reis Pflanze"",
+                  "description": "Noch nicht bereit zum ernten"
                },
                "004": {
-                  "name": "Rice Plant",
-                  "description": "Ready for harvest"
+                  "name": "Reis Pflanze",
+                  "description": "Bereit zum ernten"
                },               
                "007": {
-                  "name": "Rotten Rice",
-                  "description": "It's dead."
+                  "name": "verfaulter Reis",
+                  "description": "Es ist tot."
                }
             }
          }                         
