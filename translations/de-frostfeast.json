@@ -24,8 +24,8 @@
          },
          "zones_mode": {
             "pasture": {
-               "pig_pen_name": "Schweinestall",
-               "pig_pen_description": "Schweine sind eine große Quelle für leicht zu produzierendes Fleisch"
+               "pig_pen_name": "Wildschweinstall",
+               "pig_pen_description": "Wildschweine sind eine gute Quelle für leicht zu produzierendes Fleisch"
             }
          }   
       },
