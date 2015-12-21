@@ -1,0 +1,595 @@
+{ 
+   "ui": {
+      "game": {
+         "common": {
+            "bye": "Bienenhaus. Check!"
+         },
+         "zones_mode": {
+            "pasture": {
+               "yak_pasture_name": "Yak-Weide",
+               "yak_pasture_description": "Yaks produzieren Milch und Fleisch, zwei wertvolle Kochzutaten.",
+               "pig_pen_name": "Schweinestall",
+               "pig_pen_description": "Schweine können für Fleisch geerntet werden, und graben Trüffel aus."
+            }
+         }
+      },
+      "data": {
+         "constants": {
+            "food_resource_name": "Essen",
+            "queen_bee_resource_name": "Bienenkönigin",
+            "jerky_resource_name": "Dörrfleisch",
+            "water_resource_name": "Wasser"
+         },
+         "gm" : {
+            "campaigns" : {
+               "bees" : {  
+                  "dialog_nodes" : { 
+                     "bulletin_message" : { 
+                        "000" : "Es scheint, dass deine schöne Stadt einen Schwarm Bienen angezogen hat .. Sie scheinen sich in diesem seltsam aussehenden Baum niedergelassen zu haben. Warte mal, ich könnte schwören, dass der Baum vorher nicht da war!", 
+                        "001" : "Vielleicht könnten wir dies zu unserem Vorteil nutzen?", 
+                        "002" : "Ich bin dafür, dass wir den Baum schlagen, um zu sehen was er uns bringt! Was könnte schon schief gehen ?!?", 
+                        "003" : "Oh wow! Das war Glück!", 
+                        "004" : "Aus dem Baum zu fallen scheint Sie betäubt zu haben! Kannst du dir die Folgen vorstellen, wenn sie es nicht wären?", 
+                        "005" : "Lassen uns diese Babys öffnen und die Früchte ernten! Was könnte schon schief gehen?!? (Hinweis: Wählen den Bienenstöcke aus, um sie zu treten!)", 
+                        "006" : "Owwwwiieeeee das tut weh! Ich habe nicht erwartet, dass Sie so gemein sind!!", 
+                        "007" : "Na ja, was sind ein paar Schmerzen und mögliche Anaphylaxie für das größere Wohl!?", 
+                        "008" : "Wow! Du hast Sie wirklich hart getreten .. da ist nicht viel übrig geblieben...", 
+                        "009" : "Schaut mich nicht so an ... Ich werde euch bringen, was ich retten kann. Bis bald!", 
+                        "010" : "Ich habe gerettet was ich von diesem Flaggenmast retten konnte, es ist aber ein echt seltsamer Ort für eine Flagge. Ich meine, schauen es dir an, es ist einfach nur dumm! Wie auch immer, ich schweife ab, Ihr solltet ein Bienenhaus bauen, so dass sich alle diese harte Arbeit auszahlt."
+                     },
+                     "bulletin_title_001" : "Du hörst ein leises Brummen..", 
+                     "bulletin_title_002" : "Das Summen wird lauter..", 
+                     "bulletin_title_003" : "Das Brummen beruhigt sich..",
+                     "bulletin_title_004" : "Ich bin es wieder!",
+                     "dialog_title_001"   : "Ein hilfreicher Dorfbewohner"
+                  }
+               } 
+            }
+         }
+      }
+   },
+   "data": {
+      "buffs": {
+         "well_fed": {
+            "well_fed": {
+               "display_name" : "Gut genährt",
+               "description"  : "Mehr Kalorien erlaubt es, härter zu arbeiten,"
+            }
+         }
+      },
+      "commands": {
+         "harvest_honey": {
+            "display_name" : "Ernte Honig",
+            "description"  : "Ernte Honig",
+            "disabled_description": "Die Bienen sind noch damit beschäftigt!"
+         },
+         "harvest_water": {
+            "display_name" : "Ernte Wasser",
+            "description"  : "Sammele Wasser",
+            "disabled_description": "Der Eimer füllt sich noch!"
+         },
+         "smash_beehive": {
+            "display_name" : "Bienenkorb zertrümmern ",
+            "description"  : "Na Los! Gib Ihm einen Tritt!"
+         }
+      }
+   },
+   "jobs": {
+      "carpenter": {
+         "recipes" : {
+            "apiary_recipe" : {
+               "recipe_name" : "Bienenhaus",
+               "description" : "Ermöglicht das Sammeln von Honig",
+               "flavor" : "goldener Nektar"
+            },
+            "wind_sail_recipe" : {
+               "recipe_name" : "Windsegel",
+               "description" : "Ein einfaches Windsegel",
+               "flavor" : "Es ist sehr windig hier..."
+            },
+            "cook_sign_recipe" : {
+               "recipe_name" : "Wandgebundenes Koch-Schild",
+               "description" : "Ein Schild mit der Markierung des Koches, zum befestigen an Gebäuden.",
+               "flavor" : ""
+            }
+         }
+      },
+      "cook": {
+         "recipes" : {
+            "berry_juice_recipe" : {
+               "recipe_name" : "Beerensaft",
+               "description" : "Köstlicher Beerensaft",
+               "flavor"      : "Ein erfrischendes Getränk hergestellt aus zerquetschten Beeren und Wasser."
+            },
+            "berry_pie_recipe" : {
+               "recipe_name" : "Beerenkuchen",
+               "description" : "Ein köstlicher Beerenkuchen.",
+               "flavor"      : "Eine leichte Kruste gefüllt mit reifen Beeren"
+            },
+            "boiled_rice_recipe" : {
+               "recipe_name" : "gekochter Reis",
+               "description" : "Ein langweiliges, aber füllendes Gericht",
+               "flavor"      : ""
+            },
+            "rice_pudding_recipe" : {
+               "recipe_name" : "Reispudding",
+               "description" : "Ein köstliches Dessert gemacht mit Reis und Milch",
+               "flavor"      : "Reife Beeren geben den letzten Schliff"
+            },                        
+            "cheese_recipe" : {
+               "recipe_name" : "Käse",
+               "description" : "Ein mittel harter Käse.",
+               "flavor"      : "Alles schmeckt besser mit Käsekrümmeln!"
+            },
+            "cake_recipe" : {
+               "recipe_name" : "Kuchen",
+               "description" : "Ein köstlicher Kuchen!",
+               "flavor"      : "Es gibt immer Raum für Kuchen.."
+            },            
+            "grits_recipe" : {
+               "recipe_name" : "Grütze",
+               "description" : "Ein langweiliges auf Mais basierendes Gericht.",
+               "flavor"      : "Bitte Sir, kann ich NICHT mehr haben?!"
+            },
+            "honey_berry_wine_recipe" : {
+               "recipe_name" : "Angereicherter Honig-Beerenwein",
+               "description" : "Köstlicher mit Honig angereicherter Beerenwein.",
+               "flavor"      : "Ein erfrischendes Getränk aus zerquetschten Beeren, Wasser und Honig."
+            },
+            "honey_glazed_critter_recipe" : {
+               "recipe_name" : "Honey Glazed Roast Critter",
+               "description" : "A Perfectly Honey Roasted Critter.",
+               "flavor"      : "Everything tastes better with Honey, right?"
+            },
+            "meat_and_potato_pie_recipe" : {
+               "recipe_name" : "Meat And Potato Pie",
+               "description" : "A Pastry Crust with a delicious meat filling.",
+               "flavor"      : "Hearty and Delicious"
+            },
+            "meat_pie_recipe" : {
+               "recipe_name" : "Meat Pie",
+               "description" : "A tasty meat pie.",
+               "flavor"      : "A pastry container for the Trappers latest catch"
+            },
+            "pig_feed_recipe" : {
+               "recipe_name" : "Pig Feed",
+               "description" : "If it's edible they'll eat it",
+               "flavor" : ""
+            },
+            "sheep_feed_recipe" : {
+               "recipe_name" : "Animal Feed",
+               "description" : "Suitable for Yaks and Sheep",
+               "flavor" : ""
+            },            
+            "pottage_recipe" : {
+               "recipe_name" : "Pottage",
+               "description" : "A filling dish made from vegetables and grain",
+               "flavor"      : "Filling!"
+            },            
+            "pumpkin_pie_recipe" : {
+               "recipe_name" : "Pumpkin Pie",
+               "description" : "Pumpkin and Pie. What's not to like?",
+               "flavor"      : "Sweet and Tasty"
+            },
+            "pumpkin_soup_recipe" : {
+               "recipe_name" : "Pumpkin Soup",
+               "description" : "A hearty pumpkin soup",
+               "flavor"      : "Sweet and Tasty"
+            },            
+            "roast_critter_recipe" : {
+               "recipe_name" : "Roast Critter",
+               "description" : "A Perfectly Roasted Critter.",
+               "flavor"      : "Tastes like chicken"
+            },
+            "roast_ham_recipe" : {
+               "recipe_name" : "Roast Ham",
+               "description" : "A hearty roast",
+               "flavor" : ""
+            },
+            "roast_beef_recipe" : {
+               "recipe_name" : "Roast Beef",
+               "description" : "A hearty roast",
+               "flavor" : ""
+            }
+         }
+      },
+      "mason": {
+         "recipes" : {
+            "well_recipe" : {
+               "recipe_name" : "Stone Well",
+               "description" : "A Source of clean water.",
+               "flavor"      : "Jessica McClure Beware!"
+            }
+         }
+      },
+      "weaver": {
+         "recipes" : {
+            "cook_outfit_2_recipe" : {
+               "recipe_name" : "Fancy Cook Outfit",
+               "description" : "A Fancy Outfit for a Fancy Cook!",
+               "flavor"      : "It's Fancy!"
+            }
+         }
+      }
+   },
+   "entities": {       
+      "construction": {
+         "apiary" : {
+            "apiary" : {
+               "description"  : "Provides Honey",
+               "display_name" : "Apiary"
+            },
+            "apiary_ghost" : {
+               "description"  : "Provides Honey",
+               "display_name" : "Apiary"
+            }            
+         },
+         "well" : {
+            "well" : {
+               "description"  : "A source of clean water",
+               "display_name" : "Stone Well"
+            },
+            "well_ghost" : {
+               "description"  : "A source of clean water",
+               "display_name" : "Stone Well"
+            }            
+         }
+      },
+      "critters" : {
+         "pig": {
+            "description" : "A low maintenance food vacuum",
+            "display_name": "A Pig"
+         },
+         "bees": {
+            "tree_description"   : "It seems to be buzzing....",
+            "tree_display_name"  : "A Strange Tree",
+            "hive_description"   : "Handle with care!",
+            "hive_display_name"  : "A Large Beehive",            
+            "queen_description"  : "♫ She's Your Queeeeeeen to beeeeeee! ♫",
+            "queen_display_name" : "Sedated Queen Bee"
+         },         
+         "yak": {
+            "description" : "Slow and Stinky",
+            "display_name": "A Yak"
+         }
+      },
+      "decoration" : {
+         "wind_sail": {
+            "description" : "♫ You spin me right round baby right round..♫",
+            "display_name": "Wind Sail"
+         },        
+         "cook_sign": {
+            "description" : "A sign with the mark of the Cook, to be placed on buildings.",
+            "display_name": "Cook's Wall-Mounted Sign"
+         }
+      },      
+      "food": {
+         "honey_vat": {
+            "honey_vat" : {
+               "display_name" : "Honey Vat",
+               "description"  : "A Vat of Delicious Honey",
+               "flavor"       : "Yummy!"
+            },
+            "honey_vat_serving" : {
+               "display_name" : "Cup of Honey",
+               "description"  : "A cup of Delicious Honey"
+            }
+         },
+         "water": {
+            "water": {
+               "display_name" : "Water Bucket",
+               "description"  : "Contains Dihydrogen Monoxide",
+               "flavor"       : "Refreshing!"
+            },
+            "water_serving": {
+               "display_name" : "Cup of Water",
+               "description"  : "Contains Dihydrogen Monoxide"
+            }           
+         },
+         "milk": {
+            "milk": {
+               "display_name" : "Milk Vat",
+               "description"  : "No added preservatives",
+               "flavor"       : "Refreshing!"
+            },
+            "milk_serving": {
+               "display_name" : "Cup of Milk",
+               "description"  : "Refreshing"
+            }           
+         },                   
+         "berry_juice" : {
+            "berry_juice" : {
+               "display_name" : "Berry Juice",
+               "description"  : "Delicious Berry Juice.",
+               "flavor"       : "A Refreshing drink made from mushed up berries and water."
+            },
+            "berry_juice_serving" : {
+               "display_name" : "A Mug of Berry Juice",
+               "description"  : "Delicious Berry Juice."
+            }            
+         },
+         "boiled_rice" : {
+            "boiled_rice" : {
+               "display_name" : "Boiled Rice",
+               "description"  : "Basic source of sustenance",
+               "flavor"       : "A Simple dish of rice and water"
+            },
+            "boiled_rice_serving" : {
+               "display_name" : "A Bowl of Boiled Rice",
+               "description"  : "Bland but filling"
+            }            
+         },
+         "cake" : {
+            "cake" : {
+               "display_name" : "Cake",
+               "description"  : "A Delicious Cake",
+               "flavor"       : ""
+            },
+            "cake_serving" : {
+               "display_name" : "A Slice of Cake",
+               "description"  : "Divine"
+            }            
+         },         
+         "rice_pudding" : {
+            "rice_pudding" : {
+               "display_name" : "Rice Pudding",
+               "description"  : "A dessert made from rice and milk",
+               "flavor"       : ""
+            },
+            "rice_pudding_serving" : {
+               "display_name" : "Rice Pudding",
+               "description"  : "Delicious with a dollop of jam"
+            }            
+         },                  
+         "berry_pie" : {
+            "berry_pie" : {
+               "display_name" : "Berry Pie",
+               "description"  : "A Delicious Berry Pie.",
+               "flavor"       : "A light crust filled with ripe berries"
+            },
+            "berry_pie_serving" : {
+               "display_name" : "A Slice of Berry Pie",
+               "description"  : "Sweet and Delicious"
+            }            
+         },
+         "cheese" : {
+            "cheese" : {
+               "display_name" : "Cheese",
+               "description"  : "A medium hard cheese.",
+               "flavor"       : "Everything tastes better with chese Grommit!"
+            },
+            "cheese_serving" : {
+               "display_name" : "A Portion of Cheese",
+               "description"  : "Cheesy"
+            }            
+         },
+         "grits" : {
+            "grits" : {
+               "display_name" : "Grits",
+               "description"  : "A Bland corn based dish.",
+               "flavor"       : "Please Sir, can I have NO more?!"
+            },
+            "grits_serving" : {
+               "display_name" : "Bowl of Grits",
+               "description"  : "A portion of Grits"
+            }
+         },
+         "honey_berry_wine" : {
+            "honey_berry_wine" : {
+               "display_name" : "Fortified Berry Wine",
+               "description"  : "Delicious Honey Fortified Berry Wine.",
+               "flavor"       : "A Refreshing drink made from mushed up berries, water and honey."
+            },
+            "honey_berry_wine_serving" : {
+               "display_name" : "A Mug of Berry Wine",
+               "description"  : "Sweet and Refreshing"
+            }
+         },
+         "honey_glazed_critter" : {
+            "honey_glazed_critter" : {
+               "display_name" : "Glazed Roast Critter",
+               "description"  : "A Perfectly Honey Roasted Critter.",
+               "flavor"       : "Everything tastes better with Honey, right?"
+            },
+            "honey_glazed_critter_serving" : {
+               "display_name" : "A Portion of Glazed Roast Critter",
+               "description"  : "Tastes like chicken."
+            }
+         },
+         "meat_and_potato_pie" : {
+            "meat_and_potato_pie" : {
+               "display_name" : "Meat And Potato Pie",
+               "description"  : "A Pastry Crust with a delicious meat filling.",
+               "flavor"       : "Hearty and Delicious"
+            },
+            "meat_and_potato_pie_serving" : {
+               "display_name" : "A Slice of Meat And Potato Pie",
+               "description"  : "Tasty and filling."
+            }               
+         },
+         "meat_pie" : {
+            "meat_pie" : {
+               "display_name" : "Meat Pie",
+               "description"  : "A tasty meat pie.",
+               "flavor"       : "A pastry container for the Trappers latest catch"
+            },
+            "meat_pie_serving" : {
+               "display_name" : "A Slice of Meat Pie",
+               "description"  : "A tasty meat pie."
+            }
+         },
+         "sheep_feed" : {
+            "sheep_feed" : {
+               "display_name" : "Animal Feed",
+               "description"  : "Suitable for Yaks and Sheep",
+               "flavor"       : ""
+            },
+            "sheep_feed_ground" : {
+               "display_name" : "Animal Feed",
+               "description"  : "Suitable for Yaks and Sheep"
+            }
+         },         
+         "pig_feed" : {
+            "pig_feed" : {
+               "display_name" : "Pig Feed",
+               "description"  : "If it's edible they'll eat it",
+               "flavor"       : ""
+            },
+            "pig_feed_ground" : {
+               "display_name" : "Pig Feed",
+               "description"  : "If it's edible they'll eat it"
+            }
+         },
+         "pig_meat" : {
+            "display_name" : "Pig Meat",
+            "description"  : "Succulent Pork"
+         }, 
+         "yak_meat" : {
+            "display_name" : "Yak Meat",
+            "description"  : "Succulent Beef"
+         },                  
+         "pumpkin_pie" : {
+            "pumpkin_pie" : {
+               "display_name" : "Pumpkin Pie",
+               "description"  : "Best left on the window sill",
+               "flavor"       : "Sweet and Tasty"
+            },
+            "pumpkin_pie_serving" : {
+               "display_name" : "A Slice of Pumpkin Pie",
+               "description"  : "Yummy"
+            }
+         },
+         "pumpkin_soup" : {
+            "pumpkin_soup" : {
+               "display_name" : "Pumpkin Soup",
+               "description"  : "A hearty pumpkin soup",
+               "flavor"       : "Sweet and Tasty"
+            },
+            "pumpkin_soup_serving" : {
+               "display_name" : "A Bowl of Pumpkin Soup",
+               "description"  : "A hearty pumpkin soup"
+            }
+         },
+         "pottage" : {
+            "pottage" : {
+               "display_name" : "Pottage",
+               "description"  : "A hearty bowl of Pottage",
+               "flavor"       : "Tasty"
+            },
+            "pottage_serving" : {
+               "display_name" : "A Bowl of Pottage",
+               "description"  : "Tasty"
+            }
+         },                     
+         "roast_critter" : {
+            "roast_critter" : {
+               "display_name" : "Roast Critter",
+               "description"  : "A Perfectly Roasted Critter.",
+               "flavor"       : "Tastes like chicken"
+            },
+            "roast_critter_serving" : {
+               "display_name" : "A Portion of Roast Critter",
+               "description"  : "A Perfectly Roasted Critter."
+            }
+         },
+         "roast_ham" : {
+            "roast_ham" : {
+               "display_name" : "Roast Ham",
+               "description"  : "A hearty roast",
+               "flavor"       : ""
+            },
+            "roast_ham_serving" : {
+               "display_name" : "A Portion of Roast Ham",
+               "description"  : "A hearty roast"
+            }
+         },
+         "roast_beef" : {
+            "roast_beef" : {
+               "display_name" : "Roast Beef",
+               "description"  : "A hearty roast",
+               "flavor"       : ""
+            },
+            "roast_beef_serving" : {
+               "display_name" : "A Portion of Roast Beef",
+               "description"  : "A hearty roast"
+            }
+         }                
+      },
+      "plants": {
+         "potato": {
+            "potato_basket": {
+               "display_name": "Basket of Potatos",
+               "description": "Ready for cooking"
+            },
+            "potato_serving": {
+               "display_name": "A Portion of Potatos",
+               "description": "Tastes like feet"
+            }
+         },
+         "rice": {
+            "rice_basket": {
+               "display_name": "A Sack of Rice",
+               "description": "Ready for cooking"
+            }
+         }  
+      },             
+      "crops": {
+         "potato_crop": {
+            "display_name": "Potato",
+            "description": "What's taytos precious?",
+            "growth_stage": {
+               "004": {
+                  "name": "Ripe Potato",
+                  "description": "Ready for harvest!"
+               },
+               "001": {
+                  "name": "Potato Seedling",
+                  "description": "Not ready for harvest"
+               },
+               "002": {
+                  "name": "Potato Sprout",
+                  "description": "Not ready for harvest"
+               },
+               "003": {
+                  "name": "Baby Potato",
+                  "description": "Not ready for harvest"
+               },
+               "007": {
+                  "name": "Rotten Potato",
+                  "description": "It's dead."
+               }
+            }
+         },
+         "rice_crop": {
+            "display_name": "Rice",
+            "description": "Simple staple food",
+            "growth_stage": {
+               "005": {
+                  "name": "Ripe Rice",
+                  "description": "Ready for harvest!"
+               },
+               "001": {
+                  "name": "Rice Plant",
+                  "description": "Not ready for harvest"
+               },
+               "002": {
+                  "name": "Rice Plant",
+                  "description": "Not ready for harvest"
+               },
+               "003": {
+                  "name": "Rice Plant",
+                  "description": "Not ready for harvest"
+               },
+               "004": {
+                  "name": "Rice Plant",
+                  "description": "Ready for harvest"
+               },               
+               "007": {
+                  "name": "Rotten Rice",
+                  "description": "It's dead."
+               }
+            }
+         }                         
+      }
+   }
+}   
