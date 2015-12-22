@@ -19,6 +19,8 @@
       "cookmod/locales/de.json" : "file(translations/de-cookmod.json)",
       "candledark/locales/de-DE.json" : "file(translations/de-candledark.json)",
       "candledark/locales/de.json" : "file(translations/de-candledark.json)",
+      "tmc/locales/de-DE.json" : "file(translations/de-tmc.json)",
+      "tmc/locales/de.json" : "file(translations/de-tmc.json)",
 
 
    	"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.eot" : "file(fonts/de-DE/komika_text.eot)",
