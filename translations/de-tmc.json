@@ -11,7 +11,7 @@
                {
                   "harpy_raid":
                   {
-                     "title" : "Invaders sighted!"
+                     "title" : "Eindringlinge gesichtet!"
                   }
                }
             },
@@ -25,9 +25,9 @@
                      {
                         "msg1":
                         {
-                           "bulletin_title"   : "[name(i18n_data.boss)] is Defeated!",
+                           "bulletin_title"   : "[name(i18n_data.boss)] ist besiegt!",
                            "dialog_title"     : "[name(i18n_data.boss)]",
-                           "bulletin_message" : { "000" : "Can't let... Nature... lose..." }
+                           "bulletin_message" : { "000" : "Kann nicht... Natur... verlieren lassen..." }
                         }
                      }
                   },
@@ -38,31 +38,31 @@
                      {
                         "campfire":
                         {
-                           "display_name" : "Hypnotic Campfire",
-                           "description"  : "But... what makes it green?"
+                           "display_name" : "hypnotisches Lagerfeuer",
+                           "description"  : "Aber... was macht es grün?"
                         },
                         "worker":
                         {
-                           "description" : "All-important hearth maintainer"
+                           "description" : "Alles entscheidende Feuerstellen Betreuer"
                         }
                      },
                      "goblin_tent":
                      {
                         "tent":
                         {
-                           "display_name" : "Guards' Tent",
-                           "description"  : "Guards only; no peeky!"
+                           "display_name" : "Wachen Zelt",
+                           "description"  : "Nur Wachen!"
                         },
                         "cage_guards":
                         {
-                           "description" : "Keeping the prisoners in check"
+                           "description" : "Halten die Gefangenen in Schach"
                         }
                      },
                      "harpy_cages":
                      {
                         "harpy":
                         {
-                           "description" : "Wants to fly again..."
+                           "description" : "Will wieder fliegen..."
                         }
                      }
                   },
@@ -75,15 +75,15 @@
                         {
                            "bulletin":
                            {
-                              "title"   : "Dangerous goblins!",
-                              "message" : "They're out to get you"
+                              "title"   : "gefährliche Goblins!",
+                              "message" : "Sie sind hinter dir her"
                            }
                         },
                         "goblin_raiding_camp":
                         {
                            "boss":
                            {
-                              "description" : "Leader of the mighty goblin squad"
+                              "description" : "Führer der mächtigen Goblintruppe"
                            }
                         },
                         "intro_dialog":
@@ -94,21 +94,21 @@
                               {
                                  "msg1":
                                  {
-                                    "bulletin_title"   : "A panicked dryad seeks assistance",
+                                    "bulletin_title"   : "Ein panische Dryade sucht Unterstützung",
                                     "dialog_title"     : "[name(i18n_data.boss)]",
-                                    "bulletin_message" : { "000" : "Help! Goblins have come to destroy our home!" }
+                                    "bulletin_message" : { "000" : "Hilfe! Goblins sind gekommen, um unsere Heimat zu zerstören!" }
                                  },
                                  "msg2":
                                  {
-                                    "bulletin_title"   : "A panicked dryad seeks assistance",
+                                    "bulletin_title"   : "Ein panische Dryade sucht Unterstützung",
                                     "dialog_title"     : "[name(i18n_data.boss)]",
-                                    "bulletin_message" : { "000" : "We need help as we can't do anything that leaves our home unprotected." }
+                                    "bulletin_message" : { "000" : "Wir brauchen Hilfe! Wir können nichts tun und unser Zuhause ist ungeschützt." }
                                  },
                                  "msg3":
                                  {
-                                    "bulletin_title"   : "A panicked dryad seeks assistance",
+                                    "bulletin_title"   : "Ein panische Dryade sucht Unterstützung",
                                     "dialog_title"     : "[name(i18n_data.boss)]",
-                                    "bulletin_message" : { "000" : "Please help..." }
+                                    "bulletin_message" : { "000" : "Bitte helft..." }
                                  }
                               }
                            }
@@ -121,15 +121,15 @@
                               {
                                  "msg1":
                                  {
-                                    "bulletin_title"   : "A relieved dryad approaches",
+                                    "bulletin_title"   : "Eine erleichterte Dryade erscheint",
                                     "dialog_title"     : "[name(i18n_data.boss)]",
-                                    "bulletin_message" : { "000" : "Thank you so much! Now we don't have to worry about those pesky goblins." }
+                                    "bulletin_message" : { "000" : "Herzlichen Dank!! Jetzt müssen wir uns über die lästigen Goblins keine Sorgen mehr machen." }
                                  },
                                  "msg2":
                                  {
-                                    "bulletin_title"   : "A relieved dryad approaches",
+                                    "bulletin_title"   : "Eine erleichterte Dryade erscheint",
                                     "dialog_title"     : "[name(i18n_data.boss)]",
-                                    "bulletin_message" : { "000" : "Please, take this; you deserve it!" }
+                                    "bulletin_message" : { "000" : "Bitte, nehmet diese; Ihr verdient es!" }
                                  }
                               }
                            }
@@ -141,8 +141,8 @@
                         {
                            "bulletin":
                            {
-                              "title"   : "A harpy has been freed!",
-                              "message" : "The harpy's flying away with joy!"
+                              "title"   : "Eine Harpyie wurde befreit!",
+                              "message" : "Die Harpyie fliegen freudig von dannen!"
                            }
                         },
                         "fail_dialog":
@@ -153,21 +153,21 @@
                               {
                                  "msg1":
                                  {
-                                    "bulletin_title"   : "The dryad expresses her disappointment",
+                                    "bulletin_title"   : "Die Dryade drückt ihre Enttäuschung aus",
                                     "dialog_title"     : "[name(i18n_data.boss)]",
-                                    "bulletin_message" : { "000" : "You didn't save them? Why didn't you save them?" }
+                                    "bulletin_message" : { "000" : "Ihr habt Sie nicht gerettet? Warum habt Ihr Sie nicht gerettet?" }
                                  },
                                  "msg2":
                                  {
-                                    "bulletin_title"   : "The dryad expresses her disappointment",
+                                    "bulletin_title"   : "Die Dryade drückt ihre Enttäuschung aus",
                                     "dialog_title"     : "[name(i18n_data.boss)]",
-                                    "bulletin_message" : { "000" : "Now they're off with those evil goblins, doing who knows what!" }
+                                    "bulletin_message" : { "000" : "Jetzt sind Sie weg mit den bösen Goblins und machen was weiß ich!" }
                                  },
                                  "msg3":
                                  {
-                                    "bulletin_title"   : "The dryad expresses her disappointment",
+                                    "bulletin_title"   : "Die Dryade drückt ihre Enttäuschung aus",
                                     "dialog_title"     : "[name(i18n_data.boss)]",
-                                    "bulletin_message" : { "000" : "I thought you could do better than that..." }
+                                    "bulletin_message" : { "000" : "Ich dachte Ihr könnt besser als das..." }
                                  }
                               }
                            }
@@ -180,21 +180,21 @@
                               {
                                  "msg1":
                                  {
-                                    "bulletin_title"   : "The dryad needs your help!",
+                                    "bulletin_title"   : "Die Dryade braucht eure Hilfe!",
                                     "dialog_title"     : "[name(i18n_data.boss)]",
-                                    "bulletin_message" : { "000" : "The harpies are in Danger!" }
+                                    "bulletin_message" : { "000" : "Die Harpyien sind in Gefahr!" }
                                  },
                                  "msg2":
                                  {
-                                    "bulletin_title"   : "The dryad needs your help!",
+                                    "bulletin_title"   : "Die Dryade braucht eure Hilfe!",
                                     "dialog_title"     : "[name(i18n_data.boss)]",
-                                    "bulletin_message" : { "000" : "Goblins have captured them!" }
+                                    "bulletin_message" : { "000" : "Goblins haben sie gefangen genommen!" }
                                  },
                                  "msg3":
                                  {
-                                    "bulletin_title"   : "The dryad needs your help!",
+                                    "bulletin_title"   : "Die Dryade braucht eure Hilfe!",
                                     "dialog_title"     : "[name(i18n_data.boss)]",
-                                    "bulletin_message" : { "000" : "Could you please help them?" }
+                                    "bulletin_message" : { "000" : "Könnt Ihr Ihnen bitte helfen?" }
                                  }
                               }
                            }
@@ -207,21 +207,21 @@
                               {
                                  "msg1":
                                  {
-                                    "bulletin_title"   : "A relieved dryad approaches",
+                                    "bulletin_title"   : "Eine erleichterte Dryade erscheint",
                                     "dialog_title"     : "[name(i18n_data.boss)]",
-                                    "bulletin_message" : { "000" : "The harpies are safe now, thanks!" }
+                                    "bulletin_message" : { "000" : "Die Harpyien sind jetzt sicher, DANKE!" }
                                  },
                                  "msg2":
                                  {
-                                    "bulletin_title"   : "A relieved dryad approaches",
+                                    "bulletin_title"   : "Eine erleichterte Dryade erscheint",
                                     "dialog_title"     : "[name(i18n_data.boss)]",
-                                    "bulletin_message" : { "000" : "They wanted me to give you this." }
+                                    "bulletin_message" : { "000" : "Sie wollten, dass ich euch diese gebe." }
                                  },
                                  "msg3":
                                  {
-                                    "bulletin_title"   : "A relieved dryad approaches",
+                                    "bulletin_title"   : "Eine erleichterte Dryade erscheint",
                                     "dialog_title"     : "[name(i18n_data.boss)]",
-                                    "bulletin_message" : { "000" : "Harpies are kind of shy, I hope you understand." }
+                                    "bulletin_message" : { "000" : "Harpyien sind irgendwie schüchtern, ich hoffe Ihr versteht das,." }
                                  }
                               }
                            }
@@ -234,8 +234,8 @@
             {
                "gnome_shop":
                {
-                  "title" : "A gnome comes by with wares to trade",
-                  "name"  : "Gnome's Shop"
+                  "title" : "Ein Gnom kommt vorbei mit Waren zum Handeln",
+                  "name"  : "Gnom Geschäft"
                }
             }
          }
@@ -250,8 +250,8 @@
          {
             "harpy":
             {
-               "display_name" : "Harpy",
-               "description"  : "A dangerous and beautiful being of the wind"
+               "display_name" : "Harpyie",
+               "description"  : "Ein gefährliches und schönes Wesen des Windes"
             }
          }
       },
@@ -259,21 +259,21 @@
       {
          "forest_leather_vest":
          {
-            "display_name" : "Forest Leather Vest",
-            "description"  : "Hardened leather with the magic of the forest imbedded into it"
+            "display_name" : "Waldlederweste",
+            "description"  : "Gehärtetes Leder, voll mit der Magie des Waldes"
          }
       },
       "decorations":
       {
          "garden_gnome":
          {
-            "display_name" : "Garden Gnome",
-            "description"  : "Smaller than an actual gnome, if you can believe it"
+            "display_name" : "Gartenzwerge",
+            "description"  : "Kleiner als eine tatsächlicher Gnom, wenn Ihr es glauben könnt,"
          },
          "harpy_cage":
          {
-            "display_name" : "Harpy Cage",
-            "description"  : "It stops its inhabitants from flying away; very inconvenient!"
+            "display_name" : "Harpyienkäfig",
+            "description"  : "Es hält seinen Bewohner vom fliegen ab; sehr unbequem!"
          }
       },
       "forest_myth":
@@ -283,38 +283,38 @@
             "dryad":
             {
                "display_name" : "[str(self.unit_info.custom_name)]",
-               "description"  : "A spirit of the forest",
+               "description"  : "Ein Geist des Waldes",
                "job":
                {
-                  "starting_level_title"       : "Apprentice [str(self.stonehearth:job.curr_job_name)]",
+                  "starting_level_title"       : "Auszubildender [str(self.stonehearth:job.curr_job_name)]",
                   "default_level_title"        : "Level [str(self.stonehearth:job.curr_job_level)] [str(self.stonehearth:job.curr_job_name)]",
-                  "default_level_announcement" : "[name(i18n_data.entity)] has achieved [str(i18n_data.job_name)] Level [str(i18n_data.level_number)]!",
-                  "general_description_desc"   : "Max Health increased!",
-                  "attribute_up_desc"          : "All attributes increased!"
+                  "default_level_announcement" : "[name(i18n_data.entity)] hat [str(i18n_data.job_name)] Level [str(i18n_data.level_number)] erreicht!",
+                  "general_description_desc"   : "Maximale Gesundheit erhöht!",
+                  "attribute_up_desc"          : "Alle Attribute erhöht!"
                }
             },
             "golem":
             {
                "display_name" : "[str(self.unit_info.custom_name)]",
-               "description"  : "The ancient guardians of the dryads"
+               "description"  : "Der uralte Hüter der Dryaden"
             },
             "mandragora":
             {
-               "display_name" : "Mandragora",
-               "description"  : "A rare, dangerous, and mind-numbingly loud plant"
+               "display_name" : "Alraune",
+               "description"  : "Eine seltene, gefährliche und nervtötend laute Pflanze"
             }
          },
          "decorations":
          {
             "ancient_pillar":
             {
-               "display_name" : "Ancient Pillar",
-               "description"  : "A mysterious pillar, its function and origin are unknown"
+               "display_name" : "Antike Säule",
+               "description"  : "Eine geheimnisvolle Säule, seine Funktion und Herkunft sind unbekannt"
             },
             "great_ancient_tree":
             {
-               "display_name" : "Great Ancient Tree",
-               "description"  : "I doubt anyone would be able to say how old this is"
+               "display_name" : "Großer alter Baum",
+               "description"  : "Ich bezweifle, dass irgendjemand in der Lage ist zu sagen, wie alt er ist"
             }
          }
       },
@@ -322,23 +322,23 @@
       {
          "harpy_feather":
          {
-            "display_name" : "Magical Harpy Feather",
-            "description"  : "You feel lighter just by holding it!"
+            "display_name" : "Magische Harpyienfeder",
+            "description"  : "Du fühlst dich leichter, alleine durch das halten!"
          },
          "magical_forest_thread":
          {
-            "display_name" : "Magical Forest Thread",
-            "description"  : "A magical thread containing the power of the forest"
+            "display_name" : "Magischer Waldfaden",
+            "description"  : "Ein magischer Faden, der die Kraft des Waldes enthält"
          },
          "mandrake_leaves":
          {
-            "display_name" : "Mandrake Leaves",
-            "description"  : "Ingredient used in healing medicine or herbal tea"
+            "display_name" : "Alraunenblätter",
+            "description"  : "Diese Zutat wird in Heilmedizin oder Kräutertee verwendet"
          },
          "mandrake_root":
          {
-            "display_name" : "Mandrake Root",
-            "description"  : "Potent ingredient for healing medicine"
+            "display_name" : "Alraunenwurzel",
+            "description"  : "Mächtige Zutat für Heilmedizin"
          }
       },
       "spiders":
@@ -348,17 +348,17 @@
             "arachne":
             {
                "display_name" : "Arachne",
-               "description"  : "The mother of spiders"
+               "description"  : "Die Mutter der Spinnen"
             },
             "minion":
             {
-               "display_name" : "Spider Minion",
-               "description"  : "A child of the queen spider"
+               "display_name" : "Spinnenlakai",
+               "description"  : "Ein Kind der Königinspinne"
             },
             "spider_egg":
             {
-               "display_name" : "Spider Egg",
-               "description"  : "A giant spider egg"
+               "display_name" : "Spinnenei",
+               "description"  : "Ein riesiges Spinnenei"
             }
          }
       },
@@ -366,8 +366,8 @@
       {
          "spider_scythe":
          {
-            "display_name" : "The Giant Scythe",
-            "description"  : "Wielded by Arachne herself!"
+            "display_name" : "Die riesige Sense",
+            "description"  : "Geführt von der Arachne selbst!"
          }
       }
    },
@@ -378,31 +378,31 @@
       {
          "guardian_description":
          {
-            "display_name" : "Guardian",
-            "description"  : "Dedicating its life in protecting something",
-            "requirements" : "A strong mind and something worth protecting",
+            "display_name" : "Wächter",
+            "description"  : "Widmet sein Leben um etwas zu beschützen",
+            "requirements" : "Ein starker Geist und etwas schützenswertes",
             "level_1_data":
             {
-               "perk_000_name"        : "Defense Up 20%",
-               "perk_000_description" : "During its time of receiving the end of a weapon, the guardian has learned how to better defend against such things."
+               "perk_000_name"        : "Verteidigung plus 20%",
+               "perk_000_description" : "Während seiner Zeit das Ende einer Waffe zu spüren, hat der Wächter gelernt wie man sich besser gegen solche Dinge verteidigen kann."
             },
             "level_3_data":
             {
-               "perk_000_name"        : "Damage Up 20%",
-               "perk_000_description" : "The guardian has been diligent with his combat exercises, and as such it has learned how to land blows with better results."
+               "perk_000_name"        : "Schaden plus 20%",
+               "perk_000_description" : "Der Fußsoldat ist jetzt erfahren genug um mit jedem Schlag die optimale Wirkung zu erzielen."
             }
          },
          "guardian_buffs":
          {
             "damage_1_buff":
             {
-               "name"        : "Damage +20%",
-               "description" : "The guardian attacks with increased ferocity"
+               "name"        : "Schaden plus 20%",
+               "description" : "Der Wächter greift mit erhöhter Heftigkeit an"
             },
             "defense_1_buff":
             {
-               "name"        : "Defense +20%",
-               "description" : "The guardian endures blows better"
+               "name"        : "Veteidigung plus 20%",
+               "description" : "Der Wächter erträgt Schläge besserr"
             }
          }
       },
@@ -410,9 +410,9 @@
       {
          "spirit_description":
          {
-            "display_name" : "Spirit",
-            "description"  : "An elemental creature",
-            "requirements" : "It's something one is born for"
+            "display_name" : "Geist",
+            "description"  : "Eine Elementarkreatur",
+            "requirements" : "Es ist etwas, wofür jemand geboren ist."
          }
       },
       "weaver":
@@ -421,9 +421,9 @@
          {
             "forest_leather_vest_recipe":
             {
-               "recipe_name" : "Forest Leather Vest",
-               "description" : "Hardened leather with the magic of the Forest imbedded into it.",
-               "flavor"      : "It even smells like grass!"
+               "recipe_name" : "Waldlederweste",
+               "description" : "Gehärtetes Leder, voll mit der Magie des Waldes.",
+               "flavor"      : "Es riecht sogar wie Gras!"
             }
          }
       }
