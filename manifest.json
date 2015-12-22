@@ -7,6 +7,8 @@
       "stonehearth/locales/supported_languages.json" : "file(added_languages.json)"
    },
    "overrides" : {
+      "candledark/locales/de-DE.json" : "file(translations/de-candledark.json)",
+      "candledark/locales/de.json" : "file(translations/de-candledark.json)",
       "frostfeast/locales/de-DE.json" : "file(translations/de-frostfeast.json)",
       "frostfeast/locales/de.json" : "file(translations/de-frostfeast.json)",
       "stonehearth/locales/de-DE.json": "file(translations/de-DE.json)",
@@ -17,8 +19,6 @@
       "brewerymod/locales/de.json" : "file(translations/de-brewery.json)",
       "cookmod/locales/de-DE.json" : "file(translations/de-cookmod.json)",
       "cookmod/locales/de.json" : "file(translations/de-cookmod.json)",
-      "candledark/locales/de-DE.json" : "file(translations/de-candledark.json)",
-      "candledark/locales/de.json" : "file(translations/de-candledark.json)",
       "tmc/locales/de-DE.json" : "file(translations/de-tmc.json)",
       "tmc/locales/de.json" : "file(translations/de-tmc.json)",
 
