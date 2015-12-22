@@ -325,14 +325,14 @@
       "furniture": {
          "allium_pot": {
             "allium_pot_ghost": {
-               "display_name": "Lauchtopf",
-               "description": "Ein Topf mit Lauch"
+               "display_name": "eingetopfter Allium",
+               "description": "Ein Topf mit Allium"
             }
          },
          "rose_pot": {
             "rose_pot_ghost": {
-               "display_name": "Rosentopf",
-               "description": "Ein Topf mit Rosen."
+               "display_name": "eingetopfte Rose",
+               "description": "Ein Topf mit Rosen"
             }
          }
       },
@@ -690,7 +690,7 @@
       },
       "plants": {
          "allium": {
-            "display_name": "Wilder Lauch",
+            "display_name": "Wilder Allium",
             "description": "Eine sammelbare wilde Pflanze"
          },
          "blueberry": {
