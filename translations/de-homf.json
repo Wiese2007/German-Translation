@@ -1,0 +1,14 @@
+{
+   "ui":
+   {
+      "customize_hearthling":
+      {
+         "title"       : "Passe deinen Hearthling an",
+         "role"        : "Rolle",
+         "body"        : "Körper",
+         "head"        : "Kopf",
+         "eyebrows"    : "Augenbrauen",
+         "facial_hair" : "Gesichtsbehaarung"
+      }
+   }
+}

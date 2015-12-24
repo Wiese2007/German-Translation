@@ -21,6 +21,8 @@
       "cookmod/locales/de.json" : "file(translations/de-cookmod.json)",
       "tmc/locales/de-DE.json" : "file(translations/de-tmc.json)",
       "tmc/locales/de.json" : "file(translations/de-tmc.json)",
+      "homf/locales/de-DE.json" : "file(translations/de-homf.json)",
+      "homf/locales/de.json" : "file(translations/de-homf.json)",
 
 
    	"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.eot" : "file(fonts/de-DE/komika_text.eot)",
