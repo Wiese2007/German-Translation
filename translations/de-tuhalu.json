@@ -75,7 +75,7 @@
 	       "wooden_sign_potion_ghost" :
 	       {
 		    "display_name" : "wandgebundenes Trank-Schild",
-		    "description"  : "Ein Schild mit der Markierung Trank."
+		    "description"  : "Ein Schild mit der Markierung eines Tranks."
 	       }
 	   },
 	   "wooden_sign_soup" :
@@ -83,7 +83,7 @@
 	       "wooden_sign_soup_ghost" :
 	       {
 		    "display_name" : "wandgebundenes Speisesaal-Schild",
-		    "description"  : "Ein Schild mit der Markierung für den Speisesaal."
+		    "description"  : "Ein Schild mit der Markierung des Speisesaals."
 	       }
 	   }
 	},
@@ -93,120 +93,120 @@
 	    {
 	        "gold_plate_column_ghost" :
 		{
-                    "display_name" : "Gold Plate Column",
-                    "description"  : "A gold plated marble column."
+                    "display_name" : "goldene Marmorsäule",
+                    "description"  : "Eine vergoldete Marmorsäule."
 		}
 	    },
 	    "gold_plate_column_half" :
 	    {
 	        "gold_plate_column_half_ghost" :
 		{
-                    "display_name" : "Gold Plate Half Column",
-                    "description"  : "A gold plated marble half column."
+                    "display_name" : "halbe, goldene Marmorsäule",
+                    "description"  : "Eine halbe, vergoldete Marmorsäule."
 		}
 	    },
 	    "golden_throne" :
 	    {
 	        "golden_throne_ghost" :
 		{
-                    "display_name" : "Golden Throne",
-                    "description"  : "For sitting in style."
+                    "display_name" : "goldener Thron",
+                    "description"  : "Zum Sitzen mit Stil."
 		}
 	    },
 	    "marble_column" :
 	    {
 	        "marble_column_ghost" :
 		{
-                    "display_name" : "Marble Column",
-                    "description"  : "An elegant marble column."
+                    "display_name" : "Marmorsäule",
+                    "description"  : "Eine elegante Marmorsäule."
 		}
 	    },
 	    "marble_column_half" :
 	    {
 	        "marble_column_half_ghost" :
 		{
-                    "display_name" : "Marble Half Column",
-                    "description"  : "An elegant marble half column."
+                    "display_name" : "halbe Marmorsäule",
+                    "description"  : "Eine elegante halbe Marmorsäule."
 		}
 	    },
             "messy_bookshelf" :
             {
                 "messy_bookshelf_ghost" : 
                 {
-                    "display_name" : "Messy Bookshelf",
-                    "description"  : "The mark of an overly studious hearthling."
+                    "display_name" : "unordentliches Bücherregal",
+                    "description"  : "Das Zeichen eines übermäßig neugierigen Hearthlings."
                 }
             },
             "picnic_bench" :
             {
                 "picnic_bench_ghost" : 
                 {
-                    "display_name" : "Picnic Bench",
-                    "description"  : "Outdoor seating for moments of relaxation"
+                    "display_name" : "Picknick-Bank",
+                    "description"  : "Sitzgelegenheiten im Freien für Momente der Entspannung"
                 }
             },
             "picnic_table" :
             {
                 "picnic_table_ghost" : 
                 {
-                    "display_name" : "Picnic Table",
-                    "description"  : "A cloth-covered table for the outdoors."
+                    "display_name" : "Picknicktisch",
+                    "description"  : "Ein mit einem Tuch bedeckter Tisch für den Außenbereich."
                 }
             },
             "picnic_umbrella" :
             {
                 "picnic_umbrella_ghost" : 
                 {
-                    "display_name" : "Picnic Umbrella",
-                    "description"  : "A stylish giver of shade."
+                    "display_name" : "Picknickschirm",
+                    "description"  : "Ein stilvoller Geber von Schatten."
                 }
             },
             "picnic_umbrella_table" :
             {
                 "picnic_umbrella_table_ghost" : 
                 {
-                    "display_name" : "Picnic Umbrella Table",
-                    "description"  : "A cloth-covered table with an umbrella."
+                    "display_name" : "Picknicktisch",
+                    "description"  : "Ein mit einem Tuch bedeckter Tisch mit einem Regenschirm."
                 }
             },
             "stone_column" :
             {
                 "stone_column_ghost" : 
                 {
-                    "display_name" : "Stone Column",
-                    "description"  : "An artful stone column."
+                    "display_name" : "Steinsäule",
+                    "description"  : "Eine kunstvolle Steinsäule."
                 }
             },
             "stone_column_half" :
             {
                 "stone_column_half_ghost" : 
                 {
-                    "display_name" : "Stone Half Column",
-                    "description"  : "Half a stone column."
+                    "display_name" : "halbe Steinsäule",
+                    "description"  : "Eine halbe Steinsäule."
                 }
             },
             "stone_column_square" :
             {
                 "stone_column_square_ghost" : 
                 {
-                    "display_name" : "Square Stone Column",
-                    "description"  : "A solid, square stone column."
+                    "display_name" : "quadratische Steinsäule",
+                    "description"  : "Eine solide, quadratische Steinsäule."
                 }
             },
             "stone_column_square_half" :
             {
                 "stone_column_square_half_ghost" : 
                 {
-                    "display_name" : "Square Stone Half Column",
-                    "description"  : "A solid, square, stone, half column."
+                    "display_name" : "halbe quadratische Steinsäule",
+                    "description"  : "Eine halbe, solide, quadratische Steinsäule."
                 }
             },
             "tidy_bookshelf" :
             {
                 "tidy_bookshelf_ghost" : 
                 {
-                    "display_name" : "Tidy Bookshelf",
-                    "description"  : "A decorative item for the studious hearthling."
+                    "display_name" : "ordentliches Bücherregal",
+                    "description"  : "Ein dekorativer Gegenstand für den neugierigen Hearthling."
                 }
             }
         },
@@ -216,8 +216,8 @@
 	    {
 	        "hunk_of_marble" :
 		{
-		    "display_name" : "Hunk 'o Marble",
-		    "description"  : "A heavy, white rock."
+		    "display_name" : "Marmorbrocken",
+		    "description"  : "Eine schwerer, weißer Brocken."
 		}
 	    }
 	},
@@ -227,8 +227,8 @@
 	    {
 	        "marble_block" :
 		{
-		    "display_name" : "Marble Vein",
-		    "description"  : "Provides marble when mined."
+		    "display_name" : "Marmorader",
+		    "description"  : "Ergibt Marmor, wenn es abgebaut wird."
 		}
 	    }
 	}
@@ -241,8 +241,8 @@
 	    {
 	        "gold_treasure_chest_recipe" :
 		{
-                    "recipe_name" : "Gold Treasure Chest",
-                    "description" : "Probably worth more than anything you put in it.",
+                    "recipe_name" : "goldene Schatztruhe",
+                    "description" : "Wahrscheinlich mehr wert als alles, was man in Sie reintut.",
 		    "flavor"      : ""
 		}
 	    }
@@ -253,80 +253,80 @@
             {
                 "big_barrel_recipe" :
                 {
-                    "recipe_name" : "Big Barrel",
-                    "description" : "Produces two large barrels.",
-		    "flavor"      : "Not the barrel, anything but the barrel..."
+                    "recipe_name" : "großes Fass",
+                    "description" : "Ein kleines Fass kann ja jeder herstellen.",
+		    "flavor"      : "nicht das Fass, alles nur nicht das Fass..."
                 },
                 "messy_bookshelf_recipe" :
                 {
-                    "recipe_name" : "Messy Bookshelf",
-                    "description" : "Creates a decorative bookshelf for the overly studious hearthling.",
+                    "recipe_name" : "unordentliches Bücherregal",
+                    "description" : "Erstellt ein dekoratives Bücherregal für den extrem neugierigen Hearthling.",
 		    "flavor"      : ""
                 },
                 "picnic_bench_recipe" :
                 {
-                    "recipe_name" : "Picnic Bench",
-                    "description" : "Outdoor seating for eating.",
+                    "recipe_name" : "Picknick-Bank",
+                    "description" : "Sitzgelegenheiten im Freien zum Essen.",
 		    "flavor"      : ""
                 },
                 "picnic_table_recipe" :
                 {
-                    "recipe_name" : "Picnic Table",
-                    "description" : "Creates a cloth covered table for the outdoors.",
+                    "recipe_name" : "Picknicktisch",
+                    "description" : "Erstellt einen mit einem Tuch bedeckten Tisch für den Außenbereich.",
 		    "flavor"      : ""
                 },
                 "simple_wooden_chest_recipe" :
                 {
-                    "recipe_name" : "Simple Wooden Chest",
-                    "description" : "It's functional, so it has that going for it. Which is nice.",
+                    "recipe_name" : "einfache Holztruhe",
+                    "description" : "Es ist funktional. Reicht ja auch ;)",
 		    "flavor"      : ""
                 },
                 "tidy_bookshelf_recipe" :
                 {
-                    "recipe_name" : "Tidy Bookshelf",
-                    "description" : "Creates a decorative bookshelf for the studious hearthling",
+                    "recipe_name" : "ordentliches Bücherregal",
+                    "description" : "Erstellt ein dekoratives Bücherregal für den neugierigen Hearthling",
 		    "flavor"      : ""
                 },
                 "wooden_sign_cup_recipe" :
                 {
-                    "recipe_name" : "Wall-Mounted Cup Sign",
-                    "description" : "A sign with the mark of a cup, to be placed on buildings.",
+                    "recipe_name" : "wandgebundenes Bar-Schild",
+                    "description" : "Ein Zeichen mit der Markierung der Bar, das an Gebäuden platziert wird.",
 		    "flavor"      : ""
                 },
                 "wooden_sign_footman_recipe" :
                 {
-                    "recipe_name" : "Footman's Wall-Mounted Sign",
-                    "description" : "A sign with the mark of the footman, to be placed on buildings.",
+                    "recipe_name" : "wandgebundenes Kasenen-Schild",
+                    "description" : "Ein Zeichen mit der Markierung der Kasernen, das an Gebäuden platziert wird.",
 		    "flavor"      : ""
                 },
                 "wooden_sign_hashtag_recipe" :
                 {
-                    "recipe_name" : "Wall-Mounted Hashtag Sign",
-                    "description" : "A sign marked with a hashtag symbol.",
+                    "recipe_name" : "wandgebundenes Hashtag-Schild",
+                    "description" : "Ein Zeichen mit der Markierung Hashtag.",
 		    "flavor"      : ""
                 },
                 "wooden_sign_healer_recipe" :
                 {
-                    "recipe_name" : "Wall-Mounted Healer Sign",
-                    "description" : "A sign marked with a hashtag symbol.",
+                    "recipe_name" : "wandgebundenes Heiler-Schild",
+                    "description" : "Ein Zeichen mit der Markierung des Heilers.",
 		    "flavor"      : ""
                 },
                 "wooden_sign_pick_recipe" :
                 {
-                    "recipe_name" : "Wall-Mounted Pick Sign",
-                    "description" : "A sign with the mark of a pick, to be placed on buildings.",
+                    "recipe_name" : "wandgebundenes Arbeiter-Schild",
+                    "description" : "Ein Zeichen mit der Markierung der Arbeiter, das an Gebäuden platziert wird.",
 		    "flavor"      : ""
                 },
                 "wooden_sign_potion_recipe" :
                 {
-                    "recipe_name" : "Wall-Mounted Potion Sign",
-                    "description" : "A sign with a potion symbol, to be placed on buildings.",
+                    "recipe_name" : "wandgebundenes Trank-Schild",
+                    "description" : "Ein Zeichen mit der Markierung eines Tranks, das an Gebäuden platziert wird.",
 		    "flavor"      : ""
                 },
                 "wooden_sign_soup_recipe" :
                 {
-                    "recipe_name" : "Wall-Mounted Soup Sign",
-                    "description" : "A sign marked with a bowl of soup, to be placed on buildings.",
+                    "recipe_name" : "wandgebundenes Speisesaal-Schild",
+                    "description" : "Ein Zeichen mit der Markierung des Speisesaals, das an Gebäuden platziert wird.",
 		    "flavor"      : ""
                 }
             }
@@ -337,7 +337,7 @@
             {
                 "gold_plate_column_half_recipe" :
                 {
-                    "recipe_name" : "Gold Plate Half Column",
+                    "recipe_name" : "halbe, goldene Marmorsäule",
                     "description" : "An elegant marble half column with gold plating.",
 		    "flavor"      : ""
                 },
