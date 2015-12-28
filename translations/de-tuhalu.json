@@ -1,0 +1,423 @@
+{
+    "entities" : 
+    {
+        "containers" :
+	{
+	    "big_barrel" :
+	    {
+	        "big_barrel_ghost" :
+		{
+		    "display_name" : "Ein großes Fass",
+		    "description"  : "Es ist dekorativ."
+		}
+	    },
+	    "simple_wooden_chest" :
+	    {
+	        "simple_wooden_chest_ghost" :
+		{
+		    "display_name" : "Einfache Holztruhe",
+		    "description"  : "Es ist funktional."
+		}
+	    },
+	    "treasure_chest" :
+	    {
+	        "treasure_chest_ghost" :
+		{
+		    "display_name" : "Schatztruhe",
+		    "description"  : "So glänzend und rot."
+		}
+	    }
+	},
+	"decoration" :
+	{
+	   "wooden_sign_cup" :
+	   {
+	       "wooden_sign_cup_ghost" :
+	       {
+		    "display_name" : "wandgebundenes Bar-Schild",
+		    "description"  : "Ein Schild mit der Markierung für die Bar."
+	       }
+	   },
+	   "wooden_sign_footman" :
+	   {
+	       "wooden_sign_footman_ghost" :
+	       {
+		    "display_name" : "wandgebundenes Kasenen-Schild",
+		    "description"  : "Ein Schild mit der Markierung für die Kasernen."
+	       }
+	   },
+	   "wooden_sign_hashtag" :
+	   {
+	       "wooden_sign_hashtag_ghost" :
+	       {
+		    "display_name" : "wandgebundenes Hashtag-Schild",
+		    "description"  : "Ein Schild mit der Markierung Hashtag."
+	       }
+	   },
+	   "wooden_sign_healer" :
+	   {
+	       "wooden_sign_healer_ghost" :
+	       {
+		    "display_name" : "wandgebundenes Heiler-Schild",
+		    "description"  : "Ein Schild mit der Markierung des Heilers"
+	       }
+	   },
+	   "wooden_sign_pick" :
+	   {
+	       "wooden_sign_pick_ghost" :
+	       {
+		    "display_name" : "wandgebundenes Arbeiter-Schild",
+		    "description"  : "Ein Schild mit der Markierung der Arbeiter."
+	       }
+	   },
+	   "wooden_sign_potion" :
+	   {
+	       "wooden_sign_potion_ghost" :
+	       {
+		    "display_name" : "wandgebundenes Trank-Schild",
+		    "description"  : "Ein Schild mit der Markierung Trank."
+	       }
+	   },
+	   "wooden_sign_soup" :
+	   {
+	       "wooden_sign_soup_ghost" :
+	       {
+		    "display_name" : "wandgebundenes Speisesaal-Schild",
+		    "description"  : "Ein Schild mit der Markierung für den Speisesaal."
+	       }
+	   }
+	},
+        "furniture" :
+        {
+	    "gold_plate_column" :
+	    {
+	        "gold_plate_column_ghost" :
+		{
+                    "display_name" : "Gold Plate Column",
+                    "description"  : "A gold plated marble column."
+		}
+	    },
+	    "gold_plate_column_half" :
+	    {
+	        "gold_plate_column_half_ghost" :
+		{
+                    "display_name" : "Gold Plate Half Column",
+                    "description"  : "A gold plated marble half column."
+		}
+	    },
+	    "golden_throne" :
+	    {
+	        "golden_throne_ghost" :
+		{
+                    "display_name" : "Golden Throne",
+                    "description"  : "For sitting in style."
+		}
+	    },
+	    "marble_column" :
+	    {
+	        "marble_column_ghost" :
+		{
+                    "display_name" : "Marble Column",
+                    "description"  : "An elegant marble column."
+		}
+	    },
+	    "marble_column_half" :
+	    {
+	        "marble_column_half_ghost" :
+		{
+                    "display_name" : "Marble Half Column",
+                    "description"  : "An elegant marble half column."
+		}
+	    },
+            "messy_bookshelf" :
+            {
+                "messy_bookshelf_ghost" : 
+                {
+                    "display_name" : "Messy Bookshelf",
+                    "description"  : "The mark of an overly studious hearthling."
+                }
+            },
+            "picnic_bench" :
+            {
+                "picnic_bench_ghost" : 
+                {
+                    "display_name" : "Picnic Bench",
+                    "description"  : "Outdoor seating for moments of relaxation"
+                }
+            },
+            "picnic_table" :
+            {
+                "picnic_table_ghost" : 
+                {
+                    "display_name" : "Picnic Table",
+                    "description"  : "A cloth-covered table for the outdoors."
+                }
+            },
+            "picnic_umbrella" :
+            {
+                "picnic_umbrella_ghost" : 
+                {
+                    "display_name" : "Picnic Umbrella",
+                    "description"  : "A stylish giver of shade."
+                }
+            },
+            "picnic_umbrella_table" :
+            {
+                "picnic_umbrella_table_ghost" : 
+                {
+                    "display_name" : "Picnic Umbrella Table",
+                    "description"  : "A cloth-covered table with an umbrella."
+                }
+            },
+            "stone_column" :
+            {
+                "stone_column_ghost" : 
+                {
+                    "display_name" : "Stone Column",
+                    "description"  : "An artful stone column."
+                }
+            },
+            "stone_column_half" :
+            {
+                "stone_column_half_ghost" : 
+                {
+                    "display_name" : "Stone Half Column",
+                    "description"  : "Half a stone column."
+                }
+            },
+            "stone_column_square" :
+            {
+                "stone_column_square_ghost" : 
+                {
+                    "display_name" : "Square Stone Column",
+                    "description"  : "A solid, square stone column."
+                }
+            },
+            "stone_column_square_half" :
+            {
+                "stone_column_square_half_ghost" : 
+                {
+                    "display_name" : "Square Stone Half Column",
+                    "description"  : "A solid, square, stone, half column."
+                }
+            },
+            "tidy_bookshelf" :
+            {
+                "tidy_bookshelf_ghost" : 
+                {
+                    "display_name" : "Tidy Bookshelf",
+                    "description"  : "A decorative item for the studious hearthling."
+                }
+            }
+        },
+	"resources" :
+	{
+	    "marble" :
+	    {
+	        "hunk_of_marble" :
+		{
+		    "display_name" : "Hunk 'o Marble",
+		    "description"  : "A heavy, white rock."
+		}
+	    }
+	},
+	"terrain" :
+	{
+	    "ui" :
+	    {
+	        "marble_block" :
+		{
+		    "display_name" : "Marble Vein",
+		    "description"  : "Provides marble when mined."
+		}
+	    }
+	}
+    },
+    "jobs" :
+    {
+        "blacksmith" :
+	{
+	    "recipes" :
+	    {
+	        "gold_treasure_chest_recipe" :
+		{
+                    "recipe_name" : "Gold Treasure Chest",
+                    "description" : "Probably worth more than anything you put in it.",
+		    "flavor"      : ""
+		}
+	    }
+	},
+        "carpenter" :
+        {
+            "recipes" :
+            {
+                "big_barrel_recipe" :
+                {
+                    "recipe_name" : "Big Barrel",
+                    "description" : "Produces two large barrels.",
+		    "flavor"      : "Not the barrel, anything but the barrel..."
+                },
+                "messy_bookshelf_recipe" :
+                {
+                    "recipe_name" : "Messy Bookshelf",
+                    "description" : "Creates a decorative bookshelf for the overly studious hearthling.",
+		    "flavor"      : ""
+                },
+                "picnic_bench_recipe" :
+                {
+                    "recipe_name" : "Picnic Bench",
+                    "description" : "Outdoor seating for eating.",
+		    "flavor"      : ""
+                },
+                "picnic_table_recipe" :
+                {
+                    "recipe_name" : "Picnic Table",
+                    "description" : "Creates a cloth covered table for the outdoors.",
+		    "flavor"      : ""
+                },
+                "simple_wooden_chest_recipe" :
+                {
+                    "recipe_name" : "Simple Wooden Chest",
+                    "description" : "It's functional, so it has that going for it. Which is nice.",
+		    "flavor"      : ""
+                },
+                "tidy_bookshelf_recipe" :
+                {
+                    "recipe_name" : "Tidy Bookshelf",
+                    "description" : "Creates a decorative bookshelf for the studious hearthling",
+		    "flavor"      : ""
+                },
+                "wooden_sign_cup_recipe" :
+                {
+                    "recipe_name" : "Wall-Mounted Cup Sign",
+                    "description" : "A sign with the mark of a cup, to be placed on buildings.",
+		    "flavor"      : ""
+                },
+                "wooden_sign_footman_recipe" :
+                {
+                    "recipe_name" : "Footman's Wall-Mounted Sign",
+                    "description" : "A sign with the mark of the footman, to be placed on buildings.",
+		    "flavor"      : ""
+                },
+                "wooden_sign_hashtag_recipe" :
+                {
+                    "recipe_name" : "Wall-Mounted Hashtag Sign",
+                    "description" : "A sign marked with a hashtag symbol.",
+		    "flavor"      : ""
+                },
+                "wooden_sign_healer_recipe" :
+                {
+                    "recipe_name" : "Wall-Mounted Healer Sign",
+                    "description" : "A sign marked with a hashtag symbol.",
+		    "flavor"      : ""
+                },
+                "wooden_sign_pick_recipe" :
+                {
+                    "recipe_name" : "Wall-Mounted Pick Sign",
+                    "description" : "A sign with the mark of a pick, to be placed on buildings.",
+		    "flavor"      : ""
+                },
+                "wooden_sign_potion_recipe" :
+                {
+                    "recipe_name" : "Wall-Mounted Potion Sign",
+                    "description" : "A sign with a potion symbol, to be placed on buildings.",
+		    "flavor"      : ""
+                },
+                "wooden_sign_soup_recipe" :
+                {
+                    "recipe_name" : "Wall-Mounted Soup Sign",
+                    "description" : "A sign marked with a bowl of soup, to be placed on buildings.",
+		    "flavor"      : ""
+                }
+            }
+        },
+        "mason" :
+        {
+            "recipes" :
+            {
+                "gold_plate_column_half_recipe" :
+                {
+                    "recipe_name" : "Gold Plate Half Column",
+                    "description" : "An elegant marble half column with gold plating.",
+		    "flavor"      : ""
+                },
+                "gold_plate_column_recipe" :
+                {
+                    "recipe_name" : "Gold Plate Column",
+                    "description" : "An elegant marble column with gold plating.",
+		    "flavor"      : ""
+                },
+                "golden_throne_recipe" :
+                {
+                    "recipe_name" : "Golden Throne",
+                    "description" : "A magnificent throne of stone, plated with gold and padded with red leather.",
+		    "flavor"      : ""
+                },
+                "marble_column_half_recipe" :
+                {
+                    "recipe_name" : "Marble Half Column",
+                    "description" : "An elegant stone half column as seen in ancient ruins.",
+		    "flavor"      : ""
+                },
+                "marble_column_recipe" :
+                {
+                    "recipe_name" : "Marble Column",
+                    "description" : "An elegant stone column as seen in ancient ruins.",
+		    "flavor"      : ""
+                },
+                "stone_column_half_recipe" :
+                {
+                    "recipe_name" : "Stone Half Column",
+                    "description" : "Artful stone columns that work well against walls.",
+		    "flavor"      : ""
+                },
+                "stone_column_recipe" :
+                {
+                    "recipe_name" : "Stone Column",
+                    "description" : "Artful stone columns that are also good for holding the sky up.",
+		    "flavor"      : ""
+                },
+                "stone_column_square_half_recipe" :
+                {
+                    "recipe_name" : "Square Stone Half Column",
+                    "description" : "Solid stone half columns in the ancient style.",
+		    "flavor"      : ""
+                },
+                "stone_column_square_recipe" :
+                {
+                    "recipe_name" : "Square Stone Column",
+                    "description" : "Solid stone columns in the ancient style.",
+		    "flavor"      : ""
+                }
+	    }
+	},
+        "weaver" :
+        {
+            "recipes" :
+            {
+                "picnic_umbrella_recipe" :
+                {
+                    "recipe_name" : "Picnic Umbrella",
+                    "description" : "Provides stylish shade.",
+		    "flavor"      : ""
+                },
+                "picnic_umbrella_table_recipe" :
+                {
+                    "recipe_name" : "Picnic Umbrella Table",
+                    "description" : "A cloth covered table with an umbrella.",
+		    "flavor"      : ""
+                }
+	    }
+	}
+    },
+    "ui" :
+    {
+	"data" :
+	{
+	    "constants" :
+	    {
+	        "marble_resource_name" : "Hunk 'o Marble"
+	    }
+	}
+    }
+}

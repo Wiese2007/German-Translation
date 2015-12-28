@@ -23,6 +23,8 @@
       "tmc/locales/de.json" : "file(translations/de-tmc.json)",
       "homf/locales/de-DE.json" : "file(translations/de-homf.json)",
       "homf/locales/de.json" : "file(translations/de-homf.json)",
+      "tuhalu/locales/de-DE.json" : "file(translations/de-tuhalu.json)",
+      "tuhalu/locales/de.json" : "file(translations/de-tuhalu.json)",
 
 
    	"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.eot" : "file(fonts/de-DE/komika_text.eot)",
