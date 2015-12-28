@@ -101,8 +101,8 @@
 	    {
 	        "gold_plate_column_half_ghost" :
 		{
-                    "display_name" : "halbe, goldene Marmorsäule",
-                    "description"  : "Eine halbe, vergoldete Marmorsäule."
+                    "display_name" : "goldene Marmorhalbsäule",
+                    "description"  : "Eine vergoldete Marmorhalbsäule."
 		}
 	    },
 	    "golden_throne" :
@@ -125,8 +125,8 @@
 	    {
 	        "marble_column_half_ghost" :
 		{
-                    "display_name" : "halbe Marmorsäule",
-                    "description"  : "Eine elegante halbe Marmorsäule."
+                    "display_name" : "Marmorhalbsäule",
+                    "description"  : "Eine elegante Marmorhalbsäule."
 		}
 	    },
             "messy_bookshelf" :
@@ -181,8 +181,8 @@
             {
                 "stone_column_half_ghost" : 
                 {
-                    "display_name" : "halbe Steinsäule",
-                    "description"  : "Eine halbe Steinsäule."
+                    "display_name" : "Steinhalbsäule",
+                    "description"  : "Eine Steinhalbsäule."
                 }
             },
             "stone_column_square" :
@@ -197,8 +197,8 @@
             {
                 "stone_column_square_half_ghost" : 
                 {
-                    "display_name" : "halbe quadratische Steinsäule",
-                    "description"  : "Eine halbe, solide, quadratische Steinsäule."
+                    "display_name" : "quadratische Steinhalbsäule",
+                    "description"  : "Eine solide, quadratische Steinhalbsäule."
                 }
             },
             "tidy_bookshelf" :
@@ -337,56 +337,56 @@
             {
                 "gold_plate_column_half_recipe" :
                 {
-                    "recipe_name" : "halbe, goldene Marmorsäule",
-                    "description" : "An elegant marble half column with gold plating.",
+                    "recipe_name" : "goldene Marmorhalbsäule",
+                    "description" : "Eine elegante Marmorhalbsäule mit Vergoldung.",
 		    "flavor"      : ""
                 },
                 "gold_plate_column_recipe" :
                 {
-                    "recipe_name" : "Gold Plate Column",
-                    "description" : "An elegant marble column with gold plating.",
+                    "recipe_name" : "goldene Marmorsäule",
+                    "description" : "Eine elegante Marmorsäule mit Vergoldung.",
 		    "flavor"      : ""
                 },
                 "golden_throne_recipe" :
                 {
-                    "recipe_name" : "Golden Throne",
-                    "description" : "A magnificent throne of stone, plated with gold and padded with red leather.",
+                    "recipe_name" : "goldener Thron",
+                    "description" : "Eine prächtige Thron aus Stein, mit Gold vergoldet und mit rotem Leder gepolstert.",
 		    "flavor"      : ""
                 },
                 "marble_column_half_recipe" :
                 {
-                    "recipe_name" : "Marble Half Column",
-                    "description" : "An elegant stone half column as seen in ancient ruins.",
+                    "recipe_name" : "Marmorhalbsäule",
+                    "description" : "Eine elegante Marmorhalbsäule, wie in alten Ruinen zu sehen.",
 		    "flavor"      : ""
                 },
                 "marble_column_recipe" :
                 {
-                    "recipe_name" : "Marble Column",
-                    "description" : "An elegant stone column as seen in ancient ruins.",
+                    "recipe_name" : "Marmorsäule",
+                    "description" : "Eine elegante Marmorsäule, wie in alten Ruinen zu sehen.",
 		    "flavor"      : ""
                 },
                 "stone_column_half_recipe" :
                 {
-                    "recipe_name" : "Stone Half Column",
-                    "description" : "Artful stone columns that work well against walls.",
+                    "recipe_name" : "Steinhalbsäule",
+                    "description" : "Kunstvolle Steinhalbsäule, die Wände gut abstützt.",
 		    "flavor"      : ""
                 },
                 "stone_column_recipe" :
                 {
-                    "recipe_name" : "Stone Column",
-                    "description" : "Artful stone columns that are also good for holding the sky up.",
+                    "recipe_name" : "Steinsäule",
+                    "description" : "Kunstvolle Steinsäule, die auch gut den Himmel hält.",
 		    "flavor"      : ""
                 },
                 "stone_column_square_half_recipe" :
                 {
-                    "recipe_name" : "Square Stone Half Column",
-                    "description" : "Solid stone half columns in the ancient style.",
+                    "recipe_name" : "quadratische Steinhalbsäule",
+                    "description" : "Solide, quadratische Steinhalbsäule im alten Stil.",
 		    "flavor"      : ""
                 },
                 "stone_column_square_recipe" :
                 {
-                    "recipe_name" : "Square Stone Column",
-                    "description" : "Solid stone columns in the ancient style.",
+                    "recipe_name" : "quadratische Steinsäule",
+                    "description" : "Solide, quadratische Steinhalbsäulen im alten Stil.",
 		    "flavor"      : ""
                 }
 	    }
@@ -397,14 +397,14 @@
             {
                 "picnic_umbrella_recipe" :
                 {
-                    "recipe_name" : "Picnic Umbrella",
-                    "description" : "Provides stylish shade.",
+                    "recipe_name" : "Picknickschirm",
+                    "description" : "gibt stilvollen Schatten.",
 		    "flavor"      : ""
                 },
                 "picnic_umbrella_table_recipe" :
                 {
-                    "recipe_name" : "Picnic Umbrella Table",
-                    "description" : "A cloth covered table with an umbrella.",
+                    "recipe_name" : "Picknicktisch",
+                    "description" : "Ein mit einem Tuch bedeckte Tisch mit einem Regenschirm.",
 		    "flavor"      : ""
                 }
 	    }
@@ -416,7 +416,7 @@
 	{
 	    "constants" :
 	    {
-	        "marble_resource_name" : "Hunk 'o Marble"
+	        "marble_resource_name" : "Marmorbrocken"
 	    }
 	}
     }
