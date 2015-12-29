@@ -661,9 +661,9 @@
 					"description": "Lecker."
 				}
 			},
-			"vodka": {
+			"watermelon_twist": {
 				"watermelon_twist": {
-					"display_name": "Wassermelonen Slushi",
+					"display_name": "Wassermelonen Twister",
 					"description": "Raffiniert!"
 				},
 				"watermelon_twist_serving": {
@@ -775,6 +775,16 @@
 					"recipe_name": "Karottensaft",
 					"flavor": "Ein erfrischendes Getränk aus pürierte Karotten und Wasser hergestellt."
 				},
+				"blueberry_wine_recipe": {
+					"description": "Leckerer Schokoladenmilchshake",
+					"recipe_name": "Schokoladenmilchshake",
+					"flavor": "Ein dicker und cremiger Milchshake aus Kakaopulver und Milch."
+				},
+				"blueberry_milkshake_recipe": {
+					"description": "Leckerer Schokoladenmilchshake",
+					"recipe_name": "Schokoladenmilchshake",
+					"flavor": "Ein dicker und cremiger Milchshake aus Kakaopulver und Milch."
+				},				
 				"chocolate_milkshake_recipe": {
 					"description": "Leckerer Schokoladenmilchshake",
 					"recipe_name": "Schokoladenmilchshake",
@@ -882,7 +892,7 @@
 				},
 				"watermelon_twist_recipe": {
 					"description": "Ein raffinierter Cocktail voll mit Pfiff!",
-					"recipe_name": "Wassermelonen Slushi",
+					"recipe_name": "Wassermelonen Twister",
 					"flavor": "Einen erfrischenden Cocktail hergestellt aus bis pürierten Wassermelonen, Erdbeeren und Vodka."
 				},
 				"yeast_recipe": {
@@ -895,12 +905,12 @@
 					"recipe_name": "Apfelkuchen",
 					"flavor": "Ein erfrischender Kuchen hergestellt aus pürierten Äpfel, Mehl, Hefe und Wasser."
 				},
-				"sweet": "Süß",
-				"Beverages": "Getränke",
-				"meads": "Met",
-				"wines": "Weine",
-				"Milkshakes": "Milchshakes",
-				"other_drinks": "andere Getränke"
+				"sweet_name": "Süß",
+				"beverages_name": "Getränke",
+				"meads_name": "Met",
+				"wines_name": "Weine",
+				"milkshakes_name": "Milchshakes",
+				"other_drinks_name": "andere Getränke"
 			}
 		}
 	}
