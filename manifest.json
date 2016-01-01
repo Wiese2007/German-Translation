@@ -25,6 +25,10 @@
       "homf/locales/de.json" : "file(translations/de-homf.json)",
       "tuhalu/locales/de-DE.json" : "file(translations/de-tuhalu.json)",
       "tuhalu/locales/de.json" : "file(translations/de-tuhalu.json)",
+      "furniture_expansion_plus/locales/de-DE.json" : "file(translations/de-furniture.json)",
+      "furniture_expansion_plus/locales/de.json" : "file(translations/de-furniture.json)",
+      "endpieces/locales/de-DE.json" : "file(translations/de-endpieces.json)",
+      "endpieces/locales/de.json" : "file(translations/de-endpieces.json)",
 
 
    	"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.eot" : "file(fonts/de-DE/komika_text.eot)",

@@ -1625,7 +1625,7 @@
             "description": " Eine sammelbare wilde Blume"
          },
          "strawberry": {
-            "display_name": "Walderdbeeren",
+            "display_name": "Wilde Erdbeeren",
             "description": " Sammelbare wilde Erdbeeren"
          }
       },
@@ -1680,7 +1680,7 @@
          },
          "recipes": {
             "carrot_juice_recipe": {
-               "description": "Leckerer nahrhafter Karottensaft.",
+               "description": "Leckerer nahrhafter Karottensaft",
                "recipe_name": "Karottensaft",
                "flavor": "Ein erfrischendes Getränk aus pürierte Karotten und Wasser hergestellt."
             },
@@ -1705,8 +1705,8 @@
                "flavor": "mmmm...Schokokalde"
             },
             "corn_mead_recipe": {
-               "description": "Leckerer Mais Met.",
-               "recipe_name": "Mais Met.",
+               "description": "Leckerer Mais Met",
+               "recipe_name": "Mais Met",
                "flavor": "Ein erfrischendes Getränk hergestellt aus fermentierter Hefe, Mais, Honig und Wasser."
             },
             "distiller_recipe": {
@@ -1715,22 +1715,22 @@
                "flavor": " *hicks* "
             },
             "fortified_pine_wine_recipe": {
-               "description": "Eine interessante Brantwein.",
+               "description": "Eine interessante Brantwein",
                "recipe_name": "Kräftiger Kiefer-Wein",
                "flavor": "Ein Getränk, das aus einem Stück Kiefernholz extrahiert und mit Honig und Wasser destilliert wurde."
             },
             "fortified_wine_recipe": {
-               "description": "Ein angenehmer Dessertwein.",
+               "description": "Ein angenehmer Dessertwein",
                "recipe_name": "Kräftiger Wein",
                "flavor": "Ein Wein aus Trauben und Wasser hergestellt."
             },
             "frost_berry_wine_recipe": {
-               "description": "Ein kühler Beeren Wein.",
+               "description": "Ein kühler Beeren Wein",
                "recipe_name": "Frostbeeren Wein",
                "flavor": "Ein erfrischend kühles Getränk aus pürierten Beeren, Eisblumen und Wasser."
             },
             "golden_mead_recipe": {
-               "description": "Ein exquisiter Met.",
+               "description": "Ein exquisiter Met",
                "recipe_name": "Goldener Met",
                "flavor": "Ein herrlicher Met aus fermentierter Hefe, Wasser und Honig, gesprenkelt mit echtem Gold gemacht."
             },
@@ -1740,37 +1740,37 @@
                "flavor": "Ein wärmendes Getränk aus Kakaopulver, Zucker und Milch."
             },
             "huckle_my_buff_recipe": {
-               "description": "Ein interessanter Cocktail.",
+               "description": "Ein interessanter Cocktail",
                "recipe_name": "Huckle My Buff",
                "flavor": "Ein Getränk, das aus Ei, Honigwein hergestellt und mit Zucker und Wasser destilliert wird."
             },
             "mead_recipe": {
-               "description": "Köstlicher Honig-Met.",
+               "description": "Köstlicher Honig-Met",
                "recipe_name": "Met",
                "flavor": "Ein erfrischendes Getränk aus fermentierter Hefe, Wasser und Honig."
             },
             "pumpkin_spice_mead_recipe": {
-               "description": "Herzerwärmende Gewürz-Kürbis Met.",
+               "description": "Herzerwärmende Gewürz-Kürbis Met",
                "recipe_name": "Gewürz-Kürbis Met",
                "flavor": "Ein wärmendes Getränk aus fermentierter Hefe, Kürbis, Wasser und Honig"
             },
             "rice_wine_recipe": {
-               "description": "Ein wohlschmeckender Reiswein.",
+               "description": "Ein wohlschmeckender Reiswein",
                "recipe_name": "Reiswein",
                "flavor": "Ein Wein hergestellt aus fermentiertem Reis und Wasser."
             },
             "strawberry_mead_recipe": {
-               "description": "Köstlicher Erdbeer Met.",
-               "recipe_name": "Erdbeer Met.",
+               "description": "Köstlicher Erdbeer Met",
+               "recipe_name": "Erdbeer Met",
                "flavor": "Ein leckerer Met aus fermentierter Hefe, Wasser, Honig und Erdbeeren."
             },
             "strawberry_milkshake_recipe": {
-               "description": "Köstlicher Erdbeermilchshake.",
+               "description": "Köstlicher Erdbeermilchshake",
                "recipe_name": "Erdbeermilchshake",
                "flavor": "Ein dicker und cremiger Milchshake aus pürierten Erdbeeren und Milch."
             },
             "strawberry_wine_recipe": {
-               "description": "Ein süßer Erdbeerwein.",
+               "description": "Ein süßer Erdbeerwein",
                "recipe_name": "Erdbeerwein",
                "flavor": "Ein super-süßer Wein hergestellt aus fermentierten Erdbeeren, Zucker und Wasser."
             },
@@ -1780,7 +1780,7 @@
                "flavor": " hmmmm... süß"
             },
             "tomato_juice_recipe": {
-               "description": "Köstlicher nahrhafter Tomatensaft.",
+               "description": "Köstlicher nahrhafter Tomatensaft",
                "recipe_name": "Tomatensaft",
                "flavor": "Ein erfrischendes Getränk hergestellt aus pürierten Tomaten, Zucker und Wasser."
             },
@@ -1790,7 +1790,7 @@
                "flavor": "Eine ziemlich Grobes, aber gesundes Getränk hergestellt aus Rübenpüree und Wasser."
             },
             "veggie_delight_smoothie_recipe": {
-               "description": "Ein nahrhafter Smoothie.",
+               "description": "Ein nahrhafter Smoothie",
                "recipe_name": "entzückender Gemüse Smoothie",
                "flavor": "Ein köstliches Getränk hergestellt aus pürierte Karotten, Rüben, Kürbisse, Zucker und Wasser."
             },
