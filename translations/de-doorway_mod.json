@@ -1,0 +1,48 @@
+{
+   "jobs": {
+      "carpenter": {
+         "recipes": {
+            "wood_doorway_recipe": {
+               "recipe_name": "Türöffnung",
+               "description": "Eine offene Tür",
+               "flavor": "Wohin ist die Tür gegangen?"
+            },
+            "wood_double_doorway_recipe": {
+               "recipe_name": "Doppeltüröffnung",
+               "description": "Eine große offene Tür",
+               "flavor": "Where'd the door go?"
+            }
+         }
+      },
+      "mason": {
+         "recipes": {
+            "stone_doorway_recipe": {
+               "recipe_name": "Stein Türöffung",
+               "description": "Ein offener Steintürdurchgang",
+               "flavor": "Wohin ist die Tür gegangen?"
+            },
+            "stone_double_doorway_recipe": {
+               "recipe_name": "Stein Doppeltüröffnung",
+               "description": "Eine große offene Tür",
+               "flavor": "Wohin ist die Tür gegangen?"
+            }
+         }
+      }
+   },
+   "entities": {
+      "construction": {
+         "wood_doorway": {
+            "wood_doorway_ghost": {
+               "description": "Eine offene Tür",
+               "display_name": "Türöffnung"
+            }
+         },
+         "wood_double_doorway": {
+            "wood_double_doorway_ghost": {
+               "description": "Eine große offene Tür",
+               "display_name": "Doppeltüröffnung"
+            }
+         }
+      }
+   }
+}

@@ -29,6 +29,8 @@
       "furniture_expansion_plus/locales/de.json" : "file(translations/de-furniture.json)",
       "endpieces/locales/de-DE.json" : "file(translations/de-endpieces.json)",
       "endpieces/locales/de.json" : "file(translations/de-endpieces.json)",
+      "jomaxro_doorway_mod/locales/de-DE.json" : "file(translations/de-doorway_mod.json)",
+      "jomaxro_doorway_mod/locales/de.json" : "file(translations/de-doorway_mod.json)",
 
 
    	"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.eot" : "file(fonts/de-DE/komika_text.eot)",
