@@ -1,115 +1,115 @@
 {
 	"recipes": {
 		"fence_cpiece_recipe": {
-			"recipe_name": "Corner Piece",
-			"description": "Where bad Earthlings are sent.",
+			"recipe_name": "Eckstück",
+			"description": "Wohin böse Leute geschickt werden!",
 			"flavor": "Was"
 		},
 		"fence_epiece_recipe": {
-			"recipe_name": "End Post",
-			"description": "A sad end to a great post.",
+			"recipe_name": "Endpfosten",
+			"description": "Ein trauriges Ende für einen großartigen Pfosten.",
 			"flavor": "tut"
 		},
 		"fence_expiece_recipe": {
-			"recipe_name": "Extender Piece",
-			"description": "#AllSizesMatter",
+			"recipe_name": "Füllstück",
+			"description": "#AlleGrößenAngelegenheit",
 			"flavor": "der"
 		},
 		"fence_ppiece_recipe": {
-			"recipe_name": "Single Post",
-			"description": "Nothing Special",
+			"recipe_name": "einzelner Pfosten",
+			"description": "Nichts spezielles",
 			"flavor": "Fuchs"
 		},
 		"fence_spiece_recipe": {
-			"recipe_name": "Stair Piece",
-			"description": "Going Up...",
+			"recipe_name": "Treppenstück",
+			"description": "aufsteigend...",
 			"flavor": "sagen?"
 		},
 		"fence_tpiece_recipe": {
-			"recipe_name": "T-Junction Connection",
-			"description": "Look both ways.",
+			"recipe_name": "T-Zaun-Verbindung",
+			"description": "Schaut in beide Richtungen.",
 			"flavor": "..."
 		},
 		"fence_xpiece_recipe": {
-			"recipe_name": "Cross Junction Connection",
-			"description": "X Marks the Spot!",
+			"recipe_name": "X-Zaun-Verbindung",
+			"description": "Ein X markiert die Stelle!",
 			"flavor": "Naja...?"
 		},
 		"wall_cpiece_recipe": {
-			"recipe_name": "Corner Piece",
-			"description": "Where bad Earthlings are sent.",
+			"recipe_name": "Mauereckstück",
+			"description": "Wohin böse Leute geschickt werden!",
 			"flavor": "Hast du von der Mumie gehört..."
 		},
 		"wall_epiece_recipe": {
-			"recipe_name": "Wall End",
-			"description": "A sad end to a great wall.",
+			"recipe_name": "Mauerendstück",
+			"description": "Ein trauriges Ende für eine großartige Wand.",
 			"flavor": "...Sie fanden in Haselnuss..."
 		},
 		"wall_ppiece_recipe": {
-			"recipe_name": "Single Wall Piece",
-			"description": "Why did I create this model?",
+			"recipe_name": "einzelnes Mauerstück",
+			"description": "Warum habe ich dieses Modell erstellt?",
 			"flavor": "...und Schokolade gehüllt?"
 		},
 		"wall_tpiece_recipe": {
-			"recipe_name": "T-Junction Connection",
-			"description": "Look both ways.",
+			"recipe_name": "T-Mauer-Verbindung",
+			"description": "Schaut in beide Richtungen.",
 			"flavor": "Sie nennen Ihn..."
 		},
 		"wall_xpiece_recipe": {
-			"recipe_name": "Cross Junction Connection",
-			"description": "X Marks the forget it.",
+			"recipe_name": "X-Mauer-Verbindung",
+			"description": "Ein X makiert ... ach vergesst es ....",
 			"flavor": "...Pharoah Roche."
 		}
 	},
 	"entities": {
 		"construction": {
 			"fence_cpiece_ghost": {
-				"description": "Where bad Earthlings are sent.",
-				"name": "Corner Piece"
+				"description": "Wohin böse Leute geschickt werden!",
+				"name": "Eckstück"
 			},
 			"fence_epiece_ghost": {
-				"description": "A sad end to a great post.",
-				"name": "End Post"
+				"description": "Ein trauriges Ende für einen großartigen Pfosten",
+				"name": "Endpfosten"
 			},
 			"fence_expiece_ghost": {
-				"description": "#AllSizesMatter",
-				"name": "Extender Piece"
+				"description": "#AlleGrößenAngelegenheit",
+				"name": "Füllstück"
 			},
 			"fence_ppiece_ghost": {
-				"description": "Nothing Special",
-				"name": "Single Post"
+				"description": "Nichts spezielles",
+				"name": "einzelner Pfosten"
 			},
 			"fence_spiece_ghost": {
-				"description": "Going Up...",
-				"name": "Stair Piece"
+				"description": "aufsteigend...",
+				"name": "Treppenstück"
 			},
 			"fence_tpiece_ghost": {
-				"description": "Look both ways.",
-				"name": "T-Junction Connection"
+				"description": "Schaut in beide Richtungen.",
+				"name": "T-Zaun-Verbindung"
 			},
 			"fence_xpiece_ghost": {
-				"description": "X Marks the Spot!",
-				"name": "Cross Junction Connection"
+				"description": "Ein X markiert die Stelle!",
+				"name": "X-Zaun-Verbindung"
 			},
 			"wall_cpiece_ghost": {
-				"description": "Where bad Earthlings are sent.",
-				"name": "Corner Piece"
+				"description": "Wohin böse Leute geschickt werden!",
+				"name": "Mauereckstück"
 			},
 			"wall_epiece_ghost": {
-				"description": "A sad end to a great wall.",
-				"name": "Wall End"
+				"description": "Ein trauriges Ende für eine großartige Wand.",
+				"name": "Mauerendstück"
 			},
 			"wall_ppiece_ghost": {
-				"description": "Why did I create this piece?",
-				"name": "Single Wall Piece"
+				"description": "Warum habe ich dieses Modell erstellt?",
+				"name": "einzelnes Mauerstück"
 			},
 			"wall_tpiece_ghost": {
-				"description": "Look both ways.",
-				"name": "T-Junction Connection"
+				"description": "Schaut in beide Richtungen.",
+				"name": "T-Mauer-Verbindung"
 			},
 			"wall_xpiece_ghost": {
-				"description": "X Marks the forget it.",
-				"name": "Cross Junction Connection"
+				"description": "Ein X makiert... ach vergesst es ...",
+				"name": "X-Mauer-Verbindung"
 			}
 		}
 	}
