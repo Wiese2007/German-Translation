@@ -402,7 +402,7 @@
                "description": "Eine Zutat fürs Kochen"
          },
          "cocoabeans": {
-            "cocoabeans": {
+            "cocoabeans_basket": {
                "display_name": "Korb voller Kakaobohnen",
                "description": "Sehr bitter, für die Herstellung von leckerer Schokolade"
             },
@@ -590,10 +590,8 @@
                "description": "Eine Zutat fürs Kochen"
          },
          "sugarcanebundle": {
-            "sugarcanebundle": {
                "display_name": "Bündel Zuckerrohr",
                "description": "Zuckerrohr zerkleinert in Zucker."
-            }
          },
          "tomato": {
             "tomato_basket": {
