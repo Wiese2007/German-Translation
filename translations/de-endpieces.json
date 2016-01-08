@@ -1,5 +1,10 @@
 {
 	"recipes": {
+		"fence_10piece_recipe" : {
+			"recipe_name" : "10 teiliger Zaun",
+			"description" : "Viel Glück beim Tragen.",
+			"flavor" : "Einzelne Datei bitte."
+		},
 		"fence_cpiece_recipe": {
 			"recipe_name": "Eckstück",
 			"description": "Wohin böse Leute geschickt werden!",
@@ -35,6 +40,11 @@
 			"description": "Ein X markiert die Stelle!",
 			"flavor": "Naja...?"
 		},
+		"wall_10piece_recipe" : {
+			"recipe_name" : "10 teilige Wand",
+			"description" : "Auf keinen Fall kann er dies aufheben.",
+			"flavor" : "Fauler Hintern Spieler."
+		},
 		"wall_cpiece_recipe": {
 			"recipe_name": "Mauereckstück",
 			"description": "Wohin böse Leute geschickt werden!",
@@ -63,6 +73,10 @@
 	},
 	"entities": {
 		"construction": {
+			"fence_10piece_ghost" : {
+				"description" : "Wie in der Welt will er dies aufheben?",
+				"name" : "10 teiliger Zaun"
+			},
 			"fence_cpiece_ghost": {
 				"description": "Wohin böse Leute geschickt werden!",
 				"name": "Eckstück"
@@ -90,6 +104,10 @@
 			"fence_xpiece_ghost": {
 				"description": "Ein X markiert die Stelle!",
 				"name": "X-Zaun-Verbindung"
+			},
+			"wall_10piece_ghost" : {
+				"description" : "Starker Mann.",
+				"name" : "10 teilige Wand"
 			},
 			"wall_cpiece_ghost": {
 				"description": "Wohin böse Leute geschickt werden!",
