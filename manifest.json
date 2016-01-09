@@ -35,6 +35,8 @@
       "debugtools/locales/de.json" : "file(translations/de-debugtools.json)",
       "retro_games/locales/de-DE.json" : "file(translations/de-retro.json)",
       "retro_games/locales/de.json" : "file(translations/de-retro.json)",
+      "patrol_mod/locales/de-DE.json" : "file(translations/de-patrol.json)",
+      "patrol_mod/locales/de.json" : "file(translations/de-patrol.json)",
 
 
 

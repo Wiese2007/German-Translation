@@ -1,0 +1,17 @@
+{
+   "entities": {
+      "patrol_point": {
+         "patrol_point_ghost": {
+            "display_name" : "Patrouillenpunkt",
+            "description" : "Lass deine Fußsoldaten patrollieren!"
+         }
+      }
+   },
+   "recipes": {
+      "patrol_point_recipe": {
+         "recipe_name" : "Patrouillenpunkt",
+         "description" : "Lass deine Fußsoldaten patrollieren!",
+         "flavor" : "Hiermit kannst du nun deine Fußsoldaten kontrollieren :D"
+      }
+   }
+}
