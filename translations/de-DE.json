@@ -396,7 +396,7 @@
                      "description": "Der Schäfer wird Tiere zum grasen herbringen.",
                      "required_job_text": "Erfordert einen Schäfer",
                      "tip_title": "Klicke und zieh um eine Tierweide zu erstellen",
-                     "tip_description": "chäfer bringen Tiere in dieses Gebiet und kümmern sich dort um diese."
+                     "tip_description": "Schäfer bringen Tiere in dieses Gebiet und kümmern sich dort um diese."
                   }
                }
             },
@@ -1951,11 +1951,20 @@
                      }
                   }
                },
-               "undead_raid": {
-                  "mission": {
-                     "sighted_bulletin": {
-                        "title": "Invasoren gesichtet!"
-                     }
+               "zombie_chest_camp": {
+                  "boss": {
+                     "display_name": "Gigantischer Zombie",
+                     "description": "Blaarhgh.. nicht berühren Meisters Schatz!!!"
+                  }
+               },
+               "wolf_pack_raid": {
+                  "wolves": {
+                     "description": "Verteidigen Ihr Territoriums"
+                  }
+               },
+               "giant_alligator_raid_6": {
+                  "alligators": {
+                     "description": "Die große Vielfalt."
                   }
                },
                "arcs": {
@@ -2037,7 +2046,7 @@
          "shepherding": {
             "compassionate_shepherd_buff": {
                "display_name": "Geliebt!",
-               "description": "Von einem mitfühlenden Schäfer betreut. Dieses Schaf wird mehr Wolle und Nachkommen erzeugen."
+               "description": "Von einem mitfühlenden Schäfer betreut. Dieses Tier wird mehr Ressourcen und Nachkommen produzieren."
             },
             "shepherding_speed_bonus": {
                "display_name": "Herden Temposteigerung + 10%",
@@ -5346,16 +5355,16 @@
             "description": "Bufft die Muskeln aller Hearthlings für eine kurze Zeit"
          },
          "coarse_bandage": {
-            "display_name": "grober Verband",
+            "display_name": "Grober Verband",
             "description": "Wird vom Kräuterarzt verwendet, um eine kleine Menge zu heilen"
          },
          "heavy_bandage": {
-            "display_name": "schwerer Verband",
+            "display_name": "Schwerer Verband",
             "description": "Wird vom Kräuterarzt verwendet, um viel Heilung bereitzustellen."
          },
          "light_bandage": {
-            "description": "Wird vom Kräuterarzt verwendet, um eine moderate Menge zu heilen",
-            "display_name": "leichter Verband"
+            "description": "Wird vom Kräuterarzt verwendet, um eine moderate Menge zu heilen.",
+            "display_name": "Leichter Verband"
          }
       }
    },
@@ -5839,11 +5848,11 @@
             },
             "herbalist_staff_recipe": {
                "description": "Wird benötigt um einen Hearthling zu einem Kräuterarzt zu ernennen, er kann Heilelixiere und Verbände hererstellen.",
-               "recipe_name": "Kräuterarzt Stab"
+               "recipe_name": "Kräuterarztstab"
             },
             "safety_standard_recipe": {
                "description": "Wird verwendet um einen Sicherheitspunkt festzulegen",
-               "recipe_name": "hözerner Sicherheitsbanner"
+               "recipe_name": "Hölzernes Sicherheitsbanner"
             },
             "wooden_tunnel_door_recipe": {
                "recipe_name": "hölzerne Tunneltür",
@@ -6794,10 +6803,103 @@
          },
          "worker_outfit_2": {
             "display_name": "Verbesserte Arbeiteruniform",
-            "description": "Doppelt gestickt und strategisch platzierte Polsterung erhöht die Effizienz des Arbeiters.! Reinforced construction improves worker efficiency!",
+            "description": "Doppelt gestickt und strategisch platzierte Polsterung erhöht die Effizienz des Arbeiters!",
             "worker_outfit_2_iconic": {
                "display_name": "Verbesserte Arbeiteruniform",
-               "description": "Robuste Konstruktion die die Produktivität des Arbeits steigert"
+               "description": "Robuste Bauweise die die Produktivität des Arbeits steigert"
+            }
+         }
+      },
+      "herbalist": {
+         "herbalist_description": {
+            "display_name": "Kräutearzt",
+            "description": "Heilt Einheiten mit hergestellten Balsamen und Verbänden.",
+            "requirements": "Kräuterarztstab, wird vom Schreiner hergestellt.",
+            "workshop": {
+               "name": "Käuterarzt Labor",
+               "description": "Ermöglicht dem Kräuterarzt heilende Salben und Bandagen herzustellen.",
+               "long_description": "Ermöglicht dem Kräuterarzt heilende Salben und Bandagen herzustellen."
+            },
+            "level_1_data": {
+               "perk_000_name": "Verbesserte Willenskraft",
+               "perk_000_description": "Der Kräutearzt kanalisiert die Geister des Waldes und gewinnt natürliche Regeneration."
+            },
+            "level_2_data": {
+               "perk_000_name": "Gemeinsame Einblicke",
+               "perk_000_description": "Der Kräuterarzt ist nun erfahren genug um Material von anderen Handwerkern zu nutzen."
+            },
+            "level_4_data": {
+               "perk_000_name": "Leistungsfähiger Mediziner",
+               "perk_000_description": "Der Kräuterarzt kann sich nun um bis zu 4 Hearthlinge gleichzeitig kümmern."
+            },
+            "level_0_data": {
+               "perk_000_name": "Nachwuchsarzt",
+               "perk_000_description": "Der Kräuterarzt kann sich nun um bis zu 2 Hearthlinge gleichzeitig kümmern."
+            },
+            "level_3_data": {
+               "perk_000_name": "Gegenstandsbeherrschung",
+               "perk_000_description": "Die medizinischen Fähigkeiten des Kräuterarztes erhöhen die Wirksamkeit der Heilgegenstände um 50%."
+            }
+         },
+         "herbalist_outfit": {
+            "display_name": "Kräuterarzt Outfit",
+            "description": "Traditionelle Robe des Kräuterarztes"
+         },
+         "herbalist_staff": {
+            "display_name": "Kräuterarztstab",
+            "description": "Wird benötigt um einen Hearthling in ein Kräuterarzt zu ernennen",
+            "herbalist_staff_iconic": {
+               "display_name": "Kräuterarztstab",
+               "description": "Wird benötigt um einen Hearthling in ein Kräuterarzt zu ernennen"
+            },
+            "herbalist_staff_talisman": {
+               "display_name": "Kräuterarztstab",
+               "description": "Wird benötigt um einen Hearthling in ein Kräuterarzt zu ernennen"
+            }
+         },
+         "herbalist_workbench": {
+            "herbalist_workbench_ghost": {
+               "display_name": "Kräuterarzt Labor",
+               "description": "Wird verwendet um Heilgegenstände herzustellen"
+            }
+         },
+         "recipes": {
+            "herbalist_workbench_recipe": {
+               "description": "Ermöglicht dem Kräuterarzt heilende Salben und Bandagen herzustellen.",
+               "recipe_name": "Kräuterarzt Labor"
+            },
+            "workbenches_name": "Werkbanken",
+            "tonics_name": "Elixiere",
+            "small_healing_tonic_recipe": {
+               "description": "Ein medizinisches Getränk das eine winzige Menge heilt",
+               "recipe_name": "Kleines Heilelixier"
+            },
+            "stamina_tonic_recipe": {
+               "description": "Bufft die Ausdauer aller Hearthlinge für eine kurze Zeit",
+               "recipe_name": "Ausdauerelixier"
+            },
+            "strength_tonic_recipe": {
+               "description": "Bufft die Muskeln aller Hearthlinge für eine kurze Zeit",
+               "recipe_name": "Stärkeelixier"
+            },
+            "bandages_name": "Verbände",
+            "coarse_bandage_recipe": {
+               "recipe_name": "Grober Verband",
+               "description": "Wird vom Kräutearzt verwendet, um eine kleine Menge zu heilen"
+            },
+            "heavy_bandage_recipe": {
+               "recipe_name": "Schwerer Verband",
+               "description": "Wird vom Kräuterarzt verwendet, um viel Heilung bereitzustellen. Gut für schwere Verletzungen."
+            },
+            "light_bandage_recipe": {
+               "recipe_name": "Leichter Verband",
+               "description": "Wird vom Kräuterarzt verwendet, um eine moderate Menge zu heilen."
+            }
+         },
+         "herbalist_buffs": {
+            "willpower_1_buff": {
+               "display_name": "Willenskraft +50",
+               "description": "Der Kräuterarzt hat die Gesundheitsregeneration verbessert"
             }
          }
       }
