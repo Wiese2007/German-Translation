@@ -453,7 +453,7 @@
                      "tip_description": "Verwende die Befehle im Einheit-Rahmen, um die Leute dieser Partie zu lenken."
                   },
                   "party_2": {
-                     "display_name": Kampf-Partie",
+                     "display_name": "Kampf-Partie",
                      "description": "Führe Hearthlinge in den Kampf! Ernannte Kampfklassen werden hier automatisch hinzugefügt.",
                      "tip_title": "Die Partie ist im Einheit-Rahmen ausgewählt.",
                      "tip_description": "Verwende die Befehle im Einheit-Rahmen, um die Leute dieser Partie zu lenken."
@@ -4719,7 +4719,7 @@
                }
             },
             "crypt": {
-               "display_name": Eine Krypta",
+               "display_name": "Eine Krypta",
                "description": "Was verbirgt sich drin?"
             },
             "sarcophagus": {
@@ -4770,7 +4770,7 @@
          },
          "brightbell_plant": {
             "display_name": "Wilde Glockenblume",
-            "description": "Kann für Heilpflanzen geerntet werden."
+            "description": "Kann für Heilpflanzen geerntet werden.",
             "unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht nachgewachsen."
          },
          "carrot": {
@@ -4785,8 +4785,8 @@
          },
          "frostsnap_plant": {
             "display_name": "Wilde Eisblume",
-            "description": "Kann für Heilpflanzen geerntet werden."
-            "unripe_description": "This plant has been harvested and has not grown back yet"
+            "description": "Kann für Heilpflanzen geerntet werden.",
+            "unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht nachgewachsen."
          },
          "silkweed": {
             "silkweed": {
@@ -6071,15 +6071,15 @@
          },
          "footman_buffs": {
             "damage_1_buff": {
-               "description": "Auf Level 1, greift der Fußsoldat mit erhöhter Heftigkeit an"
+               "description": "Auf Level 1, greift der Fußsoldat mit erhöhter Heftigkeit an",
                "display_name": "Schaden +20%"
             },
             "damage_2_buff": {
-               "description": "Auf Level 1, greift der Fußsoldat mit erhöhter Heftigkeit an"
+               "description": "Auf Level 1, greift der Fußsoldat mit erhöhter Heftigkeit an",
                "display_name": "Schaden +20%"
             },
             "damage_3_buff": {
-               "description": "Auf Level 1, greift der Fußsoldat mit erhöhter Heftigkeit an"
+               "description": "Auf Level 1, greift der Fußsoldat mit erhöhter Heftigkeit an",
                "display_name": "Schaden +20%"
             }
          },
