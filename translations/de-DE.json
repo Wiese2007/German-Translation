@@ -29,7 +29,7 @@
             "cower": "Kauert!",
             "flee": "Flieht!",
             "panic": "in Panik!",
-            "mine": "Bergbau",
+            "mine": "grabe Fundament",
             "sleep_in_bed": "schlafen...",
             "sleep_on_ground": "schläft auf dem Boden",
             "check_bait_trap": "überprüfe Fallen",
@@ -44,7 +44,10 @@
             "fabricate_structure": "baue",
             "teardown_structure": "Struktur einreißen...",
             "feed_pasture_animals": "füttere Tiere",
-            "restock": "Wiederaufstockung Elemente"
+            "restock": "Wiederbefüllung mit Elementen",
+            "resting_from_injuries": "benötigt medizinische Betreuung",
+            "healing": "behandle Wunden",
+            "healing_target": "heile  [name(data.target)]"
          }
       }
    },
@@ -182,7 +185,7 @@
             "create_party": "Gruppe erstellen",
             "edit_party": "Bearbeiten",
             "add_party_member": "Hearthling hinzufügen",
-            "disband_party": "Auflösen",
+            "remove_members": "Entferne alle Mitglieder",
             "add_party_member_title": "Dienstplan verwalten",
             "done_adding_members": "Fertig",
             "add_party_member_button": "Hinzufügen",
@@ -198,7 +201,23 @@
          },
          "unit_frame": {
             "show_character_sheet": "Zeige Charakterübersicht",
-            "focus_camera": "Fokussiere die Kamera auf dieser Einheit"
+            "focus_camera": "Fokussiere die Kamera auf dieser Einheit",
+            "attack_target": {
+               "display_name": "Greife Ziel an",
+               "description": "Angriff eines bestimmten Feindes unter Ausschluss aller anderen, oder greift alles in der Nähe eines Standortes an und alles dazwischen."
+            },
+            "defend_location": {
+               "display_name": "Verteidige Standort",
+               "description": "Die Partie rennt hierhin und verteidigt dann diesen Standort und greifen alles unterwegs an."
+            },
+            "move_unit": {
+               "display_name": "Lauft zum Standort",
+               "description": "Alle gehen zu dem Ort, ohne auf alle dazwischen liegenden Bedrohungen zu achten."
+            },
+            "manage_party": {
+               "display_name": "Partie verwalten",
+               "description": "Hinzufügen und Entfernen von Kampfeinheiten aus oder in der Partie."
+            }
          },
          "citizens": {
             "title": "Einwohner",
@@ -210,11 +229,22 @@
                "build": "Bauen",
                "mine": "Bergbau",
                "job": "Job",
-               "current_activity": "Momentane Tätigkeit"
+               "current_activity": "Momentane Tätigkeit",
+               "militia": "Miliz",
+               "status": "Status"
             },
             "show_character_sheet": "Mehr Informationen",
             "button_suspend": "Anhalten",
-            "button_resume": "Weiter"
+            "button_resume": "Weiter",
+            "tab": {
+               "tasks": "Aufgaben",
+               "groups": "Gruppen"
+            },
+            "enrollment": {
+               "enrolled": "Eingetragen",
+               "not_enrolled": "Nicht eingetragen",
+               "cannot_enroll": "Kann nicht eingetragen werden"
+            }
          },
          "create_camp": {
             "new_game_place_banner": "Klick mich um deine Siedlung zu gründen.",
@@ -280,6 +310,7 @@
                "refined": "verfeinert",
                "uncategorized": "nicht zugeordnet",
                "workshops": "Werkbänke",
+               "consumable": "Verbrauchsmaterial",
                "none": "Nichts"
             },
             "tooltip_combat_base_damage": "Ang:",
@@ -403,17 +434,29 @@
                      "display_name": "Gruppen",
                      "description": "Organisiere deine Truppen in Gruppen"
                   },
-                  "town_defense": {
-                     "display_name": "Zu den Waffen!",
+                  "town_alert": {
+                     "display_name": "Stadtalarm-Modus!",
                      "description": "Sammele deine Hearthlings um die Stadt zu verteidigen!",
-                     "activated_title": "Stadtverteidigung aktiviert!",
-                     "activated_text": "Deine Arbeiter haben ihre Arbeit beendet und schauen wachsam nach Eindringlingen."
+                     "activated_title": "Stadtalarm-Modus aktiviert!",
+                     "activated_text": "Deine Arbeiter suchen wachsam nach Eindringlingen. Hearthlinge welche nicht als Miliz eingetragen sind, werden zu den Schutzpunkten rennen."
                   },
                   "loot_item": {
                      "display_name": "Plündern",
                      "description": "Stehle Objekte von anderen Spielern.",
                      "tip_title": "Klicke und zieh um Objekte zu stehlen",
                      "tip_description": "Rechtsklick um diesen Modus zu verlassen"
+                  },
+                  "party_1": {
+                     "display_name": "Kampf-Partie 1",
+                     "description": "Führe Hearthlinge in den Kampf! Ernannte Kampfklassen werden hier automatisch hinzugefügt.",
+                     "tip_title": "Die Partie ist im Einheit-Rahmen ausgewählt.",
+                     "tip_description": "Verwende die Befehle im Einheit-Rahmen, um die Leute dieser Partie zu lenken."
+                  },
+                  "party_2": {
+                     "display_name": Kampf-Partie",
+                     "description": "Führe Hearthlinge in den Kampf! Ernannte Kampfklassen werden hier automatisch hinzugefügt.",
+                     "tip_title": "Die Partie ist im Einheit-Rahmen ausgewählt.",
+                     "tip_description": "Verwende die Befehle im Einheit-Rahmen, um die Leute dieser Partie zu lenken."
                   }
                }
             },
@@ -450,6 +493,11 @@
                      "display_name": "Töpfer Handwerks-Menü",
                      "description": "Macht Ziegel und Güter aus Lehm.",
                      "required_job_text": "Benötigt einen Töpfer"
+                  },
+                  "herbalist": {
+                     "display_name": "Kräuterarzt Handwerks-Menü",
+                     "description": "Macht Heilgegenstände aus Kräutern.",
+                     "required_job_text": "Benötigt einen Kräuterarzt"
                   }
                }
             },
@@ -722,8 +770,9 @@
                   "tooltip_gold": "Gold",
                   "tooltip_gem": "Edelsteine und Trophäen",
                   "tooltip_food_containers": "Essen Container",
-                  "tooltip_refined": "gekochtes Essen",
-                  "tooltip_ingredients": "rohe Zutaten"
+                  "tooltip_prepared_food": "gekochtes Essen",
+                  "tooltip_ingredients": "rohe Zutaten",
+                  "tooltip_healing_items": "Heilgegenstände"
                }
             }
          },
@@ -1034,7 +1083,7 @@
             "finished": "Start!",
             "no_talisman_confirm_dialog": {
                "title": "Begin",
-               "message": "Bist du sicher das Spiel zu beginnen ohne ein extra Werkzeug aus dem Shop zu wählen? Wie immer, beginnst du mit einer Schreinersäge.",
+               "message": "Bist du sicher das Spiel zu beginnen ohne ein extra Werkzeug aus dem Shop zu wählen? Wie immer, bekommst du noch den Start Talisman für deine Fraktion.",
                "accept": "JA, ich will den harten Modus",
                "cancel": "Ähmm warte mal!"
             }
@@ -1067,9 +1116,9 @@
          "tooltips": {
             "stamina": {
                "display_name": "Ausdauer",
-               "description": "Wie lange dieser Hearthling arbeiten kann, bevor er Ruhe benötigt.",
+               "description": "Die körperliche Ausdauer diees Hearthlings.",
                "bullet_points": {
-                  "000": "Bestimmt Schlafdauer"
+                  "000": "Jeder Punkt erhöht das maximale Leben um 2"
                }
             },
             "inventiveness": {
@@ -1099,14 +1148,17 @@
             },
             "diligence": {
                "display_name": "Fleiß",
-               "description": "Konzentration dieses Hearthlings. Fleißige Arbeiter bewältigen lange Aufgaben, ohne sich ablenken zu lassen.",
+               "description": "Wie lange dieser Hearthling arbeiten kann, bevor er Ruhe benötigt.",
                "bullet_points": {
-                  "000": "Erhöht Herstellungsgeschwindigkeit"
+                  "000": "Bestimmt die Schlafdauer"
                }
             },
             "willpower": {
                "display_name": "Willenskraft",
-               "description": "Wie wahrscheinlich es ist, dass dieser Hearthling feindlichen Zaubern widersteht."
+               "description": "Wie wahrscheinlich es ist, dass dieser Hearthling feindlichen Zaubern widersteht.",
+               "bullet_points": {
+                  "000": "Bestimmt die Gesundheitsregeneration"
+               }
             },
             "net_worth": {
                "display_name": "Stadtwert",
@@ -1164,10 +1216,15 @@
                "display_name": "Sicherheit",
                "description": "Schütz die Stadt vor Plünderern und lass die Einwohner sich durch das Ernennen von Wachen sicherer fühlen.",
                "town_description": "Wie sich die Einwohner in Bezug auf die Sicherheit der Stadt fühlen. Ist die Stadt gut geschützt oder wird Sie von Goblins geplündert?"
+            },
+            "militia": {
+               "display_name": "Miliz",
+               "description": "Im Stadtalarm-Modus werden die Milzen Ihre Positionen halten, anstatt zu den Sicherheitspunkten zu rennen. Darüber hinaus erhalten sie einen zusätzlichen Schub auf Mut und Muskeln."
             }
          },
          "constants": {
             "food_meat_raw_name": "Rohes Fleisch",
+            "food_veggie_raw_name": "Rohes Gemüse",
             "stone_resource_name": "Steinbrocken",
             "pelt_resource_name": "Felle",
             "cloth_resource_name": "Stoffballen",
@@ -1178,7 +1235,8 @@
             "leather_resource_name": "Lederballen",
             "fiber_resource_name": "Fasern",
             "ingot_resource_name": "Metallbarren",
-             "ore_resource_name": "Erz"
+            "ore_resource_name": "Erz",
+            "herb_resource_name": "Kräuter"
          }
       }
    },
@@ -1914,8 +1972,30 @@
                                     "description": "Ausgewiesener Herdhütter"
                                  }
                               }
+                           },
+                           "create_necromancer_crypt": {
+                              "crypt": {
+                                 "display_name": "Eine Krypta",
+                                 "description": "Vom Phoenix Imperium gebaut"
+                              },
+                              "sarcophagus": {
+                                 "display_name": "Steinsarkophag",
+                                 "description": "Hier liegt ein Mitglied der Black Cord"
+                              },
+                              "crypt_structures": {
+                                 "floor_candle": {
+                                    "description": "Beleuchtet den Krypta Eingang"
+                                 }
+                              }
                            }
                         }
+                     }
+                  }
+               },
+               "random_raid": {
+                  "mission": {
+                     "sighted_bulletin": {
+                        "title": "Eindringlinge nähern sich!"
                      }
                   }
                }
@@ -1996,6 +2076,40 @@
                "display_name": "Angehalten",
                "description": "Setz diesen Buff auf jemanden der sofort gestoppt werden muss."
             }
+         },
+         "injured": {
+            "injured_buff": {
+               "display_name": "Verletzt",
+               "description": "Bewegt sich langsamer aufgrund der niedrigen Gesundheit."
+            }
+         },
+         "recovering": {
+            "recovering_buff": {
+               "display_name": "Bettlegerisch",
+               "description": "Erholt sich langsam von seinen Verletzungen. Kann medizinische Versorgung vom Kräuterarzt erhalten."
+            }
+         },
+         "stamina_tonic": {
+            "stamina_tonic_buff": {
+               "display_name": "Ausdauerelixier",
+               "description": "Etwas mehr Gesundheit"
+            }
+         },
+         "strength_tonic": {
+            "strength_tonic_buff": {
+               "display_name": "Stärkeelixier",
+               "description": "Etwas mehr Buff"
+            }
+         },
+         "severely_injured": {
+            "severely_injured_buff": {
+               "display_name": "Schwer verletzt",
+               "description": "Schwer verwundet! Dieser Hearthling kann kaum gehen!"
+            }
+         },
+         "undead_infection": {
+            "display_name": "Infiziert",
+            "description": "Heilgegenstände sind 10% weniger wirksam"
          }
       },
       "build": {
@@ -2145,6 +2259,14 @@
          "plant_tree": {
             "display_name": "Pflanze einen Baum",
             "description": "Pflanze diesen Baum in einiger Erde."
+         },
+         "use_consumable": {
+            "display_name": "Verwende",
+            "description": "Verwenden Sie diesen Verbrauchsgegenstand, um jeden Hearthling in der Stadt zu buffen. Dies wird den Gegenstand zerstören."
+         },
+         "edit_party": {
+            "display_name": "Bearbeite Partie",
+            "description": "Hinzufügen und entfernen von Kämpfern zu dieser Partie."
          }
       },
       "personality": {
@@ -2987,6 +3109,12 @@
                }
             }
          }
+      },
+      "prototypes": {
+         "party": {
+            "display_name": "Partie Num.[str(self.unit_info.custom_name)]",
+            "description": "Organisiert Truppen zu Kampfgruppen"
+         }
       }
    },
    "entities": {
@@ -3151,6 +3279,10 @@
             "wooden_door_ghost": {
                "display_name": "Hölzerne Tür",
                "description": "Privatsphäre endlich!"
+            },
+            "wooden_tunnel_door_ghost": {
+               "display_name": "Hölzerne Tunneltür",
+               "description": "Nützlich zum Absperren von Tunneln"
             }
          },
          "wooden_double_door": {
@@ -3341,7 +3473,7 @@
       "crops": {
          "brightbell_crop": {
             "display_name": "Glockenblume",
-            "description": "Nur eine Blume.",
+            "description": "Kann als Heilkraut verwendet werden",
             "growth_stage": {
                "001": {
                   "name": "Glockenblumen Sprosse",
@@ -3441,7 +3573,7 @@
          },
          "frostsnap_crop": {
             "display_name": "Eisblume",
-            "description": "Sie ist Kalt bei der Berührung.",
+            "description": "Kann als Heilkraut verwendet werden",
             "growth_stage": {
                "001": {
                   "name": "Eisblumen Sprosse",
@@ -3638,7 +3770,7 @@
                   "description": "Bereit für die Ernte!"
                },
                "002": {
-                  "name": "Immature wheat",
+                  "name": "unreifer Weizen",
                   "description": "Fast bereit zum ernten"
                },
                "001": {
@@ -3710,18 +3842,40 @@
                   "description": "Traurigerweise ungenießbar"
                }
             }
+         },
+         "cactus_flower_crop": {
+            "description": "Die Blüten haben medizinische Eigenschaften",
+            "display_name": "Kaktusblüte",
+            "growth_stage": {
+               "000": {
+                  "name": "Kaktusknospe",
+                  "description": "Beginnt zu wachsen"
+               },
+               "001": {
+                  "name": "Junger Kaktus",
+                  "description": "Beginnt stachelig zu werden"
+               },
+               "002": {
+                  "name": "reifer Kaktus",
+                  "description": "Wartet das seine Blumee blüht"
+               },
+               "003": {
+                  "name": "Blühender Kaktus",
+                  "description": "Bereit für die Ernte"
+               }
+            }
          }
       },
       "decoration": {
          "banner_wall_big": {
             "banner_wall_big_ghost": {
-               "display_name": "Großes wandgebundenes Banner",
+               "display_name": "Großes Wandbanner",
                "description": "Zeige deinen Stolz auf die Stadt, mit diesem dekorativen Banner."
             }
          },
          "banner_wall_small": {
             "banner_wall_small_ghost": {
-               "display_name": "Kleines wandgebundenes Banner",
+               "display_name": "Kleines Wandbanner",
                "description": "Zeige deinen Stolz auf die Stadt, mit diesem kleinen Banner."
             }
          },
@@ -3729,12 +3883,6 @@
             "bird_bath_ghost": {
                "display_name": "Vogelbad",
                "description": "Friedlich."
-            }
-         },
-         "brightbell": {
-            "brightbell_ghost": {
-               "display_name": "Glockenblume",
-               "description": "Nur eine Blume."
             }
          },
          "crate": {
@@ -3758,12 +3906,6 @@
                "description": "Sind das! ....Örrrggssss!!!."
             }
          },
-         "frostsnap": {
-            "frostsnap_ghost": {
-               "display_name": "Eisblume",
-               "description": "Sie fühlt sich kalt an!"
-            }
-         },
          "fur_rug": {
             "fur_rug_ghost": {
                "display_name": "Fellteppich",
@@ -3772,7 +3914,7 @@
          },
          "gargoyle": {
             "gargoyle_ghost": {
-               "display_name": "Wandgebundener dekorativer Gargoyle",
+               "display_name": "Wand Gargoyle",
                "description": "Gotische Schnitzerei zum schmücken der Wände."
             }
          },
@@ -3792,6 +3934,12 @@
                "description": "Bietet Wärme und Behaglichkeit in der Nacht"
             }
          },
+         "stone_floor_candle_holder": {
+            "stone_floor_candle_holder_ghost": {
+               "display_name": "Steinboden Kerzenhalter",
+               "description": "Es werde Licht!"
+            }
+         },
          "stone_garden_lantern": {
             "stone_garden_lantern_ghost": {
                "display_name": "Steingartenlaterne",
@@ -3800,7 +3948,7 @@
          },
          "stone_wall_lantern": {
             "stone_wall_lantern_ghost": {
-               "display_name": "Wandgebundene Steinlaterne",
+               "display_name": "Steinlaterne für die Wand",
                "description": "Leicht an der Wand befestigt"
             }
          },
@@ -3854,50 +4002,44 @@
          },
          "wooden_sign": {
             "wooden_sign_ghost": {
-               "display_name": "Wandgebundenes Holz-Schild",
+               "display_name": "Holz-Schild für die Wand",
                "description": "Ein Ausdruck der zukünftigen Absicht."
             }
          },
          "wooden_sign_blacksmith": {
             "wooden_sign_blacksmith_ghost": {
-               "display_name": "Wandgebundenes Schmiede-Schild",
+               "display_name": "Schmiede-Schild für die Wand",
                "description": "Ein Schild mit der Markierung des Schmiedes."
             }
          },
          "wooden_sign_carpenter": {
             "wooden_sign_carpenter_ghost": {
-               "display_name": "Wandgebundenes Schreiner-Schild",
+               "display_name": "Schreiner-Schild für die Wand",
                "description": "Ein Schild mit der Markierung des Schreiners."
             }
          },
          "wooden_sign_mason": {
             "wooden_sign_mason_ghost": {
-               "display_name": "Wandgebundenes Steinmetz-Schild",
+               "display_name": "Steinmetz-Schild für die Wand",
                "description": "Ein Schild mit der Markierung des Steinmetzes."
             }
          },
          "wooden_sign_weaver": {
             "wooden_sign_weaver_ghost": {
-               "display_name": "Wandgebundenes Weber-Schild",
+               "display_name": "Weber-Schild für die Wand",
                "description": "Ein Schild mit der Markierung des Webers."
             }
          },
          "wooden_wall_lantern": {
             "wooden_wall_lantern_ghost": {
-               "display_name": "Wandgebundene Holzlaterne",
+               "display_name": "Holzlaterne für die Wand",
                "description": "Leicht an der Wand befestigt"
             }
          },
          "wooden_wall_lantern_fine": {
             "wooden_wall_lantern_fine_ghost": {
-               "display_name": "Schöne wandgebundene Holzlaterne",
+               "display_name": "Schöne Holzlaterne für die Wand",
                "description": "Leicht an der Wand befestigt"
-            }
-         },
-         "cactus_flower": {
-            "cactus_flower_ghost": {
-               "display_name": "Kaktusblume",
-               "description": "Mit Vorsicht behandeln!"
             }
          },
          "clay_lamp": {
@@ -3908,7 +4050,7 @@
          },
          "clay_wall_lamp": {
             "clay_wall_lamp_ghost": {
-               "display_name": "wandgebundene Lehm-Öllampe",
+               "display_name": "Lehm-Öllampe für die Wand",
                "description": "Bietet ein warmes Glühen in der Nacht."
             }
          },
@@ -3968,7 +4110,7 @@
          },
          "golden_clay_wall_planter": {
             "golden_clay_wall_planter_ghost": {
-               "display_name": "Goldener Lehmwandpflanzer",
+               "display_name": "Goldener Lehmpflanzer für die Wand",
                "description": "Belebt Wände"
             }
          },
@@ -4396,6 +4538,31 @@
          "control_defend_banner": {
             "display_name": "Verteidigungsbanner",
             "description": "Verteidigt diesen Punkt im Stadtverteidigungsmodus"
+         },
+         "safety_standard": {
+            "display_name": "Sicheheitsbanner aus Holz",
+            "clay_safety_standard": {
+               "display_name": "Sicheheitsbanner aus Lehm"
+            },
+            "description": "Markiert einen Sicherheitspunkt, wohin man im Stadtalarm-Modus fliehen kann"
+         },
+         "control_attack_marker": {
+            "control_attack_marker_ghost": {
+               "display_name": "Angriffsmarkierung",
+               "description": "Hearthling greifen alles zwischen hier und dort an"
+            }
+         },
+         "control_hold_marker": {
+            "control_hold_marker_ghost": {
+               "display_name": "Haltenmarkierung",
+               "description": "Hearthlinge postieren sich aggressiv an diesem Ort"
+            }
+         },
+         "control_move_marker": {
+            "control_move_marker_ghost": {
+               "display_name": "Bewegenmarkierung",
+               "description": "Geht zu diesem Ort"
+            }
          }
       },
       "loot": {
@@ -4427,8 +4594,12 @@
                "description": "Er ist nur ein Kiesel!"
             },
             "alligator": {
-               "display_name": "Alligator",
-               "description": "Rau und schuppig"
+               "display_name": "Varanus",
+               "description": "Und das ist die kleinere Auswahl..."
+            },
+            "wolf": {
+               "display_name": "ungezähmter Wolf",
+               "description": "Grrr! Rwar!"
             }
          },
          "goblins": {
@@ -4526,6 +4697,10 @@
             "wolf_cage": {
                "display_name": "Ein Wolfskäfig",
                "description": "Signalisiert schlafenszeit für seine Bewohner."
+            },
+            "goblin_cage": {
+               "display_name": "großer Käfig",
+               "description": "Eigentum von Zentralchef Grug Schädelquetschers"
             }
          },
          "undead": {
@@ -4542,7 +4717,31 @@
                      "description": "Er sehnt sich nach Fleisch"
                   }
                }
+            },
+            "crypt": {
+               "display_name": Eine Krypta",
+               "description": "Was verbirgt sich drin?"
+            },
+            "sarcophagus": {
+               "display_name": "Ein Sarkophag",
+               "description": "Hält die Überreste eines Toten"
+            },
+            "tombstone": {
+               "display_name": "Ein Grabstein",
+               "description": "Wo Untote geboren werden"
+            },
+            "stone_pillar_fence": {
+               "display_name": "Steinpfeilerzaun",
+               "description": "Robuster Zaun durch Säulen verankert."
+            },
+            "necromancer": {
+               "display_name": "Nekromant",
+               "description": "Praktizierender der dunklen Künste"
             }
+         },
+         "rabbit": {
+            "display_name": "...",
+            "description": "Ein Hase"
          }
       },
       "pets": {
@@ -4571,7 +4770,8 @@
          },
          "brightbell_plant": {
             "display_name": "Wilde Glockenblume",
-            "description": "Eine erntbare Wildblume"
+            "description": "Kann für Heilpflanzen geerntet werden."
+            "unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht nachgewachsen."
          },
          "carrot": {
             "carrot_basket": {
@@ -4585,7 +4785,8 @@
          },
          "frostsnap_plant": {
             "display_name": "Wilde Eisblume",
-            "description": "Eine erntbare Wildblume"
+            "description": "Kann für Heilpflanzen geerntet werden."
+            "unripe_description": "This plant has been harvested and has not grown back yet"
          },
          "silkweed": {
             "silkweed": {
@@ -4616,7 +4817,8 @@
          },
          "cactus_plant": {
             "display_name": "Wilder Kaktus",
-            "description": "Eine erntbare Wildblume"
+            "description": "Kann für Heilpflanzen geerntet werden.",
+            "unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht nachgewachsen."
          },
          "tumbleweed": {
             "display_name": "Salzkraut",
@@ -4795,6 +4997,26 @@
             "acacia_log": {
                "display_name": "Akazienbaumstammm",
                "description": "Ein Klotz. Gemacht aus Holz."
+            }
+         },
+         "herb": {
+            "brightbell": {
+               "display_name": "Glockenblume",
+               "description": "Ein Kraut allgemein für medizinische Zwecke verwendet"
+            },
+            "frostsnap": {
+               "display_name": "Eisblume",
+               "description": "Ein Kraut, das kühlt bei der Berührung"
+            },
+            "cactus_flower": {
+               "display_name": "Kaktusblume",
+               "description": "Eine Wüstenschönheit mit heilenden Eigenschaften"
+            }
+         },
+         "skin": {
+            "varanus_skin": {
+               "display_name": "Varanus Haut",
+               "description": "Rau und schuppig"
             }
          }
       },
@@ -5102,6 +5324,38 @@
                "display_name": "Holzschwert",
                "description": "Ernennt einen Hearthling zu einem Fußsoldat."
             }
+         },
+         "scythe": {
+            "display_name": "Sense",
+            "description": "Bevorzugte Waffe fürs Mähen"
+         }
+      },
+      "consumables": {
+         "healing_tonic": {
+            "small_healing_tonic": {
+               "display_name": "kleines Heilelixier",
+               "description": "Wird vom Kräuterarzt verwendet um kleine Wunden zu heilen"
+            }
+         },
+         "stamina_tonic": {
+            "display_name": "Ausdauerelixier",
+            "description": "Bufft die Ausdauer aller Hearthlings für eine kurze Zeit"
+         },
+         "strength_tonic": {
+            "display_name": "Stärkeelixier",
+            "description": "Bufft die Muskeln aller Hearthlings für eine kurze Zeit"
+         },
+         "coarse_bandage": {
+            "display_name": "grober Verband",
+            "description": "Wird vom Kräuterarzt verwendet, um eine kleine Menge zu heilen"
+         },
+         "heavy_bandage": {
+            "display_name": "schwerer Verband",
+            "description": "Wird vom Kräuterarzt verwendet, um viel Heilung bereitzustellen."
+         },
+         "light_bandage": {
+            "description": "Wird vom Kräuterarzt verwendet, um eine moderate Menge zu heilen",
+            "display_name": "leichter Verband"
          }
       }
    },
@@ -5171,7 +5425,7 @@
          "blacksmith_forge": {
             "blacksmith_forge_ghost": {
                "display_name": "Schmiede",
-               "description": "Ein robuster Steinofen zum schmelzen von Metallen"
+               "description": "Ein Steinofen zum schmelzen von Metallen"
             }
          },
          "blacksmith_hammer": {
@@ -5450,6 +5704,7 @@
             "armor_name": "Rüstungen",
             "furniture_name": "Möbel",
             "workbench_name": "Werkbanken",
+            "utility_name": "Nützliches",
             "shepherds_crook_recipe": {
                "description": "Wird benötigt um einen Hearthling zu einem Schäfer zu ernennen.",
                "recipe_name": "Hirtenstab",
@@ -5581,6 +5836,18 @@
             "wooden_window_frame_wide_recipe": {
                "description": "Es hat einen Panoramablick!",
                "recipe_name": "Breiter Holzfensterrahmen"
+            },
+            "herbalist_staff_recipe": {
+               "description": "Wird benötigt um einen Hearthling zu einem Kräuterarzt zu ernennen, er kann Heilelixiere und Verbände hererstellen.",
+               "recipe_name": "Kräuterarzt Stab"
+            },
+            "safety_standard_recipe": {
+               "description": "Wird verwendet um einen Sicherheitspunkt festzulegen",
+               "recipe_name": "hözerner Sicherheitsbanner"
+            },
+            "wooden_tunnel_door_recipe": {
+               "recipe_name": "hölzerne Tunneltür",
+               "description": "Nützlich zum Absperren von Tunneln"
             }
          }
       },
@@ -5805,12 +6072,15 @@
          "footman_buffs": {
             "damage_1_buff": {
                "description": "Auf Level 1, greift der Fußsoldat mit erhöhter Heftigkeit an"
+               "display_name": "Schaden +20%"
             },
             "damage_2_buff": {
                "description": "Auf Level 1, greift der Fußsoldat mit erhöhter Heftigkeit an"
+               "display_name": "Schaden +20%"
             },
             "damage_3_buff": {
                "description": "Auf Level 1, greift der Fußsoldat mit erhöhter Heftigkeit an"
+               "display_name": "Schaden +20%"
             }
          },
          "footman_outfit": {
@@ -6065,6 +6335,7 @@
             },
             "furniture_name": "Möbel und Dekorationen",
             "decoration_name": "Dekorationen",
+            "utility_name": "Nützliches",
             "potter_workbench_recipe": {
                "description": "Hilft dem Töpfe einfache Elemente aus Lehm herzustellen",
                "recipe_name": "Töpferscheibe",

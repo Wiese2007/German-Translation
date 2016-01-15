@@ -83,9 +83,9 @@
                "Sal",
                "Em",
                "Torie",
-               "Nameless"
+               "Namenlos"
             ]
-         }, 
+         },
          "surnames" : [
             "der Zombie",
             "der Verfallene",
@@ -94,6 +94,32 @@
             "der Tode",
             "der Traurige",
             "der Langsame"
+         ]
+      },
+      "necromancer" : {
+         "male" : {
+            "uri" : ["stonehearth:monsters:undead:necromancer"],
+            "given_names" : [
+               "Havir",
+               "Vomon",
+               "Oyavok",
+               "Fazis",
+               "Wralek",
+               "Idavras",
+               "Chrothes",
+               "Wrexith",
+               "Cecrux",
+               "Nameless"
+            ]
+         },
+         "surnames" : [
+            "Seelenbrecher",
+            "der Peiniger",
+            "der Verderbte",
+            "Schicksalsflüsterer",
+            "der Entweihende",
+            "der Schänder",
+            "Grabmoor"
          ]
       }
    },
