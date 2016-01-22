@@ -209,15 +209,15 @@
             },
             "defend_location": {
                "display_name": "Verteidige Standort",
-               "description": "Die Partie rennt hierhin und verteidigt dann diesen Standort und greifen alles unterwegs an."
+               "description": "Die Gruppe rennt hierhin und verteidigt dann diesen Standort und greifen alles unterwegs an."
             },
             "move_unit": {
                "display_name": "Lauft zum Standort",
                "description": "Alle gehen zu dem Ort, ohne auf alle dazwischen liegenden Bedrohungen zu achten."
             },
             "manage_party": {
-               "display_name": "Partie verwalten",
-               "description": "Hinzufügen und Entfernen von Kampfeinheiten aus oder in der Partie."
+               "display_name": "Gruppe verwalten",
+               "description": "Hinzufügen und Entfernen von Kampfeinheiten aus oder in die Gruppe."
             }
          },
          "citizens": {
@@ -448,16 +448,19 @@
                      "tip_description": "Rechtsklick um diesen Modus zu verlassen"
                   },
                   "party_1": {
-                     "display_name": "Kampf-Partie 1",
+                     "display_name": "Kampf-Gruppe 1",
                      "description": "Führe Hearthlinge in den Kampf! Ernannte Kampfklassen werden hier automatisch hinzugefügt.",
-                     "tip_title": "Die Partie ist im Einheit-Rahmen ausgewählt.",
-                     "tip_description": "Verwende die Befehle im Einheit-Rahmen, um die Leute dieser Partie zu lenken."
+                     "tip_title": "Die Gruppe ist im Einheitenrahmen ausgewählt.",
+                     "tip_description": "Verwende die Befehle im Einheit-Rahmen, um die Leute dieser Gruppe zu lenken."
                   },
                   "party_2": {
-                     "display_name": "Kampf-Partie",
+                     "display_name": "Kampf-Gruppe",
                      "description": "Führe Hearthlinge in den Kampf! Ernannte Kampfklassen werden hier automatisch hinzugefügt.",
-                     "tip_title": "Die Partie ist im Einheit-Rahmen ausgewählt.",
-                     "tip_description": "Verwende die Befehle im Einheit-Rahmen, um die Leute dieser Partie zu lenken."
+                     "tip_title": "Die Gruppe ist im Einheitenrahmen ausgewählt.",
+                     "tip_description": "Verwende die Befehle im Einheit-Rahmen, um die Leute dieser Gruppe zu lenken."
+                  },
+                  "party": {
+                     "required_job_text": "Benötigt einen Fußsoldaten"
                   }
                }
             },
@@ -1853,7 +1856,7 @@
             "ambient_threats": {
                "random_encounter": {
                   "combat_bulletin": {
-                     "title": "Ein Hearthling wird angegriffen!"
+                     "title": "Ein Gegner!"
                   }
                },
                "goblin_thieves": {
@@ -2039,7 +2042,7 @@
          "defender": {
             "defender_buff": {
                "display_name": "Verteidiger",
-               "description": "Erhöhter Mut!"
+               "description": "Erhöhter Mut und Muskeln!"
             }
          },
          "devoted": {
@@ -2130,6 +2133,18 @@
          "undead_infection": {
             "display_name": "Infiziert",
             "description": "Heilgegenstände sind 10% weniger wirksam"
+         },
+         "courage_tonic": {
+            "courage_tonic_buff": {
+               "display_name": "Mutelixier",
+               "description": "Erhöht den Mut für eine kurze Zeit."
+            }
+         },
+         "minor_courage_buff": {
+            "minor_courage_buff_buff": {
+               "display_name": "Geringfügiger Mut",
+               "description": "Kleine Schub an Mut, während des Alarmmodus"
+            }
          }
       },
       "build": {
@@ -2280,8 +2295,8 @@
             "description": "Verwenden Sie diesen Verbrauchsgegenstand, um jeden Hearthling in der Stadt zu buffen. Dies wird den Gegenstand zerstören."
          },
          "edit_party": {
-            "display_name": "Bearbeite Partie",
-            "description": "Hinzufügen und entfernen von Kämpfern zu dieser Partie."
+            "display_name": "Bearbeite Gruppe",
+            "description": "Hinzufügen und Entfernen von Kämpfern zu dieser Gruppe."
          }
       },
       "personality": {
@@ -3127,7 +3142,7 @@
       },
       "prototypes": {
          "party": {
-            "display_name": "Partie Num.[str(self.unit_info.custom_name)]",
+            "display_name": "Gruppe Num.[str(self.unit_info.custom_name)]",
             "description": "Organisiert Truppen zu Kampfgruppen"
          }
       }
@@ -4578,6 +4593,12 @@
                "display_name": "Bewegenmarkierung",
                "description": "Geht zu diesem Ort"
             }
+         },
+         "party_command_marker": {
+            "party_command_marker_ghost": {
+               "display_name": "Gruppen-Befehl Markierung",
+               "description": "Gruppe komm hierher!"
+            }
          }
       },
       "loot": {
@@ -5354,11 +5375,11 @@
          },
          "stamina_tonic": {
             "display_name": "Ausdauerelixier",
-            "description": "Bufft die Ausdauer aller Hearthlings für eine kurze Zeit"
+            "description": "Vorübergehender Ausdauerbuff"
          },
          "strength_tonic": {
             "display_name": "Stärkeelixier",
-            "description": "Bufft die Muskeln aller Hearthlings für eine kurze Zeit"
+            "description": "Vorübergehender Muskelbuff"
          },
          "coarse_bandage": {
             "display_name": "Grober Verband",
@@ -5371,6 +5392,10 @@
          "light_bandage": {
             "description": "Wird vom Kräuterarzt verwendet, um eine moderate Menge zu heilen.",
             "display_name": "Leichter Verband"
+         },
+         "courage_tonic": {
+            "display_name": "Mutelixier",
+            "description": "Vorübergehender Mutbuff"
          }
       }
    },
