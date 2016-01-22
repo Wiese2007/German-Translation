@@ -1,7 +1,7 @@
 {
    "info" : {
       "name" : "German-Translation-v14", 
-      "version" : 1
+      "version" : 2
    },
    "mixintos" : {
       "stonehearth/locales/supported_languages.json" : "file(added_languages.json)"

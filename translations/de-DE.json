@@ -30,7 +30,6 @@
             "flee": "Flieht!",
             "panic": "in Panik!",
             "mine": "gräbt",
-            "dig_foundation": "gräbt ein Fundament",
             "sleep_in_bed": "schlafen...",
             "sleep_on_ground": "schläft auf dem Boden",
             "check_bait_trap": "überprüfe Fallen",
@@ -48,7 +47,8 @@
             "restock": "Wiederbefüllung mit Elementen",
             "resting_from_injuries": "benötigt medizinische Betreuung",
             "healing": "behandle Wunden",
-            "healing_target": "heile  [name(data.target)]"
+            "healing_target": "heile  [name(data.target)]",
+            "dig_foundation": "gräbt ein Fundament"
          }
       }
    },
@@ -663,7 +663,8 @@
                   "material": "Dach Material",
                   "wood_resource": "Holzdach",
                   "stone_resource": "Steindach",
-                  "clay_resource": "Lehmdach"
+                  "clay_resource": "Lehmdach",
+                  "clay_brick_resource": "Lehmziegeldach"
                },
                "column": {
                   "material": "Säulen Material",
@@ -773,7 +774,7 @@
                   "tooltip_food_containers": "Essen Container",
                   "tooltip_prepared_food": "gekochtes Essen",
                   "tooltip_ingredients": "rohe Zutaten",
-                  "tooltip_healing_items": "Heilgegenstände"
+                  "tooltip_healing_items": "Heilgegenstände und andere Konsumgüter"
                }
             }
          },
@@ -1191,7 +1192,7 @@
             },
             "body": {
                "display_name": "Körper",
-               "description": "Kompetenz bei körperlichen Aktivitäten. Hearthlings mit einem hohen Körperwert bewegen sich schneller. Beeinflusst Muskeln, Geschwindigkeit und Ausdauer."
+               "description": "Kompetenz bei körperlichen Aktivitäten. Hearthlings mit einem hohen Körperwert bewegen sich ein wenig schneller. Beeinflusst Muskeln, Geschwindigkeit und Ausdauer."
             },
             "edibles": {
                "display_name": "Essbares",
@@ -1826,6 +1827,10 @@
                               "ogo_tent": {
                                  "display_name": "Ogo's Zelt",
 				 "Description": "Gemacht aus gebleichten Fellen."
+                              },
+                              "ogo": {
+                                 "description": "Wahrsager sagen Ogo Auserwählter, Ogo-Zyklus-Brecher",
+                                 "display_name": "Ogo Skullbonker"
                               }
                            },
                            "ogo_throne": {
@@ -1846,6 +1851,11 @@
                }
             },
             "ambient_threats": {
+               "random_encounter": {
+                  "combat_bulletin": {
+                     "title": "Ein Hearthling wird angegriffen!"
+                  }
+               },
                "goblin_thieves": {
                   "missions": {
                      "raid_stockpiles": {
@@ -2035,7 +2045,7 @@
          "devoted": {
             "devoted_buff": {
                "display_name": "Ergeben",
-               "description": "Ergeben"
+               "description": "Geschwindigkeit erhöht um 20"
             }
          },
          "groggy": {
@@ -2050,7 +2060,7 @@
                "description": "Von einem mitfühlenden Schäfer betreut. Dieses Tier wird mehr Ressourcen und Nachkommen produzieren."
             },
             "shepherding_speed_bonus": {
-               "display_name": "Herden Temposteigerung + 10%",
+               "display_name": "Herden Temposteigerung",
                "description": "Der Schäfer ist jetzt geschickt genug um die Herde ein klein wenig schneller anzutreiben."
             },
             "stenched_shepherd_buff": {
@@ -2169,7 +2179,7 @@
          },
          "chop_tree": {
             "display_name": "Ernten",
-            "description": "Harvest for lumber, or just to get it out of the way."
+            "description": "Ernte es für Holz, oder einfach um es aus dem Weg zu haben."
          },
          "destroy_entity": {
             "display_name": "Zerstöre",
@@ -2225,15 +2235,10 @@
             "display_name": "Entfernen",
             "description": "Entferne die Leiter."
          },
-         "shear_sheep": {
-            "display_name": "Schaf scheren",
-            "description": "Ernte die Wolle von diesem Schaf. Keine Sorge, es tut nicht weh ... zumindest nicht stark.",
-            "disabled_description": "Du bist wieder in der Lage dieses Schaf zu scheren, sobald seine Wolle nachgewachsen ist."
-         },
          "show_workshop": {
-            "display_name": "Show Workshop",
-            "description": "Your crafter uses the workshop to construct useful items for your settlement.",
-            "disabled_description": "Your crafter uses the workshop to construct useful items for your settlement. Before you can craft you need to assign a crafter to this workshop."
+            "display_name": "Zeige Werkbank",
+            "description": "Dein Handwerker benutzt diese Werkbank um nützliche Gegenstände für deine Siedlung zu bauen.",
+            "disabled_description": "Dein Handwerker benutzt diese Werkbank um nützliche Gegenstände für deine Siedlung zu bauen. Bevor du etwas herstellen kannst, musst du ein Handwerker dieser Werkbank zuweisen."
          },
          "show_workshop_from_crafter": {
             "display_name": "Zeige Werkbank",
@@ -2841,14 +2846,14 @@
                      "002": "Genährt zu sein ist viel, viel, viel Cooler als hungrig zu sein.",
                      "003": "Oh Mann! Ein [str(entry.recent_food)]. Schmeckt gut in dem Bauch.",
                      "with_reaction": {
-                        "000": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Mmm!",
-                        "001": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Food is good.",
-                        "002": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Wooo!",
-                        "003": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Glück.",
-                        "004": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Freude.",
-                        "005": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Oh Junge!",
-                        "006": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Köstlich",
-                        "007": "Dear Diary. Today I'm eating: [str(entry.recent_food)]. Besser als verhungern!"
+                        "000": "Liebes Tagebuch. Heute essen ich: [str(entry.recent_food)]. Mmm!",
+                        "001": "Liebes Tagebuch. Heute essen ich: [str(entry.recent_food)]. Essen ist gut.",
+                        "002": "Liebes Tagebuch. Heute essen ich: [str(entry.recent_food)]. Wooo!",
+                        "003": "Liebes Tagebuch. Heute essen ich: [str(entry.recent_food)]. Glück.",
+                        "004": "Liebes Tagebuch. Heute essen ich: [str(entry.recent_food)]. Freude.",
+                        "005": "Liebes Tagebuch. Heute essen ich: [str(entry.recent_food)]. Oh Junge!",
+                        "006": "Liebes Tagebuch. Heute essen ich: [str(entry.recent_food)]. Köstlich",
+                        "007": "Liebes Tagebuch. Heute essen ich: [str(entry.recent_food)]. Besser als verhungern!"
                      },
                      "teacher": {
                         "000": "[str(entry.teacher)], Ich danke Ihnen für dieses [str(entry.recent_food)]."
@@ -3430,7 +3435,7 @@
             "description": "Plumpes und schmackhaftes Wildgeflügel",
             "poyo_egg": {
                "display_name": "Befruchtetes Poyo Ei",
-               "description": "Is it hatching yet?"
+               "description": "Schlüpft es jetzt?"
             },
             "young": {
                "display_name": "Poyo-Küken",
@@ -4605,7 +4610,7 @@
             },
             "alligator": {
                "display_name": "Varanus",
-               "description": "Und das ist die kleinere Auswahl..."
+               "description": "Und das ist die kleinere Variante..."
             },
             "wolf": {
                "display_name": "ungezähmter Wolf",
@@ -4715,15 +4720,15 @@
          },
          "undead": {
             "skeleton": {
-               "display_name": "Ein Skelett",
+               "display_name": "[str(self.unit_info.custom_name)]",
                "description": "Es sehnt sich nach Fleisch"
             },
             "zombie": {
-               "display_name": "Ein Zombie",
+               "display_name": "[str(self.unit_info.custom_name)]",
                "description": "Er sehnt sich nach Fleisch",
                "male": {
                   "zombie_male": {
-                     "display_name": "Ein Zombie",
+                     "display_name": "[str(self.unit_info.custom_name)]",
                      "description": "Er sehnt sich nach Fleisch"
                   }
                }
@@ -6023,7 +6028,7 @@
                "perk_000_description": "Gelegentlich ergeben sich, durch die besondere Note des Farmers, ganz spezielle Ergebnisse."
             },
             "level_1_data": {
-               "perk_000_name": "Schnelligkeit plus 10%",
+               "perk_000_name": "Schnelligkeit erhöht",
                "perk_000_description": "Durch das bringen von frischen Lebensmitteln auf die Tische, hat sich die Schnelligkeit des Farmers erhöht."
             },
             "level_2_data": {
@@ -6037,7 +6042,8 @@
          },
          "farmer_buffs": {
             "speed_1_buff": {
-               "description": "Durch das bringen von frischen Lebensmitteln auf die Tische, hat sich die Schnelligkeit des Farmers erhöht."
+               "description": "Durch das bringen von frischen Lebensmitteln auf die Tische, hat sich die Schnelligkeit des Farmers erhöht.",
+               "display_name": "Farmergeschwindigkeit erhöht um 10"
             }
          },
          "farmer_hoe": {
@@ -6496,7 +6502,7 @@
                "perk_000_description": "Wilde Tiere spawnen nun eher, wenn der Schäfer Sie sucht."
             },
             "level_1_data": {
-               "perk_000_name": "Schnelligkeit plus 10%",
+               "perk_000_name": "Schnelligkeit erhöht",
                "perk_000_description": "Der Schäfer ist jetzt geschickt genug um die Herde ein klein wenig schneller anzutreiben."
             },
             "level_3_data": {
@@ -6535,11 +6541,11 @@
       "trapper": {
          "trapper_description": {
             "display_name": "Trapper",
-            "description": "ie Fallen des Trappers fangen und (ähem) &quot;ernten&quot; kleine Tiere für eine zuverlässige Quelle an Lebensmitteln und Vorräten.",
+            "description": "Die Fallen des Trappers fangen und (ähem) &quot;ernten&quot; kleine Tiere für eine zuverlässige Quelle an Lebensmitteln und Vorräten.",
             "requirements": "Trappermesser, wird von dem Schmied hergestellt.",
             "level_1_data": {
                "title": "Geselle",
-               "perk_000_name": "Schnelligkeit plus 10%",
+               "perk_000_name": "Schnelligkeit erhöht",
                "perk_000_description": "Lange Spaziergänge haben die Geschwindkeit des Trappers erhöht."
             },
             "level_3_data": {
@@ -6581,7 +6587,8 @@
          },
          "trapper_buffs": {
             "speed_1_buff": {
-               "description": "Lange Spaziergänge haben die Geschwindkeit des Trappers erhöht."
+               "description": "Lange Spaziergänge haben die Geschwindkeit des Trappers erhöht.",
+               "display_name": "Trappergeschwindigkeit erhöht um 10"
             }
          },
          "trapper_knife": {
@@ -6720,12 +6727,12 @@
                "flavor": "Zu schön, um draufzutreten."
             },
             "worker_outfit_2_recipe": {
-               "description": "Doppelt gestickt und strategisch platzierte Polsterung erhöht die Effizienz des Arbeiters. Der Arbeiter der dieses Upgrade erhält wird sich 10 % schneller bewegen.",
+               "description": "Doppelt gestickt und strategisch platzierte Polsterung erhöht die Effizienz des Arbeiters. Der Arbeiter der dieses Upgrade erhält wird sich schneller bewegen.",
                "recipe_name": "Verbesserte Arbeiteruniform",
                "flavor": "Deine Stadt liebt dich!"
             },
             "worker_outfit_winter_recipe": {
-               "description": "Eine schwerer Wollmantel für kalte Winternächte. Der Arbeiter der dieses Upgrade erhält wird sich 10 % schneller bewegen.",
+               "description": "Eine schwerer Wollmantel für kalte Winternächte. Der Arbeiter der dieses Upgrade erhält wird sich schneller bewegen.",
                "recipe_name": "Winteruniform",
                "flavor": "Der Winter kommt!"
             },
