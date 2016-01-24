@@ -1376,7 +1376,7 @@
                            "dialog_title": "???"
                         },
                         "erdenes_help": {
-                           "choice_000": "Uh... Okay?",
+                           "choice_000": "Uh... okay?",
                            "choice_001": "Verwirrt. Es tut uns leid.",
                            "bulletin_message": {
                               "000": "Aufzusteigen bedeutet sich Stärke zu leihen und zu fallen wenn Macht fehlt. Ogo borgt sich die Stärke nicht vom-sogenannten-Wahrsager sondern von gestohlenen Babys."
@@ -1592,7 +1592,7 @@
                               "004": "Goblinwölfe sind trainiert auf Kommando anzugreifen. Befreie Sie bevor das Kommando erhalten und du wirst heute Nacht ruhig schlafen."
                            },
                            "bulletin_title": "Eine Nachricht auf einen Pfeil wurde an dein Banner geschossen",
-                           "dialog_title": "Mysterious Message"
+                           "dialog_title": "Mysteriöse  Nachricht"
                         }
                      }
                   }
@@ -1608,7 +1608,7 @@
                               "003": "Die Goblinwölfe sind nicht wie normale Wölfe - Sie sind schnell, bösartig und furchtlos! Rennt solang Ihr noch könnt!",
                               "004": "Du hast Goblins in deinen Wäldern! Versteckt euch irgendwo bevor Sie angreifen!"
                            },
-                           "bulletin_title": "keuchende Flüchtlinge erscheinen am Horizont",
+                           "bulletin_title": "Keuchende Flüchtlinge erscheinen am Horizont",
                            "dialog_title": "Flüchtlinge"
                         }
                      }
@@ -1649,7 +1649,7 @@
                               "00": "Yip! Yip! AWOOOOOO!!!!!!!"
                            },
                            "bulletin_title": "Die Wölfe explodieren freudig aus Ihren Käfigen",
-                           "dialog_title": "flüchtende Wölfe"
+                           "dialog_title": "Flüchtende Wölfe"
                         }
                      }
                   }
@@ -2717,7 +2717,7 @@
                      "005": "Ich wünschte wirklich, wirklich ich hätte ein Bett, das ich meine eigen nennen kann.",
                      "006": "Ich war zu erschöpft, um ein richtiges Bett zu finden und jetzt werde ich wirklich dafür bezahlen. Au!",
                      "007": "Schlief wieder auf dem Boden. Nacken extrem wund. Alles sieht schräg aus.",
-                     "008": "I counted beds to go to sleep. BEDS!",
+                     "008": "Ich zählte Betten zm schlafen zu gehen. BETTEN!",
                      "teacher": {
                         "000": "Obwohl [str(entry.teacher)] während der Wallfahrt auf dem Boden schlief, wünschte ich, das ich das nicht machen muss."
                      }
@@ -3449,7 +3449,7 @@
             "display_name": "Ein Poyo",
             "description": "Plumpes und schmackhaftes Wildgeflügel",
             "poyo_egg": {
-               "display_name": "Befruchtetes Poyo Ei",
+               "display_name": "Befruchtetes Poyoei",
                "description": "Schlüpft es jetzt?"
             },
             "young": {
@@ -6845,7 +6845,7 @@
       },
       "herbalist": {
          "herbalist_description": {
-            "display_name": "Kräutearzt",
+            "display_name": "Kräuterarzt",
             "description": "Heilt Einheiten mit hergestellten Balsamen und Verbänden.",
             "requirements": "Kräuterarztstab, wird vom Schreiner hergestellt.",
             "workshop": {
@@ -6855,7 +6855,7 @@
             },
             "level_1_data": {
                "perk_000_name": "Verbesserte Willenskraft",
-               "perk_000_description": "Der Kräutearzt kanalisiert die Geister des Waldes und gewinnt natürliche Regeneration."
+               "perk_000_description": "Der Kräuterarzt kanalisiert die Geister des Waldes und gewinnt natürliche Regeneration."
             },
             "level_2_data": {
                "perk_000_name": "Gemeinsame Einblicke",
@@ -6918,7 +6918,7 @@
             "bandages_name": "Verbände",
             "coarse_bandage_recipe": {
                "recipe_name": "Grober Verband",
-               "description": "Wird vom Kräutearzt verwendet, um eine kleine Menge zu heilen"
+               "description": "Wird vom Kräuterarzt verwendet, um eine kleine Menge zu heilen"
             },
             "heavy_bandage_recipe": {
                "recipe_name": "Schwerer Verband",
@@ -6927,6 +6927,10 @@
             "light_bandage_recipe": {
                "recipe_name": "Leichter Verband",
                "description": "Wird vom Kräuterarzt verwendet, um eine moderate Menge zu heilen."
+            },
+            "courage_tonic_recipe": {
+               "description": "Bufft den Mut aller Hearthlinge für eine kurze Zeit.",
+               "recipe_name": "Mutelixier"
             }
          },
          "herbalist_buffs": {
