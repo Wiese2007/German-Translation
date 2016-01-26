@@ -1,0 +1,434 @@
+{
+   "kingdom": {
+      "kingdom_name": "Beschützer",
+      "quote": "Beschützer verteidigt den Herold, der Herold ist unsere Bastion",
+      "long_description2": "Stark wie Stein und gefährlich wie die Bedrohungen, denen sie sich in ihren Minen stellen. Ihre Kultur erfordert strenge Hierarchien und Gehorsam gegenüber ihrer Führung. Es ist wenig über ihre Herkunft bekannt und niemand weiß genau, wer &quot;Der Herold&quot; ist.",
+      "long_description": "Sie sind eine neugierige, steinige Rasse. Das Echo der unbekannten Berge kündet die Stärke eines geheimnisvollen Wesen, bekannt als &quot;Der Herold&quot;. Wenig sonst ist über die Kreaturen bekannt. Sie sind schlecht auf das Überleben an der Oberfläche vorbereitet, so sei bereit für Schwierigkeiten.",
+      "post_selection_description": ", neugierig und schnell, sie arbeiten bis zum Umfallen, so pass gut auf sie auf."
+   },
+   "jobs": {
+      "blacksmith": {
+         "blacksmith_description": {
+            "description": "Bei der Gestaltung der Erde, bevorzugen einige die Wärme und Stärke der Metallbearbeitung als die Bearbeitung von Stein. Sie nutzten ihre mächtigen Hämmer um Metall in Rüstungen,Waffen usw. zu formen.",
+            "requirements": "Stufe 2 Steinmetz und ein Schmiedehammer, hergestellt vom Steinmetz."
+         },
+         "recipes": {
+            "bucket_helmet_recipe": {
+               "recipe_name": "Exotische Metallkopfstück",
+               "description": "Der Höhepunkt von Form und Funktion",
+               "flavor": "The Herold würde mit Stolz anschwellen, um so aussehen."
+            },
+            "ornate_armor_recipe": {
+               "recipe_name": "Verziert Rüstung",
+               "description": "Eine ehrenvolle Investition für die großen Beschützer des Herolds.",
+               "flavor": "Es wird deine Feinde blenden."
+            },
+            "reinforced_armor_recipe": {
+               "recipe_name": "Verstärkte Rüstung",
+               "description": "Hoher Rüstungswert und verleiht Mut, derjenigen, die es tragen.",
+               "flavor": "Für den Herold!"
+            }
+         }
+      },
+      "carpenter": {
+         "carpenter_description": {
+            "description": "Steinmetzarbeit ist ein ermüdendes Handwerk. Sanftere Seelen haben sich auf die geschmeidige und flexible Natur des Holzes eingestellt. Die Formbarkeit von Hölzern bietet sich für die Bearbeitung von feinen, schöner Möbel und Bauteilen besser an, als Stein.",
+            "requirements": "Stufe 4 Steinmetz und einer Tischler Säge, hergestellt von einem Schmied."
+         },
+         "recipes": {
+            "crate_helmet_recipe": {
+               "recipe_name": "Herold's hölzener Helm",
+               "description": "Es passt so perfekt, wie kann es alles andere als ein Kopfstück sein?",
+               "flavor": "Den Schutz den es bietet, ist unermesslich."
+            }
+         }
+      },
+      "cook": {
+         "cook_description": {
+            "description": "Wie Menschen, die Saat pflegen und viel Zeit investieren. Köche wählen lieber doe Harmonie um neue Gerichte herzustellen um andere zu nähren.",
+            "requirements": "Stufe 2 Farmer und einen Steinzeug Löffel, hergestellt von einem Steinmetz."
+         },
+         "recipes": {
+            "golden_gourd_curry_recipe": {
+               "description": "Sind Kürbisse sind essbar, wenn sie gekocht sind?",
+               "recipe_name": "Goldenes Kürbis-Curry",
+               "flavor": "TODO (Geschmack!)"
+            },
+            "flat_bread_recipe": {
+               "description": "Ungesäuertes Brot aus Maismehl",
+               "recipe_name": "Fladenbrot"
+            },
+            "meat_tagine_recipe": {
+               "description": "Fleisch und Gemüse in einem Tontopf geschmort",
+               "recipe_name": "Fleisch-Eintopf Tagine"
+            },
+            "vegetable_tagine_recipe": {
+               "description": "Gemüse in einem Tontopf geschmort",
+               "recipe_name": "Gemüseeintopf Tagine"
+            }
+         }
+      },
+      "farmer": {
+         "farmer_description": {
+            "description2": "All das Wandern und streifen durch die Natur, hilft nicht, aber sich niederzulassen schon. Farmer kehren zurück zu einem sesshaften Leben um Pflanzen anzubauen, aus denen Materialen zum Kochen und zum Heilen hergestellt werden können.",
+            "requirements": "Stufe 2 Kräutersammler und eine Bauern Hacke, hergestellt von einem Tischler."
+         },
+         "farmer_hood": {
+            "description": "Eine einfache Haube, um sich die Sonne vom Hals zu halten, während man auf den Feldern arbeitet.",
+            "display_name": "Bauern-Hacke"
+         }
+      },
+      "footman": {
+         "footman_description": {
+            "description": "Den Herold zu verteidigen ist eine Notwendigkeit, und einige finden Vergnügen daran zu töten, sie werden Fußsoldaten. Sie konzentrieren ihre Blutlust auf Plünderungen und der Verteidigung in Namen des Herolds.",
+            "requirements": "Stufe 2 Jäger und ein Steinübungsschwert, hergestellt von einem Steinmetz."
+         }
+      },
+      "herbalist": {
+         "herbalist_description": {
+            "description": "Vielleicht ertragen einige nicht das Schlachten oder waren einfach nicht gut darin, aber sie finden die Flora besser als die Fauna. Kräutersammler verwenden Pflanzen zur herstellung von Tränken, die heilen und um Zaubertränke zu brauen.",
+            "requirements": "Stufe 2 Soldat und ein Kräuterkundiger, hergestellt von einem Tischler."
+         },
+         "herbalist_hood": {
+            "description": "Eine schöne Kapuze, die das Kräutersammler Gewand ergänzt.",
+            "display_name": "Kräutersammler Kapuze"
+         },
+         "recipes": {
+            "fungi_name": "Pilze",
+            "fine_mushroom_colony_recipe": {
+               "description": "Propagiere eine nahrhafte Art von Speisepilzen",
+               "flavor": "Mal sehen, ob wir diese Dinge nicht etwas schmackhafter machen können.",
+               "recipe_name": "propagiere Pilze"
+            },
+            "mushroom_colony_recipe": {
+               "description": "Pflegen Sie eine Kolonie von Speisepilzen",
+               "flavor": "Wenn du es müde bist Beeren zu essen.",
+               "recipe_name": "Kultivieren Sie eine Pilz Kolonie"
+            }
+         }
+      },
+      "mason": {
+         "mason_description": {
+            "description": "In dem Wunsch, die Welt um sie zu gestalten, entscheiden sich Steinmetzte Stein zu verwenden, um nützliche Möbel, Werkzeuge, Handwerk oder Ornamente herzustellen.",
+            "requirements": "Steinmetz Meißel, hergestellt vom Töpfer"
+         },
+         "recipes": {
+            "armor_name": "Rüstung",
+            "crude_stone_bed_recipe": {
+               "description": "Ein Bett aus Stein und Holzspäne hergestellt.",
+               "flavor": "Holzspäne sind besser als nichts.",
+               "recipe_name": "Grobes Steinbett"
+            },
+            "luxurious_stone_bed_recipe": {
+               "description": "Ein Wunderwerk von Bettarbeit.",
+               "flavor": "Die Bettdecke schützt Sie vor den Monstern unterm Bett.",
+               "recipe_name": "Luxuriöses Steinbett"
+            },
+            "makeshift_stone_armor_recipe": {
+               "recipe_name": "Behelfsmäßige Steinrüstung",
+               "description": "Aus der Not herausgemacht. Anfällig zu brechen.",
+               "flavor": "Dieses immense Gewicht muss eine gute Übung sein..."
+            },
+            "basic_stone_armor_recipe": {
+               "recipe_name": "einfache Steinrüstung",
+               "description": "Eine dauerhafte Rüstung, noch etwas spröde.",
+               "flavor": "Dein Rücken wird es dir danken!"
+            },
+            "pleasant_stone_bed_recipe": {
+               "description": "Ein verbessertes Bett, bietet einen viel erholsameren Schlaf.",
+               "flavor": "&quot;Ahhh ...&quot; - Jeder, der in diesem Bett schläft.",
+               "recipe_name": "Angenehmes Steinbett"
+            },
+            "stone_sword_recipe": {
+               "description": "Ein rudimentäres Steinschwert, das gut für den einfachen Kampf ist. Wird verwendet um einen Soldaten zu trainieren.",
+               "flavor": "Mehr hacken als schlagen.",
+               "recipe_name": "Steinernes Übungsschwert"
+            }
+         }
+      },
+      "shepherd": {
+         "shepherd_description": {
+            "description": "Einige Jäger entdecken die Liebe für ein anderes Geschöpf der Welt. Sie behalten es lieber, als es zu töten.",
+            "description2": "Ruhelos wie sie sind, patrouillieren sie, Tag ein, Tag aus; Jäger wollen die Wildnisss durchstreifen, Tiere jagen und Fallen stellen für das Fleisch und Fell.",
+            "requirements": "Level 4 Jäger und ein Hirtenstab hergestellt von einem Tischler."
+         }
+      },
+      "trapper": {
+         "trapper_description": {
+            "description": "Mit ihrer neu gewonnenen Freiheit, entschieden einige Beschützer, weit und breit herumlaufen anstatt Erde um sie herum zu formen.",
+            "description2": "Ruhelos wie sie sind, patrouillieren sie, Tag ein, Tag aus; Jäger wollen die Wildnisss durchstreifen, Tiere jagen und Fallen stellen für das Fleisch und Fell.",
+            "requirements": "Jägermesser, hergestellt vom Schmied."
+         }
+      },
+      "potter": {
+         "potter_description": {
+            "description": "Lehm ist eine einzigartige Mischung aus Hartgestein, weichem Holz und geschmolzenen Metall, die nur wenige Nutzen können. Diejenigen, die es wählen, können einzigartige Möbel und Gefäße fertigen.",
+            "requirements": "Level 5 Steinmetz und ein Töpfermesser, hergestellt vom Steinmetzt."
+         }
+      },
+      "weaver": {
+         "weaver_description": {
+            "description": "Heilung der Kranken und Verwundeten ist eine schmutzige Arbeit. Diejenigen, mit schwachen Mägen besser vielleicht das Weben von Fasern in Kleidung wählen, das verhindert Verletzungen und Übelkeit.",
+            "requirements": "Level 3 Kräuterkundiger und eine Weber Spindel, hergestellt von einem Tischler."
+         },
+         "recipes": {
+            "wicker_basket_recipe": {
+               "description": "Robust und leicht, ideal für einen Arbeiter auf dem Sprung.",
+               "flavor": "Er passt zu  den Schmutz auf meinem Outfit!",
+               "recipe_name": "Weidenrucksack"
+            }
+         }
+      }
+   },
+   "data": {
+      "buffs": {
+         "courage": {
+            "courage_buff": {
+               "display_name": "Mut",
+               "description": "Dieser Heartling wird in Angesicht von Gefahr über sich hinauswachsen."
+            }
+         }
+      },
+      "bastioneers_population": {
+         "display_name": "Beschützer"
+      },
+      "gm": {
+         "campaigns": {
+            "bastioneers": {
+               "dialog_nodes": {
+                  "dialog_title": "Beschützer Kommandant",
+                  "helper_title": "Die Herold Expedition",
+                  "bulletin_message": {
+                     "000": "Recht so, sieht aus wie Lager, richtige Siedlung werden muss.",
+                     "001": "Du vorangehen. Hier deine Anweisung ist.",
+                     "002": "Es gefährlich hier draußen ist, du dich bereiten musst, viele viele Monster zu sehen,",
+                     "003": "Des Herolds qualifizierte Steinmetz' Rüstung, die jeder Schützer trägt; praktisch nackt ohne sie!",
+                     "004": "Richtig, Steinrüstung bricht oft, halte einen guten Vorrat breit! Andernfalls von bedrohliche Monster gefressen!",
+                     "005": "Viel zu lernen und zu entdecken hier, Einfallsreichtum benötigt um zu überleben. Kein Neid deiner Gruppe",
+                     "006": "Der Herold wird überprüfen, ob Siedlung sicher, mit einigen Aufgaben... Der Herold wird nicht verleugnet.",
+                     "007": "Der Herold ist unsere Bastion."
+                  }
+               }
+            },
+            "trader": {
+               "iskender_caravan_1": {
+                  "shop_info": {
+                     "name": "Iskender Handelskarawane ",
+                     "title": "Die Iskender Handelskarawane kehrt zurück!"
+                  }
+               },
+               "iskender_caravan_2": {
+                  "shop_info": {
+                     "name": "Iskender Handelskarawane ",
+                     "title": "Die Iskender Handelskarawane kehrt mit mehr Ware zurück!"
+                  }
+               },
+               "iskender_caravan_3": {
+                  "shop_info": {
+                     "name": "Iskender Handelskarawane ",
+                     "title": "Die Iskender Handelskarawane kehrt zurück!"
+                  }
+               },
+               "starting_food_donation": {
+                  "donation_dialog_info": {
+                     "dialog_nodes": {
+                        "simple_message": {
+                           "bulletin_message": {
+                              "000": "Haha, es gibt nichts wie den Anblick von einem brandneuen Außenposten, wie? Mit Deiner harten Arbeit, wird dieses verwüstete Land bald ein Nexus von Reichtum und Wohlstand! Wir werden morgen wieder mit der ganzen Laden zu sein, aber in der Zwischenzeit, hier ist die Aussteuer die deine Familie schickte:",
+                              "001": "Affe hält Sie, Freund! Es ist immer eine Freude zu sehen, an eurem Handelspunkt halt zu machen. Entsprechend unseren Vertrages, kommen wir morgen mit dem ganzen Laden wieder. In der Zwischenzeit, hier ist die Aussteuer Ihrer Familien:",
+                              "002": "Iskender Traders ist immer auf der Suche nach einem neuen Ruheplatz zwischen den Posten. Wir freuen uns, Sie hier zu sehen, Freunde! Wir sind morgen wieder mit dem Laden da, aber in der Zwischenzeit hier eine Stichprobe von unseren Waren, für den Einstieg:",
+                              "003": "Alle bereit, einen neuen Außenposten zu starten, eh! Meine Freunde, die Wüste egrüßt alle seine Kinder. Wir werden morgen wiederkommen, um nach dir zu sehen, aber in der Zwischenzeit, schickten uns deine Eltern diese Verbrauchsmaterialien, für den Start:",
+                              "004": "Aha, ein neuer potenzieller Partner für Iskender Händler! Wir müssen morgen zurück sein mit dem ganzen Laden, aber weißt du was. Nimm diese Startmaterialen und wir sehen, was du daraus machen kannst für uns, nicht wahr?"
+                           },
+                           "bulletin_title": "Ein Iskender Agent nähert sich",
+                           "dialog_title": "Naryal Iskender",
+                           "choice_000": "Vielen Dank, geehrter Ältester!"
+                        }
+                     }
+                  }
+               },
+               "stonecutter_shop": {
+                  "shop_info": {
+                     "name": "Vosker Saji's polierte Erde",
+                     "title": "Ein Meister Steinmetz-Wagen nähert sich."
+                  }
+               },
+               "tannery_shop": {
+                  "shop_info": {
+                     "name": "Rin's feine Pelze und Felle",
+                     "title": "Ein Waagen mit feinen Tierwaren nähert sich."
+                  }
+               },
+               "woodcutter_shop": {
+                  "shop_info": {
+                     "name": "Rajin's Waren aus dem fernen Westen",
+                     "title": "Ein exotischer Laden mit selten Holzwaren nähert sich"
+                  }
+               }
+            }
+         }
+      }
+   },
+   "entities": {
+      "armor": {
+         "bucket_helmet": {
+            "display_name": "Exotische Metallkopfstück",
+            "description": "Der Höhepunkt von Form und Funktion",
+            "bucket_helmet_iconic": {
+               "display_name": "Exotische Metallkopfstück",
+               "description": "Der Höhepunkt von Form und Funktion"
+            }
+         },
+         "crate_helmet": {
+            "display_name": "Herold's hölzener Helm",
+            "description": "Es passt so perfekt, wie kann es alles andere als ein Kopfstück sein?",
+            "crate_helmet_iconic": {
+               "display_name": "Herold's hölzener Helm",
+               "description": "Es passt so perfekt, wie kann es alles andere als ein Kopfstück sein?"
+            }
+         },
+         "makeshift_stone_armor": {
+            "display_name": "Behelfsmäßige Steinrüstung",
+            "description": "Aus der Not herausgemacht. Anfällig zu brechen.",
+            "makeshift_stone_armor_iconic": {
+               "display_name": "Behelfsmäßige Steinrüstung",
+               "description": "Aus der Not herausgemacht. Anfällig zu brechen."
+            }
+         },
+         "basic_stone_armor": {
+            "display_name": "einfache Steinrüstung",
+            "description": "Eine dauerhafte Rüstung, noch etwas spröde.",
+            "basic_stone_armor_iconic": {
+               "display_name": "einfache Steinrüstung",
+               "description": "Eine dauerhafte Rüstung, noch etwas spröde."
+            }
+         },
+         "ornate_armor": {
+            "display_name": "Verziert Rüstung",
+            "description": "Eine ehrenvolle Investition für die großen Beschützer des Herolds.",
+            "ornate_armor_iconic": {
+               "display_name": "Verziert Rüstung",
+               "description": "Eine ehrenvolle Investition für die großen Beschützer des Herolds."
+            }
+         },
+         "reinforced_armor": {
+            "display_name": "Verstärkte Rüstung",
+            "description": "Hoher Rüstungswert und verleiht Mut, derjenigen, die es tragen.",
+            "reinforced_armor_iconic": {
+               "display_name": "Verstärkte Rüstung",
+               "description": "Hoher Rüstungswert und verleiht Mut, derjenigen, die es tragen."
+            }
+         }
+      },
+      "food": {
+         "fungi": {
+            "fine_mushroom_basket": {
+               "description": "Uff, das ist schwer!",
+               "display_name": "Korb mit feinen Pilzen"
+            },
+            "fine_mushroom_serving": {
+               "description": "Viel schmackhafter als wilde Pilze.",
+               "display_name": "feine Pilze"
+            },
+            "golden_mushroom_basket": {
+               "description": "Verwöhne die Jungs nicht zu sehr!",
+               "display_name": "Goldener Pilzkorb"
+            },
+            "golden_mushroom_serving": {
+               "description": "Verwöhne die Jungs nicht zu sehr!",
+               "display_name": "Goldene Pilze"
+            },
+            "mushroom_basket": {
+               "description": "Nur ein großer Korb mit Pilzen",
+               "display_name": "Korb mit Pilzen"
+            },
+            "mushroom_serving": {
+               "description": "Schmeckt toll neben Beeren.",
+               "display_name": "Teller mit Pilzen"
+            }
+         }
+      },
+      "fungi": {
+         "fine_mushroom_colony": {
+            "description": "Mit Steinen gespickt, gut für eine gesunder Schützer Ernährung",
+            "display_name": "Qualitäts Pilzkolonie",
+            "unripe_description": "Noch nicht bereit zum Ernten."
+         },
+         "golden_mushroom_colony": {
+            "description": "Der Heiler sagt, das mit der Macht des Herolds durchdrungen ist.",
+            "display_name": "Goldene Pilz Kolonie",
+            "unripe_description": "Noch nicht bereit zum Ernten."
+         },
+         "mushroom_colony": {
+            "description": "Nahrhaft, konnte aber besser schmecken",
+            "display_name": "Pilzkolonie",
+            "unripe_description": "Noch nicht bereit zum Ernten."
+         }
+      },
+      "furniture": {
+         "crude_stone_bed": {
+            "crude_stone_bed_ghost": {
+               "display_name": "Grobes Steinbett",
+               "description": "Ich denke, Holzspäne sind besser als nichts."
+            }
+         },
+         "kingly_stone_bed": {
+            "kingly_stone_bed_ghost": {
+               "display_name": "königliches Steinbett",
+               "description": "Benutze dieses Exponat um die Fadenzahl zu erhöhen."
+            }
+         },
+         "luxurious_stone_bed": {
+            "luxurious_stone_bed_ghost": {
+               "display_name": "Luxuriöses Steinbett",
+               "description": "Du willst es nicht verlassen."
+            }
+         },
+         "pleasant_stone_bed": {
+            "pleasant_stone_bed_ghost": {
+               "display_name": "Angenehmes Steinbett",
+               "description": "Eine komfortable Schlaf Unterkunft."
+            }
+         }
+      },
+      "gizmos": {
+         "b_camp_standard": {
+            "b_camp_standard_ghost": {
+               "display_name": "Des Herolds Siegel",
+               "description": "Vielleicht stehlen sie es uns."
+            }
+         }
+      },
+      "storage": {
+         "wicker_basket": {
+            "wicker_basket_ghost": {
+               "display_name": "Weidenkorb",
+               "description": "Robust und leicht, ideal für den Arbeiter auf dem Sprung!"
+            }
+         }
+      },
+      "weapons": {
+         "stone_sword": {
+            "description": "Eine rudimentäre Waffe, die gut zum Üben der Kampffähigkeiten ist.",
+            "display_name": "Steineres Übungsschwert",
+            "stone_sword_iconic": {
+               "description": "Mehr hacken als schlagen.",
+               "display_name": "Steiners Übungsschwert"
+            },
+            "stone_sword_talisman": {
+               "description": "Eine rudimentäre Waffe, die gut zum Üben  der Kampffähigkeiten ist.",
+               "display_name": "Steiners Übungsschwert"
+            }
+         }
+      }
+   },
+   "ui": {
+      "game": {
+         "common": {
+            "hail": "Ehre dem Herold!",
+            "okay": "okay",
+            "yessir": "Jawohl!"
+         }
+      }
+   }
+}
