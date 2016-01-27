@@ -1081,7 +1081,7 @@
             "title": "Bereite dich vor zu Abenteuern aufzubrechen",
             "citizen_info": "Expeditionsteilnehmer",
             "reroll_citizens": "Rolle neue Einwohner",
-            "shop_title": "Abenteuerershop",
+            "shop_title": "Abenteurershop",
             "shop_gold_label": "Gold",
             "shop_sold": "VERKAUFT!",
             "shop_reset_button": "Reset",
@@ -5757,7 +5757,7 @@
             },
             "small_crate_recipe": {
                "description": "Für kompakte Speicherung von bis zu 8 Artikel",
-               "recipe_name": "Kleine Kistee",
+               "recipe_name": "Kleine Kiste",
                "flavor": "Wenn Kisten alles lagern, was nicht gelagert werden kann, lagern Sie sich selbst?"
             },
             "table_for_one_recipe": {
