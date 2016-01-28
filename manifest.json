@@ -37,8 +37,8 @@
       "retro_games/locales/de.json" : "file(translations/de-retro.json)",
       "patrol_mod/locales/de-DE.json" : "file(translations/de-patrol.json)",
       "patrol_mod/locales/de.json" : "file(translations/de-patrol.json)",
-	  "bastioneers_mod/locales/de-DE.json" : "file(translations/de-bastioneers.json)",
-	  "bastioneers_mod/locales/de.json" : "file(translations/de-bastioneers.json)",
+	   "bastioneers/locales/de-DE.json" : "file(translations/de-bastioneers.json)",
+	   "bastioneers/locales/de.json" : "file(translations/de-bastioneers.json)",
 
 
 
