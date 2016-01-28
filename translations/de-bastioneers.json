@@ -4,7 +4,7 @@
       "quote": "Bastioneers verteidigt den Herold, der Herold ist unsere Bastion",
       "long_description2": "Stark wie Stein und gefährlich wie die Bedrohungen, denen sie sich in ihren Minen stellen. Ihre Kultur erfordert strenge Hierarchien und Gehorsam gegenüber ihrer Führung. Es ist wenig über ihre Herkunft bekannt und niemand weiß genau, wer &quot;Der Herold&quot; ist.",
       "long_description": "Sie sind eine neugierige, steinige Rasse. Das Echo der unbekannten Berge kündet die Stärke eines geheimnisvollen Wesen, bekannt als &quot;Der Herold&quot; an. Wenig sonst ist über diese Kreaturen bekannt. Sie sind schlecht auf das Überleben an der Oberfläche vorbereitet, sei daher auf Schwierigkeiten vorbereitet.",
-      "post_selection_description": ", neugierig und schnell, sie arbeiten bis zum Umfallen, also pass gut auf sie auf."
+      "post_selection_description": ". Sie sind neugierig und schnell und arbeiten bis zum Umfallen. Pass also gut auf sie auf."
    },
    "jobs": {
       "blacksmith": {
