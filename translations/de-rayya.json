@@ -20,7 +20,7 @@
       },
       "mason": {
          "mason_description": {
-            "requirements" : "Erfordert einen Level 2 Töpfer und Steinmetzmeißel, durch den Töpfer hergestellt."
+            "requirements" : "Ein Level 2 Töpfer und einen Steinmetzmeißel, wird hergestellt vom Töpfer."
          }
       },
       "cook": {
@@ -61,7 +61,7 @@
                "iskender_caravan_2": {
                   "shop_info": {
                      "name": "Iskender Handelskarawane",
-                     "title": "Die Iskender Handelskarawane kehr mit mehr Sachen zurück!"
+                     "title": "Die Iskender Handelskarawane kehr mit mehr Waren zurück!"
                   }
                },
                "iskender_caravan_3": {
