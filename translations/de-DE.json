@@ -218,6 +218,10 @@
             "manage_party": {
                "display_name": "Gruppe verwalten",
                "description": "Hinzufügen und Entfernen von Kampfeinheiten aus oder in die Gruppe."
+            },
+            "cancel_order": {
+               "display_name": "Befehl stornieren",
+               "description": "Bricht aktive Kampfaufträge ab."
             }
          },
          "citizens": {
@@ -449,13 +453,13 @@
                   },
                   "party_1": {
                      "display_name": "Kampf-Gruppe 1",
-                     "description": "Führe Hearthlinge in den Kampf! Ernannte Kampfklassen werden hier automatisch hinzugefügt.",
+                     "description": "Führe Hearthlinge mit Kampfklassen in den Kampf! Ernannte Kampfklassen werden hier automatisch hinzugefügt.",
                      "tip_title": "Die Gruppe ist im Einheitenrahmen ausgewählt.",
                      "tip_description": "Verwende die Befehle im Einheit-Rahmen, um die Leute dieser Gruppe zu lenken."
                   },
                   "party_2": {
                      "display_name": "Kampf-Gruppe",
-                     "description": "Führe Hearthlinge in den Kampf! Ernannte Kampfklassen werden hier automatisch hinzugefügt.",
+                     "description": "Führe Hearthlinge mit Kampfklassen in den Kampf! Ernannte Kampfklassen werden hier automatisch hinzugefügt.",
                      "tip_title": "Die Gruppe ist im Einheitenrahmen ausgewählt.",
                      "tip_description": "Verwende die Befehle im Einheit-Rahmen, um die Leute dieser Gruppe zu lenken."
                   },
@@ -1098,10 +1102,10 @@
          "post_bug": {
             "title": "Filing bugs",
             "message": "Vielen Dank für die Teilnahme an der Stonehearth Alpha! Hier findest du, wie du einen Fehler melden kannst.",
-            "file_bug_step_1": "Gehe zu http://discourse.stonehearth.net/c/support/active-bug",
-            "file_bug_step_2": "Überprüfen in der Liste der aktiven Themen, ob dein Fehler bereits gemeldet wurde. Wenn nicht erstell bitte ein neues Thema",
-            "file_bug_step_3": "Beim hinterlegung des Fehlers, laden bitte Screenshots des Fehlers mit hoch",
-            "file_bug_step_4": "Wenn du ein Absturzfehler meldest, geben bitte deine persönliche Benutzer-ID mit an"
+            "file_bug_step_1": "Gehe zu http://discourse.stonehearth.net/c/support/bug-reports",
+            "file_bug_step_2": "Überprüfen in der Liste der aktiven Themen, ob dein Fehler bereits gemeldet wurde. Wenn icht erstell bitte einen neuen Thread",
+            "file_bug_step_3": "Beim erklären des Bugs, achte bitte darauf, alle im Bericht geforderten Informationen zu benennen und kopiere den Text aller Engine Fehler. Screenshots für visuelle Bugs sind ebenfalls sehr hilfreich.",
+            "file_bug_step_4": "Wenn du auf einen Absturzfehler stößt, überprüfe bitte http://discourse.stonehearth.net/t/13297 nach gemeinsamen Lösungen und wie du Hilfe für Abstürze bekommst. Unten ist deine persönliche Benutzer-ID: "
          },
          "error_browser": {
             "title": "Engine Fehler",
@@ -1204,7 +1208,7 @@
             },
             "mind": {
                "display_name": "Verstand",
-               "description": "Die Fähigkeit intelligent zu denken. Ein hoher Verstandwert ermöglicht einem Hearthling komplexe geistige Aufgaben zu bearbeiten. Beeinflusst Fleiß, Neugierde und Ideenreichtum."
+               "description": "Die Fähigkeit Intelligent zu denken. Ein hoher Verstandwert ermöglicht einem Hearthling komplexe geistige Aufgaben, wie Handwerk, zu bearbeiten. Beeinflusst Fleiß, Neugierde und Ideenreichtum."
             },
             "curiosity": {
                "display_name": "Neugier",
@@ -1215,7 +1219,7 @@
             },
             "spirit": {
                "display_name": "Geist",
-               "description": "Vertrauen in andere Menschen. Ein hoher Geistwert ermöglicht es Hearthlings sich leichter mit anderen anzufreunden und standhafter gegen Feinde zu sein. Beeinflusst Mut, Willenskraft und das Mitgefühl."
+               "description": "Der Glaube in andere Menschen. Ein hoher Geistwert ermöglicht es Hearthlings leichter Tiere zu zähmen und standhaftt gegen Feinde zu sein. Beeinflusst Mut, Willenskraft und das Mitgefühl."
             },
             "safety": {
                "display_name": "Sicherheit",
@@ -1981,6 +1985,17 @@
                      "description": "Die große Vielfalt."
                   }
                },
+               "giant_wolf_raid_4": {
+                  "wolf": {
+                     "display_name": "Gigantischer Wolf",
+                     "description": "Erschreckend groß .. und bezahnt"
+                  }
+               },
+               "entling_raid_7": {
+                  "giant_entlings": {
+                     "display_name": "Gigantischer Entling"
+                  }
+               },
                "arcs": {
                   "trigger": {
                      "ambient_threats": {
@@ -2132,7 +2147,7 @@
          },
          "undead_infection": {
             "display_name": "Infiziert",
-            "description": "Heilgegenstände sind 10% weniger wirksam"
+            "description": "Verhindert die natürliche Gesundheitswiederherstellung über die Willenskraft"
          },
          "courage_tonic": {
             "courage_tonic_buff": {
@@ -2297,6 +2312,14 @@
          "edit_party": {
             "display_name": "Bearbeite Gruppe",
             "description": "Hinzufügen und Entfernen von Kämpfern zu dieser Gruppe."
+         },
+         "cancel_marker": {
+            "display_name": "Storniermarkierung",
+            "description": "Bricht die Kampfaufträge ab, dagestellt durch diese Markierung"
+         },
+         "select_owner": {
+            "display_name": "Besitzer auswählen",
+            "description": "Wählt die Kämpfer aus, die von dieser Markierung beeinflusst werden"
          }
       },
       "personality": {
@@ -3216,6 +3239,42 @@
                "display_name": "Grober hölzerner Schild",
                "description": "Grob und einfach"
             }
+         },
+         "bronze_circlet": {
+            "display_name": "Bronzereif",
+            "description": "Schutz für deinen Kopf",
+            "bronze_circlet_iconic": {
+               "display_name": "Bronzereif",
+               "description": "Schutz für deinen Kopf"
+            }
+         },
+         "bronze_shield": {
+            "display_name": "Bronzeschild",
+            "description": "Nützlich für das blocken von Attacken"
+         },
+         "iron_coif": {
+            "display_name": "Eiserne Kettenhaube",
+            "description": "Schutz für deinen Kopf",
+            "iron_coif_iconic": {
+               "display_name": "Eiserne Kettenhaube",
+               "description": "Schutz für deinen Kopf"
+            }
+         },
+         "leather_helmet": {
+            "display_name": "Lederne Schädel-Kappe",
+            "description": "Schutz für deinen Kopf",
+            "leather_helmet_iconic": {
+               "display_name": "Lederne Schädel-Kappe",
+               "description": "Schutz für deinen Kopf"
+            }
+         },
+         "steel_helmet": {
+            "display_name": "Stahlhelm",
+            "description": "Schutz für deinen Kopf",
+            "steel_helmet_iconic": {
+               "display_name": "Stahlhelm",
+               "description": "Schutz für deinen Kopf"
+            }
          }
       },
       "boulders": {
@@ -4075,7 +4134,7 @@
          "clay_lamp": {
             "clay_lamp_ghost": {
                "display_name": "Lehm-Öllampe",
-               "description": "Seine Flamme bringt ein warmes Glühen in der Nacht."
+               "description": "Ihre Flamme bringt ein warmes Glühen in der Nacht."
             }
          },
          "clay_wall_lamp": {
@@ -4370,6 +4429,10 @@
             "vegetable_tagine_serving": {
                "display_name": "Eine Schüssel Gemüseeintopf"
             }
+         },
+         "rotten_basket": {
+            "display_name": "verrotteter Nahrungsmittelkorb",
+            "description": "So vorrottet, dass es seine Form und Funktion verliert."
          }
       },
       "furniture": {
@@ -4513,7 +4576,7 @@
          },
          "clay_bed": {
             "clay_bed_ghost": {
-               "display_name": "Lehmbed",
+               "display_name": "Lehmbett",
                "description": "Unangenehm, aber man kommt vom Boden weg!"
             }
          },
@@ -4570,9 +4633,9 @@
             "description": "Verteidigt diesen Punkt im Stadtverteidigungsmodus"
          },
          "safety_standard": {
-            "display_name": "Sicheheitsbanner aus Holz",
+            "display_name": "Holz-Sicherheitsbanner",
             "clay_safety_standard": {
-               "display_name": "Sicheheitsbanner aus Lehm"
+               "display_name": "Lehm-Sicherheitsbanner"
             },
             "description": "Markiert einen Sicherheitspunkt, wohin man im Stadtalarm-Modus fliehen kann"
          },
@@ -4598,6 +4661,12 @@
             "party_command_marker_ghost": {
                "display_name": "Gruppen-Befehl Markierung",
                "description": "Gruppe komm hierher!"
+            }
+         },
+         "individual_command_marker": {
+            "individual_command_marker_ghost": {
+               "display_name": "Befehl Markierung",
+               "description": "Repräsentiert einen Kampfbefehl."
             }
          }
       },
@@ -4800,7 +4869,7 @@
       },
       "plants": {
          "berry_bush": {
-            "display_name": "Berriger Busch",
+            "display_name": "Beeriger Busch",
             "description": "Erntbar für eine magere Lebensmittelversorgung.",
             "unripe_description": "Noch nicht bereit zum Ernten."
          },
@@ -5615,6 +5684,14 @@
                "description": "Massiver Speicher für 256 Elemente!",
                "recipe_name": "Tresor",
                "flavor": "Konzipiert vom genialen Arci, Überlebender des Chaat"
+            },
+            "iron_coif_recipe": {
+               "description": "Schutz für deinen Kopf",
+               "recipe_name": "Eiserne Kettenhaube"
+            },
+            "steel_helmet_recipe": {
+               "description": "Zusätzlicher Schutz für deine Birne!",
+               "recipe_name": "Stahlhelm"
             }
          }
       },
@@ -5883,7 +5960,7 @@
             },
             "safety_standard_recipe": {
                "description": "Wird verwendet um einen Sicherheitspunkt festzulegen",
-               "recipe_name": "Hölzernes Sicherheitsbanner"
+               "recipe_name": "Holz-Sicherheitsbanner"
             },
             "wooden_tunnel_door_recipe": {
                "recipe_name": "hölzerne Tunneltür",
@@ -6353,19 +6430,19 @@
                "recipe_name": "Kleine Urne",
                "flavor": "Freche Kinder zerbrechen diese Töpfe immer, auf der Suche nach Schätzen."
             },
-            "storage_name": "Storage",
+            "storage_name": "Lagerung",
             "large_urn_recipe": {
                "description": "Für kompakte Lagerung von bis zu 32 Elementen",
                "recipe_name": "Große Urne",
                "flavor": "Sobald wir die Dinge hineintun, wie bekommen wir Sie wieder raus? Denk nicht zu viel darüber nach."
             },
             "clay_lamp_recipe": {
-               "description": "Seine Flamme bringt ein warmes Glühen in der Nacht.",
+               "description": "Ihre Flamme bringt ein warmes Glühen in der Nacht.",
                "recipe_name": "Lehm-Öllampe",
                "flavor": "Und der Djinni sagt zu Rayya: 'Ich habe aber einen letzten Wunsch zu gewähren. Wählt Ihn wohl.'"
             },
             "clay_wall_lamp_recipe": {
-               "description": "Seine Flamme bringt ein warmes Glühen in der Nacht.",
+               "description": "Ihre Flamme bringt ein warmes Glühen in der Nacht.",
                "recipe_name": "Wandgebundene Lehm-Öllampe",
                "flavor": "'Close round us guard the spirits of night! As they dance and sway, free you'll be to dream the dark away.'"
             },
@@ -6386,6 +6463,10 @@
                "description": "Härtet Lehm Objekte.",
                "recipe_name": "Töpferofen",
                "flavor": "'Durch Wärme und Mühsal erkennen wir unser endgültiges Selbst.' -Silora, Acolyte von Rayya's Geheimnissen"
+            },
+            "clay_safety_standard_recipe": {
+               "description": "Wird verwendet um einen Sicherheitspunkt festzulegen",
+               "recipe_name": "Lehm-Sicherheitsbanner"
             },
             "building_parts_name": "Gebäudeteile",
             "clay_bricks_recipe": {
@@ -6430,7 +6511,7 @@
             },
             "clay_bed_recipe": {
                "description": "Unangenehm, aber man kommt vom Boden weg!",
-               "recipe_name": "Lehmbed",
+               "recipe_name": "Lehmbett",
                "flavor": "TODO"
             },
             "clay_dining_table_recipe": {
@@ -6776,6 +6857,10 @@
                "description": "Wird verwendet um komplexe Handwerke aus Faden und Stoff zu machen.",
                "recipe_name": "Weber Werkbank",
                "flavor": "Am Anfang gab es nichts, und dann gab es Spinnen."
+            },
+            "leather_helmet_recipe": {
+               "description": "Leichter Schutz für den Kopf!",
+               "recipe_name": "Lederne Schädel-Kappe"
             }
          },
          "weaver_loom": {

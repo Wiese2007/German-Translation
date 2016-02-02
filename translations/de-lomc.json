@@ -1,0 +1,104 @@
+{
+   "entities": {
+      "hat": {
+         "beaverhat": {
+            "beaverhat": {
+               "display_name" : "Bibermütze",
+               "description" : "Canda oder Candadu?"
+               },
+            "beaverhat_iconic": {
+               "display_name" : "Bibermütze",
+               "description" : "Canda or Candadu?"
+               }
+            },
+         "boxhead": {
+            "boxhead": {
+               "display_name" : "Kistenkopf",
+               "description" : "Ich bin in der Kiste!"
+               },
+            "boxhead_iconic": {
+               "display_name" : "Kistenkopf",
+               "description" : "Ich bin in der Kiste!"
+               }
+            },
+         "cookingpot": {
+            "cookingpot": {
+               "display_name" : "Kochtopf",
+               "description" : "Der Orden der Ritterköche"
+            },
+            "cookingpot_iconic": {
+               "display_name" : "Kochtopf",
+               "description" : "Der Orden der Ritterköche"
+            }
+         },
+         "hood": {
+            "hood": {
+               "display_name" : "Haube",
+               "description" : "Die Bruderschaft des Lebens"
+            },
+            "hood_iconic": {
+               "display_name" : "Haube",
+               "description" : "Die Bruderschaft des Lebens"
+            }
+         },
+         "miner": {
+            "miner": {
+               "display_name" : "Miner",
+               "description" : "Lasst uns graben!"
+            },
+            "miner_iconic": {
+               "display_name" : "Miner",
+               "description" : "Lasst uns graben!"
+            }
+         },
+         "bucket": {
+            "bucket": {
+               "display_name" : "Eimer",
+               "description" : "Letzte Nacht war es noch mein Nachttopf :P"
+            },
+            "bucket_iconic": {
+               "display_name" : "Eimer",
+               "description" : "Letzte Nacht war es noch mein Nachttopf :P"
+            }
+         }
+      }
+   },
+   "recipes": {
+      "blacksmith": {
+         "bucket_recipe": {
+            "recipe_name" : "Eimer",
+            "description" : "Letzte Nacht war es noch mein Nachttopf :P",
+            "flavor" : ""
+         },
+         "cookingpot_recipe": {
+            "recipe_name" : "Kochtopf",
+            "description" : "Der Orden der Ritterköche",
+            "flavor" : "Monkey Island lässt grüßen!"
+         }
+      },
+      "carpenter": {
+         "boxhead_recipe": {
+            "recipe_name" : "Kistenkopf",
+            "description" : "Im in the Box!",
+            "flavor" : ""
+         },
+         "miner_recipe": {
+            "recipe_name" : "Miner",
+            "description" : "Lasst uns graben!",
+            "flavor" : ""
+         }
+      },
+      "weaver": {
+         "beaverhat_recipe": {
+            "recipe_name" : "Bibermütze",
+            "description" : "Canda or Candadu?",
+            "flavor" : ""
+         },
+         "hood_recipe": {
+            "recipe_name" : "Haube",
+            "description" : "Die Bruderschaft des Lebens",
+            "flavor" : ""
+         }
+      }
+   }
+}
