@@ -925,7 +925,7 @@
             },
             "tips": {
                "000": "Sollten deine Arbeiter in einer Mine feststecken, bau eine Leiter um Sie zu befreien!",
-               "001": "Deine Siedler schlafen besser, wenn Ihr Ihnen für die Nächte Betten bereitstellt.",
+               "001": "Deine Siedler schlafen besser, wenn du Ihnen für die Nächte Betten bereitstellt.",
                "002": "Baue Zäune um deine Weiden, damit deine Schäfer nicht immer den Tieren hinterherlaufen müssen.",
                "003": "Lager können angepasst werden, um bestimmte Elemente zu einzulagern.",
                "004": "Du kannst Seidenpflanzen für einen stetigen Vorrat an Fasern anbauen.",
@@ -1555,14 +1555,14 @@
                      "dialog_nodes": {
                         "msg2": {
                            "bulletin_message": {
-                              "00": "Es ist ziemlich ruhig, aber wisst du ...? Es ist ein schlechtes Zeichen, wenn die Vögel aufhören zu singen."
+                              "00": "Es ist ziemlich ruhig, aber wisst Ihr ...? Es ist ein schlechtes Zeichen, wenn die Vögel aufhören zu singen."
                            },
                            "bulletin_title": "Mer Burlyhands kratzt sein Ohr",
                            "dialog_title": "Mer Burlyhands"
                         },
                         "msg3": {
                            "bulletin_message": {
-                              "00": "Meine Vermutung sind Wölfe. Goblinwölfe! Achte auf eure Grenzen! Ihr wollt sie nicht bekämpfen, nachdem der Trainer sie vorbereitet hat ... hörst du? Bunkert euch ein, wenn Ihr müsst oder rennt. Rennen ist gut! Es ist keine Schande einen weiteren Tag zu überleben."
+                              "00": "Meine Vermutung sind Wölfe. Goblinwölfe! Achtet auf eure Grenzen! Ihr wollt sie nicht bekämpfen, nachdem der Trainer sie vorbereitet hat ... hört Ihr? Bunkert euch ein, wenn Ihr müsst oder rennt. Rennen ist gut! Es ist keine Schande einen weiteren Tag zu überleben."
                            },
                            "bulletin_title": "Mer Burlyhands nickt fest",
                            "dialog_title": "Mer Burlyhands"
@@ -1595,7 +1595,7 @@
                               "003": "Kleines menschliches Lager: Suche deine Feinde, während sie noch schlafen.",
                               "004": "Goblinwölfe sind trainiert auf Kommando anzugreifen. Befreie Sie bevor das Kommando erhalten und du wirst heute Nacht ruhig schlafen."
                            },
-                           "bulletin_title": "Eine Nachricht auf einen Pfeil wurde an dein Banner geschossen",
+                           "bulletin_title": "Eine Nachricht an einem Pfeil wurde an dein Banner geschossen",
                            "dialog_title": "Mysteriöse  Nachricht"
                         }
                      }
@@ -1802,7 +1802,7 @@
                                     "Description": "Aber... was macht es grün?"
                                  },
                                  "workers": {
-                                    "description": "Feuerhütter"
+                                    "description": "Feuerhüter"
                                  }
                               },
                               "goblin_tent": {
@@ -2432,7 +2432,7 @@
                      "006": "Mein Leben fängt an vor meinem inneren Auge abzulaufen.",
                      "007": "Sollte ich besorgt sein?",
                      "008": "Ich hätte meiner Mutter mehr Briefe schreiben sollen.",
-                     "009": "Wenn ich hier lebend rauskomme, werde ich meiner Oma zu schreiben und ihr sagen,  wie lieb ich Sie habe.",
+                     "009": "Wenn ich hier lebend rauskomme, werde ich meiner Oma zu schreiben und Ihr sagen,  wie lieb ich Sie habe.",
                      "010": "Ich könnte hier etwas Hilfe gebrauchen!",
                      "011": "Muss weiter ....!!!",
                      "012": "Raagh, nimm das!",
@@ -3173,10 +3173,10 @@
    "entities": {
       "armor": {
          "basic_shield": {
-            "display_name": "Zuverlässiger Schild",
+            "display_name": "Stahlschild",
             "description": "Tragbare Rüstung!",
             "basic_shield_iconic": {
-               "display_name": "Zuverlässiger Schild",
+               "display_name": "Stahlschild",
                "description": "Tragbare Rüstung!"
             }
          },
@@ -5563,7 +5563,7 @@
             "basic_shield_recipe": {
                "description": "Gewährt die Fähigkeit Angriffe zu blockieren.",
                "flavor": "Unglaublich schützend. Kleine Kinder spielen Schildkröte darunter.",
-               "recipe_name": "Zuverlässiger Schild"
+               "recipe_name": "Stahlschild"
             },
             "iron_shield_recipe": {
                "description": "Schwer, aber effektiv.",
@@ -5692,6 +5692,15 @@
             "steel_helmet_recipe": {
                "description": "Zusätzlicher Schutz für deine Birne!",
                "recipe_name": "Stahlhelm"
+            },
+            "bronze_circlet_recipe": {
+               "description": "Schutz für deinen Kopf!",
+               "recipe_name": "Bronzereif",
+               "flavor": "So königlich. So stilvoll!"
+            },
+            "bronze_shield_recipe": {
+               "description": "Erhöht die Rüstung und blockiert Angriffe!",
+               "recipe_name": "Bronzeschild"
             }
          }
       },
@@ -6293,7 +6302,7 @@
             "potter_cutter_recipe": {
                "description": "Erlaubt einen Hearthling Werkzeuge und Waren aus Lehm herzustellen.",
                "recipe_name": "Töpfermesser",
-               "flavor": "Und Monkey schlug die Erde mit seinem Stab. 'Denn ihr seid meine Kinder, sagte er, und es soll euch an nichts fehlen.'"
+               "flavor": "Und Monkey schlug die Erde mit seinem Stab. 'Denn Ihr seid meine Kinder, sagte er, und es soll euch an nichts fehlen.'"
             },
             "cobblestone_fence_gate_recipe": {
                "description": "Seine dicke Steinmauer gewährt ein Gefühl der Sicherheit.",
@@ -6674,7 +6683,7 @@
             },
             "level_4_data": {
                "perk_000_name": "Rucksackgröße +8",
-               "perk_000_description": "TDer Trapper ist effizienter beim Einpacken der Beute geworden."
+               "perk_000_description": "Der Trapper ist effizienter beim Einpacken der Beute geworden."
             }
          },
          "snare_trap": {

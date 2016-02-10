@@ -60,6 +60,26 @@
                "display_name" : "Eimer",
                "description" : "Letzte Nacht war es noch mein Nachttopf :P"
             }
+         },
+         "huntercloak": {
+            "huntercloak": {
+               "display_name" : "Jägemantel",
+               "description" : "Die Beute wird Ihn nicht sehen!"
+            },
+            "huntercloak_iconic": {
+               "display_name" : "Jägemantel",
+               "description" : "Die Beute wird Ihn nicht sehen!"
+            }
+         },
+         "assassincloak": {
+            "kitty_assassincloak": {
+               "display_name" : "Assassinenmantel",
+               "description" : "Dunkler als die Nacht!"
+            },
+            "kitty_assassincloak_iconic": {
+               "display_name" : "Assassinenmantel",
+               "description" : "Dunkler als die Nacht!"
+            }
          }
       }
    },
@@ -97,6 +117,16 @@
          "hood_recipe": {
             "recipe_name" : "Haube",
             "description" : "Die Bruderschaft des Lebens",
+            "flavor" : ""
+         },
+         "huntercloak_recipe": {
+            "recipe_name" : "Jägemantel",
+            "description" : "Die Beute wird Ihn nicht sehen!",
+            "flavor" : "De Fratrum vita"
+         },
+         "assassincloak_recipe": {
+            "recipe_name" : "Assassinenmantel",
+            "description" : "Dunkler als die Nacht!",
             "flavor" : ""
          }
       }

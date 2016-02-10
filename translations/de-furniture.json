@@ -6,7 +6,7 @@
                "arcs": {
                   "encounters": {
                      "rare_item_shop": {
-                        "display_name": "Der glänzenden Sachen Händler",
+                        "name": "Der glänzenden Sachen Händler",
                         "title": "Eine blauäugiger Skeletthändler erscheint. . ."
                      }
                   }

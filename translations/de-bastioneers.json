@@ -211,22 +211,22 @@
                }
             },
             "trader": {
-               "iskender_caravan_1": {
+               "bastioneers_expedition_1": {
                   "shop_info": {
-                     "name": "Iskender Handelskarawane ",
-                     "title": "Die Iskender Handelskarawane kehrt zurück!"
+                     "name": "Bastineers Surface 'neering Expedition",
+                     "title": "A Surface 'Neering Expedition Arrives!"
                   }
                },
-               "iskender_caravan_2": {
+               "bastioneers_expedition_2": {
                   "shop_info": {
-                     "name": "Iskender Handelskarawane ",
-                     "title": "Die Iskender Handelskarawane kehrt mit mehr Waren zurück!"
+                     "name": "Bastineers Surface 'neering Expedition",
+                     "title": "A Surface 'Neering Expedition Greets Your Settlement!"
                   }
                },
-               "iskender_caravan_3": {
+               "bastioneers_expedition_3": {
                   "shop_info": {
-                     "name": "Iskender Handelskarawane ",
-                     "title": "Die Iskender Handelskarawane kehrt zurück!"
+                     "name": "Bastineers Surface 'neering Expedition",
+                     "title": "A Surface 'Neering Expedition Approaches!"
                   }
                },
                "starting_food_donation": {
@@ -234,35 +234,35 @@
                      "dialog_nodes": {
                         "simple_message": {
                            "bulletin_message": {
-                              "000": "Haha, es gibt nichts wie den Anblick von einem brandneuen Außenposten, wie? Mit Deiner harten Arbeit, wird dieses verwüstete Land bald ein Nexus von Reichtum und Wohlstand sein! Wir kommen morgen mit dem ganzen Laden wieder, aber in der Zwischenzeit, hier die Aussteuer die deine Familie schickte:",
-                              "001": "Affe hält Sie, Freund! Es ist immer eine Freude zu sehen, an eurem Handelspunkt halt zu machen. Entsprechend unseren Vertrages, kommen wir morgen mit dem ganzen Laden wieder. In der Zwischenzeit, hier ist die Aussteuer Ihrer Familien:",
-                              "002": "Iskender Traders ist immer auf der Suche nach einem neuen Ruheplatz zwischen den Posten. Wir freuen uns, Sie hier zu sehen, Freunde! Wir sind morgen wieder mit dem Laden da, aber in der Zwischenzeit hier eine Stichprobe von unseren Waren, für den Einstieg:",
-                              "003": "Alle bereit, einen neuen Außenposten zu starten, eh! Meine Freunde, die Wüste egrüßt alle seine Kinder. Wir werden morgen wiederkommen, um nach dir zu sehen, aber in der Zwischenzeit, schickten uns deine Eltern diese Verbrauchsmaterialien, für den Start:",
-                              "004": "Aha, ein neuer potenzieller Partner für Iskender Händler! Wir müssen morgen zurück sein mit dem ganzen Laden, aber weißt du was. Nimm diese Startmaterialen und wir sehen, was du daraus machen kannst für uns, nicht wahr?"
+                              "000": "Found surface food, remember to get enough mineral in diet.",
+                              "001": "Settlement looks malnurished. Take this:",
+                              "002": "The Herald demands 'neers be well-fed!",
+                              "003": "Surface food is strange, but healthy! Try this:",
+                              "004": "Do not miss The Herald, take this incase."
                            },
-                           "bulletin_title": "Ein Iskender Agent nähert sich",
-                           "dialog_title": "Naryal Iskender",
-                           "choice_000": "Vielen Dank, geehrter Ältester!"
+                           "bulletin_title": "A Surface 'Neering Cadet Approaches!",
+                           "dialog_title": "Food 'Neering Cadet",
+                           "choice_000": "Solid."
                         }
                      }
                   }
                },
                "stonecutter_shop": {
                   "shop_info": {
-                     "name": "Vosker Saji's polierte Erde",
-                     "title": "Ein Meister Steinmetz-Wagen nähert sich."
+                     "name": "Stone 'Neering Commander",
+                     "title": "An expedition for surface stone draws near"
                   }
                },
                "tannery_shop": {
                   "shop_info": {
-                     "name": "Rin's feine Pelze und Felle",
-                     "title": "Ein Waagen mit feinen Tierwaren nähert sich."
+                     "name": "Animal 'Neering Captain",
+                     "title": "An expedition for fine animal goods approaches"
                   }
                },
                "woodcutter_shop": {
                   "shop_info": {
-                     "name": "Rajin's Waren aus dem fernen Westen",
-                     "title": "Ein exotischer Laden mit selten Holzwaren nähert sich"
+                     "name": "Wood 'Neering Colonel",
+                     "title": "An expedition for rare surface woods arrives"
                   }
                }
             }
