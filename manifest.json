@@ -41,6 +41,8 @@
 	   "bastioneers/locales/de.json" : "file(translations/de-bastioneers.json)",
       "LocksOfColour/locales/de-DE.json" : "file(translations/de-lomc.json)",
       "LocksOfColour/locales/de.json" : "file(translations/de-lomc.json)",
+      "archipelago_biome/locales/de-DE.json" : "file(translations/de-archipelago.json)",
+      "archipelago_biome/locales/de.json" : "file(translations/de-archipelago.json)",
 
 
 

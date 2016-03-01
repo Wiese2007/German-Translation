@@ -8,6 +8,7 @@
    "image" : "/stonehearth/data/kingdoms/images/ascendancy_400x300.png",
    "story_board_image": "/stonehearth/data/kingdoms/images/story_board_image.png",
    "starting_talisman" : "stonehearth:carpenter:talisman",
+   "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
    "roles" : {
       "default" : {
          "male" : {

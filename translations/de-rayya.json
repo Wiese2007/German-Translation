@@ -105,6 +105,12 @@
                      "name": "Rajin's Waren des fernen Westen",
                      "title": "Ein exotischer Shop von seltenen Hölzern erscheint"
                   }
+               },
+               "food_shop": {
+                  "shop_info": {
+                     "name": "Farmer Gem's Farm Vorräte",
+                     "title": "Farmer Gem's Vorrätewagen rollt in die Stadt"
+                  }
                }
             }
          }
@@ -114,7 +120,7 @@
       "gizmos": {
          "rc_camp_standard": {
             "rc_camp_standard_ghost": {
-               "display_name": "Das Banner der Kinder von Rayya's",
+               "display_name": "Stadtbanner",
                "description": "Wie weißt du, das du nach Hause gekommen bist"
             }
          }

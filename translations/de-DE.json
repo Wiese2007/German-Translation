@@ -282,6 +282,7 @@
             "resume": "Fortsetzen",
             "save": "Speichern oder Laden",
             "settings": "Einstellungen",
+            "about": "Über",
             "quit_to_menu": "Zurück zum Hauptmenü",
             "exit_game": "Spiel verlassen",
             "post_bug": "Melde einen Fehler",
@@ -532,6 +533,9 @@
                "percent_full": "[str(percent)] prozent Voll",
                "active": "Aktiv",
                "paused": "pausiert"
+            },
+            "warnings": {
+               "town_inventory_full": "Stadtlager voll!"
             }
          },
          "bulletin": {
@@ -563,6 +567,10 @@
             "collection_quest": {
                "pay": "Bitte schön!",
                "cancel": "Ich hab meine Meinung geändert"
+            },
+            "inventory_full": {
+               "title": "Stadtlager voll!",
+               "message": "Dein Stadtlager ist voll! Hearthlings hassen unübersichtlich Städte und werden keine Ressourcen mehr ernten, wenn das Lager voll bleibt. Verkaufe unnütze Elemente oder zerstöre Sie mit dem Löschen-Werkzeug."
             }
          },
          "build_mode": {
@@ -761,6 +769,7 @@
                   "tooltip_clay": "Lehm",
                   "tooltip_ore": "Erz",
                   "tooltip_animal_part": "Tierteile",
+                  "tooltip_earth": "Materialien aus Erde",
                   "tooltip_plant": "Pflanzen",
                   "tooltip_portal": "Türen & Fenster",
                   "tooltip_furniture": "Möbel",
@@ -806,6 +815,7 @@
             "workshop_closed": "Geschlossen",
             "maintain_option_disabled": "Bau ein Lager oder einen Container um mehr Handwerksarten freizuschalten!",
             "craft": "Herstellen!",
+            "craft_queue_full": "Warteschlange voll!",
             "craftable_locked": "Entsperrt ab Level: [str(level)]",
             "workshop_requirement_title": "Werkbank",
             "workshop_none_required": "Nicht erforderlich!",
@@ -867,6 +877,9 @@
                "shelter": "Schutz",
                "safety": "Sicherheit"
             },
+            "inventory": {
+               "item_count": "Elemente:"
+            },
             "tab": {
                "town_overview": "Stadtübersicht",
                "inventory": "Stadtlager",
@@ -875,6 +888,10 @@
          }
       },
       "shell": {
+         "about": {
+            "title": "Über Stonehearth",
+            "attributions": "Hier findet Ihr eine Liste der Open-Source-Software, die in Stonehearth verwendet wird:"
+         },
          "loading_screen": {
             "initial_load_map_text": "Generiere Welt",
             "loading_map_flavor_text": {
@@ -1037,13 +1054,15 @@
                "enable_speed_3_description": "Fügt eine neue Geschwindigkeitsoption für 4fache Geschwindigkeit rechts unten hinzu!",
                "default_storage_filter_none": "Speicherfilter standardmäßig auf Nichts",
                "default_storage_filter_none_description": "Beim Erstellen eines neuen Lagers oder beim absetzen einer neuen Kiste, wird der Standardfilter auf ´Keine` anstelle von ´Alle` eingestellt",
+               "show_hearthling_paths": "Zeige Hearthlingspfad",
+               "show_hearthling_paths_description": "Zeigt den Pfad dem dein Hearthlings folgt.",
                "max_citizens": "Max Einwohner"
             }
          },
          "title_screen": {
             "exit": "Verlassen",
             "settings": "Einstellungen",
-            "credits": "credits",
+            "about": "Über",
             "kingdom_of": "Das Königreich von",
             "continue_game": "Fortsetzen",
             "new_game": "Neues Spiel",
@@ -1334,12 +1353,6 @@
                   "return_title": "Der Händler ist zurück!",
                   "return_greetings_positive": "Ich bin zurück! Es sieht aus als hättet Ihr die [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) nach dennen ich gefragt hatte. Seid Ihr immernoch bereit, Sie mit mir zutauschen? Ich würde euch [str(i18n_data.reward_number)] [str(i18n_data.reward_item)](en) im Austausch geben. Klingt das immernoch gut?",
                   "return_greetings_negative": "Ich bin zurück! Aber anscheinend habt Ihr die [str(i18n_data.want_number)] [str(i18n_data.want_item)] nach dennen ich gefragt hatte nicht. Das ist Schade! Vielleicht beim nächsten Mal!"
-               },
-               "food_shop": {
-                  "shop_info": {
-                     "name": "Ein einfacher Lebensmittelhändler",
-                     "title": "Ein einfacher Lebensmittelhändler rollt in die Stadt"
-                  }
                },
                "rugs_shop": {
                   "shop_info": {
@@ -1700,7 +1713,7 @@
                               "001": "Menschliche Sklaven! Sie nicht verstehen, die Macht der Glittering Armee! Du Glück hast vor mir verbeugen dürfen. Außerdem wollen einige Dinge in der Nacht halten, mich in den Schlaf zu singen.",
                               "002": "Du hast Vorräte? Wir nehmen! Wir gut. Wir haben Verständnis?",
                               "003": "Hahahah du das neue Kind in dem großen Red Territorium. Das bedeutet weniger-neues-Kind nehmen dein Mittagessen. Lunch Metapher. Du machen für uns SONST!",
-                              "004": "Du Dummkohl, mich großer Glittering Häuptling! Natürliche Ordnung bedeuten, dass du mir Sachen geben und ich nicht zeeerr-stöör-eenn euch. Ich m&oauml;chten Vorräte. Verstehen?"
+                              "004": "Du Dummkohl, mich großer Glittering Häuptling! Natürliche Ordnung bedeuten, dass du mir Sachen geben und ich nicht zeeerr-stöör-eenn euch. Ich möchten Vorräte. Verstehen?"
                            },
                            "bulletin_title": "Ein Goblin mit einem extravaganten Hut stolziert in die Stadt",
                            "dialog_title": "[name(i18n_data.boss)]"
@@ -1798,8 +1811,8 @@
                            "create_scout_camp": {
                               "campfire": {
                                  "campfire": {
-                                    "display_name": "Hypnotisches Lagerfeuere",
-                                    "Description": "Aber... was macht es grün?"
+                                    "display_name": "Hypnotisches Lagerfeuer",
+                                    "description": "Aber... was macht es grün?"
                                  },
                                  "workers": {
                                     "description": "Feuerhüter"
@@ -1808,13 +1821,13 @@
                               "goblin_tent": {
                                  "tent": {
                                     "display_name": "Wolftrainerzelt",
-                                    "Description": "Voll mit unmöglichen behelfsmäßigen Geräten."
+                                    "description": "Voll mit unmöglichen behelfsmäßigen Geräten."
                                  }
                               },
                               "wolf_cage": {
                                  "wolf_cage": {
                                     "display_name": "Wolfkäfig",
-                                    "Description": "Eigentum von Ogo Skullbonker"
+                                    "description": "Eigentum von Ogo Skullbonker"
                                  },
                                  "trainer": {
                                     "description": "Peitscht die Wölfe in eine gefährliche Raserei"
@@ -1833,7 +1846,7 @@
                            "ogo_tent": {
                               "ogo_tent": {
                                  "display_name": "Ogo's Zelt",
-				 "Description": "Gemacht aus gebleichten Fellen."
+				 "description": "Gemacht aus gebleichten Fellen."
                               },
                               "ogo": {
                                  "description": "Wahrsager sagen Ogo Auserwählter, Ogo-Zyklus-Brecher",
@@ -1843,13 +1856,13 @@
                            "ogo_throne": {
                               "ogo_throne": {
                                  "display_name": "Ogo's Thron",
-                                 "Description": "Dekoriert mit massiven Babystoßzähnen"
+                                 "description": "Dekoriert mit massiven Babystoßzähnen"
                               }
                            },
                            "wolf_kennel": {
                               "wolf_cage": {
                                  "display_name": "Wolfkäfig",
-                                 "Description": "Eigentum von Ogo Skullbonke"
+                                 "description": "Eigentum von Ogo Skullbonke"
                               }
                            }
                         }
@@ -2004,7 +2017,7 @@
                               "thief_campfire": {
                                  "campfire": {
                                     "display_name": "Hypnotisches Lagerfeuer",
-                                    "Description": "Aber... was macht es grün?"
+                                    "description": "Aber... was macht es grün?"
                                  },
                                  "workers": {
                                     "description": "Ausgewiesener Herdhütter"
@@ -2034,6 +2047,53 @@
                   "mission": {
                      "sighted_bulletin": {
                         "title": "Eindringlinge nähern sich!"
+                     }
+                  }
+               }
+            },
+            "game_events": {
+               "arcs": {
+                  "trigger": {
+                     "game_events": {
+                        "encounters": {
+                           "ent_warning": {
+                              "collection_quest_info": {
+                                 "dialog_nodes": {
+                                    "collection_due": {
+                                       "bulletin_message": {
+                                          "000": "Werdet Ihr die Kinder des Waldes gehen lassen? Sie gehören nicht in eure Kisten oder als Trophäen an eure Wand. Eure Nachgiebigkeit wird belohnt.",
+                                          "001": "Hunderte von den großen Eichen und Wacholder wurden abgeholzt um die Gier des Menschen zu befriedigen. Unsere Geduld wird dünn. Ich bitte euch, gebt Sie zurück in Ihre Heimat.",
+                                          "002": "Gebt unsere Holzklötze zurück und helfen, das natürliche Gleichgewicht der großen Wälder wiederherzustellen. Ich kann nicht für Eure Sicherheit garantieren, wenn Ihr euch weigert.",
+                                          "003": "Unsere Wildnis wurde für euren ausschweifenden Lebensstil geopfert. Wir geben Euch eine Chance, unsere Holzklötze zurückzugeben. Ich schlage vor, dass Ihr meine Warnung beachtet."
+                                       },
+                                       "bulletin_title": "Der Ent hat eine Anfrage.",
+                                       "dialog_title": "Ent"
+                                    },
+                                    "collection_failed": {
+                                       "bulletin_message": {
+                                          "000": "Ich bin tief enttäuscht .. Ich würde vorschlagen, Ihr bereitet euch vor. Die Diener des Waldes sprechen von einer Invasion."
+                                       },
+                                       "bulletin_title": "Der Ent runzelt die Stirn"
+                                    },
+                                    "collection_success": {
+                                       "bulletin_message": {
+                                          "000": "Vielen Dank für eure Mitarbeit. Im Gegenzug werde ich euch [str(i18n_data.reward_gold_amount)] Goldmünzen und [str(i18n_data.reward_item_count)] [str(i18n_data.reward_item_name)] geben."
+                                       },
+                                       "bulletin_title": "Der Ent nickt friedlich",
+                                       "dialog_title": "Ent"
+                                    },
+                                    "introduction": {
+                                       "bulletin_message": {
+                                          "000": "Grüße, Menschen von [str (i18n_data.town_name)]. Ich bin gekommen, um euch vor der wachsende Unruhe in den Wäldern zu warnen.",
+                                          "001": "Schweigend beobachtet haben wir .. schon seit vor dem Fall von Firebird . Warum? Zum Beschützen! Unsere Bäume. Unsere Schösslinge. Unsere Wälder."
+                                       },
+                                       "bulletin_title": "Eine große baumähnliche Figur erscheint.",
+                                       "dialog_title": "Ent"
+                                    }
+                                 }
+                              }
+                           }
+                        }
                      }
                   }
                }
@@ -2130,13 +2190,13 @@
          "stamina_tonic": {
             "stamina_tonic_buff": {
                "display_name": "Ausdauerelixier",
-               "description": "Etwas mehr Gesundheit"
+               "description": "Gesundheit wird stark erhöht"
             }
          },
          "strength_tonic": {
             "strength_tonic_buff": {
                "display_name": "Stärkeelixier",
-               "description": "Etwas mehr Buff"
+               "description": "Muskelkraft wird stark erhöht - für mehr Kampfschaden "
             }
          },
          "severely_injured": {
@@ -3250,7 +3310,11 @@
          },
          "bronze_shield": {
             "display_name": "Bronzeschild",
-            "description": "Nützlich für das blocken von Attacken"
+            "description": "Nützlich zum blocken von Attacken",
+            "bronze_shield_iconic": {
+               "display_name": "Bronzeschild",
+            "description": "Nützlich zum blocken von Attacken"
+            }
          },
          "iron_coif": {
             "display_name": "Eiserne Kettenhaube",
@@ -3322,12 +3386,6 @@
             "cobblestone_fence_gate_ghost": {
                "display_name": "Kopfsteinzauntor",
                "description": "Seine dicke Steinmauer gewährt ein Gefühl der Sicherheit."
-            }
-         },
-         "crafting": {
-            "workshop_outbox": {
-               "display_name": "Handwerkerlager",
-               "description": "Lagert fertige Produkte"
             }
          },
          "picket_fence": {
@@ -3445,6 +3503,18 @@
                "display_name": "Vergitterter Lehmfensterrahmen",
                "description": "Das Gitter lässt immer noch die gute Luft rein."
             }
+         },
+         "stone_tunnel_door": {
+            "stone_tunnel_door_ghost": {
+               "display_name": "Steintunneltür",
+               "description": "Nützlich zum abdichten von Stollen."
+            }
+         },
+         "clay_tunnel_door": {
+            "clay_tunnel_door_ghost": {
+               "display_name": "Lehmtunneltür",
+               "description": ""Nützlich zum abdichten von Stollen."
+            }
          }
       },
       "containers": {
@@ -3495,12 +3565,6 @@
                "display_name": "Der Tresor",
                "description": "Massiver Speicher"
             }
-         }
-      },
-      "crafting": {
-         "workshop_outbox": {
-            "display_name": "Handwerkerlager",
-            "description": "Lagert fertige Produkte"
          }
       },
       "critters": {
@@ -3557,6 +3621,10 @@
          "wolf": {
             "display_name": "Ein Wolf",
             "description": "Grrr! Rwar!!!"
+         },
+         "woodchuck": {
+            "display_name": "Murmeltier",
+            "description": "Ein unersättlicher Esser von fast allem, vor allem Holzklötze."
          }
       },
       "crops": {
@@ -3631,32 +3699,6 @@
                "011": {
                   "name": "verwelkter Mais",
                   "description": "Es ist Tot."
-               }
-            }
-         },
-         "foo_truffle": {
-            "silkweed_crop": {
-               "display_name": "Seidenpflanze",
-               "description": "Die Fasern dieser Pflanze können zu Fäden gesponnen werden",
-               "growth_stage": {
-                  "004": {
-                     "name": "Reife Seidenpflanze"
-                  },
-                  "001": {
-                     "name": "Seidenpflanzen Sprosse"
-                  },
-                  "000": {
-                     "name": "Seidenpflanzen Setzling"
-                  },
-                  "019": {
-                     "name": "verrottete Seidenpflanze"
-                  },
-                  "003": {
-                     "name": "Unreife Seidenpflanze"
-                  },
-                  "002": {
-                     "name": "Stummlige Seidenpflanze"
-                  }
                }
             }
          },
@@ -4091,31 +4133,31 @@
          },
          "wooden_sign": {
             "wooden_sign_ghost": {
-               "display_name": "Holz-Schild für die Wand",
+               "display_name": "Holz-Schild",
                "description": "Ein Ausdruck der zukünftigen Absicht."
             }
          },
          "wooden_sign_blacksmith": {
             "wooden_sign_blacksmith_ghost": {
-               "display_name": "Schmiede-Schild für die Wand",
+               "display_name": "Schmiede-Schild",
                "description": "Ein Schild mit der Markierung des Schmiedes."
             }
          },
          "wooden_sign_carpenter": {
             "wooden_sign_carpenter_ghost": {
-               "display_name": "Schreiner-Schild für die Wand",
+               "display_name": "Schreiner-Schild",
                "description": "Ein Schild mit der Markierung des Schreiners."
             }
          },
          "wooden_sign_mason": {
             "wooden_sign_mason_ghost": {
-               "display_name": "Steinmetz-Schild für die Wand",
+               "display_name": "Steinmetz-Schild",
                "description": "Ein Schild mit der Markierung des Steinmetzes."
             }
          },
          "wooden_sign_weaver": {
             "wooden_sign_weaver_ghost": {
-               "display_name": "Weber-Schild für die Wand",
+               "display_name": "Weber-Schild",
                "description": "Ein Schild mit der Markierung des Webers."
             }
          },
@@ -4207,6 +4249,30 @@
             "unfired_clay_vase_ghost": {
                "display_name": "Ungebrannte Lehmvase",
                "description": "Eine sehr einfache Vase"
+            }
+         },
+         "wooden_sign_herbalist": {
+            "wooden_sign_herbalist_ghost": {
+               "display_name": "Kräuterarzt-Schild",
+               "description": "Ein Schild mit der Markierung des Kräuterarztes."
+            }
+         },
+         "wooden_sign_inn": {
+            "wooden_sign_inn_ghost": {
+               "display_name": "Gasthof-Schild",
+               "description": "Ein Schild mit dem Hinweis für einen Ort der Ruhe UND der Gelage."
+            }
+         },
+         "wooden_sign_potter": {
+            "wooden_sign_potter_ghost": {
+               "display_name": "Töpfer-Schild",
+               "description": "Ein Schild mit der Markierung des Töpfers."
+            }
+         },
+         "wooden_sign_cook": {
+            "wooden_sign_cook_ghost": {
+               "display_name": "Koch-Schild",
+               "description": "Ein Schild mit der Markierung des Koches."
             }
          }
       },
@@ -4986,7 +5052,7 @@
          },
          "thread": {
             "display_name": "Fadenrolle",
-            "description": "Niemand würde je denken, dass dies mit einem Schaf oder einer Pflanze gestartet hat."
+            "description": "Gesponnen aus der Wolle von Schafen. Oder Pflanzen."
          },
          "tin_ingot": {
             "display_name": "Zinnbarren",
@@ -5433,6 +5499,14 @@
          "scythe": {
             "display_name": "Sense",
             "description": "Bevorzugte Waffe fürs Mähen"
+         },
+         "bow": {
+            "display_name": "Bogen",
+            "description": "Wird von einem Bogenschützen für das Schießen vn Pfeilen vewendet",
+            "bow_talisman": {
+               "display_name": "Bogenschützenbogen",
+               "description": "Ernennt einen Hearthling zu einem Bogenschützen"
+            }
          }
       },
       "consumables": {
@@ -5481,6 +5555,10 @@
             "display_name": "???",
             "description": "???",
             "requirements": "???"
+         },
+         "archer_outfit": {
+            "display_name": "Bogenschützenumhang",
+            "description": "Bietet leichten Schutz "
          }
       },
       "architect": {
@@ -5974,6 +6052,22 @@
             "wooden_tunnel_door_recipe": {
                "recipe_name": "hölzerne Tunneltür",
                "description": "Nützlich zum Absperren von Tunneln"
+            },
+            "wooden_sign_cook_recipe": {
+               "description": "Ein Schild mit der Markierung des Koches.",
+               "recipe_name": ""Wandgebundenes Koch-Schild"
+            },
+            "wooden_sign_herbalist_recipe": {
+               "description": "Ein Schild mit der Markierung des Kräuterarztes.",
+               "recipe_name": ""Wandgebundenes Kräuterarzt-Schild"
+            },
+            "wooden_sign_inn_recipe": {
+               "description": "Ein Schild mit dem Hinweis für einen Ort der Ruhe UND der Gelage",
+               "recipe_name": ""Wandgebundenes Gasthof-Schild"
+            },
+            "wooden_sign_potter_recipe": {
+               "description": "Ein Schild mit der Markierung des Töpfers.",
+               "recipe_name": ""Wandgebundenes Töpfer-Schild"
             }
          }
       },
@@ -7032,6 +7126,12 @@
                "display_name": "Willenskraft +50",
                "description": "Der Kräuterarzt hat die Gesundheitsregeneration verbessert"
             }
+         }
+      },
+      "cleric": {
+         "cleric_outfit": {
+            "display_name": "Klerikerrobe",
+            "description": "Ein heiliges Gewand, welches von den wenigen Frommen getagen wird"
          }
       }
    },
