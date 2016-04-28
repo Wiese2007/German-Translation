@@ -81,6 +81,7 @@
                "Sanin",
                "Tibber",
                "Caleb",
+               "Ward",
                "Cecil"
             ]
          },
@@ -232,7 +233,27 @@
             "Belltower",
             "Killian",
             "Rell"
-         ]
+         ],
+         "attribute_distribution": {
+            "allocated_points": {
+               "min": 6,
+               "max": 10
+            },
+            "point_limits": {
+               "mind": {
+                  "min": 1,
+                  "max": 6
+               },
+               "body": {
+                  "min": 1,
+                  "max": 6
+               },
+               "spirit": {
+                  "min": 1,
+                  "max": 6
+               }
+            }
+         }
       }
    }, 
    "town_pieces" : {

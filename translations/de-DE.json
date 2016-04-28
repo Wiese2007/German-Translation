@@ -12,6 +12,9 @@
             "place_item_on_structure": "platziere [name(data.target)]",
             "work_at_workshop": "[str(data.craftable_name)] wird hergestellt",
             "attack_melee_adjacent": "attackiert [name(data.target)]",
+            "heal_ranged_in_sight": "heilt [name(data.target)]",
+            "wait_at_safety_point": "wartet am Sicherheitsbanner",
+            "weaponize": "suche nach Eindringlingen",
             "resting_by_fire": "rastet beim Feuer",
             "claiming_animal": "beansprucht Tier",
             "looking_for_animals": "sucht nach Tieren",
@@ -167,7 +170,8 @@
             "load_game": "Spielstand laden",
             "game_different_version": "Inkompatibler Spielstand",
             "delete_incompatible_saves": "Lösche inkompatible Spielstände",
-            "save_time": "gespeichert [str(save_time)]"
+            "save_time": "gespeichert [str(save_time)]",
+            "save_tooltip_description": "Ordnername: [str(folder_name)]"
          },
          "common": {
             "ok": "OK",
@@ -222,7 +226,13 @@
             "cancel_order": {
                "display_name": "Befehl stornieren",
                "description": "Bricht aktive Kampfaufträge ab."
-            }
+            },
+            "level": "Lv: ",
+            "class_lv_title": "Klassen- und Stufenanforderungen",
+            "no_requirements": "Keine!",
+            "equipment_description": "Ausrüstbar von: [str(class_list)]",
+            "level_description": "auf Level [str(level_req)]",
+            "or": " oder "
          },
          "citizens": {
             "title": "Einwohner",
@@ -274,7 +284,7 @@
                "12": "Northmun"
             },
             "month_format": "i18n(stonehearth:ui.game.calendar.months.[str(date.month)])",
-            "date_format_long": "Tag [str(date.day)] of i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
+            "date_format_long": "Tag [str(date.day)] von i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
             "date_time_long_format": "Tag [str(date.day)] von i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]"
          },
          "esc_menu": {
@@ -317,12 +327,14 @@
                "uncategorized": "nicht zugeordnet",
                "workshops": "Werkbänke",
                "consumable": "Verbrauchsmaterial",
+               "storage": "Lager",
                "none": "Nichts"
             },
             "tooltip_combat_base_damage": "Ang:",
             "tooltip_combat_base_damage_reduction": "Ver:",
             "tooltip_num_undeployed": "Nicht aufgestellt: [str(num_undeployed)]",
-            "death_notification": "[name(i18n_data.entity)] ist gestorben."
+            "death_notification": "[name(i18n_data.entity)] ist gestorben.",
+            "imminent_death_notification": "[name(i18n_data.citizen)] hat nur noch sehr wenig Gesundheit!"
          },
          "menu": {
             "town_menu": {
@@ -354,6 +366,12 @@
                      "description": "Trage einzelne Blöcke ab &nbsp;  &nbsp;  &nbsp; ",
                      "tip_title": "Klicke und zieh zum graben",
                      "tip_description": "Rechtsklick zum verlassen"
+                  },
+                  "loot_item": {
+                     "display_name": "Plündern",
+                     "description": "Stehle Objekte von anderen Spielern.",
+                     "tip_title": "Klicke und zieh um Objekte zu stehlen",
+                     "tip_description": "Rechtsklick um diesen Modus zu verlassen"
                   },
                   "cancel_task": {
                      "display_name": "Aufgabe abbrechen",
@@ -445,12 +463,6 @@
                      "description": "Sammele deine Hearthlings um die Stadt zu verteidigen!",
                      "activated_title": "Stadtalarm-Modus aktiviert!",
                      "activated_text": "Deine Arbeiter suchen wachsam nach Eindringlingen. Hearthlinge welche nicht als Miliz eingetragen sind, werden zu den Schutzpunkten rennen."
-                  },
-                  "loot_item": {
-                     "display_name": "Plündern",
-                     "description": "Stehle Objekte von anderen Spielern.",
-                     "tip_title": "Klicke und zieh um Objekte zu stehlen",
-                     "tip_description": "Rechtsklick um diesen Modus zu verlassen"
                   },
                   "party_1": {
                      "display_name": "Kampf-Gruppe 1",
@@ -562,7 +574,12 @@
                "title": "Tägliches Update",
                "immigration_report_title": "Einwanderung-Bericht",
                "population_label": "[str(town_name)] Bevölkerung",
-               "next_requirements_label": "Nächster Hearthling erfordert..."
+               "next_requirements_label": "Nächster Hearthling erfordert...",
+               "tooltips": {
+                  "food": "Höheres Qualitätsessen bietet höhere Nahrungsmittelwerte.",
+                  "morale": "Halten Sie Ihre Hearthlings sicher, wohlgenährt und bequem um die Moral zu verbessern.",
+                  "net_worth": "Geschätzter Wert deiner Stadt. Sammeln Sie Elemente, h#ufen Sie Gold an und bauen Sie Gebäude um den Stadtwert zu erhöhen."
+               }
             },
             "collection_quest": {
                "pay": "Bitte schön!",
@@ -587,7 +604,7 @@
                "draw_floor_tool": "Fundamente",
                "grow_floor_tool": "Fußböden",
                "grow_roof_tool": "Dächer",
-               "draw_door_tool": "Tüen",
+               "draw_door_tool": "Türen",
                "draw_window_tool": "Fenster",
                "grow_wall_tool": "Mauern",
                "draw_wall_tool": "freistehende Mauern",
@@ -618,8 +635,7 @@
                "build_road_tip_description": "Rechtsklick zum verlassen"
             },
             "building_cost": {
-               "required_item": "Benötigte Elemente",
-               "count": "Num"
+               "required_item": "Benötigte Elemente"
             },
             "overview": {
                "title": "Gebäude Designer - [str(building_name)]",
@@ -743,9 +759,9 @@
                "sheep_pasture_name": "Schafweide",
                "rabbit_pasture_name": "Hasenstall",
                "poyo_pasture_name": "Poyostall",
-               "sheep_pasture_description": "Schafe produzieren Wolle und können eine Fleischquelle sein.",
-               "rabbit_pasture_description": "Kaninchen können eine Quelle für Dörrfleisch sein",
-               "poyo_pasture_description": "Poyos produzieren Eier, eine wertvolle Kochzutat.",
+               "sheep_pasture_description": "Schafe produzieren Wolle, welche vom Weber verwendet wird. Geschlachtete Schafe bringen Hammelfleisch, eine rohe Kochzutat",
+               "rabbit_pasture_description": "Kaninchen vermehren sich schnell und können für Trockenfleisch und Pelze geschlachtet werden",
+               "poyo_pasture_description": "Poyos produzieren Eier, einen wertvollen Kochzutat. Geschlachtete Poyo bringen Fleisch und gelegentlich Federn zum Basteln",
                "num_animals": "Tiere:"
             },
             "stockpile": {
@@ -769,7 +785,7 @@
                   "tooltip_clay": "Lehm",
                   "tooltip_ore": "Erz",
                   "tooltip_animal_part": "Tierteile",
-                  "tooltip_earth": "Materialien aus Erde",
+                  "tooltip_resource_pile": "Ressourcenhaufen",
                   "tooltip_plant": "Pflanzen",
                   "tooltip_portal": "Türen & Fenster",
                   "tooltip_furniture": "Möbel",
@@ -787,9 +803,9 @@
                   "tooltip_drink": "leckere Getränke",
                   "tooltip_gold": "Gold",
                   "tooltip_gem": "Edelsteine und Trophäen",
-                  "tooltip_food_containers": "Essen Container",
+                  "tooltip_food_containers": "Obst- und Gemüsekörbe",
                   "tooltip_prepared_food": "gekochtes Essen",
-                  "tooltip_ingredients": "rohe Zutaten",
+                  "tooltip_ingredients": "Rohe Zutaten und Futtermittel",
                   "tooltip_healing_items": "Heilgegenstände und andere Konsumgüter"
                }
             }
@@ -871,6 +887,9 @@
             },
             "score": {
                "net_worth": "Stadtwert",
+               "buildings": "Gebäude",
+               "inventory": "Lager",
+               "agriculture": "Landwirtschaft",
                "edibles": "Essbares",
                "overall_morale": "Gesamtglück",
                "food": "Essen",
@@ -1022,6 +1041,7 @@
             "gfx_msaa": "Anti-Alasing Level",
             "gfx_shadows": "Schatten Details",
             "gfx_max_lights": "Maximale Anzahl an Lichtern",
+            "gfx_max_shadows": "Maximale Anzahl an Schatten",
             "gfx_drawdistance": "Sichtweite",
             "gfx_enable_ssao": "Aktiviere Ambient Occlusion",
             "gfx_use_high_quality": "Aktiviere hohe Grafikqualität",
@@ -1054,9 +1074,13 @@
                "enable_speed_3_description": "Fügt eine neue Geschwindigkeitsoption für 4fache Geschwindigkeit rechts unten hinzu!",
                "default_storage_filter_none": "Speicherfilter standardmäßig auf Nichts",
                "default_storage_filter_none_description": "Beim Erstellen eines neuen Lagers oder beim absetzen einer neuen Kiste, wird der Standardfilter auf ´Keine` anstelle von ´Alle` eingestellt",
-               "show_hearthling_paths": "Zeige Hearthlingspfad",
+               "show_hearthling_paths": "Zeige Pfade",
                "show_hearthling_paths_description": "Zeigt den Pfad dem dein Hearthlings folgt.",
-               "max_citizens": "Max Einwohner"
+               "max_citizens": "Max Einwohner",
+               "randomize_attributes": "Zufällige Hearthlingattribute",
+               "randomize_attributes_description": "Wenn aktiviert, werden Hearthlings Geist-, Körper- und Geistattribute komplett zufällig zugewiesen, anstatt in ausgewogener Weise.",
+               "auto_loot": "automatisches Plündern",
+               "auto_loot_description": "Wenn ein Feind Beute fallen lässt, wird es automatisch zur Plünderung markiert."
             }
          },
          "title_screen": {
@@ -1082,20 +1106,25 @@
             "kingdom_section_start": "... einer mutigen Gruppe von Siedlern aus",
             "select_button": "?",
             "kingdom_picker_title": "Wähle ein Reich",
-            "biome_section_start": "Neue Länder und Abenteuer suchend, machten sie sich auf",
+            "biome_section_start": "Auf der Suche nach neuen Ländern und Abenteuern machten Sie sich auf",
             "biome_picker_title": "Wähle ein Ökosystem",
             "game_mode_select_start": ", einem Standort, der gewiss",
             "game_mode_picker_title": "Wähle einen Schwierigkeitsgrad",
             "game_modes": {
                "normal": {
-                  "display_name": "Normales Spiel",
+                  "display_name": "Normal",
                   "description": "Erlebe Abenteuer in einer Welt voller Gefahren. Deine Stadt wird das Ziel von Überfällen",
                   "post_selection_text": "ein inspirierender Ort ist, um neu anzufangen."
                },
                "peaceful": {
-                  "display_name": "Friedliches Spiel",
+                  "display_name": "Friedlich",
                   "description": "Ein Sandbox-Modus, in dem du ungestört deine Stadt bauen kannst, ohne Angst vor Angriffen jeglicher Art haben zu müssen.",
                   "post_selection_text": "ein ruhiger Ort ist, um neu anzufangen."
+               },
+               "hard": {
+                  "display_name": "Hart",
+                  "description": "Begegne schwierigeren Monstern als im normalen Modus",
+                  "post_selection_text": "ein gewalttätiger Ort ist, um neu anzufangen."
                }
             },
             "begin_button": "Beginn"
@@ -1146,14 +1175,14 @@
                "display_name": "Ausdauer",
                "description": "Die körperliche Ausdauer diees Hearthlings.",
                "bullet_points": {
-                  "000": "Jeder Punkt erhöht das maximale Leben um 2"
+                  "000": "Jeder Punkt erhöht das maximale Leben um 1"
                }
             },
             "inventiveness": {
                "display_name": "Einfallsreichtum",
                "description": "Wie gut dieser Hearthling beim Erstellen von Dingen ist. Gute Erfinder erstellen eher feine Gegenstände.",
                "bullet_points": {
-                  "000": "Verbessert die Chance feine Gegenstände herzustellen"
+                  "000": "Alle 2 Punkte erhöht sich die Chance ein feines Stück zu fertigen um 1%"
                }
             },
             "shelter": {
@@ -1166,7 +1195,8 @@
                "description": "Wie wahrscheinlich es ist, dass dieser Hearthling anderen Einwohner hilft oder sich mit anderen anfreundet.",
                "bullet_points": {
                   "000": "Ermittelt maximale Tierzahl",
-                  "001": "Erhöht das Glück der zugeteilten Tiere"
+                  "001": "Erhöht das Glück der zugeteilten Tiere",
+                  "002": "Jeder Punkt erhöht die direkten Heilmenge um 1"
                }
             },
             "food": {
@@ -1190,8 +1220,7 @@
             },
             "net_worth": {
                "display_name": "Stadtwert",
-               "description": "Eine Punktzahl über den Wert des Inhalts des Stadtinventars.",
-               "town_description": "Der Goldwert von allem im Stadtinventar."
+               "description": "Eine Reflexion des Wohlstandes der Stadt. Gebäude, Lager und Landwirtschaft kombiniert ergeben dieses Ergebnis."
             },
             "courage": {
                "display_name": "Mut",
@@ -1222,8 +1251,8 @@
             },
             "edibles": {
                "display_name": "Essbares",
-               "description": "Der Goldwert aller Lebensmittel im Stadtinventar.",
-               "town_description": "Der Goldwert aller Lebensmittel im Stadtinventar"
+               "description": "Der Goldwert aller Lebensmittel im Stadtlager.",
+               "town_description": "Der Goldwert aller Lebensmittel im Stadtlager"
             },
             "mind": {
                "display_name": "Verstand",
@@ -1248,6 +1277,18 @@
             "militia": {
                "display_name": "Miliz",
                "description": "Im Stadtalarm-Modus werden die Milzen Ihre Positionen halten, anstatt zu den Sicherheitspunkten zu rennen. Darüber hinaus erhalten sie einen zusätzlichen Schub auf Mut und Muskeln."
+            },
+            "inventory": {
+               "display_name": "Lager",
+               "description": "Der Goldwert aller nicht-Ressourcen Elemente im Stadtlager."
+            },
+            "buildings": {
+               "display_name": "Gebäude",
+               "description": "Der Wert aller errichteten Gebäude in deiner Stadt. Große Gebäude bringen höhere Punktzahlen als kleinere."
+            },
+            "agriculture": {
+               "display_name": "Landwirtschaft",
+               "description": "Der Wert von Feldern und Weiden in deiner Stadt. Jede gepflanzte Feldfrucht und jedes Tier trägt hierzu bei."
             }
          },
          "constants": {
@@ -1263,8 +1304,8 @@
             "leather_resource_name": "Lederballen",
             "fiber_resource_name": "Fasern",
             "ingot_resource_name": "Metallbarren",
-            "ore_resource_name": "Erz",
-            "herb_resource_name": "Kräuter"
+            "herb_resource_name": "Kräuter",
+            "ore_resource_name": "Erz"
          }
       }
    },
@@ -1273,8 +1314,8 @@
          "ascendancy": {
             "display_name": "Die Ascendancy",
             "quote": "Schaf? Check. Hacke? Check. Schwert? Check. Los Gehts!",
-            "description": "Ernst und fleißig, loyal und gut ausgeglichen. Die Bürger der Ascendancy hacken, bauen und farmen, zuversichtlich das die bekannte Welt Ihnen gehört.",
-            "post_selection_description": ", einem wohlhabenden und erfolgreichem Königreich."
+            "description": "Aufrichtig und fleißig, loyal und ausgewogen. Die Bürger der Ascendancy hacken, bauen und farmen, zuversichtlich, dass die bekannte Welt ihnen zur Besiedlung offen steht.",
+            "post_selection_description": ", einem wohlhabenden und erfolgreichen Königreich."
          }
       },
       "biome": {
@@ -1306,7 +1347,7 @@
                "daily_report_encounter": {
                   "title": "Ein Reisender nähert sich deiner Stadt.",
                   "update_title": "Tägliches Update",
-                  "sub_title": "Einwanderung-Bericht",
+                  "sub_title": "Einwanderungs-Bericht",
                   "food_label": "Essen ",
                   "morale_label": "Moral ",
                   "net_worth_label": "Stadtwert ",
@@ -1380,6 +1421,9 @@
                }
             },
             "goblin_war": {
+               "unlock_windchimes" : {
+                  "bulletin_title" : "Der Schreiner hat das Windglockenspiel Rezept freigeschaltet!"
+               },
                "erdenes_help": {
                   "dialog_tree_info": {
                      "dialog_nodes": {
@@ -1426,7 +1470,7 @@
                            "choice_000": "Klingt gut!",
                            "choice_001": "Nein. Danke.",
                            "bulletin_message": {
-                              "000": "Laut dieser Schrift musst du ein Schlaflied finden, um selbst die Seele eines Berges zu beruhigen. Finde eine gestohlene Flöte und lass sie vom Zimmermann auf diese Melodie stimmen. Bring diese deinem mutigsten Schäfer bei und schicke ihn damit zu Ogo's mächtigem Mammuth und beobachte, wie Selbstherrlichkeit seinen verdienten Lohn erhält."
+                              "000": "Laut dieser Schrift musst du ein Schlaflied finden, um selbst die Seele eines Berges zu beruhigen. Finde eine gestohlene Flöte und lass sie vom Zimmermann auf diese Melodie stimmen. Platziere es in Ogos Pfad und beobachte wie Selbstherrlichkeit seinen verdienten Lohn erhält."
                            },
                            "bulletin_title": "Sie bietet einen Fetzen eines Zettels",
                            "dialog_title": "???"
@@ -2097,6 +2141,56 @@
                      }
                   }
                }
+            },
+            "orc_war": {
+               "arcs": {
+                  "trigger": {
+                     "old_khan": {
+                        "encounters": {
+                           "warchief_intro_dialog": {
+                              "dialog_tree_info": {
+                                 "dialog_nodes": {
+                                    "msg2": {
+                                       "bulletin_message": {
+                                          "00": "...Jetzt wo ich hier bin, ich sehen, dass Ihr noch nicht würdig! Auch nicht den schwächlichsten Chef meines Lager zu kämpfen! Ich später wiederkommen, wenn Ihr stärker. Setzt einen dekorativen Elite Gong wenn Ihr bereit,"
+                                       },
+                                       "bulletin_title": "Kriegsherr Oghar Grakbash",
+                                       "dialog_title": "Kriegsherr Oghar Grakbash"
+                                    },
+                                    "msg1": {
+                                       "bulletin_message": {
+                                          "00": "Du da! Erdene erzählen mir von Euch! Sie sagen, Ihr Ogo Skullbonker besiegt. Red Kiln glaubt, dass Fortschritt nur aus Konflikt zwischen Gleichen kommen."
+                                       },
+                                       "bulletin_title": "Ein Ork-Kriegsherr nähert sich deiner Stadt",
+                                       "dialog_title": "Kriegsherr Oghar Grakbash"
+                                    }
+                                 }
+                              }
+                           },
+                           "blue_tier_begin_dialog": {
+                              "dialog_tree_info": {
+                                 "dialog_nodes": {
+                                    "msg2": {
+                                       "bulletin_message": {
+                                          "00": "Nicht arrogant sein, mickrige Menschen! Brüder aus Capitol warten Ihre Macht zu testen. Jede Stadt mit Elite Gong wird nicht unbeachtet sein."
+                                       },
+                                       "bulletin_title": "Ork-Kundschafter",
+                                       "dialog_title": "Ork-Kundschafter"
+                                    },
+                                    "msg1": {
+                                       "bulletin_message": {
+                                          "00": "Hragh! Mich ergeben! Wir konnten nicht Ehre dem Emerald Star bringen!"
+                                       },
+                                       "bulletin_title": "Der Ork-Kundschafter gestikuliert wild",
+                                       "dialog_title": "Ork-Kundschafter ergeben sich!"
+                                    }
+                                 }
+                              }
+                           }
+                        }
+                     }
+                  }
+               }
             }
          }
       },
@@ -2202,7 +2296,7 @@
          "severely_injured": {
             "severely_injured_buff": {
                "display_name": "Schwer verletzt",
-               "description": "Schwer verwundet! Dieser Hearthling kann kaum gehen!"
+               "description": "Schwer verwundet! Kann kaum gehen!"
             }
          },
          "undead_infection": {
@@ -2219,6 +2313,12 @@
             "minor_courage_buff_buff": {
                "display_name": "Geringfügiger Mut",
                "description": "Kleine Schub an Mut, während des Alarmmodus"
+            }
+         },
+         "game_modes": {
+            "game_mode_hard_buff": {
+               "display_name": "Harter Modus",
+               "description": "Macht mehr Schaden"
             }
          }
       },
@@ -2380,6 +2480,29 @@
          "select_owner": {
             "display_name": "Besitzer auswählen",
             "description": "Wählt die Kämpfer aus, die von dieser Markierung beeinflusst werden"
+         },
+         "call_trader": {
+            "display_name": "Händler rufen",
+            "description": "Ruf einen Händler an diesen Stand",
+            "disabled_description": "Ein Händler hat bereits vor kurzem diesen Stand besucht. Versuch es später noch einmal."
+         },
+         "show_shop": {
+            "display_name": "zeige Laden",
+            "description": "Kaufe und verkaufe Waren"
+         },
+         "archer_arrows": {
+            "default_arrows": {
+               "display_name": "Verwendet Standardpfeile",
+               "description": "Verwendet normale Pfeile. Klicken um auf einen anderen Pfeiltyp zu wechseln."
+            },
+            "slow_arrows": {
+               "display_name": "Verwendet Stachelpfeile",
+               "description": "Aktuell werden Stachelpfeile verwendet, die Feinde verlangsamen. Klicken um auf einen anderen Pfeiltyp zu wechseln."
+            },
+            "fire_arrows": {
+               "display_name": "Verwendet Feuerpfeile",
+               "description": "Aktuell werden Feuerpfeile verwendet, die eine Chance haben Feinde in Brand zu setzen und zeitlich begrenzt zusätzlichen Schaden zu verursachen. Klicken um auf einen anderen Pfeiltyp zu wechseln."
+            }
          }
       },
       "personality": {
@@ -3228,17 +3351,33 @@
             "display_name": "Gruppe Num.[str(self.unit_info.custom_name)]",
             "description": "Organisiert Truppen zu Kampfgruppen"
          }
+      },
+      "shops": {
+         "basic_resource_shop": {
+            "name": "normaler Ressourcenladen",
+            "title": "normaler Ressourcenladen"
+         }
+      },
+      "monster_tuning": {
+         "kobolds": {
+            "wolf_tank": {
+               "kobold_wolf": {
+                  "display_name": "Koboldwolf",
+                  "description": "Ein furchterregender Wolf!"
+               }
+            }
+         }
       }
    },
    "entities": {
       "armor": {
-         "basic_shield": {
-            "display_name": "Stahlschild",
-            "description": "Tragbare Rüstung!",
-            "basic_shield_iconic": {
-               "display_name": "Stahlschild",
-               "description": "Tragbare Rüstung!"
-            }
+         "knights_shield": {
+            "shield_talisman": {
+               "display_name": "Ritterschild",
+               "description": "Ernennt einen Hearthling zu einem Ritter"
+            },
+            "display_name": "Ritterschild",
+            "description": "Zum verteidigen von Verbündeten"
          },
          "iron_shield": {
             "display_name": "Schwerer Eisenschild",
@@ -3339,6 +3478,38 @@
                "display_name": "Stahlhelm",
                "description": "Schutz für deinen Kopf"
             }
+         },
+         "steel_shield": {
+            "display_name": "Stahlschild",
+            "description": "Ein stabiler Schild aus Stahl"
+         },
+         "iron_helm": {
+            "display_name": "Eisenhelm",
+            "description": "Schutz für deinen Kopf"
+         },
+         "iron_circlet": {
+            "display_name": "Eisenreif",
+            "description": "Mittlerer Kopfschutz"
+         },
+         "steel_circlet": {
+            "display_name": "Stahlreif",
+            "description": "Leicht und ein starker Schutz für den Kopf"
+         },
+         "simple_quiver": {
+            "display_name": "Stachelköcher",
+            "description": "Ein leichter Köcher mit Verlangsamungspfeilen"
+         },
+         "fire_quiver": {
+            "display_name": "Feuerköcher",
+            "description": "Setzt Feinde in Brand und verursacht zeitlich begrenzten zusätzlichen Schaden"
+         },
+         "cracked_wooden_buckler": {
+            "display_name": "Gebrochene Holzschild",
+            "description": "Hat viele Schlachten überstanden "
+         },
+         "square_cracked_wooden_buckler": {
+            "display_name": "Quadrat Holzschild",
+            "description": "Achtet auf die Ecken!"
          }
       },
       "boulders": {
@@ -3424,8 +3595,8 @@
          },
          "wooden_door_4x4": {
             "wooden_door_ghost": {
-               "display_name": "Hölzerne Tür",
-               "description": "Privatsphäre endlich!"
+               "display_name": "Hölzerne Tunneltür",
+               "description": "Nützlich zum Absperren von Tunneln"
             },
             "wooden_tunnel_door_ghost": {
                "display_name": "Hölzerne Tunneltür",
@@ -3506,14 +3677,14 @@
          },
          "stone_tunnel_door": {
             "stone_tunnel_door_ghost": {
-               "display_name": "Steintunneltür",
-               "description": "Nützlich zum abdichten von Stollen."
+               "display_name": "Steinerne Tunneltür",
+               "description": "Nützlich zum Absperren von Tunneln."
             }
          },
          "clay_tunnel_door": {
             "clay_tunnel_door_ghost": {
-               "display_name": "Lehmtunneltür",
-               "description": ""Nützlich zum abdichten von Stollen."
+               "display_name": "Lehmerne Tunneltür",
+               "description": "Nützlich zum Absperren von Tunneln."
             }
          }
       },
@@ -3565,6 +3736,34 @@
                "display_name": "Der Tresor",
                "description": "Massiver Speicher"
             }
+         },
+         "log_pile": {
+            "log_pile_ghost": {
+               "display_name": "Holzstapel",
+               "description": "Ernte Ihn für eine große Anzahl Holzklötzen"
+            },
+            "log_pile_iconic": {
+               "description": "Erntbar für Holz, wenn platziert."
+            }
+         },
+         "stone_pile": {
+            "stone_pile": {
+               "description": "Ernte Ihn für viele Steinbrocken",
+               "display_name": "Steinstapel "
+            },
+            "stone_pile_iconic": {
+               "description": "Erntbar für Stein, wenn platziert"
+            }
+         },
+         "clay_pile": {
+            "display_name": "Lehmstapel",
+            "description": "Ernte Ihn für eine große Menge an Ton",
+            "iconic_description": "Erntbar für Ton, wenn platziert"
+         },
+         "wheat_pile": {
+            "display_name": "Großes Weizenbündel",
+            "description": "Ernte Ihn für eine große Menge an Weizen",
+            "iconic_description": "Erntbar für Weizen, wenn platziert"
          }
       },
       "critters": {
@@ -3624,7 +3823,7 @@
          },
          "woodchuck": {
             "display_name": "Murmeltier",
-            "description": "Ein unersättlicher Esser von fast allem, vor allem Holzklötze."
+            "description": "Ein unersättlicher Esser von fast allem, vor allem Holzklötzen."
          }
       },
       "crops": {
@@ -4274,6 +4473,36 @@
                "display_name": "Koch-Schild",
                "description": "Ein Schild mit der Markierung des Koches."
             }
+         },
+         "clay_market_stall": {
+            "clay_market_stall_ghost": {
+               "display_name": "Lehm Marktstand",
+               "description": "Händler können hier einen Laden einrichten"
+            }
+         },
+         "decorative_elite_gong": {
+            "decorative_elite_gong_ghost": {
+               "display_name": "Dekorativer Elitegong",
+               "description": "Inspiriert von der Elitekobold Bedrohung"
+            }
+         },
+         "decorative_generals_gong": {
+            "decorative_generals_gong_ghost": {
+               "display_name": "Goldener Generalgong",
+               "description": "Inspiriert von dem Koboldbogenschützen General"
+            }
+         },
+         "decorative_master_gong": {
+            "decorative_master_gong_ghost": {
+               "display_name": "Meistergong",
+               "description": "Inspiriert durch den Kobold Meisterbogenschütze"
+            }
+         },
+         "decorative_scout_gong": {
+            "decorative_scout_gong_ghost": {
+               "display_name": "Aufkärergong",
+               "description": "Inspirit durch den Koboldaufklärer"
+            }
          }
       },
       "food": {
@@ -4499,6 +4728,27 @@
          "rotten_basket": {
             "display_name": "verrotteter Nahrungsmittelkorb",
             "description": "So vorrottet, dass es seine Form und Funktion verliert."
+         },
+         "rotten_egg": {
+            "display_name": "verfaultes Ei",
+            "description": "Widerlich"
+         },
+         "rotten_jerky": {
+            "display_name": "verwestes Trockenfleisch",
+            "description": "Auch Trockenfleisch verwest irgendwann. Es ist wahr"
+         },
+         "mutton": {
+            "display_name": "rohes Hammelfleisches",
+            "description": "Rohes Fleisch von einem Schaf"
+         },
+         "roast_mutton": {
+            "roast_mutton": {
+               "display_name": "Gestell mit Hammelbraten ",
+               "description": "Zart gebraten bis zur Perfektion"
+            },
+            "roast_mutton_serving": {
+               "display_name": "Geröstetes Gestell mit Hammelfleisches"
+            }
          }
       },
       "furniture": {
@@ -4675,6 +4925,15 @@
                "display_name": "Feines Lehmbett",
                "description": "Hält dich mit Stil vom Boden fern. Obwohl er immer noch unangenhm ist"
             }
+         },
+         "blue_market_stall": {
+            "blue_market_stall_ghost": {
+               "display_name": "Blauer Marktstand",
+               "description": "Händler können hier einen Laden einrichten."
+            },
+            "trader": {
+               "description": "Ein reisender Händler"
+            }
          }
       },
       "generic": {
@@ -4733,6 +4992,12 @@
             "individual_command_marker_ghost": {
                "display_name": "Befehl Markierung",
                "description": "Repräsentiert einen Kampfbefehl."
+            }
+         },
+         "mountains_windchime": {
+            "mountains_windchime_ghost": {
+               "display_name": "Wind Glockenspiel",
+               "description": "Beruhigende und glückliche Noten"
             }
          }
       },
@@ -4874,6 +5139,34 @@
                "description": "Eigentum von Zentralchef Grug Schädelquetschers"
             }
          },
+         "kobolds": {
+            "kobold": {
+               "display_name": "[str(self.unit_info.custom_name)]",
+               "description": "Anhänger des Diamant-Stern"
+            },
+            "loot": {
+               "elite_bling_hat": {
+                  "display_name": "Elite Koboldhut",
+                  "description": "Kobolde lieben Ihr BlingBling!"
+               },
+               "generals_bling_hat": {
+                  "display_name": "Generalshut",
+                  "description": "Vom Koboldbogenschützen General fallen gelassen"
+               },
+               "masters_bling_hat": {
+                  "display_name": "Meister Blinghut",
+                  "description": "Vom Kobold Meisterbogenschützen fallen gelassen"
+               },
+               "scout_bling_hat": {
+                  "display_name": "Aufklärerhut",
+                  "description": "Vom Koboldaufklärer fallen gelassen"
+               }
+            },
+            "kobold_wolf": {
+               "display_name": "Koboldwolf",
+               "description": "Ein furchterregender Wolf!"
+            }
+         },
          "undead": {
             "skeleton": {
                "display_name": "[str(self.unit_info.custom_name)]",
@@ -4913,6 +5206,26 @@
          "rabbit": {
             "display_name": "...",
             "description": "Ein Hase"
+         },
+         "ogres": {
+            "ogre": {
+               "display_name": "[str(self.unit_info.custom_name)]",
+               "description": "Ein Ork ging schrecklich schief"
+            }
+         },
+         "orcs": {
+            "orc": {
+               "display_name": "Ork",
+               "description": "Ein Krieger des Red Kiln"
+            },
+            "orc_boss_banner": {
+               "display_name": "Kriegsherr Oghar Grakbash's Banner",
+               "description": "Gemacht um die Schwachen einzuschüchtern"
+            },
+            "orc_hut": {
+               "display_name": "Orkhütte",
+               "description": "Hergestellt aus grob gehackten Holzbrettern"
+            }
          }
       },
       "pets": {
@@ -4921,8 +5234,8 @@
             "description": "So brav!"
          },
          "dragon_whelp": {
-            "display_name": "Babydrache",
-            "description": "Quetsch Quetsch"
+            "display_name": "Drachenwelpe",
+            "description": "Ein Babydrache"
          },
          "kitten": {
             "display_name": "Kätzchen",
@@ -5188,6 +5501,12 @@
             "varanus_skin": {
                "display_name": "Varanus Haut",
                "description": "Rau und schuppig"
+            }
+         },
+         "feathers": {
+            "poyo_feathers": {
+               "display_name": "Poyofedern",
+               "description": "Federn von einem fetten Vogel"
             }
          }
       },
@@ -5457,7 +5776,7 @@
             "description": "Hält die Pelzchen in Reihe."
          },
          "short_sword": {
-            "display_name": "Kurzschwert",
+            "display_name": "Stahlkurzschwert",
             "description": "Stummlig, aber seine Stahklinge ist scharf.",
             "short_sword_iconic": {
                "display_name": "Kurzschwert",
@@ -5507,6 +5826,22 @@
                "display_name": "Bogenschützenbogen",
                "description": "Ernennt einen Hearthling zu einem Bogenschützen"
             }
+         },
+         "arrow": {
+            "display_name": "Verlangsamungspfeil",
+            "description": "Verlangsamt Ziele, die es trifft"
+         },
+         "recurve_bow": {
+            "display_name": "Recurvebogen",
+            "description": "Gebogene für schnellere und stärkere Schüsse"
+         },
+         "crude_metal_axe": {
+            "display_name": "Grobe Metallaxt",
+            "description": "Einfach aber effektiv."
+         },
+         "crude_wooden_club": {
+            "display_name": "Grobe Holzknüppel",
+            "description": "Spitzer Ast in ein Tuch gewickelt"
          }
       },
       "consumables": {
@@ -5551,14 +5886,60 @@
          }
       },
       "archer": {
-         "archer_description": {
-            "display_name": "???",
-            "description": "???",
-            "requirements": "???"
-         },
          "archer_outfit": {
             "display_name": "Bogenschützenumhang",
-            "description": "Bietet leichten Schutz "
+            "description": "Bietet leichten Schutz ",
+            "archer_hood": {
+               "display_name": "Bogenschützenumhang",
+               "description": "Kapuzenschutz für den Kopf"
+            }
+         },
+         "archer_description": {
+            "display_name": "Bogenschütze",
+            "description": "Eine Fernkampfeinheit, die Feinde mit Pfeilen beschießt",
+            "requirements": "Ein Level 3 Fußsoldat und ein Bogenschützenbogen, hergestellt vom Zimmermann",
+            "level_1_data": {
+               "perk_000_name": "Erhöhte Zugkraft",
+               "perk_000_description": "Der Schaden des Bogenschützen wird erhöht"
+            },
+            "level_2_data": {
+               "perk_000_name": "Rüstungsdurchdringende Pfeile",
+               "perk_000_description": "Die Schüsse des Bogenschützen ignorieren 50% der Rüstung des Ziels"
+            },
+            "level_0_data": {
+               "perk_000_name": "Bogenkenntnisse",
+               "perk_000_description": "Der Bogenschütze ist in der Lage einen Bogen zu verwenden um Pfeile auf Feinde zu schießen"
+            },
+            "level_3_data": {
+               "perk_000_name": "Reichweite erhöht",
+               "perk_000_description": "Der Bogenschütze kann weiter entfernte Feinde angreifen"
+            },
+            "level_5_data": {
+               "perk_000_name": "Reichweite erhöht (Rang 2)",
+               "perk_000_description": "Der Bogenschütze kann weiter entfernte Feinde angreifen"
+            },
+            "level_4_data": {
+               "perk_000_name": "Zuggeschwindigkeit erhöht",
+               "perk_000_description": "Der Bogenschütze schießt Pfeile mit größerer Geschwindigkeit"
+            },
+            "level_6_data": {
+               "perk_000_name": "Robin Hood - Doppelschuss",
+               "perk_000_description": "Der Bogenschütze lernt die alte Kunst der schnelle Schüsse, er kann nun zwei Pfeile in schneller Folge abschießen"
+            }
+         },
+         "archer_buffs": {
+            "damage_1_buff": {
+               "display_name": "Schaden +20%",
+               "description": "Der Schaden des Bogenschützen wird erhöht."
+            },
+            "slowing_arrow": {
+               "display_name": "Verlangsamt",
+               "description": "Verlangsamt durch Verlangsamungspfeile"
+            },
+            "fire_arrow": {
+               "display_name": "In Brand geraten",
+               "description": "Steht in Flammen! Nimmt aller 5 Minuten Feuerschaden für 15 Minuten"
+            }
          }
       },
       "architect": {
@@ -5638,11 +6019,6 @@
             }
          },
          "recipes": {
-            "basic_shield_recipe": {
-               "description": "Gewährt die Fähigkeit Angriffe zu blockieren.",
-               "flavor": "Unglaublich schützend. Kleine Kinder spielen Schildkröte darunter.",
-               "recipe_name": "Stahlschild"
-            },
             "iron_shield_recipe": {
                "description": "Schwer, aber effektiv.",
                "flavor": "'Kopf hoch!, Rekrut! Besser der Schild verbeult als du!-Thredd, Man at Arms' -Thredd, Krieger",
@@ -5714,7 +6090,7 @@
             "tools_name": "Werkzeuge",
             "short_sword_recipe": {
                "description": "Stummlig, aber seine Stahklinge ist scharf.",
-               "recipe_name": "Kurzschwert",
+               "recipe_name": "Stahlkurzschwert",
                "flavor": "Aber, tut es glühen wenn Orks in der Nähe sind?"
             },
             "silver_ingot_recipe": {
@@ -5779,6 +6155,48 @@
             "bronze_shield_recipe": {
                "description": "Erhöht die Rüstung und blockiert Angriffe!",
                "recipe_name": "Bronzeschild"
+            },
+            "decoration_name": "Dekorationen",
+            "steel_shield_recipe": {
+               "recipe_name": "Stahlplattenschild",
+               "description": "Gewährt die Fähigkeit: Angriffe vollständig zu blockieren.",
+               "flavor": "Unglaublicher Schutz. Kleine Kinder spielen Schildkröte darunter."
+            },
+            "knights_shield_recipe": {
+               "recipe_name": "Ritterschild",
+               "description": "Wird benötigt um ein Hearthling in einen Ritter zu ernennen"
+            },
+            "iron_helm_recipe": {
+               "recipe_name": "Eisenhelm",
+               "description": "Schutz für den Kopf"
+            },
+            "iron_circlet_recipe": {
+               "recipe_name": "Eisenreif",
+               "description": "Er ist ziemlich schwer, aber schützt den Kopf"
+            },
+            "steel_circlet_recipe": {
+               "recipe_name": "Stahlreif",
+               "description": "Leichter und starker Kopfschutz "
+            },
+            "decorative_elite_gong_recipe": {
+               "description": "Inspiriert von der Elitekobold Bedrohung",
+               "recipe_name": "Dekorativer Elitegong",
+               "flavor": "Wie sich herausstellte, waren die Hüte sehr dicht"
+            },
+            "decorative_generals_gong_recipe": {
+               "description": "Enorm und dekorativ!",
+               "recipe_name": "Goldener Generalgong",
+               "flavor": "Der Hut des Generals, könnte einen See mit Gold auffüllen, wenn man Ihn einschmilzt"
+            },
+            "decorative_master_gong_recipe": {
+               "description": "Inspiriert durch den Kobold Meisterbogenschütze",
+               "recipe_name": "Dekorativer Meistergong",
+               "flavor": "Großartig zum verspotten des Meisterkobolds"
+            },
+            "decorative_scout_gong_recipe": {
+               "description": "Inspirit durch den Koboldaufklärer",
+               "recipe_name": "Dekorativer Aufkärergong",
+               "flavor": "Selbst Aufklärer sind mit Gold verziert"
             }
          }
       },
@@ -5789,8 +6207,8 @@
             "requirements": "Schreinersäge, wird von dem Schmied hergestellt.",
             "level_6_data": {
                "title": "Meister Schreiner",
-               "perk_000_name": "10,000 Stunden (nicht implementiert)",
-               "perk_000_description": "Die Beherrschung seines Faches erlaubt dem Schreiner völlig neue Möglichkeiten der Verwendung von Holz."
+               "perk_000_name": "10,000 Stunden",
+               "perk_000_description": "Die Beherrschung seines Faches gewährt dem Schreiner Zugang zu neuen Rezepten die der Stadt neue Möglichkeiten bieten."
             },
             "level_2_data": {
                "perk_000_name": "Gemeinsame Einblicke",
@@ -5905,7 +6323,7 @@
             "tools_weapons_name": "Werkzeuge & Waffen",
             "storage_name": "Lagerung",
             "building_parts_name": "Bauteile",
-            "armor_name": "Rüstungen",
+            "armor_name": "Waffen und Rüstungen",
             "furniture_name": "Möbel",
             "workbench_name": "Werkbanken",
             "utility_name": "Nützliches",
@@ -6050,24 +6468,50 @@
                "recipe_name": "Holz-Sicherheitsbanner"
             },
             "wooden_tunnel_door_recipe": {
-               "recipe_name": "hölzerne Tunneltür",
+               "recipe_name": "Hölzerne Tunneltür",
                "description": "Nützlich zum Absperren von Tunneln"
             },
             "wooden_sign_cook_recipe": {
                "description": "Ein Schild mit der Markierung des Koches.",
-               "recipe_name": ""Wandgebundenes Koch-Schild"
+               "recipe_name": "Wandgebundenes Koch-Schild"
             },
             "wooden_sign_herbalist_recipe": {
                "description": "Ein Schild mit der Markierung des Kräuterarztes.",
-               "recipe_name": ""Wandgebundenes Kräuterarzt-Schild"
+               "recipe_name": "Wandgebundenes Kräuterarzt-Schild"
             },
             "wooden_sign_inn_recipe": {
                "description": "Ein Schild mit dem Hinweis für einen Ort der Ruhe UND der Gelage",
-               "recipe_name": ""Wandgebundenes Gasthof-Schild"
+               "recipe_name": "Gasthof-Schild"
             },
             "wooden_sign_potter_recipe": {
                "description": "Ein Schild mit der Markierung des Töpfers.",
-               "recipe_name": ""Wandgebundenes Töpfer-Schild"
+               "recipe_name": "Wandgebundenes Töpfer-Schild"
+            },
+            "log_pile_recipe": {
+               "recipe_name": "Holzstapel",
+               "description": "Ein Stapel von Holzklötzen. Eine hervorragende Möglichkeit Holz für eine spätere Verwendung zu speichern."
+            },
+            "wheat_pile_recipe": {
+               "recipe_name": "Großes Weizenbündel",
+               "description": "Wenn normale Weizenballen einfach zu klein sind. Gut um Effizient eine große Menge an Weizen zu speichen."         
+            },
+            "blue_market_stall_recipe": {
+               "description": "Händler können diesen Stand besuchen, um Waren zu kaufen und zu verkaufen",
+               "recipe_name": "blauer Marktstand ",
+               "flavor": "Aber wer sind diese Leute? Und wo kommen sie her?"
+            },
+            "archer_bow_recipe": {
+               "recipe_name": "Bogenschützenbogen",
+               "description": "Wird benötigt um einen Hearthling in einen Bogenschützen zu ernennen"
+            },
+            "recurve_bow_recipe": {
+               "recipe_name": "Recurvebogen ",
+               "description": "Ein Bogen der sich vom Halter wegbiegt, erlaubt stärkere und schnellere Pfeilangriffe"
+            },
+            "mountains_windchime_recipe": {
+               "description": "Platziere es um Ogos ausgebildetere Oger abzuschrecken",
+               "recipe_name": "Wind Glockenspiel",
+               "flavor": "Die Melodie erinnert an das vor langer Zeit gestohlene Ogerschlaflied"
             }
          }
       },
@@ -6201,6 +6645,11 @@
             "corn_meal_recipe": {
                "description": "Mais zu einem feinen Pulver gemahlen",
                "recipe_name": "Maismehl"
+            },
+            "decoration_name": "Dekorationen",
+            "roast_mutton_recipe": {
+               "recipe_name": "Geröstetes Gestell mit Hammelfleisches",
+               "description": "Nahrhaft und köstlich"
             }
          },
          "cook_mill": {
@@ -6230,7 +6679,8 @@
             "requirements": "Die Hacke, wird von dem Schreiner hergestellt.",
             "level_6_data": {
                "perk_000_name": "Naturs Überraschung (nicht implementiert)",
-               "perk_000_description": "Gelegentlich ergeben sich, durch die besondere Note des Farmers, ganz spezielle Ergebnisse."
+               "perk_000_description": "Gelegentlich ergeben sich, durch die besondere Note des Farmers, ganz spezielle Ergebnisse.",
+               "title": "Meisterfarmer"
             },
             "level_1_data": {
                "perk_000_name": "Schnelligkeit erhöht",
@@ -6288,6 +6738,18 @@
             "level_3_data": {
                "perk_000_name": "Spannungsspitze",
                "perk_000_description": "Dieser kraftvolle Überkopfschlag gibt doppelten Schaden"
+            },
+            "level_6_data": {
+               "perk_000_name": "Schaden plus 60%",
+               "perk_000_description": "Maximalerschaden!"
+            },
+            "level_2_data": {
+               "perk_000_name": "Erster Beantworter",
+               "perk_000_description": "Der Fußsoldaten stürmt in die Schlacht"
+            },
+            "level_5_data": {
+               "perk_000_name": "Durchschlagend",
+               "perk_000_description": "Ein zerschneidender Schlag, der Schaden auf bis zu 4 Gegner um das Ziel des Fußsoldaten erzeugt"
             }
          },
          "footman_buffs": {
@@ -6296,12 +6758,16 @@
                "display_name": "Schaden +20%"
             },
             "damage_2_buff": {
-               "description": "Auf Level 1, greift der Fußsoldat mit erhöhter Heftigkeit an",
-               "display_name": "Schaden +20%"
+               "description": "Der Fußsoldat greift mit erhöhter Heftigkeit an",
+               "display_name": "Schaden +40%"
             },
             "damage_3_buff": {
-               "description": "Auf Level 1, greift der Fußsoldat mit erhöhter Heftigkeit an",
-               "display_name": "Schaden +20%"
+               "description": "Auf Level 6, sind die Angriffe des Fußsoldaten unaufhaltsam!",
+               "display_name": "Schaden +60%"
+            },
+            "speed_buff": {
+               "display_name": "Erster Beantworter",
+               "description": "Der Fußsoldat bewegt sich schneller"
             }
          },
          "footman_outfit": {
@@ -6403,6 +6869,10 @@
                "recipe_name": "Kopfsteinzauntor",
                "flavor": "Schafe können hineingehen, aber nicht mehr rauskommen!"
             },
+            "stone_tunnel_door_recipe": {
+               "recipe_name": "Steinerne Tunneltür",
+               "description": "Nützlich zum Absperren von Tunneln"
+            },
             "cobblestone_fence_recipe": {
                "description": "Ein rustikales, robustes Wandsegment.",
                "recipe_name": "Kopfsteinzaun",
@@ -6484,7 +6954,15 @@
                "recipe_name": "Steinmetz Podest",
                "flavor": "Knacken und Funken, Zischen von Kohle, beleuchte den Weg, verwandele die gesamte Erde ."
             },
-            "workbenches_name": "Werkbanken"
+            "workbenches_name": "Werkbanken",
+            "stone_pile_recipe": {
+               "recipe_name": "Steinstapel ",
+               "description": "Ein haufen gestapelter Steine. Eine hervorragende Möglichkeit Steine für eine spätere Verwendung zu speichern."
+            },
+            "stone_tunnel_door_recipe": {
+               "description": "Nützlich zum Abdichtung von Stollen.",
+               "recipe_name": "Steintunneltür"
+            }
          }
       },
       "miner": {
@@ -6548,6 +7026,10 @@
                "description": "Ihre Flamme bringt ein warmes Glühen in der Nacht.",
                "recipe_name": "Wandgebundene Lehm-Öllampe",
                "flavor": "'Close round us guard the spirits of night! As they dance and sway, free you'll be to dream the dark away.'"
+            },
+            "clay_tunnel_door_recipe": {
+               "recipe_name": "Lehmerne Tunneltür",
+               "description": "Nützlich zum Absperren von Tunneln"
             },
             "garden_gnome_recipe": {
                "description": "Nach den mythischen Waldgeistern gestaltet.",
@@ -6674,6 +7156,18 @@
             "unfired_clay_vase_recipe": {
                "description": "Eine einfache Vase die auf der Töpferscheibe hergestellt wurde um für komplexere Rezepturen verwendet zu werden.",
                "recipe_name": "Ungebrannte Lehmvase"
+            },
+            "clay_pile_recipe": {
+               "recipe_name": "Lehmstapel",
+               "description": "Ein haufen gestapelter Ton. Eine hervorragende Möglichkeit Lehm für eine spätere Verwendung zu speichern."
+            },
+            "clay_market_stall_recipe": {
+               "description": "Händler können diesen Stand besuchen, um Waren zu kaufen und zu verkaufen",
+               "recipe_name": "Lehm Marktstand"
+            },
+            "clay_tunnel_door_recipe": {
+               "description": "Nützlich zum Abdichtung von Stollen.",
+               "recipe_name": "Lehmtunneltür"
             }
          },
          "potter_workbench": {
@@ -6717,6 +7211,9 @@
             "level_3_data": {
                "perk_000_name": "Extra Bonus",
                "perk_000_description": "Durch seine Fähigkeiten produziert der Schäfer größere Erträge durch tierische Erzeugnisse."
+            },
+            "level_6_data": {
+               "title": "Meisterschäfer"
             }
          },
          "shepherd_crook": {
@@ -6751,9 +7248,8 @@
          "trapper_description": {
             "display_name": "Trapper",
             "description": "Die Fallen des Trappers fangen und (ähem) &quot;ernten&quot; kleine Tiere für eine zuverlässige Quelle an Lebensmitteln und Vorräten.",
-            "requirements": "Trappermesser, wird von dem Schmied hergestellt.",
+            "requirements": "Trappermesser, wird von dem Steinmetz hergestellt.",
             "level_1_data": {
-               "title": "Geselle",
                "perk_000_name": "Schnelligkeit erhöht",
                "perk_000_description": "Lange Spaziergänge haben die Geschwindkeit des Trappers erhöht."
             },
@@ -6769,11 +7265,12 @@
             },
             "level_6_data": {
                "perk_000_name": "Der tödlichsteste Fang (nicht implementiert!)",
-               "perk_000_description": "Lege besondere Fallenzonen um habgierige Nachbarn 'abzuschrecken'"
+               "perk_000_description": "Lege besondere Fallenzonen um habgierige Nachbarn 'abzuschrecken'",
+               "title": "Meistertrapper"
             },
             "level_5_data": {
-               "perk_000_name": "Verzahnte Fallen (nicht implementiert!)",
-               "perk_000_description": "Fallen locken und halten nun größere Beute."
+               "perk_000_name": "Verzahnte Fallen",
+               "perk_000_description": "Bessere Fallenbewaffnungsfähigkeiten erhöhen die Chance des Trappers Beute zu fangen, um 25%."
             },
             "level_4_data": {
                "perk_000_name": "Rucksackgröße +8",
@@ -6964,6 +7461,14 @@
             "leather_helmet_recipe": {
                "description": "Leichter Schutz für den Kopf!",
                "recipe_name": "Lederne Schädel-Kappe"
+            },
+            "simple_quiver_recipe": {
+               "recipe_name": "Stachelköcher",
+               "description": "Ein vom Bogenschützen ausrüstbarer Köcher. Beinhaltet Verlangsamungspfeile"
+            },
+            "fire_quiver_recipe": {
+               "recipe_name": "Feuerköcher",
+               "description": "Gibt einem Bogenschützen Zugang zu Feuerpfeilen, die zeitlich begrenzt Extraschaden erzeugen"
             }
          },
          "weaver_loom": {
@@ -6985,7 +7490,7 @@
             },
             "weaver_spindle_talisman": {
                "display_name": "Weberspindel",
-               "description": "Für das spinnen von Fasern in Faden"
+               "description": "Wird benötigt um einen Hearthling in einen Weber zu ernennen."
             }
          },
          "weaver_spinning_wheel": {
@@ -7060,6 +7565,9 @@
             "level_3_data": {
                "perk_000_name": "Gegenstandsbeherrschung",
                "perk_000_description": "Die medizinischen Fähigkeiten des Kräuterarztes erhöhen die Wirksamkeit der Heilgegenstände um 50%."
+            },
+            "level_6_data": {
+               "title": "Meisterkräuterarzt"
             }
          },
          "herbalist_outfit": {
@@ -7119,7 +7627,13 @@
             "courage_tonic_recipe": {
                "description": "Bufft den Mut aller Hearthlinge für eine kurze Zeit.",
                "recipe_name": "Mutelixier"
-            }
+            },
+            "decorations_name": "Dekorationen",
+            "cleric_tome_recipe": {
+               "recipe_name": "Klerikerfoliant",
+               "description": "Wird benötigt um einen Hearthling in einen Kleriker zu ernennen"
+            },
+            "tools_name": "Werkzeug"
          },
          "herbalist_buffs": {
             "willpower_1_buff": {
@@ -7132,6 +7646,207 @@
          "cleric_outfit": {
             "display_name": "Klerikerrobe",
             "description": "Ein heiliges Gewand, welches von den wenigen Frommen getagen wird"
+         },
+         "cleric_description": {
+            "display_name": "Kleriker",
+            "description": "Ein kämpfender Heiler",
+            "requirements": "Ein Level 2 Kräuterarzt und ein Klerikerfoliant, hergetellt vom Kräuterarzt",
+            "level_0_data": {
+               "perk_000_name": "Heilende Aura",
+               "perk_000_description": "Die Anwesenheit des Kleriker heilt in regelmäßigen Abständen alle um Ihn herum"
+            },
+            "level_1_data": {
+               "perk_000_name": "Geringe Stärke",
+               "perk_000_description": "Die Anwesenheit des Kleriker verbessert die Muskeln aller um Ihn herum"
+            },
+            "level_2_data": {
+               "perk_000_name": "Mitgefühl hoch",
+               "perk_000_description": "Erhöhte Mitgefühl für eine erhöhte direkte Heilung"
+            },
+            "level_3_data": {
+               "perk_000_name": "Heilende Aura (Rang 2)",
+               "perk_000_description": "Die Leistung der Heilaura ist erhöht"
+            },
+            "level_6_data": {
+               "perk_000_name": "Heilender Meister",
+               "perk_000_description": "Der Kleriker hat die Kunst der Heilung gemeistert. Mitgefühl stark erhöht."
+            },
+            "level_4_data": {
+               "perk_000_name": "Heilende Aura (Rang 3)",
+               "perk_000_description": "Der Bereich der Heilaura ist erhöht"
+            },
+            "level_5_data": {
+               "perk_000_name": "Große Stärke",
+               "perk_000_description": "Die Anwesenheit des Kleriker verbessert die Muskeln aller um Ihn herum"
+            }
+         },
+         "cleric_tome": {
+            "cleric_tome_talisman": {
+               "display_name": "Klerikerfoliant",
+               "description": "Wird benötigt um einen Hearthling in einen Kleriker zu ernennen"
+            },
+            "display_name": "Foliant der Heilung",
+            "description": "Enthält heiligen Texte auf dem Weg des Klerikersc"
+         },
+         "cleric_buffs": {
+            "heal_aura_1_buff": {
+               "display_name": "Heilende Aura",
+               "description": "Die Anwesenheit des Kleriker heilt, in regelmäßigen Abständen, alle um Ihn herum"
+            },
+            "add_health_small_buff": {
+               "display_name": "Kleine Heilung",
+               "description": "Von einer heilenden Aura!"
+            },
+            "minor_muscle_aura_buff": {
+               "display_name": "Geringe Stärke",
+               "description": "Erhöhte die Stärke aller umstehenden um eine kleine Menge"
+            },
+            "minor_muscle_aura_effect_buff": {
+               "display_name": "Geringe Stärke",
+               "description": "Stärke ist leicht verbessert durch die Anwesenheit eines Klerikers"
+            },
+            "compassion_1_buff": {
+               "display_name": "Mitgefühl hoch",
+               "description": "Mitgefühl steigt um 20%"
+            },
+            "heal_aura_2_buff": {
+               "display_name": "Heilende Aura (Rang 2)",
+               "description": "Heilt, in regelmäßigen Abständen, alle um Ihn herum."
+            },
+            "add_health_medium_buff": {
+               "display_name": "Mittlere Heilung",
+               "description": "Heilt eine mittlere Menge"
+            },
+            "compassion_2_buff": {
+               "display_name": "Mitgefühl hoch",
+               "description": "Mitgefühl steigt um 40%"
+            },
+            "heal_aura_3_buff": {
+               "display_name": "Heilende Aura (Rang 3)",
+               "description": "Heilt jeden innerhalb von 30 Voxeln um den Kleriker"
+            },
+            "major_muscle_aura_buff": {
+               "display_name": "Große Stärke",
+               "description": "Erhöht erheblich die Muskel von umstehenden"
+            },
+            "major_muscle_aura_effect_buff": {
+               "display_name": "Große Stärke",
+               "description": "Muskel stark verbessert durch die Anwesenheit eines Klerikers"
+            }
+         }
+      },
+      "magmasmith": {
+         "magmasmith_outfit": {
+            "display_name": "Magmaschmied Outfit",
+            "description": "Traditionelle Uniform des Magmaschmiedes."
+         },
+         "magmasmith_hammer": {
+            "magmasmith_hammer_talisman": {
+               "display_name": "Magmaschmied's Hammer",
+               "description": "Wird benötigt um einen Hearthling in einen Magmaschmied zu ernennen"
+            },
+            "display_name": "Magmaschmied Hammer",
+            "description": "Lava auf das Gesicht"
+         },
+         "magmasmith_forge": {
+            "magmasmith_forge_ghost": {
+               "display_name": "Magmaschmied Schmiede",
+               "description": "Wie eine normale Schmiede, nur viel heißer"
+            }
+         },
+         "magmasmith_workbench": {
+            "magmasmith_workbench_ghost": {
+               "display_name": "Magmaschmied Werkbank",
+               "description": "Lava fließt von innen"
+            }
+         },
+         "magmasmith_description": {
+            "display_name": "Magmaschmied",
+            "description": "Fertigt Sachen aus Magma",
+            "requirements": "Level 2 Schmied und einen Magmaschmied Hammer"
+         },
+         "recipes": {
+            "workbenches_name": "Werkbanken"
+         }
+      },
+      "knight": {
+         "knight_outfit": {
+            "display_name": "Ritterrüstung",
+            "description": "Metallrüstung von einem Ritter getragen"
+         },
+         "knight_description": {
+            "display_name": "Ritter",
+            "description": "Ein defensiver Kämpfer der sich auf den Schutz seiner Verbündete konzentriert.",
+            "requirements": "Erfordert einen Stufe 3 Fußsoldat und ein Ritterschild, von Schmied gefertigt",
+            "level_1_data": {
+               "perk_000_name": "Schadensreduzierung Rang 1",
+               "perk_000_description": "Der Ritter erhält zusätzliche 10% Verteidigung von seiner Ausrüstung"
+            },
+            "level_4_data": {
+               "perk_000_name": "Schadensreduzierung Rang 2",
+               "perk_000_description": "Der Ritter erhält zusätzlich 20% Verteidigung von seiner Ausrüstung"
+            },
+            "level_0_data": {
+               "perk_000_name": "Befestigen",
+               "perk_000_description": "Erhöht Ausdauer, Mut und zieht die Aufmerksamkeit von Monstern auf sich"
+            },
+            "level_3_data": {
+               "perk_000_name": "Befestigen (Rang 2)",
+               "perk_000_description": "Ausdauer und Mut stark erhöht"
+            },
+            "level_5_data": {
+               "perk_000_name": "Inspirierende Präsenz",
+               "perk_000_description": "Der Ritter steigert den Mut aller umstehenden"
+            },
+            "level_2_data": {
+               "perk_000_name": "Brüllen",
+               "perk_000_description": "Der Ritter beleidigt die Gegner und zieht somit die Aufmerksamkeit naher Feinde auf sich."
+            },
+            "level_6_data": {
+               "perk_000_name": "Heldenhorn",
+               "perk_000_description": "Der Ritter bläst ein Horn des Kampfes und zieht somit die Aufmerksamkeit naher und ferner Feinde auf sich"
+            }
+         },
+         "knight_buffs": {
+            "defense_1_buff": {
+               "display_name": "Verteidigung +10%",
+               "description": "Verteidigung erhöht sich durch die Ausrüstung um 10%"
+            },
+            "defense_2_buff": {
+               "display_name": "Verteidigung +20%",
+               "description": "Verteidigung erhöht sich nochmals durch die Ausrüstung um 20%"
+            },
+            "health_1_buff": {
+               "display_name": "Befestigen",
+               "description": "Der Ritter wirkt immer bedrohlicher für die Feinde und zieht im Kampf Ihre Aufmerksamkeit auf sich. Er erhält auch eine Gesundheits- und Ausdauerbonus um Standzuhalten."
+            },
+            "health_2_buff": {
+               "display_name": "Befestigen (Rang 2)",
+               "description": "Noch schneller, noch wütender"
+            },
+            "courage_aura_buff": {
+               "display_name": "Inspirierende Präsenz",
+               "description": "Der Ritter erhöht den Mut aller umstehenden"
+            },
+            "courage_aura_effect_buff": {
+               "display_name": "Inspiriert",
+               "description": "Der Mut ist durch die Anwesenheit eines Ritters erhöht."
+            }
+         },
+         "knight_helm": {
+            "display_name": "Ritterhelm",
+            "description": "Eisene Kopfbedeckung - Standard-Ausgabe für alle Ritter"
+         }
+      },
+      "npc_jobs": {
+         "npc_thief": {
+            "npc_thief_description": {
+               "display_name": "Dieb",
+               "description": "Stehlt Elemente aus dem Lager",
+               "level_0_data": {
+                  "title": "Dieb"
+               }
+            }
          }
       }
    },
@@ -7156,6 +7871,11 @@
                "decay_2": {
                   "description": "Verfault. Ew."
                }
+            },
+            "egg": {
+               "decay_1": {
+                  "description": "Beginnt schlecht zu werden. Besser du kochst es bald."
+               }
             }
          },
          "jerky": {
@@ -7177,6 +7897,10 @@
             "display_name": "Felle",
             "description": "Weich, geschmeidig und ganz tot"
          }
+      },
+      "base_human_npc": {
+         "display_name": "[str(self.unit_info.custom_name)]",
+         "description": "Ein Gast in deiner Stadt"
       }
    }
 }

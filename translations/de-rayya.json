@@ -2,7 +2,7 @@
    "kingdom": {
       "kingdom_name": "Rayya's Children",
       "quote" : "Meditation, Mediation, Medikation: Ordnung im Selbst bringt Ordnung zu anderen und bringt Gesundheit für alle.",
-      "long_description" : "Die Leute aus der Wüste lernten früh das Sie sich gegenseitig benötigen um zu überleben, und vorzugsweise so viele andere wie sie erreichen können. Jetzt, finden Besucher bei Ihnen großzügige Gastgeber mit Zugang zu Waren aus der ganzen Welt." ,
+      "long_description" : "Die Leute aus der Wüste lernten früh das Sie sich gegenseitig benötigen um überleben zu können - sowie den Kontakt zu möglichst vielen anderen. Jetzt erleben Besucher Sie als großzügige Gastgeber mit Zugang zu Waren aus der ganzen Welt." ,
       "post_selection_description": ", einer Gesellschaft von charmanten Meisterhändlern... aus aller Welt"
    },
    "jobs": {
@@ -47,7 +47,7 @@
    },
    "data": {
       "rayyas_children_population": {
-         "display_name": "Rayya's Kinder"
+         "display_name": "Rayyas Kinder"
       },
       "gm": {
          "campaigns": {

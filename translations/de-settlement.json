@@ -2,78 +2,78 @@
    "entities": {
       "construction": {
          "carved_stone_window": {
-            "display_name": "Stone Carved Window",
-            "description": "Carefully sculpted stone window"
+            "display_name": "gemeißeltes Steinfenster",
+            "description": "Sorgfältig in Stein gehauenes Fenster"
          },
          "clay_brick_wall": {
-            "display_name": "Clay Brick Wall",
-            "description": "Stacked moulded clay"
+            "display_name": "Lehm-Ziegelmauer",
+            "description": "Gestapelter geformter Ton"
          },
          "fortress_door": {
-            "display_name": "Fortress Door",
-            "description": "String as it looks"
+            "display_name": "Burgtür",
+            "description": "Stark wie es aussieht"
          },
          "fortress_window": {
-            "display_name": "Fortress Window",
-            "description": "A stone iron barred window"
+            "display_name": "Burgfenster",
+            "description": "Ein Eisen vergittertes Steinfenster"
          },
          "gardener_sign": {
-            "display_name": "Wall-Mounted Gardener Sign",
-            "description": "A sign with the mark of a gardener"
+            "display_name": "Wandgebundenes Gärtnerschild",
+            "description": "Ein Schild mit der Markierung des Gärtners"
          },
          "hedge": {
-            "display_name": "Hedge",
-            "description": "Leafy and Spongey"
+            "display_name": "Hecke",
+            "description": "Belaubt und luftig"
          },
          "hedge_corner": {
-            "display_name": "Hedge Corner",
-            "description": "Leafy and Spongey"
+            "display_name": "Eckhecke",
+            "description": "Belaubt und luftig"
          },
          "mine_entrance_scaffold": {
-            "display_name": "Mine Entrance Scaffold",
-            "description": "Wooden scaffold for mine support"
+            "display_name": "Mineneingangsgerüst",
+            "description": "Holzgerüst als Unterstützung für die Minen"
          },
          "picket_fence_archway": {
-            "display_name": "Picket Fence Archway",
-            "description": "Not ideal for animal enclosures"
+            "display_name": "Lattenzaun Torbogen",
+            "description": "Nicht ideal für Tiergehege "
          },
          "potters_sign": {
-            "display_name": "Wall-Mounted Potter's Sign",
-            "description": "A sign for a potter's workshop"
+            "display_name": "Wandgebundenes Töpfer-Schild",
+            "description": "Ein Schild mit der Markierung des Töpfers"
          },
          "robust_door": {
-            "display_name": "Robust Door",
-            "description": "Sturdy and reliable"
+            "display_name": "robuste Tür",
+            "description": "Robust und zuverlässig"
          },
          "robust_window": {
-            "display_name": "Robust Window",
-            "description": "A little peek hole"
+            "display_name": "robustes Fenster",
+            "description": "Ein kleines Guckloch"
          },
          "spiked_fence_corner": {
-            "display_name": "Spiked Fence Corner",
-            "description": "For all your angle needs"
+            "display_name": "gespicktes Zaunecke",
+            "description": "Für alle deine Fesselbedürfnisse"
          },
          "spiked_fence": {
-            "display_name": "Spiked Fence",
-            "description": "Extra pointy edition"
+            "display_name": "gespickter Zaun",
+            "description": "Extra-spitze Ausgabe"
          },
          "stone_mine_entrance": {
-            "display_name": "Stone Mine Entrance",
-            "description": "Stone carved mine entrance"
+            "display_name": "Steinmineneingang",
+            "description": "Stein gemeisselter Mineneingang "
          }
       },
       "furniture": {
          "berry_curtains": {
-            "display_name": "Berry Curtains",
-            "description": "You can almost taste the berries."
+            "display_name": "berrige Vorhänge",
+            "description": "Du kannst fast die Beeren schmecken."
          },
          "bird_house": {
-            "display_name": "Bird House",
-            "description": "Bird accomodation free of charge."
+            "display_name": "Vogelhaus",
+            "description": "kostenlose Vogelunterkunft."
          },
          "brightbell_hanging_basket": {
-            "display_name": "Brightbell Hanging Basket",
-            "description": "A pain to water."
+            "display_name": "Glockenblumen Hängekorb",
+            "description": "Ein Fluch es zu Wässern."
          },
          "canopy_garden": {
             "display_name": "Canopy Garden",

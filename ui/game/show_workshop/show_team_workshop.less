@@ -190,7 +190,6 @@
             margin-right: 4px;
             margin-bottom: 4px;
             background-position: 0px -930px;
-            -webkit-filter: grayscale(75%); 
             display: flex;
 
             &:hover {
@@ -202,6 +201,14 @@
                height: auto;
                margin: auto;
             }
+         }
+
+         .item.is-locked {
+            -webkit-filter: grayscale(75%);
+         }
+
+         .item.is-hidden {
+            display: none;
          }
       }
 
@@ -350,6 +357,20 @@
          background: url(images/stat_armor_bg.png);
       }
 
+      #recipeEquipmentPane {
+         .controlFont;
+         position: absolute;
+         display: none;
+
+         min-width: 100px;
+         height: 50px;
+
+         .acceptableClassIcon {
+            width: 50px;
+            height: 50px;
+         }
+      }
+
       #description {
          position: absolute;
          top: 300px;
@@ -424,7 +445,7 @@
       left: 700px;
       right: 14px;
       width: 410px;
-      height: 70x;
+      height: 70px;
       color: red;
       text-align: center;
       display: none;
@@ -496,22 +517,25 @@
       
       #craftButton {
          display: flex;
-         /*
-         position: absolute;
-         right: 0px;
-         top: -4px;
-
-         img {
-            content: url('./images/anvil.png');   
+         #craftButtonImage {
+            position:absolute;
+            z-index: 0;
+            width: 100%;
+            height: 100%
          }
-         */
+
          #craftButtonLabel {
+            z-index: 1;
             .controlFont;
             margin: auto;
+            text-align: center;
             display: none;
          }
+
+         #craftButtonLabel.disabled{
+            color: red;
+         }
       }
-          
    }
 }
 
@@ -561,6 +585,7 @@
       }
 
       .amountLabel {
+         .handCursor;
          font-size: 10px;
          position: absolute;
          text-align: right;
@@ -571,10 +596,9 @@
       }
 
       .issueIcon {
+         .handCursor;
          position: absolute;
-         display: block;
-         visible: false;
-         opacity: 0;
+         display: none;
          width: 15px;
          height: 16px;
          right: 5px;

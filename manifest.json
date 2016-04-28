@@ -1,6 +1,6 @@
 {
    "info" : {
-      "name" : "German-Translation-v14", 
+      "name" : "German-Translation-v16", 
       "version" : 2
    },
    "mixintos" : {
@@ -43,6 +43,9 @@
       "LocksOfColour/locales/de.json" : "file(translations/de-lomc.json)",
       "archipelago_biome/locales/de-DE.json" : "file(translations/de-archipelago.json)",
       "archipelago_biome/locales/de.json" : "file(translations/de-archipelago.json)",
+      "settlementdecor/locales/de-DE.json" : "file(translations/de-settlement.json)",
+      "settlementdecor/locales/de.json" : "file(translations/de-settlement.json)",
+
 
 
 

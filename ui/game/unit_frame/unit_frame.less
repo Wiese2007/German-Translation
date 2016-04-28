@@ -204,7 +204,7 @@
          }
 
          .combatButton {
-            width: 74px;
+            width: 59px;
             height: 54px;
             background-image: url('./images/combat_buttons.png'); 
             background-repeat: no-repeat;
@@ -213,7 +213,7 @@
             margin-top: -7px;
 
             a {
-               width: 74px;
+               width: 59px;
                height: 54px;
                display: block;
                background-position: 50% 40%;
@@ -229,7 +229,44 @@
             #defendLocation {
                background-image: url('./images/defend_location.png'); 
             }
+
+            #cancelOrders {
+               width: 47px;
+               background-image: url('./images/cancel_order.png'); 
+            }
+         }
+
+         #cancelCombatButton {
+            width: 47px;
+            background-image: url('./images/combat_button_narrow.png'); 
          }
          
+   }
+
+   #equipmentPane {
+      .controlFont;
+      position: absolute;
+      right: -567px;
+      bottom: 80px;
+      display: none;
+      z-index: 3;
+
+      min-width: 100px;
+      height: 50px;
+
+      #acceptableClasses {
+         float: left;
+      }
+      #levelRequirement {
+         float: left;
+         padding-top: 20px;
+      }
+
+      .acceptableClassIcon {
+         float: left;
+         width: 50px;
+         height: 50px;
+      }
+
    }
 }

@@ -1,8 +1,10 @@
 {
    "kingdom_name" : "The Golden Conquering Arm",
-   "kingdom_id" : "goldarm",
+   "kingdom_id" : "goblins",
    "amenity_to_strangers" : "hostile",
-
+   "amenity_to": {
+      "orcs": "neutral"
+   },
    "roles" : {
       "default" : { 
          "male" : {
@@ -115,11 +117,11 @@
             "the Friendly"
          ]
       }, 
-      "mountain_mammoth" : {
+      "mountain_ogre" : {
          "male" : {
-            "uri" : ["stonehearth:monsters:goblin:mammoth:mountain"],
+            "uri" : ["stonehearth:monsters:ogres:ogre"],
             "given_names" : ["Mountain"], 
-            "surnames" : ["the Mammoth"]
+            "surnames" : ["the Ogre"]
          }
       }
    },

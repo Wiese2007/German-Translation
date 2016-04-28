@@ -72,13 +72,33 @@
             }
          },
          "assassincloak": {
-            "kitty_assassincloak": {
+            "assassincloak": {
                "display_name" : "Assassinenmantel",
                "description" : "Dunkler als die Nacht!"
             },
-            "kitty_assassincloak_iconic": {
+            "assassincloak_iconic": {
                "display_name" : "Assassinenmantel",
                "description" : "Dunkler als die Nacht!"
+            }
+         },
+         "vortech": {
+            "vortech": {
+               "display_name" : "Vortech",
+               "description" : "Stahl ist alles!"
+            },
+            "vortech_iconic": {
+               "display_name" : "Vortech",
+               "description" : "Stahl ist alles!"
+            }
+         },
+         "animemuch_glasses": {
+            "animemuch_glasses": {
+               "display_name" : "Animemuch Brille",
+               "description" : "Häääää!"
+            },
+            "animemuch_glasses_iconic": {
+               "display_name" : "Animemuch Brille",
+               "description" : "Häääää!"
             }
          }
       }
@@ -94,6 +114,16 @@
             "recipe_name" : "Kochtopf",
             "description" : "Der Orden der Ritterköche",
             "flavor" : "Monkey Island lässt grüßen!"
+         },
+         "animemuch_glasses_recipe": {
+            "recipe_name" : "Animemuch Brille",
+            "description" : "Häääää!",
+            "flavor" : ""
+         },
+         "vortech_recipe": {
+            "recipe_name" : "Vortech",
+            "description" : "Stahl ist alles!",
+            "flavor" : ""
          }
       },
       "carpenter": {
