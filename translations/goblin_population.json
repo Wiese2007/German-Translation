@@ -15,7 +15,7 @@
                "Ulan",
                "Ikh",
                "Baatar",
-               "Zun",
+            "Zun",
                "Muud",
                "Govi",
                "Omno",
@@ -122,6 +122,12 @@
             "uri" : ["stonehearth:monsters:ogres:ogre"],
             "given_names" : ["Mountain"], 
             "surnames" : ["the Ogre"]
+         }
+      }, 
+      "boss_sheep" : {
+         "male" : {
+            "uri" : ["stonehearth:sheep"],
+            "given_names" : ["Glockenblume"]
          }
       }
    },

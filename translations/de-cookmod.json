@@ -10,6 +10,12 @@
                "yak_pasture_description": "Yaks produzieren Milch und Fleisch, zwei wertvolle Kochzutaten.",
                "pig_pen_name": "Schweinestall",
                "pig_pen_description": "Schweine können für Fleisch geerntet werden, und graben Trüffel aus."
+            },
+            "stockpile": {
+               "filters": {
+                  "tooltip_quest_items": "Aufgaben Elemente",
+                  "tooltip_drink_containers": "Getränke"
+               }
             }
          }
       },
@@ -20,11 +26,11 @@
             "jerky_resource_name": "Dörrfleisch",
             "water_resource_name": "Wasser"
          },
-         "gm": {
-            "campaigns": {
-               "bees": {
-                  "dialog_nodes": {
-                     "bulletin_message": {
+         "gm" : {
+            "campaigns" : {
+               "bees" : {  
+                  "dialog_nodes" : { 
+                     "bulletin_message" : { 
                         "000": "Es scheint, dass deine schöne Stadt einen Schwarm Bienen angezogen hat .. Sie scheinen sich in diesem seltsam aussehenden Baum niedergelassen zu haben. Warte mal, ich könnte schwören, dass der Baum vorher nicht da war!",
                         "001": "Vielleicht könnten wir dies zu unserem Vorteil nutzen?",
                         "002": "Ich bin dafür, dass wir den Baum schlagen, um zu sehen was er uns bringt! Was könnte schon schief gehen ?!?",
@@ -43,7 +49,7 @@
                      "bulletin_title_004": "Ich bin es wieder!",
                      "dialog_title_001": "Ein hilfreicher Dorfbewohner"
                   }
-               }
+               } 
             }
          }
       }
@@ -76,135 +82,139 @@
    },
    "jobs": {
       "carpenter": {
-         "recipes": {
-            "apiary_recipe": {
+         "recipes" : {
+            "apiary_recipe" : {
                "recipe_name": "Bienenhaus",
                "description": "Ermöglicht das Sammeln von Honig",
                "flavor": "goldener Nektar"
             },
-            "wind_sail_recipe": {
+            "wind_sail_recipe" : {
                "recipe_name": "Windsegel",
                "description": "Ein einfaches Windsegel",
                "flavor": "Es ist sehr windig hier..."
             },
-            "cook_sign_recipe": {
+            "scarecrow_recipe" : {
+               "recipe_name" : "Vogelscheuche",
+               "description" : "Um Schädlinge zuvergraulen"
+            },            
+            "cook_sign_recipe" : {
                "recipe_name": "Wandgebundenes Koch-Schild",
                "description": "Ein Schild mit der Markierung des Koches, zum befestigen an Gebäuden.",
-               "flavor": ""
+               "flavor" : ""
             }
          }
       },
       "cook": {
-         "recipes": {
-            "berry_juice_recipe": {
+         "recipes" : {
+            "berry_juice_recipe" : {
                "recipe_name": "Beerensaft",
                "description": "Köstlicher Beerensaft",
                "flavor": "Ein erfrischendes Getränk hergestellt aus zerquetschten Beeren und Wasser."
             },
-            "berry_pie_recipe": {
+            "berry_pie_recipe" : {
                "recipe_name": "Beerenkuchen",
                "description": "Ein köstlicher Beerenkuchen.",
                "flavor": "Eine leichte Kruste gefüllt mit reifen Beeren"
             },
-            "boiled_rice_recipe": {
+            "boiled_rice_recipe" : {
                "recipe_name": "gekochter Reis",
                "description": "Ein langweiliges, aber füllendes Gericht",
-               "flavor": ""
+               "flavor"      : ""
             },
-            "rice_pudding_recipe": {
+            "rice_pudding_recipe" : {
                "recipe_name": "Reispudding",
                "description": "Ein köstliches Dessert gemacht mit Reis und Milch",
                "flavor": "Reife Beeren geben den letzten Schliff"
-            },
-            "cheese_recipe": {
+            },                        
+            "cheese_recipe" : {
                "recipe_name": "Käse",
                "description": "Ein mittel harter Käse.",
                "flavor": "Alles schmeckt besser mit Käsekrümmeln!"
             },
-            "cake_recipe": {
+            "cake_recipe" : {
                "recipe_name": "Kuchen",
                "description": "Ein köstlicher Kuchen!",
                "flavor": "Es gibt immer Raum für Kuchen.."
-            },
-            "grits_recipe": {
+            },            
+            "grits_recipe" : {
                "recipe_name": "Grütze",
                "description": "Ein langweiliges auf Mais basierendes Gericht.",
                "flavor": "Bitte Sir, kann ich NICHT mehr haben?!"
             },
-            "honey_berry_wine_recipe": {
+            "honey_berry_wine_recipe" : {
                "recipe_name": "Angereicherter Honig-Beerenwein",
                "description": "Köstlicher mit Honig angereicherter Beerenwein.",
                "flavor": "Ein erfrischendes Getränk aus zerquetschten Beeren, Wasser und Honig."
             },
-            "honey_glazed_critter_recipe": {
+            "honey_glazed_critter_recipe" : {
                "recipe_name": "Honig glasiertes, gebratenes Kleintier",
                "description": "Ein perfektes honig gebratenes Kleintier.",
                "flavor": "Alles schmeckt mit Honig besser, richtig?"
             },
-            "meat_and_potato_pie_recipe": {
+            "meat_and_potato_pie_recipe" : {
                "recipe_name": "Fleisch und Kartoffel Paste",
                "description": "Eine Pastete mit köstlicher Fleischfüllung.",
                "flavor": "Herzhaft und lecker"
             },
-            "meat_pie_recipe": {
+            "meat_pie_recipe" : {
                "recipe_name": "Fleischpastete",
                "description": "Eine schmackhafte Fleischpastete.",
                "flavor": "Ein Pastete für des Trappers neusten Fang"
             },
-            "pig_feed_recipe": {
+            "pig_feed_recipe" : {
                "recipe_name": "Schweinefutter",
                "description": "Wenn es essbar ist, werden Sie es essen",
-               "flavor": ""
+               "flavor" : ""
             },
-            "sheep_feed_recipe": {
+            "sheep_feed_recipe" : {
                "recipe_name": "Tierfutter",
                "description": "Geeignet für Yaks und Schafe",
-               "flavor": ""
-            },
-            "pottage_recipe": {
+               "flavor" : ""
+            },            
+            "pottage_recipe" : {
                "recipe_name": "Gemüsesuppe",
                "description": "Ein füllendes Gericht gemacht aus Gemüse und Getreide",
-               "flavor": "Filling!"
-            },
-            "pumpkin_pie_recipe": {
+               "flavor"      : "Füllend!"
+            },            
+            "pumpkin_pie_recipe" : {
                "recipe_name": "Kürbiskuchen",
                "description": "Kürbis und Kuchen. Was kann man daran nicht mögen?",
                "flavor": "Süß und lecker"
             },
-            "pumpkin_soup_recipe": {
+            "pumpkin_soup_recipe" : {
                "recipe_name": "Kürbissuppe",
                "description": "Ein herzhaftes Kürbissuppe",
                "flavor": "Süß und lecker"
-            },
-            "roast_critter_recipe": {
+            },            
+            "roast_critter_recipe" : {
                "recipe_name": "gebratenes Kleintier",
                "description": "Ein perfekt gebratenes Kleintier.",
                "flavor": "schmeckt wie Hühnchen"
             },
-            "roast_ham_recipe": {
+            "roast_ham_recipe" : {
                "recipe_name": "Schinkenbraten",
                "description": "Ein herzhafter Braten",
-               "flavor": ""
+               "flavor" : ""
             },
-            "roast_beef_recipe": {
+            "roast_beef_recipe" : {
                "recipe_name": "Roastbeef",
                "description": "Ein herzhafter Braten",
-               "flavor": ""
+               "flavor" : ""
             }
          }
       },
       "mason": {
-         "recipes": {
-            "well_recipe": {
+         "recipes" : {
+            "well_recipe" : {
                "recipe_name": "Steinbrunn",
                "description": "Eine Quelle sauberen Wassers.",
-               "flavor": "Jessica McClure Beware!"
+               "flavor"      : "Jessica McClure Beware!"
             }
          }
       },
       "weaver": {
-         "recipes": {
-            "cook_outfit_2_recipe": {
+         "recipes" : {
+            "cook_outfit_2_recipe" : {
                "recipe_name": "Modischer Koch Outfit",
                "description": "Ein modisches Outfit für einen modischen Koch!",
                "flavor": "Es ist MODISCH!"
@@ -212,30 +222,30 @@
          }
       }
    },
-   "entities": {
+   "entities": {       
       "construction": {
-         "apiary": {
-            "apiary": {
+         "apiary" : {
+            "apiary" : {
                "description": "Ermöglicht Honig",
                "display_name": "Bienenhaus"
             },
-            "apiary_ghost": {
+            "apiary_ghost" : {
                "description": "Ermöglicht Honig",
                "display_name": "Bienenhaus"
-            }
+            }            
          },
-         "well": {
-            "well": {
+         "well" : {
+            "well" : {
                "description": "Eine Quelle sauberen Wassers",
                "display_name": "Steinbrunnen"
             },
-            "well_ghost": {
+            "well_ghost" : {
                "description": "Eine Quelle sauberen Wassers",
                "display_name": "Steinbrunnen"
-            }
+            }            
          }
       },
-      "critters": {
+      "critters" : {
          "pig": {
             "description": "Ein vakuum für einfaches Essen",
             "display_name": "Ein Schwein"
@@ -247,30 +257,33 @@
             "hive_display_name": "Ein großer Bienenstock",
             "queen_description": "♫ Sie ist eure Bienenkönigin! ♫",
             "queen_display_name": "betäubte Bienenkönigin"
-         },
+         },         
          "yak": {
             "description": "Langsam und stinkend",
+            "milk_description" : "Nicht bereit zum Melken",
             "display_name": "Ein Yak"
          }
       },
-      "decoration": {
+      "decoration" : {
          "wind_sail": {
             "description": "♫ Du lässt mich durchdrehen Baby durchdrehen..♫",
             "display_name": "Windsegel"
-         },
-         "cook_sign": {
-            "description": "Ein Schild mit dem Zeichen des Koches, zum anbringen an Gebäuden.",
-            "display_name": "Wandgebundenes Koch-Schild"
+         },        
+         "scarecrow": {
+            "iconic_display_name": "Vogelscheuche",
+            "iconic_description": "Eine Vogelscheuche, bereit für die Montage",
+            "description" : "Verscheucht Schädlinge",
+            "display_name": "Vorgelscheuche"
          }
-      },
+      },      
       "food": {
          "honey_vat": {
-            "honey_vat": {
+            "honey_vat" : {
                "display_name": "Honigbottich",
                "description": "Ein Bottich mit köstlichem Honig",
-               "flavor": "Yummy!"
+               "flavor"       : "Yummy!"
             },
-            "honey_vat_serving": {
+            "honey_vat_serving" : {
                "display_name": "Eine Tasse Honig",
                "description": "Ein Becher mit köstlichem Honig"
             }
@@ -284,7 +297,7 @@
             "water_serving": {
                "display_name": "Eine Tasse Wasser",
                "description": "Enthält Dihydrogenmonoxid"
-            }
+            }           
          },
          "milk": {
             "milk": {
@@ -295,225 +308,225 @@
             "milk_serving": {
                "display_name": "Ein Becher Milch",
                "description": "Erfrischend"
-            }
-         },
-         "berry_juice": {
-            "berry_juice": {
+            }           
+         },                   
+         "berry_juice" : {
+            "berry_juice" : {
                "display_name": "Beerensaft",
                "description": "Köstlicher Beerensaft.",
                "flavor": "Ein erfrischendes Getränk aus zerquetschen Beeren und Wasser."
             },
-            "berry_juice_serving": {
+            "berry_juice_serving" : {
                "display_name": "Ein Becher Beerensaft",
                "description": "Köstlicher Beerensaft."
-            }
+            }            
          },
-         "boiled_rice": {
-            "boiled_rice": {
-               "display_name": "gekochter Reis",
+         "boiled_rice" : {
+            "boiled_rice" : {
+               "display_name": "Gekochter Reis",
                "description": "Grundnahrungsquelle",
                "flavor": "Ein einfaches Gericht aus Reis und Wasser"
             },
-            "boiled_rice_serving": {
+            "boiled_rice_serving" : {
                "display_name": "Eine Schüssel gekochten Reises",
                "description": "Langweilig aber nährend"
-            }
+            }            
          },
-         "cake": {
-            "cake": {
+         "cake" : {
+            "cake" : {
                "display_name": "Kuchen",
                "description": "Ein köstlicher Kuchen",
-               "flavor": ""
+               "flavor"       : ""
             },
-            "cake_serving": {
+            "cake_serving" : {
                "display_name": "Ein Stück des Kuchens",
                "description": "Göttlich"
-            }
-         },
-         "rice_pudding": {
-            "rice_pudding": {
+            }            
+         },         
+         "rice_pudding" : {
+            "rice_pudding" : {
                "display_name": "Reispudding",
                "description": "Ein Dessert aus Reis und Milch",
-               "flavor": ""
+               "flavor"       : ""
             },
-            "rice_pudding_serving": {
+            "rice_pudding_serving" : {
                "display_name": "Reispudding",
                "description": "Köstlich mit einem Klecks Marmelade"
-            }
-         },
-         "berry_pie": {
-            "berry_pie": {
+            }            
+         },                  
+         "berry_pie" : {
+            "berry_pie" : {
                "display_name": "Beerenkuchen",
                "description": "Eine köstlicher Beerenkuchen.",
                "flavor": "Eine leichte Kruste mit reifen Beeren gefüllt"
             },
-            "berry_pie_serving": {
+            "berry_pie_serving" : {
                "display_name": "Ein Stück des Beerenkuchens",
                "description": "Süß und köstlich"
-            }
+            }            
          },
-         "cheese": {
-            "cheese": {
+         "cheese" : {
+            "cheese" : {
                "display_name": "Käse",
                "description": "Eine mittel harter Käse.",
                "flavor": "Alles schmeckt besser mit Käsekrümmeln!"
             },
-            "cheese_serving": {
+            "cheese_serving" : {
                "display_name": "Eine Portion vom Käse",
                "description": "käsig"
-            }
+            }            
          },
-         "grits": {
-            "grits": {
+         "grits" : {
+            "grits" : {
                "display_name": "Grütze",
                "description": "Ein fades auf Mais basierendes Gericht.",
                "flavor": "Bitte Sir, kann ich nicht mehr haben?!"
             },
-            "grits_serving": {
+            "grits_serving" : {
                "display_name": "Eine Schüssel voll mit Grütze",
                "description": "Eine Portion Grütze"
             }
          },
-         "honey_berry_wine": {
-            "honey_berry_wine": {
+         "honey_berry_wine" : {
+            "honey_berry_wine" : {
                "display_name": "angereicherter Beerenwein",
                "description": "Köstliche mit Honig angereicherter Beerenwein.",
                "flavor": "Ein erfrischendes Getränk aus zerquetschten Beeren, Wasser und Honig."
             },
-            "honey_berry_wine_serving": {
+            "honey_berry_wine_serving" : {
                "display_name": "Ein Becher Beerenwein",
                "description": "Süß und erfrischend"
             }
          },
-         "honey_glazed_critter": {
-            "honey_glazed_critter": {
+         "honey_glazed_critter" : {
+            "honey_glazed_critter" : {
                "display_name": "glasiertes, gebratenes Kleintier",
                "description": "Ein perfekt Honig gebratenes Kleintier.",
                "flavor": "Alles schmeckt besser mit Honig, richtig?"
             },
-            "honey_glazed_critter_serving": {
+            "honey_glazed_critter_serving" : {
                "display_name": "Eine Portion des glasierten, gebratenen Kleintieres",
                "description": "Schmeckt wie Hühnchen."
             }
          },
-         "meat_and_potato_pie": {
-            "meat_and_potato_pie": {
+         "meat_and_potato_pie" : {
+            "meat_and_potato_pie" : {
                "display_name": "Fleisch und Kartoffel Pastete",
                "description": "Ein Pastete mit einer köstlichen Fleischfüllung.",
                "flavor": "Herzhaft und lecker"
             },
-            "meat_and_potato_pie_serving": {
+            "meat_and_potato_pie_serving" : {
                "display_name": "Ein Stück der Fleisch und Kartoffeln Pastetee",
                "description": "Lecker und sättigend."
-            }
+            }               
          },
-         "meat_pie": {
-            "meat_pie": {
+         "meat_pie" : {
+            "meat_pie" : {
                "display_name": "Fleischpastete",
                "description": "Eine schmackhafte Fleischpastete.",
                "flavor": "Ein Pastete für des Trappers neusten Fang"
             },
-            "meat_pie_serving": {
+            "meat_pie_serving" : {
                "display_name": "Ein Stück der Fleischpastete",
                "description": "Eine schmackhafte Fleischpastete."
             }
          },
-         "sheep_feed": {
-            "sheep_feed": {
+         "sheep_feed" : {
+            "sheep_feed" : {
                "display_name": "Tierfutter",
                "description": "geeignet für Yaks und Schafe",
-               "flavor": ""
+               "flavor"       : ""
             },
-            "sheep_feed_ground": {
+            "sheep_feed_ground" : {
                "display_name": "Tierfutter",
                "description": "geeignet für Yaks und Schafe"
             }
-         },
-         "pig_feed": {
-            "pig_feed": {
+         },         
+         "pig_feed" : {
+            "pig_feed" : {
                "display_name": "Schweinefutter",
                "description": "Wenn es essbar ist, essen Sie es",
-               "flavor": ""
+               "flavor"       : ""
             },
-            "pig_feed_ground": {
+            "pig_feed_ground" : {
                "display_name": "Schweinefutter",
                "description": "Wenn es essbar ist, essen Sie es"
             }
          },
-         "pig_meat": {
+         "pig_meat" : {
             "display_name": "Schweinefleisch",
             "description": "saftiges Schweinefleisch"
-         },
-         "yak_meat": {
+         }, 
+         "yak_meat" : {
             "display_name": "Yakfleisch",
             "description": "saftiges Rindfleisch"
-         },
-         "pumpkin_pie": {
-            "pumpkin_pie": {
+         },                  
+         "pumpkin_pie" : {
+            "pumpkin_pie" : {
                "display_name": "Kürbiskuchen",
                "description": "Am besten auf dem Fensterbank gelassen",
                "flavor": "Süß und lecker"
             },
-            "pumpkin_pie_serving": {
+            "pumpkin_pie_serving" : {
                "display_name": "Ein Stück des Kürbiskuchens",
-               "description": "Yummy"
+               "description"  : "Yummy"
             }
          },
-         "pumpkin_soup": {
-            "pumpkin_soup": {
+         "pumpkin_soup" : {
+            "pumpkin_soup" : {
                "display_name": "Kürbissuppe",
                "description": "Ein herzhaftes Kürbissuppe",
                "flavor": "Süß und lecker"
             },
-            "pumpkin_soup_serving": {
+            "pumpkin_soup_serving" : {
                "display_name": "Eine Schüssel von der Kürbissuppe",
                "description": "Ein herzhaftes Kürbissuppe"
             }
          },
-         "pottage": {
-            "pottage": {
+         "pottage" : {
+            "pottage" : {
                "display_name": "Gemüsesuppe",
                "description": "Ein herzhafte Gemüsesuppe",
                "flavor": "Lecker"
             },
-            "pottage_serving": {
+            "pottage_serving" : {
                "display_name": "Eine Schüssel mit Gemüsesuppe",
                "description": "Lecker"
             }
-         },
-         "roast_critter": {
-            "roast_critter": {
+         },                     
+         "roast_critter" : {
+            "roast_critter" : {
                "display_name": "gebratenes Kleintier",
                "description": "Ein perfekt gebratenes Kleintier.",
                "flavor": "Schmeckt wie Hühnchen"
             },
-            "roast_critter_serving": {
+            "roast_critter_serving" : {
                "display_name": "Eine Portion des gebratenen Kleintieres",
                "description": "Ein perfekt gebratenes Kleintier."
             }
          },
-         "roast_ham": {
-            "roast_ham": {
+         "roast_ham" : {
+            "roast_ham" : {
                "display_name": "Schinkenbraten",
                "description": "Ein herzhafter Braten",
-               "flavor": ""
+               "flavor"       : ""
             },
-            "roast_ham_serving": {
+            "roast_ham_serving" : {
                "display_name": "Eine Portion des Schinkenbratens",
                "description": "Ein herzhafter Braten"
             }
          },
-         "roast_beef": {
-            "roast_beef": {
+         "roast_beef" : {
+            "roast_beef" : {
                "display_name": "Roastbeef",
                "description": "Ein herzhafter Braten",
-               "flavor": ""
+               "flavor"       : ""
             },
-            "roast_beef_serving": {
+            "roast_beef_serving" : {
                "display_name": "Eine Portion des Roastbeef",
                "description": "Ein herzhafter Braten"
             }
-         }
+         }                
       },
       "plants": {
          "potato": {
@@ -531,8 +544,8 @@
                "display_name": "Ein Sack Reis",
                "description": "Bereit zum kochen"
             }
-         }
-      },
+         }  
+      },             
       "crops": {
          "potato_crop": {
             "display_name": "Kartoffel",
@@ -583,13 +596,13 @@
                "004": {
                   "name": "Reis Pflanze",
                   "description": "Bereit zum ernten"
-               },
+               },               
                "007": {
                   "name": "verfaulter Reis",
                   "description": "Es ist tot."
                }
             }
-         }
+         }                         
       }
    }
-}
+}   

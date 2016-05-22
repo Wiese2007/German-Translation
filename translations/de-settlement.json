@@ -2,8 +2,12 @@
    "entities": {
       "construction": {
          "carved_stone_window": {
-            "display_name": "gemeißeltes Steinfenster",
+            "display_name": "Gemeißeltes Steinfenster",
             "description": "Sorgfältig in Stein gehauenes Fenster"
+         },
+        "carved_stone_door": {
+            "display_name": "Gemeißelte Steintür",
+            "description": "Sorgfältig in Stein gehauene Tür"
          },
          "clay_brick_wall": {
             "display_name": "Lehm-Ziegelmauer",
@@ -42,29 +46,41 @@
             "description": "Ein Schild mit der Markierung des Töpfers"
          },
          "robust_door": {
-            "display_name": "robuste Tür",
+            "display_name": "Robuste Tür",
             "description": "Robust und zuverlässig"
          },
          "robust_window": {
-            "display_name": "robustes Fenster",
+            "display_name": "Robustes Fenster",
             "description": "Ein kleines Guckloch"
          },
          "spiked_fence_corner": {
-            "display_name": "gespicktes Zaunecke",
+            "display_name": "Gespicktes Zaunecke",
             "description": "Für alle deine Fesselbedürfnisse"
          },
          "spiked_fence": {
-            "display_name": "gespickter Zaun",
+            "display_name": "Gespickter Zaun",
             "description": "Extra-spitze Ausgabe"
          },
          "stone_mine_entrance": {
             "display_name": "Steinmineneingang",
-            "description": "Stein gemeisselter Mineneingang "
+            "description": "Stein gemeisselter Mineneingang"
+         },
+         "large_wooden_window_frame": {
+            "display_name": "Großer Holzfensterrahmen",
+            "description": "Ein großer Fensterrahmen"
+         },
+         "large_stone_window_frame": {
+            "display_name": "Großer Steinfensterrahmen",
+            "description": "Ein großer Fensterrahmen"
+         },
+         "iron_gate": {
+            "display_name": "Eisentor",
+            "description": "Knarrt im Wind"
          }
       },
       "furniture": {
          "berry_curtains": {
-            "display_name": "berrige Vorhänge",
+            "display_name": "Berrige Vorhänge",
             "description": "Du kannst fast die Beeren schmecken."
          },
          "bird_house": {
@@ -167,7 +183,7 @@
             "display_name": "Potted Sunflower",
             "description": "A pot of Sunflowers."
          },
-         "sarchophagus": {
+         "sarcophagus": {
             "display_name": "Sarcophagus",
             "description": "Tomb of a fallen hero."
          },
@@ -558,6 +574,11 @@
               "recipe_name" : "Shelf",
               "description" : "Provides elevated storage for books, ornaments and trophies...... if you had any.",
               "flavor" : "Incovenient for short people."
+           },
+           "large_wooden_window_frame": {
+              "recipe_name" : "Large Wooden Window Frame",
+              "description" : "A larger, grander window frame",
+              "flavor" : "What a view!"
            }
         }
     },
@@ -598,6 +619,11 @@
             "description" : "Stone carved portal to the outside world.",
             "flavor" : ""
           },
+          "carved_stone_door": {
+            "recipe_name" : "Carved Stone Door",
+            "description" : "Carefully sculpted ornate stone door.",
+            "flavor" : ""
+          },
           "fortress_window": {
             "recipe_name" : "Fortress Window",
             "description" : "Stone window secured with iron bars.",
@@ -632,7 +658,17 @@
             "recipe_name" : "Traveller Statue",
             "description" : "A statue in the likeness of the being said to lead the dead to the afterlife.",
             "flavor" : "Pray for a safe journey."
-          }
+          },
+          "large_stone_window_frame": {
+              "recipe_name" : "Large Stone Window Frame",
+              "description" : "A larger, grander window frame",
+              "flavor" : "What a view!"
+           },
+           "iron_gate": {
+              "recipe_name" : "Iron Gate",
+              "description" : "Stone pillars with an iron barred gate.",
+              "flavor" : ""
+           }
         }
      },
      "blacksmith": {

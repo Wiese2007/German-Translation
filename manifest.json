@@ -1,6 +1,6 @@
 {
    "info" : {
-      "name" : "German-Translation-v16", 
+      "name" : "German-Translation-v16.2", 
       "version" : 2
    },
    "mixintos" : {
@@ -67,6 +67,7 @@
       "stonehearth/ui/game/citizens/citizens.less" : "file(ui/game/citizens/citizens.less)",
       "stonehearth/services/server/population/data/ascendancy_population.json" : "file(translations/ascendancy_population.json)",
       "stonehearth/services/server/population/data/goblin_population.json" : "file(translations/goblin_population.json)",
-      "stonehearth/services/server/population/data/undead_population.json" : "file(translations/undead_population.json)"
+      "stonehearth/services/server/population/data/undead_population.json" : "file(translations/undead_population.json)",
+      "stonehearth/services/server/population/data/orc_population.json" : "file(translations/orc_population.json)"
    }
 }
