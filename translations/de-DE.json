@@ -2391,7 +2391,7 @@
                                     },
                                     "collection_success": {
                                        "bulletin_message": {
-                                          "000": "Vielen Dank für eure Mitarbeit. Im Gegenzug werde ich euch [str(i18n_data.reward_gold_amount)] Goldmünzen und [str(i18n_data.reward_item_count)] [str(i18n_data.reward_item_name)] geben."
+                                          "000": "Vielen Dank für eure Mitarbeit. Im Gegenzug haben wir ein Geschenk für euch vorbereitet."
                                        },
                                        "bulletin_title": "Der Ent nickt friedlich",
                                        "dialog_title": "Ent"
@@ -2403,7 +2403,35 @@
                                        },
                                        "bulletin_title": "Eine große baumähnliche Figur erscheint.",
                                        "dialog_title": "Ent"
+                                    },
+                                    "revenge": {
+                                       "bulletin_message": {
+                                          "000": "Wir werden diese zurückholen."
+                                       },
+                                       "bulletin_title": "Eine Horde von Entlingen entkommen mit deinen Holzklötzen!",
+                                       "dialog_title": "Ent"
                                     }
+                                 }
+                              }
+                           },
+                           "ent_donation_dialog": {
+                              "donation_dialog_info": {
+                                 "dialog_nodes": {
+                                    "simple_message": {
+                                       "bulletin_message": {
+                                          "000": "Hier, nimm dies als Zeichen unserer Dankbarkeit."
+                                       },
+                                       "bulletin_title": "Entlinge tragen Beute huschend zu Ihnen",
+                                       "dialog_title": "Ent",
+                                       "choice_000": "Danke!"
+                                    }
+                                 }
+                              }
+                           },
+                           "ent_wrath": {
+                              "mission": {
+                                 "sighted_bulletin": {
+                                    "title": "Ein wütender Entlingarmee nähert sich!"
                                  }
                               }
                            }
@@ -4542,22 +4570,27 @@
             "description": "Die Fasern dieser Pflanze können zu Fäden gesponnen werden",
             "growth_stage": {
                "004": {
-                  "name": "Reife Seidenpflanze"
+                  "name": "Reife Seidenpflanze",
+                  "description": "Bereit zum Weben!"
                },
                "001": {
-                  "name": "Seidenpflanzen Sprosse"
+                  "name": "Seidenpflanzen Sprosse",
+                  "description": "Sprieße, Kleiner!"
                },
                "000": {
-                  "name": "Seidenpflanzen Setzling"
+                  "name": "Seidenpflanzen Setzling",
+                  "description": "Noch einen langen Weg zu wachsen."
                },
                "019": {
                   "name": "verrottete Seidenpflanze"
                },
                "003": {
-                  "name": "Unreife Seidenpflanze"
+                  "name": "Unreife Seidenpflanze",
+                  "description": "Seidige Haare beginnen zu entstehen"
                },
                "002": {
-                  "name": "Stummlige Seidenpflanze"
+                  "name": "Stummlige Seidenpflanze",
+                  "description": "Schauen auf diese Follikel!"
                }
             }
          },
@@ -5566,7 +5599,8 @@
       "loot": {
          "gold": {
             "display_name": "Truhe voller Goldmünzen",
-            "description": "Sie enthält [str(self.item.stacks)] Münzen!"
+            "description": "Sie enthält [str(self.item.stacks)] Münzen!",
+            "label": "Gold"
          }
       },
       "monsters": {
@@ -6448,6 +6482,12 @@
          "courage_tonic": {
             "display_name": "Mutelixier",
             "description": "Vorübergehender Mutbuff"
+         }
+      },
+      "outfits": {
+         "trader_outfit": {
+            "display_name": "Händleruniform",
+            "description": "Kleidung der Wahl für Händler"
          }
       }
    },

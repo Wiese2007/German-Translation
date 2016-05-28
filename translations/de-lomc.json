@@ -21,6 +21,16 @@
                "description" : "Ich bin in der Kiste!"
                }
             },
+         "sombrero": {
+            "sombrero": {
+               "display_name" : "Sombrero",
+               "description" : "Speedy Gonzales!"
+               },
+            "sombrero_iconic": {
+               "display_name" : "Sombrero",
+               "description" : "Speedy Gonzales!"
+               }
+            },
          "cookingpot": {
             "cookingpot": {
                "display_name" : "Kochtopf",
@@ -157,6 +167,11 @@
          "assassincloak_recipe": {
             "recipe_name" : "Assassinenmantel",
             "description" : "Dunkler als die Nacht!",
+            "flavor" : ""
+         },
+         "sombrero_recipe": {
+            "recipe_name" : "Sombrero",
+            "description" : "Speedy Gonzales!",
             "flavor" : ""
          }
       }
