@@ -1,6 +1,6 @@
 {
    "info" : {
-      "name" : "German-Translation-v16.2", 
+      "name" : "German-Translation-v17.1", 
       "version" : 2
    },
    "mixintos" : {
@@ -39,8 +39,8 @@
       "patrol_mod/locales/de.json" : "file(translations/de-patrol.json)",
 	   "bastioneers/locales/de-DE.json" : "file(translations/de-bastioneers.json)",
 	   "bastioneers/locales/de.json" : "file(translations/de-bastioneers.json)",
-      "LocksOfColour/locales/de-DE.json" : "file(translations/de-lomc.json)",
-      "LocksOfColour/locales/de.json" : "file(translations/de-lomc.json)",
+      "locksofmanyclothings/locales/de-DE.json" : "file(translations/de-lomc.json)",
+      "locksofmanyclothings/locales/de.json" : "file(translations/de-lomc.json)",
       "archipelago_biome/locales/de-DE.json" : "file(translations/de-archipelago.json)",
       "archipelago_biome/locales/de.json" : "file(translations/de-archipelago.json)",
       "settlementdecor/locales/de-DE.json" : "file(translations/de-settlement.json)",
@@ -58,7 +58,6 @@
 	   "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.ttf" : "file(fonts/de-DE/komika_text.ttf)",
 	   "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.woff" : "file(fonts/de-DE/komika_text.woff)",
       "stonehearth/ui/shell/select_settlement/select_settlement.less" : "file(ui/shell/select_settlement/select_settlement.less)",
-      "stonehearth/ui/game/modes/build_mode/build_mode.less" : "file(ui/game/modes/build_mode/build_mode.less)",
       "stonehearth/ui/game/modes/zones_mode/mining_zone/mining_zone.less" : "file(ui/game/modes/zones_mode/mining_zone/mining_zone.less)",
       "stonehearth/ui/game/show_workshop/show_team_workshop.less" : "file(ui/game/show_workshop/show_team_workshop.less)",
       "stonehearth/ui/game/party_editor/party_editor.less" : "file(ui/game/party_editor/party_editor.less)",

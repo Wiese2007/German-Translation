@@ -21,6 +21,26 @@
                "description" : "Ich bin in der Kiste!"
                }
             },
+         "ash": {
+            "ash": {
+               "display_name" : "Cappy",
+               "description" : "Los schnapp dir alle Monster!"
+               },
+            "ash_iconic": {
+               "display_name" : "Cappy",
+               "description" : "Los schnapp dir alle Monster!"
+               }
+            },
+         "wolfmask": {
+            "wolfmask": {
+               "display_name" : "Wolfmaske",
+               "description" : "Ich bin der Wolf in Person!"
+               },
+            "wolfmask_iconic": {
+               "display_name" : "Wolfmaske",
+               "description" : "Ich bin der Wolf in Person!"
+               }
+            },
          "sombrero": {
             "sombrero": {
                "display_name" : "Sombrero",
@@ -29,6 +49,26 @@
             "sombrero_iconic": {
                "display_name" : "Sombrero",
                "description" : "Speedy Gonzales!"
+               }
+            },
+         "blackmage": {
+            "blackmage": {
+               "display_name" : "Schwarzmagierhut",
+               "description" : "Fürchte die Macht des Schwarzmagiers!"
+               },
+            "blackmage_iconic": {
+               "display_name" : "Schwarzmagierhut",
+               "description" : "Fürchte die Macht des Schwarzmagiers!"
+               }
+            },
+         "rabbithat": {
+            "rabbithat": {
+               "display_name" : "Hasenohren",
+               "description" : "Fluffige Ohren!"
+               },
+            "rabbithat_iconic": {
+               "display_name" : "Hasenohren",
+               "description" : "Fluffige Ohren!"
                }
             },
          "cookingpot": {
@@ -99,6 +139,16 @@
             "vortech_iconic": {
                "display_name" : "Vortech",
                "description" : "Stahl ist alles!"
+            }
+         },
+         "kingcloak": {
+            "kingcloak": {
+               "display_name" : "Königsrobe",
+               "description" : "Du weisst nichts, Jon Snow!"
+            },
+            "kingcloak_iconic": {
+               "display_name" : "Königsrobe",
+               "description" : "Du weisst nichts, Jon Snow!"
             }
          },
          "animemuch_glasses": {
@@ -172,6 +222,31 @@
          "sombrero_recipe": {
             "recipe_name" : "Sombrero",
             "description" : "Speedy Gonzales!",
+            "flavor" : ""
+         },
+         "rabbithat_recipe": {
+            "recipe_name" : "Hasenohren",
+            "description" : "Fluffige Ohren!",
+            "flavor" : ""
+         },
+         "blackmage_recipe": {
+            "recipe_name" : "Schwarzmagierhut",
+            "description" : "Fürchte die Macht des Schwarzmagiers!",
+            "flavor" : ""
+         },
+         "wolfmask_recipe": {
+            "recipe_name" : "Wolfmaske",
+            "description" : "Ich bin der Wolf in Person!",
+            "flavor" : ""
+         },
+         "kingcloak_recipe": {
+            "recipe_name" : "Königsrobe",
+            "description" : "Du weisst nichts, Jon Snow!",
+            "flavor" : ""
+         },
+         "ash_recipe": {
+            "recipe_name" : "Cappy",
+            "description" : "Los schnapp dir alle Monster!",
             "flavor" : ""
          }
       }

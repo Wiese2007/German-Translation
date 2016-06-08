@@ -1,13 +1,15 @@
 {
-   "kingdom_name" : "The Undead (Stephanie, heeeeeelp!)",
-   "kingdom_id" : "undead",
-   "amenity_to_strangers" : "hostile",
-
-   "roles" : {
-      "skeleton" : {
-         "male" : {
-            "uri" : ["stonehearth:monsters:undead:skeleton"], 
-            "given_names" : [
+   "type": "kingdom",
+   "kingdom_name": "The Undead (Stephanie, heeeeeelp!)",
+   "kingdom_id": "undead",
+   "amenity_to_strangers": "hostile",
+   "roles": {
+      "skeleton": {
+         "male": {
+            "uri": [
+               "stonehearth:monsters:undead:skeleton"
+            ],
+            "given_names": [
                "Aelius",
                "Albus",
                "Balos",
@@ -40,9 +42,11 @@
                "Vinicio"
             ]
          },
-         "female" : {
-            "uri" : ["stonehearth:monsters:undead:skeleton_female"],
-            "given_names" : [
+         "female": {
+            "uri": [
+               "stonehearth:monsters:undead:skeleton_female"
+            ],
+            "given_names": [
                "Aeliana",
                "Agrippa",
                "Alba",
@@ -64,12 +68,12 @@
                "Mariana",
                "Nameless",
                "Porcia",
-               "Severina", 
+               "Severina",
                "Tullia",
                "Vibiana"
             ]
          },
-         "surnames" : [
+         "surnames": [
             "Knochen",
             "die Tode",
             "die Vergessene",
@@ -78,10 +82,12 @@
             "Schnurlos"
          ]
       },
-      "zombie" : {
-         "male" : {
-            "uri" : ["stonehearth:monsters:undead:zombie"],
-            "given_names" : [
+      "zombie": {
+         "male": {
+            "uri": [
+               "stonehearth:monsters:undead:zombie"
+            ],
+            "given_names": [
                "Moulder",
                "Ed",
                "Fronk",
@@ -102,7 +108,7 @@
                "Heath",
                "Jeren",
                "Kaven",
-               "Lorn", 
+               "Lorn",
                "Mard",
                "Navin",
                "Ollen",
@@ -197,14 +203,16 @@
                "Elidalas",
                "Kessar",
                "Rilan",
-               "Siyer", 
-               "Shuul", 
+               "Siyer",
+               "Shuul",
                "Daemion"
             ]
          },
-         "female" : {
-            "uri" : ["stonehearth:monsters:undead:zombie_female"],
-            "given_names" : [
+         "female": {
+            "uri": [
+               "stonehearth:monsters:undead:zombie_female"
+            ],
+            "given_names": [
                "Twine",
                "Losse",
                "Zombi",
@@ -258,7 +266,7 @@
                "Lisy",
                "Vio",
                "Jess",
-               "Marianne", 
+               "Marianne",
                "Trilla",
                "Olive",
                "Emmy",
@@ -339,16 +347,16 @@
                "Azalia",
                "Esme",
                "Lyzra",
-               "Alora", 
+               "Alora",
                "Leodona",
                "Fasha",
-               "Astryd", 
-               "Makkah", 
-               "Suney", 
+               "Astryd",
+               "Makkah",
+               "Suney",
                "Anea"
             ]
          },
-         "surnames" : [
+         "surnames": [
             "der Zombie",
             "der Verfallene",
             "der Gefoltere",
@@ -358,10 +366,12 @@
             "der Langsame"
          ]
       },
-      "necromancer" : {
-         "male" : {
-            "uri" : ["stonehearth:monsters:undead:necromancer"],
-            "given_names" : [
+      "necromancer": {
+         "male": {
+            "uri": [
+               "stonehearth:monsters:undead:necromancer"
+            ],
+            "given_names": [
                "Havir",
                "Vomon",
                "Oyavok",
@@ -374,7 +384,7 @@
                "Nameless"
             ]
          },
-         "surnames" : [
+         "surnames": [
             "Seelenbrecher",
             "der Peiniger",
             "der Verderbte",
@@ -385,18 +395,18 @@
          ]
       }
    },
-   "town_pieces" : {
-      "optional_prefix" : [
+   "town_pieces": {
+      "optional_prefix": [
          "Ay"
-      ], 
-      "town_name" : [
+      ],
+      "town_name": [
          "Pohk"
-      ], 
-      "suffix" : [
+      ],
+      "suffix": [
          "yu"
       ]
-   }, 
-   "task_groups" : {
-      "stonehearth:task_group:restock" : "stonehearth:simple_labor"
+   },
+   "task_groups": {
+      "stonehearth:task_group:restock": "stonehearth:simple_labor"
    }
 }

@@ -1,21 +1,24 @@
 {
-   "kingdom_name" : "The Golden Conquering Arm",
-   "kingdom_id" : "goblins",
-   "amenity_to_strangers" : "hostile",
+   "type": "kingdom",
+   "kingdom_name": "The Golden Conquering Arm",
+   "kingdom_id": "goblins",
+   "amenity_to_strangers": "hostile",
    "amenity_to": {
       "orcs": "neutral"
    },
-   "roles" : {
-      "default" : { 
-         "male" : {
-            "uri" :  ["stonehearth:monsters:goblins:goblin"], 
-            "given_names" : [
+   "roles": {
+      "default": {
+         "male": {
+            "uri": [
+               "stonehearth:monsters:goblins:goblin"
+            ],
+            "given_names": [
                "Zug",
                "Baa",
                "Ulan",
                "Ikh",
                "Baatar",
-            "Zun",
+               "Zun",
                "Muud",
                "Govi",
                "Omno",
@@ -27,9 +30,11 @@
                "Ragnash"
             ]
          },
-         "female" : {
-            "uri" : ["stonehearth:monsters:goblins:goblin"],
-            "given_names" : [
+         "female": {
+            "uri": [
+               "stonehearth:monsters:goblins:goblin"
+            ],
+            "given_names": [
                "Khru",
                "Sel",
                "Anji",
@@ -44,7 +49,7 @@
                "Bayan"
             ]
          },
-         "surnames" : [
+         "surnames": [
             "der Prächtige",
             "der Dunkelbraune",
             "die Weise",
@@ -73,11 +78,13 @@
             "Blutmaler",
             "der Grandiose"
          ]
-      }, 
-      "wolf" : {
-         "male" : {
-            "uri" : ["stonehearth:monsters:goblins:wolf"],
-            "given_names" : [
+      },
+      "wolf": {
+         "male": {
+            "uri": [
+               "stonehearth:monsters:goblins:wolf"
+            ],
+            "given_names": [
                "Upear",
                "Fastpaw",
                "Brownruff",
@@ -101,8 +108,8 @@
                "Spike",
                "Toothy"
             ]
-         }, 
-         "surnames" : [
+         },
+         "surnames": [
             "the Ferocious",
             "Chases-the-Sky",
             "Gruffbarker",
@@ -116,33 +123,43 @@
             "Peopleeater",
             "the Friendly"
          ]
-      }, 
-      "mountain_ogre" : {
-         "male" : {
-            "uri" : ["stonehearth:monsters:ogres:ogre"],
-            "given_names" : ["Mountain"], 
-            "surnames" : ["the Ogre"]
+      },
+      "mountain_ogre": {
+         "male": {
+            "uri": [
+               "stonehearth:monsters:ogres:ogre"
+            ],
+            "given_names": [
+               "Mountain"
+            ],
+            "surnames": [
+               "the Ogre"
+            ]
          }
-      }, 
-      "boss_sheep" : {
-         "male" : {
-            "uri" : ["stonehearth:sheep"],
-            "given_names" : ["Glockenblume"]
+      },
+      "boss_sheep": {
+         "male": {
+            "uri": [
+               "stonehearth:sheep"
+            ],
+            "given_names": [
+               "Bluebell"
+            ]
          }
       }
    },
-   "town_pieces" : {
-      "optional_prefix" : [
+   "town_pieces": {
+      "optional_prefix": [
          "Ay"
-      ], 
-      "town_name" : [
+      ],
+      "town_name": [
          "Pohk"
-      ], 
-      "suffix" : [
+      ],
+      "suffix": [
          "yu"
       ]
-   }, 
-   "task_groups" : {
-      "stonehearth:task_group:restock" : "stonehearth:simple_labor"
+   },
+   "task_groups": {
+      "stonehearth:task_group:restock": "stonehearth:simple_labor"
    }
 }

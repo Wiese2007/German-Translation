@@ -1,4 +1,5 @@
 {
+   "type": "kingdom",
    "kingdom_name": "Orcs",
    "kingdom_id": "orcs",
    "amenity_to_strangers": "hostile",
@@ -190,10 +191,10 @@
             "Mognurron",
             "Kilul",
             "Firehorn",
-            "Emerald Warhammer",
-            "Ruby Deatharm",
-            "Sapphire Dreamfury",
-            "Amethyst Skullsong"
+            "Warhammer",
+            "Deatharm",
+            "Dreamfury",
+            "Skullsong"
          ]
       },
       "wolf": {

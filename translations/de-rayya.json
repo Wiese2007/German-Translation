@@ -114,6 +114,18 @@
                }
             }
          }
+      },
+      "saved_objects": {
+         "building_templates_index": {
+            "template_tabs": {
+               "rayyas_children": {
+                  "display_name": "Rayya's",
+                  "categories": {
+                     "town": "Stadtvorlagen"
+                  }
+               }
+            }
+         }
       }
    },
    "entities": {

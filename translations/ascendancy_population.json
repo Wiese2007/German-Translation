@@ -1,24 +1,25 @@
 {
-   "display_name" : "i18n(stonehearth:data.population.ascendancy.display_name)",
-   "kingdom_id" : "ascendancy",
-   "favored_biome" : "stonehearth:biome:temperate", 
-   "quote" : "i18n(stonehearth:data.population.ascendancy.quote)", 
-   "description" : "i18n(stonehearth:data.population.ascendancy.description)",
-   "post_selection_description" : "i18n(stonehearth:data.population.ascendancy.post_selection_description)",
-   "image" : "/stonehearth/data/kingdoms/images/ascendancy_400x300.png",
+   "type": "kingdom",
+   "display_name": "i18n(stonehearth:data.population.ascendancy.display_name)",
+   "kingdom_id": "ascendancy",
+   "favored_biome": "stonehearth:biome:temperate",
+   "quote": "i18n(stonehearth:data.population.ascendancy.quote)",
+   "description": "i18n(stonehearth:data.population.ascendancy.description)",
+   "post_selection_description": "i18n(stonehearth:data.population.ascendancy.post_selection_description)",
+   "image": "/stonehearth/data/kingdoms/images/ascendancy_400x300.png",
    "story_board_image": "/stonehearth/data/kingdoms/images/story_board_image.png",
-   "starting_talisman" : "stonehearth:carpenter:talisman",
+   "starting_talisman": "stonehearth:carpenter:talisman",
    "inventory_capacity_equation": "math.max(num_citizens * 150, 1200)",
-   "roles" : {
-      "default" : {
-         "male" : {
-            "uri" :          [
+   "roles": {
+      "default": {
+         "male": {
+            "uri": [
                "stonehearth:male_1",
                "stonehearth:male_1",
                "stonehearth:male_2",
                "stonehearth:male_3"
             ],
-            "given_names" : [
+            "given_names": [
                "Alton",
                "Edwyne",
                "Fostan",
@@ -28,7 +29,7 @@
                "Heath",
                "Jeren",
                "Kaven",
-               "Lorn", 
+               "Lorn",
                "Mard",
                "Navin",
                "Ollen",
@@ -85,15 +86,14 @@
                "Cecil"
             ]
          },
-         "female" : {
-            "uri" : [
+         "female": {
+            "uri": [
                "stonehearth:female_1",
                "stonehearth:female_1",
                "stonehearth:female_2",
                "stonehearth:female_3"
-
             ],
-            "given_names" : [
+            "given_names": [
                "Sanini",
                "Twila",
                "Cici",
@@ -138,7 +138,7 @@
                "Lisy",
                "Vio",
                "Jess",
-               "Marianne", 
+               "Marianne",
                "Trilla",
                "Olive",
                "Emmy",
@@ -175,8 +175,8 @@
                "Meghaan",
                "Lolli"
             ]
-         }, 
-         "surnames" : [
+         },
+         "surnames": [
             "Burlyhands",
             "Farstrider",
             "Gwarin",
@@ -196,8 +196,8 @@
             "Hunterton",
             "Winset",
             "Jondal",
-            "Baub", 
-            "Hart", 
+            "Baub",
+            "Hart",
             "Woolden",
             "Founder",
             "Addion",
@@ -255,9 +255,9 @@
             }
          }
       }
-   }, 
-   "town_pieces" : {
-      "optional_prefix" : [
+   },
+   "town_pieces": {
+      "optional_prefix": [
          "Neu", 
          "Nord",
          "Süd",
@@ -268,8 +268,8 @@
          "Fair",
          "Zeder",
          "Großartig"
-      ], 
-      "town_name" : [
+      ],
+      "town_name": [
          "Threed",
          "Zwillingsmühlen",
          "Zinfen",
@@ -301,9 +301,9 @@
          "Blume",
          "Weide",
          "Granit",
-         "Donner", 
+         "Donner",
          "Scylla",
-         "Charibdis", 
+         "Charibdis",
          "Seidenpflanze",
          "Beere", 
          "Eiche",
@@ -317,8 +317,8 @@
          "Freund", 
          "Berg", 
          "Diadem"
-      ], 
-      "suffix" : [
+      ],
+      "suffix": [
          "dell",
          "Münze", 
          "Moor",
@@ -329,18 +329,18 @@
          "Oase",
          "Ebene",
          "Kürbisflasche",
-         "song",
-         "shire", 
-         "ville", 
+         "Song",
+         "Shire", 
+         "Ville", 
          "Seite", 
-         "rock",
-         "stead",
-         "lad",
+         "Stein",
+         "Stead",
+         "Lad",
          " Tal", 
          " Tal", 
          " Kreuzung", 
          " Glen"
       ]
    },
-   "task_groups" : {}
+   "task_groups": {}
 }

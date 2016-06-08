@@ -148,25 +148,25 @@
          "shopping_stall_blue": {
             "shopping_stall_blue_ghost": {
                "display_name" : "blauer Verkaufsstand",
-               "description" : "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
+               "description" : "Händler können hier einen Laden einrichten"
             }
          },
          "shopping_stall_green": {
             "shopping_stall_green_ghost": {
                "display_name" : "grüner Verkaufsstand",
-               "description" : "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
+               "description" : "Händler können hier einen Laden einrichten"
             }
          },
          "shopping_stall_pink": {
             "shopping_stall_pink_ghost": {
                "display_name" : "pinker Verkaufsstand",
-               "description" : "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
+               "description" : "Händler können hier einen Laden einrichten"
             }
          },
          "shopping_stall_purple": {
             "shopping_stall_purple_ghost": {
                "display_name" : "lilaner Verkaufsstand",
-               "description" : "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
+               "description" : "Händler können hier einen Laden einrichten"
             }
          },
          "simple_wooden_stool": {
