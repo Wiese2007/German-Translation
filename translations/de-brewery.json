@@ -2,13 +2,11 @@
    "data": {
       "commands": {
          "plant_tree": {
-            "plant_tree": {
                "display_name": "Pflanze Baum",
                "description": "Pflanze diesen Baum"
-            }
-         }
       }
-   },
+   }
+},
    "ui": {
       "buffs": {
          "blitzed": {
@@ -727,6 +725,9 @@
             "small_apple_tree": {
                "display_name": "Junger Apfelbaum",
                "description": "Etwas größer als ein Schößling."
+            },
+            "unripe_apple_tree": {
+               "description": "Dieser Baum braucht noch ein wenig Zeit für neue Apfel"
             },
             "sapling_apple_tree": {
                "description": "Pflanze es in die Erde und schaue beim Wachsen zu.",

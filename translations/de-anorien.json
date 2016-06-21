@@ -1,0 +1,15 @@
+{
+   "data": {
+      "biome": {
+         "anorien": {
+            "display_name": "Anorien",
+            "description": "Anorien liegt im Norden von Minas Tirith und der Linie der weißen Berge.",
+            "random_location_names": {
+               "000": " nach Anorien Mindolluin",
+               "001": " nach Anorien Ered Nimrais",
+               "002": " nach Anorien Anduin"
+            }
+         }
+      }
+   }
+}

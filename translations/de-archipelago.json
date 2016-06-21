@@ -2,13 +2,13 @@
    "data": {
       "biome": {
          "archipelago": {
-            "display_name": "Archipelago",
-            "description": "Wasser überall, oder sand, was auch immer unbeliebter ist",
+            "display_name": "Archipel",
+            "description": "Wasser überall! Oder Sand! Was auch immer unbeliebter ist xD",
             "random_location_names": {
-               "000": "Malaio Archipelago",
-               "001": "Mauna Loa Archipelago",
-               "002": "Kilak Archipelago",
-               "003": "Mergui Archipelago"
+               "000": " zum Malaio Archipel",
+               "001": " zum Mauna Loa Archipel",
+               "002": " zum Kilak Archipel",
+               "003": " zum Mergui Archipel"
             }
          }
       }

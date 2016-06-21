@@ -12,15 +12,15 @@
          },
          "recipes": {
             "mason_clay_chisel_recipe": {
-               "description": "Der Töpfer kann Lehm verwenden um Holz und Stein zu binden",
-               "recipe_name": "Steinmetz Lehmmeißel",
+               "description": "Der Töpfer kann Lehm verwenden um einen extrem starken Meißel herzustellen",
+               "recipe_name": "Steinmetz-Lehmmeißel",
                "flavor": "'Der Ofen erhitzt alle Dinge; er bezeugt wie Ton, durch die Alchimie des Monkey, so stark wie Stein wird.' --Meister Erisa"
             }
          }
       },
       "mason": {
          "mason_description": {
-            "requirements" : "Ein Level 2 Töpfer und einen Steinmetzmeißel, wird hergestellt vom Töpfer."
+            "requirements" : "Ein Level 2 Töpfer und einen Steinmetz-Lehmmeißel, wird hergestellt vom Töpfer."
          }
       },
       "cook": {

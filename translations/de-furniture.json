@@ -19,19 +19,19 @@
       "decorations": {
          "blue_awning": {
             "blue_awning_ghost": {
-               "display_name" : "blaues Sonnensegel",
+               "display_name" : "Blaues Sonnensegel",
                "description" : "Für diejenigen, die die Sonne nicht in ihren Augen mögen."
             }
          },
          "red_awning": {
             "red_awning_ghost": {
-               "display_name" : "rotes Sonnensegel",
+               "display_name" : "Rotes Sonnensegel",
                "description" : "Für diejenigen, die die blauen nicht mögen."
             }
          },
          "red_curtains": {
             "red_curtains_ghost": {
-               "display_name" : "rote Vorhänge",
+               "display_name" : "Rote Vorhänge",
                "description" : "Wie die Blauen ... aber rot."
             }
          },
@@ -87,13 +87,13 @@
          },
          "bookcase_large": {
             "bookcase_large_ghost": {
-               "display_name" : "großes Bücherregal",
+               "display_name" : "Großes Bücherregal",
                "description" : "Da ist eine Scheibe Schinken in einem dieser Bücher."
             }
          },
          "bookcase_small": {
             "bookcase_small_ghost": {
-               "display_name" : "kleines Bücherregal",
+               "display_name" : "Kleines Bücherregal",
                "description" : "Da ist Speck in diesem hier."
             }
          },
@@ -117,7 +117,7 @@
          },
          "linked_chest": {
             "linked_chest_ghost": {
-               "display_name" : "verkettete Truhe",
+               "display_name" : "Verkettete Truhe",
                "description" : "So froh, dass dieser Mod nichts von anderen Spielen enthält."
             }
          },
@@ -147,25 +147,25 @@
          },
          "shopping_stall_blue": {
             "shopping_stall_blue_ghost": {
-               "display_name" : "blauer Verkaufsstand",
+               "display_name" : "Blauer Verkaufsstand",
                "description" : "Händler können hier einen Laden einrichten"
             }
          },
          "shopping_stall_green": {
             "shopping_stall_green_ghost": {
-               "display_name" : "grüner Verkaufsstand",
+               "display_name" : "Grüner Verkaufsstand",
                "description" : "Händler können hier einen Laden einrichten"
             }
          },
          "shopping_stall_pink": {
             "shopping_stall_pink_ghost": {
-               "display_name" : "pinker Verkaufsstand",
+               "display_name" : "Pinker Verkaufsstand",
                "description" : "Händler können hier einen Laden einrichten"
             }
          },
          "shopping_stall_purple": {
             "shopping_stall_purple_ghost": {
-               "display_name" : "lilaner Verkaufsstand",
+               "display_name" : "Lilaner Verkaufsstand",
                "description" : "Händler können hier einen Laden einrichten"
             }
          },
@@ -224,7 +224,7 @@
                "flavor" : "Wir machen es doppelt."
             },
             "blue_awning_recipe": {
-               "recipe_name" : "blaues Sonnensegel",
+               "recipe_name" : "Blaues Sonnensegel",
                "description" : "Verkleidet ansonsten normale Fenster.",
                "flavor" : "Lichtblockierende Technologie fördert das einschlafen."
             },
@@ -239,7 +239,7 @@
                "flavor" : "Pokeflöte erforderlich."
             },
             "red_awning_recipe": {
-               "recipe_name" : "rotes Sonnensege",
+               "recipe_name" : "Rotes Sonnensegel",
                "description" : "Verkleidet ansonsten normale Fenster.",
                "flavor" : "Lichtblockierende Technologie fördert das einschlafen."
             },
@@ -258,7 +258,7 @@
                "flavor" : "Weil Teilen scheiße ist.."
             },
             "bookcase_small_recipe": {
-               "recipe_name" : "kleines Bücherregal",
+               "recipe_name" : "Kleines Bücherregal",
                "description" : "Da ist Speck in diesem hier.",
                "flavor" : ""
             },
@@ -298,17 +298,17 @@
                "flavor" : ""
             },
             "bluecloth_wood_table_recipe": {
-               "recipe_name" : "blau gekleideter Tisch",
+               "recipe_name" : "Blau gekleideter Tisch",
                "description" : "Tische, Jetzt mit Farbe!",
                "flavor" : ""
             },
             "bookcase_large_recipe": {
-               "recipe_name" : "großes Bücherregal",
+               "recipe_name" : "Großes Bücherregal",
                "description" : "Da ist eine Scheibe Schinken in einem dieser Bücher.",
                "flavor" : ""
             },
             "linked_chest_recipe": {
-               "recipe_name" : "verkettete Truhe",
+               "recipe_name" : "Verkettete Truhe",
                "description" : "So froh, dass dieser Mod nichts von anderen Spielen enthält.",
                "flavor" : ""
             },
@@ -323,7 +323,7 @@
                "flavor" : ""
             },
             "redcloth_wooden_table_recipe": {
-               "recipe_name" : "rot gekleideter Tisch",
+               "recipe_name" : "Rot gekleideter Tisch",
                "description" : "Tische, Jetzt mit einer anderen Farbe!",
                "flavor" : ""
             },
@@ -338,22 +338,22 @@
                "flavor" : ""
             },
             "shopping_stall_blue_recipe": {
-               "recipe_name" : "blauer Verkaufsstand",
+               "recipe_name" : "Blauer Verkaufsstand",
                "description" : "Geöffnet für Geschäfte",
                "flavor" : "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
             },
             "shopping_stall_green_recipe": {
-               "recipe_name" : "grüner Verkaufsstand",
+               "recipe_name" : "Grüner Verkaufsstand",
                "description" : "Geöffnet für Geschäfte",
                "flavor" : "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
             },
             "shopping_stall_pink_recipe": {
-               "recipe_name" : "pinker Verkaufsstand",
+               "recipe_name" : "Pinker Verkaufsstand",
                "description" : "Geöffnet für Geschäfte",
                "flavor" : "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
             },
             "shopping_stall_purple_recipe": {
-               "recipe_name" : "lilaner Verkaufsstand",
+               "recipe_name" : "Lilaner Verkaufsstand",
                "description" : "Geöffnet für Geschäfte",
                "flavor" : "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
             },

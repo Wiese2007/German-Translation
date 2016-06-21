@@ -212,7 +212,7 @@
          "huntercloak_recipe": {
             "recipe_name" : "Jägemantel",
             "description" : "Die Beute wird Ihn nicht sehen!",
-            "flavor" : "De Fratrum vita"
+            "flavor" : ""
          },
          "assassincloak_recipe": {
             "recipe_name" : "Assassinenmantel",

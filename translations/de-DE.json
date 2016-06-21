@@ -2,31 +2,31 @@
    "ai": {
       "actions": {
          "status_text": {
-            "chase_entity": "jage [name(data.target)]",
+            "chase_entity": "jagt [name(data.target)]",
             "eat_item": "isst [name(data.target)]",
             "fill_storage": "befüllt [name(data.target)]",
-            "harvest_crop": "ernte [name(data.target)]",
-            "harvest_resource": "ernte [name(data.target)]",
-            "harvest_resource_node": "ernte [name(data.target)]",
-            "light_firepit": "entzünde [name(data.target)]",
-            "place_item_on_structure": "platziere [name(data.target)]",
+            "harvest_crop": "erntet [name(data.target)]",
+            "harvest_resource": "erntet [name(data.target)]",
+            "harvest_resource_node": "erntet [name(data.target)]",
+            "light_firepit": "entzündet [name(data.target)]",
+            "place_item_on_structure": "platziert [name(data.target)]",
             "work_at_workshop": "[str(data.craftable_name)] wird hergestellt",
             "attack_melee_adjacent": "attackiert [name(data.target)]",
             "heal_ranged_in_sight": "heilt [name(data.target)]",
             "wait_at_safety_point": "wartet am Sicherheitsbanner",
             "repair_entity": "repariert [name(data.target)]",
             "resting_by_fire": "rastet beim Feuer",
-            "claiming_animal": "beansprucht Tier",
+            "claiming_animal": "beansprucht Tiere",
             "looking_for_animals": "sucht nach Tieren",
-            "collect_ingredient": "sammle Ressourcen",
-            "build_workshop": "baue Werkbank",
+            "collect_ingredient": "sammelt Ressourcen",
+            "build_workshop": "baut Werkbank",
             "death": "stirbt",
             "eat": "holt Essen",
-            "find_stray_animal": "suche Streuner",
-            "harvest_field": "ernte Feld",
+            "find_stray_animal": "sucht Streuner",
+            "harvest_field": "erntet Felder",
             "idle": "untätig",
             "patrol": "patrolliere",
-            "plant_crop": "pflanze Feldfrucht",
+            "plant_crop": "pflanzt Feldfrucht",
             "return_animals": "Rückkehr zur Weide",
             "combat": "in einen Kampf verwickelt",
             "cower": "Kauert!",
@@ -35,22 +35,22 @@
             "mine": "gräbt",
             "sleep_in_bed": "schlafen...",
             "sleep_on_ground": "schläft auf dem Boden",
-            "check_bait_trap": "überprüfe Fallen",
+            "check_bait_trap": "überprüft Fallen",
             "set_bait_trap": "Fallen legen",
-            "survey_trapping_grounds": "begutachte Fanggründe",
-            "steal_bait": "stehle Köder",
-            "build_ladder": "baue Leiter",
+            "survey_trapping_grounds": "begutachtet Fanggründe",
+            "steal_bait": "stehlet Köder",
+            "build_ladder": "baut Leitern",
             "promote": "Ernennung...",
             "move_item_to_storage": "bringt Element zum Lager",
-            "teardown_ladder": "entferne Leiter",
-            "drop_item_near_workshop": "leere Werkstatt",
-            "fabricate_structure": "baue",
-            "teardown_structure": "Struktur einreißen...",
-            "feed_pasture_animals": "füttere Tiere",
-            "restock": "Wiederbefüllung mit Elementen",
+            "teardown_ladder": "entfernt Leitern",
+            "drop_item_near_workshop": "leert Werkstatt",
+            "fabricate_structure": "baut",
+            "teardown_structure": "reißt Strukturen ein...",
+            "feed_pasture_animals": "füttert Tiere",
+            "restock": "Befüllt Lager mit Elementen",
             "resting_from_injuries": "benötigt medizinische Betreuung",
-            "healing": "behandle Wunden",
-            "healing_target": "heile  [name(data.target)]",
+            "healing": "behandelt Wunden",
+            "healing_target": "heilt [name(data.target)]",
             "dig_foundation": "gräbt ein Fundament"
          }
       }
@@ -69,11 +69,13 @@
             "pause_overlay": "Pausiert"
          },
          "visions": {
-            "building_vision": "ändere Sichtart",
+            "building_vision": "Ändere Sichtart",
             "building_vision_description": "Ändert die Sichtbarkeit von Gebäudewänden, erlaubt es dir in das Innere zu sehen.",
             "terrain_slice_vision": "Schnittansicht",
             "terrain_slice_vision_icon_name": "Schnitt",
             "terrain_slice_vision_description": "Zerschneide das Gelände um unterirdische Strukturen zu sehen. Ändern die Höhe um verschiedene Level zu sehen.",
+            "terrain_slice_vision_up": "Erhöhe Schnitthöhe",
+            "terrain_slice_vision_down": "Verringere Schnitthöhe",
             "terrain_xray_vision_icon_name": "Röntgen",
             "terrain_xray_vision": "Röntgenansicht",
             "terrain_xray_vision_description": "Sieh durch das Gelände. Wechsel zwischen Voll- und Flachblick um unterirdische Wände zu sehen.",
@@ -95,7 +97,7 @@
          },
          "people_picker": {
             "title": "Wähle einen Hearthling",
-            "select_person": "auswählen",
+            "select_person": "Auswählen",
             "ownership_current_owner_tooltip": "Aktueller Besitzer",
             "ownership_owns_another_tooltip": "Besitzt bereits ein ähnliches Objekt"
          },
@@ -188,7 +190,7 @@
             "decline": "Ablehnen",
             "next": "Weiter",
             "hotkey": "Hotkey: ",
-            "remove": "Entfernen",
+            "remove": "Löschen",
             "input_text_tooltip": "Klicke zum bearbeiten"
          },
          "party": {
@@ -322,12 +324,14 @@
             "unknown_name": "Unbekannt",
             "item_categories": {
                "food": "Essen",
-               "cooking_ingredient": "Kochezutaten",
+               "cooking_ingredient": "Kochzutaten",
                "resources": "Ressourcen",
                "furniture": "Möbel",
-               "armor": "Rüstung",
+               "armor": "Rüstungen",
                "decoration": "Dekorationen",
                "construction": "Konstruktionen",
+               "door": "Türen",
+               "window": "Fenster",
                "plants": "Pflanzen",
                "weapons": "Waffen",
                "tools": "Werkzeug",
@@ -335,9 +339,10 @@
                "refined": "verfeinert",
                "uncategorized": "nicht zugeordnet",
                "workshops": "Werkbänke",
-               "consumable": "Verbrauchsmaterial",
+               "consumable": "Verbrauchsmaterialien",
                "storage": "Lager",
                "defense": "Verteidigung",
+               "trophy": "Trophäen",
                "none": "Nichts"
             },
             "tooltip_combat_base_damage": "Ang:",
@@ -348,7 +353,7 @@
          },
          "menu": {
             "town_menu": {
-               "display_name": "Stadt Info",
+               "display_name": "Stadtübersicht",
                "description": "Allgemeine Infos über deine Stadt, den Reichtum und wie sich deine Hearthlings fühlen."
             },
             "citizen_manager": {
@@ -450,7 +455,7 @@
                      "display_name": "Platziere ein Element",
                      "description": "Platziere Elemente wie Möbel und Dekorationen",
                      "tip_title": "Klicken zum platzieren des Elementes",
-                     "tip_description": "Rotiere mit den , und . Tasten"
+                     "tip_description": "Rotiere mit der , und der . Taste"
                   },
                   "cannot_place_item": {
                      "tip_title": "Dieses Element kann nicht platzieren werden",
@@ -465,7 +470,7 @@
                }
             },
             "fight_menu": {
-               "display_name": "Kämpfe & Verteidige",
+               "display_name": "Kampf & Verteidigung",
                "description": "Verwalte deine Streitkräfte",
                "items": {
                   "party_manager": {
@@ -473,9 +478,9 @@
                      "description": "Organisiere deine Truppen in Gruppen"
                   },
                   "town_alert": {
-                     "display_name": "Stadtalarm-Modus!",
+                     "display_name": "Stadtalarm!",
                      "description": "Sammele deine Hearthlings um die Stadt zu verteidigen!",
-                     "activated_title": "Stadtalarm-Modus aktiviert!",
+                     "activated_title": "Stadtalarm aktiviert!",
                      "activated_text": "Deine Arbeiter suchen wachsam nach Eindringlingen. Hearthlinge welche nicht als Miliz eingetragen sind, werden zu den Schutzpunkten rennen."
                   },
                   "party_1": {
@@ -573,23 +578,23 @@
             "bulletin_list_title": "Mitteilungen",
             "shop": {
                "buy_1": "Kauf 1",
-               "buy_10": "Kaufe 10",
-               "buy_all" : "Kaufe alles", 
+               "buy_10": "Kauf 10",
+               "buy_all" : "Kauf alle", 
                "sell_1": "Verkauf 1",
-               "sell_10": "Verkaufe 10",
-               "sell_all": "Verkaufe alles",
+               "sell_10": "Verkauf 10",
+               "sell_all": "Verkauf alle",
                "buy_tab": "Kaufen",
                "sell_tab": "Verkaufen",
-               "not_enough_gold_tooltip": "Nicht genug Geld"
+               "not_enough_gold_tooltip": "Nicht genug Gold"
             },
             "city_dialog": {
                "proclamation": "AUSRUFUNG VON"
             },
             "city_tier_dialog": {
-               "build_and_place": "Gebaut und Platziert",
+               "build_and_place": "Gebaut und Platziert:",
                "attain_net_worth": "Erreichter Stadtwert:",
                "check_requirements": "Überprüfe Anforderungen",
-               "summon_herald": "Beschwöre Ausrufer!"
+               "summon_herald": "Rufe Ausrufer!"
             },
             "quest_bulletin": {
                "title": "Neue Nachricht"
@@ -600,7 +605,7 @@
             },
             "immigration_report": {
                "title": "Tägliches Update",
-               "immigration_report_title": "Einwanderung-Bericht",
+               "immigration_report_title": "Einwanderungs-Bericht",
                "population_label": "[str(town_name)] Bevölkerung",
                "next_requirements_label": "Nächster Hearthling erfordert...",
                "tooltips": {
@@ -658,7 +663,7 @@
                "doodad_tip_title": "Klicke auf eine Wand, um eine Tür oder ein Fenster zu setzen",
                "doodad_tip_description": "Rechtsklick zum verlassen",
                "draw_template_title": "Klicke um eine Vorlage zu erstellen",
-               "draw_template_description": "Rotiere mit den , und . Tasten",
+               "draw_template_description": "Rotiere mit der , und der . Taste",
                "build_road_tip_title": "Klicke und zieh um eine Strasse zu bauen",
                "build_road_tip_description": "Rechtsklick zum verlassen"
             },
@@ -671,6 +676,7 @@
                "building_cost": "Benötigte Materialien",
                "start_building": "Bauen!",
                "pause_building": "Bauen pausieren",
+               "continue_building": "Bauen fortsetzen",
                "save_building_template": "Sichern",
                "finished_editing": "Beende Bearbeitung",
                "start_editing": "Bearbeiten",
@@ -721,6 +727,20 @@
                   "clay_resource": "Lehmwand",
                   "clay_brick_resource": "Ziegelsteinmauer"
                },
+               "foundation": {
+                  "material": "Fundamentmaterial ",
+                  "wood_resource": "Holzfundament",
+                  "stone_resource": "Steinfundament",
+                  "clay_resource": "Lehmfundament",
+                  "clay_brick_resource": "Ziegelsteinfundament"
+               },
+               "slab": {
+                  "material": "Plattenmaterial ",
+                  "wood_resource": "Holzplatte",
+                  "stone_resource": "Steinplatte",
+                  "clay_resource": "Lehmplatte",
+                  "clay_brick_resource": "Ziegelsteinplatte"
+               },
                "floor": {
                   "material": "Fußboden Material",
                   "wood_resource": "Holzfußboden",
@@ -748,23 +768,11 @@
                   "stone_resource": "Steinstraße",
                   "clay_resource": "Lehmstraße",
                   "clay_brick_resource": "Ziegelsteinstraße"
-               },
-               "doors": {
-                  "material": "Türen Material",
-                  "wood_resource": "Holztür",
-                  "stone_resource": "Steintür",
-                  "clay_resource": "Lehmtür"
-               },
-               "windows": {
-                  "material": "Fenster Material",
-                  "wood_resource": "Holzfenster",
-                  "stone_resource": "Steinfenster",
-                  "clay_resource": "Lehmfenster"
                }
             },
             "start_building_confirm": {
                "title": "Wirklich diesen Bau starten?",
-               "message": "Sobald du den Bau beginnst - kann er nicht mehr verändert werden. Bist du dir sicher das du es jetzt bauen willst?",
+               "message": "Sobald du den Bau beginnst - kann er nicht mehr verändert oder entfernt werden. Bist du dir sicher das du es jetzt bauen willst?",
                "yes": "Ja, lass Sie arbeiten!",
                "no": "Nicht jetzt"
             },
@@ -817,12 +825,12 @@
                   "gear": "Waffen & Rüstungen",
                   "food_and_drink": "Essen & Trinken",
                   "wealth": "Wertsachen",
-                  "tooltip_tools": "Werkzeug",
+                  "tooltip_tools": "Talismane und Werkbanken",
                   "tooltip_wood": "Holz",
                   "tooltip_stone": "Stein",
                   "tooltip_clay": "Lehm",
                   "tooltip_ore": "Erz",
-                  "tooltip_animal_part": "Tierteile",
+                  "tooltip_animal_part": "Tierpelze und Häute",
                   "tooltip_resource_pile": "Ressourcenhaufen",
                   "tooltip_plant": "Pflanzen",
                   "tooltip_portal": "Türen & Fenster",
@@ -830,21 +838,22 @@
                   "tooltip_defense": "Verteidigung",
                   "tooltip_light": "Fackeln & Lichter",
                   "tooltip_decoration": "Dekorationen",
-                  "tooltip_refined_cloth": "Garn & Stoff",
+                  "tooltip_refined_weaver": "Garn, Stoff und Leder",
+                  "tooltip_refined_craftables": "verfeinerte Sachen",
                   "tooltip_refined_animal_part": "Waren aus Tierteilen",
                   "tooltip_refined_ore": "Metallbaren",
-                  "tooltip_melee_weapon": "Nahkampfwaffen",
+                  "tooltip_weapons": "Waffen",
                   "tooltip_ranged_weapon": "Fernkampfwaffen",
-                  "tooltip_light_armor": "Leichte Rüstung",
+                  "tooltip_equipment": "Rüstung und andere Ausrüstung",
                   "tooltip_heavy_armor": "Schwere Rüstung",
                   "tooltip_exotic_gear": "Exotische Rüstung",
-                  "tooltip_drink": "leckere Getränke",
-                  "tooltip_gold": "Gold",
-                  "tooltip_gem": "Edelsteine und Trophäen",
-                  "tooltip_food_containers": "Obst- und Gemüsekörbe",
-                  "tooltip_prepared_food": "gekochtes Essen",
-                  "tooltip_ingredients": "Rohe Zutaten und Futtermittel",
-                  "tooltip_healing_items": "Heilgegenstände und andere Konsumgüter"
+                  "tooltip_drink": "Leckere Getränke",
+                  "tooltip_gold": "Goldtruhe",
+                  "tooltip_trophy": "Trophäen",
+                  "tooltip_raw_food": "Rohes Essen",
+                  "tooltip_prepared_food": "Gekochtes Essen",
+                  "tooltip_cooking_ingredients": "Kochzutaten und Tierfutter ",
+                  "tooltip_consumables": "Heilgegenstände und andere Konsumgüter"
                }
             }
          },
@@ -861,9 +870,9 @@
             "craft_ingredients": "Ressourcen:",
             "craft_requirements": "Anforderung:",
             "unlock_text": "Zum Entsperren:",
-            "crafting_status": "herstellen...",
-            "crafting_status_queued": "Queued",
-            "workshop_paused_status": "pausiert...",
+            "crafting_status": "Beim herstellen...",
+            "crafting_status_queued": "In der Warteschlange...",
+            "workshop_paused_status": "Pausiert...",
             "workshop_remove_confirm": "Entfernen?",
             "workshop_open": "Offen!",
             "workshop_closed": "Geschlossen",
@@ -879,7 +888,7 @@
             "level_requirement_needed": "Benötigt ein ",
             "level_requirement_level": " der Stufe ",
             "too_many_symbol": "viel",
-            "requirements_unmet_general": "Handwerksanforderungen nicht erfüllt!",
+            "requirements_unmet_general": "Anforderungen nicht erfüllt!",
             "queue_anyway": "Noch nicht möglich",
             "recipe_tab": "Rezepte",
             "orders_tab": "Bestellungen",
@@ -1009,7 +1018,8 @@
                "008": "Der Weber kann Uniformen herstellen, welche die Effizienz deiner Arbeiter erhöht",
                "009": "Sitzen während des Essens hilft der Verdauung. Baue Tische und Stühle für deine Hearthlinge.",
                "010": "Schäfer suchen automatisch Tiere zum füllen der Weide.",
-               "011": "Wenn du einen höheren Stadtwert möchtest, versuch Elemente an einen Händler für Gold zu verkaufen."
+               "011": "Wenn du einen höheren Stadtwert möchtest, versuch Elemente an einen Händler für Gold zu verkaufen.",
+               "012": "Aktuell habe ich bis heute - 19.06.16 - 26537 Zeilen bzw. 57874 Wörter für diese Mod übersetzt xD"
             }
          },
          "new_game": {
@@ -1149,23 +1159,23 @@
             "kingdom_picker_title": "Wähle ein Reich",
             "biome_section_start": "Auf der Suche nach neuen Ländern und Abenteuern machten Sie sich auf",
             "biome_picker_title": "Wähle ein Ökosystem",
-            "game_mode_select_start": ", einem Standort, der gewiss",
+            "game_mode_select_start": ", einem Standort der gewiss",
             "game_mode_picker_title": "Wähle einen Schwierigkeitsgrad",
             "game_modes": {
                "normal": {
                   "display_name": "Normal",
-                  "description": "Erlebe Abenteuer in einer Welt voller Gefahren. Deine Stadt wird das Ziel von Überfällen",
+                  "description": "Erlebe Abenteuer in einer Welt voller Gefahren. Deine Stadt wird das Ziel von Überfällen und Invasionen",
                   "post_selection_text": "ein inspirierender Ort ist, um neu anzufangen."
                },
                "peaceful": {
                   "display_name": "Friedlich",
-                  "description": "Ein Sandbox-Modus, in dem du ungestört deine Stadt bauen kannst, ohne Angst vor Angriffen jeglicher Art haben zu müssen.",
+                  "description": "Ein Sandbox-Modus, in dem du ungestört deine Stadt bauen kannst, ohne Angst vor Angriffen jeglicher Art zu haben.",
                   "post_selection_text": "ein ruhiger Ort ist, um neu anzufangen."
                },
                "hard": {
                   "display_name": "Hart",
                   "description": "Begegne schwierigeren Monstern, als im normalen Modus",
-                  "post_selection_text": "normalerweise ein zu gewalttätiger Ort ist, um neu anzufangen."
+                  "post_selection_text": "ein zu gewalttätiger Ort ist, um neu anzufangen."
                }
             },
             "begin_button": "Beginn"
@@ -1174,7 +1184,7 @@
             "title": "Bereite dich vor zu Abenteuern aufzubrechen",
             "citizen_info": "Expeditionsteilnehmer",
             "reroll_citizens": "Rolle neue Einwohner",
-            "shop_title": "Abenteurershop",
+            "shop_title": "Abenteurer-Shop",
             "shop_gold_label": "Gold",
             "shop_sold": "VERKAUFT!",
             "shop_reset_button": "Reset",
@@ -1237,7 +1247,7 @@
                "bullet_points": {
                   "000": "Ermittelt maximale Tierzahl",
                   "001": "Erhöht das Glück der zugeteilten Tiere",
-                  "002": "Jeder Punkt erhöht die direkten Heilmenge um 1"
+                  "002": "Aller 10 Punkte erhöht sich die direkte Heilmenge um 1"
                }
             },
             "food": {
@@ -1317,7 +1327,7 @@
             },
             "militia": {
                "display_name": "Miliz",
-               "description": "Im Stadtalarm-Modus werden die Milzen Ihre Positionen halten, anstatt zu den Sicherheitspunkten zu rennen. Darüber hinaus erhalten sie einen zusätzlichen Schub auf Mut und Muskeln."
+               "description": "Im Stadtalarm werden die Milzen Ihre Positionen halten, anstatt zu den Sicherheitspunkten zu rennen. Darüber hinaus erhalten sie einen zusätzlichen Schub auf Mut und Muskeln."
             },
             "inventory": {
                "display_name": "Lager",
@@ -1339,7 +1349,7 @@
             "pelt_resource_name": "Felle",
             "cloth_resource_name": "Stoffballen",
             "wood_resource_name": "Baumstamm",
-            "clay_resource_name": "Haufen aus Lehm",
+            "clay_resource_name": "Lehmhaufen",
             "clay_brick_resource_name": "Ziegelstein",
             "thread_resource_name": "Fadenrolle",
             "leather_resource_name": "Lederballen",
@@ -1364,21 +1374,21 @@
             "display_name": "Gemäßigt",
             "description": "Wälder, Flüsse und Berge. Standard Heimat der Ascendancy",
             "random_location_names": {
-               "000": "zum Darkmoor Wald"
+               "000": " zum Darkmoor Wald"
             }
          },
          "arctic": {
             "display_name": "Arktisch",
             "description": "Schneebedeckte, mit hohen Bergen und großen Gewässern. Standard Heimat der nördlichen Allianz",
             "random_location_names": {
-               "000": "zur Valkyrie Tundra"
+               "000": " zur Valkyrie Tundra"
             }
          },
          "desert": {
             "display_name": "Wüste",
             "description": "Trocken und sandig, mit klobigen Hügeln und spärlicher Vegetation. Standard Heimat der Kinder von Rayya",
             "random_location_names": {
-               "000": "in die Wüste von Pal'Mum"
+               "000": " in die Wüste von Pal'Mum"
             }
          }
       },
@@ -1429,7 +1439,7 @@
                },
                "returning_trader_encounter": {
                   "title": "Ein Händler nähert sich eurer Stadt.",
-                  "trade_details": "Hallo [str(i18n_data.town_name)]! Ich bin gerade auf Durchreise, aber ich bin bereit ein oder zwei Handel zu machen, wenn Ihr interessiert seit. Wenn Ihr mir [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) macht, werde ich in [str(i18n_data.num_days)] Tagen zurückkommen und werde Euch [str(i18n_data.reward_number)] [str(i18n_data.reward_item)](en) im Austausch geben. Klingt das gut?",
+                  "trade_details": "Hallo [str(i18n_data.town_name)]! Ich bin zwar gerade auf der Durchreise, aber ich wäre bereit ein oder zwei Handel zu machen, wenn Ihr interessiert seit. Wenn Ihr mir [str(i18n_data.want_number)] [str(i18n_data.want_item)](en/er) macht, werde ich in [str(i18n_data.num_days)] Tagen zurückkommen und werde Euch [str(i18n_data.reward_number)] [str(i18n_data.reward_item)](en) im Austausch geben. Klingt das gut?",
                   "waiting_title": "Der Händler wird in [str(i18n_data.hour_counter)] Stunden zurück sein!",
                   "waiting_text": "Der Händler wird in [str(i18n_data.hour_counter)] Stunden zurück sein um euch [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] zu geben, wenn Ihr [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) für Ihn bereit haltet!",
                   "return_title": "Der Händler ist zurück!",
@@ -1483,9 +1493,9 @@
                   "title": "Aufgabe für eine Gemeinde",
                   "dialog_title": "Aufgabe für eine Gemeinde",
                   "text": "Erreiche eine der folgenden Voraussetzungen um sich für den Stadtgemeinde-Status zu qualifizieren:",
-                  "military_requirement_title": "Cid's Valor",
-                  "church_requirement_title": "Kirche des Überflusses",
-                  "crafting_requirement_title": "Handwerkerzustimmung"
+                  "military_requirement_title": "Militär",
+                  "church_requirement_title": "Frommigkeit",
+                  "crafting_requirement_title": "Handwerker"
                },
                "herald_dialog": {
                   "dialog_tree_info": {
@@ -1501,16 +1511,16 @@
                         },
                         "craft_reqs": {
                            "bulletin_message": {
-                              "000": "Die Königlichen Handwerker ehren die mit einem Auge für Qualität. Lass deinen Steinmetz eine Statue mit diesen anspruchsvollen Spezifikationen schaffen. Hilf deinen Freunden und du wirst Sie beeindrucken."
+                              "000": "Die Königlichen Handwerker ehren die mit einem Auge für Qualität. Lass deine Steinmetze eine Statue mit diesen Eigenschaften schaffen und ihr werdet eine der wenigen sein, die Sie beeindruckt haben"
                            },
                            "bulletin_title": "Anwyn schaut wieder auf die Schriftrolle",
                            "dialog_title": "Die ehrenwerte Anwyn Redelm",
-                           "choice_000": "Steinmetz! Jo!",
-                           "choice_001": "Wie sonst kann ich Ruhm erlangen?"
+                           "choice_000": "Steinmetz!",
+                           "choice_001": "Welche andere Option gibt es?"
                         },
                         "proc_details": {
                            "bulletin_message": {
-                              "000": "Alle Siedlungen die lokalen Ruhm erlangt haben werden hiermit als offizielle Ascendancygemeinde anerkannt, mit den Rechten, Privilegien und Belohnungen davon."
+                              "000": "Alle Siedlungen die lokalen Ruhm erlangt haben werden hiermit als offizielle Ascendancygemeinde anerkannt, mit den entsprechenden Rechten, Privilegien und Belohnungen."
                            },
                            "bulletin_title": "Anwyn liest",
                            "dialog_title": "Die ehrenwerte Anwyn Redelm",
@@ -1528,7 +1538,7 @@
                         },
                         "rewards": {
                            "bulletin_message": {
-                              "000": "Tatsächlich! Das Wissen des Reiches kann nicht einfach in der Wildnis verteilt werden, um Opfer von Kobolden oder Wölfen zu werden! Jedoch, durch den Befehl der Prinzessin, erhalten berechtigte Städte Zugang zu architektonischen Lehren und reicheren Karawanen für den Handel."
+                              "000": "Tatsächlich! Durch den Befehl der Prinzessin, erhalten berechtigte Städte, die sich bewiesen haben, Zugang zu architektonischen Lehren und reicheren Karawanen für den Handel."
                            },
                            "bulletin_title": "Anwyn nickt",
                            "dialog_title": "Die ehrenwerte Anwyn Redelm",
@@ -1541,11 +1551,11 @@
                            "bulletin_title": "Anwyn schaut wieder auf die Schriftrolle",
                            "dialog_title": "Die ehrenwerte Anwyn Redelm",
                            "choice_000": "Klingt gut!",
-                           "choice_001": "Wie sonst kann ich Ruhm erlangen?"
+                           "choice_001": "Welche andere Option gibt es?"
                         },
                         "herald_announcement": {
                            "bulletin_message": {
-                              "000": "Ausgezeichnet! Monsieur Burlyhand hat gesagt das Ihr hier draußen sein würdet! In meinen früheren Tagen bin ich auch immer so früh aufgestanden. Sollen wir anfangen?"
+                              "000": "Ausgezeichnet! Monsieur Burlyhand hat gesagt das Ihr hier draußen sein würdet, aber es braucht immer ein wenig Glück jemanden hier zu finden. Sollen wir anfangen?"
                            },
                            "bulletin_title": "Anwyn rollt eine Schriftrolle aus",
                            "dialog_title": "Die ehrenwerte Anwyn Redelm",
@@ -1563,7 +1573,7 @@
                         },
                         "joking": {
                            "bulletin_message": {
-                              "000": "Ich mache nur Spaß! Die königlichen Buchhalter  haben im Augenblick alle Hände voll mit der Krönung und anderem. Wie auch immer, der Gemeindestatus bedeutet in Wirklichkeit, dass Ihr eine Vielzahl von Belohnungen und Vorteile erhaltet."
+                              "000": "Ich mache nur Spaß! Die königlichen Buchhalter haben im Augenblick alle Hände voll mit der Krönung und anderem zu tun. Wie auch immer, der Gemeindestatus bedeutet in Wirklichkeit, dass Ihr eine Vielzahl von Belohnungen und Vorteile erhaltet."
                            },
                            "bulletin_title": "Anwyn grinst",
                            "dialog_title": "Die ehrenwerte Anwyn Redelm",
@@ -1571,16 +1581,16 @@
                         },
                         "church_reqs": {
                            "bulletin_message": {
-                              "000": "Die Kirche des Überflusses bittet die die viel haben Menschen in Not zu helfen. Ich werde deinem Steinmetz und deinem Koch Rezepte geben um einen Schrein für den Wandernden Cid zu bauen. Ich werde wiederkommen um die Spenden für die Bedürftigen einzusammeln."
+                              "000": "Die Kirche des Überflusses begünstigen diejenigen, die ihr Vermögen mit denen in Not teilen. Ich werde deinem Steinmetz und deinem Koch Rezepte geben, Bau einen Brunnen des Überflusses und ich komme wieder um Eure Leistung zu feiern."
                            },
                            "bulletin_title": "Anwyn schaut wieder auf die Schriftrolle",
                            "dialog_title": "Die ehrenwerte Anwyn Redelm",
-                           "choice_000": "Das können wir schaffen!",
-                           "choice_001": "Wie sonst kann ich Ruhm erlangen?"
+                           "choice_000": "Das können wir!",
+                           "choice_001": "Welche andere Option gibt es?"
                         },
                         "herald_approaches": {
                            "bulletin_message": {
-                              "000": "Hey da! Ist das die neue Siedlung [str(i18n_data.town_name)]?"
+                              "000": "Hey da! Ist das die neue Siedlung [str(i18n_data.town_name)]? Monsieur Burlyhand hat gesagt das Ihr hier draußen sein würdet! In meinen früheren Tagen hatte ich auch mal so klein angefangen. Sollen wir mit der Proklamation beginnen"
                            },
                            "bulletin_title": "Ein königliche Ausruferin erscheint",
                            "dialog_title": "Die ehrenwerte Anwyn Redelm",
@@ -1597,7 +1607,7 @@
                         },
                         "conclusion2": {
                            "bulletin_message": {
-                              "000": "Cids Gabe sei auf euch, [str (i18n_data.town_name)]. Ich werde Euch einen Vogel da lassen, so könnt Ihr mich rufen um Eure Fortschritte zu bewerten!"
+                              "000": "Cids Gabe sei auf euch, [str(i18n_data.town_name)]. Ich werde Euch einen Vogel da lassen, so könnt Ihr mich rufen um Eure Fortschritte zu bewerten!"
                            },
                            "bulletin_title": "Anwyn rollt die Schriftrolle zusammen",
                            "dialog_title": "Die ehrenwerte Anwyn Redelm",
@@ -1611,7 +1621,7 @@
                      "tier_2_shops": {
                         "weapon_armor_shop": {
                            "shop_info": {
-                              "name": "Sark Blackhammer's Arsenal Shop",
+                              "name": "Sark Blackhammer's Arsenal-Shop",
                               "title": "Sark Blackhammer ist mit Ausrüstung zum Verkauf angekommen"
                            }
                         },
@@ -1635,7 +1645,7 @@
                         },
                         "door_shop": {
                            "shop_info": {
-                              "name": "Edgar Planckton's Türen Shop",
+                              "name": "Edgar Planckton's Türen-Shop",
                               "title": "Edgar Planckton ist mit Türen zum Verkauf angekommen"
                            }
                         }
@@ -1977,9 +1987,9 @@
                         "shakedown": {
                            "bulletin_message": {
                               "000": "Hahaha!! Eure kümmerliche Siedlung nun Teil von Glittering Territorium! Ich verdienen Tribut - Glitzernd!",
-                              "001": "Menschliche Sklaven! Sie nicht verstehen, die Macht der Glittering Armee! Du Glück hast vor mir verbeugen dürfen. Außerdem wollen einige Dinge in der Nacht halten, mich in den Schlaf zu singen.",
-                              "002": "Du hast Vorräte? Wir nehmen! Wir gut. Wir haben Verständnis?",
-                              "003": "Hahahah du das neue Kind in dem großen Red Territorium. Das bedeutet weniger-neues-Kind nehmen dein Mittagessen. Lunch Metapher. Du machen für uns SONST!",
+                              "001": "Menschliche Sklaven! Sie nicht verstehen, Macht von Glittering Armee! Du Glück haben vor mir verbeugen dürfen. Außerdem wollen einige Dinge in der Nacht halten, mich in den Schlaf zu singen.",
+                              "002": "Du haben Vorräte? Wir nehmen! Wir gut. Ihr haben Verständnis?",
+                              "003": "Hahahah du das neue Kind in dem großen Red Territorium. Das bedeutet weniger-neues-Kind nehmen dein Mittagessen. Lunch Metapher. Du machen für uns, SONST!",
                               "004": "Du Dummkohl, mich großer Glittering Häuptling! Natürliche Ordnung bedeuten, dass du mir Sachen geben und ich nicht zeeerr-stöör-eenn euch. Ich möchten Vorräte. Verstehen?"
                            },
                            "bulletin_title": "Ein Goblin mit einem extravaganten Hut stolziert in die Stadt",
@@ -1990,7 +2000,7 @@
                               "000": "Glittering Armee ist wieder da! Wo iz Zeug?",
                               "001": "Mein Zeug! Wo iz?",
                               "002": "Wir zurück. Du zahlen Tribut jetzt. Wo iz?",
-                              "003": "Ich träumte letzte Nacht. Im Traum, du machst mir Sachen; wir wie Brüder nur ich Sie nicht töten. Du Sachen haben?",
+                              "003": "Ich träumte letzte Nacht. Im Traum, du machst mir Sachen; wir wie Brüder nur ich Euch nicht töten. Du Sachen haben?",
                               "004": "Will Zeug jetzt. Du machen? Wir gut! Du nicht machen? Du sterben. Wir alle Freunde!"
                            },
                            "bulletin_title": "Der Goblin stampft wieder in die Stadt",
@@ -1999,9 +2009,9 @@
                         "collection_failed": {
                            "bulletin_message": {
                               "000": "Du vergessen Zeug? Du nicht machen? Du beflecken Glittering Armee Ehre! Du sterben, jetzt!",
-                              "001": "Du Dummkohl nicht machen meine Sachen ?! Verderben!!! Verderben für alle!!!",
+                              "001": "Du Dummkohl nicht machen meine Sachen?! Verderben!!! Verderben für alle!!!",
                               "002": "Was? Du nicht haben meine Zeug? BLUT, STECHEN und RACHE!",
-                              "003": "Ich wollen gute Häuptling sein. Ich wollen Freunde sein! Aber Sie nicht hören. Nein, Sie nicht würdig. Ich müssen Sie töten dann nach Hause gehen. Weinen für könnte-haben-sein. Du weinen auch, erwarte deinen Tot."
+                              "003": "Ich wollen gute Häuptling sein. Ich wollen Freunde sein! Aber Ihr nicht hören. Nein, Ihr nicht würdig. Ich müssen Euch töten, dann nach Hause gehen. Weinen für könnte-haben-sein. Du weinen auch, erwarte Tot."
                            },
                            "bulletin_title": "Der Goblin runzelt die Stirn so sehr das man seine Augen nicht sehen kann",
                            "dialog_title": "[name(i18n_data.boss)]"
@@ -2009,12 +2019,12 @@
                         "collection_success": {
                            "bulletin_message": {
                               "000": "Das ist richtig. Du kooperieren, wir zusammen ganz gut klarkommen.",
-                              "001": "Du haben tatsächlich Zeig? Ich haben nie - Ich meine, ja. Sie geben mir Gebühr.",
-                              "002": "Du hast Vorräte? Wir nehmen; wir gut!",
-                              "003": "Für mich ?! Du bestest der besten Sklaven!",
-                              "004": "Meine Sachen! Ich jetzt nach Hause und kuscheln mit Ihnen nachts zum schlafen.",
+                              "001": "Du haben tatsächlich Zeug? Ich haben nie - Ich meine, ja. Ihr geben mir Tribut.",
+                              "002": "Du hashabent Vorräte? Wir nehmen, wir gut!",
+                              "003": "Für mich?! Du bestest der besten Sklaven!",
+                              "004": "Meine Sachen! Ich jetzt nach Hause und kuscheln mit Ihnen Nachts zum schlafen.",
                               "005": "Hahahahaha!!! Hübsche Sachen!! Schöne Sachen!! Meins Meins Meins!",
-                              "006": "Sachen !! Meine Schafe so glücklich sein.",
+                              "006": "Sachen!! Meine Schafe so glücklich sein.",
                               "007": "Meine Sachen! Hahahah, Du ziemlich gut für Sklave. Bald zurück!"
                            },
                            "bulletin_title": "Der Goblin grinst wie ein Kind an Heiligabend",
@@ -2022,16 +2032,16 @@
                         },
                         "collection_progress": {
                            "bulletin_message": {
-                              "000": "Ich bald zurück für Sachen. Besser haben es oder nicht gut für dich, kleiner Hearthling."
+                              "000": "Ich bald zurück für Sachen. Besser haben oder nicht gut für Euch, kleiner Hearthling."
                            },
                            "bulletin_title": "Befriedige die Goblins",
                            "dialog_title": "[name(i18n_data.boss)]"
                         },
                         "shakedown_refused": {
                            "bulletin_message": {
-                              "000": "Was? Du sagen Nein? Dann nehmen wir! NEHMEN ALLE SACHEN!!!!",
-                              "001": "Nein Nein Nein. Du sollen sagen 'Ja.' Du sollen dankbar sein! Erneut versuchen? Nein? Schlecht! Ich beheben Schlechtigkeit!",
-                              "002": "Nein? Mir Gehirn brechen !! Ich brechen euch!",
+                              "000": "Was? Du Nein sagen? Dann wir nehmen! NEHMEN ALLE SACHEN!!!!",
+                              "001": "Nein Nein Nein! Du sollen sagen 'Ja!' Du sollen dankbar sein! Erneut versuchen? Nein? Schlecht! Ich beheben Schlechtigkeit!",
+                              "002": "Nein? Mir Herz brechen! Dafür Ich euch brechen!!!",
                               "003": "Was? Kann nicht glauben ?! Muss töten!!!",
                               "004": "Du nicht verstehen. Alternative: Tod. ttttoooddddd. TTTTOOOODDDDD!!!"
                            },
@@ -3170,7 +3180,7 @@
                "#65573A": "Tabakbraun",
                "#C0BBA7": "Helle Asche",
                "#786322": "Yukon Gold",
-               "#6E5B21": "antiker Messing",
+               "#6E5B21": "Antikes Messing",
                "#69534A": "Dunkles Kongobraun",
                "#A59465": "Andelholz",
                "#A69C7F": "Hillary",
@@ -3315,7 +3325,7 @@
             "disabled_description": "Ein Händler hat bereits vor kurzem diesen Stand besucht. Versuch es später noch einmal."
          },
          "show_shop": {
-            "display_name": "zeige Laden",
+            "display_name": "Zeige Laden",
             "description": "Kaufe und verkaufe Waren"
          },
          "archer_arrows": {
@@ -3347,8 +3357,12 @@
             }
          },
          "change_owner": {
-            "display_name": "Ordne Eigentümerr zu",
+            "display_name": "Ordne Eigentümer zu",
             "description": "Ordne diesem Objekt einem neuen Eigentümer zu"
+         },
+         "toggle_lock": {
+            "display_name": "Schalte Sperre um",
+            "description": "Sperre oder Entsperre diese Tür"
          }
       },
       "personality": {
@@ -4200,8 +4214,8 @@
       },
       "shops": {
          "basic_resource_shop": {
-            "name": "normaler Ressourcenladen",
-            "title": "normaler Ressourcenladen"
+            "name": "Normaler Ressourcenladen",
+            "title": "Normaler Ressourcenladen"
          }
       },
       "monster_tuning": {
@@ -4217,6 +4231,11 @@
             "warchief_boss": {
                "display_name": "Kriegsherr Oghar Norwind",
                "description": "Sie ist der Boss."
+            }
+         },
+         "forest": {
+            "insane_alligator": {
+               "description": "Kleinere Varanuse neigen dazu sich um Ihn zu scharen."
             }
          }
       },
@@ -4523,7 +4542,7 @@
          },
          "wooden_double_door": {
             "wooden_double_door_ghost": {
-               "display_name": "Hölzerne Doppeltür.",
+               "display_name": "Hölzerne Doppeltür",
                "description": "Eine größere Tür. Sie macht durchaus Eindruck."
             }
          },
@@ -4607,7 +4626,7 @@
          },
          "iron_door": {
             "iron_door_ghost": {
-               "display_name": "gepanzerte Tür",
+               "display_name": "Gepanzerte Tür",
                "description": "Stabiler als Holz- oder Steintüren"
             }
          }
@@ -4794,7 +4813,7 @@
                   "description": "Eine nicht realisierte Karrote."
                },
                "011": {
-                  "name": "verrottete Karotte",
+                  "name": "Verrottete Karotte",
                   "description": "Schimmelig und ekelhaft."
                }
             }
@@ -4868,7 +4887,7 @@
                   "description": "Eine nicht realisierte Rübe."
                },
                "011": {
-                  "name": "verrottete Rübe",
+                  "name": "Verrottete Rübe",
                   "description": "Verschimmelt und widerlich."
                }
             }
@@ -4894,7 +4913,7 @@
                   "description": "Ein nicht realisierter Kürbis."
                },
                "011": {
-                  "name": "verrotteter Kürbis",
+                  "name": "Verrotteter Kürbis",
                   "description": "Verschimmelt und widerlich."
                }
             }
@@ -4916,7 +4935,7 @@
                   "description": "Noch einen langen Weg zu wachsen."
                },
                "019": {
-                  "name": "verrottete Seidenpflanze"
+                  "name": "Verrottete Seidenpflanze"
                },
                "003": {
                   "name": "Unreife Seidenpflanze",
@@ -4984,7 +5003,7 @@
                   "name": "Seidenpflanzen Setzling"
                },
                "019": {
-                  "name": "verrottete Seidenpflanze"
+                  "name": "Verrottete Seidenpflanze"
                },
                "003": {
                   "name": "Unreife Seidenpflanze"
@@ -5015,7 +5034,7 @@
                   "description": "Eine nicht realisierte Rübe"
                },
                "011": {
-                  "name": "verrottete Rübe",
+                  "name": "Verrottete Rübe",
                   "description": "Verschimmelt und widerlich."
                }
             }
@@ -5261,31 +5280,31 @@
          },
          "wooden_sign": {
             "wooden_sign_ghost": {
-               "display_name": "Holz-Schild",
+               "display_name": "Holzschild",
                "description": "Ein Ausdruck der zukünftigen Absicht."
             }
          },
          "wooden_sign_blacksmith": {
             "wooden_sign_blacksmith_ghost": {
-               "display_name": "Schmiede-Schild",
+               "display_name": "Schmiedeschild",
                "description": "Ein Schild mit der Markierung des Schmiedes."
             }
          },
          "wooden_sign_carpenter": {
             "wooden_sign_carpenter_ghost": {
-               "display_name": "Schreiner-Schild",
+               "display_name": "Schreinerschild",
                "description": "Ein Schild mit der Markierung des Schreiners."
             }
          },
          "wooden_sign_mason": {
             "wooden_sign_mason_ghost": {
-               "display_name": "Steinmetz-Schild",
+               "display_name": "Steinmetzschild",
                "description": "Ein Schild mit der Markierung des Steinmetzes."
             }
          },
          "wooden_sign_weaver": {
             "wooden_sign_weaver_ghost": {
-               "display_name": "Weber-Schild",
+               "display_name": "Weberschild",
                "description": "Ein Schild mit der Markierung des Webers."
             }
          },
@@ -5381,25 +5400,25 @@
          },
          "wooden_sign_herbalist": {
             "wooden_sign_herbalist_ghost": {
-               "display_name": "Kräuterarzt-Schild",
+               "display_name": "Kräuterarztschild",
                "description": "Ein Schild mit der Markierung des Kräuterarztes."
             }
          },
          "wooden_sign_inn": {
             "wooden_sign_inn_ghost": {
-               "display_name": "Gasthof-Schild",
+               "display_name": "Gasthofschild",
                "description": "Ein Schild mit dem Hinweis für einen Ort der Ruhe UND der Gelage."
             }
          },
          "wooden_sign_potter": {
             "wooden_sign_potter_ghost": {
-               "display_name": "Töpfer-Schild",
+               "display_name": "Töpferschild",
                "description": "Ein Schild mit der Markierung des Töpfers."
             }
          },
          "wooden_sign_cook": {
             "wooden_sign_cook_ghost": {
-               "display_name": "Koch-Schild",
+               "display_name": "Kochschild",
                "description": "Ein Schild mit der Markierung des Koches."
             }
          },
@@ -5441,8 +5460,8 @@
          },
          "roadside_shrine": {
             "roadside_shrine_ghost": {
-               "display_name": "Schrein des Überflusses",
-               "description": "Platzieren um Eure Großzügigkeit und Frömmigkeit zu beweisen"
+               "display_name": "Brunnen des Überflusses",
+               "description": "Platzieren um Eure Großzügigkeit und Glauben zu beweisen"
             }
          },
          "craftsman_statue": {
@@ -5453,7 +5472,7 @@
          },
          "wooden_sign_engineer": {
             "wooden_sign_engineer_ghost": {
-               "display_name": "Ingenieurs-Schild",
+               "display_name": "Ingenieursschild",
                "description": "Ein Schild mit der Markierung des Ingenieurs."
             }
          }
@@ -5534,7 +5553,7 @@
          },
          "wheat_bale": {
             "display_name": "Weizenballen",
-            "description": "Bereit zur Nutzung"
+            "description": "Bereit zur Verarbeitung"
          },
          "egg": {
             "display_name": "Ein Ei",
@@ -5679,19 +5698,19 @@
             }
          },
          "rotten_basket": {
-            "display_name": "verrotteter Nahrungsmittelkorb",
+            "display_name": "Verrotteter Nahrungsmittelkorb",
             "description": "So vorrottet, dass es seine Form und Funktion verliert."
          },
          "rotten_egg": {
-            "display_name": "verfaultes Ei",
+            "display_name": "Verfaultes Ei",
             "description": "Widerlich"
          },
          "rotten_jerky": {
-            "display_name": "verwestes Trockenfleisch",
+            "display_name": "Verwestes Trockenfleisch",
             "description": "Auch Trockenfleisch verwest irgendwann. Es ist wahr"
          },
          "mutton": {
-            "display_name": "rohes Hammelfleisches",
+            "display_name": "Rohes Hammelfleisches",
             "description": "Rohes Fleisch von einem Schaf"
          },
          "roast_mutton": {
@@ -5837,7 +5856,7 @@
          },
          "tombstone": {
             "tombstone_ghost": {
-               "display_name": "RUHE IN FRIEDEN [str(self.unit_info.custom_name)]",
+               "display_name": "Ruhe in Frieden [str(self.unit_info.custom_name)]!",
                "description": "[str(self.unit_info.custom_name)] wird immer in unseren Erinnerungen bleiben.."
             }
          },
@@ -5856,7 +5875,7 @@
          "clay_bed": {
             "clay_bed_ghost": {
                "display_name": "Lehmbett",
-               "description": "Unangenehm, aber man kommt vom Boden weg!"
+               "description": "Hält dich vom Boden weg!"
             }
          },
          "clay_dining_table": {
@@ -5886,7 +5905,7 @@
          "clay_bed_fine": {
             "clay_bed_fine_ghost": {
                "display_name": "Feines Lehmbett",
-               "description": "Hält dich mit Stil vom Boden fern. Obwohl er immer noch unangenhm ist"
+               "description": "Kunstvoll, aber immer noch unangenehm"
             }
          },
          "blue_market_stall": {
@@ -5923,7 +5942,7 @@
             "clay_safety_standard": {
                "display_name": "Lehm-Sicherheitsbanner"
             },
-            "description": "Markiert einen Sicherheitspunkt, wohin man im Stadtalarm-Modus fliehen kann"
+            "description": "Markiert einen Sicherheitspunkt, wohin man deine Hearthlinge im Stadtalarm fliehen sollen"
          },
          "mountains_windchime": {
             "mountains_windchime_ghost": {
@@ -6388,7 +6407,7 @@
             },
             "wolf_pelt": {
                "display_name": "Wolfsfell",
-               "description": "Aus der Haut einer schrecklichen Kreature"
+               "description": "Aus der Haut einer schrecklichen Kreatur"
             }
          },
          "silver": {
@@ -6425,7 +6444,7 @@
                "description": "Ein Klotz. Gemacht aus Holz."
             },
             "pine_log": {
-               "display_name": "Kieferbaumstammm",
+               "display_name": "Kiefernbaumstammm",
                "description": "Ein Klotz. Gemacht aus Holz."
             },
             "cactus_log": {
@@ -6444,15 +6463,15 @@
          "herb": {
             "brightbell": {
                "display_name": "Glockenblume",
-               "description": "Ein Kraut allgemein für medizinische Zwecke verwendet"
+               "description": "Eine Blume, die für medizinische Zwecke verwendet wird"
             },
             "frostsnap": {
                "display_name": "Eisblume",
-               "description": "Ein Kraut, das kühlt bei der Berührung"
+               "description": "Eine Blune, die bei Berührung kühlt"
             },
             "cactus_flower": {
                "display_name": "Kaktusblume",
-               "description": "Eine Wüstenschönheit mit heilenden Eigenschaften"
+               "description": "Eine Wüstenschönheit, mit heilenden Eigenschaften"
             }
          },
          "skin": {
@@ -6543,11 +6562,11 @@
             "description": "Für den Bergbau und die Ernte"
          },
          "worker_axe": {
-            "display_name": "Arbeiteraxt",
+            "display_name": "Arbeiter-Axt",
             "description": "..."
          },
          "worker_hammer": {
-            "display_name": "Arbeiterhammer",
+            "display_name": "Arbeiter-Hammer",
             "description": "Alles sieht aus wie ein Nagel, wenn alles was du hast ein Hammer ist."
          }
       },
@@ -6856,7 +6875,7 @@
       },
       "outfits": {
          "trader_outfit": {
-            "display_name": "Händleruniform",
+            "display_name": "Händler-Uniform",
             "description": "Kleidung der Wahl für Händler"
          }
       }
@@ -6984,11 +7003,11 @@
             "display_name": "Schmiedehammer",
             "description": "Wird benutzt um Metall zu bearbeiten.",
             "blacksmith_hammer_iconic": {
-               "display_name": "Schmiedehammer",
+               "display_name": "Schmiede-Hammer",
                "description": "Wird benutzt um Metall zu bearbeiten."
             },
             "blacksmith_hammer_talisman": {
-               "display_name": "Schmiedehammer",
+               "display_name": "Schmiede-Hammer",
                "description": "Ernennt einen Hearthling zu einem Schmied."
             }
          },
@@ -6998,7 +7017,7 @@
          },
          "blacksmith_workbench": {
             "blacksmith_workbench_ghost": {
-               "display_name": "Schmiedeamboss",
+               "display_name": "Schmiede-Amboss",
                "description": "Wird vom Schmied zum herstellen verwendet."
             }
          },
@@ -7236,26 +7255,26 @@
             "description": "Uniform für alle Schreiner"
          },
          "carpenter_saw": {
-            "display_name": "Schreinersäge",
+            "display_name": "Schreiner-Säge",
             "description": "Handwerkszeug für eine Carpenter..",
             "carpenter_saw_iconic": {
-               "display_name": "Schreinersäge",
-               "description": "Grundlevel: Schreinersäge"
+               "display_name": "Schreiner-Säge",
+               "description": "Grundlevel: Schreiner-Säge"
             },
             "carpenter_saw_talisman": {
-               "display_name": "Schreinersäge",
+               "display_name": "Schreiner-Säge",
                "description": "Wird benötigt um einen Heartling zu einem Schreiner zu ernennen."
             }
          },
          "carpenter_workbench": {
             "carpenter_workbench_ghost": {
-               "display_name": "Schreiner Werkbank",
+               "display_name": "Schreiner-Werkbank",
                "description": "Wird vom Schreiner zum herstellen verwendet"
             }
          },
          "carpenter_toolbench": {
             "carpenter_toolbench_ghost": {
-               "display_name": "Schreiner Werkzeugbank",
+               "display_name": "Schreiner-Werkzeugbank",
                "description": "Wird verwendet um feinere Arten von Möbeln herzustellen."
             }
          },
@@ -7302,11 +7321,11 @@
             },
             "mason_chisel_recipe": {
                "description": "Wird benötigt um einen Hearthling zu einem Steinmetz zu ernennen",
-               "recipe_name": "Steinmetzmeißell"
+               "recipe_name": "Steinmetz-Meißel"
             },
             "not_much_of_a_bed_recipe": {
                "description": "Etwas bequemer als auf einem Brett zu schlafen.",
-               "recipe_name": "gemeines Bett",
+               "recipe_name": "Gemeines Bett",
                "flavor": "Gemein wie in Arm, nicht grausam. Allerdings ist es das auch."
             },
             "park_bench_recipe": {
@@ -7417,12 +7436,12 @@
             },
             "wooden_sign_recipe": {
                "description": "Ein allgemeines Zeichen, um deine Gebäude zu identifizieren.",
-               "recipe_name": "Wandgebundenes Holz-Schild",
+               "recipe_name": "Wandgebundenes Holzschild",
                "flavor": "Aber wenn es *allgemein* ist, wie willst du...? NM. (-Sdee)"
             },
             "wooden_sign_weaver_recipe": {
                "description": "Ein Schild mit der Markierung des Webers, das an Gebäuden platziert wird.",
-               "recipe_name": "Wandgebundenes Weber-Schild",
+               "recipe_name": "Wandgebundenes Weberschild",
                "flavor": "Handwerklich hergestellte Stoffe und Plüschtiere!"
             },
             "wooden_sword_recipe": {
@@ -7447,12 +7466,12 @@
             },
             "carpenter_workbench_recipe": {
                "description": "Wird benötigt um die meisten Rezepte des Schreiner zu produzieren.",
-               "recipe_name": "Schreiner Werkbank",
+               "recipe_name": "Schreiner-Werkbank",
                "flavor": "Eine robuster, gut organisierter Platz für Werkzeuge."
             },
             "carpenter_toolbench_recipe": {
                "description": "Schickere Werkzeuge erlauben es dem Schreiner mit Stoff und anderen zivilisierten Zutaten zu arbeiten.",
-               "recipe_name": "Schreiner Werkzeugbank",
+               "recipe_name": "Schreiner-Werkzeugbank",
                "flavor": "Eine elegantere Werkbank, modelliert in einer zivilisierteren Zeit."
             },
             "wooden_window_frame_tall_recipe": {
@@ -7477,19 +7496,19 @@
             },
             "wooden_sign_cook_recipe": {
                "description": "Ein Schild mit der Markierung des Koches.",
-               "recipe_name": "Wandgebundenes Koch-Schild"
+               "recipe_name": "Wandgebundenes Kochschild"
             },
             "wooden_sign_herbalist_recipe": {
                "description": "Ein Schild mit der Markierung des Kräuterarztes.",
-               "recipe_name": "Wandgebundenes Kräuterarzt-Schild"
+               "recipe_name": "Wandgebundenes Kräuterarztschild"
             },
             "wooden_sign_inn_recipe": {
                "description": "Ein Schild mit dem Hinweis für einen Ort der Ruhe UND der Gelage",
-               "recipe_name": "Gasthof-Schild"
+               "recipe_name": "Gasthofschild"
             },
             "wooden_sign_potter_recipe": {
                "description": "Ein Schild mit der Markierung des Töpfers.",
-               "recipe_name": "Wandgebundenes Töpfer-Schild"
+               "recipe_name": "Wandgebundenes Töpferschild"
             },
             "log_pile_recipe": {
                "recipe_name": "Holzstapel",
@@ -7539,7 +7558,7 @@
                "perk_000_description": "Die Gerichte des Koches sind jetzt so gut das Sie unerwartete Auswirkungen haben."
             },
             "level_2_data": {
-               "perk_000_name": "Küchen Chemie",
+               "perk_000_name": "Küchenchemie",
                "perk_000_description": "Der Koch hat gelernt, etwas ausgefalleneren Rezepte zu kochen."
             },
             "level_4_data": {
@@ -7556,7 +7575,7 @@
             }
          },
          "cook_outfit": {
-            "display_name": "Koch Uniform",
+            "display_name": "Koch-Uniform",
             "description": "Uniform für alle Köche"
          },
          "cook_spoon": {
@@ -7722,18 +7741,18 @@
          },
          "engineer_workbench": {
             "engineer_workbench_ghost": {
-               "display_name": "Ingenieurs Werkbank",
+               "display_name": "Ingenieurs-Werkbank",
                "description": "Werkbank für Ingenieure um Gadgets, Waffen und Fallen zu schaffen."
             }
          },
          "engineer_outfit": {
-            "display_name": "Ingenieurs Outfit",
+            "display_name": "Ingenieurs-Uniform",
             "description": "Uniform für alle Ingenieure"
          },
          "recipes": {
             "engineer_workbench_recipe": {
                "description": "Ermöglicht es Ingenieuren verschiedene Geräte und Apparaturen herzustellen",
-               "recipe_name": "Ingenieurss Werkzeugbank"
+               "recipe_name": "Ingenieurs-Werkbank"
             },
             "workbenches_name": "Werkbanken",
             "bronze_gear_recipe": {
@@ -7774,7 +7793,7 @@
             "decorations_name": "Dekorationen",
             "wooden_sign_engineer_recipe": {
                "description": "Ein Schild mit der Markierung des Ingenieurs.",
-               "recipe_name": "Wandgebundenes Ingenieurs-Schild"
+               "recipe_name": "Wandgebundenes Ingenieursschild"
             }
          },
          "engineer_buffs": {
@@ -7782,6 +7801,10 @@
                "display_name": "Einfallsreichtum +50",
                "description": "Der Ingenieur kann Türen effizienter reparieren"
             }
+         },
+         "engineer_helm": {
+            "display_name": "Schutzbrille",
+            "description": "Zusätzlicher Schutz für die Augen von Experten"
          }
       },
       "farmer": {
@@ -7856,8 +7879,8 @@
                "perk_000_description": "Maximalerschaden!"
             },
             "level_2_data": {
-               "perk_000_name": "Erster Beantworter",
-               "perk_000_description": "Der Fußsoldaten stürmt in die Schlacht"
+               "perk_000_name": "Erstversorger",
+               "perk_000_description": "Der Fußsoldaten stürmt geschwind in die Schlacht"
             },
             "level_5_data": {
                "perk_000_name": "Durchschlagend",
@@ -7883,7 +7906,7 @@
             }
          },
          "footman_outfit": {
-            "display_name": "Militäruniform",
+            "display_name": "Militär-Uniform",
             "description": "Standartuniform für alle Soldaten"
          }
       },
@@ -7904,10 +7927,10 @@
          "mason_description": {
             "display_name": "Steinmetz",
             "description": "Der Steinmetz stellt Baustoffe und dekorative Gegenstände aus Stein her",
-            "requirements": "Steinmetzmeißel, wird von dem Schreiner hergestellt.",
+            "requirements": "Steinmetz-Meißel, wird von dem Schreiner hergestellt.",
             "workshop": {
-               "name": "Steinmetz Werkbank",
-               "description": "insert description here",
+               "name": "Steinmetz-Werkbank",
+               "description": "",
                "long_description": "Der Steinmetzt stellt Baumaterialien und dekorative Gegenstände aus Stein her."
             },
             "level_6_data": {
@@ -7933,30 +7956,30 @@
             }
          },
          "mason_chisel": {
-            "display_name": "Steinmetzmeißel",
+            "display_name": "Steinmetz-Meißel",
             "description": "Handwerkszeug für einen Steinmetz.",
             "mason_chisel_talisman": {
-               "display_name": "Steinmetzmeißel",
+               "display_name": "Steinmetz-Meißel",
                "description": "Wird benötigt um einen Hearthling zu einem Steinmetz zu ernennen."
             }
          },
          "mason_hammer": {
-            "display_name": "Steinmetzhammer",
+            "display_name": "Steinmetz-Hammer",
             "description": "Handwerkzeug für einen Steinmetz."
          },
          "mason_outfit": {
-            "display_name": "Steinmetzuniform",
+            "display_name": "Steinmetz-Uniform",
             "description": "Uniform für alle Steinmetze"
          },
          "mason_workbench": {
             "mason_workbench_ghost": {
-               "display_name": "Steinmetz Werkbank",
+               "display_name": "Steinmetz-Werkbank",
                "description": "Wird vom Steinmetz zum herstellen verwendet"
             }
          },
          "mason_pedestal": {
             "mason_pedestal_ghost": {
-               "display_name": "Steinmetz Podest",
+               "display_name": "Steinmetz-Podest",
                "description": "Handwerk an einem gut beleuchteten Platz."
             }
          },
@@ -8058,12 +8081,12 @@
             },
             "mason_workbench_recipe": {
                "description": "Wird benötigt um die meisten Rezepte des Steinmetzes zu produzieren.",
-               "recipe_name": "Steinmetz Werkbank",
+               "recipe_name": "Steinmetz-Werkbank",
                "flavor": "Konstante Klopfgeräusche: Lass die Erde singen, beschwör Brelors Geist, beobachten den Berg wie er Flügel bekommt."
             },
             "mason_pedestal_recipe": {
                "description": "Ein gut beleuchteter Platz für die Herstellung von Steinkunstwerken.",
-               "recipe_name": "Steinmetz Podest",
+               "recipe_name": "Steinmetz-Podest",
                "flavor": "Knacken und Funken, Zischen von Kohle, beleuchte den Weg, verwandele die gesamte Erde ."
             },
             "workbenches_name": "Werkbanken",
@@ -8083,7 +8106,7 @@
             "valor_statue_recipe": {
                "description": "Ein Denkmal für Eure Militärmacht ",
                "recipe_name": "Die Tapferkeit von Cid",
-               "flavor": "Vor dem Anfang war Cid in erster Linie ein Ritter. --Theon Hartful, Church of Plenty"
+               "flavor": "Der Schild für Nachgiebigkeit und das Schwert für Stärke. -- Cid, Knight of the Old Ways"
             },
             "roadside_shrine_recipe": {
                "recipe_name": "Schrein des Überflusses",
@@ -8110,7 +8133,7 @@
             "description": "Macht nützliche Waren aus Ton.",
             "requirements": "Ein Level 4 Steinmetz und ein Töpferschneider, wird vom Steinmetz hergestellt",
             "workshop": {
-               "name": "Töpfescheibe",
+               "name": "Töpferscheibe",
                "description": "insert description here",
                "long_description": "Die Töpfer stellt nützliche Waren und dekoratiive Elemente aus Ton her."
             },
@@ -8323,7 +8346,7 @@
             }
          },
          "potter_outfit": {
-            "display_name": "Töpferuniform",
+            "display_name": "Töpfer-Uniform",
             "description": "Erdeflecken sind Teil seines intensiven Stils."
          }
       },
@@ -8361,7 +8384,7 @@
             }
          },
          "shepherd_outfit": {
-            "display_name": "Schäferuniform",
+            "display_name": "Schäfer-Uniform",
             "description": "Uniform für alle Schäfer"
          },
          "shepherd_pasture": {
@@ -8387,7 +8410,7 @@
             },
             "level_3_data": {
                "perk_000_name": "Effiziente Schnitte",
-               "perk_000_description": "Lange Übung hilft dem Trapper mehr aus jedem Tier zu machen."
+               "perk_000_description": "Lange Übung ermöglicht es dem Trapper mehr aus jedem Tier zu machen."
             },
             "level_2_data": {
                "perk_000_name": "Tierverzauberung",
@@ -8442,7 +8465,7 @@
             }
          },
          "trapper_outfit": {
-            "display_name": "Trapperuniform"
+            "display_name": "Trapper-Uniform"
          },
          "trapping_grounds": {
             "display_name": "Fangzone",
@@ -8566,12 +8589,12 @@
             },
             "worker_outfit_2_recipe": {
                "description": "Doppelt gestickt und strategisch platzierte Polsterung erhöht die Effizienz des Arbeiters. Der Arbeiter der dieses Upgrade erhält wird sich schneller bewegen.",
-               "recipe_name": "Verbesserte Arbeiteruniform",
+               "recipe_name": "Verbesserte Arbeiter-Uniform",
                "flavor": "Deine Stadt liebt dich!"
             },
             "worker_outfit_winter_recipe": {
                "description": "Eine schwerer Wollmantel für kalte Winternächte. Der Arbeiter der dieses Upgrade erhält wird sich schneller bewegen.",
-               "recipe_name": "Winteruniform",
+               "recipe_name": "Winter-Uniform",
                "flavor": "Der Winter kommt!"
             },
             "workbenches_name": "Werkbanken",
@@ -8587,7 +8610,7 @@
             },
             "weaver_workbench_recipe": {
                "description": "Wird verwendet um komplexe Handwerke aus Faden und Stoff zu machen.",
-               "recipe_name": "Weber Werkbank",
+               "recipe_name": "Weber-Werkbank",
                "flavor": "Am Anfang gab es nichts, und dann gab es Spinnen."
             },
             "leather_helmet_recipe": {
@@ -8615,7 +8638,7 @@
             }
          },
          "weaver_outfit": {
-            "display_name": "Weberuniform",
+            "display_name": "Weber-Uniform",
             "description": "Uniform für alle Weber"
          },
          "weaver_spindle": {
@@ -8638,7 +8661,7 @@
          },
          "weaver_workbench": {
             "weaver_workbench_ghost": {
-               "display_name": "Weber Werkbank",
+               "display_name": "Weber-Werkbank",
                "description": "Wird vom Weber zum herstellen verwendet."
             }
          }
@@ -8653,22 +8676,22 @@
             }
          },
          "winter_worker_outfit": {
-            "display_name": "Winteruniform",
+            "display_name": "Winter-Uniform",
             "description": "Eine schwerer Wollmantel für kalte Winternächte.",
             "winter_worker_outfit_iconic": {
-               "display_name": "Winteruniform",
+               "display_name": "Winter-Uniform",
                "description": "So warm..."
             }
          },
          "worker_outfit": {
-            "display_name": "Arbeiteruniform",
+            "display_name": "Arbeiter-Uniform",
             "description": "Uniform für alle Arbeiter"
          },
          "worker_outfit_2": {
-            "display_name": "Verbesserte Arbeiteruniform",
+            "display_name": "Verbesserte Arbeiter-Uniform",
             "description": "Doppelt gestickt und strategisch platzierte Polsterung erhöht die Effizienz des Arbeiters!",
             "worker_outfit_2_iconic": {
-               "display_name": "Verbesserte Arbeiteruniform",
+               "display_name": "Verbesserte Arbeiter-Uniform",
                "description": "Robuste Bauweise die die Produktivität des Arbeits steigert"
             }
          }
@@ -8679,7 +8702,7 @@
             "description": "Heilt Einheiten mit hergestellten Balsamen und Verbänden.",
             "requirements": "Kräuterarztstab, wird vom Schreiner hergestellt.",
             "workshop": {
-               "name": "Käuterarzt Labor",
+               "name": "Käuterarzt-Labor",
                "description": "Ermöglicht dem Kräuterarzt heilende Salben und Bandagen herzustellen.",
                "long_description": "Ermöglicht dem Kräuterarzt heilende Salben und Bandagen herzustellen."
             },
@@ -8719,20 +8742,20 @@
                "description": "Wird benötigt um einen Hearthling in ein Kräuterarzt zu ernennen"
             },
             "herbalist_staff_talisman": {
-               "display_name": "Kräuterarztstab",
+               "display_name": "Kräuterarzt-Stab",
                "description": "Wird benötigt um einen Hearthling in ein Kräuterarzt zu ernennen"
             }
          },
          "herbalist_workbench": {
             "herbalist_workbench_ghost": {
-               "display_name": "Kräuterarzt Labor",
+               "display_name": "Kräuterarzt-Labor",
                "description": "Wird verwendet um Heilgegenstände herzustellen"
             }
          },
          "recipes": {
             "herbalist_workbench_recipe": {
                "description": "Ermöglicht dem Kräuterarzt heilende Salben und Bandagen herzustellen.",
-               "recipe_name": "Kräuterarzt Labor"
+               "recipe_name": "Kräuterarzt-Labor"
             },
             "workbenches_name": "Werkbanken",
             "tonics_name": "Elixiere",
@@ -8797,12 +8820,12 @@
                "perk_000_description": "Die Anwesenheit des Kleriker verbessert die Muskeln aller um Ihn herum"
             },
             "level_2_data": {
-               "perk_000_name": "Mitgefühl hoch",
-               "perk_000_description": "Erhöhte Mitgefühl für eine erhöhte direkte Heilung"
+               "perk_000_name": "Großes Mitgefühl",
+               "perk_000_description": "Gesteigertes Mitgefühl für eine stärkere direkte Heilung"
             },
             "level_3_data": {
                "perk_000_name": "Heilende Aura (Rang 2)",
-               "perk_000_description": "Die Leistung der Heilaura ist erhöht"
+               "perk_000_description": "Die Kraft und Reichweite der Heilaura hat sich erhöht"
             },
             "level_6_data": {
                "perk_000_name": "Heilender Meister",
@@ -8810,7 +8833,7 @@
             },
             "level_4_data": {
                "perk_000_name": "Heilende Aura (Rang 3)",
-               "perk_000_description": "Der Bereich der Heilaura ist erhöht"
+               "perk_000_description": "Die Reichtweite der Heilaura wurde noochmals gesteigert"
             },
             "level_5_data": {
                "perk_000_name": "Große Stärke",
@@ -8848,7 +8871,7 @@
             },
             "heal_aura_2_buff": {
                "display_name": "Heilende Aura (Rang 2)",
-               "description": "Heilt, in regelmäßigen Abständen, alle um Ihn herum."
+               "description": "Die Anwesenheit des Klerikers heilt regelmäßíg alle um Ihn herum."
             },
             "add_health_medium_buff": {
                "display_name": "Mittlere Heilung",
@@ -8857,10 +8880,6 @@
             "compassion_2_buff": {
                "display_name": "Mitgefühl hoch",
                "description": "Mitgefühl steigt um 40%"
-            },
-            "heal_aura_3_buff": {
-               "display_name": "Heilende Aura (Rang 3)",
-               "description": "Heilt jeden innerhalb von 30 Voxeln um den Kleriker"
             },
             "major_muscle_aura_buff": {
                "display_name": "Große Stärke",
@@ -8874,26 +8893,26 @@
       },
       "magmasmith": {
          "magmasmith_outfit": {
-            "display_name": "Magmaschmied Outfit",
+            "display_name": "Magmaschmied-Uniform",
             "description": "Traditionelle Uniform des Magmaschmiedes."
          },
          "magmasmith_hammer": {
             "magmasmith_hammer_talisman": {
-               "display_name": "Magmaschmied's Hammer",
+               "display_name": "Magmaschmied-Hammer",
                "description": "Wird benötigt um einen Hearthling in einen Magmaschmied zu ernennen"
             },
-            "display_name": "Magmaschmied Hammer",
+            "display_name": "Magmaschmied-Hammer",
             "description": "Lava auf das Gesicht"
          },
          "magmasmith_forge": {
             "magmasmith_forge_ghost": {
-               "display_name": "Magmaschmied Schmiede",
+               "display_name": "Magmaschmied-Schmiede",
                "description": "Wie eine normale Schmiede, nur viel heißer"
             }
          },
          "magmasmith_workbench": {
             "magmasmith_workbench_ghost": {
-               "display_name": "Magmaschmied Werkbank",
+               "display_name": "Magmaschmied-Werkbank",
                "description": "Lava fließt von innen"
             }
          },

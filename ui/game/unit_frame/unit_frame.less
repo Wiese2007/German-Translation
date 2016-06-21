@@ -37,7 +37,7 @@
       border-image: url(images/bg_border.png) 8 8 8 8 repeat;
       width: 550px;
 
-      font-size: 25px;
+      font-size: 28px;
       //line-height: 26px;
       text-align: left;
 
@@ -86,20 +86,21 @@
 
          .name {
             display: inline-block;
-            max-width: 350px;
+            max-width: 220px;
             overflow: hidden;
             text-overflow: ellipsis;
             .button;
             white-space: nowrap;
-            font-size: 20px;
+            font-size: 19px;
             padding-left: 2px;
             padding-right: 2px;
          }
 
          .description {
-            padding-top: 4px;
             padding-left: 2px;
-            font-size: 14px;
+            font-size: 15px;
+	    max-width: 320px;
+            word-wrap: break-word;
             color: #a8935d;
          }
       }
@@ -279,6 +280,24 @@
          white-space: nowrap;
          float: left;
          padding-left: 3px;
+      }
+   }
+
+   #doorPane {
+      .controlFont;
+      position: absolute;
+      width: 300px;
+      top: -35px;
+      left: 30px;
+      #lockStatus {
+         color: @controlLightFontColor;
+         margin-top: 20px;
+         font-size: 20px;
+      }
+      #lockIcon {
+         height: 50px;
+         width: 50px;
+         float: left;
       }
    }
 }

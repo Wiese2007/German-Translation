@@ -1,4 +1,4 @@
-{
+{ 
    "ui": {
       "game": {
          "common": {
@@ -54,6 +54,14 @@
          }
       }
    },
+   "ai": {
+      "actions": {
+         "status_text": {
+               "drink" : "holt sich einen Drink",
+               "drink_item" : "trinkt [name(data.target)]"
+         }
+      }
+   },   
    "data": {
       "buffs": {
          "well_fed": {
@@ -116,6 +124,11 @@
                "description": "Ein köstlicher Beerenkuchen.",
                "flavor": "Eine leichte Kruste gefüllt mit reifen Beeren"
             },
+            "pear_juice_recipe" : {
+               "recipe_name" : "Birnensaft",
+               "description" : "Köstlicher Saft aus prickelnden Birnen.",
+               "flavor"      : "Ein Erfrischungsgetränk aus zerquetschen Birnen."
+            },            
             "boiled_rice_recipe" : {
                "recipe_name": "gekochter Reis",
                "description": "Ein langweiliges, aber füllendes Gericht",
@@ -215,8 +228,8 @@
       "weaver": {
          "recipes" : {
             "cook_outfit_2_recipe" : {
-               "recipe_name": "Modischer Koch Outfit",
-               "description": "Ein modisches Outfit für einen modischen Koch!",
+               "recipe_name": "Modische Kochuniform",
+               "description": "Eine modische Uniform für einen modischen Koch!",
                "flavor": "Es ist MODISCH!"
             }
          }
@@ -321,6 +334,17 @@
                "description": "Köstlicher Beerensaft."
             }            
          },
+         "pear_juice" : {
+            "pear_juice" : {
+               "display_name" : "Birnensaft",
+               "description"  : "Köstlicher Birnensaft.",
+               "flavor"       : "Ein Erfrischungsgetränk aus zerquetschen Birnen."
+            },
+            "pear_juice_serving" : {
+               "display_name" : "Eine Tasse Birnensaft",
+               "description"  : "Köstlicher Birnensaft."
+            }            
+         },         
          "boiled_rice" : {
             "boiled_rice" : {
                "display_name": "Gekochter Reis",

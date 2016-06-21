@@ -15,7 +15,7 @@
          },
          "fortress_door": {
             "display_name": "Burgtür",
-            "description": "Stark wie es aussieht"
+            "description": "Stark! Sowie es aussieht"
          },
          "fortress_window": {
             "display_name": "Burgfenster",
@@ -54,7 +54,7 @@
             "description": "Ein kleines Guckloch"
          },
          "spiked_fence_corner": {
-            "display_name": "Gespicktes Zaunecke",
+            "display_name": "Gespickte Zaunecke",
             "description": "Für alle deine Fesselbedürfnisse"
          },
          "spiked_fence": {
@@ -63,7 +63,7 @@
          },
          "stone_mine_entrance": {
             "display_name": "Steinmineneingang",
-            "description": "Stein gemeisselter Mineneingang"
+            "description": "In Stein gemeisselter Mineneingang"
          },
          "large_wooden_window_frame": {
             "display_name": "Großer Holzfensterrahmen",
@@ -80,7 +80,7 @@
       },
       "furniture": {
          "berry_curtains": {
-            "display_name": "Berrige Vorhänge",
+            "display_name": "Berriger Vorhang",
             "description": "Du kannst fast die Beeren schmecken."
          },
          "bird_house": {
@@ -92,581 +92,581 @@
             "description": "Ein Fluch es zu Wässern."
          },
          "canopy_garden": {
-            "display_name": "Canopy Garden",
-            "description": "Why just have flowers on the ground."
+            "display_name": "Baldachingarten",
+            "description": "Warum sollte nur Blumen auf dem Boden haben."
          },
          "canopy_garden_long": {
-            "display_name": "Canopy Garden Long",
-            "description": "Why just have flowers on the ground."
+            "display_name": "Langer Baldachingarten",
+            "description": "Warum sollte nur Blumen auf dem Boden haben."
          },
          "chiminea": {
-            "display_name": "Chiminea",
-            "description": "Thermal goodness"
+            "display_name": "Außenkamin",
+            "description": "Thermische Gottheit"
          },
          "flower_fence": {
-            "display_name": "Flower Fence",
-            "description": "Flowered separation"
+            "display_name": "Blumenzaun",
+            "description": "Geblümte Trennung"
          },
          "flowered_curtains": {
-            "display_name": "Flowered Curtains",
-            "description": "Stylish and practical."
+            "display_name": "Geblümter Vorhang",
+            "description": "Elegant und praktisch."
          },
          "footman_tapestry": {
-            "display_name": "Footman Tapestry",
-            "description": "A detailed tapestry with the image of a foot soldier."
+            "display_name": "Fußsoldaten Wandteppich",
+            "description": "Ein detaillierter Wandteppich mit dem Bild eines Fußsoldaten."
          },
          "foxfire_hanging_basket": {
-            "display_name": "Foxfire Hanging Basket",
-            "description": "A pain to water."
+            "display_name": "Fuchsfeuer Hängekorb",
+            "description": "Eine Qual zu wässern."
          },
          "foxfire_lantern": {
-            "display_name": "Foxfire Lantern",
-            "description": "Stone lantern filled with glowy goo"
+            "display_name": "Fuchsfeuer Laterne",
+            "description": "Mit glühendem Schleim gefüllt Steinlaterne"
          },
          "frostsnap_hanging_basket": {
-            "display_name": "Frostsnap Hanging Basket",
-            "description": "A pain to water."
+            "display_name": "Eisblumen Hängekorb",
+            "description": "Eine Qual zu wässern."
          },
          "fur_bed": {
-            "display_name": "Fur Bed",
-            "description": "Warm and relaxing."
+            "display_name": "Pelzbett ",
+            "description": "Warm und entspannend."
          },
          "garden_bed": {
-            "display_name": "Garden Bed",
-            "description": "A sanctuary for all plant kind."
+            "display_name": "Gartenbeet",
+            "description": "Ein Heiligtum für alle Pflanzengattungen."
          },
          "guardian_statue": {
-            "display_name": "Guardian Statue",
-            "description": "A stone guardsmen statue"
+            "display_name": "Wächterstatue ",
+            "description": "Ein steinerne Wächterstatue"
          },
          "large_stone_planter": {
-            "display_name": "Large Stone Planter",
-            "description": "Pretty and robust."
+            "display_name": "Großer Steinpflanzer",
+            "description": "Hübsch und robust."
          },
          "large_vase": {
-            "display_name": "Large Vase",
-            "description": "Large, yet fragile"
+            "display_name": "Große Vase",
+            "description": "Groß, aber zerbrechlich"
          },
          "large_wooden_planter": {
-            "display_name": "Large Wooden Planter",
-            "description": "So pretty."
+            "display_name": "Großer Holzpflanzer",
+            "description": "So schön."
          },
          "log_chair": {
-            "display_name": "Log Chair",
-            "description": "Outdoor seating for moments of relaxation."
+            "display_name": "Holzklotzstuhl",
+            "description": "Außensitzplatz für einen Moment der Entspannung."
          },
          "luxury_stone_chair": {
-            "display_name": "Luxury Stone Chair",
-            "description": "The best seating around."
+            "display_name": "Luxoriöser Steinstuhl",
+            "description": "Der beste Sitzplätze in der Gegend."
          },
          "plant_pot": {
-            "display_name": "Plant Pot",
-            "description": "A small clay pot"
+            "display_name": "Blumentopf",
+            "description": "Ein kleiner Tontopf"
          },
          "poster_bed": {
-            "display_name": "Poster Bed",
-            "description": "So much leg room."
+            "display_name": "Himmelbett",
+            "description": "So viel Beinfreiheit ."
          },
          "potted_brightbell": {
-            "display_name": "Potted Brightbell",
-            "description": "A pot of Brightbells."
+            "display_name": "Eingetopfte Glockenblume",
+            "description": "Ein Topf mit einer Glockenblume."
          },
          "potted_foxfire": {
-            "display_name": "Potted Foxfire",
-            "description": "A pot of foxfire."
+            "display_name": "Eingetopfte Fuchsfeuer",
+            "description": "Ein Topf mit einem Fuchsfeuer."
          },
          "potted_frostsnap": {
-            "display_name": "Potted Frostsnap",
-            "description": "A pot of Frostsnaps."
+            "display_name": "Eingetopfte Eisblume",
+            "description": "Ein Topf mit einer Eisblume."
          },
          "potted_sunflower": {
-            "display_name": "Potted Sunflower",
-            "description": "A pot of Sunflowers."
+            "display_name": "Eingetopfte Sonnenblume",
+            "description": "Ein Topf mit einer Sonnenblume."
          },
          "sarcophagus": {
-            "display_name": "Sarcophagus",
-            "description": "Tomb of a fallen hero."
+            "display_name": "Sarkophag",
+            "description": "Grab eines gefallenen Helden."
          },
          "scarecrow": {
-            "display_name": "Scarecrow",
-            "description": "Seed defence."
+            "display_name": "Vogelscheuche",
+            "description": "Samenverteidigung."
          },
          "shelf": {
-            "display_name": "Shelf",
-            "description": "Out of reach of children."
+            "display_name": "Regal",
+            "description": "Außerhalb der Reichweite von Kindern."
          },
          "shepherd_tapestry": {
-            "display_name": "Shepherd Tapestry",
-            "description": "A tapestry of a shepherd and his sheep."
+            "display_name": "Schäfer Wandteppich",
+            "description": "Ein Wandteppich von einem Hirten und seinen Schafen."
          },
          "skull_flag": {
-            "display_name": "Skull Flag",
-            "description": "A little more intimidating."
+            "display_name": "Schädelflagge",
+            "description": "Ein wenig einschüchternd."
          },
          "small_stone_planter": {
-            "display_name": "Small Stone Planter",
-            "description": "Perfect for the front garden."
+            "display_name": "Kleiner Steinpflanzer",
+            "description": "Perfekt für den Vorgarten."
          },
          "small_vase": {
-            "display_name": "Small Vase",
-            "description": "Small and fragile"
+            "display_name": "Kleine Vase",
+            "description": "Klein und zerbrechlich"
          },
          "small_wooden_planter": {
-            "display_name": "Small Wooden Planter",
-            "description": "Perfect for the front garden."
+            "display_name": "Kleiner Holzpflanzer",
+            "description": "Perfekt für den Vorgarten."
          },
          "statue_of_fortune": {
-            "display_name": "Statue of fortune",
-            "description": "Make a wish."
+            "display_name": "Statue des Glücks",
+            "description": "Wünsche dir was!"
          },
          "stone_fur_bed": {
-            "display_name": "Stone Fur Bed",
+            "display_name": "Steinernes Pelzbett",
             "description": "Strong and soft."
          },
          "stone_garden_bed": {
-            "display_name": "Stone Garden Bed",
-            "description": "A sanctuary for all plant kind."
+            "display_name": "Steinernes Gartenbeet",
+            "description": "Ein Heiligtum für alle Pflanzengattung ."
          },
          "stone_totem": {
-            "display_name": "Stone Totem",
-            "description": "Culture ensribed into stone"
+            "display_name": "Steintotem",
+            "description": "Kultur geschrieben in Stein"
          },
          "straw_basket": {
-            "display_name": "Straw Basket",
-            "description": "A basket woven from straw."
+            "display_name": "Strohkorb",
+            "description": "Ein Korb gewebt aus Stroh."
          },
          "sundial": {
-            "display_name": "Sundial",
-            "description": "Simple yet so intriguing"
+            "display_name": "Sonnenuhr",
+            "description": "Einfach und doch so faszinierend"
          },
          "the_mighty_worker_statue": {
-            "display_name": "The Mighty Worker Statue",
-            "description": "An inspiration to all."
+            "display_name": "Eine mächtige Arbeiterstatue",
+            "description": "Eine Inspiration für alle."
          },
          "tiered_stone_planter": {
-            "display_name": "Tiered Stone Planter",
-            "description": "Layer upon layer of organic goodness."
+            "display_name": "Gestufter Steinpflanzer",
+            "description": "Schicht auf Schicht aus organischer Güte."
          },
          "tiered_wooden_planter": {
-            "display_name": "Tiered Wooden Planter",
-            "description": "Layer upon layer of organic goodness."
+            "display_name": "Gestufter Holzpflanzer",
+            "description": "Schicht auf Schicht aus organischer Güte."
          },
          "totem": {
             "display_name": "Totem",
-            "description": "A shrine to all aspects of life."
+            "description": "Ein Schrein zu allen Aspekten des Lebens."
          },
          "traveller_statue": {
-            "display_name": "Traveller Statue",
-            "description": "Cold stone and deep dark eyes."
+            "display_name": "Reisendenstatue",
+            "description": "Kalter Stein und tiefe dunkle Augen."
          },
          "wall_mounted_foxfire_lantern": {
-            "display_name": "Wall Mounted Foxfire Lantern",
-            "description": "Wall Monted Stone lantern filled with glowy goo."
+            "display_name": "Wandgebundene Fuchsfeuerlaterne",
+            "description": "Wandgebundene Steinlaterne mit glühendem Schleim gefüllt."
          },
          "weaver_tapestry": {
-            "display_name": "Weaver Tapestry",
-            "description": "A decorative tapestry of a weaver hard at work."
+            "display_name": "Weber Wandteppich",
+            "description": "Ein dekorativer Wandteppich eines hart arbeitenden Webers."
          },
          "wise_man_statue": {
-            "display_name": "Wise Man Statue",
-            "description": "The quill is mightier than the sword."
+            "display_name": "Weiser Mann Statue",
+            "description": "Der Federkiel ist mächtiger als das Schwert."
          },
          "wooden_hero_statue": {
-            "display_name": "Wooden Hero Statue",
-            "description": "What better way to honour our fallen heroes."
+            "display_name": "Hölzerne Heldenstatue",
+            "description": "Gibt es einen besseren Weg, um unsere gefallenen Helden zu ehren."
          },
          "wooden_tree_planter": {
-            "display_name": "Wooden Tree Planter",
-            "description": "When little flowers just aren't enough."
+            "display_name": "Hölzerner Baumpflanzer",
+            "description": "Wenn kleine Blüten einfach nicht genug sind."
          }
       },
       "crops": {
         "sunflower": {
-            "display_name": "Sunflower",
-            "description": "A tall strong sunflower"
+            "display_name": "Sonnenblume",
+            "description": "Eine große starke Sonnenblume"
         },
         "sunflower_1" : {
-            "name": "Sunflower seedling",
-            "description": "Small green shoots"
+            "name": "Sonnenblumen Sämling",
+            "description": "Kleine grüne Triebe"
         },
         "sunflower_2" : {
-            "name": "Sunflower sprout",
-            "description": "Starting to flower"
+            "name": "Sonnenblumen Spross",
+            "description": "Beginnt zu Blühen"
         },
         "sunflower_3" : {
-            "name": "Delicate Sunflower",
-            "description": "Little sunny pettles"
+            "name": "Empfindliche Sonnenblume",
+            "description": "Kleine sonnige Blütenblätter "
         },
         "sunflower_3" : {
-            "name": "Adult Sunflower",
-            "description": "Full Sunflower growth"
+            "name": "Ausgewachsene Sonnenblume",
+            "description": "Volles Sonnenblumenwachstum"
         }
       },
       "decorations": {
         "foxfire": {
-            "display_name": "Foxfire",
-            "description": "Bright blue luminescence"
+            "display_name": "Fuchsfeuer",
+            "description": "Helle blaue Lumineszenz"
         },
         "sunflower": {
-            "display_name": "Sunflower",
-            "description": "Bright, but not hot"
+            "display_name": "Sonnenblume",
+            "description": "Hell, aber nicht heiß"
         }
       },
       "plants": {
         "foxfire": {
-            "name": "Wild Foxfire",
-            "description": "A harvestable wild fungus"
+            "name": "Wild Fuchsfeuer",
+            "description": "Ein erntebarer wilder Pilz"
         },
         "sunflower": {
-            "name": "Wild Sunflower",
-            "description": "A harvestable wild sunflower"
+            "name": "Wild Sonnenblume",
+            "description": "Eine erntebare wilde Sonnenblume"
         }
       },
       "resources": {
         "foxfire_slime": {
-            "display_name": "Foxfire slime",
-            "description": "A slimy substance that emits a blue glow"
+            "display_name": "Fuchsfeuerschleim",
+            "description": "Eine schleimige Substanz, die ein blaues Leuchten emittiert"
         }
       }
    },
    "jobs": {
     "gardener": {
         "talisman": {
-            "name": "Gardener's Trowel",
-            "description": "Promotes a citizen into a Gardener"
+            "name": "Gärtnerschaufel",
+            "description": "Ernennt einen Hearthling in einen Gärtner"
         },
         "workbench": {
-            "display_name": "Gardener's Workbench",
-            "description": "Unclaimed"
+            "display_name": "Gärtner Werkbank",
+            "description": "Wird vom Gärtner zum herstellen verwendet"
         },
         "outfit": {
-            "name": "Gardener's Overalls",
-            "description": "Uniform for all Gardener's"
+            "name": "Gärtneruniform",
+            "description": "Uniform für alle Gärtner"
         },
         "job_description": {
-            "display_name": "Gardener",
-            "description": "The gardener creates decorative items from flowers",
-            "requirements": "Gardener's trowel, crafted by the Blacksmith"
+            "display_name": "Gärtner",
+            "description": "Der Gärtner schafft dekorative Elemente aus Blumen",
+            "requirements": "Gärtnerschaufel, wird vom Schmied hergestellt"
         },
         "level_data": {
-            "l1_name": "Standard Catalog",
-            "l1_description": "The gardener can now make a solid array of garden decorations.",
-            "l2_name": "Expanded Material list",
-            "l2_description": "The gardener is now skillful enough to use more complex materials.",
-            "l3_name": "Artistic Inspiration",
-            "l3_description": "When inspiration strikes, the gardener may embellish his works in unexpected ways.",
-            "l4_name": "Complex Decor",
-            "l4_description": "The gardener can create more ellaborate garden furniture.",
-            "l6_name": "Master Gardener",
-            "l6_description": "The gardener's mastery of his trade allows him to come up with completely new ways of using plants."
+            "l1_name": "Standardkatalog",
+            "l1_description": "Der Gärtner kann nun eine solide Reihe von Gartendekorationen machen.",
+            "l2_name": "Erweiterte Materialliste ",
+            "l2_description": "Der Gärtner ist jetzt geschickt genug komplexere Materialien zu verwenden.",
+            "l3_name": "Künstlerische Inspiration",
+            "l3_description": "Wenn die Inspiration zuschlägt kann der Gärtner seine Werke auf unerwartete Weise verschönern.",
+            "l4_name": "Komplexe Dekorationen",
+            "l4_description": "Der Gärtner kann aufwändigere Gartenmöbel schaffen.",
+            "l6_name": "Meistergärtner",
+            "l6_description": "Die Beherrschung seines Faches gewährt dem Gärtner komplett neue Möglichkeiten Pflanzen zu verwenden."
         },
         "recipes": {
             "brightbell_hanging_basket": {
-                "recipe_name": "Brightbell Hanging Basket",
-                "description": "A basket for hanging brightbell flowers above your door.",
-                "flavor": "Warning may become lethal during stormy weather."
+                "recipe_name": "Glockenblumen Hängekorb",
+                "description": "Ein Korb für hängende Glockenblumen über der Tür.",
+                "flavor": "Warnung! Kann bei stürmischem Wetter tödlich sein."
             },
             "canopy_garden_long": {
-                "recipe_name": "Canopy Garden Long",
-                "description": "A long wooden frame covered in brightbell flowers.",
-                "flavor": "Something to look up at other than just clouds."
+                "recipe_name": "Langer Baldachingarten",
+                "description": "Ein langer Holzrahmen mit hellen Glockenblumen bedeckt.",
+                "flavor": "Etwas anderes zum ansehen als nur Wolken."
             },
             "canopy_garden": {
-                "recipe_name": "Canopy Garden",
-                "description": "A wooden frame covered in brightbell flowers.",
-                "flavor": "Something to look up at other than just clouds."
+                "recipe_name": "Baldachingarten",
+                "description": "Ein Holzrahmen mit hellen Glockenblumen bedeckt.",
+                "flavor": "Etwas anderes zum ansehen als nur Wolken."
             },
             "flower_fence": {
-                "recipe_name": "Flower Fence",
-                "description": "A decorative wooden fence, with brightbells woven through it.",
-                "flavor": "Privacy and decoration, both in one package."
+                "recipe_name": "Blumenzaun",
+                "description": "Eine dekorative Holzzaun, mit Glockenblumen durchwebt.",
+                "flavor": "Privatsphäre und Dekoration, beides in einem Paket."
             },
             "foxfire_hanging_basket": {
-                "recipe_name": "Foxfire Hanging Basket",
-                "description": "A basket for hanging foxfire above your door.",
-                "flavor": "Warning may become lethal during stormy weather."
+                "recipe_name": "Fuchsfeuer Hängekorb",
+                "description": "Ein Korb für hängende Fuchsfeuer über der Tür.",
+                "flavor": "Warnung! Kann bei stürmischem Wetter tödlich sein."
             },
             "foxfire_slime": {
-                "recipe_name": "Foxfire Slime",
-                "description": "A slimy blue substance extracted from the inside of the foxfire plant.",
+                "recipe_name": "Fuchsfeuerschleim",
+                "description": "Eine schleimige blaue Substanz aus dem Inneren der Fuchsfeuer Pflanze extrahiert.",
                 "flavor": "Repulsive and yet ... intriguing."
             },
             "frostsnap_hanging_basket": {
-                "recipe_name": "Frostsnap Hanging Basket",
-                "description": "A basket for hanging frostsnap flowers above your door.",
-                "flavor": "Warning may become lethal during stormy weather."
+                "recipe_name": "Eisblumen Hängekorb",
+                "description": "Ein Korb für hängende Eisblumen über der Tür.",
+                "flavor": "Warnung! Kann bei stürmischem Wetter tödlich sein."
             },
             "garden_bed": {
-                "recipe_name": "Garden Bed",
-                "description": "A sanctuary of soil and organic goodness for a variety of plant species.",
+                "recipe_name": "Gartenbeet",
+                "description": "Ein Heiligtum des Bodens und der organischen Güte für eine Vielzahl von Pflanzenarten.",
                 "flavor": ""
             },
             "gardener_toolbench": {
-                "recipe_name": "Gardener Toolbench",
-                "description": "The Gardeners Toolbench used for creating more complex garden decorations requireing more complex tools.",
+                "recipe_name": "Gärtner-Werkzeugbank",
+                "description": "Die Gärtner-Werkzeugbank wird verwendete um komplexere Gartendekorationen zu schaffen, wodurch komplexere Werkzeuge erfordert werden.",
                 "flavor": ""
             },
             "gardener_workbench": {
-                "recipe_name": "Gardener Workbench",
-                "description": "The Gardeners workbench for assembling various garden decorations.",
+                "recipe_name": "Gärtner-Werkbank",
+                "description": "Die Werkbank des Gärtners für Montage von verschiedenen Gartendekorationen.",
                 "flavor": ""
             },
             "hedge_corner": {
-                "recipe_name": "Hedge Corner",
-                "description": "A corner peice for hedgerows.",
-                "flavor": "Enviromentally friendly barrier."
+                "recipe_name": "Eckhecke",
+                "description": "Ein Eckstück für Hecken.",
+                "flavor": "Umweltfreundliche Barriere."
             },
             "hedge": {
-                "recipe_name": "Hedge",
-                "description": "A short strip of hedge.",
-                "flavor": "Enviromentally friendly barrier."
+                "recipe_name": "Hecke",
+                "description": "Ein kurzer Streifen Hecke.",
+                "flavor": "Umweltfreundliche Barriere."
             },
             "large_stone_planter": {
-                "recipe_name": "Large Stone Planter",
-                "description": "A large stone oranment filled with flowers.",
+                "recipe_name": "Großer Steinpflanzer",
+                "description": "Ein großes Steinornament, gefüllt mit Blumen.",
                 "flavor": ""
             },
             "large_wooden_planter": {
-                "recipe_name": "Large Wooden Planter",
-                "description": "A large wooden ornament filled with flowers.",
+                "recipe_name": "Großer Holzpflanzer",
+                "description": "Ein großes Holzornament gefüllt mit Blumen.",
                 "flavor": ""
             },
             "potted_brightbell": {
-                "recipe_name": "Potted Brightbell",
-                "description": "A clay plant pot filled with Brightbells.",
+                "recipe_name": "Eingetopfte Glockenblume",
+                "description": "Ein Ton-Blumentopf, gefüllt mit einer Glockenblume.",
                 "flavor": ""
             },
             "potted_foxfire": {
-                "recipe_name": "Potted Foxfire",
-                "description": "A clay plant pot filled with Foxfire.",
+                "recipe_name": "Eingetopfte Fuchsfeuer",
+                "description": "Ein Ton-Blumentopf, gefüllt mit einem Fuchsfeuer.",
                 "flavor": ""
             },
             "potted_frostsnap": {
-                "recipe_name": "Potted Frostsnap",
-                "description": "A clay plant pot filled with Frostsnaps.",
+                "recipe_name": "Eingetopfte Eisblume",
+                "description": "Ein Ton-Blumentopf, gefüllt mit einer Eisblume.",
                 "flavor": ""
             },
             "potted_sunflower": {
-                "recipe_name": "Potted Sunflower",
-                "description": "A clay plant pot filled with Sunflowers.",
+                "recipe_name": "Eingetopfte Sonnenblume",
+                "description": "Ein Ton-Blumentopf, gefüllt mit einer Sonnenblume.",
                 "flavor": ""
             },
             "scarecrow": {
-                "recipe_name": "Scarecrow",
-                "description": "A scarecrow to guard your crops.",
-                "flavor": "Let's just hope this one doesn't come alive like the last one."
+                "recipe_name": "Vogelscheuche",
+                "description": "Eine Vogelscheuche zum schützen Ihrer Pflanzen.",
+                "flavor": "Lasst uns hoffen, dass diese nicht Leben erwacht, wie die letzte."
             },
             "small_stone_planter": {
-                "recipe_name": "Small Stone Planter",
-                "description": "A small stone ornament, with brightbells within it.",
+                "recipe_name": "Kleiner Steinpflanzer",
+                "description": "Ein kleines Steinornament, mit Glockenblumen in ihm.",
                 "flavor": ""
             },
             "small_wooden_planter": {
-                "recipe_name": "Small Wooden Planter",
-                "description": "A small wooden ornament, with brightbells within it.",
+                "recipe_name": "Kleiner Holzpflanzer",
+                "description": "Ein kleines Holzornament, mit Glockenblumen in ihm.",
                 "flavor": ""
             },
             "stone_garden_bed": {
-                "recipe_name": "Stone Garden Bed",
-                "description": "A stone sanctuary of soil and organic goodness for a variety of plant species.",
+                "recipe_name": "Steinernes Gartenbeet",
+                "description": "Ein steinernes Heiligtum des Bodens und der organischen Güte für eine Vielzahl von Pflanzenarten.",
                 "flavor": ""
             },
             "tiered_stone_planter": {
-                "recipe_name": "Tiered Stone Planter",
-                "description": "A stone planter with multiple tiers for the most elegant of gardens.",
+                "recipe_name": "Gestufter Steinpflanzer",
+                "description": "Ein Steinpflanzer mit mehreren Ebenen für elegante Gärten.",
                 "flavor": ""
             },
             "tiered_wooden_planter": {
-                "recipe_name": "Tiered Wooden Planter",
-                "description": "A wooden planter with multiple tiers for the most elegant of gardens.",
+                "recipe_name": "Gestufter Holzpflanzer",
+                "description": "Ein Holzpflanzer mit mehreren Ebenen für elegante Gärten.",
                 "flavor": ""
             },
             "wooden_tree_planter": {
-                "recipe_name": "Wooden Tree Planter",
-                "description": "A large wooden planter filled with a small tree.",
-                "flavor": "Don't you hate it when trees don't grow where you want them to."
+                "recipe_name": "Hölzerner Baumpflanzer",
+                "description": "Ein großer hölzerner Pflanzer, gefüllt mit einem kleinen Baum.",
+                "flavor": "Hasst Ihr es nicht, wenn Bäume nicht dort wachsen wo Ihr es wollt?."
             }
         }
    },
    "carpenter": {
         "recipes" : {
            "picket_fence_archway_recipe": {
-              "recipe_name" : "Picket Fence Archway",
-              "description" : "A decorative wooden archway for picket fence fields and gardens.",
-              "flavor" : "Who has time to open gates."
+              "recipe_name" : "Lattenzaun Torbogen",
+              "description" : "Ein dekorativer Holztorbogen, für umzäunte Felder und Gärten.",
+              "flavor" : "Wer hat schon Zeit Tore zu öffnen."
            },
             "robust_window": {
-              "recipe_name" : "Robust Window",
-              "description" : "A sturdy window to stop intruders.",
+              "recipe_name" : "Robustes Fenster",
+              "description" : "Ein robustes Fenster um Eindringlinge zu stoppen.",
               "flavor" : ""
            },
            "robust_door": {
-              "recipe_name" : "Robust Door",
-              "description" : "A sturdy reliable door designed for secure accommodation.",
-              "flavor" : "Opens and closes everytime, guaranteed."
+              "recipe_name" : "Robuste Tür",
+              "description" : "Eine robuste zuverlässige Tür, designt für eine sichere Unterbringung.",
+              "flavor" : "Öffnet und schließt jedes Mal! Garantiert."
            },
            "mine_entrance_scaffold": {
-              "recipe_name" : "Mine Entrance Scaffold",
-              "description" : "Reinforcement for mine entrances.",
-              "flavor" : "In accordance with mine safety regulation 462-A."
+              "recipe_name" : "Mineneingangsgerüst",
+              "description" : "Verstärkung für Mineneingänge.",
+              "flavor" : "In Übereinstimmung mit Minensicherheitsverordnung 462-A."
            },
            "spiked_fence": {
-              "recipe_name" : "Spiked Fence",
-              "description" : "Keeps enemies off your property.",
-              "flavor" : "Careful spiky"
+              "recipe_name" : "Gespickter Zaun",
+              "description" : "Hält Feinde aus deinem Eigentum.",
+              "flavor" : "Sorgfältig bespickt"
            },
            "gardener_sign": {
-              "recipe_name" : "Gardner's Wall-Mounted Sign",
-              "description" : "A sign with the mark of the gardener, to be placed on buildings.",
-              "flavor" : "Flowers for all."
+              "recipe_name" : "Wandgebundenes Gärtnerschild",
+              "description" : "Ein Schild mit der Markierung des Gärtners.",
+              "flavor" : "Blumen für alle."
            },
            "the_mighty_worker_statue": {
-              "recipe_name" : "Mighty Worker Statue",
-              "description" : "A statue to inspire any worker into action.",
-              "flavor" : "Perfect for any communist town."
+              "recipe_name" : "Mächtige Arbeiterstatue",
+              "description" : "ine Statue um alle Arbeiter zu inspirieren.",
+              "flavor" : "Perfekt für jede kommunistische Stadt."
            },
            "wise_man_statue": {
-              "recipe_name" : "Wise Man Statue",
-              "description" : "A statue of a wise old man, honouring those who use brain over brawn.",
+              "recipe_name" : "Weiser Mann Statue",
+              "description" : "Eine Statue eines weisen alten Mann, ehrt diejenigen die Ihr Gehirn nicht nur als Sülze verwenden.",
               "flavor" : "So smart some say he was borderline crazy."
            },
            "wooden_hero_statue": {
-              "recipe_name" : "Local Hero Statue",
-              "description" : "Honouring a mighty hero, who's act of bravery shall be remembered.",
-              "flavor" : "The Health & Safety department has decided we can't make the sword too pointy."
+              "recipe_name" : "Lokale Heldenstatue",
+              "description" : "Ehrt einen mächtigen Helden, an dessen Akt von Tapferkeit erinnert werden soll.",
+              "flavor" : "Die Abteilung für Gesundheit & Sicherheit hat entschieden, dass wir das Schwert nicht zu spitz machen dürfen."
            },
            "potters_sign": {
-              "recipe_name" : "Potter's Wall-Mounted Sign",
-              "description" : "A sign with the mark of the potter, to be placed on buildings.",
-              "flavor" : "You break it you buy it."
+              "recipe_name" : "Wandgebundenes Töpferschild",
+              "description" : "Ein Schild mit der Markierung des Töpfers.",
+              "flavor" : "Wenn Sie es zerbrechen, müssen Sie es kaufen."
            },
            "spiked_fence_corner": {
-              "recipe_name" : "Spiked Fence Corner",
-              "description" : "Now you can make any angle you like, as long as its a 90 degree one.",
-              "flavor" : "Careful spiky"
+              "recipe_name" : "Gespickte Zaunecke",
+              "description" : "Jetzt könnt Ihr jeden beliebigen Winkel machen, solange es sich um 90-Grad handelt.",
+              "flavor" : "Sorgfältig bespickt"
            },
            "bird_house": {
-              "recipe_name" : "Bird House",
-              "description" : "A little wooden home for your avian friends.",
+              "recipe_name" : "Vogelhaus",
+              "description" : "Ein kleines Holzhaus für Ihre vogelartigen Freunde.",
               "flavor" : "Cheep cheep"
            },
            "poster_bed": {
-              "recipe_name" : "Poster Bed",
-              "description" : "A large bed, for those who enjoy excessive levels of comfort.",
-              "flavor" : "Be the envy of all your neighbours."
+              "recipe_name" : "Himmelbett",
+              "description" : "Ein großes Bett, für diejenigen die gerne eine Menge an Komfort genießen.",
+              "flavor" : "Seien Sie der Neid aller Ihrer Nachbarn."
            },
            "fur_bed": {
-              "recipe_name" : "Fur Bed",
-              "description" : "Wrap up tight amongst layers of soft fur.",
-              "flavor" : "Now I know what a bear feels like."
+              "recipe_name" : "Pelzbett ",
+              "description" : "Wickel dich dicht unter Schichten aus weichem Fell.",
+              "flavor" : "Jetzt weiß ich, wie sich ein Bär fühlt."
            },
            "log_chair": {
-              "recipe_name" : "Log Chair",
-              "description" : "A chair carved from a log.",
-              "flavor" : "Simple, cheap, effective and not at all comfy."
+              "recipe_name" : "Holzklotzstuhl",
+              "description" : "Ein Stuhl aus einem Holzklotz geschnitzt.",
+              "flavor" : "Einfach, billig, effektiv und überhaupt nicht bequem."
            },
            "totem": {
               "recipe_name" : "Totem",
-              "description" : "A totem pole to show off your carpenters sculpting skills.",
-              "flavor" : "Each carving tells a story."
+              "description" : "Ein Totempfahl um die Bildhauerfähigkeiten Ihres Schreiners zu zeigen,.",
+              "flavor" : "Jedes Schnitzen erzählt eine Geschichte."
            },
            "shelf": {
-              "recipe_name" : "Shelf",
-              "description" : "Provides elevated storage for books, ornaments and trophies...... if you had any.",
-              "flavor" : "Incovenient for short people."
+              "recipe_name" : "Regal",
+              "description" : "Bietet erhöhte Lagerung für Bücher, Schmuck und Trophäen...... wenn du welche hast.",
+              "flavor" : "Unbequeme für kleine Leute."
            },
            "large_wooden_window_frame": {
-              "recipe_name" : "Large Wooden Window Frame",
-              "description" : "A larger, grander window frame",
-              "flavor" : "What a view!"
+              "recipe_name" : "Großer Holzfensterrahmen",
+              "description" : "Eine großer, großartiger Fensterrahmen",
+              "flavor" : "Was für eine Aussicht!"
            }
         }
     },
     "mason": {
         "recipes" : {
           "foxfire_lantern": {
-            "recipe_name" : "Foxfire Lantern",
-            "description" : "A stone crafted lantern filled with foxfire slime to light up the dark.",
+            "recipe_name" : "Fuchsfeuerlaterne",
+            "description" : "Eine steinerne Laterne gefüllt mit Fuchsfeuerschleim, um im Dunkeln zu leuchten.",
             "flavor" : ""
           },
           "wall_mounted_foxfire_lantern": {
-            "recipe_name" : "Wall Mounted Foxfire Lantern",
-            "description" : "A stone crafted wall mounted lantern filled with foxfire slime to light up the dark.",
+            "recipe_name" : "Wandgebundene Fuchsfeuerlaterne",
+            "description" : "Eine steinerne wandgebundene Laterne gefüllt mit Fuchsfeuerschleim, um im Dunkeln zu leuchten.",
             "flavor" : ""
           },
           "sundial": {
-            "recipe_name" : "Sundial",
-            "description" : "A stone structure that uses light and shadow to show the time.",
-            "flavor" : "Accuarate to within 5 hours!"
+            "recipe_name" : "Sonnenuhr",
+            "description" : "Eine Steinstruktur, die Licht und Schatten nutzt um die Zeit zu zeigen.",
+            "flavor" : "Genau! Innerhalb von 5 Stunden!"
           },
           "stone_totem": {
-            "recipe_name" : "Stone Totem",
-            "description" : "A stone totem with history and knowledge chisled upon it.",
+            "recipe_name" : "Steintotem",
+            "description" : "Ein Steintotem mit Geschichte und Wissen in Sie gemeißelt.",
             "flavor" : ""
           },
           "sarcophagus": {
-            "recipe_name" : "Sarcophagus",
-            "description" : "A stone tomb that encases the body of a fallen hero.",
-            "flavor" : "Who rests within?"
+            "recipe_name" : "Sarkophag",
+            "description" : "Ein Steingrab, das den Körper eines gefallenen Helden einhüllt.",
+            "flavor" : "Wer ruht innerhalb?"
           },
           "stone_mine_entrance": {
-            "recipe_name" : "Stone Mine Entrance",
-            "description" : "Stone sclupted architecture to support mine entranceways.",
-            "flavor" : "In accordance with mine safety regulation 462-B."
+            "recipe_name" : "Steinmineneingang",
+            "description" : "In Stein gemeisselter Mineneingang.",
+            "flavor" : "In Übereinstimmung mit Minensicherheitsverordnung 462-B."
           },
           "carved_stone_window": {
-            "recipe_name" : "Carved Stone Window",
-            "description" : "Stone carved portal to the outside world.",
+            "recipe_name" : "Gemeißeltes Steinfenster",
+            "description" : "Stein gemeißeltes Portal zur Außenwelt .",
             "flavor" : ""
           },
           "carved_stone_door": {
-            "recipe_name" : "Carved Stone Door",
-            "description" : "Carefully sculpted ornate stone door.",
+            "recipe_name" : "Gemeißelte Steintür",
+            "description" : "Sorgfältig gemeißelte und verzierte Steintür.",
             "flavor" : ""
           },
           "fortress_window": {
-            "recipe_name" : "Fortress Window",
-            "description" : "Stone window secured with iron bars.",
-            "flavor" : "Keep people in or out."
+            "recipe_name" : "Burgfenster",
+            "description" : "Ein Steinfenster gesichert mit Eisenstangen.",
+            "flavor" : "Hält Personen drinnen oder draussen."
           },
           "fortress_door": {
-            "recipe_name" : "Fortress Door",
-            "description" : "Stone framed with a reinforced double door.",
-            "flavor" : "Ideal counter for sieges and undead hordes!"
+            "recipe_name" : "Burgtür",
+            "description" : "Verstärkten Doppeltür mit Stein umrahmt.",
+            "flavor" : "Ideal gegen Belagerungen und untote Horden!"
           },
           "stone_fur_bed": {
-            "recipe_name" : "Stone Fur Bed",
-            "description" : "A strong stone base covered in soft fur.",
-            "flavor" : "Without the fur this would be worse than a night on the floor."
+            "recipe_name" : "Steinernes Pelzbett",
+            "description" : "Ein starker Steinsockel mit weichem Fell bedeckt.",
+            "flavor" : "Ohne das Fell wäre dies schlimmer als eine Nacht auf dem Boden."
           },
           "luxury_stone_chair": {
-            "recipe_name" : "Luxury Stone Chair",
-            "description" : "A chair crafted from stone and padded with the softest fur.",
-            "flavor" : "Like sitting on a cloud."
+            "recipe_name" : "Luxoriöser Steinstuhl",
+            "description" : "Ein Stuhl aus Stein gefertigt und mit dem weichsten Fell gepolstert.",
+            "flavor" : "Wie auf einer Wolke sitzen."
           },
           "guardian_statue": {
-            "recipe_name" : "Guardian Statue",
-            "description" : "A stone crafted statue of a guardsman.",
-            "flavor" : "Motionless and ever vigilant, just like a guard should be."
+            "recipe_name" : "Wächterstatue",
+            "description" : "Ein gestaltete Steinstatue eines Wächters.",
+            "flavor" : "Regungslos und immer wachsam, genau wie ein Wächter sein sollte."
           },
           "statue_of_fortune": {
-            "recipe_name" : "Statue of Fortune",
-            "description" : "A statue for providing gifts to the gods.",
-            "flavor" : "Flower for hope, gold for fortune, iron for strength, bronze for protection."
+            "recipe_name" : "Statue des Glücks",
+            "description" : "Eine Statue für das bereitstellen von Geschenke für die Götter.",
+            "flavor" : "Blumen für die Hoffnung, Gold für Glück, Eisen für Stärke, Bronze für den Schutz."
           },
           "traveller_statue": {
-            "recipe_name" : "Traveller Statue",
-            "description" : "A statue in the likeness of the being said to lead the dead to the afterlife.",
-            "flavor" : "Pray for a safe journey."
+            "recipe_name" : "Reisendenstatue",
+            "description" : "Eine Statue in der Gestalt von der gesagt wird das Sie die Toten ins Jenseits führt.",
+            "flavor" : "Beten für eine sichere Reise."
           },
           "large_stone_window_frame": {
-              "recipe_name" : "Large Stone Window Frame",
-              "description" : "A larger, grander window frame",
-              "flavor" : "What a view!"
+              "recipe_name" : "Großer Steinfensterrahmen",
+              "description" : "Eine großer, großartiger Fensterrahmen ",
+              "flavor" : "Was für eine Aussicht!"
            },
            "iron_gate": {
-              "recipe_name" : "Iron Gate",
-              "description" : "Stone pillars with an iron barred gate.",
+              "recipe_name" : "Eisentor",
+              "description" : "Steinsäulen mit einem eisernen Gittertor.",
               "flavor" : ""
            }
         }
@@ -674,8 +674,8 @@
      "blacksmith": {
         "recipes" : {
           "gardeners_tool": {
-            "recipe_name" : "Gardener's Trowel",
-            "description" : "Promotes a hearthling into a Gardener.",
+            "recipe_name" : "Gärtnerschaufel",
+            "description" : "Ernennt einen Hearthling in einen Gärtner.",
             "flavor" : ""
           }
        }
@@ -683,38 +683,38 @@
     "weaver": {
       "recipes" : {
         "skull_flag": {
-          "recipe_name" : "Skull Flag",
-          "description" : "A red flag mounted on a pole alongside 2 animal skulls.",
-          "flavor" : "If uncivilised barbaric horde is the look you're going for then this is the flag for you."
+          "recipe_name" : "Schädelflagge",
+          "description" : "Eine rote Fahne auf einer Stange montiert, neben zwei Tierschädeln.",
+          "flavor" : "Wenn unzivilisiert und barbarisch das Aussehen ist das du suchst, dann ist diese Flagge perfekt für dich."
         },
         "weaver_tapestry": {
-          "recipe_name" : "Weaver Tapestry",
-          "description" : "A intricate tapestry depicting a weaver hard at work.",
-          "flavor" : "Art imitating life"
+          "recipe_name" : "Weber Wandteppich",
+          "description" : "Eine komplizierte Wandteppich, der einen hart arbeitenden Weber zeigt.",
+          "flavor" : "Leben nachahmend Kunst"
         },
         "footman_tapestry": {
-          "recipe_name" : "Footman Tapestry",
-          "description" : "A detailed portrait of a foot soldier.",
+          "recipe_name" : "Fußsoldaten Wandteppich",
+          "description" : "Ein ausführliches Porträt eines Fußsoldaten.",
           "flavor" : ""
         },
         "shepherd_tapestry": {
-          "recipe_name" : "Shepherd Tapestry",
-          "description" : "A tapestry of a Shepherd tending to his sheep.",
+          "recipe_name" : "Schäfer Wandteppich",
+          "description" : "Ein Wandteppich von einem Hirten der sich um seine Schafe kümmert.",
           "flavor" : ""
         },
         "flowered_curtains": {
-          "recipe_name" : "Flowered Curtains",
-          "description" : "Block out the harsh, cold realities of the outside world.",
+          "recipe_name" : "Geblümter Vorhang",
+          "description" : "Blockiert die harte und kalte Realität der Außenwelt.",
           "flavor" : ""
         },
         "berry_curtains": {
-          "recipe_name" : "Berry Curtains",
-          "description" : "Cotton curtains soaked in berry juice to give them a distinct purple colour.",
-          "flavor" : "Inspired by the berry juice stains found all over villagers clothes."
+          "recipe_name" : "Berriger Vorhang",
+          "description" : "Ein Baumwollvorhang, welcher in Beerensaft getränkt wurde um eine deutliche lila Farbe anzunehmen.",
+          "flavor" : "Inspiriert von den Beerensaftflecken, welche auf der Kleidung der Dorfbewohner gefunden wurde."
         },
         "straw_basket": {
-          "recipe_name" : "Straw Basket",
-          "description" : "A storage basket woven from straw, can store up to 16 items.",
+          "recipe_name" : "Strohkorb",
+          "description" : "Ein Korb gewebt aus Stroh, kann bis zu 16 Elemente speichern.",
           "flavor" : ""
         }
       }
@@ -722,28 +722,28 @@
     "potter": {
       "recipes" : {
         "clay_brick_wall": {
-          "recipe_name" : "Clay Brick Wall",
-          "description" : "A sturdy wall formed by stacking clay bricks.",
+          "recipe_name" : "Lehmziegelmauer ",
+          "description" : "Eine stabile Wand durch Stapeln von Lehmziegel geformt.",
           "flavor" : ""
         },
         "plant_pot": {
-          "recipe_name" : "Plant Pot",
-          "description" : "A pot for housing plants.",
+          "recipe_name" : "Blumentopf",
+          "description" : "Ein Topf für Wohnungspflanzen.",
           "flavor" : ""
         },
         "chiminea": {
-          "recipe_name" : "Chiminea",
-          "description" : "A large clay outdoor fireplace.",
-          "flavor" : "Warms fingers and toes."
+          "recipe_name" : "Außenkamin",
+          "description" : "Ein großer tönerner Außenkamin.",
+          "flavor" : "Wärmt Finger und Zehen."
         },
         "small_vase": {
-          "recipe_name" : "Small Vase",
-          "description" : "A small vase crafted from plain clay.",
+          "recipe_name" : "Kleine Vase",
+          "description" : "Eine kleine Vase aus einfachem Ton gefertigt.",
           "flavor" : ""
         },
         "large_vase": {
-          "recipe_name" : "Large Vase",
-          "description" : "A large vase crafted from plain clay.",
+          "recipe_name" : "Große Vase",
+          "description" : "Eine große Vase aus einfachem Ton gefertigt.",
           "flavor" : ""
         }
       } 

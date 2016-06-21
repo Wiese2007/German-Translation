@@ -1,14 +1,30 @@
 {
-   "ui":
-   {
-      "customize_hearthling":
-      {
+   "ui": {
+      "customize_hearthling": {
          "title"       : "Passe deinen Hearthling an",
          "role"        : "Rolle",
-         "body"        : "Körper",
-         "head"        : "Kopf",
-         "eyebrows"    : "Augenbrauen",
-         "facial_hair" : "Gesichtsbehaarung"
+      },
+      "data": {
+         "tooltips": {
+            "nextButton": {
+               "description": "Wählen den nächsten aus der Liste."
+            },
+            "previousButton": {
+               "description": "Wählen den vorherigen aus der Liste."
+            },
+            "maleButton": {
+               "description": "Werde Männlich, es werden zufällige Modelle und Farben ausgewählen."
+            },
+            "femaleButton": {
+               "description": "Werde Weiblich, es werden zufällige Modelle und Farben ausgewählen."
+            },
+            "randomButton": {
+               "description": "Zufällige Modelle, die nicht gesperrt sind."
+            },
+            "lock": {
+               "description": "Sperren dieses Teil, der Zufallsgenerator wird es dann ignorieren."
+            }
+         }
       }
    }
 }

@@ -53,14 +53,14 @@
             "Goldklink",
             "Chimes",
             "Blingg",
-            "the Golden",
-            "Diamondeye",
-            "Searchlight",
+            "der Goldene",
+            "Diamondauge",
+            "Suchscheinwerfer",
             "Crilnusk",
             "Gemkisser",
             "Koinpurs",
-            "Silvertoe",
-            "Goldback",
+            "Silberzehe",
+            "Goldrücken",
             "Shyniclaw",
             "Glimmerklink",
             "Gewls",
@@ -174,12 +174,12 @@
          },
          "surnames": [
             "Sharamph",
-            "Skullhand",
-            "Warhand",
-            "Axerunner",
+            "Schädelhand",
+            "Kriegshand",
+            "Axtrenner",
             "Tuskhorn",
-            "Gorebringer",
-            "Fistbleeder",
+            "Blutbringer",
+            "Faustbluter",
             "Redbingder",
             "Kavlash",
             "Oroder",
@@ -190,11 +190,11 @@
             "Gruuk",
             "Mognurron",
             "Kilul",
-            "Firehorn",
-            "Warhammer",
-            "Deatharm",
-            "Dreamfury",
-            "Skullsong"
+            "Feuerhorn",
+            "Kriegshammer",
+            "Todesarm",
+            "Traumrage",
+            "Schädelsong"
          ]
       },
       "wolf": {
@@ -204,16 +204,16 @@
             ],
             "given_names": [
                "Upear",
-               "Fastpaw",
+               "Schnellpfote",
                "Brownruff",
                "Bitey",
-               "Blaze",
-               "Toothy",
+               "Lodern",
+               "Zähnchen",
                "Antonio",
                "Grarghfng",
                "Growlie",
-               "Puppy",
-               "Yellow",
+               "Welpe",
+               "Gelb",
                "Ruff",
                "Barkspawn",
                "Edwina",
@@ -224,7 +224,7 @@
                "Cliffy",
                "Lancer",
                "Spike",
-               "Toothy"
+               "Zähnchen"
             ]
          },
          "surnames": [
@@ -238,7 +238,7 @@
             "der Furchterregende",
             "der Knuddlige",
             "der Beliebte",
-            "Peopleeater",
+            "Leute-Esser",
             "der Freundliche"
          ]
       }

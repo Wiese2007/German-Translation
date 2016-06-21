@@ -1,0 +1,15 @@
+{
+   "data": {
+      "biome": {
+         "grove": {
+            "display_name": "Heiliger Hain",
+            "description": "Der heilige Hain verfügt über üppige Wälder und Gewässer.",
+            "random_location_names": {
+               "000": " zum Hain von Amen'Lu",
+               "001": " zum Hain von Ver'Kesh",
+               "002": " zum Hain von Evalon"
+            }
+         }
+      }
+   }
+}

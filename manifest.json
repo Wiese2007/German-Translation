@@ -1,6 +1,6 @@
 {
    "info" : {
-      "name" : "German-Translation-v17.1", 
+      "name" : "German-Translation-v17.2", 
       "version" : 2
    },
    "mixintos" : {
@@ -37,12 +37,16 @@
       "retro_games/locales/de.json" : "file(translations/de-retro.json)",
       "patrol_mod/locales/de-DE.json" : "file(translations/de-patrol.json)",
       "patrol_mod/locales/de.json" : "file(translations/de-patrol.json)",
-	   "bastioneers/locales/de-DE.json" : "file(translations/de-bastioneers.json)",
-	   "bastioneers/locales/de.json" : "file(translations/de-bastioneers.json)",
+	  "bastioneers/locales/de-DE.json" : "file(translations/de-bastioneers.json)",
+	  "bastioneers/locales/de.json" : "file(translations/de-bastioneers.json)",
       "locksofmanyclothings/locales/de-DE.json" : "file(translations/de-lomc.json)",
       "locksofmanyclothings/locales/de.json" : "file(translations/de-lomc.json)",
       "archipelago_biome/locales/de-DE.json" : "file(translations/de-archipelago.json)",
       "archipelago_biome/locales/de.json" : "file(translations/de-archipelago.json)",
+      "anorien_biome/locales/de-DE.json" : "file(translations/de-anorien.json)",
+      "anorien_biome/locales/de.json" : "file(translations/de-anorien.json)",
+      "grove_biome/locales/de-DE.json" : "file(translations/de-grove.json)",
+      "grove_biome/locales/de.json" : "file(translations/de-grove.json)",
       "settlementdecor/locales/de-DE.json" : "file(translations/de-settlement.json)",
       "settlementdecor/locales/de.json" : "file(translations/de-settlement.json)",
 
@@ -64,6 +68,7 @@
       "stonehearth/ui/game/promotion_tree/promotion_tree.less" : "file(ui/game/promotion_tree/promotion_tree.less)",
       "stonehearth/ui/game/unit_frame/unit_frame.less" : "file(ui/game/unit_frame/unit_frame.less)",
       "stonehearth/ui/game/citizens/citizens.less" : "file(ui/game/citizens/citizens.less)",
+      "stonehearth/ui/game/bulletin/bulletin_dialog/shop_bulletin_dialog/shop_bulletin_dialog.less" : "file(ui/game/bulletin/bulletin_dialog/shop_bulletin_dialog/shop_bulletin_dialog.less)",
       "stonehearth/services/server/population/data/ascendancy_population.json" : "file(translations/ascendancy_population.json)",
       "stonehearth/services/server/population/data/goblin_population.json" : "file(translations/goblin_population.json)",
       "stonehearth/services/server/population/data/undead_population.json" : "file(translations/undead_population.json)",

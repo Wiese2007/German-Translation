@@ -110,18 +110,18 @@
             ]
          },
          "surnames": [
-            "the Ferocious",
-            "Chases-the-Sky",
-            "Gruffbarker",
-            "the Frothing",
-            "the Intimidating",
-            "the Manic",
-            "the Rabid",
-            "the Fearsome",
-            "the Cuddly",
-            "the Favorite",
-            "Peopleeater",
-            "the Friendly"
+            "der Wilde",
+            "Jagt-den-Himmel",
+            "Gruffkläffer",
+            "der Schäumende",
+            "der Einschüchternde",
+            "der Manic",
+            "der Tollwütige",
+            "der Furchterregende",
+            "der Knuddelige",
+            "der Favorit",
+            "Leute-Esser",
+            "der Freundliche"
          ]
       },
       "mountain_ogre": {
@@ -130,10 +130,10 @@
                "stonehearth:monsters:ogres:ogre"
             ],
             "given_names": [
-               "Mountain"
+               "Berg"
             ],
             "surnames": [
-               "the Ogre"
+               "der Oger"
             ]
          }
       },
