@@ -219,9 +219,9 @@
       "mason": {
          "recipes" : {
             "well_recipe" : {
-               "recipe_name": "Steinbrunn",
+               "recipe_name": "Steinbrunnen",
                "description": "Eine Quelle sauberen Wassers.",
-               "flavor"      : "Jessica McClure Beware!"
+               "flavor"      : "Jessica McClure Bewahre!!"
             }
          }
       },

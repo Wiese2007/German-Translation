@@ -221,7 +221,7 @@
          },
          "stone_fur_bed": {
             "display_name": "Steinernes Pelzbett",
-            "description": "Strong and soft."
+            "description": "Stark aber weich."
          },
          "stone_garden_bed": {
             "display_name": "Steinernes Gartenbeet",
@@ -297,9 +297,25 @@
             "name": "Empfindliche Sonnenblume",
             "description": "Kleine sonnige Blütenblätter "
         },
-        "sunflower_3" : {
+        "sunflower_4" : {
             "name": "Ausgewachsene Sonnenblume",
             "description": "Volles Sonnenblumenwachstum"
+        },
+        "foxfire": {
+            "display_name": "Fuchsfeuer",
+            "description": "Reift langsam und produziert glühenden Schleim"
+        },
+        "foxfire_1" : {
+            "name": "Fuchsfeuer Sämling",
+            "description": "Kleine schleimig Birne"
+        },
+        "foxfire_2" : {
+            "name": "Fuchsfeuer Sproße",
+            "description": "Größer und schleimiger"
+        },
+        "foxfire_3" : {
+            "name": "Fuchsfeuer Knospe",
+            "description": "Bereit zum ernten"
         }
       },
       "decorations": {
@@ -310,6 +326,14 @@
         "sunflower": {
             "display_name": "Sonnenblume",
             "description": "Hell, aber nicht heiß"
+        },
+        "litso_grass": {
+            "display_name": "Litso Gras",
+            "description": "Kleine grüne Triebe mit gelben Spitzen"
+        },
+        "ember_plant": {
+            "display_name": "Feuerplanzet",
+            "description": "Kleine wüsten Fackeln"
         }
       },
       "plants": {
@@ -320,12 +344,24 @@
         "sunflower": {
             "name": "Wild Sonnenblume",
             "description": "Eine erntebare wilde Sonnenblume"
+        },
+        "litso_grass": {
+            "name": "Wildes Litso Gras",
+            "description": "Eine erntebare wilde Pflanze"
+        },
+        "ember_plant": {
+            "name": "Wilde Feuerpflanze",
+            "description": "Eine erntebare wilde Pflanze"
         }
       },
       "resources": {
         "foxfire_slime": {
             "display_name": "Fuchsfeuerschleim",
             "description": "Eine schleimige Substanz, die ein blaues Leuchten emittiert"
+        },
+        "ember_plant_pollen": {
+            "display_name": "Feuerpflanzen Pollen",
+            "description": "Die Pollen von einer Feuerpflanze, die Orange wie Feuer glühen"
         }
       }
    },
@@ -336,7 +372,11 @@
             "description": "Ernennt einen Hearthling in einen Gärtner"
         },
         "workbench": {
-            "display_name": "Gärtner Werkbank",
+            "display_name": "Gärtner-Werkbank",
+            "description": "Wird vom Gärtner zum herstellen verwendet"
+        },
+        "toolbench": {
+            "display_name": "Gärtner-Werkzeugbank",
             "description": "Wird vom Gärtner zum herstellen verwendet"
         },
         "outfit": {
@@ -359,6 +399,15 @@
             "l4_description": "Der Gärtner kann aufwändigere Gartenmöbel schaffen.",
             "l6_name": "Meistergärtner",
             "l6_description": "Die Beherrschung seines Faches gewährt dem Gärtner komplett neue Möglichkeiten Pflanzen zu verwenden."
+        },
+        "personality": {
+            "promote": "Hört den Ruf der Schaufel:",
+            "beleaguered_leader": "Ich weiß nicht, ich soll die Aufsicht über all diese Blumen haben, was ist wenn sie sterben?",
+            "hopeless_optimist": "Großartig jetzt kann ich mein eigenes Essen anbauen ....... Denk ich.",
+            "lovable_rogue": "Normalerweise stampfe ich nur auf Blumen rum, aber Sie zu züchten könnte auch schön sein! Vermute ich.",
+            "psychopathic_misanthrope": "All diese Blumen unter meiner Kontrolle, welche wird gewässert und welche nicht, ihr Schicksal liegt in meinen Händen.",
+            "insufferable_academic": "Ich wollte schon immer Versuchen ein botanischen Wissenschaftler zu sein.",
+            "diligent_sweetheart": "Ein Gärtner? Also kann ich überall Blumen zu setzen, wo immer ich will? Genial!!!"
         },
         "recipes": {
             "brightbell_hanging_basket": {
@@ -390,6 +439,11 @@
                 "recipe_name": "Fuchsfeuerschleim",
                 "description": "Eine schleimige blaue Substanz aus dem Inneren der Fuchsfeuer Pflanze extrahiert.",
                 "flavor": "Repulsive and yet ... intriguing."
+            },
+            "ember_plant_pollen": {
+                "recipe_name": "Feuerpflanzen Pollen",
+                "description": "Die Pollen einer Feuerpflanze.",
+                "flavor": "Leuchtet wie die Glut eines alten Feuers."
             },
             "frostsnap_hanging_basket": {
                 "recipe_name": "Eisblumen Hängekorb",
@@ -534,11 +588,6 @@
               "recipe_name" : "Lokale Heldenstatue",
               "description" : "Ehrt einen mächtigen Helden, an dessen Akt von Tapferkeit erinnert werden soll.",
               "flavor" : "Die Abteilung für Gesundheit & Sicherheit hat entschieden, dass wir das Schwert nicht zu spitz machen dürfen."
-           },
-           "potters_sign": {
-              "recipe_name" : "Wandgebundenes Töpferschild",
-              "description" : "Ein Schild mit der Markierung des Töpfers.",
-              "flavor" : "Wenn Sie es zerbrechen, müssen Sie es kaufen."
            },
            "spiked_fence_corner": {
               "recipe_name" : "Gespickte Zaunecke",

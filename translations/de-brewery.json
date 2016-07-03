@@ -60,6 +60,9 @@
       }
    },
    "entities": {
+      "item_categories": {
+      	"drink": "Getränke"
+      },
       "crops": {
          "blueberry_crop": {
             "display_name": "Blaubeeren",
@@ -623,11 +626,11 @@
          },
          "veggie_delight_smoothie": {
             "veggie_delight_smoothie": {
-               "display_name": "entzückender Gemüse Smoothie",
+               "display_name": "Gemüsesmoothie",
                "description": "Super gesunder Smoothie!"
             },
             "veggie_delight_smoothie_serving": {
-               "display_name": "Ein Becher mit entzückendem Gemüse Smoothie",
+               "display_name": "Ein Becher mit Gemüsesmoothie",
                "description": "Super gesunder Smoothie!"
             }
          },
@@ -873,7 +876,7 @@
             },
             "veggie_delight_smoothie_recipe": {
                "description": "Ein nahrhafter Smoothie",
-               "recipe_name": "entzückender Gemüse Smoothie",
+               "recipe_name": "Gemüsesmoothie",
                "flavor": "Ein köstliches Getränk hergestellt aus pürierte Karotten, Rüben, Kürbisse, Zucker und Wasser."
             },
             "vodka_recipe": {

@@ -51,7 +51,8 @@
             "resting_from_injuries": "benötigt medizinische Betreuung",
             "healing": "behandelt Wunden",
             "healing_target": "heilt [name(data.target)]",
-            "dig_foundation": "gräbt ein Fundament"
+            "dig_foundation": "gräbt ein Fundament",
+            "unit_hold_location": "verteidigt Position"
          }
       }
    },
@@ -241,7 +242,8 @@
             "equipment_description": "Ausrüstbar von: [str(class_list)]",
             "level_description": "auf Level [str(level_req)]",
             "or": " oder ",
-            "num_uses": "Verwendet"
+            "num_uses": "Verwendet",
+            "placed": "platziert"
          },
          "citizens": {
             "title": "Einwohner",
@@ -336,8 +338,8 @@
                "weapons": "Waffen",
                "tools": "Werkzeug",
                "wealth": "Wertsachen",
-               "refined": "verfeinert",
-               "uncategorized": "nicht zugeordnet",
+               "refined": "Verfeinert",
+               "uncategorized": "Nicht zugeordnet",
                "workshops": "Werkbänke",
                "consumable": "Verbrauchsmaterialien",
                "storage": "Lager",
@@ -625,14 +627,15 @@
          },
          "build_mode": {
             "tooltips": {
-               "building_tools": "Gebäude Tools",
-               "voxel_tools": "Voxel Tools",
+               "building_tools": "Gebäude-Werkzeug",
+               "erase": "Lösch-Werkzeug",
+               "voxel_tools": "Voxel-Werkzeug",
                "voxel_add": "Füge Voxel hinzu",
                "voxel_paint": "Zeichne Voxel",
                "voxel_remove": "Entferne Voxel",
                "selection": "Auswahl",
                "delete": "Lösche",
-               "undo": "Rückgängig",
+               "undo": "Rückgängig (Strg + Z)",
                "draw_slab_tool": "Platten",
                "draw_floor_tool": "Fundamente",
                "grow_floor_tool": "Fußböden",
@@ -644,13 +647,14 @@
                "draw_road_tool": "Straßen",
                "place_furniture_tool": "Möbel",
                "place_decoration_tool": "Dekorationen",
-               "erase_tool": "Löschen"
+               "erase_tool": "Löschen",
+               "draw_stairs_tool": "Treppen"
             },
             "overhead_tips": {
                "wall_segment_tip_title": "Klicke um freistehende Mauern zu platzieren",
                "wall_segment_tip_description": "Halte SHIFT um die Wände zu verbinden",
                "build_title_building_designer": "Gebäude Designer",
-               "build_floor_tip_title": "Klicke und zieh um einen Fussboden zu bauen",
+               "build_floor_tip_title": "Klicke und zieh um einen Fussboden zu bauen. Für Treppen min ein Loch mit Länge von 6 Voxeln freilassen!",
                "build_floor_tip_description": "Rechtsklick zum verlassen",
                "build_slab_tip_title": "Klicke und zieh um Platten zu bauen",
                "build_slab_tip_description": "Rechtsklick zum verlassen",
@@ -665,7 +669,9 @@
                "draw_template_title": "Klicke um eine Vorlage zu erstellen",
                "draw_template_description": "Rotiere mit der , und der . Taste",
                "build_road_tip_title": "Klicke und zieh um eine Strasse zu bauen",
-               "build_road_tip_description": "Rechtsklick zum verlassen"
+               "build_road_tip_description": "Rechtsklick zum verlassen",
+               "stairs_tip_title": "Klicke um Treppen zu platzieren",
+               "stairs_tip_description": "Rechtsklick zum verlassen. Rotiere mit der , und der . Taste"
             },
             "building_cost": {
                "required_item": "Benötigte Elemente"
@@ -675,8 +681,8 @@
                "building_name": "Gebäude Name",
                "building_cost": "Benötigte Materialien",
                "start_building": "Bauen!",
-               "pause_building": "Bauen pausieren",
-               "continue_building": "Bauen fortsetzen",
+               "pause_building": "Pause!",
+               "continue_building": "Weiter!",
                "save_building_template": "Sichern",
                "finished_editing": "Beende Bearbeitung",
                "start_editing": "Bearbeiten",
@@ -690,6 +696,14 @@
                "y_offset": "Dachversatz",
                "show_gradient": "Steigung",
                "show_margin": "Überhang"
+            },
+            "stairs_shape": {
+               "shape_title": "Treppen-Form",
+               "options_title": "Treppen Optionen",
+               "max_height": "Freistehende Höhe",
+               "width": "Weite",
+               "solid_stairs": "Massive Treppen",
+               "hollow_stairs": "Freitragende Treppen"
             },
             "building_templates": {
                "title": "Gebäudevorlagen",
@@ -768,6 +782,13 @@
                   "stone_resource": "Steinstraße",
                   "clay_resource": "Lehmstraße",
                   "clay_brick_resource": "Ziegelsteinstraße"
+               },
+               "stairs": {
+                  "material": "Treppen Material",
+                  "wood_resource": "Holztreppen",
+                  "stone_resource": "Steintreppen",
+                  "clay_resource": "Lehmtreppen",
+                  "clay_brick_resource": "Ziegelsteintreppen"
                }
             },
             "start_building_confirm": {
@@ -941,7 +962,8 @@
                "overall_morale": "Gesamtglück",
                "food": "Essen",
                "shelter": "Schutz",
-               "safety": "Sicherheit"
+               "safety": "Sicherheit",
+               "military_strength": "Militärische Stärke"
             },
             "inventory": {
                "item_count": "Elemente:"
@@ -1149,6 +1171,11 @@
                "message" : "Warnung: Dies ist eine Alpha. Es vermisst noch viele Funktionen und du kannst Fehlern während des Spielens begegnen.<br><br>Du kannst uns helfen, in dem du zustimmst uns automatisch ein Fehlerprotokoll zu senden. Geht das in Ordnung?",
                "accept": "Ja, Fehlerprotokoll senden!",
                "cancel": "Nee ich mag euch nicht!"
+            },
+            "mod_conflic_dialog": {
+               "title": "Modul Konflikt erkannt!",
+               "message": "Warnung: Dein Modverzeichnis enthält sowohl eine smod und einen entpackten Ordner von einigen Mods. Der entpackte Ordner wird verwendet werden. Lösch am besten den entpackten Ordner, da es sonst bei aktualisierungen Fehler verursachen kann. Die betroffenen Mods sind: <br><br>",
+               "accept": "Ja, fortfahren."
             }
          },
          "select_game_story": {
@@ -1340,6 +1367,10 @@
             "agriculture": {
                "display_name": "Landwirtschaft",
                "description": "Der Wert von Feldern und Weiden in deiner Stadt. Jede gepflanzte Feldfrucht und jedes Tier trägt hierzu bei."
+            },
+            "military_strength": {
+               "display_name": "Militärische Stärke",
+               "description": "Ein Wert, der zeigt wie stark das Militär deiner Stadt ist. Kampfeinheiten und ausgestattet Waffen und Rüstungen tragen zu diesem bei."
             }
          },
          "constants": {
@@ -1555,7 +1586,7 @@
                         },
                         "herald_announcement": {
                            "bulletin_message": {
-                              "000": "Ausgezeichnet! Monsieur Burlyhand hat gesagt das Ihr hier draußen sein würdet, aber es braucht immer ein wenig Glück jemanden hier zu finden. Sollen wir anfangen?"
+                              "000": "Ausgezeichnet! Monsieur Burlyhand hat gesagt das Ihr hier draußen sein würdet, aber in der Anfangszeit steht es immer auf Messers Schneide. Sollen wir anfangen?"
                            },
                            "bulletin_title": "Anwyn rollt eine Schriftrolle aus",
                            "dialog_title": "Die ehrenwerte Anwyn Redelm",
@@ -1651,6 +1682,15 @@
                         }
                      }
                   }
+               },
+               "unlock_craftsman_statue_recipe": {
+                  "bulletin_title": "Steinmetzrezept entsperrt: Des Gildenmeisters Fähigkeit"
+               },
+               "unlock_roadside_shrine_recipe": {
+                  "bulletin_title": "Steinmetzrezept entsperrt: Brunnen des Überflusses"
+               },
+               "unlock_valor_statue_recipe": {
+                  "bulletin_title": "Steinmetzrezept entsperrt: Die Tapferkeit von Cid"
                }
             },
             "goblin_war": {
@@ -1979,6 +2019,10 @@
                   "boss": {
                      "display_name": "Häuptling [str(self.unit_info.custom_name)]",
                      "description": "Ich binz grüne Kampfmaschineeee!!!"
+                  },
+                  "sheep": {
+                     "display_name": "Bluebell das Schaf",
+                     "description": "Des Häuptlings wertvollster Begleiter"
                   }
                },
                "shakedown": {
@@ -2151,11 +2195,11 @@
                                  "dialog_nodes": {
                                     "erdene_appears": {
                                        "bulletin_message": {
-                                          "000": "Gut gemacht, kleine Stadt. Ihr habt eine weitere Nacht überlebt. Ogo, seine Berg und seine Wahrsager sind von der Erde verschwunden, aber Ihr bleibt. Feiert Ihr?"
+                                          "000": "Gut gemacht, kleine Stadt. Ihr habt eine weitere Nacht überlebt. Ogo, Mountain und seine Wahrsager sind von der Erde verschwunden, aber Ihr bleibt. Feiert Ihr?"
                                        },
                                        "bulletin_title": "Der verhüllte Orkspäher erscheint",
                                        "dialog_title": "Erdene, Red Kiln Späher",
-                                       "choice_000": "Yup! Es war ziemlich cool",
+                                       "choice_000": "Yup! Es WAR ziemlich cool",
                                        "choice_001": "Du siehst ... betrübt aus?"
                                     },
                                     "erdene_departs": {
@@ -2169,14 +2213,14 @@
                                     },
                                     "ogo_poem_3": {
                                        "bulletin_message": {
-                                          "000": "Von Holz geboren und zum Südstern getrieben, erwächst ein Nest der Hoffnung in den Bergen Riven"
+                                          "000": "Vom Holz geboren und zum Südstern getrieben, erwächst ein Nest der Hoffnung in den Bergen Riven"
                                        },
-                                       "bulletin_title": "Erdene considers",
+                                       "bulletin_title": "Erdene denkt nach",
                                        "dialog_title": "Erdene, Red Kiln Späher"
                                     },
                                     "red_kiln_description": {
                                        "bulletin_message": {
-                                          "000": "Mein Khan hat viele Jahre gesehen. Er ist krank. Wenn sein Stern fällt, werden seine Männer die Wildnis suchen um ihre Ehre zu steigern. Ogos Last wird an euch weitergeben und sie wird kommen."
+                                          "000": "Mein Khan hat viele Jahre gesehen. Er ist krank. Wenn sein Stern fällt, werden seine Männer die Wildnis suchen um Ehre zu steigern. Ogos Last dann an euch weitergehen und sie kommen."
                                        },
                                        "bulletin_title": "Erdene denkt nach",
                                        "dialog_title": "Erdene, Red Kiln Späher",
@@ -2192,23 +2236,23 @@
                                     },
                                     "ogo_poem_4": {
                                        "bulletin_message": {
-                                          "000": "Der Wink des Juwels in der Pfote des Affen, die Wiedergeburt des Sternes der Götter voraussah"
+                                          "000": "Der Wink des Juwels in der Pfote des Monkeys, die Wiedergeburt des Sterns der Götter voraussah"
                                        },
                                        "bulletin_title": "Erdene denkt nach",
                                        "dialog_title": "Erdene, Red Kiln Späher"
                                     },
                                     "erdene_discusses": {
                                        "bulletin_message": {
-                                          "000": "Zu den großen kommen die Herausforderungen der Großen. Macht sucht Macht. Um Macht zu besiegen ... ist um die Aufmerksamkeit von anderen einzuladen."
+                                          "000": "Zu den großen kommen Herausforderungen der Großen. Macht sucht Macht. Macht zu besiegen ... ist wie Aufmerksamkeit von anderen einzuladen."
                                        },
                                        "bulletin_title": "Erdene denkt nach",
                                        "dialog_title": "Erdene, Red Kiln Späher",
                                        "choice_000": "Mehr?",
-                                       "choice_001": "Wir können Sie nehmen!"
+                                       "choice_001": "Die schaffen wir auch!"
                                     },
                                     "ogo_poem_5": {
                                        "bulletin_message": {
-                                          "000": "Wer kann das schon sagen? Meine Leute glauben ... gut. Da spielt jetzt keine Rolle. Die Zyklen der Götter sind nichts für die alltäglichen Überlegungen der Menschen, Echsenmenschen, Affenvolk oderandernfalls. Schaut zu eurem Morgen, kleine Stadt, und gedeihen."
+                                          "000": "Wer kann das schon sagen? Meine Leute glauben ... gut. Da spielt jetzt keine Rolle. Die Zyklen der Götter sind nichts für die Überlegungen der Menschen, Echsenmenschen oder des Monkeyvolkes. Schau nach Morgen, kleine Stadt, und gedeihe."
                                        },
                                        "bulletin_title": "Erdene denkt nach",
                                        "dialog_title": "Erdene, Red Kiln Späher",
@@ -2232,7 +2276,7 @@
                                  "dialog_nodes": {
                                     "simple_message": {
                                        "bulletin_message": {
-                                          "000": "Musik erinnern Mountain an warmen, sicheren Ort. Von Essen und Feuer. Ich gebe dies Euch um Danke zu sagen.."
+                                          "000": "Musik erinnern Mountain an warmen, sicheren Ort. Von Essen und Feuer. Ich gebe dies Euch um Danke zu sagen."
                                        },
                                        "bulletin_title": "Mountain hinterlässt euch ein Geschenk",
                                        "dialog_title": "Mountain der Oger",
@@ -2387,19 +2431,6 @@
                                        "bulletin_title": "Mountain brüllt in Zustimmung",
                                        "dialog_title": "Mountain der Oger"
                                     }
-                                 }
-                              }
-                           }
-                        }
-                     }
-                  },
-                  "trigger": {
-                     "raidcamp": {
-                        "encounters": {
-                           "create_camp": {
-                              "loot_chest": {
-                                 "sheep": {
-                                    "display_name": "Glockenblume das Schaf"
                                  }
                               }
                            }
@@ -2973,6 +3004,15 @@
                                     }
                                  }
                               }
+                           },
+                           "unlock_blue_token_recipe": {
+                              "bulletin_title": "Der Schmied hat das dekorative Elitegong Rezept entsperrt!"
+                           },
+                           "unlock_purple_token_recipe": {
+                              "bulletin_title": "Der Schmied hat das goldene Generalsgong Rezept entsperrt!"
+                           },
+                           "unlock_red_token_recipe": {
+                              "bulletin_title": "Der Schmied hat das dekorative Meistergong Rezept entsperrt!"
                            }
                         }
                      }
@@ -2982,9 +3022,9 @@
          }
       },
       "buffs": {
-         "buff_duration_days": "[str(days)]d",
-         "buff_duration_hours": "[str(hours)]h",
-         "buff_duration_minutes": "[str(minutes)]m",
+         "buff_duration_days": "[str(days)]T",
+         "buff_duration_hours": "[str(hours)]Std",
+         "buff_duration_minutes": "[str(minutes)]Min",
          "carrying": {
             "carrying_buff": {
                "display_name": "So Schwer!",
@@ -3096,6 +3136,12 @@
                "description": "Erhöht den Mut für eine kurze Zeit."
             }
          },
+         "energy_tonic": {
+            "energy_tonic_buff": {
+               "display_name": "Energieelixier",
+               "description": "Erhöht die Energie für eine kurze Zeit."
+            }
+         },
          "minor_courage_buff": {
             "minor_courage_buff_buff": {
                "display_name": "Geringfügiger Mut",
@@ -3106,6 +3152,16 @@
             "game_mode_hard_buff": {
                "display_name": "Harter Modus",
                "description": "Im harten Modus, haben Feinde mehr Rüstung, Gesundheit und verursachen mehr Schaden"
+            }
+         },
+         "slowed": {
+            "snap_trap": {
+               "display_name": "Schnapp-Falle",
+               "description": "Verlangsamte Bewegung, durch Schaden von einer Falle"
+            },
+            "snap_trap_2": {
+               "display_name": "Klemm-Falle",
+               "description": "Stark verlangsamte Bewegung, durch Schaden von einer großen Falle"
             }
          }
       },
@@ -3146,12 +3202,16 @@
             "wall": {
                "display_name": "Mauer",
                "description": "Hält Dächer oben"
+            },
+            "stairs": {
+               "display_name": "Treppen",
+               "description": "Geh hoch und runter"
             }
          },
          "building_brushes": {
             "colors": {
                "#928C76": "Meliertes Grau",
-               "#4C2424": "Leicht vulkanisch",
+               "#4C2424": "Leicht Vulkanisch",
                "#C0BBA8": "Asche",
                "#693921": "Neuer Bernstein",
                "#A5A199": "Heller Gebirgsnebel",
@@ -3186,17 +3246,37 @@
                "#A69C7F": "Hillary",
                "#464D53": "Thunfisch",
                "#7A452A": "Kupferschlucht",
-               "#3B1919": "rustikales Rot",
+               "#3B1919": "Rustikales Rot",
                "#244E7D": "Bahamablau",
                "#DCCAA3": "Bast",
                "#9B8F6D": "Blasse Auster",
                "#A19D97": "Gebirgsnebel",
                "#C1A975": "Ecru",
-               "#676D74": "Mittleres Grau",
+               "#676D74": "Mittelgrau",
                "#4E555C": "Forelle",
                "#864E31": "Korma",
                "#644F46": "Kongobraun",
                "#927923": "Zitrone Ingwer"
+            },
+            "patterns": {
+               "gold_clay_wall": "Ein Muster aus Pavlova, Bast, Winterhaselnuss und Ecru",
+               "wooden_wall": "Ein Muster aus Punga, und Tabakbraun",
+               "red_clay_slat_roof": "Ein Dach gemacht aus Korma farbigem Ton und kakaobraunen Holz",
+               "cobblestone": "Ein Muster aus Hillary, Granitgrün und blasser Auster",
+               "thatch_peaked_roof": "Ein Dach gemacht aus in Pesto, Zitrone Ingwer, Yukon Gold und in antikem Messing gefärbtem Holz",
+               "red_slate_peaked_roof": "Ein Dach gemacht aus in leicht Vvulkanisch, Vulkanisch und in rustikal Rot gefärbtem Stein",
+               "gray_clay_wall": "Ein Muster aus hellem Gebirgsnebel, Gebirgsnebel, dunklem Gebirgsnebel und Wolkig",
+               "golden_clay_slat_roof": "Ein Dach gemacht aus Bast farbigem Ton und kakaobraunen Holz",
+               "castle_roof": "Ein Dach gemacht aus in Thunfisch, Schiffchengrau, und Mittelgrau gefärbtem Stein",
+               "plastered_wall": "Ein Muster aus Napa und Asche",
+               "blue_slate_peaked_roof": "Ein Dach gemacht aus in Bahamablau, königliches Blau und in dunkles königliches Blau gefärbtem Stein",
+               "brick_tiled": "Ein Muster aus  Kongobraun, dunklem Kongobraun und Kork",
+               "wooden_peaked_roof": "Ein Dach gemacht aus in Schokolade, Bistre und in Marokkobraun gefärbtem Stein",
+               "cobblestone_wall": "Ein Muster aus Thunfisch und Forelle",
+               "slate_blue_checkered": "Ein Muster aus Schiffchengrau und Mittelgrau",
+               "clay_slat_roof": "Ein Dach gemacht aus in leicht Asche farbigem Ton und kakaobraunen Holz",
+               "wood_dark_diagonal": "Ein Muster aus Müesli und Andelholz",
+               "red_clay_wall": "Ein Muster aus Backerschokolade und neuen Bernstein"
             }
          }
       },
@@ -3312,7 +3392,7 @@
             "description": "Hinzufügen und Entfernen von Mitglieder zu dieser Gruppe."
          },
          "cancel_marker": {
-            "display_name": "Storniermarkierung",
+            "display_name": "Storniere Markierung",
             "description": "Bricht die Kampfaufträge für diese Markierung ab"
          },
          "select_owner": {
@@ -3502,7 +3582,7 @@
                      "010": "as fühlt sich wirklich wie ein Ort an, wo wir etwas Großes bauen können.",
                      "011": "Ununterbrochene Glückseligkeit! Ich liebe Tage wie diesen!",
                      "012": "24 Stunden pure Erholung.",
-                     "013": "Ein Tag ohne eine einzige äußere Bedrohung! Erstaunlich!"
+                     "013": "Ein Tag ohne eine einzige existentielle Bedrohung! Erstaunlich!"
                   }
                }
             },
@@ -4530,15 +4610,9 @@
                "description": "Stärker als die durchschnittliche Tür."
             }
          },
-         "wooden_door_4x4": {
-            "wooden_door_ghost": {
+         "wooden_tunnel_door": {
                "display_name": "Hölzerne Tunneltür",
                "description": "Nützlich zum Absperren von Tunneln"
-            },
-            "wooden_tunnel_door_ghost": {
-               "display_name": "Hölzerne Tunneltür",
-               "description": "Nützlich zum Absperren von Tunneln"
-            }
          },
          "wooden_double_door": {
             "wooden_double_door_ghost": {
@@ -4813,7 +4887,7 @@
                   "description": "Eine nicht realisierte Karrote."
                },
                "011": {
-                  "name": "Verrottete Karotte",
+                  "name": "Verfaulte Karotte",
                   "description": "Schimmelig und ekelhaft."
                }
             }
@@ -4887,7 +4961,7 @@
                   "description": "Eine nicht realisierte Rübe."
                },
                "011": {
-                  "name": "Verrottete Rübe",
+                  "name": "Verfaulte Rübe",
                   "description": "Verschimmelt und widerlich."
                }
             }
@@ -4913,8 +4987,34 @@
                   "description": "Ein nicht realisierter Kürbis."
                },
                "011": {
-                  "name": "Verrotteter Kürbis",
+                  "name": "Verfaulter Kürbis",
                   "description": "Verschimmelt und widerlich."
+               }
+            }
+         },
+         "watermelon_crop": {
+            "display_name": "Wassermelone",
+            "description": "Dauert eine Weile um zu wachsen, aber sehr lustig zu essen!",
+            "growth_stage": {
+               "003": {
+                  "name": "Reife Wassermelone",
+                  "description": "Köstlich!"
+               },
+               "002": {
+                  "name": "Baby Wassermelone",
+                  "description": "Noch nicht essbar!"
+               },
+               "001": {
+                  "name": "Wassermelonen Sproße",
+                  "description": "Noch nicht essbar!"
+               },
+               "000": {
+                  "name": "Wassermelonen Sämling",
+                  "description": "Eine nicht realisierte Wassermelone."
+               },
+               "011": {
+                  "name": "Verfaulte Wassermelone",
+                  "description": "Schimmelig und ekelhaft."
                }
             }
          },
@@ -4935,7 +5035,7 @@
                   "description": "Noch einen langen Weg zu wachsen."
                },
                "019": {
-                  "name": "Verrottete Seidenpflanze"
+                  "name": "Verfaulte Seidenpflanze"
                },
                "003": {
                   "name": "Unreife Seidenpflanze",
@@ -5003,7 +5103,7 @@
                   "name": "Seidenpflanzen Setzling"
                },
                "019": {
-                  "name": "Verrottete Seidenpflanze"
+                  "name": "Verfaulte Seidenpflanze"
                },
                "003": {
                   "name": "Unreife Seidenpflanze"
@@ -5034,7 +5134,7 @@
                   "description": "Eine nicht realisierte Rübe"
                },
                "011": {
-                  "name": "Verrottete Rübe",
+                  "name": "Verfaulte Rübe",
                   "description": "Verschimmelt und widerlich."
                }
             }
@@ -5044,11 +5144,11 @@
             "description": "Bernsteinfarbene Wellen aus Getreide.",
             "growth_stage": {
                "003": {
-                  "name": "reifer Weizen",
+                  "name": "Reifer Weizen",
                   "description": "Bereit für die Ernte!"
                },
                "002": {
-                  "name": "unreifer Weizen",
+                  "name": "Unreifer Weizen",
                   "description": "Fast bereit zum ernten"
                },
                "001": {
@@ -5096,15 +5196,15 @@
                   "description": "Zu bitter zum essen"
                },
                "002": {
-                  "name": "Früh-Kürbisse",
+                  "name": "Früh-Kürbis",
                   "description": "Verheißungsvoll"
                },
                "005": {
-                  "name": "Goldene Kürbisse",
+                  "name": "Goldener Kürbis",
                   "description": "Ernte jetzt!"
                },
                "004": {
-                  "name": "Grüne Kürbisse",
+                  "name": "Grüner Kürbis",
                   "description": "Fast reif!"
                },
                "001": {
@@ -5116,7 +5216,7 @@
                   "description": "Nur ein winziger Stummel"
                },
                "011": {
-                  "name": "Verrotte Kürbisse",
+                  "name": "Verfaulter Kürbis",
                   "description": "Traurigerweise ungenießbar"
                }
             }
@@ -5134,7 +5234,7 @@
                   "description": "Beginnt stachelig zu werden"
                },
                "002": {
-                  "name": "reifer Kaktus",
+                  "name": "Reifer Kaktus",
                   "description": "Wartet das seine Blumee blüht"
                },
                "003": {
@@ -5436,13 +5536,13 @@
          },
          "decorative_generals_gong": {
             "decorative_generals_gong_ghost": {
-               "display_name": "Goldener Generalgong",
+               "display_name": "Goldener Generalsgong",
                "description": "Inspiriert von dem Koboldbogenschützen General"
             }
          },
          "decorative_master_gong": {
             "decorative_master_gong_ghost": {
-               "display_name": "Meistergong",
+               "display_name": "Dekorativer Meistergong",
                "description": "Inspiriert durch den Kobold Meisterbogenschütze"
             }
          },
@@ -5538,6 +5638,16 @@
                "description": "Köstlich. Wirklich..."
             }
          },
+         "watermelon": {
+            "watermelon_basket": {
+               "display_name": "Wassermelonenkorb",
+               "description": "Bereit zum Essen"
+            },
+            "watermelon_serving": {
+               "display_name": "Wassermelonenstück",
+               "description": "Außerdem kann man die Samen ausspucken!"
+            }
+         },
          "sheep_jerky": {
             "display_name": "Rost mit Hammelfleisch"
          },
@@ -5548,7 +5658,7 @@
             },
             "veggie_stew_serving": {
                "display_name": "Schüssel mit vegtarischem Eintopf",
-               "description": "Delicious!"
+               "description": "Köstlich!"
             }
          },
          "wheat_bale": {
@@ -5698,7 +5808,7 @@
             }
          },
          "rotten_basket": {
-            "display_name": "Verrotteter Nahrungsmittelkorb",
+            "display_name": "Verfaulter Nahrungsmittelkorb",
             "description": "So vorrottet, dass es seine Form und Funktion verliert."
          },
          "rotten_egg": {
@@ -5724,7 +5834,7 @@
          },
          "donation_box": {
             "donation_box": {
-               "display_name": "Spenden für die Kirche des Überflusses",
+               "display_name": "Essensspendenbox",
                "description": "Herstellen um Großzügigkeit und Frömmigkeit zu zeigen"
             },
             "donation_box_serving": {
@@ -5858,6 +5968,10 @@
             "tombstone_ghost": {
                "display_name": "Ruhe in Frieden [str(self.unit_info.custom_name)]!",
                "description": "[str(self.unit_info.custom_name)] wird immer in unseren Erinnerungen bleiben.."
+            },
+            "tombstone": {
+               "display_name": "Grabmal",
+               "description": "Ein Denkmal für die Gefallenen"
             }
          },
          "writing_desk": {
@@ -6706,7 +6820,7 @@
          },
          "giant_bone_axe": {
             "display_name": "Riesige Knochenaxt",
-            "description": "Geschnitzt aus den Resten einer riesigen Bestie.",
+            "description": "Geschnitzt aus den Resten einer riesigen Bestie. (Zweihändig)",
             "giant_bone_axe_iconic": {
                "display_name": "Riesige Knochenaxt",
                "description": "Geschnitzt aus den Resten einer riesigen Bestie."
@@ -6714,7 +6828,7 @@
          },
          "giant_bone_mace": {
             "display_name": "Riesiger Knochenstreitkolben",
-            "description": "Verdammt Schwer! Perfekt zum Prügeln!",
+            "description": "Verdammt Schwer! Perfekt zum Prügeln! (Zweihändig)",
             "giant_bone_mace_iconic": {
                "display_name": "Riesiger Knochenstreitkolben",
                "description": "Zum Gesichter abflachen."
@@ -6730,7 +6844,7 @@
          },
          "iron_pike": {
             "display_name": "Eisenspieß",
-            "description": "Scharf, Lang, Spitz.",
+            "description": "Scharf, Lang, Spitz. (Zweihändig)",
             "iron_pike_iconic": {
                "display_name": "Eisenspieß",
                "description": "Scharf, Lang, Spitz."
@@ -6778,7 +6892,7 @@
          },
          "two_handed_sword": {
             "display_name": "Zweihandschwert",
-            "description": "Verdoppeln sich die Hände, verdoppeln sich die Probleme.",
+            "description": "Verdoppeln sich die Hände, verdoppeln sich die Probleme. (Zweihändig)",
             "two_handed_sword_iconic": {
                "display_name": "Zweihandschwert",
                "description": "Verdoppeln sich die Hände, verdoppeln sich die Probleme."
@@ -6826,7 +6940,7 @@
          },
          "ogos_bone_mace": {
             "display_name": "Der Bonker",
-            "description": "Entworfen von Ogo Skullbonker",
+            "description": "Entworfen von Ogo Skullbonker. (Zweihändig)",
             "ogos_bone_mace_iconic": {
                "display_name": "Der Bonker",
                "description": "Ex-Eigentum von Ogo Skullbonker"
@@ -6839,6 +6953,10 @@
          "turnip_bullet": {
             "display_name": "Rübe",
             "description": "Waffenfähiges Gemüse"
+         },
+         "bolt": {
+            "display_name": "Bolzen",
+            "description": "Bolzen"
          }
       },
       "consumables": {
@@ -6871,6 +6989,14 @@
          "courage_tonic": {
             "display_name": "Mutelixier",
             "description": "Vorübergehender Mutbuff"
+         },
+         "energy_tonic": {
+            "display_name": "Energieelixier",
+            "description": "Vorübergehender Energiebuff"
+         },
+         "repair_pack": {
+            "display_name": "Reperaturpack",
+            "description": "Wird verwendet um Türme aufzumunitionieren und Fallen zu reparieren"
          }
       },
       "outfits": {
@@ -6972,7 +7098,7 @@
             "description": "Der Schmied veredelt rohe Erz in Metallbaren und verwendet diese Baren um Waffen, Rüstungen und Bauteile wie Tore herzustellen.",
             "requirements": "Der Schmiedehammer, wird von dem Steinmetz hergestellt.",
             "level_6_data": {
-               "title": "Meister Schmied",
+               "title": "Meisterschmied",
                "perk_000_name": "Die Waffenkammer",
                "perk_000_description": "Die Beherrschung seines Faches erlaubt dem Schmied die feinsten Waffen und Rüstungen zu schmieden, seit dem vergessenen Phoenix Imperium."
             },
@@ -7229,9 +7355,9 @@
             "description": "Der Schreiner fertigt Werkzeuge und Möbel aus Holz. Die Werkzeuge die er herstellt schalten neue Jobs frei.",
             "requirements": "Schreinersäge, wird von dem Schmied hergestellt.",
             "level_6_data": {
-               "title": "Meister Schreiner",
+               "title": "Meisterschreiner",
                "perk_000_name": "10,000 Stunden",
-               "perk_000_description": "Die Beherrschung seines Faches gewährt dem Schreiner Zugang zu neuen Rezepten die der Stadt neue Möglichkeiten bieten."
+               "perk_000_description": "Die Beherrschung seines Faches gewährt dem Schreiner Zugang zu neuen Rezepten, die der Stadt neue Möglichkeiten bieten."
             },
             "level_2_data": {
                "perk_000_name": "Gemeinsame Einblicke",
@@ -7242,7 +7368,7 @@
                "perk_000_description": "Der Schreiner hat jetzt den Mut aufwendigere Projekte zu versuchen."
             },
             "level_1_data": {
-               "perk_000_name": "Standard Katalog",
+               "perk_000_name": "Standardkatalog",
                "perk_000_description": "Der Schreiner kann jetzt eine stattliche Auswahl an einfachen Möbeln herstellen."
             },
             "level_3_data": {
@@ -7553,7 +7679,7 @@
                "long_description": "Gigantischer schwerer Topf, geeignet für das Kochen von einem Fest nach dem anderen!"
             },
             "level_6_data": {
-               "title": "Meister Koch",
+               "title": "Meisterkoch",
                "perk_000_name": "10,000 Stunden (nicht implementiert)",
                "perk_000_description": "Die Gerichte des Koches sind jetzt so gut das Sie unerwartete Auswirkungen haben."
             },
@@ -7680,7 +7806,7 @@
                "description": "Nahrhaft und köstlich"
             },
             "donation_box_recipe": {
-               "recipe_name": "Spenden für die Kirch des Überflusses",
+               "recipe_name": "Spenden für die Kirche des Überflusses",
                "description": "Care-Paket für diejenigen, die größeren Bedarf haben als Ihr",
                "flavor": "Zu den Hungernden, Brot um den Glauben zu steuern. --Cid der Wanderer"
             }
@@ -7702,21 +7828,21 @@
          "engineer_description": {
             "display_name": "Ingenieur",
             "description": "Der Ingenieur erschafft erweiterte Apparaturen und Verteidigungswaffen .",
-            "requirements": "Ein Level 2 Schmied und eine Schraubenschlüssel, hergestellt vom Schmied.",
+            "requirements": "Ein Level 1Schmied und eine Schraubenschlüssel, hergestellt vom Schmied.",
             "level_6_data": {
-               "title": "Meister Ingenieur",
+               "title": "Meisteringenieur",
                "perk_000_name": "General der Verteidigung",
-               "perk_000_description": "Dieser Ingenieur kann bis zu zwölf Fallen und vier Türme platzieren"
+               "perk_000_description": "Dieser Ingenieur kann bis zu zwölf Fallen und acht Türme platzieren"
             },
             "level_2_data": {
                "perk_000_name": "Verbesserte Einfallsreichtum",
                "perk_000_description": "Der Ingenieur kann gebrochene Türen und Tore effizienter reparieren"
             },
             "level_1_data": {
-               "perk_000_name": "Standard Katalog",
+               "perk_000_name": "Standardkatalog",
                "perk_001_name": "Junger Verteidiger",
-               "perk_000_description": "Der Ingenieur kann nun Standard Geräte und Dekorationen herstellen.",
-               "perk_001_description": "Dieser Ingenieur kann bis zu vier Fallen und einen Turm platzieren"
+               "perk_000_description": "Der Ingenieur kann nun einfache Geräte und Dekorationen herstellen.",
+               "perk_001_description": "Dieser Ingenieur kann bis zu vier Fallen und zwei Türme platzieren"
             },
             "level_4_data": {
                "perk_000_name": "Erweiterter Katalog",
@@ -7728,7 +7854,7 @@
             },
             "level_3_data": {
                "perk_000_name": "Stadtverteidiger",
-               "perk_000_description": "Dieser Ingenieur kann bis zu acht Fallen und zwei Türme platzieren"
+               "perk_000_description": "Dieser Ingenieur kann bis zu acht Fallen und vier Türme platzieren"
             }
          },
          "engineer_wrench": {
@@ -7742,7 +7868,7 @@
          "engineer_workbench": {
             "engineer_workbench_ghost": {
                "display_name": "Ingenieurs-Werkbank",
-               "description": "Werkbank für Ingenieure um Gadgets, Waffen und Fallen zu schaffen."
+               "description": "Wird von Ingenieuren verwendet um Gadgets herzustellen."
             }
          },
          "engineer_outfit": {
@@ -7760,9 +7886,9 @@
                "recipe_name": "Bronzenes Zahnrad",
                "flavor": "Zum Glück benötigen diese Zähne kein Bürsten"
             },
-            "gadget_parts_name": "Gadget Teile",
+            "gadget_parts_name": "Zahnräder und Teile",
             "small_turret_recipe": {
-               "description": "Nach dem platzieren, schießt er aus der Ferne auf Feimde. Zerstört sich nach 15 Anwendungen.",
+               "description": "Nach dem platzieren, schießt er aus der Ferne auf Feinde. Muss nach 20 Anwendungen repariert werden.",
                "recipe_name": "Turm"
             },
             "iron_gear_recipe": {
@@ -7777,7 +7903,7 @@
             "ranged_weapons_name": "Schusswaffen ",
             "traps_name": "Defensive Fallen",
             "turnip_shooter_recipe": {
-               "description": "Schießt Rüben aus kurzem Abstand auf Feinde. Fällt nach 12 Anwendungen auseinander.",
+               "description": "Schießt Rüben, aus kurzem Abstand, auf Feinde. Muss nach 15 Anwendungen repariert werden.",
                "recipe_name": "Rübenschütze",
                "flavor": "Du magst den Geschmack von Rüben nicht? Keine Sorge sie sind Multifunktional!"
             },
@@ -7787,13 +7913,17 @@
                "flavor": "Eine leichtes Ärgernis für Oger. Ein Todeswunsch für Mäuse."
             },
             "iron_door_recipe": {
-               "description": "Dicke und robuste Eisentür ",
+               "description": "Dicke und robuste Eisentür. Kommt mit einem dicken und robusten Schloss",
                "recipe_name": "Gepanzerte Tür"
             },
             "decorations_name": "Dekorationen",
             "wooden_sign_engineer_recipe": {
                "description": "Ein Schild mit der Markierung des Ingenieurs.",
                "recipe_name": "Wandgebundenes Ingenieursschild"
+            },
+            "repair_pack_recipe": {
+               "description": "Wird verwendet um Türme aufzumunitionieren und Fallen zu reparieren",
+               "recipe_name": "Reparaturpack"
             }
          },
          "engineer_buffs": {
@@ -7934,7 +8064,7 @@
                "long_description": "Der Steinmetzt stellt Baumaterialien und dekorative Gegenstände aus Stein her."
             },
             "level_6_data": {
-               "title": "Meister Steinmetz",
+               "title": "Meistersteinmetz",
                "perk_000_name": "10,000 Stunden (nicht implementiert)",
                "perk_000_description": "Die Beherrschung seines Faches erlaubt dem Steinmetz völlig neue Möglichkeiten der Verwendung von Stein."
             },
@@ -7947,7 +8077,7 @@
                "perk_000_description": "Die Steinmetz wandert aus dem Bereich des Funktionalen in ... die Kunst."
             },
             "level_1_data": {
-               "perk_000_name": "Standard Katalog",
+               "perk_000_name": "Standardkatalog",
                "perk_000_description": "Der Steinmetz kann jetzt eine stattliche Auswahl an einfachen Möbeln herstellen."
             },
             "level_3_data": {
@@ -8142,8 +8272,8 @@
                "perk_000_description": "Wenn die Inspiration zuschlägt kann der Töpfer seine Werke auf unerwartete Weise verschönern."
             },
             "level_6_data": {
-               "title": "Meister Töpfer",
-               "perk_000_name": "Meister Töpfer",
+               "title": "Meistertöpfer",
+               "perk_000_name": "Meistertöpfer",
                "perk_000_description": "Der Töpfer hat die uralten Geheimnisse des Phoenix wiederentdeckt..."
             },
             "level_2_data": {
@@ -8491,7 +8621,7 @@
             "description": "Der Weber macht Fäden, Stoffe und Vorhänge aus Fasern und Farben.",
             "requirements": "Weberspindel, wird vom Schreiner hergestellt.",
             "level_6_data": {
-               "title": "Meister Weber",
+               "title": "Meisterweber",
                "perk_000_name": "10,000 Stunden (nicht implementiert)",
                "perk_000_description": "Die Beherrschung seines Faches erlaubt dem Weber völlig neue Möglichkeiten der Verwendung von Stoffen."
             },
@@ -8501,11 +8631,11 @@
             },
             "level_4_data": {
                "perk_000_name": "Einfallsreiche Verbesserungen (nicht implementiert)",
-               "perk_000_description": "Der Weber fügt klassischen Rezepeten ein neues Maß an Funktionalität hinzu.."
+               "perk_000_description": "Der Weber fügt klassischen Rezepeten ein neues Maß an Funktionalität hinzu."
             },
             "level_1_data": {
-               "perk_000_name": "Standard Katalog",
-               "perk_000_description": "Der Weber kann nun Standard Wandbehänge und Dekoration machen.."
+               "perk_000_name": "Standardkatalog",
+               "perk_000_description": "Der Weber kann nun einfache Wandbehänge und Dekoration machen."
             },
             "level_3_data": {
                "perk_000_name": "Künstlerische Inspiration",
@@ -8515,12 +8645,12 @@
          "recipes": {
             "banner_wall_big_recipe": {
                "description": "Zeige deinen Stolz auf deine Stadt mit diesem dekorativen Banner.",
-               "recipe_name": "Großes wandgebundenes Banner",
+               "recipe_name": "Großes Wandbanner",
                "flavor": "Auch ein Zeichen des Wohlstands."
             },
             "banner_wall_small_recipe": {
                "description": "Zeige deinen Stolz auf deine Stadt mit diesem kleinen Banner.",
-               "recipe_name": "Kleines wandgebundenes Banner",
+               "recipe_name": "Kleines Wandbanner",
                "flavor": "Handwerkliche Qualität bei feinen Auflösungen."
             },
             "bolt_of_cloth_recipe": {
@@ -8707,8 +8837,8 @@
                "long_description": "Ermöglicht dem Kräuterarzt heilende Salben und Bandagen herzustellen."
             },
             "level_1_data": {
-               "perk_000_name": "Verbesserte Willenskraft",
-               "perk_000_description": "Der Kräuterarzt kanalisiert die Geister des Waldes und gewinnt natürliche Regeneration."
+               "perk_000_name": "Natürliche Regeneration",
+               "perk_000_description": "Der Kräuterarzt kanalisiert die Geister des Waldes und gewinnt natürliche Regeneration. Willenskraft und Fleiß sind erhöht"
             },
             "level_2_data": {
                "perk_000_name": "Gemeinsame Einblicke",
@@ -8788,6 +8918,10 @@
                "description": "Bufft den Mut aller Hearthlinge für eine kurze Zeit.",
                "recipe_name": "Mutelixier"
             },
+            "energy_tonic_recipe": {
+               "description": "Dieses Elixier macht deine Stadtbewohner weniger schläfrig und lässt Sie sich für kurze Zeit schneller bewegen.",
+               "recipe_name": "Energieelixier"
+            },
             "decorations_name": "Dekorationen",
             "cleric_tome_recipe": {
                "recipe_name": "Klerikerfoliant",
@@ -8797,8 +8931,8 @@
          },
          "herbalist_buffs": {
             "willpower_1_buff": {
-               "display_name": "Willenskraft +50",
-               "description": "Der Kräuterarzt hat die Gesundheitsregeneration verbessert"
+               "display_name": "Natürliche Regeneration",
+               "description": "Der Kräuterarzt hat die Gesundheitsregeneration und den Fleiß verbessert"
             }
          }
       },
