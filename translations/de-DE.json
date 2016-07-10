@@ -687,7 +687,8 @@
                "finished_editing": "Beende Bearbeitung",
                "start_editing": "Bearbeiten",
                "build_complete_title": "Herzlichen Glückwünsch!",
-               "build_complete_description": "Dieses Gebäude ist fertig"
+               "build_complete_description": "Dieses Gebäude ist fertig",
+               "compute_scaffolding": "Plant Gebäude"
             },
             "roof_shape": {
                "title": "Steigung, Ausrichtung, & Größe",
@@ -6993,10 +6994,6 @@
          "energy_tonic": {
             "display_name": "Energieelixier",
             "description": "Vorübergehender Energiebuff"
-         },
-         "repair_pack": {
-            "display_name": "Reperaturpack",
-            "description": "Wird verwendet um Türme aufzumunitionieren und Fallen zu reparieren"
          }
       },
       "outfits": {
@@ -7920,10 +7917,6 @@
             "wooden_sign_engineer_recipe": {
                "description": "Ein Schild mit der Markierung des Ingenieurs.",
                "recipe_name": "Wandgebundenes Ingenieursschild"
-            },
-            "repair_pack_recipe": {
-               "description": "Wird verwendet um Türme aufzumunitionieren und Fallen zu reparieren",
-               "recipe_name": "Reparaturpack"
             }
          },
          "engineer_buffs": {
