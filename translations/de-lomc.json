@@ -61,6 +61,16 @@
                "description" : "Fürchte die Macht des Schwarzmagiers!"
                }
             },
+         "cactihati": {
+            "cactihati": {
+               "display_name" : "Cactihati",
+               "description" : "Berühr nicht meinen Hut!"
+               },
+            "cactihati_iconic": {
+               "display_name" : "Cactihati",
+               "description" : "Berühr nicht meinen Hut!"
+               }
+            },
          "rabbithat": {
             "rabbithat": {
                "display_name" : "Hasenohren",
@@ -151,6 +161,26 @@
                "description" : "Du weisst nichts, Jon Snow!"
             }
          },
+         "ramask": {
+            "ramask": {
+               "display_name" : "Ramask",
+               "description" : "Wer, ich? Warum sollte ich durch Müll graben?"
+            },
+            "ramask_iconic": {
+               "display_name" : "Ramask",
+               "description" : "Wer, ich? Warum sollte ich durch Müll graben??"
+            }
+         },
+         "scigyptech": {
+            "scigyptech": {
+               "display_name" : "Scigyptech",
+               "description" : "Ich seh dich!"
+            },
+            "scigyptech_iconic": {
+               "display_name" : "Scigyptech",
+               "description" : "Ich seh dich!"
+            }
+         },
          "animemuch_glasses": {
             "animemuch_glasses": {
                "display_name" : "Animemuch Brille",
@@ -184,17 +214,27 @@
             "recipe_name" : "Vortech",
             "description" : "Stahl ist alles!",
             "flavor" : ""
+         },
+         "scigyptech_recipe": {
+            "recipe_name" : "Scigyptech",
+            "description" : "Ich seh dich!",
+            "flavor" : ""
          }
       },
       "carpenter": {
          "boxhead_recipe": {
             "recipe_name" : "Kistenkopf",
-            "description" : "Im in the Box!",
+            "description" : "Ich bin in der Box!",
             "flavor" : ""
          },
          "miner_recipe": {
             "recipe_name" : "Miner",
             "description" : "Lasst uns graben!",
+            "flavor" : ""
+         },
+         "ramask_recipe": {
+            "recipe_name" : "Ramask",
+            "description" : "Wer, ich? Warum sollte ich durch Müll graben?",
             "flavor" : ""
          }
       },
@@ -247,6 +287,11 @@
          "ash_recipe": {
             "recipe_name" : "Cappy",
             "description" : "Los schnapp dir alle Monster!",
+            "flavor" : ""
+         },
+         "cactihati_recipe": {
+            "recipe_name" : "Cactihati",
+            "description" : "Berühr nicht meinen Hut!",
             "flavor" : ""
          }
       }

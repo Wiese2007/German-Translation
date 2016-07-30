@@ -2640,8 +2640,8 @@
                                        "bulletin_message": {
                                           "000": "Werdet Ihr die Kinder des Waldes gehen lassen? Sie gehören nicht in eure Kisten oder als Trophäen an eure Wand. Eure Nachgiebigkeit wird belohnt.",
                                           "001": "Hunderte von den großen Eichen und Wacholder wurden abgeholzt um die Gier des Menschen zu befriedigen. Unsere Geduld wird dünn. Ich bitte euch, gebt Sie zurück in Ihre Heimat.",
-                                          "002": "Gebt unsere Holzklötze zurück und helfen, das natürliche Gleichgewicht der großen Wälder wiederherzustellen. Ich kann nicht für Eure Sicherheit garantieren, wenn Ihr euch weigert.",
-                                          "003": "Unsere Wildnis wurde für euren ausschweifenden Lebensstil geopfert. Wir geben Euch eine Chance, unsere Holzklötze zurückzugeben. Ich schlage vor, dass Ihr meine Warnung beachtet."
+                                          "002": "Gebt unsere Holzblöcke zurück und helfen, das natürliche Gleichgewicht der großen Wälder wiederherzustellen. Ich kann nicht für Eure Sicherheit garantieren, wenn Ihr euch weigert.",
+                                          "003": "Unsere Wildnis wurde für euren ausschweifenden Lebensstil geopfert. Wir geben Euch eine Chance unsere Holzblöcke zurückzugeben. Ich schlage vor, dass Ihr meine Warnung beachtet."
                                        },
                                        "bulletin_title": "Der Ent hat eine Anfrage.",
                                        "dialog_title": "Ent"
@@ -2671,7 +2671,7 @@
                                        "bulletin_message": {
                                           "000": "Wir werden diese zurückholen."
                                        },
-                                       "bulletin_title": "Eine Horde von Entlingen entkommen mit deinen Holzklötzen!",
+                                       "bulletin_title": "Eine Horde von Entlingen entkommen mit deinen Holzblöcken!",
                                        "dialog_title": "Ent"
                                     }
                                  }
@@ -4758,7 +4758,7 @@
          "log_pile": {
             "log_pile_ghost": {
                "display_name": "Holzstapel",
-               "description": "Ernte Ihn für eine große Anzahl Holzklötzen"
+               "description": "Ernte Ihn für eine große Anzahl von Holzblöcken"
             },
             "log_pile_iconic": {
                "description": "Erntbar für Holz, wenn platziert."
@@ -4841,7 +4841,7 @@
          },
          "woodchuck": {
             "display_name": "Murmeltier",
-            "description": "Ein unersättlicher Esser von fast allem, vor allem Holzklötzen."
+            "description": "Ein unersättlicher Esser von fast allem, vor allem Holzblöcken."
          }
       },
       "crops": {
@@ -6552,27 +6552,27 @@
          "wood": {
             "juniper_log": {
                "display_name": "Wacholderbaumstamm",
-               "description": "Ein Klotz. Gemacht aus Holz."
+               "description": "Ein Block. Gemacht aus Holz."
             },
             "oak_log": {
                "display_name": "Eichenbaumstammm",
-               "description": "Ein Klotz. Gemacht aus Holz."
+               "description": "Ein Block. Gemacht aus Holz."
             },
             "pine_log": {
                "display_name": "Kiefernbaumstammm",
-               "description": "Ein Klotz. Gemacht aus Holz."
+               "description": "Ein Block. Gemacht aus Holz."
             },
             "cactus_log": {
                "display_name": "Kaktusbaumstammm",
-               "description": "Ein Klotz. Gemacht aus Holz."
+               "description": "Ein Block. Gemacht aus Holz."
             },
             "palm_log": {
                "display_name": "Palmenbaumstammm",
-               "description": "Ein Klotz. Gemacht aus Holz."
+               "description": "Ein Block. Gemacht aus Holz."
             },
             "acacia_log": {
                "display_name": "Akazienbaumstammm",
-               "description": "Ein Klotz. Gemacht aus Holz."
+               "description": "Ein Block. Gemacht aus Holz."
             }
          },
          "herb": {
@@ -7635,7 +7635,7 @@
             },
             "log_pile_recipe": {
                "recipe_name": "Holzstapel",
-               "description": "Ein Stapel von Holzklötzen. Eine hervorragende Möglichkeit Holz für eine spätere Verwendung zu speichern."
+               "description": "Ein Stapel von Holzblöcken. Eine hervorragende Möglichkeit Holz für eine spätere Verwendung zu speichern."
             },
             "wheat_pile_recipe": {
                "recipe_name": "Großes Weizenbündel",
@@ -7643,7 +7643,7 @@
             },
             "blue_market_stall_recipe": {
                "description": "Händler können diesen Stand besuchen, um Waren zu kaufen und zu verkaufen",
-               "recipe_name": "blauer Marktstand ",
+               "recipe_name": "Blauer Marktstand ",
                "flavor": "Aber wer sind diese Leute? Und wo kommen sie her?"
             },
             "archer_bow_recipe": {

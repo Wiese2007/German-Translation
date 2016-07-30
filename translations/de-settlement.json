@@ -33,6 +33,14 @@
             "display_name": "Eckhecke",
             "description": "Belaubt und luftig"
          },
+         "tumbleweed_fibre_fence": {
+            "display_name": "Steppenläufer-Fasern-Hecke",
+            "description": "Ein wirres Durcheinander "
+         },
+         "tumbleweed_fibre_fence_corner": {
+            "display_name": "Steppenläufer-Fasern-Eckhecke",
+            "description": "Eckstück einer Hecke"
+         },
          "mine_entrance_scaffold": {
             "display_name": "Mineneingangsgerüst",
             "description": "Holzgerüst als Unterstützung für die Minen"
@@ -85,11 +93,15 @@
          },
          "bird_house": {
             "display_name": "Vogelhaus",
-            "description": "kostenlose Vogelunterkunft."
+            "description": "Kostenlose Vogelunterkunft."
          },
          "brightbell_hanging_basket": {
             "display_name": "Glockenblumen Hängekorb",
-            "description": "Ein Fluch es zu Wässern."
+            "description": "Ein Qual es zu Wässern."
+         },
+         "cactus_tree_planter": {
+            "display_name": "Kaktus-Baum-Pflanzer",
+            "description": "Groß, stark und stachelig."
          },
          "canopy_garden": {
             "display_name": "Baldachingarten",
@@ -98,6 +110,14 @@
          "canopy_garden_long": {
             "display_name": "Langer Baldachingarten",
             "description": "Warum sollte nur Blumen auf dem Boden haben."
+         },
+         "cloth_canopy": {
+            "display_name": "Stoff-Überdachung",
+            "description": "Ein schattiger Platz zum Ausruhen."
+         },
+         "cloth_canopy_long": {
+            "display_name": "Lange Stoff-Überdachung",
+            "description": "Ein schattiger Platz zum Ausruhen."
          },
          "chiminea": {
             "display_name": "Außenkamin",
@@ -123,6 +143,10 @@
             "display_name": "Fuchsfeuer Laterne",
             "description": "Mit glühendem Schleim gefüllt Steinlaterne"
          },
+         "ember_lantern": {
+            "display_name": "Emberlaterne",
+            "description": "Steinlaterne mit Ember Pflanzenpollen gefüllt"
+         },
          "frostsnap_hanging_basket": {
             "display_name": "Eisblumen Hängekorb",
             "description": "Eine Qual zu wässern."
@@ -139,6 +163,18 @@
             "display_name": "Wächterstatue ",
             "description": "Ein steinerne Wächterstatue"
          },
+         "hanging_cactus_pots": {
+            "display_name": "Kaktus Hängekorb",
+            "description": "Hängende Töpfe die Kakteen beherbergen."
+         },
+         "hanging_ember_pots": {
+            "display_name": "Ember Hängekorb",
+            "description": "Hängende Töpfe die Ember beherbergen."
+         },
+         "hanging_litso_pots": {
+            "display_name": "Litso Hängekorb",
+            "description": "Hängende Töpfe die Litsogras beherbergen."
+         },
          "large_stone_planter": {
             "display_name": "Großer Steinpflanzer",
             "description": "Hübsch und robust."
@@ -152,7 +188,7 @@
             "description": "So schön."
          },
          "log_chair": {
-            "display_name": "Holzklotzstuhl",
+            "display_name": "Holzblockstuhl",
             "description": "Außensitzplatz für einen Moment der Entspannung."
          },
          "luxury_stone_chair": {
@@ -172,7 +208,7 @@
             "description": "Ein Topf mit einer Glockenblume."
          },
          "potted_foxfire": {
-            "display_name": "Eingetopfte Fuchsfeuer",
+            "display_name": "Eingetopftes Fuchsfeuer",
             "description": "Ein Topf mit einem Fuchsfeuer."
          },
          "potted_frostsnap": {
@@ -182,6 +218,14 @@
          "potted_sunflower": {
             "display_name": "Eingetopfte Sonnenblume",
             "description": "Ein Topf mit einer Sonnenblume."
+         },
+         "potted_litso_grass": {
+            "display_name": "Eingetopftes Litsogras",
+            "description": "Ein Topf mit einem Litsogras."
+         },
+         "potted_ember_plant": {
+            "display_name": "Eingetopfte Emberpflanze",
+            "description": "Ein Topf mit einer Emberpflanze."
          },
          "sarcophagus": {
             "display_name": "Sarkophag",
@@ -263,6 +307,10 @@
             "display_name": "Wandgebundene Fuchsfeuerlaterne",
             "description": "Wandgebundene Steinlaterne mit glühendem Schleim gefüllt."
          },
+         "wall_mounted_ember_lantern": {
+            "display_name": "Wandgebundene Emberlanterne",
+            "description": "Wandgebundene Steinlaterne mit Ember Pflanzenpollen gefüllt."
+         },
          "weaver_tapestry": {
             "display_name": "Weber Wandteppich",
             "description": "Ein dekorativer Wandteppich eines hart arbeitenden Webers."
@@ -316,6 +364,38 @@
         "foxfire_3" : {
             "name": "Fuchsfeuer Knospe",
             "description": "Bereit zum ernten"
+        },
+        "litso_grass": {
+            "display_name": "Litsogras",
+            "description": "Eine kurzes, kleines Gras mit dekorativen gelben Spitzen"
+        },
+        "litso_grass_1" : {
+            "name": "Litsogras Sämling",
+            "description": "Kleine schmale Triebe"
+        },
+        "litso_grass_2" : {
+            "name": "Litsogras Sproße",
+            "description": "Grüne Triebe wachsen größer und stärker"
+        },
+        "litso_grass_3" : {
+            "name": "Feines Litsogras",
+            "description": "Fast vollständig ausgereift"
+        },
+        "ember_plant": {
+            "display_name": "Emberpflanze",
+            "description": "Eine kurze blühende Pflanze mit rot glühenden Pollen"
+        },
+        "ember_plant_1" : {
+            "name": "Emberpflanzen Sämling",
+            "description": "Früher Pflanzenstängel"
+        },
+        "ember_plant_2" : {
+            "name": "Emberpflanzen Sproße",
+            "description": "Noch nicht vollständig ausgereift"
+        },
+        "ember_plant_3" : {
+            "name": "Feine Emberpflanze",
+            "description": "Erste Anzeichen der Blüte"
         }
       },
       "decorations": {
@@ -338,20 +418,24 @@
       },
       "plants": {
         "foxfire": {
-            "name": "Wild Fuchsfeuer",
+            "display_name": "Wild Fuchsfeuer",
             "description": "Ein erntebarer wilder Pilz"
+            "unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen."
         },
         "sunflower": {
-            "name": "Wild Sonnenblume",
+            "display_name": "Wild Sonnenblume",
             "description": "Eine erntebare wilde Sonnenblume"
+            "unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen."
         },
         "litso_grass": {
-            "name": "Wildes Litso Gras",
+            "display_name": "Wildes Litso Gras",
             "description": "Eine erntebare wilde Pflanze"
+            "unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen."
         },
         "ember_plant": {
-            "name": "Wilde Feuerpflanze",
+            "display_name": "Wilde Feuerpflanze",
             "description": "Eine erntebare wilde Pflanze"
+            "unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen."
         }
       },
       "resources": {
@@ -362,6 +446,22 @@
         "ember_plant_pollen": {
             "display_name": "Feuerpflanzen Pollen",
             "description": "Die Pollen von einer Feuerpflanze, die Orange wie Feuer glühen"
+        },
+        "ember_plant_pod": {
+            "display_name": "Emberpflanzenhülse",
+            "description": "Die blühende Hülse von einer Emberpflanze."
+        },
+        "foxfire_pod": {
+            "display_name": "Fuchsfeuerhülse",
+            "description": "Der schleimige Kern einer Fuchsfeuerpflanze."
+        },
+        "litso_grass_stem": {
+            "display_name": "Litsogras Stengel",
+            "description": "Der Stengel vom Litsogras."
+        },
+        "sunflower_pod": {
+            "display_name": "Sonnenblumenhülse",
+            "description": "Der Kopf der Sonnenblume."
         }
       }
    },
@@ -409,11 +509,23 @@
             "insufferable_academic": "Ich wollte schon immer Versuchen ein botanischen Wissenschaftler zu sein.",
             "diligent_sweetheart": "Ein Gärtner? Also kann ich überall Blumen zu setzen, wo immer ich will? Genial!!!"
         },
+        "recipe_category": {
+            "workbenches": "Werkbanken",
+            "garden_decorations": "Gartendekorationen",
+            "housing_decorations": "Hausdekorationen",
+            "planters": "Pflanzer",
+            "resources": "Ressourcen"
+        },
         "recipes": {
             "brightbell_hanging_basket": {
                 "recipe_name": "Glockenblumen Hängekorb",
                 "description": "Ein Korb für hängende Glockenblumen über der Tür.",
                 "flavor": "Warnung! Kann bei stürmischem Wetter tödlich sein."
+            },
+            "cactus_tree_planter": {
+                "recipe_name": "Kaktusbaum-Pflanzer",
+                "description": "Eine Ton-Ziegelbasis unterstützt einen großen Kaktusbaum.",
+                "flavor": "Nicht berühren!"
             },
             "canopy_garden_long": {
                 "recipe_name": "Langer Baldachingarten",
@@ -475,6 +587,31 @@
                 "description": "Ein kurzer Streifen Hecke.",
                 "flavor": "Umweltfreundliche Barriere."
             },
+            "tumbleweed_fibre_fence": {
+                "recipe_name": "Steppenläufer-Fasern-hecke",
+                "description": "Steppenläufer Fasern zusammengeschlungen, um eine Barriere zu bilden.",
+                "flavor": ""
+            },
+            "tumbleweed_fibre_fence_corner": {
+                "recipe_name": "Steppenläufer-Fasern-Eckhecke",
+                "description": "Steppenläufer Fasern zusammengeschlungen, um eine Eckbarriere zu bilden.",
+                "flavor": ""
+            },
+            "hanging_cactus_pots": {
+                "recipe_name": "Kaktus Hängekorb",
+                "description": "Pflanzentöpfe mit Kakteen gefüllt, von einem Faden hängend.",
+                "flavor": "Stellen Sie sicher, dass sie gut gesichert sind."
+            },
+            "hanging_ember_pots": {
+                "recipe_name": "Emberpflanzen Hängekorb",
+                "description": "Pflanzentöpfe mit Emberpflanzen gefüllt, von einem Faden hängend.",
+                "flavor": "Stellen Sie sicher, dass sie gut gesichert sind."
+            },
+            "hanging_litso_pots": {
+                "recipe_name": "Litsogras Hängekorb",
+                "description": "Pflanzentöpfe mit Litsogras gefüllt, von einem Faden hängend.",
+                "flavor": "Stellen Sie sicher, dass sie gut gesichert sind."
+            },
             "large_stone_planter": {
                 "recipe_name": "Großer Steinpflanzer",
                 "description": "Ein großes Steinornament, gefüllt mit Blumen.",
@@ -503,6 +640,16 @@
             "potted_sunflower": {
                 "recipe_name": "Eingetopfte Sonnenblume",
                 "description": "Ein Ton-Blumentopf, gefüllt mit einer Sonnenblume.",
+                "flavor": ""
+            },
+            "potted_litso_grass": {
+                "recipe_name": "Eingetopftes Litsogras",
+                "description": "Ein Ton-Blumentopf, gefüllt mit einer Litsogras.",
+                "flavor": ""
+            },
+            "potted_ember_plant": {
+                "recipe_name": "Eingetopfte Emberpflanze",
+                "description": "Ein Ton-Blumentopf, gefüllt mit einer Emberpflanze.",
                 "flavor": ""
             },
             "scarecrow": {
@@ -543,6 +690,9 @@
         }
    },
    "carpenter": {
+        "recipe_category" : {
+            "statues" : "Statuen"
+        },
         "recipes" : {
            "picket_fence_archway_recipe": {
               "recipe_name" : "Lattenzaun Torbogen",
@@ -610,8 +760,8 @@
               "flavor" : "Jetzt weiß ich, wie sich ein Bär fühlt."
            },
            "log_chair": {
-              "recipe_name" : "Holzklotzstuhl",
-              "description" : "Ein Stuhl aus einem Holzklotz geschnitzt.",
+              "recipe_name" : "Holzblockstuhl",
+              "description" : "Ein Stuhl aus einem Holzblock geschnitzt.",
               "flavor" : "Einfach, billig, effektiv und überhaupt nicht bequem."
            },
            "totem": {
@@ -632,6 +782,9 @@
         }
     },
     "mason": {
+        "recipe_category" : {
+            "statues": "Statuen"
+        },
         "recipes" : {
           "foxfire_lantern": {
             "recipe_name" : "Fuchsfeuerlaterne",
@@ -641,6 +794,16 @@
           "wall_mounted_foxfire_lantern": {
             "recipe_name" : "Wandgebundene Fuchsfeuerlaterne",
             "description" : "Eine steinerne wandgebundene Laterne gefüllt mit Fuchsfeuerschleim, um im Dunkeln zu leuchten.",
+            "flavor" : ""
+          },
+          "ember_lantern": {
+            "recipe_name" : "Emberlanterne",
+            "description" : "Eine steinerne Laterne gefüllt mit Emberpflanzen, um im Dunkeln zu leuchten.",
+            "flavor" : ""
+          },
+          "wall_mounted_ember_lantern": {
+            "recipe_name" : "Wandgebundene Emberlanterne",
+            "description" : "Eine steinerne wandgebundene Laterne gefüllt mit Emberpflanzen, um im Dunkeln zu leuchten.",
             "flavor" : ""
           },
           "sundial": {
@@ -730,6 +893,9 @@
        }
     },
     "weaver": {
+      "recipe_category": {
+        "storage" : "Lagerung"
+      },
       "recipes" : {
         "skull_flag": {
           "recipe_name" : "Schädelflagge",
@@ -754,7 +920,7 @@
         "flowered_curtains": {
           "recipe_name" : "Geblümter Vorhang",
           "description" : "Blockiert die harte und kalte Realität der Außenwelt.",
-          "flavor" : ""
+          "flavor" : "Blockiert die harte, kalte Realität der Außenwelt."
         },
         "berry_curtains": {
           "recipe_name" : "Berriger Vorhang",
@@ -765,6 +931,16 @@
           "recipe_name" : "Strohkorb",
           "description" : "Ein Korb gewebt aus Stroh, kann bis zu 16 Elemente speichern.",
           "flavor" : ""
+        },
+        "cloth_canopy": {
+          "recipe_name" : "Stoff-Überhang",
+          "description" : "Eine Holzrahmenkonstruktion mit einem Tuch bedeckt.",
+          "flavor" : "Bietet einen schattigen Platz, weg von der harten Sonne"
+        },
+        "cloth_canopy_long": {
+          "recipe_name" : "Lange Stoff-Übergang",
+          "description" : "Eine Holzrahmenkonstruktion mit einem Tuch bedeckt.",
+          "flavor" : "Bietet einen schattigen Platz, weg von der harten Sonne"
         }
       }
     },
