@@ -2,7 +2,7 @@
    "ui": {
       "customize_hearthling": {
          "title"       : "Passe deinen Hearthling an",
-         "role"        : "Rolle",
+         "role"        : "Rolle"
       },
       "data": {
          "tooltips": {

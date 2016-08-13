@@ -587,7 +587,9 @@
                "sell_all": "Verkauf alle",
                "buy_tab": "Kaufen",
                "sell_tab": "Verkaufen",
-               "not_enough_gold_tooltip": "Nicht genug Gold"
+               "shopkeeper_gold_label": "Händlergold",
+               "not_enough_gold_tooltip": "Nicht genug Gold",
+               "shopkeeper_not_enough_gold_tooltip": "Der Ladenbesitzer hat nicht genug Gold"
             },
             "city_dialog": {
                "proclamation": "AUSRUFUNG VON"
@@ -1170,8 +1172,8 @@
             "alpha_welcome_dialog": {
                "title": "Willkommen zu Stonehearth!",
                "message" : "Warnung: Dies ist eine Alpha. Es vermisst noch viele Funktionen und du kannst Fehlern während des Spielens begegnen.<br><br>Du kannst uns helfen, in dem du zustimmst uns automatisch ein Fehlerprotokoll zu senden. Geht das in Ordnung?",
-               "accept": "Ja, Fehlerprotokoll senden!",
-               "cancel": "Nee ich mag euch nicht!"
+               "accept": "Ja, Ich will helfen!",
+               "cancel": "Nein Danke! Ich mag euch nicht!"
             },
             "mod_conflic_dialog": {
                "title": "Modul Konflikt erkannt!",
@@ -1259,9 +1261,9 @@
             },
             "inventiveness": {
                "display_name": "Einfallsreichtum",
-               "description": "Wie gut dieser Hearthling beim Erstellen von Dingen ist. Gute Erfinder erstellen eher feine Gegenstände.",
+               "description": "Wie gut dieser Hearthling beim Erstellen von Dingen ist. Gute Erfinder erstellen eher schöne Gegenstände.",
                "bullet_points": {
-                  "000": "Alle 2 Punkte erhöht sich die Chance ein feines Stück zu fertigen um 1%"
+                  "000": "Alle 2 Punkte erhöht sich die Chance ein schönes Stück zu fertigen um 1%"
                }
             },
             "shelter": {
@@ -1476,7 +1478,16 @@
                   "waiting_text": "Der Händler wird in [str(i18n_data.hour_counter)] Stunden zurück sein um euch [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] zu geben, wenn Ihr [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) für Ihn bereit haltet!",
                   "return_title": "Der Händler ist zurück!",
                   "return_greetings_positive": "Ich bin zurück! Es sieht aus als hättet Ihr die [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) nach dennen ich gefragt hatte. Seid Ihr immernoch bereit, Sie mit mir zutauschen? Ich würde euch [str(i18n_data.reward_number)] [str(i18n_data.reward_item)](en) im Austausch geben. Klingt das immernoch gut?",
-                  "return_greetings_negative": "Ich bin zurück! Aber anscheinend habt Ihr die [str(i18n_data.want_number)] [str(i18n_data.want_item)] nach dennen ich gefragt hatte nicht. Das ist Schade! Vielleicht beim nächsten Mal!"
+                  "return_greetings_negative": "Ich bin zurück! Aber anscheinend habt Ihr die [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) nach dennen ich gefragt hatte nicht. Das ist Schade! Vielleicht beim nächsten Mal!"
+               },
+               "returning_crop_trader_encounter": {
+                  "title": "Ein Händler bringt Samen aus einem fernen Land.",
+                  "trade_details": "Hallo [str(i18n_data.town_name)]! Ich bin nur auf der Durchreise, aber ich wäre bereit ein oder zwei Handel zu machen, wenn Ihr interessiert seid. Wenn Ihr mir [str(i18n_data.want_number)] [str(i18n_data.want_item)] macht, werde ich in [str(i18n_data.num_days)] Tagen zurückommen und könnte in der Lage sein Euch [str(i18n_data.reward_item)] im Austausch anzubieten. Klingt das gut?",
+                  "waiting_title": "Der Händler wird in [str(i18n_data.hour_counter)] Stunden zurück sein!",
+                  "waiting_text": "Der Händler wird in [str(i18n_data.hour_counter)] Stunden zurück sein um euch [str(i18n_data.reward_item)] zu geben, wenn Ihr [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) für Ihn bereit haltet!",
+                  "return_title": "Der Händler ist zurück!",
+                  "return_greetings_positive": "Ich bin zurück! Es sieht aus als hättet Ihr die [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) nach dennen ich gefragt hatte. Seid Ihr immernoch bereit, Sie mit mir zutauschen? Ich würde euch [str(i18n_data.reward_item)] im Austausch geben. Klingt das immernoch gut?",
+                  "return_greetings_negative": "Ich bin zurück! Aber es sieht nicht danach aus das Ihr die [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) nach dennen ich gefragt hatte habt. Das ist Schade! Vielleicht beim nächsten Mal!"
                },
                "rugs_shop": {
                   "shop_info": {
@@ -3212,7 +3223,7 @@
          "building_brushes": {
             "colors": {
                "#928C76": "Meliertes Grau",
-               "#4C2424": "Leicht Vulkanisch",
+               "#4C2424": "Vulkanisch",
                "#C0BBA8": "Asche",
                "#693921": "Neuer Bernstein",
                "#A5A199": "Heller Gebirgsnebel",
@@ -3234,7 +3245,7 @@
                "#5A3D2D": "Schokolade",
                "#D0B884": "Winterhaselnuss",
                "#412B1F": "Marokkobraun",
-               "#542929": "Vulkanisch",
+               "#542929": "Leicht Vulkanisch",
                "#403521": "Klinker",
                "#A59F8B": "Napa",
                "#86764A": "Schatten",
@@ -3387,6 +3398,10 @@
          "use_consumable": {
             "display_name": "Verwende",
             "description": "Verwenden Sie diesen Verbrauchsgegenstand, um jeden Hearthling in der Stadt zu buffen. Dies wird den Gegenstand zerstören."
+         },
+         "use_seeds": {
+            "display_name": "Verwenden",
+            "description": "Verwenden Sie diesen Samen um Ihre Bauern zu lehren, wie Sie eine neue Feldfrucht pflanzen können. Dadurch wird das Element zerstören."
          },
          "edit_party": {
             "display_name": "Bearbeite Gruppe",
@@ -4355,6 +4370,9 @@
                "tavern": {
                   "display_name": "Taverne"
                }
+            },
+            "carpenter_house": {
+               "display_name": "Schreinerhaus"
             }
          }
       }
@@ -4601,13 +4619,13 @@
          },
          "wooden_door": {
             "wooden_door_ghost": {
-               "display_name": "Hölzerne Tür",
+               "display_name": "Holztür",
                "description": "Privatsphäre endlich!"
             }
          },
          "wooden_door_2": {
             "wooden_door_2_ghost": {
-               "display_name": "Verstärkte hölzerne Tür",
+               "display_name": "Verstärkte Holztür",
                "description": "Stärker als die durchschnittliche Tür."
             }
          },
@@ -4704,6 +4722,70 @@
                "display_name": "Gepanzerte Tür",
                "description": "Stabiler als Holz- oder Steintüren"
             }
+         },
+         "bronze_portcullis": {
+            "bronze_portcullis_ghost": {
+               "display_name": "Bronzenes Fallgatter",
+               "description": "Nützlich um die Zugangspunkte der Stadt zu verstärken"
+            }
+         },
+         "wooden_door_fine": {
+            "wooden_door_fine_ghost": {
+               "display_name": "Schöne Holztür",
+               "description": "Endlich Privatsphäre!"
+            }
+         },
+         "wooden_door_2_fine": {
+            "wooden_door_2_fine_ghost": {
+               "description": "Stabiler als die Standardtür und mit so einem süßen Muster.",
+               "display_name": "Schöne verstärkte Holztür"
+            }
+         },
+         "wooden_double_door_fine": {
+            "wooden_double_door_fine_ghost": {
+               "display_name": "Schöne hölzerne Doppeltür",
+               "description": "Eine größere Tür mit etwas mehr Stil. Alle deine Freunde werden neidisch sein."
+            }
+         },
+         "wooden_window_frame_fine": {
+            "wooden_window_frame_fine_ghost": {
+               "display_name": "Schöner Holzfensterrahmen ",
+               "description": "Soviel zur Privatsphäre..."
+            }
+         },
+         "wooden_window_frame_tall_fine": {
+            "wooden_window_frame_tall_fine_ghost": {
+               "display_name": "Schöner hohe Fensterrahmen",
+               "description": "Zusätzliche Höhe fügt einen Hauch von Eleganz hinzu"
+            }
+         },
+         "wooden_window_frame_wide_fine": {
+            "wooden_window_frame_wide_fine_ghost": {
+               "display_name": "Schöner breiter Fensterrahmen",
+               "description": "Es ist ein Panoramablick !"
+            }
+         },
+         "wooden_diamond_window_fine": {
+            "wooden_diamond_window_fine_ghost": {
+               "display_name": "Schönes Diamantfenster ",
+               "description": "Soviel zur Privatsphäre..."
+            }
+         },
+         "picket_fence_fine": {
+            "picket_fence_fine_ghost": {
+               "display_name": "Schöner Lattenzaun",
+               "description": "Wenn er nicht weiß ist, ist unser Leben dann unerfüllt?"
+            }
+         },
+         "picket_fence_gate_fine": {
+            "picket_fence_gate_fine_ghost": {
+               "display_name": "Schönes Lattenzauntor",
+               "description": "Du magst deine Nachbarn nicht? Dann installier es nicht."
+            }
+         },
+         "wooden_tunnel_door_fine": {
+            "display_name": "Schöne hölzerne Tunneltür",
+            "description": "Nützlich um Tunnel abzusperren"
          }
       },
       "containers": {
@@ -4782,6 +4864,24 @@
             "display_name": "Großes Weizenbündel",
             "description": "Ernte Ihn für eine große Menge an Weizen",
             "iconic_description": "Erntbar für Weizen, wenn platziert"
+         },
+         "small_crate_fine": {
+            "small_crate_fine_ghost": {
+               "display_name": "Schöne kleine Kiste",
+               "description": "Lagerbehälter mit Stil"
+            }
+         },
+         "large_crate_fine": {
+            "large_crate_fine_ghost": {
+               "description": "Lagerbehälter mit Stil",
+               "display_name": "Schöne große Kiste"
+            }
+         },
+         "leather_bound_chest_fine": {
+            "leather_bound_chest_fine_ghost": {
+               "display_name": "Schöne Leder-Truhe",
+               "description": "Lagerbehälter mit Stil"
+            }
          }
       },
       "critters": {
@@ -5188,6 +5288,28 @@
                }
             }
          },
+         "acacia_tree_crop": {
+            "display_name": "Akazien Schössling",
+            "description": "Keine Bäume mehr? Mach dich bereit um dich an der Wiederaufforstung zu beteiligen.",
+            "growth_stage": {
+               "001": {
+                  "name": "Akazien Setzling",
+                  "description": "Es ist erst der Anfang."
+               },
+               "003": {
+                  "name": "Akazien Schössling",
+                  "description": "Bereit in eine größere Parzelle übertragen zu werden."
+               },
+               "000": {
+                  "name": "Saatgut",
+                  "description": "Auch ein mächtiger Baum hat einen bescheidenen Anfang."
+               },
+               "002": {
+                  "name": "Akazien Sprosse Sprout",
+                  "description": "Perfekte Größe für eine Babygiraffe."
+               }
+            }
+         },
          "golden_gourd_crop": {
             "display_name": "Goldener Kürbis",
             "description": "Viel schöner, als es lecker ist",
@@ -5376,7 +5498,10 @@
          "wooden_garden_lantern_fine": {
             "wooden_garden_lantern_fine_ghost": {
                "display_name": "Schöne hölzerne Gartenlaterne",
-               "description": "Eine kompakte Lichtquelle"
+               "description": "Eine kompakte Lichtquelle, mit ein wenig Flair"
+            },
+            "wooden_garden_lantern_red_ghost": {
+               "display_name": "Rote hölzerne Gartenlaterne"
             }
          },
          "wooden_sign": {
@@ -5411,14 +5536,14 @@
          },
          "wooden_wall_lantern": {
             "wooden_wall_lantern_ghost": {
-               "display_name": "Holzlaterne für die Wand",
+               "display_name": "Hölzerne Wandlaterne",
                "description": "Leicht an der Wand befestigt"
             }
          },
          "wooden_wall_lantern_fine": {
             "wooden_wall_lantern_fine_ghost": {
-               "display_name": "Schöne Holzlaterne für die Wand",
-               "description": "Leicht an der Wand befestigt"
+               "display_name": "Schöne hölzerne Wandlaterne",
+               "description": "Leicht an der Wand zu befestigt"
             }
          },
          "clay_lamp": {
@@ -5576,6 +5701,30 @@
                "display_name": "Ingenieursschild",
                "description": "Ein Schild mit der Markierung des Ingenieurs."
             }
+         },
+         "wooden_garden_lantern_red": {
+            "wooden_garden_lantern_red_ghost": {
+               "display_name": "Hözerne Gartenlaterne - in Rot",
+               "description": "Eine kompakte Lichtquelle "
+            }
+         },
+         "wooden_wall_lantern_red": {
+            "wooden_wall_lantern_fine_ghost": {
+               "display_name": "Hölzerne Wandlaterne - in Rot",
+               "description": "Leicht an der Wand zu befestigt"
+            }
+         },
+         "window_box_brightbell_fine": {
+            "window_box_brightbell_fine_ghost": {
+               "display_name": "Schönes Glockenblumen Pflanzgefäß",
+               "description": "Ein kleines Heim für Pflanzen."
+            }
+         },
+         "window_box_frostsnap_fine": {
+            "window_box_frostsnap_fine_ghost": {
+               "display_name": "Schönes Eisblumen Pflanzgefäß",
+               "description": "Ein kleines Heim für Pflanzen."
+            }
          }
       },
       "food": {
@@ -5681,7 +5830,11 @@
          },
          "poyo_meat": {
             "display_name": "Rohes Poyofleisch",
-            "description": "Ich hab gehört es dauert solange wie ein Poyo."
+            "description": "Ich hab gehört es dauert solange wie ein Poyo.",
+            "rotten": {
+               "display_name": "Verrottetes Poyofleisch",
+               "description": "Es stinkt"
+            }
          },
          "poyo_pot_pie": {
             "poyo_pot_pie": {
@@ -6007,19 +6160,19 @@
          },
          "clay_dining_table_fine": {
             "clay_dining_table_fine_ghost": {
-               "display_name": "Feiner Lehmesstisch",
+               "display_name": "Schöner Lehm-Esstisch",
                "description": "Hält dein Essen vom Boden fern ... mit Stil"
             }
          },
          "simple_clay_chair_fine": {
             "simple_clay_chair_fine_ghost": {
-               "display_name": "Feiner Lehmstuhl",
+               "display_name": "Schöner Lehmstuhl",
                "description": "Weniger staubig und stilvoller als auf dem Boden sitzen"
             }
          },
          "clay_bed_fine": {
             "clay_bed_fine_ghost": {
-               "display_name": "Feines Lehmbett",
+               "display_name": "Schönes Lehmbett",
                "description": "Kunstvoll, aber immer noch unangenehm"
             }
          },
@@ -6036,6 +6189,12 @@
             "statue_of_cid_wanderer_ghost": {
                "display_name": "Statue von Cid Wanderer",
                "description": "Zeigt Cid in seinen späteren Jahren"
+            }
+         },
+         "park_bench_red": {
+            "park_bench_red_ghost": {
+               "display_name": "Rote hölzerne Parkbank",
+               "description": "Sitzgelegenheit im Freien, für Momente der Entspannung"
             }
          }
       },
@@ -6088,6 +6247,12 @@
                "display_name": "Kriechtier Falle",
                "description": "Umfunktioniert für den Einsatz gegen Feinde."
             }
+         },
+         "dummy_training": {
+            "dummy_training_ghost": {
+               "display_name": "Trainingspuppe",
+               "description": "Es ist am besten mit diesem freundlichen Kerl zu üben."
+            }
          }
       },
       "loot": {
@@ -6124,7 +6289,7 @@
                "description": "Und das ist die kleinere Variante..."
             },
             "wolf": {
-               "display_name": "ungezähmter Wolf",
+               "display_name": "Wilder Wolf",
                "description": "Grrr! Rwar!"
             }
          },
@@ -6733,6 +6898,16 @@
             "small_acacia_tree": {
                "display_name": "Kleine Akazie",
                "description": "Jung, aber herzlich"
+            },
+            "sapling_acacia_tree": {
+               "description": "Baby-Akazie.",
+               "sapling_acacia_tree_ghost": {
+                  "display_name": "Akazien Schößling",
+                  "description": "Baby-Akazie."
+               },
+               "sapling_acacia_tree_iconic": {
+                  "description": "Pflanze es in der Erde und schau beim wachsen zu."
+               }
             }
          },
          "joshua_tree": {
@@ -6783,10 +6958,10 @@
                "description": "Ein klein wenig größer als ein Schößling."
             },
             "sapling_oak_tree": {
-               "description": "Pflanze es in der Erde und schau beim wachsen zu.",
+               "description": "Baby-Eiche.",
                "sapling_oak_tree_ghost": {
                   "display_name": "Eichen Schößling",
-                  "description": "Pflanze es in der Erde und schau beim wachsen zu."
+                  "description": "Baby-Eiche."
                },
                "sapling_oak_tree_iconic": {
                   "description": "Pflanze es in der Erde und schau beim wachsen zu."
@@ -6958,6 +7133,10 @@
          "bolt": {
             "display_name": "Bolzen",
             "description": "Bolzen"
+         },
+         "fire_arrow": {
+            "display_name": "Feuerpfeil",
+            "description": "Ein Pfeil durchtränkt mit Flammen"
          }
       },
       "consumables": {
@@ -6994,12 +7173,75 @@
          "energy_tonic": {
             "display_name": "Energieelixier",
             "description": "Vorübergehender Energiebuff"
+         },
+         "seeds": {
+            "turnip_seeds": {
+               "display_name": "Rübensamen",
+               "description": "Lernen Sie die mächtige Rübe anzubauen."
+            },
+            "carrot_seeds": {
+               "display_name": "Karottensamen",
+               "description": "Lernen Sie Karotten anzubauen."
+            },
+            "pumpkin_seeds": {
+               "display_name": "Kürbissamen",
+               "description": "Lernen Sie Kürbisse anzubauen."
+            },
+            "golden_gourd_seeds": {
+               "display_name": "Goldener Kürbissamen",
+               "description": "Lernen Sie goldene Kürbisse anzubauen."
+            },
+            "watermelon_seeds": {
+               "display_name": "Wassermelonensamen",
+               "description": "Lernen Sie köstliche Melonen anzubauen."
+            },
+            "cactus_flower_seeds": {
+               "display_name": "Kaktus-Blumensamen ",
+               "description": "Lernen Sie köstliche und stachelige Blumen anzubauen."
+            },
+            "acacia_tree_seeds": {
+               "display_name": "Akaziensamen",
+               "description": "Lernen Sie Akazien anzubauen."
+            },
+            "oak_tree_seeds": {
+               "display_name": "Eicheln",
+               "description": "Lernen Sie Eichen anzubauen."
+            },
+            "brightbell_seeds": {
+               "display_name": "Glockenblumensamen",
+               "description": "Lernen Sie Glockenblumen anzubauen."
+            },
+            "frostsnap_seeds": {
+               "display_name": "Eisblumensamen",
+               "description": "Lernen Sie Eisblumen anzubauen."
+            },
+            "wheat_seeds": {
+               "display_name": "Weizenkörner",
+               "description": "Lernen Sie Weizen anzubauen."
+            },
+            "silkweed_seeds": {
+               "display_name": "Seidenpflanzensamen",
+               "description": "Lernen Sie Seidenpflanzen anzubauen."
+            }
          }
       },
       "outfits": {
          "trader_outfit": {
             "display_name": "Händler-Uniform",
             "description": "Kleidung der Wahl für Händler"
+         }
+      },
+      "constructillon": {
+         "wooden_door_2_fine": {
+            "wooden_door_2_fine_ghost": {
+               "description": "Stabiler als die Standardtür, und auch noch mehr poliert."
+            }
+         }
+      },
+      "ephemera": {
+         "ball_of_wax": {
+            "display_name": "Ball aus Ohrenwachs",
+            "description": "Krass oder?"
          }
       }
    },
@@ -7070,9 +7312,17 @@
       },
       "architect": {
          "architect_description": {
-            "display_name": "???",
+            "display_name": "Architekt",
             "description": "???",
-            "requirements": "???"
+            "requirements": "???",
+            "level_0_data": {
+               "perk_000_name": "Schnelle Konstruktion",
+               "perk_000_description": "Der Architekt kann schneller bauen!"
+            },
+            "level_1_data": {
+               "perk_000_name": "Erhaltung des Materials",
+               "perk_000_description": "Sie haben eine Chance das jede Herstellung einen Stapel Baumaterial nicht verbrauchen."
+            }
          }
       },
       "armorsmith": {
@@ -7462,7 +7712,7 @@
                "flavor": "Hoffentlich magst du deine Nachbarn!"
             },
             "picket_fence_recipe": {
-               "description": "ält Leute von Ihrem Grundstück ab.",
+               "description": "Hält Leute von Ihrem Grundstück ab.",
                "recipe_name": "Lattenzaun",
                "flavor": "Wenn er nicht weiß ist, ist unser Leben dann unerfüllt?"
             },
@@ -7519,12 +7769,12 @@
             },
             "wooden_door_2_recipe": {
                "description": "Stärker als die durchschnittliche Tür.",
-               "recipe_name": "Verstärkte hölzerne Tür",
+               "recipe_name": "Verstärkte Holztür",
                "flavor": "Dieses Muster hier, habe ich vom Squarefolk gelernt."
             },
             "wooden_door_recipe": {
                "description": "Kleines Hindernis für Eindringlinge.",
-               "recipe_name": "Hölzerne Tür",
+               "recipe_name": "Holztür",
                "flavor": "Privatsphäre endlich!"
             },
             "wooden_double_door_recipe": {
@@ -8219,7 +8469,7 @@
             },
             "stone_tunnel_door_recipe": {
                "description": "Nützlich zum Abdichtung von Stollen.",
-               "recipe_name": "Steintunneltür"
+               "recipe_name": "Steinerne Tunneltür"
             },
             "firepit_recipe": {
                "recipe_name": "Feuerstelle aus Stein",
@@ -8445,7 +8695,7 @@
             },
             "clay_tunnel_door_recipe": {
                "description": "Nützlich zum Abdichtung von Stollen.",
-               "recipe_name": "Lehmtunneltür"
+               "recipe_name": "Lehmerne Tunneltür"
             }
          },
          "potter_workbench": {

@@ -12,9 +12,9 @@
          },
          "recipes": {
             "mason_clay_chisel_recipe": {
-               "description": "Der Töpfer kann Lehm verwenden um einen extrem starken Meißel herzustellen",
+               "description": "Wird benötigt um einen Hearthling in einen Steinmetz zu ernennen",
                "recipe_name": "Steinmetz-Lehmmeißel",
-               "flavor": "'Der Ofen erhitzt alle Dinge; er bezeugt wie Ton, durch die Alchimie des Monkey, so stark wie Stein wird.' --Meister Erisa"
+               "flavor": ""
             }
          }
       },

@@ -27,13 +27,39 @@
                "recipe_name": "Verstärkte Rüstung",
                "description": "Hoher Rüstungswert und verleiht demjenigen Mut, der es trägt.",
                "flavor": "Für den Herold!"
+            },
+            "fortified_agility_obelisk_recipe": {
+               "recipe_name": "Verstärkender Beweglichkeitsobelisk",
+               "description": "Kraftschrein zu Ehren der kraftvollen Aspekte des Herolds.",
+               "flavor": "Lauf weg!"
+            },
+            "light_of_valor_obelisk_recipe": {
+               "recipe_name": "Licht der Tapferkeit Obelisk",
+               "description": "Kraftschrein zu Ehren der mutigen Aspekte des Herolds.",
+               "flavor": "Und wir werden in die Richtung der Feinde spucken!"
+            },
+            "heraldric_bulwark_obelisk_recipe": {
+               "recipe_name": "Heroldischer Bollwerk Obelisk",
+               "description": "Kraftschrein zu Ehren der handfesten Aspekte des Herolds.",
+               "flavor": "Wir können alle unsere Feinde besiegen! Für ihre Mütter waren alle wir nur Hamster!"
+            },
+            "shrines_name": "Shrines",
+            "mining_helmet_recipe": {
+               "recipe_name": "Bergbauhelm",
+               "description": "Ein Muss für jeden echten Bergmann.",
+               "flavor": "Techmaturgische Synergie. Bergbau Notwendigkeit."
+            },
+            "earthen_rejuvenation_obelisk_recipe": {
+               "recipe_name": "Irdischer Verjüngungsobelisk",
+               "description": "Konstruiere einen Schrein der das Wesen der Pflanzen zwingt zu wachsen und Tiere zu leben.",
+               "flavor": "Es wird Haare auf deine Brust machen .... Oder Blätter."
             }
          }
       },
       "carpenter": {
          "carpenter_description": {
             "description": "Steinmetzarbeit ist ein ermüdendes Handwerk. Sanftere Seelen haben sich auf die geschmeidige und flexible Natur von Holz eingestellt. Die Formbarkeit von Holz bietet sich für die Herstellung von feinen und schönen Möbeln oder Bauteilen besser an, als Stein.",
-            "requirements": "Ein Level 4 Steinmetz und eine Schreinersäge, wird hergestellt vom Schmied."
+            "requirements": "Ein Level 5 Verfeinerer und eine Schreinersäge, wird hergestellt vom Schmied."
          },
          "recipes": {
             "crate_helmet_recipe": {
@@ -41,6 +67,17 @@
                "description": "Es passt so perfekt, wie kann es etwas anderes als ein Helm sein?",
                "flavor": "Den Schutz den es bietet, ist unermesslich."
             }
+         },
+         "carpenter_hat": {
+            "display_name": "Tischlehut",
+            "description": "Er ist ziemlich staubig."
+         }
+      },
+      "cleric": {
+         "cleric_description": {
+            "display_name": "Kleriker",
+            "description": "Erfordert eine besondere Gabe in die Stärke der anderen zu sehen und den Drang Sie zu verbessern.",
+            "requirements": "Ein Level 3 Fußsolat und einen Klerikerfoliant, hergestellt vom Kräuterarzt"
          }
       },
       "cook": {
@@ -70,7 +107,7 @@
       },
       "farmer": {
          "farmer_description": {
-            "description2": "All das Wandern und streifen durch die Natur, hilft nicht, aber sich niederzulassen schon. Farmer kehren zu Ihren sesshaften Leben des Pflanzen anzubaus zurück, aus denen Materialen zum Kochen und zum Heilen hergestellt werden können.",
+            "description": "All das Wandern und streifen durch die Natur, hilft nicht, aber sich niederzulassen schon. Farmer kehren zu Ihren sesshaften Leben des Pflanzen anzubaus zurück, aus denen Materialen zum Kochen und zum Heilen hergestellt werden können.",
 	    "requirements": "Stufe 2 Kräutersammler und eine Bauern Hacke, hergestellt von einem Tischler."
          },
          "farmer_hood": {
@@ -95,6 +132,7 @@
          },
          "recipes": {
             "fungi_name": "Pilze",
+            "stones_name": "Steome",
             "fine_mushroom_colony_recipe": {
                "description": "Züchte eine nahrhafte Art von Speisepilzen",
                "flavor": "Mal sehen, ob wir diese Dinge nicht etwas schmackhafter machen können.",
@@ -110,15 +148,15 @@
       "mason": {
          "mason_description": {
             "description": "In dem Wunsch die Welt um sie herum zu gestalten, entschieden sich Steinmetze Steine zu verwenden, um nützliche Möbel, Werkzeuge, Handwerk oder Ornamente herzustellen.",
-            "requirements": "Steinmetzmeißel, wird hergestellt vom Töpfer"
+            "requirements": "Ein Level 2 Verfeinerer und ein Steinmetzmeißel, wird hergestellt vom Verfeinerer"
          },
-         "recipes" : {
+         "recipes": {
             "armor_name": "Rüstung",
-         	"crude_stone_bed_recipe": {
+            "crude_stone_bed_recipe": {
                "description": "Ein Bett aus Stein und Holzspäne hergestellt.",
                "flavor": "Holzspäne sind besser als nichts.",
                "recipe_name": "Grobes Steinbett"
-         	},
+            },
             "luxurious_stone_bed_recipe": {
                "description": "Ein Wunderwerk des Liegedesigns.",
                "flavor": "Die Bettdecke schützt Sie vor den Monstern unterm Bett.",
@@ -136,97 +174,293 @@
             },
             "pleasant_stone_bed_recipe": {
                "description": "Ein verbessertes Bett, bietet einen viel erholsameren Schlaf.",
-               "flavor": "&quot;Ahhh ...&quot; - Jeder, der in diesem Bett schläft.",
+               "flavor": "'Ahhh...' - Jeder, der in diesem Bett schläft.",
                "recipe_name": "Angenehmes Steinbett"
             },
             "stone_sword_recipe": {
                "description": "Ein rudimentäres Steinschwert, das gut für den einfachen Kampf ist. Wird verwendet um einen Fußsoldaten zu ernennen.",
                "flavor": "Mehr hacken als schlagen.",
                "recipe_name": "Steinernes Übungsschwert"
+            },
+            "fine_stone_armor_recipe": {
+               "recipe_name": "Feine Steinrüstung",
+               "description": "Entwickelt um langlebig und leicht zu sein, soweit Steinrüstungen das sein können.",
+               "flavor": " "
+            },
+            "refineer_rasp_recipe": {
+               "recipe_name": "Verfeinerer Hammer und Raspel",
+               "description": "Fundamentale Werkzeuge für Verfeinerer jedes Levels.",
+               "flavor": "\"Warum nennen wir es nicht einfach Hammer und Meißel?\" \"Wir versuchen, einzigartig zu sein!!\" - Zwei Verfeinerer Lehrlinge "
             }
          }
       },
       "shepherd": {
          "shepherd_description": {
             "description": "Einige Trapper entdecken die Liebe für andere Geschöpfe der Welt. Sie behalten Sie lieber, als Sie zu töten.",
-            "description2": "",
-            "requirements": "Ein Level 4 Trapper und ein Hirtenstab, wird hergestellt von Schreiner."
+            "requirements": "Ein Level 4 Kräuterarzt und ein Hirtenstab, hergestellt vom Schreiner."
          }
       },
       "trapper": {
          "trapper_description": {
             "description": "Mit ihrer neu gewonnenen Freiheit, entschieden einige Bastioneers nah und fern zu durchstreifen anstatt die Erde um sie herum zu formen.",
-            "description2": "Ruhelos wie sie sind, patrouillieren sie, Tag ein, Tag aus; Trapper wollen die Wildnisss durchstreifen, Tiere jagen und Fallen stellen für Fleisch und Felle.",
-            "requirements": "Trappermesser, wird hergestellt vom Schmied."
+            "requirements": "Trappermesser, hergestellt vom Schmied."
          }
       },
       "potter": {
          "potter_description": {
             "description": "Lehm ist eine einzigartige Mischung aus Hartgestein, weichem Holz und geschmolzenen Metall, die nur wenige Nutzen können. Diejenigen, die es wählen, können einzigartige Möbel und Gefäße fertigen.",
             "requirements": "Ein Level 5 Steinmetz und ein Töpfermesser, wird hergestellt vom Steinmetz."
+         },
+         "potter_hat": {
+            "display_name": "Töpferhut",
+            "description": "Ein schwerer und harter Hut for einen harten Arbeiter."
+         },
+         "recipes": {
+            "stone_bricks_recipe": {
+               "recipe_name": "Steinziegel",
+               "description": "Stelle Steine von normaler Größe und Form her.",
+               "flavor": "Hast du jemals daran gedacht sie kreisförmig machen?"
+            }
          }
       },
-      "weaver" : {
+      "weaver": {
          "weaver_description": {
             "description": "Heilung der Kranken und Verwundeten ist eine schmutzige Arbeit. Diejenigen mit schwachen Mägen wählen besser das Weben von Fasern in Kleidung, das verhindert Verletzungen und Übelkeit.",
-            "requirements": "Ein Level 3 Kräuterarzt und eine Weberspindel, wird hergestellt vom Schreiner."
+            "requirements": "Ein Level 3 Schäfer und eine Weberspindel, wird hergestellt vom Schreiner."
          },
          "recipes": {
             "wicker_basket_recipe": {
                "description": "Robust und leicht, ideal für einen Arbeiter auf dem Sprung.",
                "flavor": "Er passt zu dem Schmutz auf meinem Outfit!",
                "recipe_name": "Weidenrucksack"
+            },
+            "deep_spelunking_outfit_recipe": {
+               "recipe_name": "Tiefhöhlenkletterer Uniform",
+               "description": "Eine verbesserte Uniform für stolze 'Neers.",
+               "flavor": "Gut aussehende Arbeiter sind effiziente Arbeiter."
             }
+         }
+      },
+      "refineer": {
+         "refineer_outfit": {
+            "display_name": "Verfeinerer Uniform",
+            "description": "Einfach und haltbar ... dennoch verfeinert."
+         },
+         "recipes": {
+            "refineer_platform_recipe": {
+               "recipe_name": "Verfeinerer Plattform",
+               "description": "Für verschiedene verfeinerungs Aufgaben.",
+               "flavor": "Es hat genau die richtige Höhe für einen Bastioneer."
+            },
+            "refineer_lathe_recipe": {
+               "recipe_name": "Verfeinerer Drehbank",
+               "description": "Notwendig für die Verfeinerung von Holzressourcen.",
+               "flavor": "Holz ist eine seltsame Ressource für 'Neers."
+            },
+            "workbenches_name": "Werkbanken",
+            "refining_name": "Verfeinerbares",
+            "stone_bricks_recipe": {
+               "recipe_name": "Steinziegel",
+               "description": "Bearbeite Steine zu normaler Größe und Form.",
+               "flavor": "Für alle deine verschiedenen Stein Bedürfnisse!"
+            },
+            "wood_planks_recipe": {
+               "recipe_name": "Holzbretter",
+               "description": "Bearbeite Holzklötze zu normaler Größe und Form.",
+               "flavor": "\"Ich würde gerne einen Klotz aus Planken haben, bitte.\""
+            },
+            "natal_stone_recipe": {
+               "description": "Verwandelt Natallium in einen glänzenden Stein, verbessert seine Aura",
+               "flavor": "Jeder hat eine einzigartige Präsenz, welcher die die Persönlichkeit des kommenden 'Neers vorhersagt. - Meister Verfeinerer Tohpzidium V",
+               "recipe_name": "Kultivierter Natalstein"
+            },
+            "stones_name": "Stein",
+            "clays_name": "Lehm",
+            "metals_name": "Metall",
+            "woods_name": "Holz",
+            "tools_name": "Werkzeuge"
+         },
+         "refineer_description": {
+            "display_name": "Verfeinerer",
+            "description": "Bastioneers mit einem angeborenen Wissen über Ressourcen werden oft als Verfeinerer bezeichnet. Um die Leistung von Handwerkern zu erhöhen, die auf verfeinerte Ressourcen angewiesen sind. Meister Verfeinerer sind hoch angesehen; du kannst keine feine Waren mit schlechten Zutaten herstellen.",
+            "requirements": "Einen Verfeinerer Hammer und eine Raspel, hergestellt vom Schmied.",
+            "level_1_data": {
+               "perk_000_description": "Der Verfeinerer kann nun eine Vielzahl von Verbesserungen machen"
+            },
+            "level_2_data": {
+               "perk_000_description": "Der Verfeinerer kann nun Erze zu Barren für den Schmied verfeinern",
+               "perk_000_name": "Kohle abgestimmt Herstellung"
+            },
+            "level_3_data": {
+               "perk_000_description": "Der Fähigkeit des Verfeinerers übersteigt manchmal sogar seine eigenen Erwartungen."
+            },
+            "level_4_data": {
+               "perk_000_description": "Harte Arbeit und heimlich einige Steine als Mahlzeiten haben den Verfeinerer erlaubt stärker und schneller zu werden.",
+               "perk_000_name": "Frühlingstahl"
+            },
+            "level_6_data": {
+               "title": "Meister Verfeinerer",
+               "perk_000_name": "Die ultimative Verfeinerung",
+               "perk_000_description": "Der Verfeinerer hat seinen eigenen so Körper verfeinert, dass er nun doppelt soviel wie ein normalen 'Neer tragen kann"
+            }
+         },
+         "refineer_lathe": {
+            "refineer_lathe_ghost": {
+               "display_name": "Verfeinerer Drehbank",
+               "description": "Essentiell für die Holzbearbeitung ."
+            }
+         },
+         "refineer_mallet": {
+            "display_name": "Verfeinerer Hammer",
+            "description": "Er muss für eine winzigne 'Neer ziemlich schwer sein."
+         },
+         "refineer_platform": {
+            "refineer_platform_ghost": {
+               "display_name": "Verfeinerer Plattform",
+               "description": "Für verschiedene verfeinerungs Aufgaben."
+            }
+         },
+         "refineer_rasp": {
+            "refineer_rasp_talisman": {
+               "display_name": "Mallet and Rasp",
+               "description": "Es ist schwer mit den Händen Steine zu meißeln, auch wenn aus Juwel gemacht sind."
+            },
+            "display_name": "Verfeinerer Raspel",
+            "description": "Es ist schwer mit den Händen Steine zu meißeln, auch wenn aus Juwel gemacht sind."
          }
       }
    },
    "data": {
       "buffs": {
          "courage": {
-           "courage_buff": {
-               "display_name": "Mut",
-               "description": "Dieser Heartling wird im Angesicht von Gefahr über sich hinauswachsen."
-           }
+            "courage_buff": {
+               "display_name": "Steinige Lösung",
+               "description": "Die Steinrüstung gibt Mut auf geringe Kosten der Geschwindigkeit."
+            }
+         },
+         "heraldric_bulwark": {
+            "heraldric_bulwark_buff": {
+               "display_name": "Heroldisches Bollwerk",
+               "description": "Eine Aura von Schutz umgibt diesen 'Neer"
+            }
+         },
+         "light_of_valor": {
+            "light_of_valor_buff": {
+               "display_name": "Licht der Tapferkeit",
+               "description": "Eine mystische Ausstrahlung umgibt diesen 'Neer"
+            },
+            "earthen_resolve_buff": {
+               "display_name": "Irdische Lösung"
+            }
+         },
+         "fortified_agility": {
+            "fortified_agility_buff": {
+               "display_name": "Verstärkte Beweglichkeit",
+               "description": "Eine leichte Brise umwirbelt diesen 'Neer"
+            }
+         }
+      },
+      "build": {
+         "building_brushes": {
+            "colors": {
+               "#7D6E7F": "Mamba",
+               "#69606D": "Rum",
+               "#574C4E": "Don Juan",
+               "#5F5558": "Don Juan Lite",
+               "#665D5E": "Falcon",
+               "#7C848E": "Heller Schiefer",
+               "#656F7C": "Rabe",
+               "#515865": "Lana Del Grau",
+               "#72798A": "Nicht-ganz Grau",
+               "#5E6875": "Steinig"
+            }
+         }
+      },
+      "commands": {
+         "heraldric_bulwark_buff": {
+            "display_name": "Rufe Heroldisches Bollwerk",
+            "description": "Schützt Bastioneers mit einer Schutz Aura."
+         },
+         "light_of_valor_buff": {
+            "display_name": "Rufe Licht der Tapferkeit",
+            "description": "Bescheint Bastioneers mit einem mutigen Glanz."
+         },
+         "fortified_agility_buff": {
+            "display_name": "Rufe Verstärkte Beweglichkeit",
+            "description": "Beseelt Bastioneers mit einer geschmeidigen Schnelligkeit."
          }
       },
       "bastioneers_population": {
-         "display_name": "Bastioneers"
+         "display_name": "Die Bastioneers",
+         "greet_title": "[name(i18n_data.citizen)] wurde geboren!"
       },
       "gm": {
          "campaigns": {
             "bastioneers": {
                "dialog_nodes": {
-                  "dialog_title": "Bastioneers Kommandant",
+                  "dialog_title": "General Ludmit I",
                   "helper_title": "Die Herold Expedition",
                   "bulletin_message": {
-                     "000": "Recht so, sieht aus wie Lager, richtige Siedlung werden muss.",
-                     "001": "Du vorangehen. Hier deine Anweisung ist.",
-                     "002": "Es gefährlich hier draußen ist, du dich bereiten musst, viele viele Monster entgegen zu treten,",
-                     "003": "Des Herolds qualifizierte Steinmetze Rüstungen herstellen, die jeder Bastioneer trägt; praktisch nackt ohne sie!",
-                     "004": "Richtig, Steinrüstung bricht oft, halte einen guten Vorrat breit! Andernfalls bedrohliche Monster euch fressen!",
-                     "005": "Viel zu lernen und zu entdecken hier, Einfallsreichtum benötigt um zu überleben hier. Kein Neid für deine Gruppe",
-                     "006": "Der Herold wird überprüfen, ob Siedlung sicher, mit einigen Aufgaben... Dem Herold wird nicht wiedersprochen.",
-                     "007": "Der Herold ist unsere Bastion."
+                     "000": "Bastioneers; acht ...UNG. Nun da das Lager errichtet ist, wird es Zeit eine Siedlung zu bauen! Ich beneide euch nicht, dies ist eine gefährliche Mission. Ich gebe Euch aber einen kleinen Ratschläge bevor ich gehe. Habt steinige Herzen; mit etwas Mut und Glück, könnt Ihr in dieser gefährlichen Umgebung überleben und Ruhm dem Herold bringen!",
+                     "001": "Es wäre bedauerlich, wenn Ihr bei Euren Anstrengungen die Herrlichkeit des Herolds aus den Augen verliert",
+                     "002": "Ihr werdet hier viele neue und erschreckende Kreaturen begegnen. Es ist wichtig, für alles und auf alles vorbereitet zu sein.",
+                     "003": "Des Herolds Steinmetze werden gelehrt wie man Steinrüstungen herstellt. Ihr wisst bereits wie wichtig diese Rüstung für unseren Mut und unsere Sicherheit ist. Sie brechen oft, habt daher einen gute Vorrat bereit! Andernfalls werden die Oberflächen Kreaturen, euch verschlingen.!",
+                     "004": "Der Bergbau ist auch wichtig. Es bietet nahrhafte Steine und Juwelen und Natallium zum Verfeinern. Ihr werdet viele Ressourcen benötigen, vor allem Natallium. Eure Verfeinerer können lernen, wie man Natallium in Natalsteine verwandelt. Sie werden die Herold-Zahlen stützen! \"Von der Erde, durch die Erde und wieder zurück in die Erde. Immer mit dem Herold. \" Das ist die Art und Weise Bastioneers!",
+                     "005": "Der Herold zählt auf Euch. Viel zu lernen und zu entdecken hier oben. Haltet die Augen weit und die Füße schnell.",
+                     "006": "Ich komme wieder, sobald Ihr Euch niedergelassen habt. Ehre dem Herold.",
+                     "007": "Der Herold ist unsere Bastion. Möge es euch stählern.."
+                  }
+               },
+               "natallium_dialog_nodes": {
+                  "dialog_title": "Bastioneers Kommandant",
+                  "helper_title": "Die Herold's Expedition",
+                  "bulletin_message": {
+                     "msg0": "Hagel 'Neers! Was für ein super Timing, ich spüre Natallium in Eurem Besitz. Wundersam! Wir waren besorgt das die Oberfläche keine solcher wertvollen Ressourcen bieten würde. Sagt mir, haben Eure Verfeinerer schonen einen Natalstein erstellt?",
+                     "msg1": "Auf jedem Fall beachtet: 'Neers wachsen aus diesen mysteriösen Steinen. Fragen Sie mich nicht wie; das ist ein Geheimnis, das nur Verfeinerern bekannt ist. Legen Sie eine Natalstein auf den Boden und geben Sie Ihm einige Zeit um zu wachsen und schluss endlich springt eine neue 'Neer heraus, fit und bereit zu dienen.",
+                     "msg2": "Was hast du erwartet? Neue Bürger würden zu Fuß aus dem Nichts in Eurer Siedlung kommen? Zum Totlachen! Außerdem wisst Ihr, wie leer unsere Natallium Lager zu Hause geworden sind ... So, ich werde irgendwann später wieder kommen. Ehre dem Herald.",
+                     "msg1a": "Aber ... Wie kann es sein, dass dein Verfeinerer das noch nicht gelernt hat?"
+                  }
+               },
+               "break_dialog_nodes": {
+                  "dialog_title": "Bastioneers Kommandant",
+                  "helper_title": "Die Herold's Expedition",
+                  "bulletin_message": {
+                     "msg0": "Oi! Hey, 'Neers! Herzlichen Glückwunsch das Ihr solange duchgehalten habt. Ihr habt vielleicht oder vielleicht auch nicht eingie Schlachten bisher erlebt aber egal. Ich habe einige wichtige Informationen für Euch.",
+                     "msg1": "Kampfausrüstung bricht. Es ist ziemlich ärgerlich, aber nichts ist unzerstörbar außer dem eisernen Willen des Bastioneers Herolds.",
+                     "msg2": "Eine gute Sache kommt aus diesem unglücklichen Fall jedoch. Der Herold, immer wachsam, erkennt Eure Opfer. Den Herold wird dies erfreuen.",
+                     "msg3": "Behaltet dies im Kopf, und der Herold wird Euch schützen."
                   }
                }
             },
             "trader": {
                "bastioneers_expedition_1": {
                   "shop_info": {
-                     "name": "Bastineers Surface 'neering Expedition",
-                     "title": "A Surface 'Neering Expedition Arrives!"
+                     "name": "Erkunderneer Exiolite II",
+                     "title": "Der erschöpfte Exiolite II dankt euch und bietet Euch seine Güter an!"
+                  },
+                  "dialog": {
+                     "dialog_title": "Erschöpfter Erkunderneer Exiolite II",
+                     "msg1": "Ho dort! Es ist großartig einige glänzende Gesichter aus dem Heroldjuwel zu sehen. Ich bin hier schon eine ganze Weile und haben so gut wie nichts zu zeigen! Ich brauche einiges wertvolles Gold, bevor ich nach Hause zurückkehren kann ... Aber ich habe nicht viel, glaubt Ihr das Ihr mir helfen könnt?",
+                     "msg2": "Oh .... Na gut, ich verstehe. Ich werde versuchen, einige auf eigene Faust zu finden. Ich hoffe nur, dass ich nicht zu erst über etwas anderes stolpere... etwas hungriges.",
+                     "title": "Ein müde aussehender Erkunder stolpert näher."
                   }
                },
                "bastioneers_expedition_2": {
                   "shop_info": {
-                     "name": "Bastineers Surface 'neering Expedition",
-                     "title": "A Surface 'Neering Expedition Greets Your Settlement!"
+                     "name": "Leutnant Jaspridium II",
+                     "title": "Leutnant Jaspridium III würde gerne ein paar Ressourcen handeln."
+                  },
+                  "dialog": {
+                     "title": "Leutnant Jaspridium III erscheint in der Ferne.",
+                     "dialog_title": "Leutnant Jaspridium III",
+                     "msg1": "Hey 'Neers! Ich habe einige interessante Güter auf meinen Erkundungen gesammelt. Vielleicht können einige für Euch von Nutzen sein.",
+                     "msg2": "Sehr gut, ich bin dann mal weg."
                   }
                },
                "bastioneers_expedition_3": {
                   "shop_info": {
-                     "name": "Bastineers Surface 'neering Expedition",
-                     "title": "A Surface 'Neering Expedition Approaches!"
+                     "name": "Oberflächen 'Neer Expedition",
+                     "title": "Ein Band von Oberflächen 'Neers erscheint mit Gütern zum handeln!"
                   }
                },
                "starting_food_donation": {
@@ -234,37 +468,56 @@
                      "dialog_nodes": {
                         "simple_message": {
                            "bulletin_message": {
-                              "000": "Found surface food, remember to get enough mineral in diet.",
-                              "001": "Settlement looks malnurished. Take this:",
-                              "002": "The Herald demands 'neers be well-fed!",
-                              "003": "Surface food is strange, but healthy! Try this:",
-                              "004": "Do not miss The Herald, take this incase."
+                              "000": "Hey! Das ist eine feine Wendung der Ereignisse. Ich finde die neuen Erkunderneers und ich fand vor kurzem eine große Menge von oberflächen Essen! Gee, Ihr seht aus als wenn Ihr welche gebrauchen könntet, also werde ich teilen. Denk daran, der Herold braucht jeden einzelnen 'Neer kampfbereit zu allen Zeit. Ehre dem Herald!",
+                              "001": "Hey! Das ist eine feine Wendung der Ereignisse. Ich finde die neuen Erkunderneers und ich fand vor kurzem eine große Menge von oberflächen Essen! Gee, Ihr seht aus als wenn Ihr welche gebrauchen könntet, also werde ich teilen. Denk daran, der Herold kann es sich nicht leisten auch nur einen einzigen 'Neer zu verlieren. Ehre dem Herald!",
+                              "002": "Hey! Das ist eine feine Wendung der Ereignisse. Ich finde die neuen Erkunderneers und ich fand vor kurzem eine große Menge von oberflächen Essen! Gee, Ihr seht aus als wenn Ihr welche gebrauchen könntet, also werde ich teilen. Denk daran, 'Neers sind die kostbarstesten Juwele von allen. Ehre dem Herald!",
+                              "003": "Oberflächen Essen ist seltsam, aber lecker! Versuche das:",
+                              "004": "Verpass nicht den Herold, nimm dies für den Fall."
                            },
-                           "bulletin_title": "A Surface 'Neering Cadet Approaches!",
-                           "dialog_title": "Food 'Neering Cadet",
-                           "choice_000": "Solid."
+                           "bulletin_title": "Ein Erkunderneer erscheint!",
+                           "dialog_title": "Erkunderneer Kadett Garnetite II",
+                           "choice_000": "Okay"
                         }
                      }
                   }
                },
                "stonecutter_shop": {
                   "shop_info": {
-                     "name": "Stone 'Neering Commander",
-                     "title": "An expedition for surface stone draws near"
+                     "name": "Stein'Neer Kommandant Bazzum II",
+                     "title": "\"Steingüter tragende Neers, offerieren Ihre Waren Eurer Siedlung."
                   }
                },
                "tannery_shop": {
                   "shop_info": {
-                     "name": "Animal 'Neering Captain",
-                     "title": "An expedition for fine animal goods approaches"
+                     "name": "Tier'Neering Kapitän Ferrorite I",
+                     "title": "Eine Expedition für feine Tiergüter hat Waren zum handeln."
                   }
                },
                "woodcutter_shop": {
                   "shop_info": {
-                     "name": "Wood 'Neering Colonel",
-                     "title": "An expedition for rare surface woods arrives"
+                     "name": "Oberst Spectricite V",
+                     "title": "Eine Expedition mit feinen Holzerzeugnisse bietet einen Handel an."
                   }
+               },
+               "rugs_shop": {
+                  "shop_info": {
+                     "name": "Eine Gruppe von Tierfallen 'Neers möchte Ihre Teppiche mit euch handeln.",
+                     "title": "Fallen'Neer Güter"
+                  }
+               },
+               "simple_caravan_encounter": {
+                  "title": "Erkundungsneers sind mit Waren zum handeln angekommen.",
+                  "message": "Sei gegrüßt! [str(i18n_data.town_name)]! Bevor wir nach Hause zurückkehren, dachten wir, wir bieten euch ein wenig Hilfe durch einen Handel. Vielleicht möchtet Ihr [str (i18n_data.your_quantity)] [str (i18n_data.your_item)] (s) im Austausch für [str (i18n_data.my_quantity)] [str (i18n_data.my_item)] (s)?"
                }
+            },
+            "makeshift_stone_armor": {
+               "bulletin_title": "Dein Steinmetz hat gelernt wie man eine behelfsmäßige Steinrüstung herstellt!"
+            },
+            "basic_stone_armor": {
+               "bulletin_title": "Dein Steinmetz hat gelernt wie man eine einfache Steinrüstung herstellt!"
+            },
+            "unlock_natal_stone": {
+               "bulletin_title": "Dein Verfeinerer hat gelernt wie man Natalsteine herstellt!"
             }
          }
       }
@@ -296,10 +549,10 @@
             }
          },
          "basic_stone_armor": {
-            "display_name": "einfache Steinrüstung",
+            "display_name": "Einfache Steinrüstung",
             "description": "Eine dauerhafte Rüstung, noch etwas spröde.",
             "basic_stone_armor_iconic": {
-               "display_name": "einfache Steinrüstung",
+               "display_name": "Einfache Steinrüstung",
                "description": "Eine dauerhafte Rüstung, noch etwas spröde."
             }
          },
@@ -317,6 +570,30 @@
             "reinforced_armor_iconic": {
                "display_name": "Verstärkte Rüstung",
                "description": "Hoher Rüstungswert und verleiht Mut, denjenigen die es tragen."
+            }
+         },
+         "deep_spelunking_outfit": {
+            "display_name": "Tiefhöhlenkletterer Uniform",
+            "description": "Für diejenigen, die weit in die Erde reichen.",
+            "deep_spelunking_outfit_iconic": {
+               "display_name": "Tiefhöhlenkletterer Uniform",
+               "description": "Für diejenigen, die weit in die Erde reichen."
+            }
+         },
+         "mining_helmet": {
+            "display_name": "Bergbauhelm",
+            "description": "Essentiell um glitzernde Juwelenadern zu finden.",
+            "mining_helmet_iconic": {
+               "display_name": "Bergbauhelm",
+               "description": "Essentiell um glitzernde Juwelenadern zu finden."
+            }
+         },
+         "fine_stone_armor": {
+            "display_name": "Feine Steinrüstung",
+            "description": "So fein, es ist schon fast eine modische Aussage.",
+            "fine_stone_armor_iconic": {
+               "display_name": "Feine Steinrüstung",
+               "description": "Es ist schon fast eine modische Aussage"
             }
          }
       },
@@ -345,6 +622,12 @@
             "mushroom_serving": {
                "description": "Schmeckt toll neben Beeren.",
                "display_name": "Teller mit Pilzen"
+            }
+         },
+         "soft_stone": {
+            "soft_stone_pile": {
+               "description": "Enthält mehr als 9000 Mineralien um den 'neers zu helfen, groß und stark zu werden!",
+               "display_name": "Weicher Steinstapel "
             }
          }
       },
@@ -392,11 +675,17 @@
          }
       },
       "gizmos": {
-         "b_camp_standard": {
-            "b_camp_standard_ghost": {
+         "camp_standard": {
+            "camp_standard_ghost": {
                "display_name": "Des Herolds Siegel",
                "description": "Vielleicht stehlen sie es uns."
             }
+         }
+      },
+      "resources": {
+         "natallium": {
+            "description": "Es hält immense, eigenartige Macht",
+            "display_name": "Natallium"
          }
       },
       "storage": {
@@ -407,27 +696,121 @@
             }
          }
       },
+      "stones": {
+         "natal_stone": {
+            "description": "Ein Stein, der zu einem neuen 'Neer wird.",
+            "display_name": "Natalsteine",
+            "natal_stone_iconic": {
+               "description": "Ein Stein, aus dem jeder Bastioneer geboren wird.",
+               "display_name": "Natalsteine"
+            }
+         }
+      },
+      "shrines": {
+         "heraldric_bulwark_obelisk": {
+            "heraldric_bulwark_obelisk_ghost": {
+               "description": "Ein Turm zu Ehren der Standhaftigkeit des Herolds.",
+               "display_name": "Heraldischer Bollwerk Obelisk"
+            }
+         },
+         "light_of_valor_obelisk": {
+            "light_of_valor_obelisk_ghost": {
+               "description": "Ein Turm zu Ehren des eisernen Willens des Herolds.",
+               "display_name": "Licht der Tapferkeit Obelisk"
+            }
+         },
+         "fortified_agility_obelisk": {
+            "fortified_agility_obelisk_ghost": {
+               "description": "Ein Turm zu Ehren der Schnelligkeit des Herolds.",
+               "display_name": "Verstärkender Beweglichkeitsobelisk"
+            }
+         },
+         "earthen_rejuvenation_obelisk": {
+            "earthen_rejuvenation_obelisk_ghost": {
+               "display_name": "Irdischer Verjüngungsobelisk",
+               "description": "Er strahlt Gesundheit und Wohlbefinden aus."
+            }
+         }
+      },
+      "wealth": {
+         "buhblee_gem": {
+            "description": "Enthält etwas Essense vom Herold.",
+            "display_name": "Buhblee Juwel"
+         },
+         "jollee_gem": {
+            "description": "Enthält etwas Essense vom Herold.",
+            "display_name": "Jollee Juwel"
+         },
+         "Mossee_gem": {
+            "description": "Enthält etwas Essense vom Herold.",
+            "display_name": "Mosse Juwel"
+         },
+         "perplee_gem": {
+            "description": "Enthält etwas Essense vom Herold.",
+            "display_name": "Perplee Juwel"
+         },
+         "mossee_gem": {
+            "display_name": "Mossee Juwel",
+            "description": "Essense der Erde."
+         }
+      },
       "weapons": {
          "stone_sword": {
             "description": "Eine rudimentäre Waffe, die gut zum Üben der Kampffähigkeiten ist.",
-            "display_name": "Steineres Übungsschwert",
+            "display_name": "Steinernes Übungsschwert",
             "stone_sword_iconic": {
                "description": "Mehr hacken als schlagen.",
-               "display_name": "Steiners Übungsschwert"
+               "display_name": "Steinernes Übungsschwert"
             },
             "stone_sword_talisman": {
                "description": "Eine rudimentäre Waffe, die gut zum Üben  der Kampffähigkeiten ist.",
-               "display_name": "Steiners Übungsschwert"
+               "display_name": "Steinernes Übungsschwert"
             }
+         }
+      },
+      "refined": {
+         "wood_planks": {
+            "display_name": "Holzbrett",
+            "description": "Gleichmäßig geformtes Stück aus Holz."
          }
       }
    },
    "ui": {
       "game": {
+         "bulletin": {
+            "durability": {
+               "break_title": "Oh Nein!",
+               "break_message": "[str(i18n_data.name)]'s [str(i18n_data.item)] ist gebrochen!"
+            }
+         },
+         "entities": {
+            "item_categories": {
+               "natal_stone": "Natalsteine"
+            }
+         },
          "common": {
             "hail": "Ehre dem Herold!",
             "okay": "Okay",
-            "yessir": "Jawohl!"
+            "yessir": "Jaw Sir!",
+            "nosir": "Negativ",
+            "silence": "..."
+         },
+         "menu": {
+            "crafter_menu": {
+               "items": {
+                  "refineer": {
+                     "display_name": "Verfeinerer Handwerks-Menü",
+                     "description": "Verfeinere Rohmaterialien für andere Bastler.",
+                     "required_job_text": "Benötigt einen Verfeinerer"
+                  }
+               }
+            }
+         }
+      },
+      "data": {
+         "constants": {
+            "wood_resource_name": "Holzbretter",
+            "stone_bricks_resource_name": "Steinziegel"
          }
       }
    }

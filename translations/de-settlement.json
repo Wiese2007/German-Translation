@@ -1,4 +1,11 @@
 {
+    "ui": {
+        "gardener": {
+            "display_name": "Gärtner Handwerks-Menü",
+            "description": "Stellt dekorative Gegenstaände mit Blumen her.",
+            "requirements": "Benötigt einen Gärtner"
+        }
+    },
    "entities": {
       "construction": {
          "carved_stone_window": {
@@ -694,7 +701,7 @@
             "statues" : "Statuen"
         },
         "recipes" : {
-           "picket_fence_archway_recipe": {
+           "picket_fence_archway": {
               "recipe_name" : "Lattenzaun Torbogen",
               "description" : "Ein dekorativer Holztorbogen, für umzäunte Felder und Gärten.",
               "flavor" : "Wer hat schon Zeit Tore zu öffnen."
