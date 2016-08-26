@@ -1,0 +1,16 @@
+{
+   "data": {
+      "biome": {
+         "canyon": {
+            "display_name": "Schlucht",
+            "description": "Enge Schluchten mit steilen Felswänden, durch fließendes Wasser in die Erde geschnitten.",
+            "random_location_names": {
+               "000": " zum Donnerberg ",
+               "001": " zu den stürmischen Wänden",
+               "002": " zu den Scharlachbergen",
+               "003": " zum Adlerkliff"
+            }
+         }
+      }
+   }
+}

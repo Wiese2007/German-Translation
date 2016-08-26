@@ -69,11 +69,11 @@
             "description": "Schnell wachsende süße kleine Früchte.",
             "growth_stage": {
                "003": {
-                  "name": "reife Blaubeeren",
+                  "name": "Reife Blaubeeren",
                   "description": "Lecker!"
                },
                "002": {
-                  "name": "junge Baubeeren",
+                  "name": "Junge Baubeeren",
                   "description": "Klein. Unreif."
                },
                "001": {
@@ -85,7 +85,7 @@
                   "description": "Junger kleiner Blaubeeren Sprössling."
                },
                "012": {
-                  "name": "verfaulte Blaubeeren",
+                  "name": "Verfaulte Blaubeeren",
                   "description": "Schimmelig und Ekelhaft."
                }
             }
@@ -95,11 +95,11 @@
             "description": "Langsam wachsende Bohne, für die Herstellung von Schokolade",
             "growth_stage": {
                "003": {
-                  "name": "reife Kakaobohnen",
+                  "name": "Reife Kakaobohnen",
                   "description": "Riecht lecker!"
                },
                "002": {
-                  "name": "junge Kakaobohnen",
+                  "name": "Junge Kakaobohnen",
                   "description": "Klein. Unreif."
                },
                "001": {
@@ -111,7 +111,7 @@
                   "description": "Setzling."
                },
                "012": {
-                  "name": "verfaulte Kakaobohnen",
+                  "name": "Verfaulte Kakaobohnen",
                   "description": "Schimmelig und Ekelhaft."
                }
             }
@@ -121,7 +121,7 @@
             "description": "Knoblauch, fürs Kochen.",
             "growth_stage": {
                "003": {
-                  "name": "reifer Knoblauch",
+                  "name": "Reifer Knoblauch",
                   "description": "Hübsche lila Blumen, Zeit zum Ernten!"
                },
                "002": {
@@ -133,11 +133,11 @@
                   "description": "Noch nicht essbar!"
                },
                "000": {
-                  "name": " Knoblauchknolle",
+                  "name": "Knoblauchknolle",
                   "description": "Frisch gepflanzte Knoblauchknolle."
                },
                "012": {
-                  "name": "verfaulter Knoblauch",
+                  "name": "Verfaulter Knoblauch",
                   "description": "Schimmelig und Ekelhaft."
                }
             }
@@ -147,11 +147,11 @@
             "description": "Kleine langsam wachsende spritzig Früchte, ideal für Wein.",
             "growth_stage": {
                "003": {
-                  "name": "reife Weintrauben",
+                  "name": "Reife Weintrauben",
                   "description": "Spritzig und lecker!"
                },
                "002": {
-                  "name": "junge Weintrauben",
+                  "name": "Junge Weintrauben",
                   "description": "Klein. Unreif."
                },
                "001": {
@@ -163,7 +163,7 @@
                   "description": "Weintrauben Setzling."
                },
                "012": {
-                  "name": "verfaulte Weintrauben",
+                  "name": "Verfaulte Weintrauben",
                   "description": "Schimmelig und Ekelhaft."
                }
             }
@@ -173,7 +173,7 @@
             "description": "Langsam wachsende Korn.",
             "growth_stage": {
                "004": {
-                  "name": "reifer Reis",
+                  "name": "Reifer Reis",
                   "description": "Bereit zum Ernten!"
                },
                "001": {
@@ -185,15 +185,15 @@
                   "description": "Reis Setzling."
                },
                "012": {
-                  "name": "verfaulter Reis",
+                  "name": "Verfaulter Reis",
                   "description": "Schimmelig und Ekelhaft."
                },
                "003": {
-                  "name": "gereifter Reis",
+                  "name": "Gereifter Reis",
                   "description": "Noch nicht bereit."
                },
                "002": {
-                  "name": "kümmerlicher Reis",
+                  "name": "Kümmerlicher Reis",
                   "description": "Klein. Unreif."
                }
             }
@@ -203,11 +203,11 @@
             "description": "Schnellwachsende lecker Frucht.",
             "growth_stage": {
                "003": {
-                  "name": "reife Erdbeeren",
+                  "name": "Reife Erdbeeren",
                   "description": "Spritzig und lecker!"
                },
                "002": {
-                  "name": "kleine Erdbeeren",
+                  "name": "Kleine Erdbeeren",
                   "description": "Klein. Unreif."
                },
                "001": {
@@ -219,7 +219,7 @@
                   "description": "Teeny tiny strawberry Setzling."
                },
                "012": {
-                  "name": "verfaulte Erdbeeren",
+                  "name": "Verfaulte Erdbeeren",
                   "description": "Schimmelig und Ekelhaft."
                }
             }
@@ -229,11 +229,11 @@
             "description": "Extrem langsam wachsendes holziges Gewächs um Zucker herzustellen.",
             "growth_stage": {
                "003": {
-                  "name": "reifes Zuckerrohr",
+                  "name": "Reifes Zuckerrohr",
                   "description": "Endlich!"
                },
                "002": {
-                  "name": "unreifer Zuckerrohr",
+                  "name": "Unreifer Zuckerrohr",
                   "description": "Jung. Not ready Yet!"
                },
                "001": {
@@ -245,7 +245,7 @@
                   "description": "Zuckerrohr Setzling."
                },
                "012": {
-                  "name": "verfaultes Zuckerrohr",
+                  "name": "Verfaultes Zuckerrohr",
                   "description": "Schimmelig und Ekelhaft."
                }
             }
@@ -255,7 +255,7 @@
             "description": "Langsam wachsend, aber lecker.",
             "growth_stage": {
                "003": {
-                  "name": "reife Tomaten",
+                  "name": "Reife Tomaten",
                   "description": "Lecker!"
                },
                "002": {
@@ -271,7 +271,7 @@
                   "description": "Junger kleiner Tomaten Setzling."
                },
                "012": {
-                  "name": "verfaulte Tomaten",
+                  "name": "Verfaulte Tomaten",
                   "description": "Schimmelig und Ekelhaft."
                }
             }
@@ -281,11 +281,11 @@
             "description": "Langsam wachsend, aber Lecker an einem heißen Sommertag.",
             "growth_stage": {
                "003": {
-                  "name": "reife Wassermelone",
+                  "name": "Reife Wassermelone",
                   "description": "Hmmmm..... Lecker!"
                },
                "002": {
-                  "name": "junge Wassermelone",
+                  "name": "Junge Wassermelone",
                   "description": "Klein. Unreif."
                },
                "001": {
@@ -297,7 +297,7 @@
                   "description": "Ein kleiner Wassermelone Setzling."
                },
                "012": {
-                  "name": "verfaulte Wassermelone",
+                  "name": "Verfaulte Wassermelone",
                   "description": "Schimmelig und Ekelhaft."
                }
             }
@@ -336,13 +336,13 @@
       "furniture": {
          "allium_pot": {
             "allium_pot_ghost": {
-               "display_name": "eingetopfter Allium",
+               "display_name": "Eingetopfter Allium",
                "description": "Ein Topf mit Allium"
             }
          },
          "rose_pot": {
             "rose_pot_ghost": {
-               "display_name": "eingetopfte Rosen",
+               "display_name": "Eingetopfte Rosen",
                "description": "Ein Topf mit Rosen."
             }
          }

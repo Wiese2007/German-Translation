@@ -47,7 +47,7 @@
             "fabricate_structure": "baut",
             "teardown_structure": "reißt Strukturen ein...",
             "feed_pasture_animals": "füttert Tiere",
-            "restock": "Befüllt Lager mit Elementen",
+            "restock": "Befüllt Lager mit Waren",
             "resting_from_injuries": "benötigt medizinische Betreuung",
             "healing": "behandelt Wunden",
             "healing_target": "heilt [name(data.target)]",
@@ -210,8 +210,7 @@
             "attack_banner_button": "Angriffsbefehl",
             "attack_banner_button_help": "Sag deiner Gruppe einen bestimmten Ort anzugreifen.",
             "defend_banner_button": "Sammel - u. Verteidungsbefehl",
-            "defend_banner_button_help": "Sagt der Gruppe sich an einem Punkt zu sammeln, wenn die Stadtverteidigung aktiviert ist",
-            "default_name": "Gruppe Num. [str(party.ord)]"
+            "defend_banner_button_help": "Sagt der Gruppe sich an einem Punkt zu sammeln, wenn die Stadtverteidigung aktiviert ist"
          },
          "unit_frame": {
             "show_character_sheet": "Zeige Charakterübersicht",
@@ -322,7 +321,7 @@
             }
          },
          "entities": {
-            "custom_name": "[str(self.unit_info.custom_name)]",
+            "custom_name": "[str(self.stonehearth:unit_info.custom_name)]",
             "unknown_name": "Unbekannt",
             "item_categories": {
                "food": "Essen",
@@ -398,11 +397,11 @@
                   },
                   "clear_item": {
                      "display_name": "Löschen",
-                     "description": "Lösche diese Elemente aus deiner Welt",
-                     "tip_title": "Klicke und zieh um die Elemente permanent aus der Welt zu entfernen",
+                     "description": "Lösche diese Waren aus deiner Welt",
+                     "tip_title": "Klicke und zieh um die Waren permanent aus der Welt zu entfernen",
                      "tip_description": "Rechtsklick um diesen Modus zu verlassen",
                      "confirm_title": "Bist du dir wirklich sicher dieses Element zu entfernen?",
-                     "confirm_message": "Markierte Elemente in diesem Gebiet werden permanent zerstört",
+                     "confirm_message": "Markierte Waren in diesem Gebiet werden permanent zerstört",
                      "confirm_clear": "JA, Zerstören!",
                      "confirm_clear_no": "Nein! Ich brauch das Zeug!"
                   }
@@ -455,8 +454,8 @@
                   },
                   "place_item": {
                      "display_name": "Platziere ein Element",
-                     "description": "Platziere Elemente wie Möbel und Dekorationen",
-                     "tip_title": "Klicken zum platzieren des Elementes",
+                     "description": "Platziere Waren, wie Möbel und Dekorationen",
+                     "tip_title": "Klicken zum platzieren der Waren",
                      "tip_description": "Rotiere mit der , und der . Taste"
                   },
                   "cannot_place_item": {
@@ -561,7 +560,7 @@
                "group": {
                   "stockpiles": "Lager",
                   "building": "Gebäude",
-                  "placement": "platzierte Elemente",
+                  "placement": "Platzierte Waren",
                   "maintenance": "Allgemeine Arbeiten",
                   "farming": "Farmen",
                   "harvesting": "Ernten",
@@ -573,7 +572,7 @@
                "paused": "pausiert"
             },
             "warnings": {
-               "town_inventory_full": "Stadtelemente voll!"
+               "town_inventory_full": "Stadtwaren voll!"
             }
          },
          "bulletin": {
@@ -581,7 +580,7 @@
             "shop": {
                "buy_1": "Kauf 1",
                "buy_10": "Kauf 10",
-               "buy_all" : "Kauf alle", 
+               "buy_all": "Kauf alle",
                "sell_1": "Verkauf 1",
                "sell_10": "Verkauf 10",
                "sell_all": "Verkauf alle",
@@ -600,9 +599,6 @@
                "check_requirements": "Überprüfe Anforderungen",
                "summon_herald": "Rufe Ausrufer!"
             },
-            "quest_bulletin": {
-               "title": "Neue Nachricht"
-            },
             "level_up_bulletin": {
                "title": "[name(i18n_data.entity)] ist aufgestiegen!",
                "show_char_sheet": "Charakter Übersicht"
@@ -615,7 +611,7 @@
                "tooltips": {
                   "food": "Höheres Qualitätsessen bietet höhere Nahrungsmittelwerte.",
                   "morale": "Halten Sie Ihre Hearthlings sicher, wohlgenährt und bequem um die Moral zu verbessern.",
-                  "net_worth": "Geschätzter Wert deiner Stadt. Sammeln Sie Elemente, h#ufen Sie Gold an und bauen Sie Gebäude um den Stadtwert zu erhöhen."
+                  "net_worth": "Geschätzter Wert deiner Stadt. Sammeln Sie Waren, häufen Sie Gold an und bauen Sie Gebäude um den Stadtwert zu erhöhen."
                }
             },
             "collection_quest": {
@@ -623,8 +619,8 @@
                "cancel": "Ich hab meine Meinung geändert"
             },
             "inventory_full": {
-               "title": "Stadtelemente voll!",
-               "message": "Du hast die maximale Anzahl von Elementen erreicht! Jeder Hearthling erhöht die Anzahl von Elementen die deine Stadt haben kann. Hearthlinge werden keine weiteren Ressourcen ernten, wenn deine Stadt zu viele Elemente hat. Lagerbehälter zählen als Elemente und erhöhen NICHT das Limit. Verkaufe nicht beötigte Elemente oder zerstöre Sie mit dem Zerstörentool."
+               "title": "Stadtwaren voll!",
+               "message": "Du hast die maximale Anzahl von Waren erreicht! Jeder Hearthling erhöht die Anzahl von Waren die deine Stadt haben kann. Hearthlinge werden keine weiteren Ressourcen ernten, wenn deine Stadt zu viele Waren hat. Lagerbehälter zählen als Waren und erhöhen NICHT das Limit. Verkaufe nicht beötigte Waren oder zerstöre Sie mit dem Zerstörenwerkzeug."
             }
          },
          "build_mode": {
@@ -660,7 +656,7 @@
                "build_floor_tip_description": "Rechtsklick zum verlassen",
                "build_slab_tip_title": "Klicke und zieh um Platten zu bauen",
                "build_slab_tip_description": "Rechtsklick zum verlassen",
-               "erase_structure_tip_title": "Klicke zum Löschen des Elementes oder klicke und zieh zum Löschen eines Fussbodens",
+               "erase_structure_tip_title": "Klicke zum Löschen der Waren oder klicke und zieh zum Löschen eines Fussbodens",
                "erase_structure_tip_description": "Rechtsklick zum verlassen",
                "roof_tip_title": "Klicke auf eine ummauerte Grundrisszeichnung, um ein Dach zu setzen",
                "roof_tip_description": "Rechtsklick zum verlassen",
@@ -676,7 +672,7 @@
                "stairs_tip_description": "Rechtsklick zum verlassen. Rotiere mit der , und der . Taste"
             },
             "building_cost": {
-               "required_item": "Benötigte Elemente"
+               "required_item": "Benötigte Waren"
             },
             "overview": {
                "title": "Gebäude Designer - [str(building_name)]",
@@ -835,7 +831,7 @@
                "num_animals": "Tiere:"
             },
             "stockpile": {
-               "default_stockpile_name": "Lager Num.[str(self.unit_info.custom_name)]",
+               "default_stockpile_name": "Lager",
                "contents": "Inhalte",
                "filter": "Filter",
                "help": "Klicke auf die Bilder, um auszuwählen was gelagert werden soll.",
@@ -969,7 +965,7 @@
                "military_strength": "Militärische Stärke"
             },
             "inventory": {
-               "item_count": "Elemente:"
+               "item_count": "Waren:"
             },
             "tab": {
                "town_overview": "Stadtübersicht",
@@ -1035,15 +1031,15 @@
                "000": "Sollten deine Arbeiter in einer Mine feststecken, bau eine Leiter um Sie zu befreien!",
                "001": "Deine Siedler schlafen besser, wenn du Ihnen für die Nächte Betten bereitstellt.",
                "002": "Baue Zäune um deine Weiden, damit deine Schäfer nicht immer den Tieren hinterherlaufen müssen.",
-               "003": "Lager können angepasst werden, um bestimmte Elemente zu einzulagern.",
+               "003": "Lager können angepasst werden, um bestimmte Waren zu einzulagern.",
                "004": "Du kannst Seidenpflanzen für einen stetigen Vorrat an Fasern anbauen.",
                "005": "Eine wohlgenährte Stadt ist eine glückliche Stadt.",
-               "006": "Benutze die . und , Tasten um Elemente oder Gebäude vor dem Platzieren zu drehen.",
+               "006": "Benutze die . und , Tasten um Waren oder Gebäude vor dem Platzieren zu drehen.",
                "007": "Deine Hearthlinge laufen auf Straßen schneller.",
                "008": "Der Weber kann Uniformen herstellen, welche die Effizienz deiner Arbeiter erhöht",
                "009": "Sitzen während des Essens hilft der Verdauung. Baue Tische und Stühle für deine Hearthlinge.",
                "010": "Schäfer suchen automatisch Tiere zum füllen der Weide.",
-               "011": "Wenn du einen höheren Stadtwert möchtest, versuch Elemente an einen Händler für Gold zu verkaufen.",
+               "011": "Wenn du einen höheren Stadtwert möchtest, versuch Waren an einen Händler für Gold zu verkaufen.",
                "012": "Aktuell habe ich bis heute - 19.06.16 - 26537 Zeilen bzw. 57874 Wörter für diese Mod übersetzt xD"
             }
          },
@@ -1160,7 +1156,7 @@
             }
          },
          "title_screen": {
-            "exit": "Verlassen",
+            "exit": "Beenden",
             "settings": "Einstellungen",
             "about": "Über",
             "kingdom_of": "Das Königreich von",
@@ -1171,7 +1167,7 @@
             "patch_notes": "Zeige Patchnotizen",
             "alpha_welcome_dialog": {
                "title": "Willkommen zu Stonehearth!",
-               "message" : "Warnung: Dies ist eine Alpha. Es vermisst noch viele Funktionen und du kannst Fehlern während des Spielens begegnen.<br><br>Du kannst uns helfen, in dem du zustimmst uns automatisch ein Fehlerprotokoll zu senden. Geht das in Ordnung?",
+               "message": "Warnung: Dies ist eine Alpha. Es vermisst noch viele Funktionen und du kannst Fehlern während des Spielens begegnen.<br><br>Du kannst uns helfen, in dem du zustimmst uns automatisch ein Fehlerprotokoll zu senden. Geht das in Ordnung?",
                "accept": "Ja, Ich will helfen!",
                "cancel": "Nein Danke! Ich mag euch nicht!"
             },
@@ -1183,7 +1179,7 @@
          },
          "select_game_story": {
             "title": "Wähle dein Abenteuer",
-	    "story_start": "Dies ist die Geschichte von ...",
+            "story_start": "Dies ist die Geschichte von ...",
             "kingdom_section_start": "... einer mutigen Gruppe von Siedlern aus",
             "select_button": "?",
             "kingdom_picker_title": "Wähle ein Reich",
@@ -1217,7 +1213,7 @@
             "shop_title": "Abenteurer-Shop",
             "shop_gold_label": "Gold",
             "shop_sold": "VERKAUFT!",
-            "shop_reset_button": "Reset",
+            "shop_reset_button": "Zurücksetzen!",
             "finished": "Start!",
             "no_talisman_confirm_dialog": {
                "title": "Begin",
@@ -1361,7 +1357,7 @@
             },
             "inventory": {
                "display_name": "Lager",
-               "description": "Der Goldwert aller nicht-Ressourcen und nicht essbaren Elemente im Stadtlager."
+               "description": "Der Goldwert aller nicht-Ressourcen und nicht essbaren Waren im Stadtlager."
             },
             "buildings": {
                "display_name": "Gebäude",
@@ -1473,9 +1469,11 @@
                },
                "returning_trader_encounter": {
                   "title": "Ein Händler nähert sich eurer Stadt.",
+                  "days": " Tage",
+                  "hours": " Stunden",
                   "trade_details": "Hallo [str(i18n_data.town_name)]! Ich bin zwar gerade auf der Durchreise, aber ich wäre bereit ein oder zwei Handel zu machen, wenn Ihr interessiert seit. Wenn Ihr mir [str(i18n_data.want_number)] [str(i18n_data.want_item)](en/er) macht, werde ich in [str(i18n_data.num_days)] Tagen zurückkommen und werde Euch [str(i18n_data.reward_number)] [str(i18n_data.reward_item)](en) im Austausch geben. Klingt das gut?",
-                  "waiting_title": "Der Händler wird in [str(i18n_data.hour_counter)] Stunden zurück sein!",
-                  "waiting_text": "Der Händler wird in [str(i18n_data.hour_counter)] Stunden zurück sein um euch [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] zu geben, wenn Ihr [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) für Ihn bereit haltet!",
+                  "waiting_title": "Der Händler wird in [str(i18n_data.hour_counter)] [str(i18n_data.period)] zurück sein!",
+                  "waiting_text": "Der Händler wird in [str(i18n_data.hour_counter)] [str(i18n_data.period)] zurück sein um euch [str(i18n_data.reward_number)] [str(i18n_data.reward_item)] zu geben, wenn Ihr [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) für Ihn bereit haltet!",
                   "return_title": "Der Händler ist zurück!",
                   "return_greetings_positive": "Ich bin zurück! Es sieht aus als hättet Ihr die [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) nach dennen ich gefragt hatte. Seid Ihr immernoch bereit, Sie mit mir zutauschen? Ich würde euch [str(i18n_data.reward_number)] [str(i18n_data.reward_item)](en) im Austausch geben. Klingt das immernoch gut?",
                   "return_greetings_negative": "Ich bin zurück! Aber anscheinend habt Ihr die [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) nach dennen ich gefragt hatte nicht. Das ist Schade! Vielleicht beim nächsten Mal!"
@@ -1483,8 +1481,8 @@
                "returning_crop_trader_encounter": {
                   "title": "Ein Händler bringt Samen aus einem fernen Land.",
                   "trade_details": "Hallo [str(i18n_data.town_name)]! Ich bin nur auf der Durchreise, aber ich wäre bereit ein oder zwei Handel zu machen, wenn Ihr interessiert seid. Wenn Ihr mir [str(i18n_data.want_number)] [str(i18n_data.want_item)] macht, werde ich in [str(i18n_data.num_days)] Tagen zurückommen und könnte in der Lage sein Euch [str(i18n_data.reward_item)] im Austausch anzubieten. Klingt das gut?",
-                  "waiting_title": "Der Händler wird in [str(i18n_data.hour_counter)] Stunden zurück sein!",
-                  "waiting_text": "Der Händler wird in [str(i18n_data.hour_counter)] Stunden zurück sein um euch [str(i18n_data.reward_item)] zu geben, wenn Ihr [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) für Ihn bereit haltet!",
+                  "waiting_title": "Der Händler wird in [str(i18n_data.hour_counter)] [str(i18n_data.period)] zurück sein!",
+                  "waiting_text": "Der Händler wird in [str(i18n_data.hour_counter)] [str(i18n_data.period)] zurück sein um euch [str(i18n_data.reward_item)] zu geben, wenn Ihr [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) für Ihn bereit haltet!",
                   "return_title": "Der Händler ist zurück!",
                   "return_greetings_positive": "Ich bin zurück! Es sieht aus als hättet Ihr die [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) nach dennen ich gefragt hatte. Seid Ihr immernoch bereit, Sie mit mir zutauschen? Ich würde euch [str(i18n_data.reward_item)] im Austausch geben. Klingt das immernoch gut?",
                   "return_greetings_negative": "Ich bin zurück! Aber es sieht nicht danach aus das Ihr die [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) nach dennen ich gefragt hatte habt. Das ist Schade! Vielleicht beim nächsten Mal!"
@@ -1707,7 +1705,7 @@
             },
             "goblin_war": {
                "unlock_windchimes": {
-                  "bulletin_title" : "Der Schreiner hat das Windglockenspiel Rezept freigeschaltet!"
+                  "bulletin_title": "Der Schreiner hat das Windglockenspiel Rezept freigeschaltet!"
                },
                "erdenes_help": {
                   "dialog_tree_info": {
@@ -1926,8 +1924,8 @@
                            "bulletin_message": {
                               "000": "--der eine der dich beobachtet"
                            },
-                           "bulletin_title": "Mysterious Note",
-                           "dialog_title": "mysteriöse Nachricht"
+                           "bulletin_title": "Mysteriöser Hinweis",
+                           "dialog_title": "Mysteriöse Nachricht"
                         },
                         "msg1": {
                            "bulletin_message": {
@@ -2029,7 +2027,7 @@
                },
                "goblin_raiding_camp_1": {
                   "boss": {
-                     "display_name": "Häuptling [str(self.unit_info.custom_name)]",
+                     "display_name": "Häuptling [str(self.stonehearth:unit_info.custom_name)]",
                      "description": "Ich binz grüne Kampfmaschineeee!!!"
                   },
                   "sheep": {
@@ -2179,7 +2177,7 @@
                            "ogo_tent": {
                               "ogo_tent": {
                                  "display_name": "Ogo's Zelt",
-				 "description": "Gemacht aus gebleichten Fellen."
+                                 "description": "Gemacht aus gebleichten Fellen."
                               },
                               "ogo": {
                                  "description": "Wahrsager sagen Ogo Auserwählter, Ogo-Zyklus-Brecher",
@@ -3180,7 +3178,8 @@
       "build": {
          "prototypes": {
             "building": {
-               "display_name": "Gebäude Num.[str(self.unit_info.custom_name)]",
+               "display_name": "Gebäude",
+               "display_name": "Gebäude Num.[str(self.stonehearth:unit_info.custom_name)]",
                "description": "Ein Gebäude....JUHUU!!"
             },
             "column": {
@@ -3315,8 +3314,8 @@
             "description": "Ernten was verfügbar ist."
          },
          "loot_item": {
-            "display_name": "plündere Elemente",
-            "description": "Beanspruch diese Elemente für deine Stadt."
+            "display_name": "Waren plünderen",
+            "description": "Beanspruche diese Waren für deine Stadt."
          },
          "move_item": {
             "display_name": "Bewege Element",
@@ -3532,7 +3531,7 @@
                      "003": "Es ist irgendwie befriedigend etwas so viel größeres abzuholzen!",
                      "004": "Ich bin Paul Revere! Ich meine Bunyon!",
                      "005": "Wie viel Holz wohl ein Waldmurmeltier fällen kann, wenn ein Murmeltier Holz fällen könnte? Nun wenn mein Name Waldmurmeltier wäre, wäre die Antwort: VERDAMMT VIEL! Notiz an mich selber: Später herauszufinden wie ein Murmeltier aussieht.",
-                     "006": "Lumber lumber lumber, must be lumber, in a woodman's world. Ah-aaaa, all the things I could do, if I had a little lumber, it's a woodman's worrrllld. Ahhh-AAAAAIIEEE---FALLING TREEEE!!!!!",
+                     "006": "Lumber lumber lumber, must be lumber, in a woodman's world. Ah-aaaa, all the things I could do, if I had a  little lumber, it's a woodman's worrrllld. Ahhh-AAAAAIIEEE---BAAAAUUUMMM FFFÄÄÄLLLLTTT!!!!!",
                      "007": "Ich hörte, ich soll nicht mehr singen, wenn ich Holzhacke. Was auch Immer!",
                      "008": "Oh nein! Mr. Eichhörnchen Es tut mir leid. Ich wollte dein Haus nicht fällen. Ich sag dir was - zieh einfach bei mir ein! Nüsse gehen aufs Haus. Oh. Vielleicht hätte ich das Haus nicht erwähnen sollen ..."
                   },
@@ -3582,7 +3581,7 @@
                }
             },
             "peaceful_day": {
-               "text": "On Tranquility",
+               "text": "Bei Heiterkeit",
                "logs": {
                   "generic": {
                      "000": "Fühlt sich gut am Leben zu sein!",
@@ -3603,11 +3602,11 @@
                }
             },
             "villager_death": {
-               "text": "On Mortality:",
+               "text": "Bei Totesfällen:",
                "logs": {
                   "generic": {
                      "dead_friend_and_teacher": {
-                        "000": "[str(entry.teacher)] keep you safe, [name(entry.dead_friend)]."
+                        "000": "[str(entry.teacher)] möge dich beschützen, [name(entry.dead_friend)]."
                      },
                      "dead_friend": {
                         "000": "[name(entry.dead_friend)]? [name(entry.dead_friend)]!!!",
@@ -3748,7 +3747,7 @@
                      "006": "Ich träumte, dass ich träumte, ich war an einem See und ein leuchtendes Kaninchen erschienen aus dem Wasser und sagte erteilte mir einen guten Ratschlag. &quot;Wenn du es baust werden sie kommen.&quot;",
                      "007": "Ich träumte, mein Hammer würde mir hinterher rennen",
                      "008": "Ich träumte, wir machten rennen auf den Schafen. Etwas um es morgen zu versuchen?",
-                     "009": "Ich träumte, ich konnte nicht aufhören meinen Rucksack mit allen rumliegenden Elementen zu füllen",
+                     "009": "Ich träumte, ich konnte nicht aufhören meinen Rucksack mit allen rumliegenden Waren zu füllen",
                      "010": "Letzte Nacht hatte ich diesen Traum wo ich von einem Schwarm Poyos angegriffen wurde.",
                      "011": "Ich hatte einen Traum, dass jeder nur Beeren zu sammeln konnte. Es gab noch nicht einmal Bäume zu fällen oder Steinblöcke zum abbauen.",
                      "012": "Ich träumte, ich aß Beeren bis ich lila wurde und rollte dann in einen Teich.",
@@ -3788,7 +3787,7 @@
                      "046": "Ich träumte, dass ich keine Arme habe.",
                      "047": "Ich träumte, dass ich Poyofleisch schlug und es in Öl tat. Poyo Nuggets haben Sie es genannt!",
                      "048": "Ich träumte, dass Tuch eine andere Farbe außer blau haben kann",
-                     "049": "Ich hatte einen Traum, wo die Händler in wirklich Banditen waren! Wir haben alles verloren.",
+                     "049": "Ich hatte einen Traum, wo die Händler in Wirklichkeit Banditen waren! Wir haben alles verloren.",
                      "050": "Ich träumte, dass ich von einer Herde durchgehender Mammuts gejagt werden.",
                      "051": "Ich träumte, dass ich von Essen aller Art umgeben war und ich mich nie wieder bewegen musste.",
                      "052": "Ich träumte, dass ich der erste Hearthling war der den Mond beschritt. Und es war ein kleiner Schritt.",
@@ -4002,7 +4001,7 @@
                      "000": "Wow. Wer hätte gedacht, dass [str(entry.recent_food)] ein Supernahrungsmittel ist?",
                      "001": "Das war ein überraschend befriedigender [str(entry.recent_food)].",
                      "002": "Das [str(entry.recent_food)] war so gut, ich sollte wirklich priorisieren davon mehr zu essen..",
-                     "003": "Arr! Now I feel like a superhero!"
+                     "003": "Arr! Jetzt fühle ich mich wie ein Superheld!"
                   },
                   "generic": {
                      "000": "Wow! Das [str(entry.recent_food)] machte mich sehr gesund!",
@@ -4304,7 +4303,13 @@
       },
       "prototypes": {
          "party": {
-            "display_name": "Gruppe Num.[str(self.unit_info.custom_name)]",
+            "display_name": "Gruppe",
+            "display_names": {
+               "party_1": "Gruppe Num.1",
+               "party_2": "Gruppe Num.2",
+               "party_3": "Gruppe Num.3",
+               "party_4": "Gruppe Num.4"
+            },
             "description": "Organisiert Truppen zu Kampfgruppen"
          }
       },
@@ -4373,6 +4378,68 @@
             },
             "carpenter_house": {
                "display_name": "Schreinerhaus"
+            }
+         }
+      },
+      "tutorial": {
+         "tutorial_steps": {
+            "craft_carpenter_workbench": {
+               "ui_steps": {
+                  "set1": {
+                     "step003": {
+                        "title": "Klicken Sie auf die Schreinerwerkbank"
+                     },
+                     "step002": {
+                        "title": "Öffnen Sie das Schreiner Handwerks-Menü"
+                     },
+                     "step005": {
+                        "title": "Klicken Sie auf das X um das Fenster zu schließen"
+                     },
+                     "step004": {
+                        "title": "Klicken Sie auf den Herstellen-Knopf um die Werkbank herzustellen"
+                     },
+                     "step001": {
+                        "title": "Öffne das Handwerks-Menü",
+                        "description": "In diesem Menü kannst du die verschiedenen handwerklichen Werkbanken deiner Bürger verwalten. "
+                     },
+                     "step000": {
+                        "title": "Stelle eine Werkbank auf",
+                        "description": "Unser Schreiner braucht eine Werkbank um Artikel für deine Stadt zu fertigen. Lass uns eine Werkbank machen!"
+                     }
+                  }
+               }
+            },
+            "place_carpenter_workbench": {
+               "ui_steps": {
+                  "set1": {
+                     "step001": {
+                        "title": "Öffne das Baumenü",
+                        "description": "In diesem Menü kannst du Strukturen bauen und Gegenstände in deiner Stadt platzieren."
+                     },
+                     "step000": {
+                        "title": "Platziere die Schreinerwerkbank",
+                        "description": "Jetzt da wir die Werkbank hergestellt haben, müssen wir Sie noch in der Stadt platzieren, damit dein Schreiner Sie nutzen kann."
+                     },
+                     "step003": {
+                        "title": "Klick auf die Schreinerwerkbank",
+                        "description": "Wähle die Werkbank aus und klicke irgendwohin um Sie zu platzieren."
+                     },
+                     "step002": {
+                        "title": "Öffnet das Platzieren-Menü"
+                     }
+                  },
+                  "set2": {
+                     "step000": {
+                        "title": "Herzlichen Glückwünsch!",
+                        "description": "Wir haben Ressourcen, einen Ort um die Waren zu lagern und eine Möglichkeit Gegenstände herzustellen. Wir sind auf einem guten Weg diese Siedlung in Gang zu bringen!"
+                     }
+                  }
+               }
+            },
+            "harvest_logs": {
+               "scenario_data": {
+                  "declined_text": "Ich brauch keine Hilfe!"
+               }
             }
          }
       }
@@ -4460,7 +4527,7 @@
             "description": "Nützlich zum blocken von Attacken",
             "bronze_shield_iconic": {
                "display_name": "Bronzeschild",
-            "description": "Nützlich zum blocken von Attacken"
+               "description": "Nützlich zum blocken von Attacken"
             }
          },
          "iron_coif": {
@@ -4630,8 +4697,8 @@
             }
          },
          "wooden_tunnel_door": {
-               "display_name": "Hölzerne Tunneltür",
-               "description": "Nützlich zum Absperren von Tunneln"
+            "display_name": "Hölzerne Tunneltür",
+            "description": "Nützlich zum Absperren von Tunneln"
          },
          "wooden_double_door": {
             "wooden_double_door_ghost": {
@@ -4786,6 +4853,36 @@
          "wooden_tunnel_door_fine": {
             "display_name": "Schöne hölzerne Tunneltür",
             "description": "Nützlich um Tunnel abzusperren"
+         },
+         "blue_latticed_window": {
+            "blue_latticed_window_ghost": {
+               "display_name": "Blaues vergittertes Fenster",
+               "description": "Ein beruhigendes blaues vergittertes Fenster"
+            }
+         },
+         "green_latticed_window": {
+            "green_latticed_window_ghost": {
+               "display_name": "Grünes vergittertes Fenster",
+               "description": "Das vergitterte Fenster, das du kennst und liebst, jetzt in Grün!"
+            }
+         },
+         "tan_clay_window_frame": {
+            "tan_clay_window_frame_ghost": {
+               "display_name": "Gelbbrauner tönerer Fensterrahmen ",
+               "description": "Lässt die Sonne rein"
+            }
+         },
+         "tan_latticed_window": {
+            "tan_latticed_window_ghost": {
+               "display_name": "Gelbbraunes vergittertes Fenster",
+               "description": "Das vergitterte Fenster, das du kennst und liebst, in Gelbbraun"
+            }
+         },
+         "tall_clay_window": {
+            "tall_clay_window_ghost": {
+               "display_name": "Hohes tönernes Fenster",
+               "description": "Lässt noch die weiche Wüstenluft rein"
+            }
          }
       },
       "containers": {
@@ -5725,6 +5822,12 @@
                "display_name": "Schönes Eisblumen Pflanzgefäß",
                "description": "Ein kleines Heim für Pflanzen."
             }
+         },
+         "poyo_weathervane": {
+            "poyo_weathervane_ghost": {
+               "display_name": "Poyo Wetterfahne",
+               "description": "Eine Wetteerfahne mit dem Aussehen eines freundlichen Hofvogels"
+            }
          }
       },
       "food": {
@@ -6120,8 +6223,8 @@
          },
          "tombstone": {
             "tombstone_ghost": {
-               "display_name": "Ruhe in Frieden [str(self.unit_info.custom_name)]!",
-               "description": "[str(self.unit_info.custom_name)] wird immer in unseren Erinnerungen bleiben.."
+               "display_name": "Ruhe in Frieden [str(self.stonehearth:unit_info.custom_name)]!",
+               "description": "[str(self.stonehearth:unit_info.custom_name)] wird immer in unseren Erinnerungen bleiben.."
             },
             "tombstone": {
                "display_name": "Grabmal",
@@ -6258,7 +6361,7 @@
       "loot": {
          "gold": {
             "display_name": "Truhe voller Goldmünzen",
-            "description": "Sie enthält [str(self.item.stacks)] Münzen!",
+            "description": "Sie enthält [str(self.stonehearth:stacks.stacks)] Münzen!",
             "label": "Gold"
          }
       },
@@ -6303,7 +6406,7 @@
                }
             },
             "goblin": {
-               "display_name": "[str(self.unit_info.custom_name)]",
+               "display_name": "[str(self.stonehearth:unit_info.custom_name)]",
                "description": "Faziniert von glänzenden Dingen."
             },
             "goblin_barricade": {
@@ -6344,7 +6447,7 @@
                "description": "Aus grob gehackten Holzbrettern hergestellt."
             },
             "goblin_large_totem": {
-               "display_name": "HGroßer Totem"
+               "display_name": "Großer Totem"
             },
             "goblin_small_totem": {
                "display_name": "Kleiner Totem"
@@ -6386,7 +6489,7 @@
          },
          "kobolds": {
             "kobold": {
-               "display_name": "[str(self.unit_info.custom_name)]",
+               "display_name": "[str(self.stonehearth:unit_info.custom_name)]",
                "description": "Anhänger des Diamant-Stern"
             },
             "loot": {
@@ -6414,15 +6517,15 @@
          },
          "undead": {
             "skeleton": {
-               "display_name": "[str(self.unit_info.custom_name)]",
+               "display_name": "[str(self.stonehearth:unit_info.custom_name)]",
                "description": "Es sehnt sich nach Fleisch"
             },
             "zombie": {
-               "display_name": "[str(self.unit_info.custom_name)]",
+               "display_name": "[str(self.stonehearth:unit_info.custom_name)]",
                "description": "Er sehnt sich nach Fleisch",
                "male": {
                   "zombie_male": {
-                     "display_name": "[str(self.unit_info.custom_name)]",
+                     "display_name": "[str(self.stonehearth:unit_info.custom_name)]",
                      "description": "Er sehnt sich nach Fleisch"
                   }
                }
@@ -6454,13 +6557,13 @@
          },
          "ogres": {
             "ogre": {
-               "display_name": "[str(self.unit_info.custom_name)]",
+               "display_name": "[str(self.stonehearth:unit_info.custom_name)]",
                "description": "Ein Ork ging schrecklich schief"
             }
          },
          "orcs": {
             "orc": {
-               "display_name": "[str(self.unit_info.custom_name)]",
+               "display_name": "[str(self.stonehearth:unit_info.custom_name)]",
                "description": "Ein Krieger des Red Kiln"
             },
             "orc_boss_banner": {
@@ -6474,6 +6577,12 @@
             "orc_tent": {
                "display_name": "Orkzelt",
                "description": "Riecht wie alte Wäsche."
+            }
+         },
+         "mammoth": {
+            "mammoth": {
+               "display_name": "Mammut",
+               "description": "Große wollige Bestie"
             }
          }
       },
@@ -7511,7 +7620,7 @@
             "workbenches_name": "Werkbanken",
             "storage_name": "Lager",
             "vault_recipe": {
-               "description": "Massiver Speicher für 256 Elemente!",
+               "description": "Massiver Speicher für 256 Waren!",
                "recipe_name": "Tresor",
                "flavor": "Konzipiert vom genialen Arci, Überlebender des Chaat"
             },
@@ -7889,7 +7998,7 @@
             },
             "wheat_pile_recipe": {
                "recipe_name": "Großes Weizenbündel",
-               "description": "Wenn normale Weizenballen einfach zu klein sind. Gut um Effizient eine große Menge an Weizen zu speichen."         
+               "description": "Wenn normale Weizenballen einfach zu klein sind. Gut um Effizient eine große Menge an Weizen zu speichen."
             },
             "blue_market_stall_recipe": {
                "description": "Händler können diesen Stand besuchen, um Waren zu kaufen und zu verkaufen",
@@ -7913,6 +8022,11 @@
                "recipe_name": "Statue von Cid Wanderer",
                "description": "Zeigt Cid im späteren Leben",
                "flavor": "Und wo Cid wanderte stieg die Kirche in seine Fußstapfen nach oben..."
+            },
+            "poyo_weathervane_recipe": {
+               "recipe_name": "Poyo Wetterfahne",
+               "description": "Eine Wetterfahne mit dem Aussehen eines freundlichen Hofvogels",
+               "flavor": "TODO"
             }
          }
       },
@@ -8303,7 +8417,7 @@
             "requirements": "Steinmetz-Meißel, wird von dem Schreiner hergestellt.",
             "workshop": {
                "name": "Steinmetz-Werkbank",
-               "description": "",
+               "description": "füge Beschreibung hier ein",
                "long_description": "Der Steinmetzt stellt Baumaterialien und dekorative Gegenstände aus Stein her."
             },
             "level_6_data": {
@@ -8313,7 +8427,7 @@
             },
             "level_2_data": {
                "perk_000_name": "ausgefallene Felsen",
-               "perk_000_description": "Der Steinmetz kann jetzt aufwendigere Elemente aus Stein herstellen."
+               "perk_000_description": "Der Steinmetz kann jetzt aufwendigere Waren aus Stein herstellen."
             },
             "level_4_data": {
                "perk_000_name": "Erweiterter Katalog",
@@ -8397,7 +8511,7 @@
                "flavor": "Reste von den Knechten von Brelor, kronenloser König."
             },
             "tools_name": "Werkzeuge",
-            "storage_name" : "Lager", 
+            "storage_name": "Lager",
             "signage_decoration_name": "Schilder & Dekorationen",
             "building_parts_name": "Gebäudeteile",
             "weapons_name": "Waffen",
@@ -8507,8 +8621,8 @@
             "requirements": "Ein Level 4 Steinmetz und ein Töpferschneider, wird vom Steinmetz hergestellt",
             "workshop": {
                "name": "Töpferscheibe",
-               "description": "insert description here",
-               "long_description": "Die Töpfer stellt nützliche Waren und dekoratiive Elemente aus Ton her."
+               "description": "füge Beschreibung hier ein",
+               "long_description": "Die Töpfer stellt nützliche Waren und dekoratiive Waren aus Ton her."
             },
             "level_3_data": {
                "perk_000_name": "Künstlerische Inspiration",
@@ -8535,13 +8649,13 @@
          "recipes": {
             "workbench_name": "Werkbanken",
             "small_urn_recipe": {
-               "description": "Für kompakte Lagerung von bis zu 8 Elementen",
+               "description": "Für kompakte Lagerung von bis zu 8 Waren",
                "recipe_name": "Kleine Urne",
                "flavor": "Freche Kinder zerbrechen diese Töpfe immer, auf der Suche nach Schätzen."
             },
             "storage_name": "Lagerung",
             "large_urn_recipe": {
-               "description": "Für kompakte Lagerung von bis zu 32 Elementen",
+               "description": "Für kompakte Lagerung von bis zu 32 Waren",
                "recipe_name": "Große Urne",
                "flavor": "Sobald wir die Dinge hineintun, wie bekommen wir Sie wieder raus? Denk nicht zu viel darüber nach."
             },
@@ -8553,7 +8667,7 @@
             "clay_wall_lamp_recipe": {
                "description": "Ihre Flamme bringt ein warmes Glühen in der Nacht.",
                "recipe_name": "Wandgebundene Lehm-Öllampe",
-               "flavor": "'Close round us guard the spirits of night! As they dance and sway, free you'll be to dream the dark away.'"
+               "flavor": "'Umschließt uns Ihr wachenden Geister der Nacht! Wenn Sie tanzen und schwanken, bist du frei das dunkle wegzuträumen.'"
             },
             "clay_tunnel_door_recipe": {
                "recipe_name": "Lehmerne Tunneltür",
@@ -8568,7 +8682,7 @@
             "decoration_name": "Dekorationen",
             "utility_name": "Nützliches",
             "potter_workbench_recipe": {
-               "description": "Hilft dem Töpfe einfache Elemente aus Lehm herzustellen",
+               "description": "Hilft dem Töpfer einfache Waren aus Lehm herzustellen",
                "recipe_name": "Töpferscheibe",
                "flavor": "Wo wir waren, werden wir wieder sein, noch eine Runde, für Stärke und dann--"
             },
@@ -8633,12 +8747,12 @@
                "flavor": "TODO"
             },
             "simple_clay_chair_recipe": {
-               "description": "Somewhere to sit while eating",
+               "description": "Irgendwo zum sitzen, während des Essens",
                "recipe_name": "Einfacher Lehmstuhl",
                "flavor": "'Nester mit Tischen, ooo, Symbolisch!' --Nestor Adya, Acolyte"
             },
             "decorative_teapot_recipe": {
-               "description": "Reminder of humble beginnings",
+               "description": "Erinnerung an die bescheidenen Anfänge",
                "recipe_name": "Dekorative Teekanne",
                "flavor": "'Wo auch immer sie hinging, die Teekanne tat es auch, und selbst wenn da nichts als kaltes Wasser zum befüllen war, ergegossen sich immer dampfender Tee duftend nach dem dem Aroma von anderswo.'"
             },
@@ -8696,6 +8810,31 @@
             "clay_tunnel_door_recipe": {
                "description": "Nützlich zum Abdichtung von Stollen.",
                "recipe_name": "Lehmerne Tunneltür"
+            },
+            "tan_latticed_window_recipe": {
+               "recipe_name": "Gelbbraunes vergittertes Fenster",
+               "description": "Das vergitterte Fenster, das du kennst und liebst, in Gelbbraun",
+               "flavor": "TODO"
+            },
+            "tall_clay_window_recipe": {
+               "recipe_name": "Hohes tönernes Fenster",
+               "description": "Lässt noch die weiche Wüstenluft rein",
+               "flavor": "TODO"
+            },
+            "tan_clay_window_frame_recipe": {
+               "flavor": "TODO",
+               "recipe_name": "Gelbbrauner tönerner Fensterrahmen ",
+               "description": "Lässt die Sonne rein"
+            },
+            "green_latticed_window_recipe": {
+               "recipe_name": "Grünes vergittertes Fenster",
+               "flavor": "TODO",
+               "description": "Das vergitterte Fenster, das du kennst und liebst, jetzt in Grün!"
+            },
+            "blue_latticed_window_recipe": {
+               "recipe_name": "Blaues vergittertes Fenster",
+               "description": "Ein beruhigendes blaues vergittertes Fenster",
+               "flavor": "TODO"
             }
          },
          "potter_workbench": {
@@ -9347,7 +9486,7 @@
             },
             "defense_2_buff": {
                "display_name": "Verteidigung +20%",
-               "description": "Verteidigung erhöht sich nochmals durch die Ausrüstung um 20%"
+               "description": "Verteidigung erhöht sich durch die Ausrüstung um 20%"
             },
             "health_1_buff": {
                "display_name": "Befestigen",
@@ -9375,7 +9514,7 @@
          "npc_thief": {
             "npc_thief_description": {
                "display_name": "Dieb",
-               "description": "Stehlt Elemente aus dem Lager",
+               "description": "Stiehlt Waren aus dem Lager",
                "level_0_data": {
                   "title": "Dieb"
                }
@@ -9385,7 +9524,7 @@
    },
    "stonehearth_mixins": {
       "base_human": {
-         "display_name": "[str(self.unit_info.custom_name)]",
+         "display_name": "[str(self.stonehearth:unit_info.custom_name)]",
          "description": "Einwohner deiner Stadt",
          "job": {
             "starting_level_title": "Auszubildender [str(self.stonehearth:job.curr_job_name)]",
@@ -9432,8 +9571,90 @@
          }
       },
       "base_human_npc": {
-         "display_name": "[str(self.unit_info.custom_name)]",
-         "description": "Ein Gast in deiner Stadt"
+         "display_name": "[str(self.stonehearth:unit_info.custom_name)]",
+         "description": "Ein Gast deiner Stadt"
+      }
+   },
+   "scenarios": {
+      "tutorial": {
+         "tutorial_steps": {
+            "create_stockpile": {
+               "ui_steps": {
+                  "set1": {
+                     "step001": {
+                        "title": "Klick den Zonen-Knopf",
+                        "description": "Zonen definieren, was wo in deiner Stadt passiert"
+                     },
+                     "step000": {
+                        "title": "Wir haben einiges Holz geerntet",
+                        "description": "Jetzt müssen wir es irgendwo lagern"
+                     },
+                     "step003": {
+                        "title": "Klick auf das Häkchen um zu bestätigen",
+                        "description": "Mithilfe der Filter kannst du bestimmen was in das Lager gehen soll"
+                     },
+                     "step002": {
+                        "title": "Klick auf den Lagererstellen-Knopf",
+                        "description": "Hearthlings lagern Ihre Waren in Lagern"
+                     }
+                  }
+               }
+            },
+            "harvest_logs": {
+               "scenario_data": {
+                  "message": "Wenn wir diese Stadt in Gang bringen wollen, brauchen wir Holz - sehr viel Holz! Holze ein paar Bäume ab um Holzblöcke zu bekommen.",
+                  "completed_message": "Herzlichen Glückwünsch! Wir haben jetzt ein paar Holzressourcen. Holzblöcke und andere natürliche Ressourcen können verwendet werden um Gebäude und andere Waren herzustellen. Sie sind die ersten Bausteine für die Erweiterung deiner Stadt.",
+                  "title": "[str(i18n_data.town_name)] Stadt: Erstversorgung",
+                  "resource_display_name": "Holzblöcke"
+               },
+               "ui_steps": {
+                  "set1": {
+                     "step001": {
+                        "title": "Klick auf den Sammeln-Knopf",
+                        "description": "Verwende den Sammeln-Knopf um Bäume zu fällen"
+                     },
+                     "step000": {
+                        "title": "Klick auf den Ernte-Menü-Knopf",
+                        "description": "Verwende das Ernte-Menü um Ressourcen von der Welt zu sammeln"
+                     }
+                  }
+               }
+            },
+            "promote_carpenter": {
+               "ui_steps": {
+                  "set1": {
+                     "step006": {
+                        "title": "Klick auf den Stempel um die Ernennung zu genehmigen"
+                     },
+                     "step005": {
+                        "title": "Klick auf die Schreiner Schaltfläche."
+                     },
+                     "step004": {
+                        "title": "Klick auf Ändere Arbeit um diesen Hearthling einen anderen Job zu geben"
+                     },
+                     "step001": {
+                        "title": "Öffne den Einwohner Manager",
+                        "description": "In diesem Bereich kannst du alle Bürger verwalten, Ihre Statistiken einsehen und Ihre Aufgabenbereiche festlegen."
+                     },
+                     "step000": {
+                        "title": "Ernenne einen Hearthling zu einem Schreiner",
+                        "description": "Wir haben Holzblöcke und einen Ort Waren zu lagern, aber die Stadt sieht ziemlich leer aus. Glücklicherweise haben deine Hearthlinge eine Säge mitgebracht. Lass uns einen Hearthling zu einem Schreiner ernennen!"
+                     },
+                     "step007": {
+                        "title": "Stadt Handwerker",
+                        "description": "Schreiner und andere Handwerker können verschiedene Waren herstellen um deiner Siedlung zu helfen, von Betten zu Baumaterialien bis Waffen."
+                     },
+                     "step003": {
+                        "title": "Bewege die Maus über die Zahlen um herauszufinden, was jedes Attribut bewirkt",
+                        "description": "Jeder hearthling hat einen Verstand-, einen Körper- und einen Geistwert, der beeinflusst wie gut Sie bestimmte Dinge tun können."
+                     },
+                     "step002": {
+                        "title": "Wähle einen Hearthling zum Ernennen"
+                     }
+                  }
+               }
+            }
+         }
       }
    }
 }

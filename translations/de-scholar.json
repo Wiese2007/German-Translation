@@ -1,0 +1,566 @@
+{
+
+	"jobs": {
+		"blacksmith": {
+			"recipes": {
+				"heartite_bastard_recipe": {
+					"recipe_name": "Heartite Bastard",
+					"description": "A two-handed sword made with Heartite Alloy.",
+					"flavor": "Light Yet Solid!"
+				},
+				"heartite_bow_recipe": {
+					"recipe_name": "Heartite Bow",
+					"description": "A firm and flexible bow made with Heartite Alloy.",
+					"flavor": "Flexible Beauty!"
+				},
+				"heartite_shield_recipe": {
+					"recipe_name": "Heartite Shield",
+					"description": "A large shield made with Heartite Alloy.",
+					"flavor": "Strength comes from an indomitable will."
+				}
+			}
+		},
+		"herbalist": {
+			"recipes": {
+				"scholar_encyclopedia_recipe": {
+					"recipe_name": "Scholar Encyclopedia",
+					"description": "An Encyclopedia for promoting A Scholar.",
+					"flavor": "The only true wisdom is in knowing you know nothing."
+				},
+				"da_vinci_tonic_recipe": {
+					"recipe_name": "Da Vinci Tonic",
+					"description": "A tonic that buffs curiosity and inventiveness.",
+					"flavor": "EUREKA!"
+				},
+				"pla_tonic_recipe": {
+					"recipe_name": "PLA Tonic",
+					"description": "A tonic that buffs willpower and compassion.",
+					"flavor": "Platonic Love!"
+				}
+			}
+		},
+		"engineer": {
+			"recipes": {
+				"rune_clay_turret_recipe": {
+					"recipe_name": "Rune Clay Turret",
+					"description": "A turret that slows down the enemies."
+				},
+				"heartite_ballista_recipe": {
+					"recipe_name": "Heartite Ballista",
+					"description": "A heavy ballista with giant arrows.",
+					"flavor": "Slow, but strong as the heartite."
+				}
+			}
+		},
+		"mason": {
+			"recipes": {
+				"concrete_fence_gate_recipe": {
+					"recipe_name": "Concrete Fence Gate",
+					"description": "A fence gate made with concrete materials.",
+					"flavor": "Well... it's more of a wall, right?"
+				},
+				"concrete_fence_recipe": {
+					"recipe_name": "Concrete Fence",
+					"description": "A fence made with concrete materials.",
+					"flavor": "Well... it's more of a wall, right?"
+				},
+				"obsidian_maul_recipe": {
+					"recipe_name": "Obsidian Maul",
+					"description": "A simple maul made with a hunk of obsidian.",
+					"flavor": "Yes, it burns when inside the lava."
+				},
+				"obsidian_gargoyle_recipe": {
+					"recipe_name": "Obsidian Gargoyle",
+					"description": "An Obsidian Sculture.",
+					"flavor": "Spookier than ever."
+				},
+				"obsidian_skull_recipe": {
+					"recipe_name": "Obsidian Skull",
+					"description": "An Obsidian Sculture.",
+					"flavor": "It's not really a skull. I think..."
+				}
+			}
+		},
+		"potter": {
+			"recipes": {
+			}
+		},
+		"weaver": {
+			"recipes": {
+				"carbonearth_mail_recipe": {
+					"recipe_name": "Carbonearth Mail",
+					"description": "An mail armor made with Carbon Fabric and Heartite Alloy.",
+					"flavor": "It's light, but doesn't make you faster."
+				},
+				"carbonearth_plate_recipe": {
+					"recipe_name": "Carbonearth Plate",
+					"description": "An plate armor made with Carbon Fabric and Heartite Alloy.",
+					"flavor": "It's light, and makes you faster."
+				}
+			}
+		},
+		"scholar": {
+			"scholar_description": {
+				"display_name": "Scholar",
+				"description": "Alchemist + Philosopher + Scientist + Etc.",
+				"requirements": "Level 1 Herbalist and a Scholar Encyclopedia, crafted by the Herbalist.",
+				"workshop": {
+					"name": "Scholar's Workbench",
+					"description": "A workbench for scholars.",
+					"long_description": "A workbench for scholars."
+				},
+				"level_1_data": {
+					"perk_000_name": "Level 1 Perk",
+					"perk_000_description": "Temporary Text"
+				},
+				"level_2_data": {
+					"perk_000_name": "Level 2 Perk",
+					"perk_000_description": "Temporary Text"
+				},
+				"level_3_data": {
+					"perk_000_name": "Level 3 Perk",
+					"perk_000_description": "Temporary Text",
+					"perk_001_name": "Obelisk Enabled",
+					"perk_001_description": "Increases Obelisk Placement to 2"
+				},
+				"level_4_data": {
+					"perk_000_name": "Level 4 Perk",
+					"perk_000_description": "Temporary Text"
+				},
+				"level_5_data": {
+					"perk_000_name": "Level 5 Perk",
+					"perk_000_description": "Temporary Text"
+				},
+				"level_6_data": {
+					"perk_000_name": "Level 5 Perk",
+					"perk_000_description": "Temporary Text",
+					"perk_001_name": "More Obelisk Placement",
+					"perk_001_description": "Increases Obelisk Placement to 4"
+				}
+			},
+			"scholar_encyclopedia": {
+				"display_name": "Scholar Encyclopedia",
+				"description": "An Encyclopedia for promoting A Scholar.",
+				"scholar_encyclopedia_iconic": {
+					"display_name": "Scholar Encyclopedia",
+					"description": "An Encyclopedia for promoting A Scholar."
+				},
+				"scholar_encyclopedia_talisman": {
+					"display_name": "Scholar Encyclopedia",
+					"description": "An Encyclopedia for promoting A Scholar."
+				}
+			},
+			"scholar_alchembrazier": {
+				"display_name": "Scholar's Alchembrazier",
+				"description": "A special furnace for alchemy.",
+				"scholar_alchembrazier_iconic": {
+					"display_name": "Scholar's Alchembrazier",
+					"description": "A special furnace for alchemy."
+				},
+				"scholar_alchembrazier_ghost": {
+					"display_name": "Scholar's Alchembrazier",
+					"description": "A special furnace for alchemy."
+				}
+			},
+			"scholar_workbench": {
+				"display_name": "Scholar's Workbench",
+				"description": "A workbench for scholars.",
+				"scholar_workbench_iconic": {
+					"display_name": "Scholar's Workbench",
+					"description": "A workbench for scholars."
+				},
+				"scholar_workbench_ghost": {
+					"display_name": "Scholar's Workbench",
+					"description": "A workbench for scholars."
+				}
+			},
+			"scholar_outfit": {
+				"display_name": "Scholar's Outfit",
+				"description": "An Outfit for scholars."
+			},
+			"recipes": {
+				"workbench_name": "Workbenches",
+				"resources_name": "Resources",
+				"construction_name": "Construction",
+				"obelisk_name": "Obelisks",
+				"carbon_fabric_bolt_recipe": {
+					"recipe_name": "Carbon Fabric Bolt",
+					"description": "A strong fabric enhanced with carbon materials.",
+					"flavor": "In Stonehearth, Coal makes Carbon Fabric!"
+				},
+				"clay_mound_recipe": {
+					"recipe_name": "Clay Mound",
+					"description": "Transmutes Gravel to Clay.",
+					"flavor": "Potters like it!"
+				},
+				"concrete_mound_recipe": {
+					"recipe_name": "Concrete Mound",
+					"description": "Mixes Gravel, Clay and Sand to Concrete.",
+					"flavor": "Modern Construction Ready...?"
+				},
+				"ginseng_powder_recipe": {
+					"recipe_name": "Ginseng Powder",
+					"description": "Makes a Ginseng to powder form.",
+					"flavor": "The beauty of Oriental herb."
+				},
+				"gravel_mound_recipe": {
+					"recipe_name": "Gravel Mound",
+					"description": "Grinds Stone to Gravel.",
+					"flavor": "...Can't we just get some from the river?"
+				},
+				"heartite_ingot_recipe": {
+					"recipe_name": "Heartite Ingot",
+					"description": "A special alloy made with gold, silver, and steel.",
+					"flavor": "The Alloy of Hearthsto... StoneHearth!"
+				},
+				"hunk_of_marble_recipe": {
+					"recipe_name": "Hunk Of Marble",
+					"description": "Finds Marble from Stone.",
+					"flavor": "Everyone loves beautiful sculptures!"
+				},
+				"hunk_of_obsidian_recipe": {
+					"recipe_name": "Hunk Of Obsidian",
+					"description": "Finds Obsidian from Stone.",
+					"flavor": "A great resource for beginners."
+				},
+				"lump_of_coal_recipe": {
+					"recipe_name": "Lump Of Coal",
+					"description": "Makes CharCoal with Woods.",
+					"flavor": "Somehow, making coals from woods is in every games."
+				},
+				"rune_clay_recipe": {
+					"recipe_name": "Rune Clay",
+					"description": "Clay with magical powers.",
+					"flavor": "Actually it's the carving part that's hard."
+				},
+				"glass_block_recipe": {
+					"recipe_name": "Glass Block",
+					"description": "A translucent building material.",
+					"flavor": "Translucent Fantasy!"
+				},
+				"sand_mound_recipe": {
+					"recipe_name": "Sand Mound",
+					"description": "Grinds Gravel to Sand.",
+					"flavor": "Don't get 'em in your shoes!"
+				},
+				"healing_obelisk_recipe": {
+					"recipe_name": "Healing Obelisk",
+					"description": "An Obelisk with Healing Aura. Needs Scholars to Use.",
+					"flavor": "Magic And Science Combined!"
+				},
+				"strength_obelisk_recipe": {
+					"recipe_name": "Strength Obelisk",
+					"description": "An Obelisk with Strength Buff. Needs Scholars to Use.",
+					"flavor": "Science And Magic Combined!"
+				},
+				"scholar_alchembrazier_recipe": {
+					"recipe_name": "Scholar's Alchembrazier",
+					"description": "A special furnace for alchemy.",
+					"flavor": "Nobody knows how it actually works."
+				},
+				"scholar_workbench_recipe": {
+					"recipe_name": "Scholar's Workbench",
+					"description": "A workbench for scholars.",
+					"flavor": "Research Papers Ready!"
+				},
+				"blue_glass_window_frame_recipe": {
+					"recipe_name": "Blue Glass Window Frame",
+					"description": "A Glass Window with Blue Frame.",
+					"flavor": "Hey, that window actually has a glass pane!"
+				},
+				"green_glass_window_frame_recipe": {
+					"recipe_name": "Green Glass Window Frame",
+					"description": "A Glass Window with Green Frame.",
+					"flavor": "Hey, that window actually has a glass pane!"
+				},
+				"red_glass_window_frame_recipe": {
+					"recipe_name": "Red Glass Window Frame",
+					"description": "A Glass Window with Red Frame.",
+					"flavor": "Hey, that window actually has a glass pane!"
+				},
+				"latticed_glass_window_frame_recipe": {
+					"recipe_name": "Latticed Glass Window Frame",
+					"description": "A Glass Window with Latticed Frame.",
+					"flavor": "Hey, that window actually has a glass pane!"
+				}
+			}
+		}
+	},
+	"entities": {
+		"armor": {
+			"carbonearth_mail": {
+				"carbonearth_mail": {
+					"display_name": "Carbonearth Mail",
+					"description": "An mail armor made with Carbon Fabric and Heartite Alloy."
+				},
+				"carbonearth_mail_iconic": {
+					"display_name": "Carbonearth Mail",
+					"description": "An mail armor made with Carbon Fabric and Heartite Alloy."
+				}
+			},
+			"carbonearth_plate": {
+				"carbonearth_plate": {
+					"display_name": "Carbonearth Plate",
+					"description": "A plate armor made with Carbon Fabric and Heartite Alloy."
+				},
+				"carbonearth_plate_iconic": {
+					"display_name": "Carbonearth Plate",
+					"description": "A plate armor made with Carbon Fabric and Heartite Alloy."
+				}
+			},
+			"heartite_shield": {
+				"heartite_shield": {
+					"display_name": "Heartite Shield",
+					"description": "A large shield made with Heartite Alloy."
+				},
+				"heartite_shield_iconic": {
+					"display_name": "Heartite Shield",
+					"description": "A large shield made with Heartite Alloy."
+				}
+			}
+		},
+		"construction": {
+			"concrete_fence": {
+				"concrete_fence": {
+					"display_name": "Concrete Fence",
+					"description": "A fence made with concrete materials."
+				},
+				"concrete_fence_ghost": {
+					"display_name": "Concrete Fence",
+					"description": "A fence made with concrete materials."
+				},
+				"concrete_fence_iconic": {
+					"display_name": "Concrete Fence",
+					"description": "A fence made with concrete materials."
+				}
+			},
+			"concrete_fence_gate": {
+				"concrete_fence_gate": {
+					"display_name": "Concrete Fence Gate",
+					"description": "A fence gate made with concrete materials."
+				},
+				"concrete_fence_gate_ghost": {
+					"display_name": "Concrete Fence Gate",
+					"description": "A fence gate made with concrete materials."
+				},
+				"concrete_fence_gate_iconic": {
+					"display_name": "Concrete Fence Gate",
+					"description": "A fence gate made with concrete materials."
+				}
+			},
+			"blue_glass_window_frame": {
+				"blue_glass_window_frame_ghost": {
+					"display_name": "Blue Glass Window Frame",
+					"description": "A Glass Window with Blue Frame."
+				}
+			},
+			"red_glass_window_frame": {
+				"red_glass_window_frame_ghost": {
+					"display_name": "Red Glass Window Frame",
+					"description": "A Glass Window with Red Frame."
+				}
+			},
+			"green_glass_window_frame": {
+				"green_glass_window_frame_ghost": {
+					"display_name": "Green Glass Window Frame",
+					"description": "A Glass Window with Green Frame."
+				}
+			},
+			"latticed_glass_window_frame": {
+				"latticed_glass_window_frame_ghost": {
+					"display_name": "Latticed Glass Window Frame",
+					"description": "A Glass Window with Latticed Frame."
+				}
+			},
+			"glass_block": {
+				"glass_block": {
+					"display_name": "Glass Block",
+					"description": "A translucent building material."
+				}
+			},
+			"rune_clay": {
+				"rune_clay": {
+					"display_name": "Rune Clay",
+					"description": "Clay with magical powers."
+				}
+			}
+		},
+		"crops": {
+			"ginseng_crop": {
+				"display_name": "Ginseng",
+				"description": "An Oriental Herb."
+			}
+		},
+		"consumables": {
+			"da_vinci_tonic": {
+				"display_name": "Da Vinci Tonic",
+				"description": "A tonic that buffs curiosity and inventiveness."
+			},
+			"pla_tonic": {
+				"display_name": "PLA Tonic",
+				"description": "A tonic that buffs willpower and compassion."
+			}
+		},
+		"decoration": {
+			"obsidian_gargoyle": {
+				"obsidian_gargoyle_ghost": {
+					"display_name": "Obsidian Gargoyle",
+					"description": "An Obsidian Sculture."
+				}
+			},
+			"obsidian_skull": {
+				"obsidian_skull_ghost": {
+					"display_name": "Obsidian Skull",
+					"description": "An Obsidian Sculture."
+				}
+			}
+		},
+		"gizmos": {
+			"healing_obelisk": {
+				"healing_obelisk_ghost": {
+					"display_name": "Healing Obelisk",
+					"description": "An Obelisk with Healing Aura. Needs Scholars to Use."
+				}
+			},
+			"strength_obelisk": {
+				"strength_obelisk_ghost": {
+					"display_name": "Strength Obelisk",
+					"description": "An Obelisk with Strength Buff. Needs Scholars to Use."
+				}
+			},
+			"heartite_ballista": {
+				"heartite_ballista_ghost": {
+					"display_name": "Heartite Ballista",
+					"description": "A Strong Ballista that shoots slower."
+				}
+			},
+			"rune_clay_turret": {
+				"rune_clay_turret_ghost": {
+					"recipe_name": "Rune Clay Turret",
+					"description": "A turret that slows down the enemies."
+				}
+			}
+		},
+		"refined": {
+			"carbon_fabric_bolt": {
+				"display_name": "Carbon Fabric Bolt",
+				"description": "A strong fabric enhanced with carbon materials."
+			},
+			"ginseng_powder": {
+				"display_name": "Ginseng Powder",
+				"description": "A powder form of the Ginseng."
+			},
+			"heartite_ingot": {
+				"display_name": "Heartite Ingot",
+				"description": "A special alloy made with gold, silver, and steel."
+			}
+		},
+		"resources": {
+			"concrete": {
+				"concrete_mound": {
+					"display_name": "Concrete Mound",
+					"description": "A useful building material for Modern styles."
+				}
+			},
+			"gravel": {
+				"gravel_mound": {
+					"display_name": "Gravel Mound",
+					"description": "An earth material used to make other building materials."
+				}
+			},
+			"marble": {
+				"hunk_of_marble": {
+					"display_name": "Hunk of Marble",
+					"description": "A beautiful stone used for crafting sculptures."
+				}
+			},
+			"herb": {
+				"ginseng": {
+					"display_name": "Ginseng",
+					"description": "An Oriental Herb."
+				}
+			},
+			"obsidian": {
+				"hunk_of_obsidian": {
+					"display_name": "Hunk of Obsidian",
+					"description": "A firm stone used to make simple yet strong tools."
+				}
+			},
+			"sand": {
+				"sand_mound": {
+					"display_name": "Sand Mound",
+					"description": "An earth material used to make glasses and more."
+				}
+			}
+		},
+		"weapons": {
+			"heartite_bastard": {
+				"heartite_bastard": {
+					"display_name": "Heartite Bastard",
+					"description": "A two-handed sword made with Heartite Alloy."
+				},
+				"heartite_bastard_iconic": {
+					"display_name": "Heartite Bastard",
+					"description": "A two-handed sword made with Heartite Alloy."
+				}
+			},
+			"heartite_bow": {
+				"heartite_bow": {
+					"display_name": "Heartite Bow",
+					"description": "A firm and flexible bow made with Heartite Alloy."
+				},
+				"heartite_bow_iconic": {
+					"display_name": "Heartite Bow",
+					"description": "A firm and flexible bow made with Heartite Alloy."
+				}
+			},
+			"obsidian_maul": {
+				"obsidian_maul": {
+					"display_name": "Obsidian Maul",
+					"description": "A simple maul made with a hunk of obsidian."
+				},
+				"obsidian_maul_iconic": {
+					"display_name": "Obsidian Maul",
+					"description": "A simple maul made with a hunk of obsidian."
+				}
+			},
+			"ballista_arrow": {
+				"ballista_arrow": {
+					"display_name": "Ballista Arrow",
+					"description": "A big arrow for Ballistas only."
+				}
+			}
+		}
+	},
+	"data": {
+		"buffs": {
+			"da_vinci_tonic": {
+				"da_vinci_tonic_buff": {
+					"display_name": "Da Vinci Tonic",
+					"description": "Increases Curiosity and Inventiveness."
+				}
+			},
+			"pla_tonic": {
+				"pla_tonic_buff": {
+					"display_name": "PLA Tonic",
+					"description": "Increases Willpower and Compassion."
+				}
+			}
+		}
+	},
+	"ui": {
+		"game": {
+			"menu": {
+				"crafter_menu": {
+					"items": {
+						"scholar": {
+							"display_name": "Scholar Craft Menu",
+							"description": "Transmutes resources and parts.",
+							"required_job_text": "Requires a Scholar"
+						}
+					}
+				}
+			}
+		}
+	}
+}

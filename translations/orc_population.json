@@ -1,53 +1,8 @@
 {
-   "type": "kingdom",
-   "kingdom_name": "Orcs",
-   "kingdom_id": "orcs",
-   "amenity_to_strangers": "hostile",
-   "amenity_to": {
-      "goblins": "neutral"
-   },
    "roles": {
       "kobold": {
-         "male": {
-            "uri": [
-               "stonehearth:monsters:kobolds:kobold"
-            ],
-            "given_names": [
-               "Iksky",
-               "Yesvew",
-               "Wasster",
-               "Sekv",
-               "Eustar",
-               "Yanni",
-               "Yordl",
-               "Ento",
-               "Kaspin",
-               "Asnjis",
-               "Wol",
-               "Eteri",
-               "Kik",
-               "Ort",
-               "Balnok",
-               "Snag"
-            ]
-         },
-         "female": {
-            "uri": [
-               "stonehearth:monsters:kobolds:kobold"
-            ],
-            "given_names": [
-               "Kndl",
-               "Snuvz",
-               "Jyr",
-               "Blus",
-               "Konnon",
-               "Deekin",
-               "Oskas",
-               "Garboyt",
-               "Flankaar",
-               "Higar",
-               "Arkyn"
-            ]
+         "mixintypes": {
+            "surnames": "override"
          },
          "surnames": [
             "Goldklink",
@@ -73,44 +28,8 @@
          ]
       },
       "ogre": {
-         "male": {
-            "uri": [
-               "stonehearth:monsters:ogres:ogre"
-            ],
-            "given_names": [
-               "Bleg",
-               "Grot",
-               "Deruk",
-               "Bruk",
-               "Wog",
-               "Dud",
-               "Daurig",
-               "Trelog",
-               "Bor",
-               "Trolekog",
-               "Ock",
-               "Drizir",
-               "Terk",
-               "Krezirog",
-               "Klog"
-            ]
-         },
-         "female": {
-            "uri": [
-               "stonehearth:monsters:ogres:ogre"
-            ],
-            "given_names": [
-               "Kiv",
-               "Ginga",
-               "Wilg",
-               "Shiv",
-               "Ogl",
-               "Pavrm",
-               "Alka",
-               "Bom",
-               "Gim",
-               "Am"
-            ]
+         "mixintypes": {
+            "surnames": "override"
          },
          "surnames": [
             "Rokthrow",
@@ -124,53 +43,8 @@
          ]
       },
       "orc": {
-         "male": {
-            "uri": [
-               "stonehearth:monsters:orcs:orc_male"
-            ],
-            "given_names": [
-               "Vamug",
-               "Stugbu",
-               "Borug",
-               "Dulfish",
-               "Wurthu",
-               "Urbul",
-               "Gelub",
-               "Karthurg",
-               "Buugug",
-               "Omgig",
-               "Holkrug",
-               "Yargol",
-               "Xoku",
-               "Carguk",
-               "Womrik",
-               "Yerghu",
-               "Grik",
-               "Igg",
-               "Xepug",
-               "Hagul"
-            ]
-         },
-         "female": {
-            "uri": [
-               "stonehearth:monsters:orcs:orc_female"
-            ],
-            "given_names": [
-               "Opegha",
-               "Xuna",
-               "Bamul",
-               "Isagu",
-               "Yagak",
-               "Toda",
-               "Ulo",
-               "Bugdurash",
-               "Rulfi",
-               "Kharyu",
-               "Ghob",
-               "Yotul",
-               "Ghorza",
-               "Lasgh"
-            ]
+         "mixintypes": {
+            "surnames": "override"
          },
          "surnames": [
             "Sharamph",
@@ -199,9 +73,9 @@
       },
       "wolf": {
          "male": {
-            "uri": [
-               "stonehearth:monsters:kobolds:kobold_wolf"
-            ],
+            "mixintypes": {
+            "given_names": "override"
+         },
             "given_names": [
                "Upear",
                "Schnellpfote",
@@ -227,6 +101,9 @@
                "Zähnchen"
             ]
          },
+         "mixintypes": {
+            "surnames": "override"
+         },
          "surnames": [
             "der Grimmige",
             "Jagt-den-Himmel",
@@ -242,20 +119,5 @@
             "der Freundliche"
          ]
       }
-   },
-   "town_pieces": {
-      "optional_prefix": [
-         "Ay"
-      ],
-      "town_name": [
-         "Tak",
-         "Leiv"
-      ],
-      "suffix": [
-         "stuf"
-      ]
-   },
-   "task_groups": {
-      "stonehearth:task_group:restock": "stonehearth:simple_labor"
    }
 }

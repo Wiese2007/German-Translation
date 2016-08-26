@@ -1,0 +1,25 @@
+{
+   "ui": {
+      "shell": {
+         "select_game_story": {
+            "game_modes": {
+               "easy": {
+                  "display_name": "Einfach",
+                  "description": "Begegne weniger und einfacheren Monstern",
+                  "post_selection_text": "ein schöner Ort ist, um von neuem zu beginnen."
+               }
+            }
+         }
+      }
+   },
+   "data": {
+      "buffs": {
+         "game_modes": {
+            "game_mode_easy_buff": {
+               "display_name": "Einfacher Modus",
+               "description": "Im einfachen Modus, haben Feinde weniger Rüstung und Gesundheit und richten auch weniger Schaden an"
+            }
+         }
+      }
+   }
+}
