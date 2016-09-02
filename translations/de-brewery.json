@@ -1,12 +1,4 @@
 {
-   "data": {
-      "commands": {
-         "plant_tree": {
-               "display_name": "Pflanze Baum",
-               "description": "Pflanze diesen Baum"
-      }
-   }
-},
    "ui": {
       "buffs": {
          "blitzed": {
@@ -63,6 +55,46 @@
       "item_categories": {
       	"drink": "Getränke"
                },
+      "consumables": {
+         "seeds": {
+            "apple_tree_seeds": {
+               "display_name": "Apfelbaumsamen",
+               "description": "Lernen Sie den fruchtigen Apfelbaum anzubauen."
+            },
+            "blueberry_seeds": {
+               "display_name": "Blaubeerensamen",
+               "description": "Lernen Sie Blaubeeren anzubauen."
+            },
+            "cocoabeans_seeds": {
+               "display_name": "Kakaobohnensamen",
+               "description": "Lernen Sie Kakaobohnen anzubauen."
+            },
+            "garlic_seeds": {
+               "display_name": "Knoblauchsamen",
+               "description": "Lernen Sie Knoblauch anzubauen."
+            },
+            "grapes_seeds": {
+               "display_name": "Weintraubensamen",
+               "description": "Lernen Sie Weintrauben anzubauen."
+            },
+            "mushroom_seeds": {
+               "display_name": "Champignonsamen",
+               "description": "Lernen Sie Champignon anzubauen."
+            },
+            "strawberry_seeds": {
+               "display_name": "Erdbeerensamen",
+               "description": "Lernen Sie Erdbeeren anzubauen."
+            },
+            "sugarcane_seeds": {
+               "display_name": "Zuckerrohrsamen",
+               "description": "Lernen Sie Zuckerrohr anzubauen."
+            },
+            "tomato_seeds": {
+               "display_name": "Tomatensamen",
+               "description": "Lernen Sie Tomaten anzubauen."
+            }
+         }
+      },
       "crops": {
          "blueberry_crop": {
             "display_name": "Blaubeeren",
@@ -165,36 +197,6 @@
                "012": {
                   "name": "Verfaulte Weintrauben",
                   "description": "Schimmelig und Ekelhaft."
-               }
-            }
-         },
-         "rice_crop": {
-            "display_name": "Reis",
-            "description": "Langsam wachsende Korn.",
-            "growth_stage": {
-               "004": {
-                  "name": "Reifer Reis",
-                  "description": "Bereit zum Ernten!"
-               },
-               "001": {
-                  "name": "Reis Sprössling",
-                  "description": "Noch nicht essbar"
-               },
-               "000": {
-                  "name": "Reis Setzling",
-                  "description": "Reis Setzling."
-               },
-               "012": {
-                  "name": "Verfaulter Reis",
-                  "description": "Schimmelig und Ekelhaft."
-               },
-               "003": {
-                  "name": "Gereifter Reis",
-                  "description": "Noch nicht bereit."
-               },
-               "002": {
-                  "name": "Kümmerlicher Reis",
-                  "description": "Klein. Unreif."
                }
             }
          },
@@ -316,11 +318,37 @@
                },
                "000": {
                   "name": "Apfelbaum Setzling",
-                  "description": "Frisch gepflanzter Apfelbaumsamen"
+                  "description": "Frisch gepflanzter Apfelbaumsamen."
                },
                "002": {
                   "name": "Apfelbaum Sprössling",
                   "description": "Erreiche die Sonne, kleiner Sprössling."
+               }
+            }
+         },
+         "mushroom_crop": {
+            "display_name": "Champignon Schössling",
+            "description": "Es ist dunkel unter der Erde... so hat er sich entschieden seinen Hut zu zeigen!",
+            "growth_stage": {
+               "001": {
+                  "name": "Champignon Setzling",
+                  "description": "Es ist nur der Anfang."
+               },
+               "003": {
+                  "name": "Champignon Schössling",
+                  "description": "Bereit um ausgesetzt zu werden."
+               },
+               "000": {
+                  "name": "Champignon Setzling",
+                  "description": "Frisch gepflanzter Champignonsamen."
+               },
+               "002": {
+                  "name": "Champignon Sprössling",
+                  "description": "Erreiche die Sonne, kleiner Sprössling."
+               },
+               "012": {
+                  "name": "Verfaulter Champignon",
+                  "description": "Schimmelig und Ekelhaft."
                }
             }
          }
