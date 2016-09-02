@@ -242,7 +242,11 @@
             "level_description": "auf Level [str(level_req)]",
             "or": " oder ",
             "num_uses": "Verwendet",
-            "placed": "platziert"
+            "placed": "platziert",
+            "placement_tags": {
+               "turret": "Turm",
+               "trap": "Falle"
+            }
          },
          "citizens": {
             "title": "Einwohner",
@@ -980,6 +984,7 @@
             "attributions": "Hier findet Ihr eine Liste der Open-Source-Software, die in Stonehearth verwendet wird:"
          },
          "loading_screen": {
+            "initial_load_game_text": "Lade Spiel",
             "initial_load_map_text": "Generiere Welt",
             "loading_map_flavor_text": {
                "001": "Schärfe rechte Winkel...",
@@ -1029,9 +1034,9 @@
             },
             "tips": {
                "000": "Sollten deine Arbeiter in einer Mine feststecken, bau eine Leiter um Sie zu befreien!",
-               "001": "Deine Siedler schlafen besser, wenn du Ihnen für die Nächte Betten bereitstellt.",
+               "001": "Deine Siedler schlafen besser, wenn du Ihnen für die Nächte Betten bereitstellst.",
                "002": "Baue Zäune um deine Weiden, damit deine Schäfer nicht immer den Tieren hinterherlaufen müssen.",
-               "003": "Lager können angepasst werden, um bestimmte Waren zu einzulagern.",
+               "003": "Lager können angepasst werden, um bestimmte Waren einzulagern.",
                "004": "Du kannst Seidenpflanzen für einen stetigen Vorrat an Fasern anbauen.",
                "005": "Eine wohlgenährte Stadt ist eine glückliche Stadt.",
                "006": "Benutze die . und , Tasten um Waren oder Gebäude vor dem Platzieren zu drehen.",
@@ -1216,7 +1221,7 @@
             "shop_reset_button": "Zurücksetzen!",
             "finished": "Start!",
             "no_talisman_confirm_dialog": {
-               "title": "Begin",
+               "title": "Beginn",
                "message": "Bist du sicher das Spiel zu beginnen ohne ein extra Werkzeug aus dem Shop zu wählen? Wie immer, bekommst du noch den Start Talisman für deine Fraktion.",
                "accept": "JA, ich will den harten Modus",
                "cancel": "Ähmm warte mal!"
@@ -3179,7 +3184,7 @@
          "prototypes": {
             "building": {
                "display_name": "Gebäude",
-               "display_name": "Gebäude Num.[str(self.stonehearth:unit_info.custom_name)]",
+               "numbered_display_name": "Gebäude Num. [str(self.stonehearth:unit_info.custom_name)]",
                "description": "Ein Gebäude....JUHUU!!"
             },
             "column": {
@@ -4970,8 +4975,8 @@
          },
          "large_crate_fine": {
             "large_crate_fine_ghost": {
-               "description": "Lagerbehälter mit Stil",
-               "display_name": "Schöne große Kiste"
+               "display_name": "Schöne große Kiste",
+               "description": "Lagerbehälter mit Stil"
             }
          },
          "leather_bound_chest_fine": {

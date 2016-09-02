@@ -62,7 +62,7 @@
    "entities": {
       "item_categories": {
       	"drink": "Getränke"
-      },
+               },
       "crops": {
          "blueberry_crop": {
             "display_name": "Blaubeeren",
@@ -692,23 +692,28 @@
       "plants": {
          "allium": {
             "display_name": "Wilder Allium",
-            "description": "Eine sammelbare wilde Pflanze"
+            "description": "Eine sammelbare wilde Pflanze",
+            "unripe_description": "Unreifer Allium"
          },
          "blueberry": {
             "display_name": "Wilde Blaubeeren",
-            "description": "Sammelbare wilde Blaubeeren"
+            "description": "Sammelbare wilde Blaubeeren",
+            "unripe_description": "Unreife Blaubeeren"
          },
          "mushroom": {
-            "display_name": "Wilder Pilz",
-            "description": "Ein sammelbarer Wildpilz"
+            "display_name": "Wilder Champignon",
+            "description": "Ein sammelbarer wilder Champignon",
+            "unripe_description": "Unreifer Champignon"
          },
          "roses": {
             "display_name": "Wildrosen",
-            "description": " Eine sammelbare wilde Blume"
+            "description": " Eine sammelbare wilde Blume",
+            "unripe_description": "Unreife Rosen"
          },
          "strawberry": {
             "display_name": "Wilde Erdbeeren",
-            "description": " Sammelbare wilde Erdbeeren"
+            "description": " Sammelbare wilde Erdbeeren",
+            "unripe_description": "Unreife Erdbeeren"
          }
       },
       "trees": {
