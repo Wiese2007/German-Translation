@@ -1016,21 +1016,23 @@
                "027": "Entfliehe der Realität...",
                "028": "Platziere Kuscheltiere...",
                "029": "Reguliere Schnickschnack...",
-               "030": "Bin ich schon drinnen?...",
-               "031": "Steine auf Berg rollen...",
-               "032": "Sandkörner in Muscheln streuen...",
-               "033": "Kohle unter Druck setzen...",
-               "034": "Mammutfell vom Dachboden holen...",
-               "035": "Fossilen im Boden vergraben...",
-               "036": "Antischuppenschampoo für Drachen entwickeln...",
-               "037": "Fußpilz verteilen...",
-               "038": "Photosynthese verteilen...",
-               "039": "Heartlings zusammenstecken...",
-               "040": "Fliegende Helme ausbrüten...",
-               "041": "Bunnyohren den Hasen aufsetzen...",
-               "042": "Blitze zähmen...",
-               "043": "[Sorry vom Hamster gefressen]",
-               "044": "LANGWEILIG!!!!"
+               "030": "Schere Schafe...",
+               "031": "Gehirn filtern...",
+               "032": "Bin ich schon drinnen?...",
+               "033": "Steine auf Berg rollen...",
+               "034": "Sandkörner in Muscheln streuen...",
+               "035": "Kohle unter Druck setzen...",
+               "036": "Mammutfell vom Dachboden holen...",
+               "037": "Fossilen im Boden vergraben...",
+               "038": "Antischuppenschampoo für Drachen entwickeln...",
+               "039": "Fußpilz verteilen...",
+               "040": "Photosynthese verteilen...",
+               "041": "Heartlings zusammenstecken...",
+               "042": "Fliegende Helme ausbrüten...",
+               "043": "Bunnyohren den Hasen aufsetzen...",
+               "044": "Blitze zähmen...",
+               "045": "[Sorry vom Hamster gefressen]",
+               "046": "LANGWEILIG!!!!"
             },
             "tips": {
                "000": "Sollten deine Arbeiter in einer Mine feststecken, bau eine Leiter um Sie zu befreien!",
@@ -1045,16 +1047,22 @@
                "009": "Sitzen während des Essens hilft der Verdauung. Baue Tische und Stühle für deine Hearthlinge.",
                "010": "Schäfer suchen automatisch Tiere zum füllen der Weide.",
                "011": "Wenn du einen höheren Stadtwert möchtest, versuch Waren an einen Händler für Gold zu verkaufen.",
-               "012": "Aktuell habe ich bis heute - 19.06.16 - 26537 Zeilen bzw. 57874 Wörter für diese Mod übersetzt xD"
+               "012": "Ressourcen und Lebensmittel tragen nicht zum Stadtwert bei.",
+               "013": "Der Neugierattribut erhöht den Erfahrungsgewinn .",
+               "014": "Feine Waren haben einen höheren Stadtwert als Ihre normalen Versionen.",
+               "015": "Der Stadtwert einer Ware ist sein Verkaufswert.",
+               "016": "Du kannst eine Tunneltür verwenden, um deine Tunneleingänge zu blockieren.",
+               "017": "Du möchtest nicht das deine Hearthlunge die Stadt verlassen? Der Ingenieur kann eine abschließbare Tür herstellen.",
+               "018": "Siedler mit einem hohen Geistattribut stellen gute Handwerker dar.",
+               "019": "Platziere Lebensmittellager näher an Arbeitsbereichen, sodass deine Lebensmittel einfacher und schneller Zugang haben.",
+               "020": "Trapper können Fallen auch in den Bergen und der Wüste legen, aber es gibt dort weniger Kriechtiere.",
+               "021": "Du kannst den Job einer Kampfklasse im Einwohnermenü sperren und Ihn somit zu einer Rast vom Kämpfen zwingen.",
+               "022": "Dreck abzubauen ergibt gelegentlich Ton und Stein.",
+               "023": "Du kannst Erzadern in den Seite der Berge sehen.",
+               "024": "Brauchst du eine Startnahrungsquelle? Bewegen Beerensträucher oder Feigenkaktus näher an deine Stadt.",
+               "025": "Nach dem Besiegen des Goblin Häuptling - kannst du Bluebell das Schaf für dich beanspruchen.",
+               "026": "Aktuell habe ich bis heute - 19.06.16 - 26537 Zeilen bzw. 57874 Wörter für diese Mod übersetzt xD"
             }
-         },
-         "new_game": {
-            "title": "Neues Spiel",
-            "normal_game": "Normales Spiel",
-            "peaceful_game": "Friedliches Spiel",
-            "normal_game_description": "Erlebe Abenteuer in einer Welt voller Gefahren. Deine Stadt wird das Ziel von Überfällen",
-            "peaceful_game_description": "Ein Sandbox-Modus, in dem du ungestört deine Stadt bauen kannst, ohne Angst vor Angriffen jeglicher Art haben zu müssen.",
-            "create_game": "Erstelle Spiel"
          },
          "select_settlement": {
             "title": "Klicke auf die Karte um deinen Startort zu wählen",
@@ -1086,6 +1094,14 @@
                "mountains_6": "Berggipfel",
                "mountains_7": "Berggipfel",
                "mountains_8": "Berggipfel",
+               "mountains_9": "Berggipfel",
+               "mountains_10": "Berggipfel",
+               "mountains_11": "Berggipfel",
+               "mountains_12": "Berggipfel",
+               "mountains_13": "Berggipfel",
+               "mountains_14": "Berggipfel",
+               "mountains_15": "Berggipfel",
+               "mountains_16": "Berggipfel",
                "vegetation_0": "Nicht mal Unkraut",
                "vegetation_1": "Gering",
                "vegetation_2": "Durchschnitt",
@@ -8586,10 +8602,6 @@
                "recipe_name": "Steinstapel ",
                "description": "Ein haufen gestapelter Steine. Eine hervorragende Möglichkeit Steine für eine spätere Verwendung zu speichern."
             },
-            "stone_tunnel_door_recipe": {
-               "description": "Nützlich zum Abdichtung von Stollen.",
-               "recipe_name": "Steinerne Tunneltür"
-            },
             "firepit_recipe": {
                "recipe_name": "Feuerstelle aus Stein",
                "description": "Das Herz Eurer Stadt",
@@ -8698,7 +8710,8 @@
             },
             "clay_safety_standard_recipe": {
                "description": "Wird verwendet um einen Sicherheitspunkt festzulegen",
-               "recipe_name": "Lehm-Sicherheitsbanner"
+               "recipe_name": "Lehm-Sicherheitsbanner",
+               "flavor": "Um einen Idealen Lebensstandard zu erzielen, finde Sicherheit in der Zahl. --Geheimnisse und Sprüche, V"
             },
             "building_parts_name": "Gebäudeteile",
             "clay_bricks_recipe": {
@@ -8709,7 +8722,7 @@
             "red_clay_door_recipe": {
                "description": "Passt zu roten Lehmwänden",
                "recipe_name": "Rote Lehmtür",
-               "flavor": "TODO"
+               "flavor": "\"Das Rot weisst auf ein Geheimnis hin, anziehend. Was liegt jenseits der roten Tür?\" -- Ember Iskender, Abteilung für angewandte Poesie"
             },
             "red_clay_window_frame_recipe": {
                "description": "Passt zu roten Lehmwänden",
@@ -8719,12 +8732,12 @@
             "blue_clay_door_recipe": {
                "description": "Blau wie der Traum von einem fernen Ozean.",
                "recipe_name": "Blaue Lehmtür",
-               "flavor": "TODO"
+               "flavor": "'Es ist eine Tür. Was können wir mehr dazu sagen?' --Joni Iskender, Marketing Azubi"
             },
             "green_clay_door_recipe": {
                "description": "Grün, wie das wenige Gestrüpp in der Wüste.",
                "recipe_name": "Grüne Lehmtür",
-               "flavor": "TODO"
+               "flavor": "'Kannst du das Loch ein klein wenig kleiner machen? Der Punkt dabei ist zu sehen wer da ist, ohne preiszugeben das ich Heim bin.' --Vara Tenter, zorniger Kunde"
             },
             "blue_clay_window_frame_recipe": {
                "description": "Lässt die klare Wüstenluft rein.",
@@ -8806,20 +8819,18 @@
             },
             "clay_pile_recipe": {
                "recipe_name": "Lehmstapel",
-               "description": "Ein haufen gestapelter Ton. Eine hervorragende Möglichkeit Lehm für eine spätere Verwendung zu speichern."
+               "description": "Ein haufen gestapelter Ton. Eine hervorragende Möglichkeit Lehm für eine spätere Verwendung zu speichern.",
+               "flavor": "Ehrlich erstaunlich, dass es wieder auseinander kommt."
             },
             "clay_market_stall_recipe": {
                "description": "Händler können diesen Stand besuchen, um Waren zu kaufen und zu verkaufen",
-               "recipe_name": "Lehm Marktstand"
-            },
-            "clay_tunnel_door_recipe": {
-               "description": "Nützlich zum Abdichtung von Stollen.",
-               "recipe_name": "Lehmerne Tunneltür"
+               "recipe_name": "Lehm Marktstand",
+               "flavor": "'Seine Hände abschneiden? Für Diebstahl? Was ist der Punkt darin?' --Talidor Roq, Ritter der Geheimnisse "
             },
             "tan_latticed_window_recipe": {
                "recipe_name": "Gelbbraunes vergittertes Fenster",
                "description": "Das vergitterte Fenster, das du kennst und liebst, in Gelbbraun",
-               "flavor": "TODO"
+               "flavor": "\"Lääst Käfer herein, aber zumindet nicht die großen!\" -- Drenkar Iskender, Ex-Marketing-Mitarbeiterin"
             },
             "tall_clay_window_recipe": {
                "recipe_name": "Hohes tönernes Fenster",
@@ -8833,13 +8844,13 @@
             },
             "green_latticed_window_recipe": {
                "recipe_name": "Grünes vergittertes Fenster",
-               "flavor": "TODO",
+               "flavor": "Erinnert an ein mit Weinreben bewachsenes Baumhaus-Fenster, verblasst in der Erinnerung",
                "description": "Das vergitterte Fenster, das du kennst und liebst, jetzt in Grün!"
             },
             "blue_latticed_window_recipe": {
                "recipe_name": "Blaues vergittertes Fenster",
                "description": "Ein beruhigendes blaues vergittertes Fenster",
-               "flavor": "TODO"
+               "flavor": "\"Nein aber wirklich, wo kommt der Farbstoff here?\" -- Farah, Professioneller Käferfänger"
             }
          },
          "potter_workbench": {

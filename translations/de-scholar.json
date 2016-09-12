@@ -83,6 +83,27 @@
 		},
 		"potter": {
 			"recipes": {
+				"rune_plate_name": "Rune Plate",
+				"footman_rune_plate_recipe": {
+					"recipe_name": "Footman Rune Plate",
+					"description": "A Rune Plate for Footman Class.",
+					"flavor": "It's still useful for low levels."
+				},
+				"knight_rune_plate_recipe": {
+					"recipe_name": "Knight Rune Plate",
+					"description": "A Rune Plate for Knight Class.",
+					"flavor": "It's still useful for low levels."
+				},
+				"archer_rune_plate_recipe": {
+					"recipe_name": "Archer Rune Plate",
+					"description": "A Rune Plate for Archer Class.",
+					"flavor": "It's still useful for low levels."
+				},
+				"cleric_rune_plate_recipe": {
+					"recipe_name": "Cleric Rune Plate",
+					"description": "A Rune Plate for Cleric Class.",
+					"flavor": "It's still useful for low levels."
+				}
 			}
 		},
 		"weaver": {
@@ -308,6 +329,46 @@
 					"description": "A plate armor made with Carbon Fabric and Heartite Alloy."
 				}
 			},
+			"footman_rune_plate": {
+				"footman_rune_plate": {
+					"display_name": "Footman Rune Plate",
+					"description": "A Rune Plate for Footman Class."
+				},
+				"footman_rune_plate_iconic": {
+					"display_name": "Footman Rune Plate",
+					"description": "A Rune Plate for Footman Class."
+				}
+			},
+			"knight_rune_plate": {
+				"knight_rune_plate": {
+					"display_name": "Knight Rune Plate",
+					"description": "A Rune Plate for Knight Class."
+				},
+				"knight_rune_plate_iconic": {
+					"display_name": "Knight Rune Plate",
+					"description": "A Rune Plate for Knight Class."
+				}
+			},
+			"archer_rune_plate": {
+				"archer_rune_plate": {
+					"display_name": "Archer Rune Plate",
+					"description": "A Rune Plate for Archer Class."
+				},
+				"archer_rune_plate_iconic": {
+					"display_name": "Archer Rune Plate",
+					"description": "A Rune Plate for Archer Class."
+				}
+			},
+			"cleric_rune_plate": {
+				"cleric_rune_plate": {
+					"display_name": "Cleric Rune Plate",
+					"description": "A Rune Plate for Cleric Class."
+				},
+				"cleric_rune_plate_iconic": {
+					"display_name": "Cleric Rune Plate",
+					"description": "A Rune Plate for Cleric Class."
+				}
+			},
 			"heartite_shield": {
 				"heartite_shield": {
 					"display_name": "Heartite Shield",
@@ -373,16 +434,12 @@
 				}
 			},
 			"glass_block": {
-				"glass_block": {
 					"display_name": "Glass Block",
 					"description": "A translucent building material."
-				}
 			},
 			"rune_clay": {
-				"rune_clay": {
 					"display_name": "Rune Clay",
 					"description": "Clay with magical powers."
-				}
 			}
 		},
 		"crops": {
@@ -436,7 +493,7 @@
 			},
 			"rune_clay_turret": {
 				"rune_clay_turret_ghost": {
-					"recipe_name": "Rune Clay Turret",
+					"display_name": "Rune Clay Turret",
 					"description": "A turret that slows down the enemies."
 				}
 			}
@@ -449,6 +506,10 @@
 			"ginseng_powder": {
 				"display_name": "Ginseng Powder",
 				"description": "A powder form of the Ginseng."
+			},
+			"paper_bolt": {
+				"display_name": "Paper Bolt",
+				"description": "A material for writing researches."
 			},
 			"heartite_ingot": {
 				"display_name": "Heartite Ingot",

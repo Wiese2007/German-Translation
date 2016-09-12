@@ -12,5 +12,13 @@
             }
          }
       }
+   },
+   "entities":{
+      "decoration":{
+         "bones":{
+            "display_name":"Knochen",
+            "description":"Einmal was es ein Tier, jetzt ist es Teil der Erde."
+         }
+      }
    }
 }

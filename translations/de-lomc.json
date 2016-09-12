@@ -190,6 +190,56 @@
                "display_name" : "Animemuch Brille",
                "description" : "Häääää!"
             }
+         },
+         "producehat": {
+            "producehat": {
+               "display_name" : "Produkthut",
+               "description" : "Yammmie!"
+            },
+            "producehat_iconic": {
+               "display_name" : "Produkthut",
+               "description" : "Yammmie!"
+            }
+         },
+         "thegreatpumpkinhead": {
+            "thegreatpumpkinhead": {
+               "display_name" : "Der große Kürbiskopf",
+               "description" : "Ich kann dich sehennnnn!"
+            },
+            "thegreatpumpkinhead_iconic": {
+               "display_name" : "Der große Kürbiskopf",
+               "description" : "Ich kann dich sehennnnn!"
+            }
+         },
+         "righteyepatch": {
+            "righteyepatch": {
+               "display_name" : "Rechte Augenklappe",
+               "description" : "Ich kann dich immernoch mit meinem linken Auge sehen!"
+            },
+            "righteyepatch_iconic": {
+               "display_name" : "Rechte Augenklappe",
+               "description" : "Ich kann dich immernoch mit meinem linken Auge sehen!"
+            }
+         },
+         "lefteyepatch": {
+            "lefteyepatch": {
+               "display_name" : "Linke Augenklappe",
+               "description" : "Ich kann dich immernoch mit meinem rechten Auge sehen!"
+            },
+            "lefteyepatch_iconic": {
+               "display_name" : "Linke Augenklappe",
+               "description" : "Ich kann dich immernoch mit meinem rechten Auge sehen!"
+            }
+         },
+         "mischiefhelmet": {
+            "mischiefhelmet": {
+               "display_name" : "Der Unfughelm",
+               "description" : "Ich bin der UNFUG!"
+            },
+            "mischiefhelmet_iconic": {
+               "display_name" : "Der Unfughelm",
+               "description" : "Ich bin der UNFUG!"
+            }
          }
       }
    },
@@ -219,6 +269,11 @@
             "recipe_name" : "Scigyptech",
             "description" : "Ich seh dich!",
             "flavor" : ""
+         },
+         "mischiefhelmet_recipe": {
+            "recipe_name" : "Der Unfughelm",
+            "description" : "Ich bin der UNFUG!",
+            "flavor" : ""
          }
       },
       "carpenter": {
@@ -235,6 +290,16 @@
          "ramask_recipe": {
             "recipe_name" : "Ramask",
             "description" : "Wer, ich? Warum sollte ich durch Müll graben?",
+            "flavor" : ""
+         },
+         "producehat_recipe": {
+            "recipe_name" : "Produkthut",
+            "description" : "Yammmie!",
+            "flavor" : "Vielleicht wenn Ihn niemand verwendet ... Könnte ich Ihn essen?"
+         },
+         "thegreatpumpkinhead_recipe": {
+            "recipe_name" : "Der große Kürbiskopf",
+            "description" : "Wurde er aus einem Horrorfilm gestohlen?",
             "flavor" : ""
          }
       },
@@ -292,6 +357,16 @@
          "cactihati_recipe": {
             "recipe_name" : "Cactihati",
             "description" : "Berühr nicht meinen Hut!",
+            "flavor" : ""
+         },
+         "lefteyepatch_recipe": {
+            "recipe_name" : "Linke Augenklappe",
+            "description" : "Ich kann dich immernoch mit meinem rechten Auge sehen!",
+            "flavor" : ""
+         },
+         "righteyepatch_recipe": {
+            "recipe_name" : "Rechte Augenklappe",
+            "description" : "Ich kann dich immernoch mit meinem linken Auge sehen!",
             "flavor" : ""
          }
       }

@@ -1,5 +1,21 @@
 {
+   "data": {
+      "commands": {
+         "harvest_wood": {
+            "display_name" : "Fällen",
+            "description"  : "Fälle diesen Baum"
+         }
+      }
+   },
    "ui": {
+      "data": {
+         "constants": {
+            "yeast_resource_name" : "Hefe",
+            "mushroom_resource_name" : "Pilze",
+            "cocoa_powder_resource_name" : "Kakaopulver",
+            "sugar_resource_name" : "Zucker"
+         }
+      },
       "buffs": {
          "blitzed": {
             "blitzed_buff": {
@@ -938,16 +954,6 @@
             "wines_name": "Weine",
             "milkshakes_name": "Milchshake",
             "other_drinks_name": "Andere Getränke"
-         }
-      }
-   },
-   "ui": {
-      "data": {
-         "constants": {
-            "yeast_resource_name" : "Hefe",
-            "mushroom_resource_name" : "Pilze",
-            "cocoa_powder_resource_name" : "Kakaopulver",
-            "sugar_resource_name" : "Zucker"
          }
       }
    }
