@@ -1,26 +1,46 @@
 {
    "kingdom": {
       "kingdom_name": "Rayya's Children",
-      "quote" : "Meditation, Mediation, Medikation: Ordnung im Selbst bringt Ordnung zu anderen und bringt Gesundheit für alle.",
-      "long_description" : "Die Leute aus der Wüste lernten früh das Sie sich gegenseitig benötigen um überleben zu können - sowie den Kontakt zu möglichst vielen anderen. Jetzt erleben Besucher Sie als großzügige Gastgeber mit Zugang zu Waren aus der ganzen Welt." ,
+      "quote": "Meditation, Mediation, Medikation: Ordnung im Selbst bringt Ordnung zu anderen und bringt Gesundheit für alle.",
+      "long_description": "Die Leute aus der Wüste lernten früh, dass Sie sich gegenseitig brauchen um überleben zu können - sowie den Kontakt zu möglichst vielen anderen. Jetzt erleben Besucher Sie als großzügige Gastgeber mit Zugang zu Waren aus der ganzen Welt.",
       "post_selection_description": ", einer Gesellschaft von charmanten Meisterhändlern... aus aller Welt"
    },
    "jobs": {
       "potter": {
          "potter_description": {
-            "requirements" : "Erfordert eine Töpfermesser."
+            "requirements": "Erfordert eine Töpfermesser."
          },
          "recipes": {
             "mason_clay_chisel_recipe": {
                "description": "Wird benötigt um einen Hearthling in einen Steinmetz zu ernennen",
                "recipe_name": "Steinmetz-Lehmmeißel",
-               "flavor": ""
+               "flavor": "\"Ein Werkzeug um große Felsen in kleinere, schönere und funktionalere Felsen zu machen.\" "
+            },
+            "trading_post_monument_recipe": {
+               "recipe_name": "Handelswaren Monument",
+               "description": "Bezeichnet deine Stadt als einen seriösen Handelsposten"
+            },
+            "monkey_shrine_monument_recipe": {
+               "description": "Ein Ort um Tribut an Monkey und Her Mystery zu zahlen",
+               "recipe_name": "Monkeys Schrein Monument"
+            },
+            "exotic_trade_monument_recipe": {
+               "description": "Ein Tribut an die Geschicklichkeit deiner Stadt beim exotischen Handel",
+               "recipe_name": "Wandteppich Monument"
+            },
+            "herbalist_clay_staff_recipe": {
+               "flavor": "'Diese Blumen sorgen für Ihre Gärtner, wie Ihr Gärtner für Sie sorgt.' - Zale, Meister Kräuterarzt"
             }
+         }
+      },
+      "herbalist": {
+         "herbalist_description": {
+            "requirements": "Kräuterarztstab, wird hergestellt vom Töpfer"
          }
       },
       "mason": {
          "mason_description": {
-            "requirements" : "Ein Level 2 Töpfer und einen Steinmetz-Lehmmeißel, wird hergestellt vom Töpfer."
+            "requirements": "Ein Level 2 Töpfer und einen Steinmetz-Lehmmeißel, wird hergestellt vom Töpfer."
          }
       },
       "cook": {
@@ -111,6 +131,186 @@
                      "name": "Farmer Gem's Farm Vorräte",
                      "title": "Farmer Gem's Vorrätewagen rollt in die Stadt"
                   }
+               },
+               "naryal_tier_2_dialog": {
+                  "dialog_tree_info": {
+                     "dialog_nodes": {
+                        "rewards": {
+                           "bulletin_message": {
+                              "000": "Nun neben der Anerkennung als offizielle Gemeinde, hast du auch die Anerkennung von Händlern und Reisenden aus ganz Hearth erhalten. Wir bieten nun auch architektonische Blaupausen, die wir durch unsere Handel mit anderen Rayyas Siedlungen gesammelt haben."
+                           },
+                           "bulletin_title": "Naryal Iskender",
+                           "dialog_title": "Naryal Iskender",
+                           "choice_000": "Ok then!"
+                        },
+                        "shrine_reqs": {
+                           "bulletin_message": {
+                              "000": "Die Kirche von Rayya, allgemein bekannt als Her Mystery, kann einen Vorposten als offiziellen kirchlichen Wegpunkt bestimmen. Um geeignet zu sein, muss deine Stadt einen Schrein bieten, in dem Reisende und müde Wanderer Monkey und der Gildenmutter Rayya huldigen können."
+                           },
+                           "bulletin_title": "Naryal Iskender",
+                           "dialog_title": "Naryal Iskender",
+                           "choice_000": "Klingt gut!",
+                           "choice_001": "Wie kann ich sonst noch Ruhm erlangen?"
+                        },
+                        "details": {
+                           "bulletin_message": {
+                              "000": "Nun! Kommen wir auf den Punkt. Ich glaube, wir können beide von einer Vereinbarung dieser Art profitieren. Wir bei der Iskender-Agentur bemühen uns die umfangreichste Karte von Hearth zu schaffen. Aus diesem Grund wollen wir alle bemerkenswerten Einrichtungen und Außenposten wie deinen notieren. Mit deiner Erlaubnis, natürlich nur!"
+                           },
+                           "bulletin_title": "Naryal Iskender",
+                           "dialog_title": "Naryal Iskender",
+                           "choice_000": "Was bekomme ich dafür?"
+                        },
+                        "requirements": {
+                           "bulletin_message": {
+                              "000": "Großartig! Dann lass es uns ins Rollen bringen. Zunächst einmal, wie möchtest du bekannt sein? Wir können dich auf der Karte eintragen als: Handelsposten, Schrein von Her Mystery oder exotische Güter."
+                           },
+                           "bulletin_title": "Naryal Iskender",
+                           "dialog_title": "Naryal Iskender",
+                           "choice_000": "Handelsposten!",
+                           "choice_001": "Schrein!",
+                           "choice_002": "Exotische Güter!"
+                        },
+                        "repeat_reqs": {
+                           "bulletin_message": {
+                              "000": "Wofür möchtest du bekannt sein? Wir können Euch auf der Karte als Handelsposten, Schrein von Her Mystery oder Exotische Güter eintragen."
+                           },
+                           "bulletin_title": "Naryal Iskender",
+                           "dialog_title": "Naryal Iskender",
+                           "choice_000": "Handelsposten!",
+                           "choice_001": "Schrein!",
+                           "choice_002": "Exotische Güter!"
+                        },
+                        "naryal_approaches": {
+                           "bulletin_message": {
+                              "000": "Grüße, Freunde aus [str(i18n_data.town_name)]! Es ist schon eine Weile her, dass wir diesen Vorposten zuletzt besucht haben. Sieht aus als hättet unsere gelieferten Vorräte gut verwendet."
+                           },
+                           "bulletin_title": "Iskender Agent Naryal erscheint",
+                           "dialog_title": "Naryal Iskender",
+                           "choice_000": "Was machst Ihr hier?"
+                        },
+                        "exotic_goods_reqs": {
+                           "bulletin_message": {
+                              "000": "Um Ehre als exotische Händler zu gewinnen, muss deine Stadt handel mit Besucher aus fernen Ländern tätigen und somit Zugang zu einer Vielzahl von Waren erhalten, die sonst in diesem Bereich nicht erhaltbar wären."
+                           },
+                           "bulletin_title": "Naryal Iskender",
+                           "dialog_title": "Naryal Iskender",
+                           "choice_000": "Klingt gut!",
+                           "choice_001": "Wie kann ich sonst noch Ruhm erlangen?"
+                        },
+                        "conclusion2": {
+                           "bulletin_message": {
+                              "000": "Monkey sei mit Euch, [str(i18n_data.town_name)]! Ich lass euch einen Vogel da, damit Ihr mich rufen könnt um einen Fortschritt zu bewerten.!"
+                           },
+                           "bulletin_title": "Naryal Iskender",
+                           "dialog_title": "Naryal Iskender",
+                           "choice_000": "Lebt wohl!"
+                        },
+                        "map_of_hearth": {
+                           "bulletin_message": {
+                              "000": "Unsere Kartographen machen Vorbereitungen für die nächste Druckreihe der Iskender-Karte von Hearth. Während wir bei der Iskender Handelsagentur für den Handel bekannt sind, sind wir auch stolz auf die Richtigkeit und Nützlichkeit unserer Karten. Siedlungen und Routen aus der ganzen Welt sind im feinsten Detail dargestellt."
+                           },
+                           "bulletin_title": "Naryal Iskender",
+                           "dialog_title": "Naryal Iskender"
+                        },
+                        "trading_post_reqs": {
+                           "bulletin_message": {
+                              "000": "Um als Handelsposten für die Massen berühmt zu werden, ist es wichtig, dass Eure Stadt ein einladender Ort für Reisende zum besuchen und für Händler um Waren untereinander zu handeln wird. Ich gebe deinem Töpfer ein Rezept; baue ein Denkmal, das als eine großartige und einladende Anzeige im Herzen deiner Siedlung fungieren kann."
+                           },
+                           "bulletin_title": "Naryal Iskender",
+                           "dialog_title": "Naryal Iskender",
+                           "choice_000": "Klingt gut!",
+                           "choice_001": "Wie kann ich sonst noch Ruhm erlangen?"
+                        },
+                        "conclusion": {
+                           "bulletin_title": "Naryal Iskender",
+                           "dialog_title": "Naryal Iskender",
+                           "choice_000": "Vielen Dank, verehrter Ältester!",
+                           "bulletin_message": {
+                              "000": "Ausgezeichnet! Neben einem geeigneten Denkmal, muss deine Stadt auch eine gewisse Mass an Wert angesammelt haben. Ich werde die Anforderungen bei Euch lassen, sodass Ihr Sie euch erneut ansehen könnt oder wenn euch einen anderer Weg zu Berufung mehr zusagt als euer zuerst gewählter."
+                           }
+                        },
+                        "shrine_reqs_ctd": {
+                           "bulletin_message": {
+                              "000": "Ich werde deinem Töpfer ein heiliges Schreinrezept geben, überliefert von Her Mystery's Elite Offizieren. Sie sagen, die Zutaten sind in alten Strukturen und Beutetruhen zu finden; Baue das Denkmal und ich werde zurückkehren, um zu überprüfen, ob es den Vorgaben der Kirchenältesten entspricht."
+                           }
+                        },
+                        "exotic_goods_reqs_ctd": {
+                           "bulletin_message": {
+                              "000": "Ich werde deinem Töpfer ein Rezept gebt. Du kannst die Zutaten von reisenden Händlern und Handelskarawanen erhalten. Aber beachte, dass nicht viele Reisende Sie haben. Bau ein Denkmal, das diese Zutaten enthält, um deine Exzellenz im Handel mit exotischen Gütern zu demonstrieren."
+                           }
+                        }
+                     }
+                  }
+               },
+               "unlock_exotic_trade_monument": {
+                  "bulletin_title": "Töpferrezept freigeschaltet: Wandteppich Monument"
+               },
+               "unlock_monkey_shrine_monument": {
+                  "bulletin_title": "Töpferrezept freigeschaltet: Monkey Schrein Monument"
+               },
+               "unlock_trading_post_monument": {
+                  "bulletin_title": "Töpferrezept freigeschaltet: Handelsposten Monument"
+               },
+               "trading_post_tier_2_reached": {
+                  "title": "Iskender Agent Naryal kehrt zurück",
+                  "speaker_name": "Naryal Iskender",
+                  "message": "Herzlichen Glückwunsch, [str(i18n_data.town_name)]! Deine Stadt ist berechtigt, offiziell als eine Gemeinde anerkannt zu werden! Ich habe, wie es üblich ist, Baustoffe und Handelsabkommen mitgebracht.",
+                  "accept": "Woohoo!",
+                  "dialog_title": "Gemeinde erreicht!",
+                  "tier_title": "Gemeinde",
+                  "reward_message": "Durch Ehrendekret der Rayya Kinder erkennen wir euch an als:",
+                  "reward_message_ctd": "Für seine Vortrefflichkeit als Weltklasse-Handelsposten, ist die Stadt hiermit berechtigt:",
+                  "tier_2_bldg_template": "Tier 2 Gebäudevorlagen",
+                  "tier_2_shops": "Tier 2 Läden",
+                  "tier_2_BGM": "Tier 2 BGM"
+               },
+               "rayyas_children_town_tier_quest": {
+                  "title": "Aufgabe für eine Gemeinde",
+                  "dialog_title": "Aufgabe für eine Gemeinde",
+                  "text": "Erfülle eine der folgenden Voraussetzungen, um genügend Ruhm zu erlangen, um dich für den Gemeindestatus zu qualifizieren:",
+                  "summon_text": "Rufe Iskender herbei!"
+               },
+               "exotic_trade_tier_2_reached": {
+                  "reward_message_ctd": "Für seine Vortrefflichkeit beim Handel mit ausländischen und exotischen Gütern, ist die Stadt hiermit berechtigt:"
+               },
+               "shrine_tier_2_reached": {
+                  "reward_message_ctd": "Für seine Gastfreundschaft und seinen Schrein für Her Mystery, ist die Stadt hiermit berechtigt:"
+               },
+               "arcs": {
+                  "encounters": {
+                     "tier_2_shops": {
+                        "bakery_shop": {
+                           "shop_info": {
+                              "name": "Areff Tigri's Brote und Eintöpfe",
+                              "title": "Ein Chefkochkarren mit Brot und Eintöpfe rollt in die Stadt"
+                           }
+                        },
+                        "container_shop": {
+                           "shop_info": {
+                              "name": "Elia Boxen's Containerbude",
+                              "title": "Elia Boxen erscheint mit einer Box aus Kisten"
+                           }
+                        },
+                        "door_shop": {
+                           "shop_info": {
+                              "name": "Radien's exotische Türen und Schilder",
+                              "title": "Radien ist mit exotischen Türen und Schildern zum Verkauf angekommen"
+                           }
+                        },
+                        "farming_supplies_shop": {
+                           "shop_info": {
+                              "name": "Farmer Makabi's Hofbedarf",
+                              "title": "Farmer Makabi's Lieferwagen rollt in die Stadt"
+                           }
+                        },
+                        "weapon_armor_shop": {
+                           "shop_info": {
+                              "name": "Zadok's Rüstungsladen",
+                              "title": "Ein Wagen mit einer Sortiment von Rüstungen erscheint"
+                           }
+                        }
+                     }
+                  }
                }
             }
          }
@@ -121,9 +321,47 @@
                "rayyas_children": {
                   "display_name": "Rayya's",
                   "categories": {
-                     "town": "Stadtvorlagen"
+                     "outpost": "Vorposten Vorlagen",
+                     "settlement": "Siedlungs Vorlagen"
                   }
                }
+            }
+         },
+         "building_templates": {
+            "pottery_studio": {
+               "display_name": "Töpferwerkstatt"
+            },
+            "weavers_hut": {
+               "display_name": "Weberhütte"
+            },
+            "communal_kitchen": {
+               "display_name": "Gemeinschaftsküche"
+            },
+            "masons_workshop": {
+               "display_name": "Maurerwerkstatt"
+            },
+            "tier2": {
+               "desert_lodge": {
+                  "display_name": "Wüstenhütte"
+               },
+               "little_red_hut": {
+                  "display_name": "Kleines Rotes"
+               },
+               "rayyas_shadow": {
+                  "display_name": "Rayyas Schatten"
+               },
+               "red_clay_homes": {
+                  "display_name": "Rotes Lehmhaus"
+               },
+               "engineers_workshop": {
+                  "display_name": "Ingenieurshaus"
+               }
+            },
+            "blacksmiths_workshop": {
+               "display_name": "Die Schmiede"
+            },
+            "herbalists_workshop": {
+               "display_name": "Kräuterarzt-Labor"
             }
          }
       }
@@ -134,6 +372,26 @@
             "rc_camp_standard_ghost": {
                "display_name": "Stadtbanner",
                "description": "Wie weißt du, das du nach Hause gekommen bist"
+            }
+         }
+      },
+      "decoration": {
+         "monkey_shrine_monument": {
+            "monkey_shrine_monument_ghost": {
+               "display_name": "Monkeys Schrein Monument",
+               "description": "Ein Ort um Tribut an Monkey und Her Mystery zu zahlen"
+            }
+         },
+         "exotic_trade_monument": {
+            "exotic_trade_monument_ghost": {
+               "display_name": "Wandteppich Monument",
+               "description": "Ein Tribut an die Geschicklichkeit deiner Stadt beim exotischen Handel"
+            }
+         },
+         "trading_post_monument": {
+            "trading_post_monument_ghost": {
+               "display_name": "Handelswaren Monument",
+               "description": "Bezeichnet deine Stadt als einen seriösen Handelsposten"
             }
          }
       }

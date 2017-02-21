@@ -15,10 +15,6 @@
       height: 450px;
    }
 
-   .tabPage {
-      display: none;
-   }
-
    .workOrderPanel {
       margin-top: 25px;
       h2 {
@@ -72,7 +68,7 @@
             top: -15px;
             left: 5px;
             width: 200px;
-            height: 240px;
+            height: 246px;
             background-image: url(/stonehearth/ui/game/character_sheets/citizen_character_sheet/images/glass.png);
             background-size: contain;
             background-repeat: no-repeat;
@@ -85,21 +81,21 @@
 
             #mind {
                position: relative;
-               left: 8px;
+               left: 6px;
                top: 55px;
                width: 100px;
             }
 
             #body {
                position: relative;
-               left: 87px;
-               top: -20px;
+               left: 86px;
+               top: -17px;
                width: 100px;
             }
 
             #spirit {
                position: relative;
-               top: -30px;
+               top: -25px;
                left: 44px;
                width: 100px;
             }
@@ -121,10 +117,6 @@
       width: 1000px;
       display: inline-block;
 
-      h2 {
-         margin-left: 8px;
-      }
-
       .workersListTableContainer {
          height: 610px;
          overflow-y: auto;
@@ -134,14 +126,17 @@
    #tasksWorkersList {
       .listTitle{
          display: inline-block;
-         width: 104px;
-	 text-align: center;
+         width: 97px;
+         text-align: center;
       }
       #tasksTitleName {
-         width: 280px;
+         width: 300px;
+         margin-left: 10px;
+         text-align: left;
       }
       #listTitleCurrentActivity{
-         width: 220px;
+         text-align: center;
+         width: 260px;
       }
       #suspendButtons {
          margin-left: 288px;
@@ -164,20 +159,10 @@
       }
    }
 
-   #tabs {
-      position: absolute;
-      bottom: -85px;
-   }
-
    table {
       width: 100%;
+      table-layout: fixed;
 
-      td:nth-child(6) {
-         white-space: nowrap;
-         width: 240px;
-         align: left;
-         text-align: left;
-      }
       tr:nth-child(even) {
          background: rgba(0,0,0,0.1);
       }
@@ -193,22 +178,11 @@
          background: rgba(255,0.5,0,0.1);
       }
 
-      td:nth-child(1) {
-         width: 265px;
-         text-align: left;
-         vertical-align: middle;
-
-         .controlFont;
-         font-size: 20px;
-
-         text-overflow: ellipsis;
+      .activityRow {
          white-space: nowrap;
-         overflow: hidden;
-         .classIcon {
-            vertical-align: middle;
-            width: 40px;
-            height: 40px;
-         }
+         width: 240px;
+         align: left;
+         text-align: center;
       }
 
       tr {
@@ -234,11 +208,28 @@
          max-width: 220px;
       }
 
-      .citizenName {
-         width: 265px;
+      .nameRow {
+         width: 240px;
+         text-align: left;
+         vertical-align: middle;
+
+         .controlFont;
+         font-size: 20px;
+
          text-overflow: ellipsis;
          white-space: nowrap;
          overflow: hidden;
+         .classIcon {
+            vertical-align: middle;
+            width: 40px;
+            height: 40px;
+         }
+
+         .citizenName {
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+         }
       }
 
       .enrollmentStatus {
@@ -248,6 +239,16 @@
          text-overflow: ellipsis;
          white-space: nowrap;
          text-align: center;
+         padding-left: 5px;
+      }
+
+      .moodRow {
+         width: 40px;
+         padding-right: 10px;
+      }
+
+      .moodIcon {
+         height: 40px;
       }
    }
 }

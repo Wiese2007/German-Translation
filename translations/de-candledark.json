@@ -3,9 +3,13 @@
       "game": {
          "candledark": {
             "uh_what": "Uh..Was?",
-            "such_as": "So wie?",
+            "such_as": "Bitte erkläre!",
+            "dejavu": "Déjà vu?",
             "berry_wine": "Bist du schon wieder auf Beerenwein?",
             "urm_thanks": "Urm..Danke!",
+            "last_year": "Wir haben das alles im letzten Jahr gemacht!",
+            "pause": "...",
+            "urm_thanks2": "Urm..Was!?",
             "dialog_nodes" : {
                "bulletin_message" : {
                   "000" : "Hier ein paar Lieferungen für den erfolgreichen Start! Dein Zimmermann kann damit Barrikaden gegen die Untoten herstellen.",
@@ -16,14 +20,24 @@
                   "005" : "'Bah! Verspotte nur alles, was du willst. Fang lieber an Barrikaden zu bauen, sonst gibts Ärger!'",
                   "006" : "'Ich werde in ein paar Tagen mit meinem Wagen und einigen Waren zum Verkauf zurück sein, aber in der Zwischenzeit werde ich deinen Handwerker alles lehren was ich weiß.'",
                   "007" : "'Nun, ich sehe Ihr habt es geschafft! Ih habt Candledark überlebt. Ich habe ein paar Kleinigkeiten gespart für einen besonderen Anlass und das hier gilt genauso gut wie jeder andere. Genieß deinen Erfolg! .... Bis nächstes Jahr ....",
-                  "008" : ""
-               },                                                                                          
+                  "008" : "",
+                  "009" : "'Was? Nein. Es ist EL-BEEE-ZAAR. Ich kannte mal einen Déjà-vu. Lustiger kleiner Mann mit einem Glasauge ... oder hieß er Dave?..'",
+                  "010" : "'Ich mag vielleicht alt sein, aber ich bin nicht senil! Ich würde mich erinnern, hier schin einmal gewesen zu sein; Oder mein Name ist nicht Elzebard Grimesock!'",
+                  "011" : "'Okay vielleicht hast du recht ... hmm, so wir hatten  im letzten Jahr Zombies eh? Hah Ich weiß, was ich rufe! Lasst uns sehen, wie gut Ihr gegen diese Dinger besteht, die aus der Nacht stoßen ... Ihr werdet diese Rezepte benötigen, wenn Ihr die Nacht überleben wollt.'",
+                  "012" : "'Nun, ich werde es sein.. Ihr habt es geschafft! Ihr habt Candlebark III überlebt. Ich habe ein bisschen Nippes für einen besonderen Anlass gespart und das hier zählt so gut wie jeder andere. Genießt euren Erfolg! ... Bis zum nächsten Jahr ...."
+               },
                "bulletin_title" : "Bevor ich gehe!",
                "bulletin_title2" : "Ein hagerer alter Mann erscheint",
                "bulletin_title3" : "Es ist endlich vorbei!",
-               "dialog_title" : "Ein hagerer alter Mann"
+               "dialog_title" : "Ein hagerer alter Mann",
+               "crafting_unlock1" : "Fortgeschrittene Schmiedetechniken gelernt!",
+               "crafting_unlock2" : "Fortgeschrittene Kochtechniken gelernt!",
+               "crafting_unlock3" : "Fortgeschrittene Webetechniken gelernt!",
+               "crafting_unlock4" : "Fortgeschrittene Steinmetztechniken gelernt!",
+               "crafting_unlock5" : "Fortgeschrittene SChreinertechniken gelernt!",
+               "crafting_unlock6" : "Fortgeschrittene Kräuterarzttechniken gelernt!"
             }
-         },     
+         },
          "entities" : {
             "bite_notification" : "[name(i18n_data.entity)] wurde gebissen.",
             "turn_notification" : "[name(i18n_data.entity)] ist der Pest erlegen."
@@ -36,13 +50,13 @@
             "male_name": "Ein hirnloser Husk",
             "female_name": "Ein hirnloser Husk"
          }
-      },       
+      },
       "buffs": {
          "plagued": {
             "display_name": "geplagt",
             "description": "überhaupt nicht gut!"
          }
-      },      
+      },
       "commands": {
          "smash_pinata": {
             "display_name": "Zertrümmer die Piñata",
@@ -65,7 +79,14 @@
                      "title": "Die Untoten brechen aus dem Boden!"
                   }
                }
-            }
+            },
+            "darknessIII" : {
+               "mission": {
+                  "sighted_bulletin": {
+                     "title": "Das Böse bricht aus den Schatten!"
+                  }
+               }
+            }            
          }
       }
    },
@@ -87,6 +108,16 @@
                "description": "Jetzt mit zusätzlichem Schutz."
             }
          },
+         "cobblestone_fence_brazier" : {
+            "cobblestone_fence_brazier": {
+               "display_name": "Kopfsteinwand",
+               "description": "Jetzt mit zusätzlichem Schutz."
+            },
+            "cobblestone_fence_brazier_ghost": {
+               "display_name": "Kopfsteinwand",
+               "description": "Jetzt mit zusätzlichem Schutz."
+            }
+         },         
          "spooky_fence_gate" : {
             "spooky_fence_gate": {
                "display_name": "Ein Candledark Tor",
@@ -96,9 +127,45 @@
                "display_name": "Ein Candledark Tor",
                "description": "Stark verstärktes gruseliges Tor!"
             }
-         }         
+         }
+      },
+      "consumables": {
+         "ancient_healing_tonic" : {
+               "display_name": "Altes heilendes Elixir",
+               "description": "Großartig gegen Vampir, Zombie und Insektenstiche."
+         }
+      },
+      "costume": {
+         "clown_mask" : {
+               "display_name": "Clownmaske",
+               "description": "Ein traditionelles Candledark Kostüm"
+         },
+         "monster_mask" : {
+               "display_name": "Monstermaske",
+               "description": "Ein ausgefallenes Candledark Kostüm!"
+         },
+         "pumpkin_hat" : {
+               "display_name": "Kürbishut",
+               "description": "Ein traditionelles Candledark Kostüm",
+               "flavor": "Wenn du absolut nichts anderes zum tragen hast!"
+         },
+         "scream_mask" : {
+               "display_name": "Gespenstische Maske",
+               "description": "Sehr gespenstisch!",
+               "flavor": "Hallo Sidney!"
+         },
+         "witches_hat" : {
+               "display_name": "Hexenhut",
+               "description": "Ein traditionelles Candledark Kostüm"
+         }
       },
       "decoration": {
+         "ankh_ward": {
+            "ankh_ward": {
+               "display_name": "Ankhabwehr",
+               "description": "Zur Abwehr von Vampiren"
+            }
+         },         
          "scarecrow": {
             "scarecrow_ghost": {
                "display_name": "Eine einfache Vogelscheuche",
@@ -118,7 +185,17 @@
                "display_name": "Kohlebecken der Erinnerung",
                "description": "Du hast Candledark II überlebt!"
             }
-         },         
+         },
+         "commemorative_tower_brazier_16": {
+            "commemorative_tower_brazier_ghost": {
+               "display_name": "Gedenkkohlebecken",
+               "description": "Du hast Candledark III überlebt"
+            },
+            "commemorative_tower_brazier_16_iconic": {
+               "display_name": "Gedenkkohlebecken",
+               "description": "Du hast Candledark III überlebt"
+            }
+         }, 
          "pinata": {
             "pinata_ghost": {
                "display_name": "Eine Candledark Piñata",
@@ -128,11 +205,11 @@
                "display_name": "Eine Candledark Piñata",
                "description": "Montage erforderlich."
             }
-         },         
+         },
          "pumpkin_ward": {
             "pumpkin_ward": {
-               "display_name": "geritzter Kürbis",
-               "description": "Hält die Untoten entfernt"
+               "display_name": "Geschnitze Kürbisabwehr",
+               "description": "Eine Abwehr am Tag hält die Untoten fern"
             },
             "pumpkin_ward_lantern": {
                "display_name": "Kürbislaterne",
@@ -145,7 +222,7 @@
          },
          "decorative_burial_mound": {
             "decorative_burial_mound" : {
-               "description": "Eine traditionelle Candledark Dekoration.",
+               "description": "Hier liegt... ' Du kannst den Namen nicht ganz erkennen",
                "display_name": "Ein dekorativer Grabhügel"
             }
          }
@@ -180,8 +257,30 @@
                "display_name": "Ein Stück Kürbiskuchen",
                "description": "Süß und köstlich."
             }
-         }                  
+         }
       },
+      "monsters": {
+         "vampires": {
+            "hell_hound": {
+               "display_name": "Höllenhund",
+               "description": "Ein böser Diener der Untoten"
+            },
+            "vampires": {
+               "display_name": "Vampire",
+               "description": "Ein böser Diener der Untoten"
+            },
+            "vampires_bride": {
+               "display_name": "Vampirbraut",
+               "description": "Ein böser Diener der Untoten"
+            }
+         }       
+      },       
+      "tools": {
+         "pinata_stick": {
+               "display_name": "Ein plüschiger Spielzeug-Geist",
+               "description": "Awww.. süß"
+         }       
+      }, 
       "toys": {
          "plushie_toy_ghost": {
             "plushie_toy_ghost": {
@@ -194,8 +293,8 @@
                "display_name": "Ein plüschiger, hängender Spielzeug-Geist",
                "description": "Awww.. niedlich"
             }
-         }         
-      },      
+         }
+      },
       "pets": {
          "bat": {
             "display_name": "Eine Fledermaus",
@@ -204,8 +303,34 @@
       }
    },
    "jobs": {
-      "weaver": {  
+      "weaver": {
       	"recipes": {
+            "costumes_name" : "Kostüme",
+            "clown_mask_recipe": {
+               "recipe_name": "Clownmaske",
+               "description": "Ein traditionelles Candledark Kostüm",
+               "flavor": "Nicht gruseliges an einem Clown! Richtig!"
+            },
+            "monster_mask_recipe": {
+               "recipe_name": "Monstermaske",
+               "description": "Ein ausgefallenes Candledark Kostüm!",
+               "flavor": "Gehiiiirrrrrnnnneeeeee!"
+            },
+            "pumpkin_hat_recipe": {
+               "recipe_name": "Kürbishut",
+               "description": "Ein traditionelles Candledark Kostüm",
+               "flavor": "Wenn du absolut nichts anderes zum tragen hast!"
+            },
+            "scream_mask_recipe": {
+               "recipe_name": "Gespenstische Maske",
+               "description": "Sehr gespenstisch!",
+               "flavor": "Hallo Sidney!"
+            },
+            "witches_hat_recipe": {
+               "recipe_name": "Hexenhut",
+               "description": "Ein traditionelles Candledark Kostüm",
+               "flavor": "Hallo mein Hübsche!"
+            },
             "plushie_toy_ghost_recipe": {
                "description": "Ein traditionelles Candledark Spielzeug.",
                "recipe_name": "Eine plüschiger Spielzeug-Geist"
@@ -213,31 +338,54 @@
             "plushie_toy_hanging_ghost_recipe": {
                "description": "Ein traditionelles Candledark Spielzeug.",
                "recipe_name": "Ein plüschiger, hängender Spielzeug-Geist"
-            }          
+            }
          }
       },   	
       "mason": {  
       	"recipes": {
+            "ankh_ward_recipe": {
+               "description": "Zur Abwehr von Vampiren",
+               "recipe_name": "Ankhabwehr"
+            },            
             "decorative_burial_mound_recipe": {
                "description": "Ein traditionelle Candledark Dekoration.",
                "recipe_name": "Ein dekorativer Grabhügel"
+            },
+            "cobblestone_fence_brazier_recipe": {
+               "description": "Hilft diese dunklen Nächte auszuleuchten",
+               "recipe_name": "Kopfsteinzaun mit Kohlebecken"
+            }            
+         }
+      },
+      "herbalist": {  
+         "recipes": {
+            "ancient_healing_tonic_recipe": {
+               "recipe_name": "Altes heilendes Elixir",
+               "description": "Ein beruhigender Balsam für Vampir, Zombie und Insektenstiche.",
+               "flavor": "Großzügig auf die Bissfläche auftragen. Wenn der Untotenzustand bestehen bleibt, siehe GP."
             }
          }
       },
-      "blacksmith": {  
+      "blacksmith": {
          "recipes": {
+            "candledark_name": "Verteidigung",
             "cobblestone_fence_rail_recipe": {
                "description": "Jetzt mit zusätzlichem Schutz.",
                "recipe_name": "Eine verstärkte Kopfsteinwand"
             },
+            "cobblestone_tripple_fence_rail_recipe": {
+               "description": "Jetzt mit zusätzlichem Schutz.",
+               "recipe_name": "Eine dreifach verstärkte Kopfsteinwand"
+            },
             "spooky_fence_gate_recipe": {
-               "description": "Stark verstärktes gruseliges Tor!",
+               "description": "Stark verstärktes, gruseliges Tor!",
                "recipe_name": "Ein Candledark Tor"
-            }            
+            }
          }
-      },      
+      },
       "carpenter": {
       	"recipes": {
+            "candledark_name": "Dekorationen",
             "scarecrow_recipe": {
                "description": "Ein traditionelle Candledark Dekoration.",
                "recipe_name": "Eine einfache Vogelscheuche"
@@ -245,7 +393,7 @@
             "pinata_recipe": {
                "description": "Gefüllt mit Leckereien!",
                "recipe_name": "Eine Candledark Piñata"
-            }            
+            }
          }
       },
       "cook": {
@@ -256,6 +404,14 @@
             "pumpkin_ward_recipe": {
                "description": "Ein traditionelle Candledark Dekoration.",
                "recipe_name": "geritzter Candledark Kürbis"
+            },
+            "pumpkin_soup_recipe": {
+               "description": "Ein auf Kürbis basierendes Gericht.",
+               "recipe_name": "Kürbissuppe"
+            },
+            "pumpkin_pie_recipe": {
+               "description": "Kürbis und Kuchen. Was kann man daran nicht mögen?",
+               "recipe_name": "Kürbiskuchen"
             },
             "pumpkin_ward_lantern_recipe": {
                "description": "Ein traditionelle Candledark Dekoration. Jetzt mit extra pizzazz",

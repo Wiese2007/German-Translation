@@ -1,16 +1,189 @@
 {
-   "data": {
-      "biome": {
-         "archipelago": {
-            "display_name": "Archipel",
-            "description": "Wasser überall! Oder Sand! Was auch immer unbeliebter ist xD",
-            "random_location_names": {
-               "000": " zum Malaio Archipel",
-               "001": " zum Mauna Loa Archipel",
-               "002": " zum Kilak Archipel",
-               "003": " zum Mergui Archipel"
-            }
-         }
-      }
-   }
+	"entities":{
+		"beach":{
+			"starfish":{
+				"display_name":"Sternfisch",
+				"description":"A.k.a. Seestern, der Sternfisch ist kein Fisch. Es ist ein Stachelhäuter!"
+			},
+			"oyster":{
+				"display_name":"Auster",
+				"description":"Perlenhaus.",
+				"unripe_description":"Ein leere Schale."
+			},
+			"broken_boat":{
+				"display_name":"Zerbrochenes Boot",
+				"description":"Ernte es für Holz und Gold."
+			}
+		},
+		"decoration":{
+			"pirate_flag":{
+				"display_name":"Piratenflagge",
+				"description":"Kein guter Weg um Freunde zu finden",
+				"recipe":{
+					"description":"Eine klassische Piraten-themenorientierte Flagge.",
+					"flavor":"Aaaarrrrgggghhhh!"
+				}
+			},
+			"sand_castle":{
+				"display_name":"Sandburg",
+				"description":"Die Sandprinzessin ist in einer anderen Sandburg",
+				"recipe":{
+					"description":"Verwende Sand (Lehm) um deine Traumburg zu bauen",
+					"flavor":"4 Jahre in Architektur-Schule um das zu bauen?"
+				}
+			},
+			"tiki_torch":{
+				"display_name":"Tiki Fackel",
+				"description":"Eine sehr lange Fackel",
+				"recipe":{
+					"description":"Eine Außenleuchte an einem langen Pfahl befestigt.",
+					"flavor":"Erhellt die Party und hält die Käfer in Schach"
+				}
+			}
+		},
+		"food":{
+			"coconut":{
+				"display_name":"Kokosnuss",
+				"description":"Immer erfrischend"
+			},
+			"papaya_basket":{
+				"display_name":"Korb mit Papayas",
+				"description":"Voll mit Papayafrüchten"
+			},
+			"papaya_serving":{
+				"display_name":"Papayafrucht",
+				"description":"Eine hälfte einer Frucht"
+			}
+		},
+		"resources":{
+			"pearl":{
+				"display_name":"Weiße Perle",
+				"description":"Vielleicht das beliebteste Juwel aller Zeiten"
+			},
+			"black_pearl":{
+				"display_name":"Schwarze Perle",
+				"description":"Voller Flüche, verkauft sich für einen guten Preis"
+			},
+			"hot_rock":{
+				"display_name":"Heißer Stein",
+				"description":"Reich an Mineralien, bau es ruhig ab"
+			}
+		},
+		"trees":{
+			"common_palm":{
+				"description":"Ein Symbol des tropischen Inselparadieses.",
+				"unripe_description":"Keine Kokosnüsse aktuell. Ein Symbol des tropischen Inselparadieses."
+			},
+			"palm_tree":{
+				"small_palm_tree":{
+					"display_name":"Kleine Palme"
+				},
+				"large_palm_tree":{
+					"display_name":"Große Palme"
+				}
+			},
+			"bend_palm_tree":{
+				"small_bend_palm_tree":{
+					"display_name":"Kleine gebogene Palme"
+				},
+				"large_bend_palm_tree":{
+					"display_name":"Große gebogene Palme"
+				}
+			},
+			"dranden":{
+				"display_name":"Dranden Baum",
+				"description":"Großer Stamm mit schweren Blättern"
+			},
+			"smalea":{
+				"display_name":"Smalea-Baum",
+				"description":"Kleiner und dichter Baum"
+			},
+			"papaya":{
+				"display_name":"Papayabaum",
+				"description":"Eine große, baumartige Pflanze (es ist kein Baum?)",
+				"unripe_description":"Noch nicht reif für die Ernte"
+			}
+		},
+		"volcano":{
+			"display_name":"Vulkan",
+			"description":"Heiß! Gut für verrückte Rituale."
+		}
+	},
+	"ui": {
+		"game":{
+			"build_mode":{
+				"building_templates":{
+					"template_names":{
+						"beach_tower":"Strandturm",
+						"little_pier":"Kleiner Pier",
+						"open_house":"Offenes Haus",
+						"small_beach_house":"Kleines Strandhaus",
+						"small_boat":"Kleines Boot"
+					}
+				}
+			}
+		},
+		"shell": {
+			"select_settlement": {
+				"terrain_codes": {
+					"water": "Ozean",
+					"plains_2": "Strand",
+					"foothills_1": "Ebene"
+				}
+			}
+		}
+	},
+	"data": {
+		"biome": {
+			"archipelago": {
+            			"display_name": "Archipel",
+            			"description": "Wasser überall! Oder Sand! Was auch immer unbeliebter ist xD",
+				"random_location_names": {
+               				"000": " zum Malaio Archipel",
+              				"001": " zum Mauna Loa Archipel",
+               				"002": " zum Kilak Archipel",
+               				"003": " zum Mergui Archipel"
+				}
+			}
+		},
+		"commands":{
+			"chop_tree":{
+				"display_name":"Baum fällen",
+				"description":"Fäll diesen Baum"
+			}
+		},
+		"gm":{
+			"campaigns":{
+				"archipelago":{
+					"arcs":{
+						"trigger":{
+							"introduction":{
+								"title":"Eine Hilfe von den Meeren",
+								"dialog_title":"Kapitän Miranda",
+								"message_start":"Hey.<br>Möchtest du Hilfe mit diesem Ort? Ich kann dir ein paar Dinge beibringen, wenn du neu auf den Inseln bist",
+								"message_decline":"Nun, ich habe es versucht.<br>Viel Glück.",
+								"message_accept":"Ja! Endlich nimmt jemand meine Hilfe an!<br>Er... Ich meinte, folge mir!",
+								"message_trees":"Das wichtigste zuerst.<br>Wie immer wirst du zuerstnach Holz und Nahrung suchen, nicht wahr?<br>Hier findest du beides an der gleichen Stelle!<br>Siehst du die Palme?<br>Wenn du Sie erntest, erhälst du Kokosnüsse. Die füllen aber nicht wirklich.<br>Später, wenn du möchtest, kannst du Sie für Holz fällen (Wählen dazu einfach eine Palme aus und klick dann auf den 'Axt'-Befehl auf der unteren linken Seite)",
+								"message_oysters":"Oh, und diese großen Austern sind genial. Du kannst von von Zeit zu Zeit Perlen aus Ihnen ernten, die für einen guten Preis verkauft werden können. <br>Sagen erwähnen das Sie auch seltene schwarze Perlen produzieren, aber ich hab selber noch nie eine gesehen.",
+								"message_broken_boats":"Wenn du etwas Gold willst, schauen dich um und manchmal kannst du einige unglückliche Bootwracks finden. <br>Du kannst Sie ausschlachten und gute Schätze finden.",
+								"message_bye":"Ich denke, das ist alles für jetzt. <br>Vielleicht komme ich eines Tages zurück um zu überprüfen, wie Ihr Jungs euch macht. <br>Ich muss diesen Wind in den Segeln ausnutzen! Mein Schiff füllt sich nicht von alleine mit Waren und Schätzen <br>Tschüss und viel Glück."
+							}
+						}
+					}
+				}
+			}
+		},
+		"saved_objects":{
+			"building_templates_index":{
+				"template_tabs":{
+					"display_name": "Archipel",
+					"categories":{
+						"camp":"Strandcamp",
+						"town":"Piratenversteck",
+						"tier3":"Königlicher Hafen"
+					}
+				}
+			}
+		}
+	}
 }

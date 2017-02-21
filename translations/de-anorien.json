@@ -11,5 +11,65 @@
             }
          }
       }
+   },
+   "entities": { 
+      "crops": {
+         "oak_tree_crop": {
+            "display_name" : "Eichen Schössling",
+            "description"  : "Keine Bäume mehr? Mach dich bereit um dich an der Wiederaufforstung zu beteiligen.",
+            "growth_stage": {
+               "001": {
+                  "name": "Eichen Setzling",
+                  "description": "Es ist erst der Anfang."
+               },
+               "003": {
+                  "name": "Eichen Schössling",
+                  "description": "Bereit in eine größere Parzelle übertragen zu werden."
+               },
+               "000": {
+                  "name": "Eichel",
+                  "description": "Auch ein mächtiger Baum hat einen bescheidenen Anfang."
+               },
+               "002": {
+                  "name": "Eichen Sprosse",
+                  "description": "Greif nach der Sonne, kleine Eiche."
+               }
+            }
+         }
+      },
+      "trees": {
+        "oak_tree": {
+            "sapling_oak_tree": {
+	       "description": "Baby-Eiche.",
+               "sapling_oak_tree_ghost": {
+                  "display_name": "Eichen Schößling",
+                  "description": "Baby-Eiche."
+               },
+               "sapling_oak_tree_iconic": {
+                  "description": "Pflanze es in der Erde und schau beim wachsen zu."
+               }
+            },
+          "small_oak_autumn": {
+             "display_name": "Kleine Eiche",
+             "description": "Nun, das wird sich nicht in einen Ent verwandeln."
+               },
+
+		   "medium_oak_autumn": {
+             "display_name": "Mittlere Eiche",
+             "description": "..Es ist eine Eiche."
+               },
+           
+		   "large_oak_autumn": {
+             "display_name": "Große Eiche",
+             "description": "Eine ziemlich große Eiche, würde ich sagen."
+
+		      },
+           
+		   "ancient_oak_autumn": {
+             "display_name" : "Antike Eiche",
+             "description"  : "Diese Eiche sieht alt aus .. Und diese lebendigen Farben!"
+            }
+	 }
+      }
    }
 }

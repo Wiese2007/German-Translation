@@ -40,6 +40,60 @@
             "der Schänder",
             "Grabmoor"
          ]
+      },
+      "zombie_giant" : {
+         "male" : {
+            "uri" : [
+	    "stonehearth:monsters:undead:zombie:giant_male"
+	    ],
+            "given_names" : [
+               "Broo",
+               "Jokok",
+               "Craglek",
+               "Lost",
+               "Empt",
+               "Brok",
+               "Holvo",
+               "Despr",
+               "Desnad",
+               "Ton",
+               "Ren",
+               "Trest",
+               "Garef",
+               "Lee",
+               "Dih",
+               "Sher",
+               "Beck",
+               "Ian",
+               "Namenlos"
+            ]
+         },
+         "female" : {
+            "uri" : ["stonehearth:monsters:undead:zombie:giant_female"],
+            "given_names" : [
+               "Kate",
+               "Amy",
+               "Idra",
+               "Loss",
+               "Mourn",
+               "Bleck",
+               "Ness",
+               "Lene",
+               "Elia",
+               "Essa",
+               "Elie",
+               "Namenlos"
+            ]
+         },
+         "surnames" : [
+            "der Grüne",
+            "der Tote",
+            "der Fleischfresser",
+            "der Verrotenede",
+            "der einstmal Menschliche",
+            "Kopfklopfer",
+            "der Gigant"
+         ]
       }
    }
 }

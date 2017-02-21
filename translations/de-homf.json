@@ -1,8 +1,8 @@
 {
    "ui": {
       "customize_hearthling": {
-         "title"       : "Passe deinen Hearthling an",
-         "role"        : "Rolle"
+         "title": "Passe deinen Hearthling an",
+         "role": "Rolle"
       },
       "data": {
          "tooltips": {

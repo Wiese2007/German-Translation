@@ -1,6 +1,7 @@
 {
    "info" : {
-      "name" : "German-Translation-v18.2", 
+      "name" : "German-Translation-v20.1", 
+      "required": true,
       "version" : 3
    },
    "mixintos" : {
@@ -41,8 +42,8 @@
       "retro_games/locales/de.json" : "file(translations/de-retro.json)",
       "patrol_mod/locales/de-DE.json" : "file(translations/de-patrol.json)",
       "patrol_mod/locales/de.json" : "file(translations/de-patrol.json)",
-	  "bastioneers/locales/de-DE.json" : "file(translations/de-bastioneers.json)",
-	  "bastioneers/locales/de.json" : "file(translations/de-bastioneers.json)",
+	"bastioneers/locales/de-DE.json" : "file(translations/de-bastioneers.json)",
+	"bastioneers/locales/de.json" : "file(translations/de-bastioneers.json)",
       "locksofmanyclothings/locales/de-DE.json" : "file(translations/de-lomc.json)",
       "locksofmanyclothings/locales/de.json" : "file(translations/de-lomc.json)",
       "archipelago_biome/locales/de-DE.json" : "file(translations/de-archipelago.json)",
@@ -64,20 +65,21 @@
 
 
    	"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.eot" : "file(fonts/de-DE/komika_text.eot)",
-	   "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.svg" : "file(fonts/de-DE/komika_text.svg)",
-	   "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.ttf" : "file(fonts/de-DE/komika_text.ttf)",
-	   "stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.woff" : "file(fonts/de-DE/komika_text.woff)",
-	   "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.eot" : "file(fonts/de-DE/komika_text.eot)",
-	   "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.svg" : "file(fonts/de-DE/komika_text.svg)",
-	   "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.ttf" : "file(fonts/de-DE/komika_text.ttf)",
-	   "stonehearth/ui/root/css/fonts/grobold/grobold-webfont.woff" : "file(fonts/de-DE/komika_text.woff)",
+	"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.svg" : "file(fonts/de-DE/komika_text.svg)",
+	"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.ttf" : "file(fonts/de-DE/komika_text.ttf)",
+	"stonehearth/ui/root/css/fonts/autourone/AutourOne-Regular-webfont.woff" : "file(fonts/de-DE/komika_text.woff)",
+	"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.eot" : "file(fonts/de-DE/komika_text.eot)",
+	"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.svg" : "file(fonts/de-DE/komika_text.svg)",
+	"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.ttf" : "file(fonts/de-DE/komika_text.ttf)",
+	"stonehearth/ui/root/css/fonts/grobold/grobold-webfont.woff" : "file(fonts/de-DE/komika_text.woff)",
       "stonehearth/ui/shell/select_settlement/select_settlement.less" : "file(ui/shell/select_settlement/select_settlement.less)",
       "stonehearth/ui/game/modes/zones_mode/mining_zone/mining_zone.less" : "file(ui/game/modes/zones_mode/mining_zone/mining_zone.less)",
-      "stonehearth/ui/game/show_workshop/show_team_workshop.less" : "file(ui/game/show_workshop/show_team_workshop.less)",
+      "stonehearth/ui/game/modes/zones_mode/stockpile/stockpile.less" : "file(ui/game/modes/zones_mode/stockpile/stockpile.less)",
       "stonehearth/ui/game/party_editor/party_editor.less" : "file(ui/game/party_editor/party_editor.less)",
       "stonehearth/ui/game/promotion_tree/promotion_tree.less" : "file(ui/game/promotion_tree/promotion_tree.less)",
       "stonehearth/ui/game/unit_frame/unit_frame.less" : "file(ui/game/unit_frame/unit_frame.less)",
       "stonehearth/ui/game/citizens/citizens.less" : "file(ui/game/citizens/citizens.less)",
+      "stonehearth/ui/game/character_sheets/citizen_character_sheet/citizen_character_sheet.less" : "file(ui/game/character_sheets/citizen_character_sheet/citizen_character_sheet.less)",
       "stonehearth/ui/game/bulletin/bulletin_dialog/shop_bulletin_dialog/shop_bulletin_dialog.less" : "file(ui/game/bulletin/bulletin_dialog/shop_bulletin_dialog/shop_bulletin_dialog.less)"
    }
 }

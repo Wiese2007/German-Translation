@@ -1,388 +1,388 @@
 {
-   "data": {
-      "gm": {
-         "campaigns": {
-            "trader": {
-               "arcs": {
-                  "encounters": {
-                     "rare_item_shop": {
-                        "name": "Der glänzenden Sachen Händler",
-                        "title": "Eine blauäugiger Skeletthändler erscheint. . ."
-                     }
-                  }
-               }
-            }
-         }
-      }
-   },
-   "entities":{
-      "decorations": {
-         "blue_awning": {
-            "blue_awning_ghost": {
-               "display_name" : "Blaues Sonnensegel",
-               "description" : "Für diejenigen, die die Sonne nicht in ihren Augen mögen."
-            }
-         },
-         "red_awning": {
-            "red_awning_ghost": {
-               "display_name" : "Rotes Sonnensegel",
-               "description" : "Für diejenigen, die die blauen nicht mögen."
-            }
-         },
-         "red_curtains": {
-            "red_curtains_ghost": {
-               "display_name" : "Rote Vorhänge",
-               "description" : "Wie die Blauen ... aber rot."
-            }
-         },
-         "trapdoor": {
-            "trapdoor_ghost": {
-               "display_name" : "Falltür",
-               "description" : "Ich frage mich, was da unten ist .... mist sie lässt sich nicht öffnen."
-            }
-         }
-      },
-      "furniture": {
-         "bar_corner": {
-            "bar_corner_ghost": {
-               "display_name" : "Barecke",
-               "description" : "Cause who doesn't like the corner bar seats."
-            }
-         },
-         "bar_section": {
-            "bar_section_ghost": {
-               "display_name" : "Barabschnitt",
-               "description" : "Betrunkenen Dorfbewohner sind viel lustiger als nüchterne."
-            }
-         },
-         "barrel_chair": {
-            "barrel_chair_ghost": {
-               "display_name" : "Einfacher Fassstuhl aus Holz",
-               "description" : "Einfacher Weg, um die Hälfte eines Fasses zu verschwenden."
-            }
-         },
-         "barrel_for_one": {
-            "barrel_for_one_ghost": {
-               "display_name" : "Fass für Einen",
-               "description" : "Weil Teilen scheiße ist."
-            }
-         },
-         "barrel_table": {
-            "barrel_table_ghost": {
-               "display_name" : "Fasstisch",
-               "description" : "Für wenn du Tische hasst."
-            }
-         },
-         "bluecloth_wood_table": {
-            "bluecloth_wood_table_ghost": {
-               "display_name" : "Blau gekleideter Tisch",
-               "description" : "Tische, Jetzt mit Farbe!"
-            }
-         },
-         "boiling_cabinet": {
-            "boiling_cabinet_ghost": {
-               "display_name": "Kochschrank",
-               "description": "Für jene Tage, wenn du essen musst."
-            }
-         },
-         "bookcase_large": {
-            "bookcase_large_ghost": {
-               "display_name" : "Großes Bücherregal",
-               "description" : "Da ist eine Scheibe Schinken in einem dieser Bücher."
-            }
-         },
-         "bookcase_small": {
-            "bookcase_small_ghost": {
-               "display_name" : "Kleines Bücherregal",
-               "description" : "Da ist Speck in diesem hier."
-            }
-         },
-         "burning_logs": {
-            "burning_logs_ghost": {
-               "display_name" : "Feuerholzscheite",
-               "description" : "Dekorative Scheite, damit du denkst du könntest ein Feuer haben."
-            }
-         },
-         "cart": {
-            "cart_ghost": {
-               "display_name" : "Wagen",
-               "description" : "Das meist frustrierenste ist, dass du willst das es eine Funktion hat."
-            }
-         },
-         "crate_chair": {
-            "crate_chair_ghost": {
-               "display_name" : "Holzkistenstuhl",
-               "description" : "Verwendung wertvoller Pakete als Sitz beweist das Ihr ein guter Arbeiter seid."
-            }
-         },
-         "linked_chest": {
-            "linked_chest_ghost": {
-               "display_name" : "Verkettete Truhe",
-               "description" : "So froh, dass dieser Mod nichts von anderen Spielen enthält."
-            }
-         },
-         "piano": {
-            "piano_ghost": {
-               "display_name" : "Klavier",
-               "description" : "Elegant bleiben."
-            }
-         },
-         "redcloth_wooden_table": {
-            "redcloth_wooden_table_ghost": {
-               "display_name" : "Rot gekleideter Tisch",
-               "description" : "Tische, Jetzt mit einer anderen Farbe!"
-            }
-         },
-         "scarecrow": {
-            "scarecrow_ghost": {
-               "display_name" : "Vogelscheuche",
-               "description" : "Wenn Sie nur ein Gehirn hätte."
-            }
-         },
-         "shelf": {
-            "shelf_ghost": {
-               "display_name" : "Regal",
-               "description" : "Wenn wir nur die Dinge in Sie tun könnten."
-            }
-         },
-         "shopping_stall_blue": {
-            "shopping_stall_blue_ghost": {
-               "display_name" : "Blauer Verkaufsstand",
-               "description" : "Händler können hier einen Laden einrichten"
-            }
-         },
-         "shopping_stall_green": {
-            "shopping_stall_green_ghost": {
-               "display_name" : "Grüner Verkaufsstand",
-               "description" : "Händler können hier einen Laden einrichten"
-            }
-         },
-         "shopping_stall_pink": {
-            "shopping_stall_pink_ghost": {
-               "display_name" : "Pinker Verkaufsstand",
-               "description" : "Händler können hier einen Laden einrichten"
-            }
-         },
-         "shopping_stall_purple": {
-            "shopping_stall_purple_ghost": {
-               "display_name" : "Lilaner Verkaufsstand",
-               "description" : "Händler können hier einen Laden einrichten"
-            }
-         },
-         "simple_wooden_stool": {
-            "simple_wooden_stool_ghost": {
-               "display_name" : "Einfacher Hocker aus Holz",
-               "description" : "Achtet auf Spinnen!s"
-            }
-         },
-         "training_dummy": {
-            "training_dummy_ghost": {
-               "display_name" : "Trainingspuppe",
-               "description" : "Dekorative in Abwesenheit von Möglichkeiten."
-            }
-         },
-         "washing_cabinet": {
-            "washing_cabinet_ghost": {
-               "display_name" : "Waschkabinett",
-               "description" : "Das Waschen der Hände ist wichtig!"
-            }
-         },
-         "wooden_chest": {
-            "wooden_chest_ghost": {
-               "display_name" : "Holztruhe",
-               "description" : "Dekorative in Abwesenheit von Möglichkeiten."
-            }
-         }
-      },
-      "toys": {
-         "plushie_toy_mudkip": {
-            "plushie_toy_mudkip_ghost":{
-               "display_name" : "Plüschtier Hydropi",
-               "description" : "Hier ist ein Spielzeug, da Ihr Sie so mögt."
-            }
-         },
-         "plushie_toy_snorlax": {
-            "plushie_toy_snorlax_ghost": {
-               "display_name" : "Plüschtier Relaxo",
-               "description" : "Pokeflöte erforderlich."
-            }
-         },
-         "plushie_toy_meowth": {
-            "plushie_toy_meowth_ghost": {
-               "display_name" : "Plüschtier Mauzi",
-               "description" : "Wir machen es doppelt."
-            }
-         }
-      }
-   },
-   "jobs": {
-      "weaver": {
-         "recipes": {
-            "plushie_toy_meowth_recipe": {
-               "recipe_name" : "Plüschtier Mauzi",
-               "description" : "Ein Spielzeug...für Kinder, selbstverständlich.",
-               "flavor" : "Wir machen es doppelt."
-            },
-            "blue_awning_recipe": {
-               "recipe_name" : "Blaues Sonnensegel",
-               "description" : "Verkleidet ansonsten normale Fenster.",
-               "flavor" : "Lichtblockierende Technologie fördert das einschlafen."
-            },
-            "plushie_toy_mudkip_recipe": {
-               "recipe_name" : "Plüschtier Hydropi",
-               "description" : "Ein Spielzeug...für Kinder, selbstverständlich.",
-               "flavor" : "Hier ist ein Spielzeug, da Ihr Sie so mögt."
-            },
-            "plushie_toy_snorlax_recipe": {
-               "recipe_name" : "Plüschtier Relaxo",
-               "description" : "Ein Spielzeug...für Kinder, selbstverständlich.",
-               "flavor" : "Pokeflöte erforderlich."
-            },
-            "red_awning_recipe": {
-               "recipe_name" : "Rotes Sonnensegel",
-               "description" : "Verkleidet ansonsten normale Fenster.",
-               "flavor" : "Lichtblockierende Technologie fördert das einschlafen."
-            },
-            "red_curtains_recipe": {
-               "recipe_name" : "Hübsche rote Vorhänge",
-               "description" : "Verkleidet ansonsten normale Fenster.",
-               "flavor" : "Lichtblockierende Technologie fördert das einschlafen."
-            }
-         }
-      },
-      "carpenter": {
-         "recipes": {
-            "barrel_for_one_recipe": {
-               "recipe_name" : "Fass für Einen",
-               "description" : "Besser als im stehen zu Essen. Sofern Sie nicht auf Ihr Gewicht achten.",
-               "flavor" : "Weil Teilen scheiße ist.."
-            },
-            "bookcase_small_recipe": {
-               "recipe_name" : "Kleines Bücherregal",
-               "description" : "Da ist Speck in diesem hier.",
-               "flavor" : ""
-            },
-            "boiling_cabinet_recipe": {
-               "recipe_name" : "Kochschrank",
-               "description" : "Ermöglicht es einer Gruppe von Leuten zusammen zu essen. Wie Erwachsenen.",
-               "flavor" : "Für jene Tage, wenn du essen musst."
-            },
-            "bar_corner_recipe": {
-               "recipe_name" : "Barecke",
-               "description" : "Eckabschnitt, für wenn du dich drehen musst.",
-               "flavor" : "Warnung: Nicht Trinken und fallen."
-            },
-            "barrel_chair_recipe": {
-               "recipe_name" : "Einfacher Fassstuhl aus Holz",
-               "description" : "Beim Sitzen, ist Essen 20% befriedigender.",
-               "flavor" : "Für den Besuch von Hobbits."
-            },
-            "barrel_table_recipe": {
-               "recipe_name" : "Fasstisch",
-               "description" : "Ermöglicht es einer Gruppe von Leuten zusammen zu essen. Wie Erwachsenen.",
-               "flavor" : "Für, wenn Ihr Tische hasst."
-            },
-            "bar_section_recipe": {
-               "recipe_name" : "Barabschnitt",
-               "description" : "kleiner Abschnitt für deine Bedürfnisse",
-               "flavor" : "Warnung: Nicht Trinken und fallen."
-            },
-            "burning_logs_recipe": {
-               "recipe_name" : "Feuerholzscheite",
-               "description" : "Dekorative Scheite, damit du denkst du könntest ein Feuer haben.",
-               "flavor" : ""
-            },
-            "cart_recipe": {
-               "recipe_name" : "Wagen",
-               "description" : "Das meist frustrierenste ist, dass du willst das es eine Funktion hat.",
-               "flavor" : ""
-            },
-            "bluecloth_wood_table_recipe": {
-               "recipe_name" : "Blau gekleideter Tisch",
-               "description" : "Tische, Jetzt mit Farbe!",
-               "flavor" : ""
-            },
-            "bookcase_large_recipe": {
-               "recipe_name" : "Großes Bücherregal",
-               "description" : "Da ist eine Scheibe Schinken in einem dieser Bücher.",
-               "flavor" : ""
-            },
-            "linked_chest_recipe": {
-               "recipe_name" : "Verkettete Truhe",
-               "description" : "So froh, dass dieser Mod nichts von anderen Spielen enthält.",
-               "flavor" : ""
-            },
-            "crate_chair_recipe": {
-               "recipe_name" : "Holzkistenstuhl",
-               "description" : "Ermöglicht es einer Gruppe von Leuten zusammen zu essen. Wie Erwachsenen.",
-               "flavor" : "Auf Fracht sitzen ist nicht schlecht, nur einfallsreich."
-            },
-            "piano_recipe": {
-               "recipe_name" : "Klavier",
-               "description" : "Elegant bleiben.",
-               "flavor" : ""
-            },
-            "redcloth_wooden_table_recipe": {
-               "recipe_name" : "Rot gekleideter Tisch",
-               "description" : "Tische, Jetzt mit einer anderen Farbe!",
-               "flavor" : ""
-            },
-            "scarecrow_recipe": {
-               "recipe_name" : "Vogelscheuche",
-               "description" : "Vogelscheuche für Ihren Garten",
-               "flavor" : "Wenn Sie nur ein Gehirn hätte."
-            },
-            "shelf_recipe": {
-               "recipe_name" : "Regal",
-               "description" : "Wenn wir nur die Dinge in Sie tun könnten.",
-               "flavor" : ""
-            },
-            "shopping_stall_blue_recipe": {
-               "recipe_name" : "Blauer Verkaufsstand",
-               "description" : "Geöffnet für Geschäfte",
-               "flavor" : "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
-            },
-            "shopping_stall_green_recipe": {
-               "recipe_name" : "Grüner Verkaufsstand",
-               "description" : "Geöffnet für Geschäfte",
-               "flavor" : "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
-            },
-            "shopping_stall_pink_recipe": {
-               "recipe_name" : "Pinker Verkaufsstand",
-               "description" : "Geöffnet für Geschäfte",
-               "flavor" : "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
-            },
-            "shopping_stall_purple_recipe": {
-               "recipe_name" : "Lilaner Verkaufsstand",
-               "description" : "Geöffnet für Geschäfte",
-               "flavor" : "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
-            },
-            "simple_wooden_stool_recipe": {
-               "recipe_name" : "Einfacher Hocker aus Holz",
-               "description" : "Beim Sitzen, ist Essen 20% befriedigender.",
-               "flavor" : "Achtet auf Spinnen!"
-            },
-            "training_dummy_recipe": {
-               "recipe_name" : "Trainingspuppe",
-               "description" : "Dekorative in Abwesenheit von Möglichkeiten.",
-               "flavor" : ""
-            },
-            "trapdoor_recipe": {
-               "recipe_name" : "Falltür",
-               "description" : "Ich frage mich, was da unten ist .... mist sie lässt sich nicht öffnen.",
-               "flavor" : ""
-            },
-            "washing_cabinet_recipe": {
-               "recipe_name" : "Waschkabinett",
-               "description" : "Das Waschen der Hände ist wichtig!",
-               "flavor" : ""
-            },
-            "wooden_chest_recipe": {
-               "recipe_name" : "Holztruhe",
-               "description" : "Dekorative in Abwesenheit von Möglichkeiten.",
-               "flavor" : ""
-            }
-         }
-      }
-   }
+	"data": {
+		"gm": {
+			"campaigns": {
+				"trader": {
+					"arcs": {
+						"encounters": {
+							"rare_item_shop": {
+								"display_name": "Der glänzenden Sachen Händler",
+								"title": "Eine blauäugiger Skeletthändler erscheint. . ."
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"entities": {
+		"decorations": {
+			"blue_awning": {
+				"blue_awning_ghost": {
+					"display_name": "Blaues Sonnensegel",
+					"description": "Für diejenigen, die die Sonne nicht in ihren Augen mögen."
+				}
+			},
+			"red_awning": {
+				"red_awning_ghost": {
+					"display_name": "Rotes Sonnensegel",
+					"description": "Für diejenigen, die die blauen nicht mögen."
+				}
+			},
+			"red_curtains": {
+				"red_curtains_ghost": {
+					"display_name": "Rote Vorhänge",
+					"description": "Wie die Blauen ... aber rot."
+				}
+			},
+			"trapdoor": {
+				"trapdoor_ghost": {
+					"display_name": "Falltür",
+					"description": "Ich frage mich, was da unten ist .... mist sie lässt sich nicht öffnen."
+				}
+			}
+		},
+		"furniture": {
+			"bar_corner": {
+				"bar_corner_ghost": {
+					"display_name": "Barecke",
+					"description": "Cause who doesn't like the corner bar seats."
+				}
+			},
+			"bar_section": {
+				"bar_section_ghost": {
+					"display_name": "Barabschnitt",
+					"description": "Betrunkenen Dorfbewohner sind viel lustiger als nüchterne."
+				}
+			},
+			"barrel_chair": {
+				"barrel_chair_ghost": {
+					"display_name": "Einfacher Fassstuhl aus Holz",
+					"description": "Einfacher Weg, um die Hälfte eines Fasses zu verschwenden."
+				}
+			},
+			"barrel_for_one": {
+				"barrel_for_one_ghost": {
+					"display_name": "Fass für Einen",
+					"description": "Weil Teilen scheiße ist."
+				}
+			},
+			"barrel_table": {
+				"barrel_table_ghost": {
+					"display_name": "Fasstisch",
+					"description": "Für wenn du Tische hasst."
+				}
+			},
+			"bluecloth_wood_table": {
+				"bluecloth_wood_table_ghost": {
+					"display_name": "Blau gekleideter Tisch",
+					"description": "Tische, Jetzt mit Farbe!"
+				}
+			},
+			"boiling_cabinet": {
+				"boiling_cabinet_ghost": {
+					"display_name": "Kochschrank",
+					"description": "Für jene Tage, wenn du essen musst."
+				}
+			},
+			"bookcase_large": {
+				"bookcase_large_ghost": {
+					"display_name": "Großes Bücherregal",
+					"description": "Da ist eine Scheibe Schinken in einem dieser Bücher."
+				}
+			},
+			"bookcase_small": {
+				"bookcase_small_ghost": {
+					"display_name": "Kleines Bücherregal",
+					"description": "Da ist Speck in diesem hier."
+				}
+			},
+			"burning_logs": {
+				"burning_logs_ghost": {
+					"display_name": "Feuerholzscheite",
+					"description": "Dekorative Scheite, damit du denkst du könntest ein Feuer haben."
+				}
+			},
+			"cart": {
+				"cart_ghost": {
+					"display_name": "Wagen",
+					"description": "Das meist frustrierenste ist, dass du willst das es eine Funktion hat."
+				}
+			},
+			"crate_chair": {
+				"crate_chair_ghost": {
+					"display_name": "Holzkistenstuhl",
+					"description": "Verwendung wertvoller Pakete als Sitz beweist das Ihr ein guter Arbeiter seid."
+				}
+			},
+			"linked_chest": {
+				"linked_chest_ghost": {
+					"display_name": "Verkettete Truhe",
+					"description": "So froh, dass dieser Mod nichts von anderen Spielen enthält."
+				}
+			},
+			"piano": {
+				"piano_ghost": {
+					"display_name": "Klavier",
+					"description": "Elegant bleiben."
+				}
+			},
+			"redcloth_wooden_table": {
+				"redcloth_wooden_table_ghost": {
+					"display_name": "Rot gekleideter Tisch",
+					"description": "Tische, Jetzt mit einer anderen Farbe!"
+				}
+			},
+			"scarecrow": {
+				"scarecrow_ghost": {
+					"display_name": "Vogelscheuche",
+					"description": "Wenn Sie nur ein Gehirn hätte."
+				}
+			},
+			"shelf": {
+				"shelf_ghost": {
+					"display_name": "Regal",
+					"description": "Wenn wir nur die Dinge in Sie tun könnten."
+				}
+			},
+			"shopping_stall_blue": {
+				"shopping_stall_blue_ghost": {
+					"display_name": "Blauer Marktstand",
+					"description": "Händler können hier einen Laden einrichten"
+				}
+			},
+			"shopping_stall_green": {
+				"shopping_stall_green_ghost": {
+					"display_name": "Grüner Marktstand",
+					"description": "Händler können hier einen Laden einrichten"
+				}
+			},
+			"shopping_stall_pink": {
+				"shopping_stall_pink_ghost": {
+					"display_name": "Pinker Marktstand",
+					"description": "Händler können hier einen Laden einrichten"
+				}
+			},
+			"shopping_stall_purple": {
+				"shopping_stall_purple_ghost": {
+					"display_name": "Lilaner Marktstand",
+					"description": "Händler können hier einen Laden einrichten"
+				}
+			},
+			"simple_wooden_stool": {
+				"simple_wooden_stool_ghost": {
+					"display_name": "Einfacher Hocker aus Holz",
+					"description": "Achtet auf Spinnen!s"
+				}
+			},
+			"training_dummy": {
+				"training_dummy_ghost": {
+					"display_name": "Trainingspuppe",
+					"description": "Dekorative in Abwesenheit von Möglichkeiten."
+				}
+			},
+			"washing_cabinet": {
+				"washing_cabinet_ghost": {
+					"display_name": "Waschkabinett",
+					"description": "Das Waschen der Hände ist wichtig!"
+				}
+			},
+			"wooden_chest": {
+				"wooden_chest_ghost": {
+					"display_name": "Holztruhe",
+					"description": "Dekorative in Abwesenheit von Möglichkeiten."
+				}
+			}
+		},
+		"toys": {
+			"plushie_toy_mudkip": {
+				"plushie_toy_mudkip_ghost": {
+					"display_name": "Plüschtier Hydropi",
+					"description": "Hier ist ein Spielzeug, da Ihr Sie so mögt."
+				}
+			},
+			"plushie_toy_snorlax": {
+				"plushie_toy_snorlax_ghost": {
+					"display_name": "Plüschtier Relaxo",
+					"description": "Pokeflöte erforderlich."
+				}
+			},
+			"plushie_toy_meowth": {
+				"plushie_toy_meowth_ghost": {
+					"display_name": "Plüschtier Mauzi",
+					"description": "Wir machen es doppelt."
+				}
+			}
+		}
+	},
+	"jobs": {
+		"weaver": {
+			"recipes": {
+				"plushie_toy_meowth_recipe": {
+					"recipe_name": "Plüschtier Mauzi",
+					"description": "Ein Spielzeug...für Kinder, selbstverständlich.",
+					"flavor": "Wir machen es doppelt."
+				},
+				"blue_awning_recipe": {
+					"recipe_name": "Blaues Sonnensegel",
+					"description": "Verkleidet ansonsten normale Fenster.",
+					"flavor": "Lichtblockierende Technologie fördert das einschlafen."
+				},
+				"plushie_toy_mudkip_recipe": {
+					"recipe_name": "Plüschtier Hydropi",
+					"description": "Ein Spielzeug...für Kinder, selbstverständlich.",
+					"flavor": "Hier ist ein Spielzeug, da Ihr Sie so mögt."
+				},
+				"plushie_toy_snorlax_recipe": {
+					"recipe_name": "Plüschtier Relaxo",
+					"description": "Ein Spielzeug...für Kinder, selbstverständlich.",
+					"flavor": "Pokeflöte erforderlich."
+				},
+				"red_awning_recipe": {
+					"recipe_name": "Rotes Sonnensegel",
+					"description": "Verkleidet ansonsten normale Fenster.",
+					"flavor": "Lichtblockierende Technologie fördert das einschlafen."
+				},
+				"red_curtains_recipe": {
+					"recipe_name": "Hübsche rote Vorhänge",
+					"description": "Verkleidet ansonsten normale Fenster.",
+					"flavor": "Lichtblockierende Technologie fördert das einschlafen."
+				}
+			}
+		},
+		"carpenter": {
+			"recipes": {
+				"barrel_for_one_recipe": {
+					"recipe_name": "Fass für Einen",
+					"description": "Besser als im stehen zu Essen. Sofern Sie nicht auf Ihr Gewicht achten.",
+					"flavor": "Weil Teilen scheiße ist.."
+				},
+				"bookcase_small_recipe": {
+					"recipe_name": "Kleines Bücherregal",
+					"description": "Da ist Speck in diesem hier.",
+					"flavor": ""
+				},
+				"boiling_cabinet_recipe": {
+					"recipe_name": "Kochschrank",
+					"description": "Ermöglicht es einer Gruppe von Leuten zusammen zu essen. Wie Erwachsenen.",
+					"flavor": "Für jene Tage, wenn du essen musst."
+				},
+				"bar_corner_recipe": {
+					"recipe_name": "Barecke",
+					"description": "Eckabschnitt, für wenn du dich drehen musst.",
+					"flavor": "Warnung: Nicht Trinken und fallen."
+				},
+				"barrel_chair_recipe": {
+					"recipe_name": "Einfacher Fassstuhl aus Holz",
+					"description": "Beim Sitzen, ist Essen 20% befriedigender.",
+					"flavor": "Für den Besuch von Hobbits."
+				},
+				"barrel_table_recipe": {
+					"recipe_name": "Fasstisch",
+					"description": "Ermöglicht es einer Gruppe von Leuten zusammen zu essen. Wie Erwachsenen.",
+					"flavor": "Für, wenn Ihr Tische hasst."
+				},
+				"bar_section_recipe": {
+					"recipe_name": "Barabschnitt",
+					"description": "kleiner Abschnitt für deine Bedürfnisse",
+					"flavor": "Warnung: Nicht Trinken und fallen."
+				},
+				"burning_logs_recipe": {
+					"recipe_name": "Feuerholzscheite",
+					"description": "Dekorative Scheite, damit du denkst du könntest ein Feuer haben.",
+					"flavor": ""
+				},
+				"cart_recipe": {
+					"recipe_name": "Wagen",
+					"description": "Das meist frustrierenste ist, dass du willst das es eine Funktion hat.",
+					"flavor": ""
+				},
+				"bluecloth_wood_table_recipe": {
+					"recipe_name": "Blau gekleideter Tisch",
+					"description": "Tische, Jetzt mit Farbe!",
+					"flavor": ""
+				},
+				"bookcase_large_recipe": {
+					"recipe_name": "Großes Bücherregal",
+					"description": "Da ist eine Scheibe Schinken in einem dieser Bücher.",
+					"flavor": ""
+				},
+				"linked_chest_recipe": {
+					"recipe_name": "Verkettete Truhe",
+					"description": "So froh, dass dieser Mod nichts von anderen Spielen enthält.",
+					"flavor": ""
+				},
+				"crate_chair_recipe": {
+					"recipe_name": "Holzkistenstuhl",
+					"description": "Ermöglicht es einer Gruppe von Leuten zusammen zu essen. Wie Erwachsenen.",
+					"flavor": "Auf Fracht sitzen ist nicht schlecht, nur einfallsreich."
+				},
+				"piano_recipe": {
+					"recipe_name": "Klavier",
+					"description": "Elegant bleiben.",
+					"flavor": ""
+				},
+				"redcloth_wooden_table_recipe": {
+					"recipe_name": "Rot gekleideter Tisch",
+					"description": "Tische, Jetzt mit einer anderen Farbe!",
+					"flavor": ""
+				},
+				"scarecrow_recipe": {
+					"recipe_name": "Vogelscheuche",
+					"description": "Vogelscheuche für Ihren Garten",
+					"flavor": "Wenn Sie nur ein Gehirn hätte."
+				},
+				"shelf_recipe": {
+					"recipe_name": "Regal",
+					"description": "Wenn wir nur die Dinge in Sie tun könnten.",
+					"flavor": ""
+				},
+				"shopping_stall_blue_recipe": {
+					"recipe_name": "Blauer Marktstand",
+					"description": "Geöffnet für Geschäfte",
+					"flavor": "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
+				},
+				"shopping_stall_green_recipe": {
+					"recipe_name": "Grüner Marktstand",
+					"description": "Geöffnet für Geschäfte",
+					"flavor": "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
+				},
+				"shopping_stall_pink_recipe": {
+					"recipe_name": "Pinker Marktstand",
+					"description": "Geöffnet für Geschäfte",
+					"flavor": "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
+				},
+				"shopping_stall_purple_recipe": {
+					"recipe_name": "Lilaner Marktstand",
+					"description": "Geöffnet für Geschäfte",
+					"flavor": "Wie würdest du sonst deinen Fall bremsen, wenn du von Dächern springst?"
+				},
+				"simple_wooden_stool_recipe": {
+					"recipe_name": "Einfacher Hocker aus Holz",
+					"description": "Beim Sitzen, ist Essen 20% befriedigender.",
+					"flavor": "Achtet auf Spinnen!"
+				},
+				"training_dummy_recipe": {
+					"recipe_name": "Trainingspuppe",
+					"description": "Dekorative in Abwesenheit von Möglichkeiten.",
+					"flavor": ""
+				},
+				"trapdoor_recipe": {
+					"recipe_name": "Falltür",
+					"description": "Ich frage mich, was da unten ist .... mist sie lässt sich nicht öffnen.",
+					"flavor": ""
+				},
+				"washing_cabinet_recipe": {
+					"recipe_name": "Waschkabinett",
+					"description": "Das Waschen der Hände ist wichtig!",
+					"flavor": ""
+				},
+				"wooden_chest_recipe": {
+					"recipe_name": "Holztruhe",
+					"description": "Dekorative in Abwesenheit von Möglichkeiten.",
+					"flavor": ""
+				}
+			}
+		}
+	}
 }

@@ -1,984 +1,984 @@
 {
-    "ui": {
-        "gardener": {
-            "display_name": "Gärtner Handwerks-Menü",
-            "description": "Stellt dekorative Gegenstaände mit Blumen her.",
-            "requirements": "Benötigt einen Gärtner"
-        }
-    },
-   "entities": {
-      "construction": {
-         "carved_stone_window": {
-            "display_name": "Gemeißeltes Steinfenster",
-            "description": "Sorgfältig in Stein gehauenes Fenster"
-         },
-        "carved_stone_door": {
-            "display_name": "Gemeißelte Steintür",
-            "description": "Sorgfältig in Stein gehauene Tür"
-         },
-         "clay_brick_wall": {
-            "display_name": "Lehm-Ziegelmauer",
-            "description": "Gestapelter geformter Ton"
-         },
-         "fortress_door": {
-            "display_name": "Burgtür",
-            "description": "Stark! Sowie es aussieht"
-         },
-         "fortress_window": {
-            "display_name": "Burgfenster",
-            "description": "Ein Eisen vergittertes Steinfenster"
-         },
-         "gardener_sign": {
-            "display_name": "Wandgebundenes Gärtnerschild",
-            "description": "Ein Schild mit der Markierung des Gärtners"
-         },
-         "hedge": {
-            "display_name": "Hecke",
-            "description": "Belaubt und luftig"
-         },
-         "hedge_corner": {
-            "display_name": "Eckhecke",
-            "description": "Belaubt und luftig"
-         },
-         "tumbleweed_fibre_fence": {
-            "display_name": "Steppenläufer-Fasern-Hecke",
-            "description": "Ein wirres Durcheinander "
-         },
-         "tumbleweed_fibre_fence_corner": {
-            "display_name": "Steppenläufer-Fasern-Eckhecke",
-            "description": "Eckstück einer Hecke"
-         },
-         "mine_entrance_scaffold": {
-            "display_name": "Mineneingangsgerüst",
-            "description": "Holzgerüst als Unterstützung für die Minen"
-         },
-         "picket_fence_archway": {
-            "display_name": "Lattenzaun Torbogen",
-            "description": "Nicht ideal für Tiergehege "
-         },
-         "potters_sign": {
-            "display_name": "Wandgebundenes Töpfer-Schild",
-            "description": "Ein Schild mit der Markierung des Töpfers"
-         },
-         "robust_door": {
-            "display_name": "Robuste Tür",
-            "description": "Robust und zuverlässig"
-         },
-         "robust_window": {
-            "display_name": "Robustes Fenster",
-            "description": "Ein kleines Guckloch"
-         },
-         "spiked_fence_corner": {
-            "display_name": "Gespickte Zaunecke",
-            "description": "Für alle deine Fesselbedürfnisse"
-         },
-         "spiked_fence": {
-            "display_name": "Gespickter Zaun",
-            "description": "Extra-spitze Ausgabe"
-         },
-         "stone_mine_entrance": {
-            "display_name": "Steinmineneingang",
-            "description": "In Stein gemeisselter Mineneingang"
-         },
-         "large_wooden_window_frame": {
-            "display_name": "Großer Holzfensterrahmen",
-            "description": "Ein großer Fensterrahmen"
-         },
-         "large_stone_window_frame": {
-            "display_name": "Großer Steinfensterrahmen",
-            "description": "Ein großer Fensterrahmen"
-         },
-         "iron_gate": {
-            "display_name": "Eisentor",
-            "description": "Knarrt im Wind"
-         }
-      },
-      "furniture": {
-         "berry_curtains": {
-            "display_name": "Berriger Vorhang",
-            "description": "Du kannst fast die Beeren schmecken."
-         },
-         "bird_house": {
-            "display_name": "Vogelhaus",
-            "description": "Kostenlose Vogelunterkunft."
-         },
-         "brightbell_hanging_basket": {
-            "display_name": "Glockenblumen Hängekorb",
-            "description": "Ein Qual es zu Wässern."
-         },
-         "cactus_tree_planter": {
-            "display_name": "Kaktus-Baum-Pflanzer",
-            "description": "Groß, stark und stachelig."
-         },
-         "canopy_garden": {
-            "display_name": "Baldachingarten",
-            "description": "Warum sollte nur Blumen auf dem Boden haben."
-         },
-         "canopy_garden_long": {
-            "display_name": "Langer Baldachingarten",
-            "description": "Warum sollte nur Blumen auf dem Boden haben."
-         },
-         "cloth_canopy": {
-            "display_name": "Stoff-Überdachung",
-            "description": "Ein schattiger Platz zum Ausruhen."
-         },
-         "cloth_canopy_long": {
-            "display_name": "Lange Stoff-Überdachung",
-            "description": "Ein schattiger Platz zum Ausruhen."
-         },
-         "chiminea": {
-            "display_name": "Außenkamin",
-            "description": "Thermische Gottheit"
-         },
-         "flower_fence": {
-            "display_name": "Blumenzaun",
-            "description": "Geblümte Trennung"
-         },
-         "flowered_curtains": {
-            "display_name": "Geblümter Vorhang",
-            "description": "Elegant und praktisch."
-         },
-         "footman_tapestry": {
-            "display_name": "Fußsoldaten Wandteppich",
-            "description": "Ein detaillierter Wandteppich mit dem Bild eines Fußsoldaten."
-         },
-         "foxfire_hanging_basket": {
-            "display_name": "Fuchsfeuer Hängekorb",
-            "description": "Eine Qual zu wässern."
-         },
-         "foxfire_lantern": {
-            "display_name": "Fuchsfeuer Laterne",
-            "description": "Mit glühendem Schleim gefüllt Steinlaterne"
-         },
-         "ember_lantern": {
-            "display_name": "Emberlaterne",
-            "description": "Steinlaterne mit Ember Pflanzenpollen gefüllt"
-         },
-         "frostsnap_hanging_basket": {
-            "display_name": "Eisblumen Hängekorb",
-            "description": "Eine Qual zu wässern."
-         },
-         "fur_bed": {
-            "display_name": "Pelzbett ",
-            "description": "Warm und entspannend."
-         },
-         "garden_bed": {
-            "display_name": "Gartenbeet",
-            "description": "Ein Heiligtum für alle Pflanzengattungen."
-         },
-         "guardian_statue": {
-            "display_name": "Wächterstatue ",
-            "description": "Ein steinerne Wächterstatue"
-         },
-         "hanging_cactus_pots": {
-            "display_name": "Kaktus Hängekorb",
-            "description": "Hängende Töpfe die Kakteen beherbergen."
-         },
-         "hanging_ember_pots": {
-            "display_name": "Ember Hängekorb",
-            "description": "Hängende Töpfe die Ember beherbergen."
-         },
-         "hanging_litso_pots": {
-            "display_name": "Litso Hängekorb",
-            "description": "Hängende Töpfe die Litsogras beherbergen."
-         },
-         "large_stone_planter": {
-            "display_name": "Großer Steinpflanzer",
-            "description": "Hübsch und robust."
-         },
-         "large_vase": {
-            "display_name": "Große Vase",
-            "description": "Groß, aber zerbrechlich"
-         },
-         "large_wooden_planter": {
-            "display_name": "Großer Holzpflanzer",
-            "description": "So schön."
-         },
-         "log_chair": {
-            "display_name": "Holzblockstuhl",
-            "description": "Außensitzplatz für einen Moment der Entspannung."
-         },
-         "luxury_stone_chair": {
-            "display_name": "Luxoriöser Steinstuhl",
-            "description": "Der beste Sitzplätze in der Gegend."
-         },
-         "plant_pot": {
-            "display_name": "Blumentopf",
-            "description": "Ein kleiner Tontopf"
-         },
-         "poster_bed": {
-            "display_name": "Himmelbett",
-            "description": "So viel Beinfreiheit ."
-         },
-         "potted_brightbell": {
-            "display_name": "Eingetopfte Glockenblume",
-            "description": "Ein Topf mit einer Glockenblume."
-         },
-         "potted_foxfire": {
-            "display_name": "Eingetopftes Fuchsfeuer",
-            "description": "Ein Topf mit einem Fuchsfeuer."
-         },
-         "potted_frostsnap": {
-            "display_name": "Eingetopfte Eisblume",
-            "description": "Ein Topf mit einer Eisblume."
-         },
-         "potted_sunflower": {
-            "display_name": "Eingetopfte Sonnenblume",
-            "description": "Ein Topf mit einer Sonnenblume."
-         },
-         "potted_litso_grass": {
-            "display_name": "Eingetopftes Litsogras",
-            "description": "Ein Topf mit einem Litsogras."
-         },
-         "potted_ember_plant": {
-            "display_name": "Eingetopfte Emberpflanze",
-            "description": "Ein Topf mit einer Emberpflanze."
-         },
-         "sarcophagus": {
-            "display_name": "Sarkophag",
-            "description": "Grab eines gefallenen Helden."
-         },
-         "scarecrow": {
-            "display_name": "Vogelscheuche",
-            "description": "Samenverteidigung."
-         },
-         "shelf": {
-            "display_name": "Regal",
-            "description": "Außerhalb der Reichweite von Kindern."
-         },
-         "shepherd_tapestry": {
-            "display_name": "Schäfer Wandteppich",
-            "description": "Ein Wandteppich von einem Hirten und seinen Schafen."
-         },
-         "skull_flag": {
-            "display_name": "Schädelflagge",
-            "description": "Ein wenig einschüchternd."
-         },
-         "small_stone_planter": {
-            "display_name": "Kleiner Steinpflanzer",
-            "description": "Perfekt für den Vorgarten."
-         },
-         "small_vase": {
-            "display_name": "Kleine Vase",
-            "description": "Klein und zerbrechlich"
-         },
-         "small_wooden_planter": {
-            "display_name": "Kleiner Holzpflanzer",
-            "description": "Perfekt für den Vorgarten."
-         },
-         "statue_of_fortune": {
-            "display_name": "Statue des Glücks",
-            "description": "Wünsche dir was!"
-         },
-         "stone_fur_bed": {
-            "display_name": "Steinernes Pelzbett",
-            "description": "Stark aber weich."
-         },
-         "stone_garden_bed": {
-            "display_name": "Steinernes Gartenbeet",
-            "description": "Ein Heiligtum für alle Pflanzengattung ."
-         },
-         "stone_totem": {
-            "display_name": "Steintotem",
-            "description": "Kultur geschrieben in Stein"
-         },
-         "straw_basket": {
-            "display_name": "Strohkorb",
-            "description": "Ein Korb gewebt aus Stroh."
-         },
-         "sundial": {
-            "display_name": "Sonnenuhr",
-            "description": "Einfach und doch so faszinierend"
-         },
-         "the_mighty_worker_statue": {
-            "display_name": "Eine mächtige Arbeiterstatue",
-            "description": "Eine Inspiration für alle."
-         },
-         "tiered_stone_planter": {
-            "display_name": "Gestufter Steinpflanzer",
-            "description": "Schicht auf Schicht aus organischer Güte."
-         },
-         "tiered_wooden_planter": {
-            "display_name": "Gestufter Holzpflanzer",
-            "description": "Schicht auf Schicht aus organischer Güte."
-         },
-         "totem": {
-            "display_name": "Totem",
-            "description": "Ein Schrein zu allen Aspekten des Lebens."
-         },
-         "traveller_statue": {
-            "display_name": "Reisendenstatue",
-            "description": "Kalter Stein und tiefe dunkle Augen."
-         },
-         "wall_mounted_foxfire_lantern": {
-            "display_name": "Wandgebundene Fuchsfeuerlaterne",
-            "description": "Wandgebundene Steinlaterne mit glühendem Schleim gefüllt."
-         },
-         "wall_mounted_ember_lantern": {
-            "display_name": "Wandgebundene Emberlanterne",
-            "description": "Wandgebundene Steinlaterne mit Ember Pflanzenpollen gefüllt."
-         },
-         "weaver_tapestry": {
-            "display_name": "Weber Wandteppich",
-            "description": "Ein dekorativer Wandteppich eines hart arbeitenden Webers."
-         },
-         "wise_man_statue": {
-            "display_name": "Weiser Mann Statue",
-            "description": "Der Federkiel ist mächtiger als das Schwert."
-         },
-         "wooden_hero_statue": {
-            "display_name": "Hölzerne Heldenstatue",
-            "description": "Gibt es einen besseren Weg, um unsere gefallenen Helden zu ehren."
-         },
-         "wooden_tree_planter": {
-            "display_name": "Hölzerner Baumpflanzer",
-            "description": "Wenn kleine Blüten einfach nicht genug sind."
-         }
-      },
-      "crops": {
-        "sunflower": {
-            "display_name": "Sonnenblume",
-            "description": "Eine große starke Sonnenblume"
-        },
-        "sunflower_1" : {
-            "name": "Sonnenblumen Sämling",
-            "description": "Kleine grüne Triebe"
-        },
-        "sunflower_2" : {
-            "name": "Sonnenblumen Spross",
-            "description": "Beginnt zu Blühen"
-        },
-        "sunflower_3" : {
-            "name": "Empfindliche Sonnenblume",
-            "description": "Kleine sonnige Blütenblätter "
-        },
-        "sunflower_4" : {
-            "name": "Ausgewachsene Sonnenblume",
-            "description": "Volles Sonnenblumenwachstum"
-        },
-        "foxfire": {
-            "display_name": "Fuchsfeuer",
-            "description": "Reift langsam und produziert glühenden Schleim"
-        },
-        "foxfire_1" : {
-            "name": "Fuchsfeuer Sämling",
-            "description": "Kleine schleimig Birne"
-        },
-        "foxfire_2" : {
-            "name": "Fuchsfeuer Sproße",
-            "description": "Größer und schleimiger"
-        },
-        "foxfire_3" : {
-            "name": "Fuchsfeuer Knospe",
-            "description": "Bereit zum ernten"
-        },
-        "litso_grass": {
-            "display_name": "Litsogras",
-            "description": "Eine kurzes, kleines Gras mit dekorativen gelben Spitzen"
-        },
-        "litso_grass_1" : {
-            "name": "Litsogras Sämling",
-            "description": "Kleine schmale Triebe"
-        },
-        "litso_grass_2" : {
-            "name": "Litsogras Sproße",
-            "description": "Grüne Triebe wachsen größer und stärker"
-        },
-        "litso_grass_3" : {
-            "name": "Feines Litsogras",
-            "description": "Fast vollständig ausgereift"
-        },
-        "ember_plant": {
-            "display_name": "Emberpflanze",
-            "description": "Eine kurze blühende Pflanze mit rot glühenden Pollen"
-        },
-        "ember_plant_1" : {
-            "name": "Emberpflanzen Sämling",
-            "description": "Früher Pflanzenstängel"
-        },
-        "ember_plant_2" : {
-            "name": "Emberpflanzen Sproße",
-            "description": "Noch nicht vollständig ausgereift"
-        },
-        "ember_plant_3" : {
-            "name": "Feine Emberpflanze",
-            "description": "Erste Anzeichen der Blüte"
-        }
-      },
-      "decorations": {
-        "foxfire": {
-            "display_name": "Fuchsfeuer",
-            "description": "Helle blaue Lumineszenz"
-        },
-        "sunflower": {
-            "display_name": "Sonnenblume",
-            "description": "Hell, aber nicht heiß"
-        },
-        "litso_grass": {
-            "display_name": "Litso Gras",
-            "description": "Kleine grüne Triebe mit gelben Spitzen"
-        },
-        "ember_plant": {
-            "display_name": "Feuerplanzet",
-            "description": "Kleine wüsten Fackeln"
-        }
-      },
-      "plants": {
-        "foxfire": {
-            "display_name": "Wild Fuchsfeuer",
-            "description": "Ein erntebarer wilder Pilz"
-            "unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen."
-        },
-        "sunflower": {
-            "display_name": "Wild Sonnenblume",
-            "description": "Eine erntebare wilde Sonnenblume"
-            "unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen."
-        },
-        "litso_grass": {
-            "display_name": "Wildes Litso Gras",
-            "description": "Eine erntebare wilde Pflanze"
-            "unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen."
-        },
-        "ember_plant": {
-            "display_name": "Wilde Feuerpflanze",
-            "description": "Eine erntebare wilde Pflanze"
-            "unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen."
-        }
-      },
-      "resources": {
-        "foxfire_slime": {
-            "display_name": "Fuchsfeuerschleim",
-            "description": "Eine schleimige Substanz, die ein blaues Leuchten emittiert"
-        },
-        "ember_plant_pollen": {
-            "display_name": "Feuerpflanzen Pollen",
-            "description": "Die Pollen von einer Feuerpflanze, die Orange wie Feuer glühen"
-        },
-        "ember_plant_pod": {
-            "display_name": "Emberpflanzenhülse",
-            "description": "Die blühende Hülse von einer Emberpflanze."
-        },
-        "foxfire_pod": {
-            "display_name": "Fuchsfeuerhülse",
-            "description": "Der schleimige Kern einer Fuchsfeuerpflanze."
-        },
-        "litso_grass_stem": {
-            "display_name": "Litsogras Stengel",
-            "description": "Der Stengel vom Litsogras."
-        },
-        "sunflower_pod": {
-            "display_name": "Sonnenblumenhülse",
-            "description": "Der Kopf der Sonnenblume."
-        }
-      }
-   },
-   "jobs": {
-    "gardener": {
-        "talisman": {
-            "name": "Gärtnerschaufel",
-            "description": "Ernennt einen Hearthling in einen Gärtner"
-        },
-        "workbench": {
-            "display_name": "Gärtner-Werkbank",
-            "description": "Wird vom Gärtner zum herstellen verwendet"
-        },
-        "toolbench": {
-            "display_name": "Gärtner-Werkzeugbank",
-            "description": "Wird vom Gärtner zum herstellen verwendet"
-        },
-        "outfit": {
-            "name": "Gärtneruniform",
-            "description": "Uniform für alle Gärtner"
-        },
-        "job_description": {
-            "display_name": "Gärtner",
-            "description": "Der Gärtner schafft dekorative Elemente aus Blumen",
-            "requirements": "Gärtnerschaufel, wird vom Schmied hergestellt"
-        },
-        "level_data": {
-            "l1_name": "Standardkatalog",
-            "l1_description": "Der Gärtner kann nun eine solide Reihe von Gartendekorationen machen.",
-            "l2_name": "Erweiterte Materialliste ",
-            "l2_description": "Der Gärtner ist jetzt geschickt genug komplexere Materialien zu verwenden.",
-            "l3_name": "Künstlerische Inspiration",
-            "l3_description": "Wenn die Inspiration zuschlägt kann der Gärtner seine Werke auf unerwartete Weise verschönern.",
-            "l4_name": "Komplexe Dekorationen",
-            "l4_description": "Der Gärtner kann aufwändigere Gartenmöbel schaffen.",
-            "l6_name": "Meistergärtner",
-            "l6_description": "Die Beherrschung seines Faches gewährt dem Gärtner komplett neue Möglichkeiten Pflanzen zu verwenden."
-        },
-        "personality": {
-            "promote": "Hört den Ruf der Schaufel:",
-            "beleaguered_leader": "Ich weiß nicht, ich soll die Aufsicht über all diese Blumen haben, was ist wenn sie sterben?",
-            "hopeless_optimist": "Großartig jetzt kann ich mein eigenes Essen anbauen ....... Denk ich.",
-            "lovable_rogue": "Normalerweise stampfe ich nur auf Blumen rum, aber Sie zu züchten könnte auch schön sein! Vermute ich.",
-            "psychopathic_misanthrope": "All diese Blumen unter meiner Kontrolle, welche wird gewässert und welche nicht, ihr Schicksal liegt in meinen Händen.",
-            "insufferable_academic": "Ich wollte schon immer Versuchen ein botanischen Wissenschaftler zu sein.",
-            "diligent_sweetheart": "Ein Gärtner? Also kann ich überall Blumen zu setzen, wo immer ich will? Genial!!!"
-        },
-        "recipe_category": {
-            "workbenches": "Werkbanken",
-            "garden_decorations": "Gartendekorationen",
-            "housing_decorations": "Hausdekorationen",
-            "planters": "Pflanzer",
-            "resources": "Ressourcen"
-        },
-        "recipes": {
-            "brightbell_hanging_basket": {
-                "recipe_name": "Glockenblumen Hängekorb",
-                "description": "Ein Korb für hängende Glockenblumen über der Tür.",
-                "flavor": "Warnung! Kann bei stürmischem Wetter tödlich sein."
-            },
-            "cactus_tree_planter": {
-                "recipe_name": "Kaktusbaum-Pflanzer",
-                "description": "Eine Ton-Ziegelbasis unterstützt einen großen Kaktusbaum.",
-                "flavor": "Nicht berühren!"
-            },
-            "canopy_garden_long": {
-                "recipe_name": "Langer Baldachingarten",
-                "description": "Ein langer Holzrahmen mit hellen Glockenblumen bedeckt.",
-                "flavor": "Etwas anderes zum ansehen als nur Wolken."
-            },
-            "canopy_garden": {
-                "recipe_name": "Baldachingarten",
-                "description": "Ein Holzrahmen mit hellen Glockenblumen bedeckt.",
-                "flavor": "Etwas anderes zum ansehen als nur Wolken."
-            },
-            "flower_fence": {
-                "recipe_name": "Blumenzaun",
-                "description": "Eine dekorative Holzzaun, mit Glockenblumen durchwebt.",
-                "flavor": "Privatsphäre und Dekoration, beides in einem Paket."
-            },
-            "foxfire_hanging_basket": {
-                "recipe_name": "Fuchsfeuer Hängekorb",
-                "description": "Ein Korb für hängende Fuchsfeuer über der Tür.",
-                "flavor": "Warnung! Kann bei stürmischem Wetter tödlich sein."
-            },
-            "foxfire_slime": {
-                "recipe_name": "Fuchsfeuerschleim",
-                "description": "Eine schleimige blaue Substanz aus dem Inneren der Fuchsfeuer Pflanze extrahiert.",
-                "flavor": "Repulsive and yet ... intriguing."
-            },
-            "ember_plant_pollen": {
-                "recipe_name": "Feuerpflanzen Pollen",
-                "description": "Die Pollen einer Feuerpflanze.",
-                "flavor": "Leuchtet wie die Glut eines alten Feuers."
-            },
-            "frostsnap_hanging_basket": {
-                "recipe_name": "Eisblumen Hängekorb",
-                "description": "Ein Korb für hängende Eisblumen über der Tür.",
-                "flavor": "Warnung! Kann bei stürmischem Wetter tödlich sein."
-            },
-            "garden_bed": {
-                "recipe_name": "Gartenbeet",
-                "description": "Ein Heiligtum des Bodens und der organischen Güte für eine Vielzahl von Pflanzenarten.",
-                "flavor": ""
-            },
-            "gardener_toolbench": {
-                "recipe_name": "Gärtner-Werkzeugbank",
-                "description": "Die Gärtner-Werkzeugbank wird verwendete um komplexere Gartendekorationen zu schaffen, wodurch komplexere Werkzeuge erfordert werden.",
-                "flavor": ""
-            },
-            "gardener_workbench": {
-                "recipe_name": "Gärtner-Werkbank",
-                "description": "Die Werkbank des Gärtners für Montage von verschiedenen Gartendekorationen.",
-                "flavor": ""
-            },
-            "hedge_corner": {
-                "recipe_name": "Eckhecke",
-                "description": "Ein Eckstück für Hecken.",
-                "flavor": "Umweltfreundliche Barriere."
-            },
-            "hedge": {
-                "recipe_name": "Hecke",
-                "description": "Ein kurzer Streifen Hecke.",
-                "flavor": "Umweltfreundliche Barriere."
-            },
-            "tumbleweed_fibre_fence": {
-                "recipe_name": "Steppenläufer-Fasern-hecke",
-                "description": "Steppenläufer Fasern zusammengeschlungen, um eine Barriere zu bilden.",
-                "flavor": ""
-            },
-            "tumbleweed_fibre_fence_corner": {
-                "recipe_name": "Steppenläufer-Fasern-Eckhecke",
-                "description": "Steppenläufer Fasern zusammengeschlungen, um eine Eckbarriere zu bilden.",
-                "flavor": ""
-            },
-            "hanging_cactus_pots": {
-                "recipe_name": "Kaktus Hängekorb",
-                "description": "Pflanzentöpfe mit Kakteen gefüllt, von einem Faden hängend.",
-                "flavor": "Stellen Sie sicher, dass sie gut gesichert sind."
-            },
-            "hanging_ember_pots": {
-                "recipe_name": "Emberpflanzen Hängekorb",
-                "description": "Pflanzentöpfe mit Emberpflanzen gefüllt, von einem Faden hängend.",
-                "flavor": "Stellen Sie sicher, dass sie gut gesichert sind."
-            },
-            "hanging_litso_pots": {
-                "recipe_name": "Litsogras Hängekorb",
-                "description": "Pflanzentöpfe mit Litsogras gefüllt, von einem Faden hängend.",
-                "flavor": "Stellen Sie sicher, dass sie gut gesichert sind."
-            },
-            "large_stone_planter": {
-                "recipe_name": "Großer Steinpflanzer",
-                "description": "Ein großes Steinornament, gefüllt mit Blumen.",
-                "flavor": ""
-            },
-            "large_wooden_planter": {
-                "recipe_name": "Großer Holzpflanzer",
-                "description": "Ein großes Holzornament gefüllt mit Blumen.",
-                "flavor": ""
-            },
-            "potted_brightbell": {
-                "recipe_name": "Eingetopfte Glockenblume",
-                "description": "Ein Ton-Blumentopf, gefüllt mit einer Glockenblume.",
-                "flavor": ""
-            },
-            "potted_foxfire": {
-                "recipe_name": "Eingetopfte Fuchsfeuer",
-                "description": "Ein Ton-Blumentopf, gefüllt mit einem Fuchsfeuer.",
-                "flavor": ""
-            },
-            "potted_frostsnap": {
-                "recipe_name": "Eingetopfte Eisblume",
-                "description": "Ein Ton-Blumentopf, gefüllt mit einer Eisblume.",
-                "flavor": ""
-            },
-            "potted_sunflower": {
-                "recipe_name": "Eingetopfte Sonnenblume",
-                "description": "Ein Ton-Blumentopf, gefüllt mit einer Sonnenblume.",
-                "flavor": ""
-            },
-            "potted_litso_grass": {
-                "recipe_name": "Eingetopftes Litsogras",
-                "description": "Ein Ton-Blumentopf, gefüllt mit einer Litsogras.",
-                "flavor": ""
-            },
-            "potted_ember_plant": {
-                "recipe_name": "Eingetopfte Emberpflanze",
-                "description": "Ein Ton-Blumentopf, gefüllt mit einer Emberpflanze.",
-                "flavor": ""
-            },
-            "scarecrow": {
-                "recipe_name": "Vogelscheuche",
-                "description": "Eine Vogelscheuche zum schützen Ihrer Pflanzen.",
-                "flavor": "Lasst uns hoffen, dass diese nicht Leben erwacht, wie die letzte."
-            },
-            "small_stone_planter": {
-                "recipe_name": "Kleiner Steinpflanzer",
-                "description": "Ein kleines Steinornament, mit Glockenblumen in ihm.",
-                "flavor": ""
-            },
-            "small_wooden_planter": {
-                "recipe_name": "Kleiner Holzpflanzer",
-                "description": "Ein kleines Holzornament, mit Glockenblumen in ihm.",
-                "flavor": ""
-            },
-            "stone_garden_bed": {
-                "recipe_name": "Steinernes Gartenbeet",
-                "description": "Ein steinernes Heiligtum des Bodens und der organischen Güte für eine Vielzahl von Pflanzenarten.",
-                "flavor": ""
-            },
-            "tiered_stone_planter": {
-                "recipe_name": "Gestufter Steinpflanzer",
-                "description": "Ein Steinpflanzer mit mehreren Ebenen für elegante Gärten.",
-                "flavor": ""
-            },
-            "tiered_wooden_planter": {
-                "recipe_name": "Gestufter Holzpflanzer",
-                "description": "Ein Holzpflanzer mit mehreren Ebenen für elegante Gärten.",
-                "flavor": ""
-            },
-            "wooden_tree_planter": {
-                "recipe_name": "Hölzerner Baumpflanzer",
-                "description": "Ein großer hölzerner Pflanzer, gefüllt mit einem kleinen Baum.",
-                "flavor": "Hasst Ihr es nicht, wenn Bäume nicht dort wachsen wo Ihr es wollt?."
-            }
-        }
-   },
-   "carpenter": {
-        "recipe_category" : {
-            "statues" : "Statuen"
-        },
-        "recipes" : {
-           "picket_fence_archway": {
-              "recipe_name" : "Lattenzaun Torbogen",
-              "description" : "Ein dekorativer Holztorbogen, für umzäunte Felder und Gärten.",
-              "flavor" : "Wer hat schon Zeit Tore zu öffnen."
-           },
-            "robust_window": {
-              "recipe_name" : "Robustes Fenster",
-              "description" : "Ein robustes Fenster um Eindringlinge zu stoppen.",
-              "flavor" : ""
-           },
-           "robust_door": {
-              "recipe_name" : "Robuste Tür",
-              "description" : "Eine robuste zuverlässige Tür, designt für eine sichere Unterbringung.",
-              "flavor" : "Öffnet und schließt jedes Mal! Garantiert."
-           },
-           "mine_entrance_scaffold": {
-              "recipe_name" : "Mineneingangsgerüst",
-              "description" : "Verstärkung für Mineneingänge.",
-              "flavor" : "In Übereinstimmung mit Minensicherheitsverordnung 462-A."
-           },
-           "spiked_fence": {
-              "recipe_name" : "Gespickter Zaun",
-              "description" : "Hält Feinde aus deinem Eigentum.",
-              "flavor" : "Sorgfältig bespickt"
-           },
-           "gardener_sign": {
-              "recipe_name" : "Wandgebundenes Gärtnerschild",
-              "description" : "Ein Schild mit der Markierung des Gärtners.",
-              "flavor" : "Blumen für alle."
-           },
-           "the_mighty_worker_statue": {
-              "recipe_name" : "Mächtige Arbeiterstatue",
-              "description" : "ine Statue um alle Arbeiter zu inspirieren.",
-              "flavor" : "Perfekt für jede kommunistische Stadt."
-           },
-           "wise_man_statue": {
-              "recipe_name" : "Weiser Mann Statue",
-              "description" : "Eine Statue eines weisen alten Mann, ehrt diejenigen die Ihr Gehirn nicht nur als Sülze verwenden.",
-              "flavor" : "So smart some say he was borderline crazy."
-           },
-           "wooden_hero_statue": {
-              "recipe_name" : "Lokale Heldenstatue",
-              "description" : "Ehrt einen mächtigen Helden, an dessen Akt von Tapferkeit erinnert werden soll.",
-              "flavor" : "Die Abteilung für Gesundheit & Sicherheit hat entschieden, dass wir das Schwert nicht zu spitz machen dürfen."
-           },
-           "spiked_fence_corner": {
-              "recipe_name" : "Gespickte Zaunecke",
-              "description" : "Jetzt könnt Ihr jeden beliebigen Winkel machen, solange es sich um 90-Grad handelt.",
-              "flavor" : "Sorgfältig bespickt"
-           },
-           "bird_house": {
-              "recipe_name" : "Vogelhaus",
-              "description" : "Ein kleines Holzhaus für Ihre vogelartigen Freunde.",
-              "flavor" : "Cheep cheep"
-           },
-           "poster_bed": {
-              "recipe_name" : "Himmelbett",
-              "description" : "Ein großes Bett, für diejenigen die gerne eine Menge an Komfort genießen.",
-              "flavor" : "Seien Sie der Neid aller Ihrer Nachbarn."
-           },
-           "fur_bed": {
-              "recipe_name" : "Pelzbett ",
-              "description" : "Wickel dich dicht unter Schichten aus weichem Fell.",
-              "flavor" : "Jetzt weiß ich, wie sich ein Bär fühlt."
-           },
-           "log_chair": {
-              "recipe_name" : "Holzblockstuhl",
-              "description" : "Ein Stuhl aus einem Holzblock geschnitzt.",
-              "flavor" : "Einfach, billig, effektiv und überhaupt nicht bequem."
-           },
-           "totem": {
-              "recipe_name" : "Totem",
-              "description" : "Ein Totempfahl um die Bildhauerfähigkeiten Ihres Schreiners zu zeigen,.",
-              "flavor" : "Jedes Schnitzen erzählt eine Geschichte."
-           },
-           "shelf": {
-              "recipe_name" : "Regal",
-              "description" : "Bietet erhöhte Lagerung für Bücher, Schmuck und Trophäen...... wenn du welche hast.",
-              "flavor" : "Unbequeme für kleine Leute."
-           },
-           "large_wooden_window_frame": {
-              "recipe_name" : "Großer Holzfensterrahmen",
-              "description" : "Eine großer, großartiger Fensterrahmen",
-              "flavor" : "Was für eine Aussicht!"
-           }
-        }
-    },
-    "mason": {
-        "recipe_category" : {
-            "statues": "Statuen"
-        },
-        "recipes" : {
-          "foxfire_lantern": {
-            "recipe_name" : "Fuchsfeuerlaterne",
-            "description" : "Eine steinerne Laterne gefüllt mit Fuchsfeuerschleim, um im Dunkeln zu leuchten.",
-            "flavor" : ""
-          },
-          "wall_mounted_foxfire_lantern": {
-            "recipe_name" : "Wandgebundene Fuchsfeuerlaterne",
-            "description" : "Eine steinerne wandgebundene Laterne gefüllt mit Fuchsfeuerschleim, um im Dunkeln zu leuchten.",
-            "flavor" : ""
-          },
-          "ember_lantern": {
-            "recipe_name" : "Emberlanterne",
-            "description" : "Eine steinerne Laterne gefüllt mit Emberpflanzen, um im Dunkeln zu leuchten.",
-            "flavor" : ""
-          },
-          "wall_mounted_ember_lantern": {
-            "recipe_name" : "Wandgebundene Emberlanterne",
-            "description" : "Eine steinerne wandgebundene Laterne gefüllt mit Emberpflanzen, um im Dunkeln zu leuchten.",
-            "flavor" : ""
-          },
-          "sundial": {
-            "recipe_name" : "Sonnenuhr",
-            "description" : "Eine Steinstruktur, die Licht und Schatten nutzt um die Zeit zu zeigen.",
-            "flavor" : "Genau! Innerhalb von 5 Stunden!"
-          },
-          "stone_totem": {
-            "recipe_name" : "Steintotem",
-            "description" : "Ein Steintotem mit Geschichte und Wissen in Sie gemeißelt.",
-            "flavor" : ""
-          },
-          "sarcophagus": {
-            "recipe_name" : "Sarkophag",
-            "description" : "Ein Steingrab, das den Körper eines gefallenen Helden einhüllt.",
-            "flavor" : "Wer ruht innerhalb?"
-          },
-          "stone_mine_entrance": {
-            "recipe_name" : "Steinmineneingang",
-            "description" : "In Stein gemeisselter Mineneingang.",
-            "flavor" : "In Übereinstimmung mit Minensicherheitsverordnung 462-B."
-          },
-          "carved_stone_window": {
-            "recipe_name" : "Gemeißeltes Steinfenster",
-            "description" : "Stein gemeißeltes Portal zur Außenwelt .",
-            "flavor" : ""
-          },
-          "carved_stone_door": {
-            "recipe_name" : "Gemeißelte Steintür",
-            "description" : "Sorgfältig gemeißelte und verzierte Steintür.",
-            "flavor" : ""
-          },
-          "fortress_window": {
-            "recipe_name" : "Burgfenster",
-            "description" : "Ein Steinfenster gesichert mit Eisenstangen.",
-            "flavor" : "Hält Personen drinnen oder draussen."
-          },
-          "fortress_door": {
-            "recipe_name" : "Burgtür",
-            "description" : "Verstärkten Doppeltür mit Stein umrahmt.",
-            "flavor" : "Ideal gegen Belagerungen und untote Horden!"
-          },
-          "stone_fur_bed": {
-            "recipe_name" : "Steinernes Pelzbett",
-            "description" : "Ein starker Steinsockel mit weichem Fell bedeckt.",
-            "flavor" : "Ohne das Fell wäre dies schlimmer als eine Nacht auf dem Boden."
-          },
-          "luxury_stone_chair": {
-            "recipe_name" : "Luxoriöser Steinstuhl",
-            "description" : "Ein Stuhl aus Stein gefertigt und mit dem weichsten Fell gepolstert.",
-            "flavor" : "Wie auf einer Wolke sitzen."
-          },
-          "guardian_statue": {
-            "recipe_name" : "Wächterstatue",
-            "description" : "Ein gestaltete Steinstatue eines Wächters.",
-            "flavor" : "Regungslos und immer wachsam, genau wie ein Wächter sein sollte."
-          },
-          "statue_of_fortune": {
-            "recipe_name" : "Statue des Glücks",
-            "description" : "Eine Statue für das bereitstellen von Geschenke für die Götter.",
-            "flavor" : "Blumen für die Hoffnung, Gold für Glück, Eisen für Stärke, Bronze für den Schutz."
-          },
-          "traveller_statue": {
-            "recipe_name" : "Reisendenstatue",
-            "description" : "Eine Statue in der Gestalt von der gesagt wird das Sie die Toten ins Jenseits führt.",
-            "flavor" : "Beten für eine sichere Reise."
-          },
-          "large_stone_window_frame": {
-              "recipe_name" : "Großer Steinfensterrahmen",
-              "description" : "Eine großer, großartiger Fensterrahmen ",
-              "flavor" : "Was für eine Aussicht!"
-           },
-           "iron_gate": {
-              "recipe_name" : "Eisentor",
-              "description" : "Steinsäulen mit einem eisernen Gittertor.",
-              "flavor" : ""
-           }
-        }
-     },
-     "blacksmith": {
-        "recipes" : {
-          "gardeners_tool": {
-            "recipe_name" : "Gärtnerschaufel",
-            "description" : "Ernennt einen Hearthling in einen Gärtner.",
-            "flavor" : ""
-          }
-       }
-    },
-    "weaver": {
-      "recipe_category": {
-        "storage" : "Lagerung"
-      },
-      "recipes" : {
-        "skull_flag": {
-          "recipe_name" : "Schädelflagge",
-          "description" : "Eine rote Fahne auf einer Stange montiert, neben zwei Tierschädeln.",
-          "flavor" : "Wenn unzivilisiert und barbarisch das Aussehen ist das du suchst, dann ist diese Flagge perfekt für dich."
-        },
-        "weaver_tapestry": {
-          "recipe_name" : "Weber Wandteppich",
-          "description" : "Eine komplizierte Wandteppich, der einen hart arbeitenden Weber zeigt.",
-          "flavor" : "Leben nachahmend Kunst"
-        },
-        "footman_tapestry": {
-          "recipe_name" : "Fußsoldaten Wandteppich",
-          "description" : "Ein ausführliches Porträt eines Fußsoldaten.",
-          "flavor" : ""
-        },
-        "shepherd_tapestry": {
-          "recipe_name" : "Schäfer Wandteppich",
-          "description" : "Ein Wandteppich von einem Hirten der sich um seine Schafe kümmert.",
-          "flavor" : ""
-        },
-        "flowered_curtains": {
-          "recipe_name" : "Geblümter Vorhang",
-          "description" : "Blockiert die harte und kalte Realität der Außenwelt.",
-          "flavor" : "Blockiert die harte, kalte Realität der Außenwelt."
-        },
-        "berry_curtains": {
-          "recipe_name" : "Berriger Vorhang",
-          "description" : "Ein Baumwollvorhang, welcher in Beerensaft getränkt wurde um eine deutliche lila Farbe anzunehmen.",
-          "flavor" : "Inspiriert von den Beerensaftflecken, welche auf der Kleidung der Dorfbewohner gefunden wurde."
-        },
-        "straw_basket": {
-          "recipe_name" : "Strohkorb",
-          "description" : "Ein Korb gewebt aus Stroh, kann bis zu 16 Elemente speichern.",
-          "flavor" : ""
-        },
-        "cloth_canopy": {
-          "recipe_name" : "Stoff-Überhang",
-          "description" : "Eine Holzrahmenkonstruktion mit einem Tuch bedeckt.",
-          "flavor" : "Bietet einen schattigen Platz, weg von der harten Sonne"
-        },
-        "cloth_canopy_long": {
-          "recipe_name" : "Lange Stoff-Übergang",
-          "description" : "Eine Holzrahmenkonstruktion mit einem Tuch bedeckt.",
-          "flavor" : "Bietet einen schattigen Platz, weg von der harten Sonne"
-        }
-      }
-    },
-    "potter": {
-      "recipes" : {
-        "clay_brick_wall": {
-          "recipe_name" : "Lehmziegelmauer ",
-          "description" : "Eine stabile Wand durch Stapeln von Lehmziegel geformt.",
-          "flavor" : ""
-        },
-        "plant_pot": {
-          "recipe_name" : "Blumentopf",
-          "description" : "Ein Topf für Wohnungspflanzen.",
-          "flavor" : ""
-        },
-        "chiminea": {
-          "recipe_name" : "Außenkamin",
-          "description" : "Ein großer tönerner Außenkamin.",
-          "flavor" : "Wärmt Finger und Zehen."
-        },
-        "small_vase": {
-          "recipe_name" : "Kleine Vase",
-          "description" : "Eine kleine Vase aus einfachem Ton gefertigt.",
-          "flavor" : ""
-        },
-        "large_vase": {
-          "recipe_name" : "Große Vase",
-          "description" : "Eine große Vase aus einfachem Ton gefertigt.",
-          "flavor" : ""
-        }
-      } 
-    }
-  }
+	"ui": {
+		"gardener": {
+			"display_name": "Gärtner Handwerks-Menü",
+			"description": "Stellt dekorative Gegenstaände mit Blumen her.",
+			"requirements": "Benötigt einen Gärtner"
+		}
+	},
+	"entities": {
+		"construction": {
+			"carved_stone_window": {
+				"display_name": "Gemeißeltes Steinfenster",
+				"description": "Sorgfältig in Stein gehauenes Fenster"
+			},
+			"carved_stone_door": {
+				"display_name": "Gemeißelte Steintür",
+				"description": "Sorgfältig in Stein gehauene Tür"
+			},
+			"clay_brick_wall": {
+				"display_name": "Lehm-Ziegelmauer",
+				"description": "Gestapelter geformter Ton"
+			},
+			"fortress_door": {
+				"display_name": "Burgtür",
+				"description": "Stark! Sowie es aussieht"
+			},
+			"fortress_window": {
+				"display_name": "Burgfenster",
+				"description": "Ein Eisen vergittertes Steinfenster"
+			},
+			"gardener_sign": {
+				"display_name": "Wandgebundenes Gärtnerschild",
+				"description": "Ein Schild mit der Markierung des Gärtners"
+			},
+			"hedge": {
+				"display_name": "Hecke",
+				"description": "Belaubt und luftig"
+			},
+			"hedge_corner": {
+				"display_name": "Eckhecke",
+				"description": "Belaubt und luftig"
+			},
+			"tumbleweed_fibre_fence": {
+				"display_name": "Steppenläufer-Fasern-Hecke",
+				"description": "Ein wirres Durcheinander "
+			},
+			"tumbleweed_fibre_fence_corner": {
+				"display_name": "Steppenläufer-Fasern-Eckhecke",
+				"description": "Eckstück einer Hecke"
+			},
+			"mine_entrance_scaffold": {
+				"display_name": "Mineneingangsgerüst",
+				"description": "Holzgerüst als Unterstützung für die Minen"
+			},
+			"picket_fence_archway": {
+				"display_name": "Lattenzaun Torbogen",
+				"description": "Nicht ideal für Tiergehege "
+			},
+			"potters_sign": {
+				"display_name": "Wandgebundenes Töpfer-Schild",
+				"description": "Ein Schild mit der Markierung des Töpfers"
+			},
+			"robust_door": {
+				"display_name": "Robuste Tür",
+				"description": "Robust und zuverlässig"
+			},
+			"robust_window": {
+				"display_name": "Robustes Fenster",
+				"description": "Ein kleines Guckloch"
+			},
+			"spiked_fence_corner": {
+				"display_name": "Gespickte Zaunecke",
+				"description": "Für alle deine Fesselbedürfnisse"
+			},
+			"spiked_fence": {
+				"display_name": "Gespickter Zaun",
+				"description": "Extra-spitze Ausgabe"
+			},
+			"stone_mine_entrance": {
+				"display_name": "Steinmineneingang",
+				"description": "In Stein gemeisselter Mineneingang"
+			},
+			"large_wooden_window_frame": {
+				"display_name": "Großer Holzfensterrahmen",
+				"description": "Ein großer Fensterrahmen"
+			},
+			"large_stone_window_frame": {
+				"display_name": "Großer Steinfensterrahmen",
+				"description": "Ein großer Fensterrahmen"
+			},
+			"iron_gate": {
+				"display_name": "Eisentor",
+				"description": "Knarrt im Wind"
+			}
+		},
+		"furniture": {
+			"berry_curtains": {
+				"display_name": "Berriger Vorhang",
+				"description": "Du kannst fast die Beeren schmecken."
+			},
+			"bird_house": {
+				"display_name": "Vogelhaus",
+				"description": "Kostenlose Vogelunterkunft."
+			},
+			"brightbell_hanging_basket": {
+				"display_name": "Glockenblumen Hängekorb",
+				"description": "Ein Qual es zu Wässern."
+			},
+			"cactus_tree_planter": {
+				"display_name": "Kaktus-Baum-Pflanzer",
+				"description": "Groß, stark und stachelig."
+			},
+			"canopy_garden": {
+				"display_name": "Baldachingarten",
+				"description": "Warum sollte nur Blumen auf dem Boden haben."
+			},
+			"canopy_garden_long": {
+				"display_name": "Langer Baldachingarten",
+				"description": "Warum sollte nur Blumen auf dem Boden haben."
+			},
+			"cloth_canopy": {
+				"display_name": "Stoff-Überdachung",
+				"description": "Ein schattiger Platz zum Ausruhen."
+			},
+			"cloth_canopy_long": {
+				"display_name": "Lange Stoff-Überdachung",
+				"description": "Ein schattiger Platz zum Ausruhen."
+			},
+			"chiminea": {
+				"display_name": "Außenkamin",
+				"description": "Thermische Gottheit"
+			},
+			"flower_fence": {
+				"display_name": "Blumenzaun",
+				"description": "Geblümte Trennung"
+			},
+			"flowered_curtains": {
+				"display_name": "Geblümter Vorhang",
+				"description": "Elegant und praktisch."
+			},
+			"footman_tapestry": {
+				"display_name": "Fußsoldaten Wandteppich",
+				"description": "Ein detaillierter Wandteppich mit dem Bild eines Fußsoldaten."
+			},
+			"foxfire_hanging_basket": {
+				"display_name": "Fuchsfeuer Hängekorb",
+				"description": "Eine Qual zu wässern."
+			},
+			"foxfire_lantern": {
+				"display_name": "Fuchsfeuer Laterne",
+				"description": "Mit glühendem Schleim gefüllt Steinlaterne"
+			},
+			"ember_lantern": {
+				"display_name": "Emberlaterne",
+				"description": "Steinlaterne mit Ember Pflanzenpollen gefüllt"
+			},
+			"frostsnap_hanging_basket": {
+				"display_name": "Eisblumen Hängekorb",
+				"description": "Eine Qual zu wässern."
+			},
+			"fur_bed": {
+				"display_name": "Pelzbett ",
+				"description": "Warm und entspannend."
+			},
+			"garden_bed": {
+				"display_name": "Gartenbeet",
+				"description": "Ein Heiligtum für alle Pflanzengattungen."
+			},
+			"guardian_statue": {
+				"display_name": "Wächterstatue ",
+				"description": "Ein steinerne Wächterstatue"
+			},
+			"hanging_cactus_pots": {
+				"display_name": "Kaktus Hängekorb",
+				"description": "Hängende Töpfe die Kakteen beherbergen."
+			},
+			"hanging_ember_pots": {
+				"display_name": "Ember Hängekorb",
+				"description": "Hängende Töpfe die Ember beherbergen."
+			},
+			"hanging_litso_pots": {
+				"display_name": "Litso Hängekorb",
+				"description": "Hängende Töpfe die Litsogras beherbergen."
+			},
+			"large_stone_planter": {
+				"display_name": "Großer Steinpflanzer",
+				"description": "Hübsch und robust."
+			},
+			"large_vase": {
+				"display_name": "Große Vase",
+				"description": "Groß, aber zerbrechlich"
+			},
+			"large_wooden_planter": {
+				"display_name": "Großer Holzpflanzer",
+				"description": "So schön."
+			},
+			"log_chair": {
+				"display_name": "Holzblockstuhl",
+				"description": "Außensitzplatz für einen Moment der Entspannung."
+			},
+			"luxury_stone_chair": {
+				"display_name": "Luxoriöser Steinstuhl",
+				"description": "Der beste Sitzplätze in der Gegend."
+			},
+			"plant_pot": {
+				"display_name": "Blumentopf",
+				"description": "Ein kleiner Tontopf"
+			},
+			"poster_bed": {
+				"display_name": "Himmelbett",
+				"description": "So viel Beinfreiheit ."
+			},
+			"potted_brightbell": {
+				"display_name": "Eingetopfte Glockenblume",
+				"description": "Ein Topf mit einer Glockenblume."
+			},
+			"potted_foxfire": {
+				"display_name": "Eingetopftes Fuchsfeuer",
+				"description": "Ein Topf mit einem Fuchsfeuer."
+			},
+			"potted_frostsnap": {
+				"display_name": "Eingetopfte Eisblume",
+				"description": "Ein Topf mit einer Eisblume."
+			},
+			"potted_sunflower": {
+				"display_name": "Eingetopfte Sonnenblume",
+				"description": "Ein Topf mit einer Sonnenblume."
+			},
+			"potted_litso_grass": {
+				"display_name": "Eingetopftes Litsogras",
+				"description": "Ein Topf mit einem Litsogras."
+			},
+			"potted_ember_plant": {
+				"display_name": "Eingetopfte Emberpflanze",
+				"description": "Ein Topf mit einer Emberpflanze."
+			},
+			"sarcophagus": {
+				"display_name": "Sarkophag",
+				"description": "Grab eines gefallenen Helden."
+			},
+			"scarecrow": {
+				"display_name": "Vogelscheuche",
+				"description": "Samenverteidigung."
+			},
+			"shelf": {
+				"display_name": "Regal",
+				"description": "Außerhalb der Reichweite von Kindern."
+			},
+			"shepherd_tapestry": {
+				"display_name": "Schäfer Wandteppich",
+				"description": "Ein Wandteppich von einem Hirten und seinen Schafen."
+			},
+			"skull_flag": {
+				"display_name": "Schädelflagge",
+				"description": "Ein wenig einschüchternd."
+			},
+			"small_stone_planter": {
+				"display_name": "Kleiner Steinpflanzer",
+				"description": "Perfekt für den Vorgarten."
+			},
+			"small_vase": {
+				"display_name": "Kleine Vase",
+				"description": "Klein und zerbrechlich"
+			},
+			"small_wooden_planter": {
+				"display_name": "Kleiner Holzpflanzer",
+				"description": "Perfekt für den Vorgarten."
+			},
+			"statue_of_fortune": {
+				"display_name": "Statue des Glücks",
+				"description": "Wünsche dir was!"
+			},
+			"stone_fur_bed": {
+				"display_name": "Steinernes Pelzbett",
+				"description": "Stark aber weich."
+			},
+			"stone_garden_bed": {
+				"display_name": "Steinernes Gartenbeet",
+				"description": "Ein Heiligtum für alle Pflanzengattung ."
+			},
+			"stone_totem": {
+				"display_name": "Steintotem",
+				"description": "Kultur geschrieben in Stein"
+			},
+			"straw_basket": {
+				"display_name": "Strohkorb",
+				"description": "Ein Korb gewebt aus Stroh."
+			},
+			"sundial": {
+				"display_name": "Sonnenuhr",
+				"description": "Einfach und doch so faszinierend"
+			},
+			"the_mighty_worker_statue": {
+				"display_name": "Eine mächtige Arbeiterstatue",
+				"description": "Eine Inspiration für alle."
+			},
+			"tiered_stone_planter": {
+				"display_name": "Gestufter Steinpflanzer",
+				"description": "Schicht auf Schicht aus organischer Güte."
+			},
+			"tiered_wooden_planter": {
+				"display_name": "Gestufter Holzpflanzer",
+				"description": "Schicht auf Schicht aus organischer Güte."
+			},
+			"totem": {
+				"display_name": "Totem",
+				"description": "Ein Schrein zu allen Aspekten des Lebens."
+			},
+			"traveller_statue": {
+				"display_name": "Reisendenstatue",
+				"description": "Kalter Stein und tiefe dunkle Augen."
+			},
+			"wall_mounted_foxfire_lantern": {
+				"display_name": "Wandgebundene Fuchsfeuerlaterne",
+				"description": "Wandgebundene Steinlaterne mit glühendem Schleim gefüllt."
+			},
+			"wall_mounted_ember_lantern": {
+				"display_name": "Wandgebundene Emberlanterne",
+				"description": "Wandgebundene Steinlaterne mit Ember Pflanzenpollen gefüllt."
+			},
+			"weaver_tapestry": {
+				"display_name": "Weber Wandteppich",
+				"description": "Ein dekorativer Wandteppich eines hart arbeitenden Webers."
+			},
+			"wise_man_statue": {
+				"display_name": "Weiser Mann Statue",
+				"description": "Der Federkiel ist mächtiger als das Schwert."
+			},
+			"wooden_hero_statue": {
+				"display_name": "Hölzerne Heldenstatue",
+				"description": "Gibt es einen besseren Weg, um unsere gefallenen Helden zu ehren."
+			},
+			"wooden_tree_planter": {
+				"display_name": "Hölzerner Baumpflanzer",
+				"description": "Wenn kleine Blüten einfach nicht genug sind."
+			}
+		},
+		"crops": {
+			"sunflower": {
+				"display_name": "Sonnenblume",
+				"description": "Eine große starke Sonnenblume"
+			},
+			"sunflower_1": {
+				"name": "Sonnenblumen Sämling",
+				"description": "Kleine grüne Triebe"
+			},
+			"sunflower_2": {
+				"name": "Sonnenblumen Spross",
+				"description": "Beginnt zu Blühen"
+			},
+			"sunflower_3": {
+				"name": "Empfindliche Sonnenblume",
+				"description": "Kleine sonnige Blütenblätter "
+			},
+			"sunflower_4": {
+				"name": "Ausgewachsene Sonnenblume",
+				"description": "Volles Sonnenblumenwachstum"
+			},
+			"foxfire": {
+				"display_name": "Fuchsfeuer",
+				"description": "Reift langsam und produziert glühenden Schleim"
+			},
+			"foxfire_1": {
+				"name": "Fuchsfeuer Sämling",
+				"description": "Kleine schleimig Birne"
+			},
+			"foxfire_2": {
+				"name": "Fuchsfeuer Sproße",
+				"description": "Größer und schleimiger"
+			},
+			"foxfire_3": {
+				"name": "Fuchsfeuer Knospe",
+				"description": "Bereit zum ernten"
+			},
+			"litso_grass": {
+				"display_name": "Litsogras",
+				"description": "Eine kurzes, kleines Gras mit dekorativen gelben Spitzen"
+			},
+			"litso_grass_1": {
+				"name": "Litsogras Sämling",
+				"description": "Kleine schmale Triebe"
+			},
+			"litso_grass_2": {
+				"name": "Litsogras Sproße",
+				"description": "Grüne Triebe wachsen größer und stärker"
+			},
+			"litso_grass_3": {
+				"name": "Feines Litsogras",
+				"description": "Fast vollständig ausgereift"
+			},
+			"ember_plant": {
+				"display_name": "Emberpflanze",
+				"description": "Eine kurze blühende Pflanze mit rot glühenden Pollen"
+			},
+			"ember_plant_1": {
+				"name": "Emberpflanzen Sämling",
+				"description": "Früher Pflanzenstängel"
+			},
+			"ember_plant_2": {
+				"name": "Emberpflanzen Sproße",
+				"description": "Noch nicht vollständig ausgereift"
+			},
+			"ember_plant_3": {
+				"name": "Feine Emberpflanze",
+				"description": "Erste Anzeichen der Blüte"
+			}
+		},
+		"decorations": {
+			"foxfire": {
+				"display_name": "Fuchsfeuer",
+				"description": "Helle blaue Lumineszenz"
+			},
+			"sunflower": {
+				"display_name": "Sonnenblume",
+				"description": "Hell, aber nicht heiß"
+			},
+			"litso_grass": {
+				"display_name": "Litso Gras",
+				"description": "Kleine grüne Triebe mit gelben Spitzen"
+			},
+			"ember_plant": {
+				"display_name": "Feuerplanzet",
+				"description": "Kleine wüsten Fackeln"
+			}
+		},
+		"plants": {
+			"foxfire": {
+				"display_name": "Wild Fuchsfeuer",
+				"description": "Ein erntebarer wilder Pilz",
+				"unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen."
+			},
+			"sunflower": {
+				"display_name": "Wild Sonnenblume",
+				"description": "Eine erntebare wilde Sonnenblume",
+				"unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen."
+			},
+			"litso_grass": {
+				"display_name": "Wildes Litso Gras",
+				"description": "Eine erntebare wilde Pflanze",
+				"unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen."
+			},
+			"ember_plant": {
+				"display_name": "Wilde Feuerpflanze",
+				"description": "Eine erntebare wilde Pflanze",
+				"unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen."
+			}
+		},
+		"resources": {
+			"foxfire_slime": {
+				"display_name": "Fuchsfeuerschleim",
+				"description": "Eine schleimige Substanz, die ein blaues Leuchten emittiert"
+			},
+			"ember_plant_pollen": {
+				"display_name": "Feuerpflanzen Pollen",
+				"description": "Die Pollen von einer Feuerpflanze, die Orange wie Feuer glühen"
+			},
+			"ember_plant_pod": {
+				"display_name": "Emberpflanzenhülse",
+				"description": "Die blühende Hülse von einer Emberpflanze."
+			},
+			"foxfire_pod": {
+				"display_name": "Fuchsfeuerhülse",
+				"description": "Der schleimige Kern einer Fuchsfeuerpflanze."
+			},
+			"litso_grass_stem": {
+				"display_name": "Litsogras Stengel",
+				"description": "Der Stengel vom Litsogras."
+			},
+			"sunflower_pod": {
+				"display_name": "Sonnenblumenhülse",
+				"description": "Der Kopf der Sonnenblume."
+			}
+		}
+	},
+	"jobs": {
+		"gardener": {
+			"talisman": {
+				"name": "Gärtnerschaufel",
+				"description": "Ernennt einen Hearthling in einen Gärtner"
+			},
+			"workbench": {
+				"display_name": "Gärtner-Werkbank",
+				"description": "Wird vom Gärtner zum herstellen verwendet"
+			},
+			"toolbench": {
+				"display_name": "Gärtner-Werkzeugbank",
+				"description": "Wird vom Gärtner zum herstellen verwendet"
+			},
+			"outfit": {
+				"name": "Gärtneruniform",
+				"description": "Uniform für alle Gärtner"
+			},
+			"job_description": {
+				"display_name": "Gärtner",
+				"description": "Der Gärtner schafft dekorative Elemente aus Blumen",
+				"requirements": "Gärtnerschaufel, wird vom Schmied hergestellt"
+			},
+			"level_data": {
+				"l1_name": "Standardkatalog",
+				"l1_description": "Der Gärtner kann nun eine solide Reihe von Gartendekorationen machen.",
+				"l2_name": "Erweiterte Materialliste ",
+				"l2_description": "Der Gärtner ist jetzt geschickt genug komplexere Materialien zu verwenden.",
+				"l3_name": "Künstlerische Inspiration",
+				"l3_description": "Wenn die Inspiration zuschlägt kann der Gärtner seine Werke auf unerwartete Weise verschönern.",
+				"l4_name": "Komplexe Dekorationen",
+				"l4_description": "Der Gärtner kann aufwändigere Gartenmöbel schaffen.",
+				"l6_name": "Meistergärtner",
+				"l6_description": "Die Beherrschung seines Faches gewährt dem Gärtner komplett neue Möglichkeiten Pflanzen zu verwenden."
+			},
+			"personality": {
+				"promote": "Hört den Ruf der Schaufel:",
+				"beleaguered_leader": "Ich weiß nicht, ich soll die Aufsicht über all diese Blumen haben, was ist wenn sie sterben?",
+				"hopeless_optimist": "Großartig jetzt kann ich mein eigenes Essen anbauen ....... Denk ich.",
+				"lovable_rogue": "Normalerweise stampfe ich nur auf Blumen rum, aber Sie zu züchten könnte auch schön sein! Vermute ich.",
+				"psychopathic_misanthrope": "All diese Blumen unter meiner Kontrolle, welche wird gewässert und welche nicht, ihr Schicksal liegt in meinen Händen.",
+				"insufferable_academic": "Ich wollte schon immer Versuchen ein botanischen Wissenschaftler zu sein.",
+				"diligent_sweetheart": "Ein Gärtner? Also kann ich überall Blumen zu setzen, wo immer ich will? Genial!!!"
+			},
+			"recipe_category": {
+				"workbenches": "Werkbanken",
+				"garden_decorations": "Gartendekorationen",
+				"housing_decorations": "Hausdekorationen",
+				"planters": "Pflanzer",
+				"resources": "Ressourcen"
+			},
+			"recipes": {
+				"brightbell_hanging_basket": {
+					"recipe_name": "Glockenblumen Hängekorb",
+					"description": "Ein Korb für hängende Glockenblumen über der Tür.",
+					"flavor": "Warnung! Kann bei stürmischem Wetter tödlich sein."
+				},
+				"cactus_tree_planter": {
+					"recipe_name": "Kaktusbaum-Pflanzer",
+					"description": "Eine Ton-Ziegelbasis unterstützt einen großen Kaktusbaum.",
+					"flavor": "Nicht berühren!"
+				},
+				"canopy_garden_long": {
+					"recipe_name": "Langer Baldachingarten",
+					"description": "Ein langer Holzrahmen mit hellen Glockenblumen bedeckt.",
+					"flavor": "Etwas anderes zum ansehen als nur Wolken."
+				},
+				"canopy_garden": {
+					"recipe_name": "Baldachingarten",
+					"description": "Ein Holzrahmen mit hellen Glockenblumen bedeckt.",
+					"flavor": "Etwas anderes zum ansehen als nur Wolken."
+				},
+				"flower_fence": {
+					"recipe_name": "Blumenzaun",
+					"description": "Eine dekorative Holzzaun, mit Glockenblumen durchwebt.",
+					"flavor": "Privatsphäre und Dekoration, beides in einem Paket."
+				},
+				"foxfire_hanging_basket": {
+					"recipe_name": "Fuchsfeuer Hängekorb",
+					"description": "Ein Korb für hängende Fuchsfeuer über der Tür.",
+					"flavor": "Warnung! Kann bei stürmischem Wetter tödlich sein."
+				},
+				"foxfire_slime": {
+					"recipe_name": "Fuchsfeuerschleim",
+					"description": "Eine schleimige blaue Substanz aus dem Inneren der Fuchsfeuer Pflanze extrahiert.",
+					"flavor": "Repulsive and yet ... intriguing."
+				},
+				"ember_plant_pollen": {
+					"recipe_name": "Feuerpflanzen Pollen",
+					"description": "Die Pollen einer Feuerpflanze.",
+					"flavor": "Leuchtet wie die Glut eines alten Feuers."
+				},
+				"frostsnap_hanging_basket": {
+					"recipe_name": "Eisblumen Hängekorb",
+					"description": "Ein Korb für hängende Eisblumen über der Tür.",
+					"flavor": "Warnung! Kann bei stürmischem Wetter tödlich sein."
+				},
+				"garden_bed": {
+					"recipe_name": "Gartenbeet",
+					"description": "Ein Heiligtum des Bodens und der organischen Güte für eine Vielzahl von Pflanzenarten.",
+					"flavor": ""
+				},
+				"gardener_toolbench": {
+					"recipe_name": "Gärtner-Werkzeugbank",
+					"description": "Die Gärtner-Werkzeugbank wird verwendete um komplexere Gartendekorationen zu schaffen, wodurch komplexere Werkzeuge erfordert werden.",
+					"flavor": ""
+				},
+				"gardener_workbench": {
+					"recipe_name": "Gärtner-Werkbank",
+					"description": "Die Werkbank des Gärtners für Montage von verschiedenen Gartendekorationen.",
+					"flavor": ""
+				},
+				"hedge_corner": {
+					"recipe_name": "Eckhecke",
+					"description": "Ein Eckstück für Hecken.",
+					"flavor": "Umweltfreundliche Barriere."
+				},
+				"hedge": {
+					"recipe_name": "Hecke",
+					"description": "Ein kurzer Streifen Hecke.",
+					"flavor": "Umweltfreundliche Barriere."
+				},
+				"tumbleweed_fibre_fence": {
+					"recipe_name": "Steppenläufer-Fasern-hecke",
+					"description": "Steppenläufer Fasern zusammengeschlungen, um eine Barriere zu bilden.",
+					"flavor": ""
+				},
+				"tumbleweed_fibre_fence_corner": {
+					"recipe_name": "Steppenläufer-Fasern-Eckhecke",
+					"description": "Steppenläufer Fasern zusammengeschlungen, um eine Eckbarriere zu bilden.",
+					"flavor": ""
+				},
+				"hanging_cactus_pots": {
+					"recipe_name": "Kaktus Hängekorb",
+					"description": "Pflanzentöpfe mit Kakteen gefüllt, von einem Faden hängend.",
+					"flavor": "Stellen Sie sicher, dass sie gut gesichert sind."
+				},
+				"hanging_ember_pots": {
+					"recipe_name": "Emberpflanzen Hängekorb",
+					"description": "Pflanzentöpfe mit Emberpflanzen gefüllt, von einem Faden hängend.",
+					"flavor": "Stellen Sie sicher, dass sie gut gesichert sind."
+				},
+				"hanging_litso_pots": {
+					"recipe_name": "Litsogras Hängekorb",
+					"description": "Pflanzentöpfe mit Litsogras gefüllt, von einem Faden hängend.",
+					"flavor": "Stellen Sie sicher, dass sie gut gesichert sind."
+				},
+				"large_stone_planter": {
+					"recipe_name": "Großer Steinpflanzer",
+					"description": "Ein großes Steinornament, gefüllt mit Blumen.",
+					"flavor": ""
+				},
+				"large_wooden_planter": {
+					"recipe_name": "Großer Holzpflanzer",
+					"description": "Ein großes Holzornament gefüllt mit Blumen.",
+					"flavor": ""
+				},
+				"potted_brightbell": {
+					"recipe_name": "Eingetopfte Glockenblume",
+					"description": "Ein Ton-Blumentopf, gefüllt mit einer Glockenblume.",
+					"flavor": ""
+				},
+				"potted_foxfire": {
+					"recipe_name": "Eingetopfte Fuchsfeuer",
+					"description": "Ein Ton-Blumentopf, gefüllt mit einem Fuchsfeuer.",
+					"flavor": ""
+				},
+				"potted_frostsnap": {
+					"recipe_name": "Eingetopfte Eisblume",
+					"description": "Ein Ton-Blumentopf, gefüllt mit einer Eisblume.",
+					"flavor": ""
+				},
+				"potted_sunflower": {
+					"recipe_name": "Eingetopfte Sonnenblume",
+					"description": "Ein Ton-Blumentopf, gefüllt mit einer Sonnenblume.",
+					"flavor": ""
+				},
+				"potted_litso_grass": {
+					"recipe_name": "Eingetopftes Litsogras",
+					"description": "Ein Ton-Blumentopf, gefüllt mit einer Litsogras.",
+					"flavor": ""
+				},
+				"potted_ember_plant": {
+					"recipe_name": "Eingetopfte Emberpflanze",
+					"description": "Ein Ton-Blumentopf, gefüllt mit einer Emberpflanze.",
+					"flavor": ""
+				},
+				"scarecrow": {
+					"recipe_name": "Vogelscheuche",
+					"description": "Eine Vogelscheuche zum schützen Ihrer Pflanzen.",
+					"flavor": "Lasst uns hoffen, dass diese nicht Leben erwacht, wie die letzte."
+				},
+				"small_stone_planter": {
+					"recipe_name": "Kleiner Steinpflanzer",
+					"description": "Ein kleines Steinornament, mit Glockenblumen in ihm.",
+					"flavor": ""
+				},
+				"small_wooden_planter": {
+					"recipe_name": "Kleiner Holzpflanzer",
+					"description": "Ein kleines Holzornament, mit Glockenblumen in ihm.",
+					"flavor": ""
+				},
+				"stone_garden_bed": {
+					"recipe_name": "Steinernes Gartenbeet",
+					"description": "Ein steinernes Heiligtum des Bodens und der organischen Güte für eine Vielzahl von Pflanzenarten.",
+					"flavor": ""
+				},
+				"tiered_stone_planter": {
+					"recipe_name": "Gestufter Steinpflanzer",
+					"description": "Ein Steinpflanzer mit mehreren Ebenen für elegante Gärten.",
+					"flavor": ""
+				},
+				"tiered_wooden_planter": {
+					"recipe_name": "Gestufter Holzpflanzer",
+					"description": "Ein Holzpflanzer mit mehreren Ebenen für elegante Gärten.",
+					"flavor": ""
+				},
+				"wooden_tree_planter": {
+					"recipe_name": "Hölzerner Baumpflanzer",
+					"description": "Ein großer hölzerner Pflanzer, gefüllt mit einem kleinen Baum.",
+					"flavor": "Hasst Ihr es nicht, wenn Bäume nicht dort wachsen wo Ihr es wollt?."
+				}
+			}
+		},
+		"carpenter": {
+			"recipe_category": {
+				"statues": "Statuen"
+			},
+			"recipes": {
+				"picket_fence_archway": {
+					"recipe_name": "Lattenzaun Torbogen",
+					"description": "Ein dekorativer Holztorbogen, für umzäunte Felder und Gärten.",
+					"flavor": "Wer hat schon Zeit Tore zu öffnen."
+				},
+				"robust_window": {
+					"recipe_name": "Robustes Fenster",
+					"description": "Ein robustes Fenster um Eindringlinge zu stoppen.",
+					"flavor": ""
+				},
+				"robust_door": {
+					"recipe_name": "Robuste Tür",
+					"description": "Eine robuste zuverlässige Tür, designt für eine sichere Unterbringung.",
+					"flavor": "Öffnet und schließt jedes Mal! Garantiert."
+				},
+				"mine_entrance_scaffold": {
+					"recipe_name": "Mineneingangsgerüst",
+					"description": "Verstärkung für Mineneingänge.",
+					"flavor": "In Übereinstimmung mit Minensicherheitsverordnung 462-A."
+				},
+				"spiked_fence": {
+					"recipe_name": "Gespickter Zaun",
+					"description": "Hält Feinde aus deinem Eigentum.",
+					"flavor": "Sorgfältig bespickt"
+				},
+				"gardener_sign": {
+					"recipe_name": "Wandgebundenes Gärtnerschild",
+					"description": "Ein Schild mit der Markierung des Gärtners.",
+					"flavor": "Blumen für alle."
+				},
+				"the_mighty_worker_statue": {
+					"recipe_name": "Mächtige Arbeiterstatue",
+					"description": "ine Statue um alle Arbeiter zu inspirieren.",
+					"flavor": "Perfekt für jede kommunistische Stadt."
+				},
+				"wise_man_statue": {
+					"recipe_name": "Weiser Mann Statue",
+					"description": "Eine Statue eines weisen alten Mann, ehrt diejenigen die Ihr Gehirn nicht nur als Sülze verwenden.",
+					"flavor": "So schlau das sogar einige sagten er wäre grenzwertig verrückt."
+				},
+				"wooden_hero_statue": {
+					"recipe_name": "Lokale Heldenstatue",
+					"description": "Ehrt einen mächtigen Helden, an dessen Akt von Tapferkeit erinnert werden soll.",
+					"flavor": "Die Abteilung für Gesundheit & Sicherheit hat entschieden, dass wir das Schwert nicht zu spitz machen dürfen."
+				},
+				"spiked_fence_corner": {
+					"recipe_name": "Gespickte Zaunecke",
+					"description": "Jetzt könnt Ihr jeden beliebigen Winkel machen, solange es sich um 90-Grad handelt.",
+					"flavor": "Sorgfältig bespickt"
+				},
+				"bird_house": {
+					"recipe_name": "Vogelhaus",
+					"description": "Ein kleines Holzhaus für Ihre vogelartigen Freunde.",
+					"flavor": "Cheep cheep"
+				},
+				"poster_bed": {
+					"recipe_name": "Himmelbett",
+					"description": "Ein großes Bett, für diejenigen die gerne eine Menge an Komfort genießen.",
+					"flavor": "Seien Sie der Neid aller Ihrer Nachbarn."
+				},
+				"fur_bed": {
+					"recipe_name": "Pelzbett ",
+					"description": "Wickel dich dicht unter Schichten aus weichem Fell.",
+					"flavor": "Jetzt weiß ich, wie sich ein Bär fühlt."
+				},
+				"log_chair": {
+					"recipe_name": "Holzblockstuhl",
+					"description": "Ein Stuhl aus einem Holzblock geschnitzt.",
+					"flavor": "Einfach, billig, effektiv und überhaupt nicht bequem."
+				},
+				"totem": {
+					"recipe_name": "Totem",
+					"description": "Ein Totempfahl um die Bildhauerfähigkeiten Ihres Schreiners zu zeigen,.",
+					"flavor": "Jedes Schnitzen erzählt eine Geschichte."
+				},
+				"shelf": {
+					"recipe_name": "Regal",
+					"description": "Bietet erhöhte Lagerung für Bücher, Schmuck und Trophäen...... wenn du welche hast.",
+					"flavor": "Unbequeme für kleine Leute."
+				},
+				"large_wooden_window_frame": {
+					"recipe_name": "Großer Holzfensterrahmen",
+					"description": "Eine großer, großartiger Fensterrahmen",
+					"flavor": "Was für eine Aussicht!"
+				}
+			}
+		},
+		"mason": {
+			"recipe_category": {
+				"statues": "Statuen"
+			},
+			"recipes": {
+				"foxfire_lantern": {
+					"recipe_name": "Fuchsfeuerlaterne",
+					"description": "Eine steinerne Laterne gefüllt mit Fuchsfeuerschleim, um im Dunkeln zu leuchten.",
+					"flavor": ""
+				},
+				"wall_mounted_foxfire_lantern": {
+					"recipe_name": "Wandgebundene Fuchsfeuerlaterne",
+					"description": "Eine steinerne wandgebundene Laterne gefüllt mit Fuchsfeuerschleim, um im Dunkeln zu leuchten.",
+					"flavor": ""
+				},
+				"ember_lantern": {
+					"recipe_name": "Emberlanterne",
+					"description": "Eine steinerne Laterne gefüllt mit Emberpflanzen, um im Dunkeln zu leuchten.",
+					"flavor": ""
+				},
+				"wall_mounted_ember_lantern": {
+					"recipe_name": "Wandgebundene Emberlanterne",
+					"description": "Eine steinerne wandgebundene Laterne gefüllt mit Emberpflanzen, um im Dunkeln zu leuchten.",
+					"flavor": ""
+				},
+				"sundial": {
+					"recipe_name": "Sonnenuhr",
+					"description": "Eine Steinstruktur, die Licht und Schatten nutzt um die Zeit zu zeigen.",
+					"flavor": "Genau! Innerhalb von 5 Stunden!"
+				},
+				"stone_totem": {
+					"recipe_name": "Steintotem",
+					"description": "Ein Steintotem mit Geschichte und Wissen in Sie gemeißelt.",
+					"flavor": ""
+				},
+				"sarcophagus": {
+					"recipe_name": "Sarkophag",
+					"description": "Ein Steingrab, das den Körper eines gefallenen Helden einhüllt.",
+					"flavor": "Wer ruht innerhalb?"
+				},
+				"stone_mine_entrance": {
+					"recipe_name": "Steinmineneingang",
+					"description": "In Stein gemeisselter Mineneingang.",
+					"flavor": "In Übereinstimmung mit Minensicherheitsverordnung 462-B."
+				},
+				"carved_stone_window": {
+					"recipe_name": "Gemeißeltes Steinfenster",
+					"description": "Stein gemeißeltes Portal zur Außenwelt .",
+					"flavor": ""
+				},
+				"carved_stone_door": {
+					"recipe_name": "Gemeißelte Steintür",
+					"description": "Sorgfältig gemeißelte und verzierte Steintür.",
+					"flavor": ""
+				},
+				"fortress_window": {
+					"recipe_name": "Burgfenster",
+					"description": "Ein Steinfenster gesichert mit Eisenstangen.",
+					"flavor": "Hält Personen drinnen oder draussen."
+				},
+				"fortress_door": {
+					"recipe_name": "Burgtür",
+					"description": "Verstärkten Doppeltür mit Stein umrahmt.",
+					"flavor": "Ideal gegen Belagerungen und untote Horden!"
+				},
+				"stone_fur_bed": {
+					"recipe_name": "Steinernes Pelzbett",
+					"description": "Ein starker Steinsockel mit weichem Fell bedeckt.",
+					"flavor": "Ohne das Fell wäre dies schlimmer als eine Nacht auf dem Boden."
+				},
+				"luxury_stone_chair": {
+					"recipe_name": "Luxoriöser Steinstuhl",
+					"description": "Ein Stuhl aus Stein gefertigt und mit dem weichsten Fell gepolstert.",
+					"flavor": "Wie auf einer Wolke sitzen."
+				},
+				"guardian_statue": {
+					"recipe_name": "Wächterstatue",
+					"description": "Ein gestaltete Steinstatue eines Wächters.",
+					"flavor": "Regungslos und immer wachsam, genau wie ein Wächter sein sollte."
+				},
+				"statue_of_fortune": {
+					"recipe_name": "Statue des Glücks",
+					"description": "Eine Statue für das bereitstellen von Geschenke für die Götter.",
+					"flavor": "Blumen für die Hoffnung, Gold für Glück, Eisen für Stärke, Bronze für den Schutz."
+				},
+				"traveller_statue": {
+					"recipe_name": "Reisendenstatue",
+					"description": "Eine Statue in der Gestalt von der gesagt wird das Sie die Toten ins Jenseits führt.",
+					"flavor": "Beten für eine sichere Reise."
+				},
+				"large_stone_window_frame": {
+					"recipe_name": "Großer Steinfensterrahmen",
+					"description": "Eine großer, großartiger Fensterrahmen ",
+					"flavor": "Was für eine Aussicht!"
+				},
+				"iron_gate": {
+					"recipe_name": "Eisentor",
+					"description": "Steinsäulen mit einem eisernen Gittertor.",
+					"flavor": ""
+				}
+			}
+		},
+		"blacksmith": {
+			"recipes": {
+				"gardeners_tool": {
+					"recipe_name": "Gärtnerschaufel",
+					"description": "Ernennt einen Hearthling in einen Gärtner.",
+					"flavor": ""
+				}
+			}
+		},
+		"weaver": {
+			"recipe_category": {
+				"storage": "Lagerung"
+			},
+			"recipes": {
+				"skull_flag": {
+					"recipe_name": "Schädelflagge",
+					"description": "Eine rote Fahne auf einer Stange montiert, neben zwei Tierschädeln.",
+					"flavor": "Wenn unzivilisiert und barbarisch das Aussehen ist das du suchst, dann ist diese Flagge perfekt für dich."
+				},
+				"weaver_tapestry": {
+					"recipe_name": "Weber Wandteppich",
+					"description": "Eine komplizierte Wandteppich, der einen hart arbeitenden Weber zeigt.",
+					"flavor": "Leben nachahmend Kunst"
+				},
+				"footman_tapestry": {
+					"recipe_name": "Fußsoldaten Wandteppich",
+					"description": "Ein ausführliches Porträt eines Fußsoldaten.",
+					"flavor": ""
+				},
+				"shepherd_tapestry": {
+					"recipe_name": "Schäfer Wandteppich",
+					"description": "Ein Wandteppich von einem Hirten der sich um seine Schafe kümmert.",
+					"flavor": ""
+				},
+				"flowered_curtains": {
+					"recipe_name": "Geblümter Vorhang",
+					"description": "Blockiert die harte und kalte Realität der Außenwelt.",
+					"flavor": "Blockiert die harte, kalte Realität der Außenwelt."
+				},
+				"berry_curtains": {
+					"recipe_name": "Berriger Vorhang",
+					"description": "Ein Baumwollvorhang, welcher in Beerensaft getränkt wurde um eine deutliche lila Farbe anzunehmen.",
+					"flavor": "Inspiriert von den Beerensaftflecken, welche auf der Kleidung der Dorfbewohner gefunden wurde."
+				},
+				"straw_basket": {
+					"recipe_name": "Strohkorb",
+					"description": "Ein Korb gewebt aus Stroh, kann bis zu 16 Elemente speichern.",
+					"flavor": ""
+				},
+				"cloth_canopy": {
+					"recipe_name": "Stoff-Überhang",
+					"description": "Eine Holzrahmenkonstruktion mit einem Tuch bedeckt.",
+					"flavor": "Bietet einen schattigen Platz, weg von der harten Sonne"
+				},
+				"cloth_canopy_long": {
+					"recipe_name": "Lange Stoff-Übergang",
+					"description": "Eine Holzrahmenkonstruktion mit einem Tuch bedeckt.",
+					"flavor": "Bietet einen schattigen Platz, weg von der harten Sonne"
+				}
+			}
+		},
+		"potter": {
+			"recipes": {
+				"clay_brick_wall": {
+					"recipe_name": "Lehmziegelmauer ",
+					"description": "Eine stabile Wand durch Stapeln von Lehmziegel geformt.",
+					"flavor": ""
+				},
+				"plant_pot": {
+					"recipe_name": "Blumentopf",
+					"description": "Ein Topf für Wohnungspflanzen.",
+					"flavor": ""
+				},
+				"chiminea": {
+					"recipe_name": "Außenkamin",
+					"description": "Ein großer tönerner Außenkamin.",
+					"flavor": "Wärmt Finger und Zehen."
+				},
+				"small_vase": {
+					"recipe_name": "Kleine Vase",
+					"description": "Eine kleine Vase aus einfachem Ton gefertigt.",
+					"flavor": ""
+				},
+				"large_vase": {
+					"recipe_name": "Große Vase",
+					"description": "Eine große Vase aus einfachem Ton gefertigt.",
+					"flavor": ""
+				}
+			}
+		}
+	}
 }

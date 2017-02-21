@@ -7,10 +7,13 @@
    //-webkit-transform: scale(0.5,0.5);
 
    #buffs {
+      display: flex;
+      flex-wrap: wrap-reverse; /* child divs will stack from bottom to top */
       position: absolute;
       bottom: 100px;
       left: 0px;
       width: 250px;
+      z-index: 5;
 
       .item {
          float: left;
@@ -20,10 +23,32 @@
 
          img {
             width: 40px;
+            height: 40px;
          }
       }
    }
 
+   .thoughtBubble {
+      position: absolute;
+      background: white;
+      z-index: 5;
+      border: black solid 2px;
+      border-radius: 2px;
+   }
+
+   .bigBubble {
+      left: 7px;
+      bottom: 95px;
+      width: 10px;
+      height: 8px;
+   }
+
+   .smallBubble {
+      left: 14px;
+      bottom: 84px;
+      width: 6px;
+      height: 5px;
+   }
 
    #info {
       .controlFont;
@@ -35,6 +60,7 @@
       background: #322f28;
       border-width: 8px 8px 8px 8px;
       border-image: url(images/bg_border.png) 8 8 8 8 repeat;
+      border-style: solid;
       width: 550px;
 
       font-size: 28px;
@@ -86,7 +112,7 @@
 
          .name {
             display: inline-block;
-            max-width: 220px;
+            max-width: 350px;
             overflow: hidden;
             text-overflow: ellipsis;
             .button;
@@ -97,6 +123,7 @@
          }
 
          .description {
+            padding-top: 4px;
             padding-left: 2px;
             font-size: 15px;
 	    max-width: 320px;

@@ -69,7 +69,13 @@
                "display_name": "Gut genährt",
                "description": "Mehr Kalorien erlaubt es, härter zu arbeiten,"
             }
-         }
+         },
+         "parched": {
+            "parched": {
+               "display_name" : "Ausgedörrt",
+               "description"  : "Sehr durstig"
+            }
+         }         
       },
       "commands": {
          "harvest_honey": {
@@ -101,6 +107,11 @@
                "description": "Ein einfaches Windsegel",
                "flavor": "Es ist sehr windig hier..."
             },
+            "fishing_rod_recipe" : {
+               "recipe_name" : "Angelrute",
+               "description" : "Ein grundlegendes Werkzeug für den Fischfang",
+               "flavor" : ""
+            },            
             "scarecrow_recipe" : {
                "recipe_name" : "Vogelscheuche",
                "description" : "Um Schädlinge zuvergraulen"
@@ -112,6 +123,44 @@
             }
          }
       },
+      "fisherman": {
+         "fisherman_description" : {
+            "display_name" : "Fischer",
+            "description" : "Ein Fischer fängt frischen Fisch aus Ihrer Umgebung, um deine Hearthlinge zu ernähren",
+            "requirements" : "Eine Angelrute, hergestellt vom Schreiner",
+            "level_1_data" : {
+               "perk_000_name" : "",
+               "perk_000_description" : ""
+            },
+            "level_2_data" : {
+               "perk_000_name" : "",
+               "perk_000_description" : ""
+            },
+            "level_3_data" : {
+               "perk_000_name" : "",
+               "perk_000_description" : ""
+            },
+            "level_4_data" : {
+               "perk_000_name" : "Du brauchst ein größeres Boot.",
+               "perk_000_description" : "Stark erhöhte Rucksackkapazität des Fischers."
+            }                                    
+         },         
+         "fisherman_rod" : {
+            "display_name" : "Angelrute",
+            "description" : "Ein grundlegendes Werkzeug für den Fischfang",
+            "flavor" : ""
+         },
+         "fisherman_rod_talisman" : {
+            "display_name" : "Angelrute",
+            "description" : "Ein grundlegendes Werkzeug für den Fischfang",
+            "flavor" : ""
+         },
+         "fisherman_outfit" : {
+            "display_name" : "Fischer Uniform",
+            "description" : "An outfit for the Fisherman",
+            "flavor" : ""
+         }
+      },      
       "cook": {
          "recipes" : {
             "berry_juice_recipe" : {
@@ -179,11 +228,11 @@
                "description": "Wenn es essbar ist, werden Sie es essen",
                "flavor" : ""
             },
-            "sheep_feed_recipe" : {
-               "recipe_name": "Tierfutter",
-               "description": "Geeignet für Yaks und Schafe",
+            "yak_feed_recipe" : {
+               "recipe_name": "Yakfutter",
+               "description": "Grobschnittes Heu, geeignet für Yaks",
                "flavor" : ""
-            },            
+            },                       
             "pottage_recipe" : {
                "recipe_name": "Gemüsesuppe",
                "description": "Ein füllendes Gericht gemacht aus Gemüse und Getreide",
@@ -258,6 +307,14 @@
             }            
          }
       },
+      "misc": {
+         "default_object" : {
+            "default_object" : {
+               "description"  : "Froggy's Standardobject",
+               "display_name" : "Error, du solltest das nicht Ingame sehen xD"
+            }                     
+         }
+      },      
       "critters" : {
          "pig": {
             "description": "Ein vakuum für einfaches Essen",
@@ -275,6 +332,10 @@
             "description": "Langsam und stinkend",
             "milk_description" : "Nicht bereit zum Melken",
             "display_name": "Ein Yak"
+         },
+         "fish": {
+            "description" : "Freunde sind kein Essen?",
+            "display_name": "Eine Fischschule"
          }
       },
       "decoration" : {
@@ -455,15 +516,15 @@
                "description": "Eine schmackhafte Fleischpastete."
             }
          },
-         "sheep_feed" : {
-            "sheep_feed" : {
-               "display_name": "Tierfutter",
-               "description": "geeignet für Yaks und Schafe",
+         "yak_feed" : {
+            "yak_feed" : {
+               "display_name": "Yakfutter",
+               "description": "Grobschnittes Heu, geeignet für Yaks",
                "flavor"       : ""
             },
-            "sheep_feed_ground" : {
-               "display_name": "Tierfutter",
-               "description": "geeignet für Yaks und Schafe"
+            "yak_feed_ground" : {
+               "display_name": "Yakfutter",
+               "description": "Grobschnittes Heu, geeignet für Yaks"
             }
          },         
          "pig_feed" : {
@@ -569,7 +630,7 @@
                "description": "Bereit zum kochen"
             }
          }  
-      },             
+      },                  
       "crops": {
          "potato_crop": {
             "display_name": "Kartoffel",
