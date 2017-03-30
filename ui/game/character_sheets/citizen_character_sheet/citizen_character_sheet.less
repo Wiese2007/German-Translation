@@ -5,7 +5,12 @@
    width: 800px;
    height: 850px;
    z-index: 99;
-  
+
+   .title {
+      .outlined(#786b4e);
+      color: @darkBrownColor;
+   }
+
    #glass {
       .controlFont;
       position: absolute;
@@ -52,7 +57,6 @@
       .outlined;
       position: absolute;
       top: 68px;
-      left: 30px;
       font-family: @headerFontFamily;
       color: #fff;
 
@@ -65,27 +69,68 @@
          width: 400px;
          border: 0px;
          position: relative;
-         left: -10px;
          overflow:hidden;
-         text-overflow: ellipsis; 
-      }      
+         text-overflow: ellipsis;
+         margin-left: 3px;
+         text-indent: 3px;
+      }
+
+      #descriptionSection {
+         margin-left: 5px;
+         padding-left: 5px;
+         border: rgba(131, 116, 82, 0.44) solid 2px;
+      }
 
       #description {
-         color: #ffe850;
+         color: @barleyBrownColor;
          font-size: 26px;
-         height: 74px;
-         margin-left: -20px;
-         margin-top: -10px;
+         height: 50px;
+         margin-top: 5px;
 
          .classIconImg {
             float: left;
+            margin-right: 5px;
+            width: 45px;
+            height: 45px
          }
 
          .classNameLvlDesc {
-            padding-top: 20px;
+            padding-top: 10px;
+            width: 340px;
             display: block;
          }
        }
+
+      #healthDisplay {
+         position: absolute;
+         left: 266px;
+         top: 51px;
+         width: 141px;
+         height: 90px;
+
+         .healthIndicator {
+            width: 64px;
+            height: 111px;
+            margin-left: 33px;
+            margin-top: -18px;
+            background-repeat: no-repeat;
+            background-size: contain;
+         }
+
+         .healthStatusDescription {
+            margin-top: 24px;
+            font-size: 12px;
+            font-family: @baseFontFamily;
+            text-align: center;
+         }
+
+         .healthStatusName {
+            color: @barleyBrownColor;
+            margin-top: -70px;
+            margin-left: 110px;
+            font-size: 17px;
+         }
+      }
 
       #stats {
          .baseFont;
@@ -93,32 +138,28 @@
          color: #fff;
 
          #experienceStat {
-            
          }
 
          .stat {
-            padding-top: 20px;
-
+            margin-top: -4px;
             .label {
-               width: 120px;
-               display: inline-block;
+               position: relative;
+               left: 11px;
+               top: 0px;
+               font-size: 15px;
+               color: @barleyBrownColor;
+               font-family: @controlFontFamily;
             }
 
             .bar {
                position: relative;
-               width: 200px;
+               width: 230px;
                height: 15px;
                display: inline-block;
                border: 3px solid #000;
                background: #1f282e;
                text-align: right;
-
-               .value {
-                  position: absolute;
-                  right: 4px;
-                  top: -10px;
-                  font-size: 16px;
-               }
+               margin-left: 8px;
             }
 
             .maxLevelNotice {
@@ -130,18 +171,8 @@
                color: #ffe850;
             }
 
-            .healthBar {
-               background: #b13b2e;
-               height: 100%;
-            }
-
-            .moraleBar {
-               background: #1575ca;
-               height: 100%;
-            }
-
             .expBar {
-               background: #42d00e;
+               background: #7ba42d;
                height: 100%;
             }
 
@@ -149,17 +180,20 @@
       }
    }
 
-   #buffs {
+   #traitIcons {
       position: absolute;
-      top: 300px;
-      left: 10px;
-      right: 10px;
-      height: 70px;
-      background: rgba(255,0,0,0.0);
+      top: 220px;
+      left: 20px;
 
-      .item {
-         display: inline-block;
-         margin-right: 4px;
+      #traits {
+         margin-top: 10px;
+         height: 70px;
+         width: 450px;
+         background: rgba(255,0,0,0.0);
+
+         .item {
+            display: inline-block;
+         }
       }
    }
 
@@ -181,7 +215,6 @@
          vertical-align: top;
 
          h2 {
-            color: #84754f;
             font-size: 26px;
          }
       }
@@ -189,7 +222,7 @@
       #equipmentTab {
          display: none;
          overflow-y: auto;
-      
+
          #equipmentTable {
             width: 100%;
             border-collapse:collapse;
@@ -231,7 +264,7 @@
                .outlined;
                width: 100px;
             }
-            
+
             tr:nth-child(even) {
                background: rgba(0,0,0,0.1);
             }
@@ -240,7 +273,7 @@
                color: #02ff39;
             }
 
-         } 
+         }
       }
 
       #moraleTab {
@@ -253,6 +286,40 @@
 
       #attributesTab {
          display: none;
+         background-image: url('./images/parchment.png');
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position-y: -23px;
+         overflow: hidden;
+         height: 430px;
+
+         #traitDescriptions {
+            position: relative;
+            top: 12px;
+            left: 12px;
+            overflow: auto;
+            height: 313px;
+            width: 675px;
+
+            img {
+               width: 60px;
+               height: 40px
+            }
+
+            .displayName {
+               font-family: @controlFontFamily;
+               color: @vanillaColor;
+               font-size: 23px;
+               display: inline-block;
+               margin-top: 8px;
+               vertical-align: top;
+            }
+
+            .description {
+               font-family: @baseFontFamily;
+               margin: 2px 0px 10px 2px
+            }
+         }
       }
 
       #abilitiesTab {
@@ -282,7 +349,7 @@
             .retiredClassNameHeader {
                font-family: @headerFontFamily;
                font-size: 16px;
-               color: gray; 
+               color: gray;
             }
 
             .perkDiv {
@@ -337,22 +404,22 @@
    .statsTable {
       width: 100%;
       border-collapse:collapse;
+      margin-left: 40px;
+      margin-top: 38px;
 
       td {
          vertical-align: top;
-         padding: 4px;
+         padding: 4px 0px 4px 0px;
       }
 
-      td:first-of-type {
-      }
-
-      td:nth-of-type(2) {
+      td:nth-child(even) {
          .outlined;
-         text-align: right;
+         text-align: left;
+         width: 200px;
       }
 
-      tr:nth-child(even) {
-         background: rgba(0,0,0,0.1);
+      td:nth-child(odd) {
+         padding-right: 16px;
       }
    }
 
@@ -482,7 +549,7 @@
 
    #thoughtsSection {
       font-size: 15px;
-      height: 238px;
+      height: 310px;
 
       #thoughtEntries {
          margin-left: 10px;
@@ -499,7 +566,7 @@
       }
 
       #positiveThoughts {
-         margin-left: 7px;
+         margin-left: 105px;
       }
 
       #negativeThoughts {
@@ -572,15 +639,15 @@
       background: #A9956C;
       border-left: 1px solid #9c8a64;
       top: 14px;
-      left: 344px;
+      left: 400px;
    }
 
    .buffedValue{
-      color: green;
+      color: #42d00e;
    }
 
    .debuffedValue {
-      color: red;
+      color: #d00e0e;
    }
 
    .normalValue {
@@ -614,11 +681,11 @@
       padding-left: 15px;
       padding-top: 2px;
 
-      float: right; 
+      float: right;
 
       vertical-align: middle;
       background-repeat:no-repeat;
-      background-position:left; 
+      background-position:left;
    }
 
    .debuffDataSpan {
@@ -638,8 +705,8 @@
    color: gray;
 }
 
-@-webkit-keyframes fadeinout 
-{ 
+@-webkit-keyframes fadeinout
+{
    0% { opacity: 0; }
    100% { opacity: 1; }
 }

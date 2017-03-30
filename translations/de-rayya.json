@@ -345,7 +345,7 @@
                   "display_name": "Wüstenhütte"
                },
                "little_red_hut": {
-                  "display_name": "Kleines Rotes"
+                  "display_name": "Kleiner roter Hut"
                },
                "rayyas_shadow": {
                   "display_name": "Rayyas Schatten"
@@ -354,7 +354,7 @@
                   "display_name": "Rotes Lehmhaus"
                },
                "engineers_workshop": {
-                  "display_name": "Ingenieurshaus"
+                  "display_name": "Ingenieurswerkstatt"
                }
             },
             "blacksmiths_workshop": {

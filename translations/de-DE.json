@@ -113,15 +113,16 @@
 				"create_stockpile_description": "Der Handwerker wird die Waren automatisch im Lager lagern.<p>Du willst es warscheinlich neben der Werkbank platzieren. Aber HEY es ist deine Entscheidung.",
 				"page1_subtitle2": "Klicke auf den Boden, um die Werkbank zu platzieren",
 				"page2_subtitle2": "Klicke und zieh auf dem Boden, um ein Lager anzulegen"
-			},
-			"citizen_character_sheet": {
+         },
+         "citizen_character_sheet": {
 				"title": "Charakter Information",
-				"health": "Leben",
+            "health": "HP",
 				"morale": "Moral",
 				"experience": "Erfahrung",
-				"max_level": "Maximales Level!!!",
-				"level_text": "Level ",
-				"level_abbreviation": "Lvl",
+				"max_level": "Maximal",
+            "no_levels": "Kein Lvl Up",
+            "level_text": "Level ",
+            "level_abbreviation": "Lvl",
 				"locked_status": " (gesperrt)",
 				"apprentice": "Auszubildender",
 				"journal": "Tagebuch",
@@ -140,19 +141,19 @@
 				"backpack_tab_name": "Rucksack",
 				"journal_no_entries": "keine Einträge",
 				"retired": "Ruhestand nach:"
-			},
-			"pet_character_sheet": {
+         },
+         "pet_character_sheet": {
 				"title": "Haustier Info",
-				"release_pet_confirm_dialog": {
+            "release_pet_confirm_dialog": {
 					"title": "Haustier freilassen",
 					"message": "Willst du dieses Haustier wirklich wieder in die Wildniss entlassen? Dir ist es nicht möglich es wieder zu bekommenn.",
 					"accept": "Ich will dieses Haustier nicht!",
 					"cancel": "Warte!"
-				},
+            },
 				"befriended_pet_description": "Befreunded durch [name(self.stonehearth:pet.owner)]"
-			},
-			"tutorials": {
-				"camera": {
+         },
+         "tutorials": {
+            "camera": {
 					"camera_pan_title": "Um die Kamera zu bewegen",
 					"camera_pan_1": "Halte die Leertaste und bewege dann die Maus",
 					"camera_pan_2": "Oder nutz einfach die WASD Tasten",
@@ -162,10 +163,13 @@
 					"camera_orbit_2": "Q und E funktionieren auch",
 					"camera_zoom_title": "Um rein und raus zu zoomen",
 					"camera_zoom_1": "Dreh das Mausrad",
-					"camera_zoom_2": "Oder verwende die + und - Tasten"
-				}
-			},
-			"save_view": {
+					"camera_zoom_2": "Oder verwende die + und - Tasten",
+               "camera_follow_title": "Um einen Hearthling zu folgen",
+               "camera_follow_1": "Wählen den Hearthling aus dem du folgen willst",
+               "camera_follow_2": "Drücke die J Taste"
+            }
+         },
+         "save_view": {
 				"title": "Spielstände",
 				"confim_delete_title": "Bestätige Löschen",
 				"confirm_delete_message": "Willst du wirklich diesen Spielstand löschen?",
@@ -196,6 +200,7 @@
 				"accept": "Akzeptieren",
 				"decline": "Ablehnen",
 				"next": "Weiter",
+            "continue": "Fortsetzen",
 				"hotkey": "Hotkey: ",
 				"remove": "Löschen",
 				"input_text_tooltip": "Klicke zum bearbeiten",
@@ -361,7 +366,10 @@
 				"tooltip_combat_base_damage_reduction": "Ver:",
 				"tooltip_num_undeployed": "Nicht aufgestellt: [str(num_undeployed)]",
 				"death_notification": "[name(i18n_data.entity)] ist gestorben.",
-				"imminent_death_notification": "[name(i18n_data.citizen)] hat nur noch sehr wenig Gesundheit!"
+				"imminent_death_notification": "[name(i18n_data.citizen)] hat nur noch sehr wenig Gesundheit!",
+            "starving_notification": "[name(i18n_data.citizen)] ist am Verhungern!",
+            "health_status_normal": "Normal",
+            "health": "HP"
 			},
 			"menu": {
 				"town_menu": {
@@ -597,6 +605,7 @@
 					"sell_all": "Verkauf alle",
 					"buy_tab": "Kaufen",
 					"sell_tab": "Verkaufen",
+               "shop_gold_label": "Gold",
 					"shopkeeper_gold_label": "Händlergold",
 					"not_enough_gold_tooltip": "Nicht genug Gold",
 					"shopkeeper_not_enough_gold_tooltip": "Der Ladenbesitzer hat nicht genug Gold"
@@ -1074,24 +1083,24 @@
 					"026": "Deine Hearthlinge mögen es nicht zu lange in engen Räumen zu sein.",
 					"027": "Nutztiere können sich vermehren, wenn mindestens zwei derselben Tierart in einem Gehege sind.",
 					"028": "Aktuell habe ich bis heute - 19.06.16 - 26537 Zeilen bzw. 57874 Wörter für diese Mod übersetzt xD"
-				}
-			},
-			"select_settlement": {
+            }
+         },
+         "select_settlement": {
 				"title": "Klicke auf die Karte um deinen Startort zu wählen",
 				"loading": "Lade",
 				"settle_at_this_location": "Hier Beginnen!",
 				"clear_selection": "Anderen Ort wählen",
 				"regenerate_map": "Neue Karte würfeln",
 				"world_seed": "Seed: ",
-				"terrain_stats": {
+            "terrain_stats": {
 					"trees_and_plants_title": "Bäume & Pflanzen",
 					"trees_and_plants_description": "Bäume sind eine primäre Bauressource. Sie werden benötigt, um Gebäude oder Gegenstände wie Betten, Tische und Stühle zu bauen",
 					"wildlife_title": "Tierwelt",
 					"wildlife_description": "Wildtiere können für Essen und für Handwerksmaterialien gejagt werden.",
 					"minerals_title": "Mineralien",
 					"minerals_description": "Du wirst Mineralien benötigen, wenn du planst Objekte aus Metall oder Stein herzustellen."
-				},
-				"terrain_codes": {
+            },
+            "terrain_codes": {
 					"water": "Wasser",
 					"plains_1": "Ebene",
 					"plains_2": "Ebene",
@@ -1129,14 +1138,14 @@
 					"mineral_2": "Selten",
 					"mineral_3": "Häufig",
 					"mineral_4": "Üppig"
-				}
-			},
-			"settings": {
+            }
+         },
+         "settings": {
 				"title": "Einstellungen",
 				"graphics": "Grafik",
-				"gameplay": "Gameplay",
+            "gameplay": "Gameplay",
 				"card": "Grafikkarte: ",
-				"gfx_cardinfo": "[str(gpuRenderer)] ([str(gpuDriver)])",
+            "gfx_cardinfo": "[str(gpuRenderer)] ([str(gpuDriver)])",
 				"gfx_enable_shadows": "Aktiviere Schatten",
 				"gfx_enable_vsync": "Aktiviere Vertical Sync",
 				"gfx_enable_fullscreen": "Vollbild (erfordert einen Neustart)",
@@ -1158,19 +1167,19 @@
 				"aa_slider_2": "ein wenig mehr",
 				"aa_slider_3": "viele",
 				"aa_slider_4": "verdammt viele!",
-				"sound": "Sound",
+            "sound": "Sound",
 				"background_music_volume": "Musik Lautstärke",
 				"effects_volume": "Effekt Lautstärke",
-				"system": "System",
+            "system": "System",
 				"force_32_bit": "* Erzwinge 32-Bit (benötigt einen Neustart)",
 				"force_32_bit_note": "* Erzwinge 32-Bit, wenn es notwenig ist. 64-Bit ist schneller und unterstützt größere Städte.",
 				"collect_profile": "Sammel Profil",
 				"enable_lua_jit": "Benutzte Lua JIT (benötigt einen Neustart)",
 				"send_anon_data": "Anonymes Feedback senden (um Stonehearth noch besser zu machen!)",
 				"language_select": "Sprache",
-				"gameplay_tab": {
-					"title": "Gameplay",
-					"experimental": "Experimental",
+            "gameplay_tab": {
+               "title": "Gameplay",
+               "experimental": "Experimental",
 					"experimental_description": "Diese Einstellungen sind noch in der Entwicklung und können nicht stabil sein! Aktivieren auf eigene Gefahr!",
 					"enable_speed_3": "Aktiviere 'Super' Geschwindigkeit (benötigt einen UI Neustart)",
 					"enable_speed_3_note": "Die Leistung des Spiels ist möglicherweise langsamer mit größeren Städten. Verwendung auf eigene Gefahr!",
@@ -1186,24 +1195,24 @@
 					"auto_loot_description": "Wenn ein Feind Beute fallen lässt, wird es automatisch zur Plünderung markiert.",
 					"building_auto_queue_crafters": "Automatische Warteschlange für Gebäudematerialien",
 					"building_auto_queue_crafters_description": "Beim Start eines Gebäudebaus werden alle Möbel und Einrichtungsgegenstände für das Gebäude automatisch in die Warteschlange des jeweiligen Handwerkers eingefügt."
-				},
-				"mods": "Mods",
-				"mods_tab": {
+            },
+            "mods": "Mods",
+            "mods_tab": {
 					"title": "Installierte Mods",
 					"note": "Das Aktivieren oder Deaktivieren eines Moduls erfordert einen Neustart des Spiels.",
 					"invalid_manifest": "Ungültiges Manifest",
 					"out_of_date": "Veraltet",
 					"deferred_load": "Wird automatisch von anderen Mods geladen",
 					"required": "Erforderlich",
-					"mods_changed_dialog": {
+               "mods_changed_dialog": {
 						"title": "Module geändert",
 						"message": "Das Spiel muss neu geladen werden, um die Änderungen zu übernehmen. Jetzt neu laden?",
-						"accept": "Ok",
+                  "accept": "Ok",
 						"cancel": "Abbrechen"
-					}
-				}
-			},
-			"title_screen": {
+               }
+            }
+         },
+         "title_screen": {
 				"exit": "Beenden",
 				"settings": "Einstellungen",
 				"about": "Über",
@@ -1213,74 +1222,74 @@
 				"load_game": "Spiel laden",
 				"quick_start": "Schnellstart",
 				"patch_notes": "Zeige Patchnotizen",
-				"alpha_welcome_dialog": {
+            "alpha_welcome_dialog": {
 					"title": "Willkommen zu Stonehearth!",
 					"message": "Warnung: Dies ist eine Alpha. Es vermisst noch viele Funktionen und du kannst Fehlern während des Spielens begegnen.<br><br>Du kannst uns helfen, in dem du zustimmst uns automatisch ein Fehlerprotokoll zu senden. Geht das in Ordnung?",
 					"accept": "Ja, Ich will helfen!",
 					"cancel": "Nein Danke! Ich mag euch nicht!"
-				},
-				"mod_conflic_dialog": {
+            },
+            "mod_conflic_dialog": {
 					"title": "Modul Konflikt erkannt!",
 					"message": "Warnung: Dein Modverzeichnis enthält sowohl eine smod und einen entpackten Ordner von einigen Mods. Der entpackte Ordner wird verwendet werden. Lösch am besten den entpackten Ordner, da es sonst bei aktualisierungen Fehler verursachen kann. Die betroffenen Mods sind: <br><br>",
 					"accept": "Ja, fortfahren."
-				}
-			},
-			"select_game_story": {
+            }
+         },
+         "select_game_story": {
 				"title": "Wähle dein Abenteuer",
 				"story_start": "Dies ist die Geschichte von ...",
 				"kingdom_section_start": "... einer mutigen Gruppe von Siedlern aus",
-				"select_button": "?",
+            "select_button": "?",
 				"kingdom_picker_title": "Wähle ein Reich",
 				"biome_section_start": "Auf der Suche nach neuen Ländern und Abenteuern machten Sie sich auf",
 				"biome_picker_title": "Wähle ein Ökosystem",
 				"game_mode_select_start": ", einem Standort der gewiss",
 				"game_mode_picker_title": "Wähle einen Schwierigkeitsgrad",
-				"game_modes": {
-					"normal": {
-						"display_name": "Normal",
+            "game_modes": {
+               "normal": {
+                  "display_name": "Normal",
 						"description": "Erlebe Abenteuer in einer Welt voller Gefahren. Deine Stadt wird das Ziel von Überfällen und Invasionen",
 						"post_selection_text": "ein inspirierender Ort ist, um neu anzufangen."
-					},
-					"peaceful": {
+               },
+               "peaceful": {
 						"display_name": "Friedlich",
 						"description": "Ein Sandbox-Modus, in dem du ungestört deine Stadt bauen kannst, ohne Angst vor Angriffen jeglicher Art zu haben.",
 						"post_selection_text": "ein ruhiger Ort ist, um neu anzufangen."
-					},
-					"hard": {
+               },
+               "hard": {
 						"display_name": "Hart",
 						"description": "Begegne schwierigeren Monstern, als im normalen Modus",
 						"post_selection_text": "ein zu gewalttätiger Ort ist, um neu anzufangen."
-					}
-				},
-				"begin_button": "Beginn"
-			},
-			"embark": {
-				"title": "Bereite dich vor zu Abenteuern aufzubrechen",
-				"citizen_info": "Expeditionsteilnehmer",
-				"reroll_citizens": "Rolle neue Einwohner",
-				"shop_title": "Abenteurer-Shop",
-				"shop_gold_label": "Gold",
-				"shop_sold": "VERKAUFT!",
-				"shop_reset_button": "Zurücksetzen!",
-				"finished": "Start!",
-				"no_talisman_confirm_dialog": {
-					"title": "Beginn",
-					"message": "Bist du sicher das Spiel zu beginnen ohne ein extra Werkzeug aus dem Shop zu wählen? Wie immer, bekommst du noch den Start Talisman für deine Fraktion.",
-					"accept": "JA, ich will den harten Modus",
-					"cancel": "Ähmm warte mal!"
-				}
-			}
-		},
-		"debug": {
-			"post_bug": {
-				"title": "Filing bugs",
+               }
+            },
+            "biome_warning_title": "Gib Acht, Reisender...",
+            "biome_warning_text": "Ressourcen sind nur schwer zu finden, wenn du für die Ascendancy das Wüstenbiome und für Rayyas Kinder das gemäßigte Biome auswählst. Ein Problem, dass wir hoffen bald beheben zu können.<br> <br>Möchtest du mit deiner aktuellen Auswahl fortfahren?",
+            "begin_button": "Starthearthlinge erstellen"
+         },
+         "select_roster": {
+            "reroll_citizens": "Rolle neue Hearthlinge",
+            "citizen_info": "Expeditionsliste",
+            "accept_roster": "Akzeptiere Liste",
+            "randomize": "Zufällig",
+            "hair_style": "Haarstil",
+            "skin_color": "Hautfarbe",
+            "facial_hair": "Bartfarbe",
+            "hair_color": "Haarfarbe"
+         },
+         "loadout": {
+            "title": "Wähle die Startressource aus",
+            "start": "Start"
+         }
+      },
+      "debug": {
+         "post_bug": {
+            "title": "Bugs melden",
 				"message": "Vielen Dank für die Teilnahme an der Stonehearth Alpha! Hier findest du, wie du einen Fehler melden kannst.",
 				"file_bug_step_1": "Gehe zu http://discourse.stonehearth.net/c/support/bug-reports",
 				"file_bug_step_2": "Überprüfen in der Liste der aktiven Themen, ob dein Fehler bereits gemeldet wurde. Wenn icht erstell bitte einen neuen Thread",
 				"file_bug_step_3": "Beim erklären des Bugs, achte bitte darauf, alle im Bericht geforderten Informationen zu benennen und kopiere den Text aller Engine Fehler. Screenshots für visuelle Bugs sind ebenfalls sehr hilfreich.",
 				"file_bug_step_4": "Wenn du auf einen Absturzfehler stößt, überprüfe bitte http://discourse.stonehearth.net/t/13297 nach gemeinsamen Lösungen und wie du Hilfe für Abstürze bekommst. Unten ist deine persönliche Benutzer-ID: "
-			},
-			"error_browser": {
+         },
+         "error_browser": {
 				"title": "Engine Fehler",
 				"filename_label": "dateiname",
 				"close_permanently_button": "Dauerhaft schließen",
@@ -1547,7 +1556,7 @@
 						"waiting_text": "Der Händler wird in [str(i18n_data.hour_counter)] [str(i18n_data.period)] zurück sein um euch <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> zu geben, wenn Ihr <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)](en/er)</strong> für Ihn bereit haltet!",
 						"return_title": "Der Händler ist zurück!",
 						"return_greetings_positive": "Ich bin zurück! Es sieht aus als hättet Ihr die [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) nach dennen ich gefragt hatte. Seid Ihr immernoch bereit, Sie mit mir zutauschen? Ich würde euch [str(i18n_data.reward_number)] [str(i18n_data.reward_item)](en) im Austausch geben. Klingt das immernoch gut?",
-						"return_greetings_negative": "Ich bin zurück! Aber anscheinend habt Ihr die [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) nach dennen ich gefragt hatte nicht. Das ist Schade! Vielleicht beim nächsten Mal!"
+						"return_greetings_negative": "Ich bin zurück! Aber anscheinend also ob Ihr die [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) nach dennen ich gefragt hatte nicht habt. Das ist Schade! Vielleicht beim nächsten Mal!"
 					},
 					"returning_crop_trader_encounter": {
 						"title": "Ein Händler bringt Samen aus einem fernen Land.",
@@ -2764,48 +2773,48 @@
 												"simple_message": {
 													"bulletin_message": {
 														"000": "Hier, nimm dies als Zeichen unserer Dankbarkeit."
-													},
+                                       },
 													"bulletin_title": "Entlinge tragen Beute huschend zu Ihnen",
-													"dialog_title": "Ent",
+                                       "dialog_title": "Ent",
 													"choice_000": "Danke!"
-												}
-											}
-										}
-									},
-									"ent_wrath": {
-										"mission": {
-											"sighted_bulletin": {
+                                    }
+                                 }
+                              }
+                           },
+                           "ent_wrath": {
+                              "mission": {
+                                 "sighted_bulletin": {
 												"title": "Ein wütender Entlingarmee nähert sich!"
-											}
-										}
-									},
-									"happiness_intro": {
+                                 }
+                              }
+                           },
+                           "happiness_intro": {
 										"title": "Hearthlingmoral"
-									}
-								}
-							}
-						}
-					}
-				},
-				"orc_war": {
-					"arcs": {
-						"trigger": {
-							"old_khan": {
-								"encounters": {
-									"warchief_intro_dialog": {
-										"dialog_tree_info": {
-											"dialog_nodes": {
-												"msg2": {
-													"bulletin_message": {
+                           }
+                        }
+                     }
+                  }
+               }
+            },
+            "orc_war": {
+               "arcs": {
+                  "trigger": {
+                     "old_khan": {
+                        "encounters": {
+                           "warchief_intro_dialog": {
+                              "dialog_tree_info": {
+                                 "dialog_nodes": {
+                                    "msg2": {
+                                       "bulletin_message": {
 														"00": "Der Red Kiln glaubt, dass Fortschritt nur aus Konflikt zwischen Gleichen kommen. Khan ist nicht mehr. Und wenn einer fällt, werden stärkere und schlauere steigen."
-													},
+                                       },
 													"bulletin_title": "Kriegsherr Oghar Norwind",
 													"dialog_title": "Kriegsherr Oghar Norwind"
-												},
-												"msg1": {
-													"bulletin_message": {
+                                    },
+                                    "msg1": {
+                                       "bulletin_message": {
 														"00": "Du da! Erdene erzählen mir von Euch! Sie sagen, Ihr Ogo Skullbonker besiegt."
-													},
+                                       },
 													"bulletin_title": "Ein Ork-Kriegsherr nähert sich deiner Stadt",
 													"dialog_title": "Kriegsherr Oghar Norwind",
 													"choice_000": "Ja, das bin ich",
@@ -3307,9 +3316,24 @@
 				"town_alert_banner_buff": {
 					"display_name": "Stadtalarm Bannerbuff",
 					"description": "Strahlt alle 5 Minuten einen Mutbuff aus"
-				}
-			}
-		},
+            }
+         },
+         "scratched": {
+            "scratched_buff": {
+               "display_name": "Zerkratz"
+            }
+         },
+         "hothead": {
+            "winded_buff": {
+               "display_name": "Wendig",
+               "description": "-5% Schaden"
+            },
+            "furious_buff": {
+               "display_name": "Wütend",
+               "description": "+15% Scaden. Wird für eine kurze Zeit nicht fliehen oder kauern"
+            }
+         }
+      },
 		"build": {
 			"prototypes": {
 				"building": {
@@ -4507,25 +4531,25 @@
 				"tier2": {
 					"black_forest_inn": {
 						"display_name": "Schwarzes Waldgasthausn"
-					},
-					"blacksmith_house": {
-						"display_name": "Schmiedehaus"
-					},
-					"corner_house": {
+               },
+               "corner_house": {
 						"display_name": "Eckhaus"
-					},
-					"cozy_townhouse": {
+               },
+               "cozy_townhouse": {
 						"display_name": "Gemütliches Stadthaus"
-					},
-					"tall_townhouse": {
+               },
+               "tall_townhouse": {
 						"display_name": "Hohes Stadthaus"
-					},
-					"tavern": {
+               },
+               "tavern": {
 						"display_name": "Taverne"
-					}
-				},
-				"carpenter_house": {
+               }
+            },
+            "carpenter_house": {
 					"display_name": "Schreinerhaus"
+            },
+            "blacksmith_house": {
+						"display_name": "Schmiedehaus"
 				}
 			}
 		},
@@ -4580,17 +4604,147 @@
 							"step000": {
 								"title": "Herzlichen Glückwünsch!",
 								"description": "Wir haben Ressourcen, einen Ort um die Waren zu lagern und eine Möglichkeit Gegenstände herzustellen. Wir sind auf einem guten Weg diese Siedlung in Gang zu bringen!"
-							}
-						}
-					}
-				},
-				"harvest_logs": {
-					"scenario_data": {
-						"declined_text": "Ich brauch keine Hilfe!"
-					}
-				}
-			}
-		},
+                     }
+                  }
+               }
+            },
+            "harvest_logs": {
+               "scenario_data": {
+	          "declined_text": "Ich brauch keine Anleitung -- Ich weiss was ich tue!"
+               }
+            }
+         }
+      },
+      "loadouts": {
+         "food_for_days": {
+            "description": "Die große Menge an Nahrung, die auf dem Rücken der Karawane festgemacht wurde, sollte die Herzenswünsche für eine paar Tage erfüllen. Währenddessen kannst du deine Siedlung in Ruhe aufbauen und zum laufen bringen.",
+            "display_name": "Essen für Tage",
+            "tooltip": "Eine sichere Option für neue Spieler, obwohl es an Verteidigung fehlt."
+         },
+         "merchant_caravan": {
+            "description": "Eine Sammlung von Werkzeugen sollte deiner Siedlung für den Start ein sicheres Standbein für die Wildnis geben.",
+            "display_name": "Händlerkarawane",
+            "tooltip": "Eine gute Sammlung von Handwerksfertigkeiten, aber knaspp an Essen."
+         },
+         "money_solves_all_problems": {
+            "description": "Alles was die Stadt braucht, sollte man von einem Händler kaufen können. Das ist, vorausgesetzt man findet sie und hat die richtigen Waren zum Verkauf...",
+            "display_name": "Geld läst alle Probleme",
+            "tooltip": "Eine riskante, aber potenziell sehr vorteilhafte Wahl. Es hängt alles davon ab, wann welcher Händler kommt."
+         },
+         "items": {
+            "gold": "Gold",
+            "food": "Essen",
+            "berries": "Beeren",
+            "carrots": "Karotten",
+            "jerky": "Trockenfleisch"
+         },
+         "coming_soon": "Kommt bald"
+      },
+      "traits": {
+         "herbivore": {
+            "herbivore_trait": {
+               "display_name": "Pflanzenfresser",
+               "description": "[name(i18n_data.entity)] ist ein Freund aller Tiere! Pflanzen eher weniger."
+            }
+         },
+         "callous": {
+            "callous_trait": {
+               "display_name": "Gefühllos",
+               "description": "[name(i18n_data.entity)] hält alle auf Armlänge. Dies hilft Ihm/Ihr, nicht so verletzt zu sein, wenn Tragödie passieren. Aber ihre ständige zurückhaltenede Gelassenheit lässt nur Sie langsam  Freunde finden."
+            }
+         },
+         "carnivore": {
+            "carnivore_trait": {
+               "display_name": "Fleishfresser",
+               "description": "[name(i18n_data.entity)] LIEBET geradezu alle Tiere! Besonders mit heißer Sauce."
+            }
+         },
+         "courageous": {
+            "courageous_trait": {
+               "display_name": "Mutig",
+               "description": "[name(i18n_data.entity)] liebt es, andere zu retten und setzt die Sicherheit der Stadt als oberste Priorität."
+            }
+         },
+         "excitable": {
+            "excitable_trait": {
+               "display_name": "Erregbar",
+               "description": "[name(i18n_data.entity)] schafft es nicht die Emotionen in Schach zu halten, also wird Er/Sie viel schneller glücklich oder traurig als andere."
+            }
+         },
+         "green_thumb": {
+            "green_thumb_trait": {
+               "display_name": "Grüner Daumen",
+               "description": "[name(i18n_data.entity)] hat eine unbeschreibliche Art mit Pflanzen umzugehen."
+            }
+         },
+         "heart_of_a_crafter": {
+            "heart_of_a_crafter_trait": {
+               "display_name": "Herz des Handwerkers",
+               "description": "[name(i18n_data.entity)] liebt es Sachen für andere herzustellen. Wenn Er/Sie nicht mindestens eine Sache am Tag herstellt, ist der Tag für Sie verschwendet."
+            }
+         },
+
+         "professor": {
+            "professor_trait": {
+               "display_name": "Professor",
+               "description": "[name(i18n_data.entity)] berät immer gerne andere auf der Grundlage Ihrer Beobachtungen, ob der Empfänger es will oder nicht."
+            }
+         },
+         "featherweight": {
+            "featherweight_trait": {
+               "display_name": "Federgewicht",
+               "description": "[name(i18n_data.entity)] ist immer ein wenig schneller als die anderen, obwohl sie dadurch dazu neigen weniger zu tragen."
+            }
+         },
+         "pack_mule": {
+            "pack_mule_trait": {
+               "display_name": "Packessel",
+               "description": "Dieser Hearthling kann Berge versetzen! Sie können mehr in ihrem Rucksack tragen, aber gehen etwas langsamer, wenn es voll. Aufgrund des Gewichtes."
+            }
+         },
+         "glutton": {
+            "glutton_trait": {
+               "display_name": "Vielfraß",
+               "description": "[name(i18n_data.entity)]´s Magen könnte auch ein Portal zu einer anderen Welt sein, so viel wie Er/Sie essen kann. Vielleicht erklärt das ein bisschen die Widerstandsfähigkeit."
+            }
+         },
+         "hothead": {
+            "hothead_trait": {
+               "display_name": "Hitzkopf",
+               "description": "[name(i18n_data.entity)] geht niemals freiwillig von einem Kampf weg. Auch nicht von denen, wo man es sollte..."
+            }
+         },
+         "night_owl": {
+            "night_owl_trait": {
+               "display_name": "Nachteule",
+               "description": "Der Tag beginnt erst, wenn die Sonne untergegangen ist."
+            }
+         },
+         "optimistic": {
+            "optimistic_trait": {
+               "display_name": "Optimistist",
+               "description": "[name(i18n_data.entity)] schaut immer auf die helle Seite und sieht in fast allem die guten Seite."
+            }
+         },
+         "passion_job": {
+            "passion_job_trait": {
+               "display_name": "Leidenschaftlicher [str(i18n_data.passion_job)]",
+               "description": "[name(i18n_data.entity)] träumte immer davon ein [str(i18n_data.passion_job)] zu sein, vielleicht bekommt Er/Sie jetzt seine/ihre Chance?"
+            }
+         },
+         "pessimistic": {
+            "pessimistic_trait": {
+               "display_name": "Pessimisti",
+               "description": "[name(i18n_data.entity)] ist eine das Glass ist halb leer Person."
+            }
+         },
+         "cultist": {
+            "cultist_trait": {
+               "display_name": "Kultist",
+               "description": "Dieser Hearthöing murmelt über irgendeine Art von geheimen \"Hasengott\", der ewig schläft. Um was es da wohl geht?"
+            }
+         }
+      },
 		"happiness": {
 			"thoughts": {
 				"hunger": {
@@ -4627,6 +4781,16 @@
 						"tooltip": "Dieser Ort ist ersticken! Es gibt kaum Raum zum Atmen!"
 					}
 				},
+            "darkness": {
+               "very_dark": {
+                  "display_name": "Sehr dunkle Umgebung",
+                  "tooltip": "Ich kann kaum etwas sehen!"
+               },
+               "dark": {
+                  "display_name": "Dunkle Umgebung",
+                  "tooltip": "Dieser Bereich ist nicht sehr gut beleuchtet."
+               }
+            },
 				"health": {
 					"pain_mild": {
 						"display_name": "Schmerz (Leicht)",
@@ -4654,12 +4818,32 @@
 						"display_name": "In einem gemeinsamen Bett geschlafen",
 						"tooltip": "Ich teile im Moment mein Bett mit jemand anderem. Es ist nicht das Schlimmste, aber ich wünschte wirklich, ich hätte meine eigenes."
 					},
+               "slept_in_shared_room": {
+                  "display_name": "In einem gemeinsamen Raum geschlafen",
+                  "tooltip": "Ich teile mein Zimmer mit jemand anderem. Ich könnte ein wenig mehr Privatsphäre nutzen."
+               },
+               "slept_outside": {
+                  "display_name": "Schlief draußen",
+                  "tooltip": "Ich wünschte, ich hätte einen Obdach und Schutz vor den Elementen."
+               },
 					"slept_in_comfy_bed": {
 						"display_name": "In einem bequemen Bett geschlafen",
 						"tooltip": "Mein Bett ist wirklich komfortabel. Ich fühlte mich erfrischt, als ich aufwachte!"
 					}
 				},
 				"eating": {
+               "ate_unpalatable": {
+                  "display_name": "Aß etwas schreckliches",
+                  "tooltip": "[str (foodname)] zu essen war eine meiner schlechteren Entscheidungen, die ich heute gemacht habe."
+               },
+               "herbivore_ate_meat": {
+                  "display_name": "Ich aß Fleisch! NEEEIIIINNNN!",
+                  "tooltip": "Ich kann nicht glauben, dass ich [str(foodname)] gegessen habe. Ich kann mir nur vorstellen, wie süß es mal ausgesehen hat... vorher ...."
+               },
+               "carnivore_ate_veggies": {
+                  "display_name": "Ich aß eine Pflanze! Bääähhh!",
+                  "tooltip": "Da ist was falsch gelaufen .... Ich habe versehentlich etwas gegessen, dass mein Essen isst."
+               },
 					"ate_fine": {
 						"display_name": "Aß eine feine Mahlzeit",
 						"tooltip": "Meine letzte Mahlzeit war unglaublich! Wer auch immer die [str(foodname)] gemacht hat, hat wirklich sein Herz hieingelegt."
@@ -4737,15 +4921,35 @@
 						}
 					}
 				},
+            "traits": {
+               "values": {
+                  "plant_lover": {
+                     "display_name": "Pflanzenliebhaber",
+                     "tooltip": "Jedes Mal, wenn ich mit Pflanzen interagiere, fühle ich mich etwas ruhiger."
+                  },
+                  "fruitful_labors": {
+                     "display_name": "Fruchtbare Arbeit",
+                     "tooltip": "Es fühlt sich immer gut an, etwas mit den eigenen Händen zu machen. Es hilft mir den Kopf klar zu bekommen."
+                  },
+                  "idle_hands": {
+                     "display_name": "Leere Hände",
+                     "tooltip": "Ich habe schon eine Weile nichts gemacht und fühle mich wie ein Faulenzer. Gibt es da nichts, was ich machen kann?"
+                  },
+                  "protected_the_town": {
+                     "display_name": "Geschützte Stadt",
+                     "tooltip": "Wir haben vor kurzem eine Gruppe von Feinde abgewehrt, das hat mein Blut in Wallung gebracht!"
+                  }
+               }
+            },
 				"violence": {
 					"values": {
 						"townmember_died": {
-							"display_name": "Stadeinwohner ist gestorben",
+							"display_name": "Ein Stadeinwohner ist gestorben",
 							"tooltip": "Ein Einwohner der Stadt ist gestorben. Wenn wir nur wachsamer gewesen wären!"
 						},
 						"pet_died": {
 							"display_name": "Mein Haustier starb",
-							"tooltip": "Mein(e) arme(r) [str(pet)] starb vor kurzem. Ich werde Sie/Ihn sehr vermissen."
+							"tooltip": "Mein(e) arme(r) [str(pet_name] starb vor kurzem. Ich werde Sie/Ihn sehr vermissen."
 						}
 					}
 				}
@@ -7782,25 +7986,25 @@
 				"level_1_data": {
 					"perk_000_name": "Erhaltung des Materials",
 					"perk_000_description": "Sie haben eine Chance das jede Herstellung einen Stapel Baumaterial nicht verbrauchen."
-				}
-			}
-		},
-		"armorsmith": {
-			"armorsmith_description": {
-				"display_name": "???",
-				"description": "???",
-				"requirements": "???"
-			}
-		},
-		"big_game_hunter": {
-			"big_game_hunter_description": {
-				"display_name": "???",
-				"description": "???",
-				"requirements": "???"
-			}
-		},
-		"blacksmith": {
-			"blacksmith_description": {
+            }
+         }
+      },
+      "armorsmith": {
+         "armorsmith_description": {
+            "display_name": "???",
+            "description": "???",
+            "requirements": "???"
+         }
+      },
+      "big_game_hunter": {
+         "big_game_hunter_description": {
+            "display_name": "???",
+            "description": "???",
+            "requirements": "???"
+         }
+      },
+      "blacksmith": {
+         "blacksmith_description": {
 				"display_name": "Schmied",
 				"description": "Der Schmied veredelt rohe Erz in Metallbaren und verwendet diese Baren um Waffen, Rüstungen und Bauteile wie Tore herzustellen.",
 				"requirements": "Der Schmiedehammer, wird von dem Steinmetz hergestellt.",
@@ -7995,7 +8199,7 @@
 				},
 				"decoration_name": "Dekorationen",
 				"steel_shield_recipe": {
-					"recipe_name": "Stahlplattenschild",
+					"recipe_name": "Stahlschild",
 					"description": "Gewährt die Fähigkeit: Angriffe vollständig zu blockieren.",
 					"flavor": "Unglaublicher Schutz. Kleine Kinder spielen Schildkröte darunter."
 				},
@@ -8956,18 +9160,18 @@
 					"recipe_name": "Des Gildenmeisters Fähigkeit",
 					"description": "Zeigt das besten jedes Handwerkers",
 					"flavor": "Oft gemacht und von hoffnungsvollen Gildenmitgliedern eingereicht"
-				}
-			}
-		},
-		"miner": {
-			"miner_description": {
-				"display_name": "???",
-				"description": "???",
-				"requirements": "???"
-			}
-		},
-		"potter": {
-			"potter_description": {
+            }
+         }
+      },
+      "miner": {
+         "miner_description": {
+            "display_name": "???",
+            "description": "???",
+            "requirements": "???"
+         }
+      },
+      "potter": {
+         "potter_description": {
 				"display_name": "Töpfer",
 				"description": "Macht nützliche Waren aus Ton.",
 				"requirements": "Ein Level 4 Steinmetz und ein Töpferschneider, wird vom Steinmetz hergestellt",
@@ -9291,7 +9495,7 @@
 					"perk_000_description": "Bessere Fallenbewaffnungsfähigkeiten erhöhen die Chance des Trappers Beute zu fangen, um 25%."
 				},
 				"level_4_data": {
-					"perk_000_name": "Rucksackgröße +8",
+					"perk_000_name": "Rucksackgröße +2",
 					"perk_000_description": "Der Trapper ist effizienter beim Einpacken der Beute geworden."
 				}
 			},
@@ -9333,23 +9537,23 @@
 			"trapping_grounds": {
 				"display_name": "Fangzone",
 				"description": "Trapper fangen kleine Tiere für Essen und Materialien in dieser Zone."
-			}
-		},
-		"treasure_hunter": {
-			"treasure_hunter_description": {
-				"display_name": "???",
-				"description": "???",
-				"requirements": "???"
-			}
-		},
-		"weaponsmith": {
-			"weaponsmith_description": {
-				"description": "???",
-				"requirements": "???"
-			}
-		},
-		"weaver": {
-			"weaver_description": {
+         }
+      },
+      "treasure_hunter": {
+         "treasure_hunter_description": {
+            "display_name": "???",
+            "description": "???",
+            "requirements": "???"
+         }
+      },
+      "weaponsmith": {
+         "weaponsmith_description": {
+            "description": "???",
+            "requirements": "???"
+         }
+      },
+      "weaver": {
+         "weaver_description": {
 				"display_name": "Weber",
 				"description": "Der Weber macht Fäden, Stoffe und Vorhänge aus Fasern und Farben.",
 				"requirements": "Weberspindel, wird vom Schreiner hergestellt.",
@@ -9935,77 +10139,77 @@
 							"step001": {
 								"title": "Klick den Zonen-Knopf",
 								"description": "Zonen definieren, was wo in deiner Stadt passiert"
-							},
-							"step000": {
+                     },
+                     "step000": {
 								"title": "Wir haben einiges Holz geerntet",
 								"description": "Jetzt müssen wir es irgendwo lagern"
-							},
-							"step003": {
+                     },
+                     "step003": {
 								"title": "Klick auf das Häkchen um zu bestätigen",
 								"description": "Mithilfe der Filter kannst du bestimmen was in das Lager gehen soll"
-							},
-							"step002": {
+                     },
+                     "step002": {
 								"title": "Klick auf den Lagererstellen-Knopf",
 								"description": "Hearthlings lagern Ihre Waren in Lagern"
-							}
-						}
-					}
-				},
-				"harvest_logs": {
-					"scenario_data": {
+                     }
+                  }
+               }
+            },
+            "harvest_logs": {
+               "scenario_data": {
 						"message": "Wenn wir diese Stadt in Gang bringen wollen, brauchen wir Holz - sehr viel Holz! Holze ein paar Bäume ab um Holzblöcke zu bekommen.",
 						"completed_message": "Herzlichen Glückwünsch! Wir haben jetzt ein paar Holzressourcen. Holzblöcke und andere natürliche Ressourcen können verwendet werden um Gebäude und andere Waren herzustellen. Sie sind die ersten Bausteine für die Erweiterung deiner Stadt.",
 						"title": "[str(i18n_data.town_name)] Stadt: Erstversorgung",
 						"resource_display_name": "Holzblöcke"
-					},
-					"ui_steps": {
-						"set1": {
-							"step001": {
+               },
+               "ui_steps": {
+                  "set1": {
+                     "step001": {
 								"title": "Klick auf den Sammeln-Knopf",
 								"description": "Verwende den Sammeln-Knopf um Bäume zu fällen"
-							},
-							"step000": {
+                     },
+                     "step000": {
 								"title": "Klick auf den Ernte-Menü-Knopf",
 								"description": "Verwende das Ernte-Menü um Ressourcen von der Welt zu sammeln"
-							}
-						}
-					}
-				},
-				"promote_carpenter": {
-					"ui_steps": {
-						"set1": {
-							"step006": {
+                     }
+                  }
+               }
+            },
+            "promote_carpenter": {
+               "ui_steps": {
+                  "set1": {
+                     "step006": {
 								"title": "Klick auf den Stempel um die Ernennung zu genehmigen"
-							},
-							"step005": {
+                     },
+                     "step005": {
 								"title": "Klick auf die Schreiner Schaltfläche."
-							},
-							"step004": {
+                     },
+                     "step004": {
 								"title": "Klick auf Ändere Arbeit um diesen Hearthling einen anderen Job zu geben"
-							},
-							"step001": {
+                     },
+                     "step001": {
 								"title": "Öffne den Einwohner Manager",
 								"description": "In diesem Bereich kannst du alle Bürger verwalten, Ihre Statistiken einsehen und Ihre Aufgabenbereiche festlegen."
-							},
-							"step000": {
+                     },
+                     "step000": {
 								"title": "Ernenne einen Hearthling zu einem Schreiner",
 								"description": "Wir haben Holzblöcke und einen Ort Waren zu lagern, aber die Stadt sieht ziemlich leer aus. Glücklicherweise haben deine Hearthlinge eine Säge mitgebracht. Lass uns einen Hearthling zu einem Schreiner ernennen!"
-							},
-							"step007": {
+                     },
+                     "step007": {
 								"title": "Stadt Handwerker",
 								"description": "Schreiner und andere Handwerker können verschiedene Waren herstellen um deiner Siedlung zu helfen, von Betten zu Baumaterialien bis Waffen."
-							},
-							"step003": {
+                     },
+                     "step003": {
 								"title": "Bewege die Maus über die Zahlen um herauszufinden, was jedes Attribut bewirkt",
 								"description": "Jeder hearthling hat einen Verstand-, einen Körper- und einen Geistwert, der beeinflusst wie gut Sie bestimmte Dinge tun können."
-							},
-							"step002": {
+                     },
+                     "step002": {
 								"title": "Wähle einen Hearthling zum Ernennen"
-							}
-						}
-					}
-				}
-			}
-		}
-	}
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
 }

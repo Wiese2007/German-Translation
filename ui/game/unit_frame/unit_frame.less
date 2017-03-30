@@ -71,7 +71,7 @@
          position: relative;
          top: -16px;
          left: 12px;
-         
+
          #portrait {
             display: inline-block;
             position:relative;
@@ -95,9 +95,7 @@
          #jobButton {
             display: inline-block;
             vertical-align: top;
-            margin-top: -6px;
-            margin-left: -6px;
-            margin-bottom: -50px;
+            margin-right: -6px;
 
             img {
                width: 50px;
@@ -112,6 +110,7 @@
 
          .name {
             display: inline-block;
+            margin-top: 18px;
             max-width: 350px;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -120,6 +119,10 @@
             font-size: 19px;
             padding-left: 2px;
             padding-right: 2px;
+         }
+
+         #descriptionDiv {
+            margin-top: -10px;
          }
 
          .description {
@@ -198,7 +201,6 @@
       }
    }
 
-
    #combatControls {
       position: absolute;
 
@@ -207,9 +209,9 @@
       z-index: 3;
 
       width: 373px;
-      height: 64px; 
+      height: 64px;
 
-      background-image: url('./images/combat_base.png'); 
+      background-image: url('./images/combat_base.png');
       background-repeat: no-repeat;
 
       display: none;
@@ -234,7 +236,7 @@
          .combatButton {
             width: 59px;
             height: 54px;
-            background-image: url('./images/combat_buttons.png'); 
+            background-image: url('./images/combat_buttons.png');
             background-repeat: no-repeat;
             float: right;
             margin-left: 3px;
@@ -249,26 +251,26 @@
             }
 
             #moveToLocation {
-               background-image: url('./images/move_to_icon.png'); 
+               background-image: url('./images/move_to_icon.png');
             }
             #attackLocationOrEntity {
-               background-image: url('./images/attack_entity_or_place.png'); 
+               background-image: url('./images/attack_entity_or_place.png');
             }
             #defendLocation {
-               background-image: url('./images/defend_location.png'); 
+               background-image: url('./images/defend_location.png');
             }
 
             #cancelOrders {
                width: 47px;
-               background-image: url('./images/cancel_order.png'); 
+               background-image: url('./images/cancel_order.png');
             }
          }
 
          #cancelCombatButton {
             width: 47px;
-            background-image: url('./images/combat_button_narrow.png'); 
+            background-image: url('./images/combat_button_narrow.png');
          }
-         
+
    }
 
    #equipmentPane {
