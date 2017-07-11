@@ -53,7 +53,7 @@
 				"healing_target": "heilt [name(data.target)]",
 				"dig_foundation": "gräbt ein Fundament",
 				"unit_hold_location": "verteidigt Position",
-				"execute_conversation": "ist gesellig",
+            			"talk": "spricht mit [name(data.target)]",
 				"incapacitated": "ist lahmgelegt",
 				"rescue_citizen": "rettet [name(data.target)]",
 				"recuperating": "erholt sich"
@@ -88,17 +88,19 @@
 				"terrain_xray_vision_full": "voll"
 			},
 			"promotion_tree": {
-				"title": "Wähle eine Arbeit",
-				"promotion_title": "Ernennung zum [str(job_name)]",
-				"text_1": "Zu Ehren der unerschütterlichen Anstrengungen und Widerstandsfähigkeit ernennen wir hiermit",
+				"title": "Ändere die Arbeit -",
+				"promotion_title": "Ernenne zum [str(job_name)]",
+				"text_1": "Zu Ehren der unerschütterlichen Anstrengungen und Widerstandsfähigkeit ernennen wir hiermit: ",
+            "text_current": "Das ist des Heathlings aktueller Job",
 				"choose": "Wähle einen Heartling...",
-				"text_2": "Am heutigen Tage des, [str(date)]",
+				"text_2": "[str(date)]",
 				"approve": "GENEHMIGEN",
 				"approved": "GENEHMIGT",
 				"denied": "ABGELEHNT! Anforderungen nicht erfüllt",
 				"stamper_top_text": "KLICKE ZUM",
 				"stamper_bottom_text": "GENEHMIGEN",
-				"requires": "Anforderung"
+				"requires": "Anforderung",
+            "parent_level": "Ein Level [str(parent_level)] [str(parent_name)]"
 			},
 			"people_picker": {
 				"title": "Wähle einen Hearthling",
@@ -122,7 +124,7 @@
 				"max_level": "Maximal",
             "no_levels": "Kein Lvl Up",
             "level_text": "Level ",
-            "level_abbreviation": "Lvl",
+            "level_abbreviation": "Lvl ",
 				"locked_status": " (gesperrt)",
 				"apprentice": "Auszubildender",
 				"journal": "Tagebuch",
@@ -140,7 +142,8 @@
 				"defense_abbreviation": "Ver",
 				"backpack_tab_name": "Rucksack",
 				"journal_no_entries": "keine Einträge",
-				"retired": "Ruhestand nach:"
+				"retired": "Ruhestand nach:",
+            "traits": "Wesenszüge"
          },
          "pet_character_sheet": {
 				"title": "Haustier Info",
@@ -205,7 +208,9 @@
 				"remove": "Löschen",
 				"input_text_tooltip": "Klicke zum bearbeiten",
 				"days": "T",
-				"hours": "S"
+				"hours": "S",
+            "the": "der/die/das/den",
+            "empty_string": ""
 			},
 			"party": {
 				"title": "Gruppen",
@@ -272,9 +277,10 @@
 					"mine": "Bergbau",
 					"job": "Job",
 					"current_activity": "Momentane Tätigkeit",
-					"status": "Status"
+					"status": "Status",
+               "morale": "Moral"
 				},
-				"show_character_sheet": "Mehr Informationen",
+				"show_character_sheet": "Charakterblatt",
 				"button_suspend": "Anhalten",
 				"button_resume": "Weiter",
 				"tab": {
@@ -311,6 +317,7 @@
 				},
 				"month_format": "i18n(stonehearth:ui.game.calendar.months.[str(date.month)])",
 				"date_format_long": "Tag [str(date.day)] von i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)]",
+            "date_format_long_ordinal": "Tag [str(date.day)] von i18n(stonehearth:ui.game.calendar.month_format) [str(date.year)]",
 				"date_time_long_format": "Tag [str(date.day)] von i18n(stonehearth:ui.game.calendar.month_format), [str(date.year)], [str(date.time)]",
 				"date_format_short": "i18n(stonehearth:ui.game.calendar.month_format), [str(date.day)]"
 			},
@@ -369,10 +376,14 @@
 				"imminent_death_notification": "[name(i18n_data.citizen)] hat nur noch sehr wenig Gesundheit!",
             "starving_notification": "[name(i18n_data.citizen)] ist am Verhungern!",
             "health_status_normal": "Normal",
-            "health": "HP"
-			},
-			"menu": {
-				"town_menu": {
+            "health": "HP",
+            "gender": {
+               "male": "Männlich",
+               "female": "Weiblich"
+            }
+         },
+         "menu": {
+            "town_menu": {
 					"display_name": "Stadtübersicht",
 					"description": "Allgemeine Infos über deine Stadt, den Reichtum und wie sich deine Hearthlings fühlen."
 				},
@@ -404,7 +415,7 @@
 						},
 						"loot_item": {
 							"display_name": "Plündern",
-							"description": "Stehle Objekte von anderen Spielern.",
+							"description": "Stiehl Objekte von Gegnern.",
 							"tip_title": "Klicke und zieh um Objekte zu stehlen",
 							"tip_description": "Rechtsklick um diesen Modus zu verlassen"
 						},
@@ -732,6 +743,7 @@
 						"cottage_for_two": "Hütte für zwei",
 						"shared_sleeping_quarters": "geteilte Schlafquatiere",
 						"dining_hall": "Speisesaal",
+                  "herbalist_house": "Kräuterarzthaus",
 						"little_clay_house": "Kleines Lehmhaus",
 						"clay_house_for_two": "Lehmhaus für zweei",
 						"clay_dining_room": "Lehmspeisaal",
@@ -892,7 +904,7 @@
 						"tooltip_trophy": "Trophäen",
 						"tooltip_raw_food": "Rohes Essen",
 						"tooltip_prepared_food": "Gekochtes Essen",
-						"tooltip_cooking_ingredients": "Kochzutaten und Tierfutter ",
+						"tooltip_cooking_ingredients": "Kochzutaten und Tierfutter",
 						"tooltip_consumables": "Heilgegenstände und andere Konsumgüter"
 					}
 				}
@@ -1051,8 +1063,19 @@
 					"045": "[Sorry vom Hamster gefressen]",
 					"046": "LANGWEILIG!!!!",
 					"047": "Bin ich schon drinnen?...",
-					"048": "Wieso lädt das so lange?"
-            },
+					"048": "Wieso lädt das so lange?",
+					"049": "Klone Hearthlinge....",
+					"050": "Untersuche deutsche Sprache.... ERROR!",
+					"051": "Was ist das für ein Balken?...",
+					"052": "Ähmm warum ist hier alles auf Deutsch...",
+					"053": "Ich kann dich sehen O.o",
+					"054": "Wiese wird gemäht ... AHHH NEINNN!",
+					"055": "Wartezeit? Einmal Bratwurst mit Pommes bitte!...",
+					"056": "... Sie haben keine neuen Nachrichten ...",
+					"057": "Es war einmal...",
+					"058": "IQ wird resetet...",
+					"059": "Steine werden bemalt"
+			            },
             "tips": {
 					"000": "Sollten deine Arbeiter in einer Mine feststecken, bau eine Leiter um Sie zu befreien!",
 					"001": "Deine Siedler schlafen besser, wenn du Ihnen für die Nächte Betten bereitstellst.",
@@ -1067,7 +1090,7 @@
 					"010": "Schäfer suchen automatisch Tiere zum füllen der Weide.",
 					"011": "Wenn du einen höheren Stadtwert möchtest, versuch Waren an einen Händler für Gold zu verkaufen.",
 					"012": "Ressourcen und Lebensmittel tragen nicht zum Stadtwert bei.",
-					"013": "Der Neugierattribut erhöht den Erfahrungsgewinn .",
+					"013": "Der Neugierattribut erhöht den Erfahrungsgewinn.",
 					"014": "Feine Waren haben einen höheren Stadtwert als die normalen Versionen.",
 					"015": "Der Stadtwert einer Ware ist sein Verkaufswert.",
 					"016": "Du kannst eine Tunneltür verwenden, um deine Tunneleingänge zu blockieren.",
@@ -1078,13 +1101,13 @@
 					"021": "Du kannst den Job einer Kampfeinheit im Einwohnermenü sperren und Ihn somit zu einer Rast vom Kämpfen zwingen.",
 					"022": "Dreck abzubauen bringt gelegentlich Ton und Stein.",
 					"023": "Du kannst Erzadern in den Seite der Berge sehen.",
-					"024": "Brauchst du eine Startnahrungsquelle? Bewegen Beerensträucher oder Feigenkaktus näher an deine Stadt.",
-					"025": "Nach dem Besiegen des Goblin Häuptling - kannst du Bluebell das Schaf für dich beanspruchen.",
+					"024": "Brauchst du eine Startnahrungsquelle? Bewegen Beerensträucher oder Feigenkaktuse näher an deine Stadt.",
+					"025": "Nach dem Besiegen des Goblinhäuptling - kannst du 'Bluebell das Schaf' für dich beanspruchen.",
 					"026": "Deine Hearthlinge mögen es nicht zu lange in engen Räumen zu sein.",
 					"027": "Nutztiere können sich vermehren, wenn mindestens zwei derselben Tierart in einem Gehege sind.",
 					"028": "Aktuell habe ich bis heute - 19.06.16 - 26537 Zeilen bzw. 57874 Wörter für diese Mod übersetzt xD"
             }
-         },
+         }, 
          "select_settlement": {
 				"title": "Klicke auf die Karte um deinen Startort zu wählen",
 				"loading": "Lade",
@@ -1267,13 +1290,20 @@
          },
          "select_roster": {
             "reroll_citizens": "Rolle neue Hearthlinge",
-            "citizen_info": "Expeditionsliste",
+            "citizen_info": "Passe deine Gruppe an",
             "accept_roster": "Akzeptiere Liste",
-            "randomize": "Zufällig",
+            "randomize": "Zufälliges Aussehen ",
             "hair_style": "Haarstil",
             "skin_color": "Hautfarbe",
-            "facial_hair": "Bartfarbe",
-            "hair_color": "Haarfarbe"
+            "luxury": "Schmuck",
+            "head_hair": "Haartyp",
+            "accessory": "Zubehör",
+            "eyebrows": "Augenbrauen",
+            "facial_hair": "Bartstil",
+            "hair_color": "Haarfarbe",
+            "name": "Name",
+            "name_and_appearance": "Name und Aussehen",
+            "appearance": "Aussehen"
          },
          "loadout": {
             "title": "Wähle die Startressource aus",
@@ -1443,7 +1473,33 @@
 				"glum": {
 					"display_name": "Trübsinnig",
 					"town_description": "Deine Einwohner fühlen sich insgesamt nicht gut."
-				}
+            },
+            "exp_bar": {
+               "description": "Dieses Hearthlings Fortschritt zum nächsten Level."
+            },
+            "health_status": {
+               "description": "Dieses Hearthlings aktueller Gesundheitsstatus."
+            },
+            "suspend_button": {
+               "description": "Pausieren oder Fortsetzen eines Arbeitstyps"
+            },
+            "current_gender": {
+               "display_name": "Geschlecht",
+               "description": "Dieser Hearthling identifiziert sich als [str(gender)]."
+            },
+            "change_gender": {
+               "display_name": "Geschlecht",
+               "description": "Klicke hier, um das Geschlecht des Hearthlings zu [str(gender)] zu ändern."
+            },
+            "customization_lock": {
+               "description": "Dieses Hearthling's [str(customization)] wird während des Wesenszugs- und Fähigkeiten neurollens gespeichert."
+            },
+            "customization_lock_all": {
+               "description": "Hier klicken, um alle Namen- und Aussehensoptionen zu sperren."
+            },
+            "customization_unlock_all": {
+               "description": "Hier klicken, um alle Namen- und Aussehensoptionen zu entsperren."
+            }
 			},
 			"constants": {
 				"food_meat_raw_name": "Rohes Fleisch",
@@ -1495,10 +1551,12 @@
 					"000": " in die Wüste von Pal'Mum"
 				},
 				"sandy_poyo": {
-					"display_name": "Wüstenpoyo"
+					"display_name": "Sandpoyo",
+               "species": "Poyo"
 				},
 				"fennec_fox": {
-					"display_name": "Fennec Fox"
+					"display_name": "Wüstenfuchs",
+               "species": "Fuchs"
 				}
 			}
 		},
@@ -1917,7 +1975,7 @@
 							"dialog_nodes": {
 								"msg1": {
 									"choice_000": "Gott sei Dank!",
-									"choice_001": "(gute Befreiung)",
+									"choice_001": "Endlich Ruhe!",
 									"bulletin_message": {
 										"000": "Gute Nachrichten für euch, erbärmliche Menschen! Ogo Skullbonker, Chef des Chiefs-Zu-Ist, ruft uns nach Hause zu treffen Clan-Treffen. War Spaß euch abzuhängen mit! Vielleicht sagen wir Freunden, bald wieder zurück für mehr Spaß euer Zeug nehmen!",
 										"001": "Menschen keine Herausforderung. So traurig. Wir hofften rückkehr zu Heimat von Chief-of-Chiefs, Ogo Skullbonker, mit Geschichte unserer Herrlichkeit, aber es gibt keine Ehre in dem Sieg über Euch. Vielleicht wir kommen zurück, wenn Du stärker.",
@@ -3001,7 +3059,7 @@
 													"bulletin_message": {
 														"00": "Nicht arrogant sein, mickrige Menschen! Brüder aus Capitol warten Ihre Macht zu testen. Jede Stadt mit Elite Gong wird nicht unbeachtet sein."
 													},
-													"bulletin_title": "The Ogerchef shakes his fist angrily",
+													"bulletin_title": "Der Ogerchef schüttelt wütend seine Faust",
 													"dialog_title": "Chef Grut Bashbrain"
 												}
 											}
@@ -3045,7 +3103,7 @@
 													},
 													"bulletin_title": "Orktruppen",
 													"dialog_title": "Orktruppen",
-													"choice_000": "Bye"
+													"choice_000": "Tschüß"
 												},
 												"msg1": {
 													"bulletin_message": {
@@ -3523,12 +3581,12 @@
 				"description": "Stellt das Terrain wieder in den ursprünglichen Zustand zurück."
 			},
 			"show_workshop": {
-				"display_name": "Zeige Werkbank",
+				"display_name": "Werkbank",
 				"description": "Dein Handwerker benutzt diese Werkbank um nützliche Gegenstände für deine Siedlung zu bauen.",
 				"disabled_description": "Dein Handwerker benutzt diese Werkbank um nützliche Gegenstände für deine Siedlung zu bauen. Bevor du etwas herstellen kannst, musst du ein Handwerker dieser Werkbank zuweisen."
 			},
 			"show_workshop_from_crafter": {
-				"display_name": "Zeige Werkbank",
+				"display_name": "Werkbank",
 				"description": "Dein Handwerker benutzt diese Werkbank um nützliche Gegenstände für deine Siedlung zu bauen.",
 				"disabled_description": "Dein Handwerker benutzt diese Werkbank um nützliche Gegenstände für deine Siedlung zu bauen."
 			},
@@ -4641,6 +4699,13 @@
          "coming_soon": "Kommt bald"
       },
       "traits": {
+         "animal_companion": {
+            "animal_companion_trait": {
+               "display_name": "Tierbegleiter",
+               "description": "Seitdem [name(i18n_data.savior)] [str(i18n_data.maybe_determiner)] das/den [str(i18n_data.maybe_savior_species), vor einer tödlichen Gefahr gerettet hat, [str(i18n_data.savee_species)], [name(i18n_data.savee)], from mortal  sind sie untrennbar miteinander verbunden.",
+               "default_species": "Begleiter"
+            }
+         },
          "herbivore": {
             "herbivore_trait": {
                "display_name": "Pflanzenfresser",
@@ -4683,11 +4748,10 @@
                "description": "[name(i18n_data.entity)] liebt es Sachen für andere herzustellen. Wenn Er/Sie nicht mindestens eine Sache am Tag herstellt, ist der Tag für Sie verschwendet."
             }
          },
-
          "professor": {
             "professor_trait": {
                "display_name": "Professor",
-               "description": "[name(i18n_data.entity)] berät immer gerne andere auf der Grundlage Ihrer Beobachtungen, ob der Empfänger es will oder nicht."
+               "description": "[name(i18n_data.entity)] wird den Heathlingen helfen Erfahrungen in den Grundlagen ihrer Klassen zu erlangen, aber ihre Erklärungen neigen dazu, ein bisschen ... langweilig zu sein."
             }
          },
          "featherweight": {
@@ -4741,7 +4805,43 @@
          "cultist": {
             "cultist_trait": {
                "display_name": "Kultist",
-               "description": "Dieser Hearthöing murmelt über irgendeine Art von geheimen \"Hasengott\", der ewig schläft. Um was es da wohl geht?"
+               "description": "Dieser Hearthling murmelt über irgendeine Art von geheimen \"Hasengott\", der ewig schläft. Um was es da wohl geht?"
+            }
+         },
+         "jokester": {
+            "jokester_trait": {
+               "display_name": "Witzbold",
+               "description": "[name(i18n_data.entity)] liebt es Witze zu erzählen. Ob Sie gut sing? Es ist schwer zu sagen, aber andere scheinen Sie oft mit einem Lächeln zu verlassen."
+            }
+         },
+         "charismatic": {
+            "charismatic_trait": {
+               "display_name": "Charismatisch",
+               "description": "Wenn [name(i18n_data.entity)] einen Raum betrifft, nehmen die Leute Notiz davon."
+            }
+         },
+         "gregarious": {
+            "gregarious_trait": {
+               "display_name": "Gesellig",
+               "description": "[name(i18n_data.entity)] liebt es mit anderen zu interagieren, aber wird ziemlich schnell einsam."
+            }
+         },
+         "loner": {
+            "loner_trait": {
+               "display_name": "Einzelgänger",
+               "description": "[name(i18n_data.entity)] kümmert sich nicht wirklich um die Gesellschaft anderer. Einzelgänger ziehen es vor mit sich selbst zu sein."
+            }
+         },
+         "empathetic": {
+            "empathetic_trait": {
+               "display_name": "Empathetic",
+               "description": "[name(i18n_data.entity)] ist sehr empfindlich auf die Stimmung der Stadt, und scheint sich immer an dieser sich zu reiben."
+            }
+         },
+         "opinionated": {
+            "opinionated_trait": {
+               "display_name": "Rechthaberisch",
+               "description": "[name(i18n_data.entity)] hat eine Meinung über alles und jeden, und ist nicht schüchtern sie zu teilen."
             }
          }
       },
@@ -4916,13 +5016,17 @@
 				"combat": {
 					"values": {
 						"panicked": {
-							"display_name": "Um sein Leben gefürchtet",
+							"display_name": "Um mein Leben gefürchtet",
 							"tooltip": "Ich bin nicht stolz darauf, wie ich gehandelt habe als die Monster kamen, aber es ist alles was ich denken konnte."
 						}
 					}
 				},
             "traits": {
                "values": {
+                  "misses_pet": {
+                     "display_name": "Vermisster Begleiter",
+                     "tooltip": "Obwohl es schon eine Weile tot ist, bemerke ich das ich immer noch ab und zu nach meinem Haustier [str(pet_name)] suche."
+                  },
                   "plant_lover": {
                      "display_name": "Pflanzenliebhaber",
                      "tooltip": "Jedes Mal, wenn ich mit Pflanzen interagiere, fühle ich mich etwas ruhiger."
@@ -4938,6 +5042,54 @@
                   "protected_the_town": {
                      "display_name": "Geschützte Stadt",
                      "tooltip": "Wir haben vor kurzem eine Gruppe von Feinde abgewehrt, das hat mein Blut in Wallung gebracht!"
+                  },
+                  "loves_their_job": {
+                     "display_name": "Liebt den  Job",
+                     "tooltip": "Das ist der perfekte Job für mich! Ich liebe was ich Tag für Tag tue."
+                  },
+                  "inspired": {
+                     "display_name": "Inspiriert",
+                     "tooltip": "[str(target_name)] ist heute gut gelaunt. Seine/Ihre Nähe ist wirklich angenehm!"
+                  },
+                  "discouraged": {
+                     "display_name": "Entmutigt",
+                     "tooltip": "Sheesh, [str(target_name)] macht keinen Spaß, wenn Er/Sie schlecht gelaunt ist."
+                  }
+               },
+               "gregarious": {
+                  "values": {
+                     "lonely": {
+                        "display_name": "Einsam",
+                        "tooltip": "Es ist schon eine Weile her, seit ich mit jemandem gesprochen habe. Ich muss wirklich ein paar Sachen los werden."
+                     },
+                     "enjoys_company": {
+                        "display_name": "Genießt die Gesellschaft von anderen",
+                        "tooltip": "Es ist immer toll, einige Zeit mit meinen Mitbürgern zu verbringen."
+                     }
+                  }
+               },
+               "loner": {
+                  "values": {
+                     "annoyed_with_others": {
+                        "display_name": "Verärgert mit anderen",
+                        "tooltip": "Warum reden diese Leute mit mir? Es lenkt mich ab von dem was wichtig ist."
+                     },
+                     "alone_with_thoughts": {
+                        "display_name": "Allein mit meinen eigenen Gedanken",
+                        "tooltip": "Von den anderen weg zu sein, hat mir die Zeit gegeben zu reflektieren und meinen Kopf frei zu bekommen."
+                     }
+                  }
+               },
+               "empathetic": {
+                  "values": {
+                     "everyone_worse_off": {
+                        "display_name": "Jeder scheint schlecht gelaunt zu sein",
+                        "tooltip": "Alle anderen in schlechter Laune zu sehen, zieht mich einfach runter."
+                     },
+                     "everyone_happier": {
+                        "display_name": "Jeder scheint glücklich zu sein",
+                        "tooltip": "Jeder andere scheint in einer besseren Stimmung zu sein als ich. Vielleicht sollte ich die Dinge anders betrachten."
+                     }
                   }
                }
             },
@@ -4950,7 +5102,47 @@
 						"pet_died": {
 							"display_name": "Mein Haustier starb",
 							"tooltip": "Mein(e) arme(r) [str(pet_name] starb vor kurzem. Ich werde Sie/Ihn sehr vermissen."
+                  }
+               }
+            },
+            "job": {
+               "values": {
+                  "gained_a_level": {
+                     "display_name": "Meine Fähigkeiten verbessert",
+                     "tooltip": "Ich bin lange genug in diesem Job um neue Einblick zu haben! Ich kann fühlen wie ich besser werde."
+                  }
+               }
+            },
+            "social": {
+               "values": {
+                  "unpleasant_talk": {
+                     "display_name": "Hatte ein unangenehmes Gespräch",
+                     "tooltip": "Ich kann nicht glauben das [str(target_name)] das gesagt hat!"
+                  },
+                  "great_talk": {
+                     "display_name": "Hatte ein tolles Gespräch",
+                     "tooltip": "Das heutige Gespräch mit [str(target_name)] war sehr nett ."
+                  },
+                  "great_joke": {
+                     "display_name": "Hörte einen großartigen Witz",
+                     "tooltip": "Hahaha, wenn ich nur an den Witz denke den mir [str(target_name)] erzählt hat, lach ich mich tot!"
+                  },
+                  "tough_crowd": {
+                     "display_name": "Schwieriges Publikum",
+                     "tooltip": "[str(target_name)] Lachte nicht über meinen Witz. War er wirklich so schlimm?"
 						}
+               },
+               "animal": {
+                  "values": {
+                     "nuzzled": {
+                        "display_name": "Beschnüffelt",
+                        "tooltip": "Awww, mein Haustier [str(target_name)] schafft es immer mich aufzumuntern."
+                     },
+                     "booped": {
+                        "display_name": "Vollgekackt",
+                        "tooltip": "Ein süßes/süßer [str(species)] hat mich heute vollgekackt. Es gibt mir ein warmes und wunscheliges Gefühl."
+                     }
+                  }
 					}
 				}
 			}
@@ -5504,28 +5696,32 @@
 				"young": {
 					"display_name": "Poyo-Küken",
 					"description": "Peep Peep!"
-				}
+				},
+            "species": "Poyo"
 			},
 			"rabbit": {
 				"display_name": "Hase",
 				"description": "Om nom nom",
 				"rabbit_jerky": {
 					"display_name": "Hasendörrfleisch"
-				}
+				},
+            "species": "Hase"
 			},
 			"racoon": {
 				"display_name": "Waschbär",
 				"description": "Kleine Waldkreatur",
 				"racoon_jerky": {
 					"display_name": "Waschbärdörrfleisch"
-				}
+				},
+            "species": "Waschbär"
 			},
 			"red_fox": {
 				"display_name": "Fuchs",
 				"description": "Kleine Waldkreatur",
 				"red_fox_jerky": {
 					"display_name": "Fuchsdörrfleisch"
-				}
+				},
+            "species": "Fuchs"
 			},
 			"sheep": {
 				"display_name": "Ein Schaf",
@@ -5535,22 +5731,26 @@
 					"display_name": "Ein Lamm",
 					"description": "Awww!"
 				},
-				"renewable_harvest_status_text": "Schaf scheren"
+				"renewable_harvest_status_text": "Schaf scheren",
+            "species": "Schaf"
 			},
 			"squirrel": {
 				"display_name": "Eichhörnchen",
 				"description": "Kleine Waldkreatur",
 				"squirrel_jerky": {
 					"display_name": "Eichhörnchendörrfleisch"
-				}
+				},
+            "species": "Eichhörnchen"
 			},
 			"wolf": {
 				"display_name": "Ein Wolf",
-				"description": "Grrr! Rwar!!!"
+				"description": "Grrr! Rwar!!!",
+            "species": "Wolf"
 			},
 			"woodchuck": {
 				"display_name": "Murmeltier",
-				"description": "Ein unersättlicher Esser von fast allem, vor allem Holzblöcken."
+				"description": "Ein unersättlicher Esser von fast allem, vor allem Holzblöcken.",
+            "species": "Murmeltier"
 			}
 		},
 		"crops": {
@@ -6601,7 +6801,7 @@
 					"description": "Zart gebraten bis zur Perfektion"
 				},
 				"roast_mutton_serving": {
-					"display_name": "Geröstetes Gestell mit Hammelfleisches"
+					"display_name": "Geröstetes Hammelfleisches"
 				}
 			},
 			"donation_box": {
@@ -7112,29 +7312,38 @@
 				"mammoth": {
 					"display_name": "Mammut",
 					"description": "Große wollige Bestie"
-				}
-			}
-		},
-		"pets": {
-			"collie": {
-				"display_name": "Collie",
-				"description": "So brav!"
-			},
-			"dragon_whelp": {
+            }
+         }
+      },
+      "peoples": {
+         "hearthling": {
+            "species": "Hearthling"
+         }
+      },
+      "pets": {
+         "collie": {
+            "display_name": "Collie",
+	    "description": "So brav!",
+            "species": "Hund"
+         },
+         "dragon_whelp": {
 				"display_name": "Drachenwelpe",
-				"description": "Ein Babydrache"
-			},
-			"kitten": {
+				"description": "Ein Babydrache",
+            "species": "Drachen"
+         },
+         "kitten": {
 				"display_name": "Kätzchen",
-				"description": "Es ist so SÜß!!!"
-			},
-			"mammoth": {
-				"display_name": "Babymammut",
-				"description": "So pelzig!"
-			}
-		},
-		"plants": {
-			"berry_bush": {
+				"description": "Es ist so SÜß!!!",
+            "species": "Katze"
+         },
+         "mammoth": {
+            "display_name": "Babymammut",
+	    "description": "So pelzig!",
+            "species": "Mammut"
+         }
+      },
+      "plants": {
+         "berry_bush": {
 				"display_name": "Beeriger Busch",
 				"description": "Erntbar für eine magere Lebensmittelversorgung.",
 				"unripe_description": "Noch nicht bereit zum Ernten."
@@ -7740,7 +7949,7 @@
 			},
 			"wooden_sword": {
 				"display_name": "Holzschwert",
-				"description": "Streicheln Sie Ihre Feinde mit eichener Macht",
+				"description": "Streichele deine Feinde mit eichener Macht",
 				"wooden_sword_iconic": {
 					"display_name": "Holzschwert",
 					"description": "Einfaches Holzschwert."
@@ -7841,51 +8050,51 @@
 			"seeds": {
 				"turnip_seeds": {
 					"display_name": "Rübensamen",
-					"description": "Lernen Sie die mächtige Rübe anzubauen."
+					"description": "Lerne die mächtige Rübe anzubauen."
 				},
 				"carrot_seeds": {
 					"display_name": "Karottensamen",
-					"description": "Lernen Sie Karotten anzubauen."
+					"description": "Lerne Karotten anzubauen."
 				},
 				"pumpkin_seeds": {
 					"display_name": "Kürbissamen",
-					"description": "Lernen Sie Kürbisse anzubauen."
+					"description": "Lerne Kürbisse anzubauen."
 				},
 				"golden_gourd_seeds": {
 					"display_name": "Goldener Kürbissamen",
-					"description": "Lernen Sie goldene Kürbisse anzubauen."
+					"description": "Lerne goldene Kürbisse anzubauen."
 				},
 				"watermelon_seeds": {
 					"display_name": "Wassermelonensamen",
-					"description": "Lernen Sie köstliche Melonen anzubauen."
+					"description": "Lerne köstliche Melonen anzubauen."
 				},
 				"cactus_flower_seeds": {
 					"display_name": "Kaktus-Blumensamen ",
-					"description": "Lernen Sie köstliche und stachelige Blumen anzubauen."
+					"description": "Lerne köstliche und stachelige Blumen anzubauen."
 				},
 				"acacia_tree_seeds": {
 					"display_name": "Akaziensamen",
-					"description": "Lernen Sie Akazien anzubauen."
+					"description": "Lerne Akazien anzubauen."
 				},
 				"oak_tree_seeds": {
 					"display_name": "Eicheln",
-					"description": "Lernen Sie Eichen anzubauen."
+					"description": "Lerne Eichen anzubauen."
 				},
 				"brightbell_seeds": {
 					"display_name": "Glockenblumensamen",
-					"description": "Lernen Sie Glockenblumen anzubauen."
+					"description": "Lerne Glockenblumen anzubauen."
 				},
 				"frostsnap_seeds": {
 					"display_name": "Eisblumensamen",
-					"description": "Lernen Sie Eisblumen anzubauen."
+					"description": "Lerne Eisblumen anzubauen."
 				},
 				"wheat_seeds": {
 					"display_name": "Weizenkörner",
-					"description": "Lernen Sie Weizen anzubauen."
+					"description": "Lerne Weizen anzubauen."
 				},
 				"silkweed_seeds": {
 					"display_name": "Seidenpflanzensamen",
-					"description": "Lernen Sie Seidenpflanzen anzubauen."
+					"description": "Lerne Seidenpflanzen anzubauen."
 				}
 			}
 		},
@@ -7929,7 +8138,7 @@
 			"archer_description": {
 				"display_name": "Bogenschütze",
 				"description": "Eine Fernkampfeinheit, die Feinde mit Pfeilen beschießt",
-				"requirements": "Ein Level 3 Fußsoldat und ein Bogenschützenbogen, hergestellt vom Zimmermann",
+				"requirements": "Wird hergestellt vom Schreiner",
 				"level_1_data": {
 					"perk_000_name": "Erhöhte Zugkraft",
 					"perk_000_description": "Der Schaden des Bogenschützen wird erhöht"
@@ -7985,7 +8194,7 @@
 				},
 				"level_1_data": {
 					"perk_000_name": "Erhaltung des Materials",
-					"perk_000_description": "Sie haben eine Chance das jede Herstellung einen Stapel Baumaterial nicht verbrauchen."
+					"perk_000_description": "Du hast eine Chance das jede Herstellung einen Stapel Baumaterial weniger verbraucht."
             }
          }
       },
@@ -8007,7 +8216,7 @@
          "blacksmith_description": {
 				"display_name": "Schmied",
 				"description": "Der Schmied veredelt rohe Erz in Metallbaren und verwendet diese Baren um Waffen, Rüstungen und Bauteile wie Tore herzustellen.",
-				"requirements": "Der Schmiedehammer, wird von dem Steinmetz hergestellt.",
+				"requirements": "Wird hergestellt vom Steinmetz",
 				"level_6_data": {
 					"title": "Meisterschmied",
 					"perk_000_name": "Die Waffenkammer",
@@ -8264,7 +8473,7 @@
 			"carpenter_description": {
 				"display_name": "Schreiner",
 				"description": "Der Schreiner fertigt Werkzeuge und Möbel aus Holz. Die Werkzeuge die er herstellt schalten neue Jobs frei.",
-				"requirements": "Schreinersäge, wird von dem Schmied hergestellt.",
+				"requirements": "Wird hergestellt vom Schmied",
 				"level_6_data": {
 					"title": "Meisterschreiner",
 					"perk_000_name": "10,000 Stunden",
@@ -8329,7 +8538,7 @@
 				"comfy_chair_recipe": {
 					"description": "Sein gepolsterter Sitz garantiert eine 98 % Verringerung von unangenehmen Splittern!",
 					"recipe_name": "Komfortabler Stuhl",
-					"flavor": "Wenn Kopfkissen gut für den Kopf sind, sollten Sie doch noch besser für Hintern und Rücken sein!"
+					"flavor": "Wenn Kopfkissen gut für den Kopf sind, sollten Sie doch noch besser für den Hintern und den Rücken sein!"
 				},
 				"dining_table_recipe": {
 					"description": "Ermöglicht es einer Gruppe von Personen zusammen zu essen. Wie Erwachsene",
@@ -8349,7 +8558,7 @@
 				"large_crate_recipe": {
 					"description": "Für kompakte Speicherung von bis zu 32 Artikel",
 					"recipe_name": "Große Kiste",
-					"flavor": "Wenn Kisten alles lagern, was nicht gelagert werden kann, lagern Sie sich selbst?"
+					"flavor": "Wenn Kisten alles lagern, was nicht gelagert werden kann, lagern Sie sich dann selbst?"
 				},
 				"leather_bound_chest_recipe": {
 					"description": "Stilvolles speichern von bis zu 64 Artikeln",
@@ -8400,7 +8609,7 @@
 				"small_crate_recipe": {
 					"description": "Für kompakte Speicherung von bis zu 8 Artikel",
 					"recipe_name": "Kleine Kiste",
-					"flavor": "Wenn Kisten alles lagern, was nicht gelagert werden kann, lagern Sie sich selbst?"
+					"flavor": "Wenn Kisten alles lagern, was nicht gelagert werden kann, lagern Sie dann sich selbst?"
 				},
 				"table_for_one_recipe": {
 					"description": "Besser als stehend zu essen. Es sei denn, Sie sehen Ihr Gewicht gerade.",
@@ -8558,7 +8767,7 @@
 				"blue_market_stall_recipe": {
 					"description": "Händler können diesen Stand besuchen, um Waren zu kaufen und zu verkaufen",
 					"recipe_name": "Blauer Marktstand ",
-					"flavor": "Aber wer sind diese Leute? Und wo kommen sie her?"
+					"flavor": "Aber wer sind diese Leute? Und wo kommen Sie her?"
 				},
 				"archer_bow_recipe": {
 					"recipe_name": "Bogenschützenbogen",
@@ -8589,7 +8798,7 @@
 			"cook_description": {
 				"display_name": "Koch",
 				"description": "Der Koch macht köstliche und herzhafte Gerichte auf Basis von Gemüse und Fleisch.",
-				"requirements": "Ein Level 2 Farmer und ein Kochlöffel, wird hergestellt vom Steinmetz.",
+				"requirements": "Wird hergestellt vom Steinmetz",
 				"workshop": {
 					"name": "Steinkessel",
 					"long_description": "Gigantischer schwerer Topf, geeignet für das Kochen von einem Fest nach dem anderen!"
@@ -8718,7 +8927,7 @@
 				},
 				"decoration_name": "Dekorationen",
 				"roast_mutton_recipe": {
-					"recipe_name": "Geröstetes Gestell mit Hammelfleisches",
+					"recipe_name": "Geröstetes Hammelfleisches",
 					"description": "Nahrhaft und köstlich"
 				},
 				"donation_box_recipe": {
@@ -8749,7 +8958,7 @@
 			"engineer_description": {
 				"display_name": "Ingenieur",
 				"description": "Der Ingenieur erschafft erweiterte Apparaturen und Verteidigungswaffen .",
-				"requirements": "Ein Level 1Schmied und eine Schraubenschlüssel, hergestellt vom Schmied.",
+				"requirements": "Wird hergestellt vom Schmied",
 				"level_6_data": {
 					"title": "Meisteringenieur",
 					"perk_000_name": "General der Verteidigung",
@@ -8818,7 +9027,7 @@
 					"flavor": "Nicht für den Einsatz als Wurfstern geeignet"
 				},
 				"clamp_trap_recipe": {
-					"description": "Schädigt und betäubt Feinde kurz, die auf sie treten",
+					"description": "Schädigt und betäubt Feinde kurz, wenn Sie auf Sie treten",
 					"recipe_name": "Klemm Falle"
 				},
 				"ranged_weapons_name": "Schusswaffen ",
@@ -8826,7 +9035,7 @@
 				"turnip_shooter_recipe": {
 					"description": "Schießt Rüben, aus kurzem Abstand, auf Feinde. Muss nach 15 Anwendungen repariert werden.",
 					"recipe_name": "Rübenschütze",
-					"flavor": "Du magst den Geschmack von Rüben nicht? Keine Sorge sie sind Multifunktional!"
+					"flavor": "Du magst den Geschmack von Rüben nicht? Keine Sorge Sie sind Multifunktional!"
 				},
 				"critter_trap_recipe": {
 					"description": "Gibt eine kleine Menge an Schaden und betäubt Feinde kurz.",
@@ -8858,7 +9067,7 @@
 			"farmer_description": {
 				"display_name": "Farmer",
 				"description": "Farmer erstellen und ernten Felder. Sie sind eine konstante Quelle für Nahrungsmittel und Rohstoffen.",
-				"requirements": "Die Hacke, wird von dem Schreiner hergestellt.",
+				"requirements": "Wird hergestellt vom Schreiner",
 				"level_6_data": {
 					"perk_000_name": "Naturs Überraschung (nicht implementiert)",
 					"perk_000_description": "Gelegentlich ergeben sich, durch die besondere Note des Farmers, ganz spezielle Ergebnisse.",
@@ -8908,7 +9117,7 @@
 			"footman_description": {
 				"display_name": "Fußsoldat",
 				"description": "Der Fußsoldat ist ein Nahkämpfer. Eine gute Wahl als Rückgrat Ihrer Stadtverteidigung.",
-				"requirements": "Holzschwert, wird von dem Schreiner hergestellt.",
+				"requirements": "Wird hergestellt vom Schreiner",
 				"level_4_data": {
 					"perk_000_name": "Schaden plus 40%",
 					"perk_000_description": "Der Fußsoldat ist jetzt erfahren genug um mit jedem Schlag die optimale Wirkung zu erzielen."
@@ -8974,7 +9183,7 @@
 			"mason_description": {
 				"display_name": "Steinmetz",
 				"description": "Der Steinmetz stellt Baustoffe und dekorative Gegenstände aus Stein her",
-				"requirements": "Steinmetz-Meißel, wird von dem Schreiner hergestellt.",
+				"requirements": "Wird hergestellt vom Schreiner",
 				"workshop": {
 					"name": "Steinmetz-Werkbank",
 					"description": "füge Beschreibung hier ein",
@@ -9174,7 +9383,7 @@
          "potter_description": {
 				"display_name": "Töpfer",
 				"description": "Macht nützliche Waren aus Ton.",
-				"requirements": "Ein Level 4 Steinmetz und ein Töpferschneider, wird vom Steinmetz hergestellt",
+				"requirements": "Wird hergestellt vom Steinmetz",
 				"workshop": {
 					"name": "Töpferscheibe",
 					"description": "füge Beschreibung hier ein",
@@ -9213,7 +9422,7 @@
 				"large_urn_recipe": {
 					"description": "Für kompakte Lagerung von bis zu 32 Waren",
 					"recipe_name": "Große Urne",
-					"flavor": "Sobald wir die Dinge hineintun, wie bekommen wir Sie wieder raus? Denk nicht zu viel darüber nach."
+					"flavor": "Sobald wir Dinge hineintun, wie bekommen wir Sie wieder raus? Denk lieber nicht zu viel darüber nach."
 				},
 				"clay_lamp_recipe": {
 					"description": "Ihre Flamme bringt ein warmes Glühen in der Nacht.",
@@ -9223,7 +9432,7 @@
 				"clay_wall_lamp_recipe": {
 					"description": "Ihre Flamme bringt ein warmes Glühen in der Nacht.",
 					"recipe_name": "Wandgebundene Lehm-Öllampe",
-					"flavor": "'Umschließt uns Ihr wachenden Geister der Nacht! Wenn Sie tanzen und schwanken, bist du frei das dunkle wegzuträumen.'"
+					"flavor": "'Umschließt uns Ihr wachenden Geister der Nacht! Wenn Sie tanzen und schwanken, bist du frei von dunklen Träumen.'"
 				},
 				"clay_tunnel_door_recipe": {
 					"recipe_name": "Lehmerne Tunneltür",
@@ -9311,12 +9520,12 @@
 				"decorative_teapot_recipe": {
 					"description": "Erinnerung an die bescheidenen Anfänge",
 					"recipe_name": "Dekorative Teekanne",
-					"flavor": "'Wo auch immer sie hinging, die Teekanne tat es auch, und selbst wenn da nichts als kaltes Wasser zum befüllen war, ergegossen sich immer dampfender Tee duftend nach dem dem Aroma von anderswo.'"
+					"flavor": "'Wo auch immer Sie hinging, die Teekanne tat es auch, und selbst wenn da nichts als kaltes Wasser zum befüllen war, ergoss sich immer dampfender Tee duftend nach dem dem Aroma von anderswo.'"
 				},
 				"decorative_tray_recipe": {
 					"description": "Fügt Funkeln und Gastlichkeit hinzu",
 					"recipe_name": "Dekorative Schale",
-					"flavor": "'Zucker, Gewürze und das Blut der Erde: Es ist die Schale das Sie und uns zusammenbringt' --Rayya"
+					"flavor": "'Zucker, Gewürze und das Blut der Erde: Es ist die Schale die Sie und uns zusammenbringt' --Rayya"
 				},
 				"potted_cactus_recipe": {
 					"description": "Pflanz einen Kaktus in einem Lehmgefäß.",
@@ -9421,7 +9630,7 @@
 			"shepherd_description": {
 				"display_name": "Schäfer",
 				"description": "Zähmt wilde Tiere und pflegt Sie für Lebensmittel und Materialien.",
-				"requirements": "Ein Level 2 des Trappers und einen Hirtenstab, von dem Schreiner hergestellt.",
+				"requirements": "Wird hergestellt vom Schreiner",
 				"level_4_data": {
 					"perk_000_name": "Tiermagnet",
 					"perk_000_description": "Wilde Tiere spawnen nun eher, wenn der Schäfer Sie sucht."
@@ -9470,7 +9679,7 @@
 			"trapper_description": {
 				"display_name": "Trapper",
 				"description": "Die Fallen des Trappers fangen und (ähem) &quot;ernten&quot; kleine Tiere für eine zuverlässige Quelle an Lebensmitteln und Vorräten.",
-				"requirements": "Trappermesser, wird von dem Steinmetz hergestellt.",
+				"requirements": "Wird hergestellt vom Steinmetz",
 				"level_1_data": {
 					"perk_000_name": "Schnelligkeit erhöht",
 					"perk_000_description": "Lange Spaziergänge haben die Geschwindkeit des Trappers erhöht."
@@ -9556,7 +9765,7 @@
          "weaver_description": {
 				"display_name": "Weber",
 				"description": "Der Weber macht Fäden, Stoffe und Vorhänge aus Fasern und Farben.",
-				"requirements": "Weberspindel, wird vom Schreiner hergestellt.",
+				"requirements": "Wird hergestellt vom Schreiner",
 				"level_6_data": {
 					"title": "Meisterweber",
 					"perk_000_name": "10,000 Stunden (nicht implementiert)",
@@ -9767,7 +9976,7 @@
 			"herbalist_description": {
 				"display_name": "Kräuterarzt",
 				"description": "Heilt Einheiten mit hergestellten Balsamen und Verbänden.",
-				"requirements": "Kräuterarztstab, wird vom Schreiner hergestellt.",
+				"requirements": "Wird hergestellt vom Schreiner",
 				"workshop": {
 					"name": "Käuterarzt-Labor",
 					"description": "Ermöglicht dem Kräuterarzt heilende Salben und Bandagen herzustellen.",
@@ -9881,7 +10090,7 @@
 			"cleric_description": {
 				"display_name": "Kleriker",
 				"description": "Ein kämpfender Heiler",
-				"requirements": "Ein Level 2 Kräuterarzt und ein Klerikerfoliant, hergetellt vom Kräuterarzt",
+				"requirements": "Wird hergetellt vom Kräuterarzt",
 				"level_0_data": {
 					"perk_000_name": "Heilende Aura",
 					"perk_000_description": "Die Anwesenheit des Kleriker heilt in regelmäßigen Abständen alle um Ihn herum"
@@ -10004,7 +10213,7 @@
 			"knight_description": {
 				"display_name": "Ritter",
 				"description": "Ein defensiver Kämpfer der sich auf den Schutz seiner Verbündete konzentriert.",
-				"requirements": "Erfordert einen Stufe 3 Fußsoldat und ein Ritterschild, von Schmied gefertigt",
+				"requirements": "Wird hergestellt vom Schmied",
 				"level_1_data": {
 					"perk_000_name": "Schadensreduzierung Rang 1",
 					"perk_000_description": "Der Ritter erhält zusätzliche 10% Verteidigung von seiner Ausrüstung"

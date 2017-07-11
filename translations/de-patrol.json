@@ -8,10 +8,19 @@
       }
    },
    "recipes": {
-      "patrol_point_recipe": {
+      "carpenter": {
+         "patrol_point_recipe": {
          "recipe_name" : "Patrouillenpunkt",
          "description" : "Lass deine Fußsoldaten patrollieren!",
          "flavor" : "Hiermit kannst du nun deine Fußsoldaten kontrollieren :D"
+         }
+      },
+      "potter": {
+         "patrol_point_recipe": {
+            "recipe_name" : "Patrouillenpunkt",
+            "description" : "ass deine Fußsoldaten patrollieren!",
+            "flavor" : "Hiermit kannst du nun deine Fußsoldaten kontrollieren :D"
+         }
       }
    }
 }

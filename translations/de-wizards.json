@@ -1,0 +1,282 @@
+{
+    "entities": {
+        "weapons": {
+            "ice_shot": {
+				"description": "Ein Stück Eis.",
+				"display_name": "Eissplitter"
+		    },
+			"molten_rock": {
+				"description": "Ein geschmolzener Stein. Was hast du erwartet?",
+				"display_name": "Geschmolzener Stein"
+			},
+			"wizard_green_hammer": {
+				"description": "Ein bronzener Hammer mit Jade-Steinen.",
+				"display_name": "Jade Hammer"
+			}
+        }
+    },   
+   "jobs": {
+        "herbalist": {
+            "recipes": {
+                "wizard_blue_tome_recipe": {
+					"recipe_name": "Blauer Magiefoliant",
+					"description": "Erforderlich um einen Hearthling in einen blauen Zauberer zu ernennen.",
+					"flavor": "Fühlt sich kühl an..."
+                },
+				"wizard_red_tome_recipe": {
+					"recipe_name": "Roter Magiefoliant",
+					"description": "Erforderlich um einen Hearthling in einen roten Zauberer zu ernennen.",
+					"flavor": "Fühlt sich warm an...."
+                },
+				"wizard_green_tome_recipe": {
+					"recipe_name": "Grüner Magiefoliant",
+					"description": "Erforderlich um einen Hearthling in einen grünen Zauberer zu ernennen.",
+					"flavor": "Überraschend schwer..."
+				}
+            }
+        },
+        "wizard_blue": {
+            "wizard_blue_description": {
+                "display_name": "Blauer Zauberer",
+                "description": "Der blaue Zauberer unterstützt seine Verbündeten aus der Ferne und schwächt seine Feinde mit entkräftenden Kälteangriffen.",
+                "requirements": "Ein Hearthling und ein blauer Magiefoliant, wird vom Kräuterarzt hergestellt.",
+                "level_0_data": {
+                    "perk_000_name": "Eissplitter",
+                    "perk_000_description": "Der Zauberer schleudert einen Eissplitter auf den Feind und saugt somit Ihre Geschwindigkeit und Kraft ein."
+                },
+                "level_1_data": {
+                    "perk_000_name": "Verbesserte Magie",
+                    "perk_000_description": "Durch die Ausbildung hat der Zauberer seinen Manavorrat verstärkt und kann stärkere Zauber wirken."
+                },
+                "level_2_data": {
+                    "perk_000_name": "Machtwurf",
+                    "perk_000_description": "Der Zauberer kann das Eis weiter werfen."
+                },            
+                "level_3_data": {
+                    "perk_000_name": "Machtschleudern",
+                    "perk_000_description": "Der Zauberer kann nun Eis auf lange Reichweite erschaffen."
+                },
+                "level_4_data": {
+                    "perk_000_name": "Eis-Sperrfeuer",
+                    "perk_000_description": "Der Zauberer bewirft den Feind mit einer Flut von Eissplittern."
+                },
+                "level_5_data": {
+                    "perk_000_name": "Verbesserte Zirkulation",
+                    "perk_000_description": "Der Zauberer hat die Kontrolle über die Flüssigkeiten in seinem Körper gemeistert, was die Gesundheit und die Regeneration verbessert."
+                },
+                "level_6_data": {
+                    "perk_000_name": "Wahre Kälte",
+                    "perk_000_description": "Der Zauberer spikt deren Ziele mit dem kältesten Eis das er erschaffen kann, es ist verheerend für die Bewegung, die Kraft und die Regeneration des Ziels."
+                }
+            },
+            "wizard_blue_buffs": {
+                "damage_1_buff": {
+                    "display_name": "Schaden plus 20%",
+                    "description": "Der Zauberer greift mit mehr Macht an."
+                },
+                "range_1_buff": {
+                    "display_name": "Machtwurf",
+                    "description": "Der Zauberer kann von weitem angreifen."
+                },
+                "range_2_buff": {
+                    "display_name": "Machtschleudern",
+                    "description": "Der Zauberer kann von sehr weit weg angreifen."
+                },
+                "health_1_buff": {
+                    "display_name": "Verbesserte Zirkulation",
+                    "description": "Der Zauberer hat Gesundheit und Regeneration erhöht."
+                },
+                "wizard_blue_slow_buff": {
+                    "display_name": "Eisig",	
+                    "description": "Diese Einheit leidet unter den Eisangriffen des blauen Zauberers."
+                },
+                "wizard_blue_freeze_buff": {
+                    "display_name": "Wahre Kälte",	
+                    "description": "Diese Einheit wurde fast festgefroren."
+                }
+            },
+            "wizard_blue_outfit": {
+                "display_name": "Blaue Zaubererrobe",
+                "description": "Hergestellt aus üppigem Tuch und Leder, die schönen blaue Schatten dieser Roben lassen uns wissen, dass ein Eiszauberer in unserer Mitte ist und deine Hearthlinge wahrscheinlich die Heizungen aufdrehen sollten."
+            },
+            "wizard_blue_hat": {
+                "display_name": "Blauer Zaubererhut",
+                "description": "Blau und spitz! Ein Muss für jeden echten Zauberer."
+            },
+            "wizard_blue_tome": {
+                "description": "Ein blaues Buch mit magischen Zaubern. Es gibt eine kühle Aura ab.",
+                "display_name": "Blauer Magiefoliant",
+                "wizard_blue_tome_iconic": {
+                    "description": "Ein blaues Buch mit magischen Zaubern. Es gibt eine kühle Aura ab.",
+                    "display_name": "Blauer Magiefoliant"
+                },
+                "wizard_blue_tome_talisman": {
+                    "description": "Erforderlich um einen Hearthling in einen blauen Zauberer zu ernennen.",
+                    "display_name": "Blauer Magiefoliant"
+                }
+		    }
+        },
+        "wizard_red": {
+            "wizard_red_description": {
+                "display_name": "Roter Zauberer  ",
+                "description": "Der rote Zauberer zerstört Feinde, indem er sie mit seiner Flammenmagie verbrennt.",
+                "requirements": "Ein Hearthling und ein roter Magiefoliant, wird vom Kräuterarzt hergestellt.",
+                "level_0_data": {
+                    "perk_000_name": "Geschmolzener Stein",
+                    "perk_000_description": "Der Zauberer wirft einen flammenden Felsen auf seinen Feind und ignoriert dessen Rüstung. Er hat auch die Chance, den Feind in Flammen zu setzen."
+                },
+                "level_1_data": {
+                    "perk_000_name": "Geist über Materie (Rang 1)",
+                    "perk_000_description": "Der Zauberer opfert etwas Vitalität, um seine Macht zu erhöhen."
+                },
+                "level_2_data": {
+                    "perk_000_name": "Wegbereiter",
+                    "perk_000_description": "Der Zauberer wird agiler und erhöht seine Geschwindigkeit."
+                },            
+                "level_3_data": {
+                    "perk_000_name": "Geist über Materie (Rang 2)",
+                    "perk_000_description": "Der Zauberer opfert mehr Vitalität, um seine Macht weiter zu erhöhen."
+                },
+                "level_4_data": {
+                    "perk_000_name": "Geschmolzene Flammen",
+                    "perk_000_description": "Die Flammen des Zauberers wachsen heißer und schmelzen einfach durch Rüstungen."
+                },
+                "level_5_data": {
+                    "perk_000_name": "Inferno",
+                    "perk_000_description": "Der Zauberer kann einen Feind mit unerträglich heißen Flammen verbrennen."
+                },
+                "level_6_data": {
+                    "perk_000_name": "Geist über Materie (Rang 3)",
+                    "perk_000_description": "Der Zauberer opfert die ganze Vitalität, die er sich leisten kann, um seine Macht zu maximieren."
+                }
+            },
+            "wizard_red_buffs": {
+                "armor_penetration_1_buff": {
+                    "display_name": "30% Rüstungsdurchdringung",
+                    "description": "Angriffe ignorieren 30% der Rüstung"
+                },
+                "armor_penetration_2_buff": {
+                    "display_name": "80% Rüstungsdurchdringung",	
+                    "description": "Angriffe ignorieren 80% der Rüstung"
+                },
+				"inferno": {
+					"display_name": "Inferno",
+					"description": "Diese Einheit wird von starken Flammen versengt und reduziert seine Rüstung"
+				},
+				"molten_rock": {
+					"display_name": "Angezündet",
+					"description": "Diese Einheit brennt"
+				},
+                "mom_1_buff": {
+                    "display_name": "Geist über Materie",
+                    "description": "25% Schadenserhöhung, aber körperlich geschwächt"
+                },
+                "mom_2_buff": {
+                    "display_name": "Geist über Materie (Rank 2)",
+                    "description": "50% Schadenserhöhung, aber körperlich geschwächt"
+                },
+                "mom_3_buff": {
+                    "display_name": "Geist über Materie (Rank 3)",
+                    "description": "75% Schadenserhöhung, aber körperlich geschwächt"
+                },
+                "trail_blaze_1_buff": {
+                    "display_name": "30% Geschwindigkeit",	
+                    "description": "Bewegt sich um 30% schneller"
+                }
+            },
+            "wizard_red_outfit": {
+                "display_name": "Rote Zaubererrobe",
+                "description": "Diese rot-schwarzen Roben sind wie eine Weste gestaltet, um den Träger von der Überhitzung beim Schießen zu beschützen."
+            },
+            "wizard_red_hat": {
+                "display_name": "Roter Zaubererhut",
+                "description": "Rot und spitz! Ein Muss für jeden echten Zauberer."
+            },
+            "wizard_red_tome": {
+                "description": "Ein rotes Buch mit magischen Sprüchen. Es fühlt sich warm an.",
+                "display_name": "Roter Magiefoliant",
+                "wizard_red_tome_iconic": {
+                    "description": "Ein rotes Buch mit magischen Sprüchen. Es fühlt sich warm an.",
+                    "display_name": "Roter Magiefoliant"
+                },
+                "wizard_red_tome_talisman": {
+                    "description": "Erforderlich um einen Hearthling in einen roten Zauberer zu ernennen.",
+                    "display_name": "Roter Magiefoliant"
+                }
+		    }
+        },
+        "wizard_green": {
+            "wizard_green_description": {
+                "display_name": "Grüner Zauberer",
+                "description": "Der grüne Zauberer benutzt seine Erdmagie um an den Frontlinien zu kämpfen. Er ist in der Lage mehrere Feinde mit jedem Schwung zu erwischen.",
+                "requirements": "Ein Hearthling und eine grüner Magiefoliant, wird vom Kräuterarzt hergestellt.",
+                "level_1_data": {
+                    "perk_000_name": "Der Segen der Erde (Rang 1) ",
+                    "perk_000_description": "Energien der Erde sickern in den Körper ein und erhöhen seine Haltbarkeit."
+                },
+                "level_2_data": {
+                    "perk_000_name": "Feuersteinsegen",
+                    "perk_000_description": "Die Schläge des Zauberers werden so stark wie Feuerstein, die Schäden nehmen zu."
+                },            
+                "level_3_data": {
+                    "perk_000_name": "Erdbeben (Noch nicht implementiert)",
+                    "perk_000_description": "Der Zauberer springt in die Luft, und schlägt auf den Boden um ihn aufzuspalten."
+                },
+                "level_4_data": {
+                    "perk_000_name": "Der Segen der Erde (Rang 2)",
+                    "perk_000_description": "Energien der Erde sickern in den Körper ein und erhöhen seine Haltbarkeit."
+                },
+                "level_5_data": {
+                    "perk_000_name": "Steinaura",
+                    "perk_000_description": "Verbündete in der Nähe des Zauberers gewinnen eine 30%ige Zunahme der Rüstung"
+                },
+                "level_6_data": {
+                    "perk_000_name": "Golem beschwören (Noch nicht implementiert)",
+                    "perk_000_description": "Der Zauberer kann auf die Macht der Erde zugreifen, um einen mächtigen Steingolem zu beschwören, der mit Ihm kämpft."
+                }
+            },
+            "wizard_green_buffs": {
+                "earth_blessing_1_buff": {
+                    "display_name": "Der Segen der Erde (Rang 1)",
+                    "description": "Erhöht Gesundheit und Regeneration"
+                },
+                "earth_blessing_2_buff": {
+                    "display_name": "Der Segen der Erde (Rang 2)",	
+                    "description": "Stark erhöhte Gesundheit und Regeneration"
+                },
+				"flint_blessing_1_buff": {
+					"display_name": "Feuersteinsegen",
+					"description": "25% Schadenssteigerung und Erhöhung der Geschwindigkeit"
+				},
+				"stone_aura_buff": {
+					"display_name": "Steinaura",
+					"description": "Erhöhe die Rüstung um 30% für sich selbst und Verbündete in der Nähe"
+				},
+                "stone_aura_effect_buff": {
+                    "display_name": "Steinhaut",
+                    "description": "30% Erhöhung der Rüstung in der Nähe eines grünen Zauberers"
+                }
+            },
+            "wizard_green_outfit": {
+                "display_name": "Grüne Zaubererrobe",
+                "description": "Ein bronzener Kettenpanzer verhüllt in den grünen Gewändern einer Robe."
+            },
+            "wizard_green_hat": {
+                "display_name": "Grüner Zaubererhut",
+                "description": "Eine luxuriöser grüner Hut der von Erdemagiern getragen wird."
+            },
+            "wizard_green_tome": {
+                "description": "Ein grünes Buch mit magischen Sprüchen. Überraschend schwer.",
+                "display_name": "Grüner Magiefoliant",
+                "wizard_green_tome_iconic": {
+                    "description": "Ein grünes Buch mit magischen Sprüchen. Überraschend schwer.",
+                    "display_name": "Grüner Magiefoliant"
+                },
+                "wizard_green_tome_talisman": {
+                    "description": "Erforderlich um einen Hearthling in einen grünen Zauberer zu ernennen.",
+                    "display_name": "Grüner Magiefoliant"
+                }
+		    }
+        }
+   }
+}   

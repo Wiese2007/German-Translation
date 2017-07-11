@@ -1,0 +1,10 @@
+{
+	"filters": {
+		"tooltip_food_source": "Essens- & Getränkequellen",
+		"tooltip_crop": "Feldfrüchte",
+		"tooltip_honey": "Honig",
+		"tooltip_drink": "Getränke",
+		"tooltip_pig_feed": "Schweinefutter",
+		"tooltip_yak_feed": "Yakfutter"
+	}
+}

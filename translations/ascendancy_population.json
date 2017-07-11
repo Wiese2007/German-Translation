@@ -3,7 +3,11 @@
       "mixintypes": {
             "optional_prefix": "override",
             "town_name": "override",
-            "suffix": "override"
+            "suffix": "override",
+            "racoon": "override",
+            "red_fox": "override",
+            "rabbit": "override",
+            "squirrel": "override"
          },
       "optional_prefix": [
          "Neu", 
@@ -88,6 +92,60 @@
          " Tal", 
          " Kreuzung", 
          " Glen"
+      ],
+      "racoon": [
+         "Bandit",
+         "Napoleon",
+         "Onyx",
+         "Waldkatze",
+         "Patches",
+         "Wilder",
+         "Alyx",
+         "Panda",
+         "Galumph"
+      ],
+      "red_fox": [
+         "Tod",
+         "Socke",
+         "Boots",
+         "Ruby",
+         "Tom",
+         "Daisy",
+         "Marco",
+         "Kitkit",
+         "Kit",
+         "Ember"
+      ],
+      "rabbit": [
+         "Thumpy",
+         "Lulabelle",
+         "CinnaBun",
+         "Bonbon",
+         "Molly",
+         "Candi",
+         "Coco",
+         "Winnie",
+         "Cricket",
+         "Bun",
+         "Bunbun"
+      ],
+      "squirrel": [
+         "Lucy",
+         "Squeakers",
+         "Beans",
+         "Pea",
+         "Squeakpea",
+         "Chuck",
+         "Pip",
+         "Bounce",
+         "Daisy",
+         "Nippy",
+         "Dori",
+         "Nuts",
+         "Nutter",
+         "Acorn",
+         "Peanut",
+         "Quick"
       ]
    }
 }

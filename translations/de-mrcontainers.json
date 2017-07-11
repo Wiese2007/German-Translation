@@ -1,0 +1,244 @@
+{
+	"recipes" : {	
+		"cook_shelf_recipe" : {
+			"recipe_name" : "Kochregal",
+			"description" : "Essen, in Fasson. Hält 48 Objekte.",
+			"flavor" : "Ich mag Bananen. Bananen sind gut!"
+		},
+		"armor_shelf_recipe" : {
+			"recipe_name" : "Rüstungsregal",
+			"description" : "Bunkere deine Ausrüstung. Hält 32 Objekte.",
+			"flavor" : "Platz für deine ganze Garderobe."
+		},
+		"apothecary_cabinet_recipe" : {
+			"recipe_name" : "Apothekenkabinett",
+			"description" : "Ein Schrank für Tränke. Hält 48 Objekte.",
+			"flavor" : "Ich bin auch kein verrückter Wissenschaftler!"
+		},
+		"chest_recipe" : {
+			"recipe_name" : "Schatztruhe",
+			"description" : "Wie Sie ein Pirat verwenden würde. Hält 48 Objekte.",
+			"flavor" : "YARRRRR"
+		},
+		"clay_barrel_recipe" : {
+			"recipe_name" : "Lehmfass",
+			"description" : "Lege etwas Lehm hinein. Hält 48 Objekte.",
+			"flavor" : "Besser als ein Fass Affen."
+		},
+		"clay_bucket_recipe" : {
+			"recipe_name" : "Lehmeimer",
+			"description" : "Ein gewöhnlicher Eimer, wo nur Lehm drinnen ist. Hält 48 Objekte.",
+			"flavor" : "Versuche nicht die Ice Bucket Challenge mit diesem."
+		},
+		"drying_rack_recipe" : {
+			"recipe_name" : "Wäscheständer",
+			"description" : "Zum trocknen ... von Sachen Hält 48 Objekte.",
+			"flavor" : "Ich mag mein Leder ein bisschen feucht."
+		},
+		"fur_frame_recipe" : {
+			"recipe_name" : "Pelzgestell",
+			"description" : "Hänge einige Pelze auf. Hält 48 Objekte.",
+			"flavor" : "Nicht von PETA genehmigt."
+		},
+		"hayball_recipe" : {
+			"recipe_name" : "Heuballen",
+			"description" : "Im Grunde ein Steppenroller. Hält 48 Objekte.",
+			"flavor" : "Haaaaaaaaay Mädchen."
+		},
+		"ingot_shelf_recipe" : {
+			"recipe_name" : "Barrenregel",
+			"description" : "Das scheint eine schlechte Idee zu sein. Hält 48 Objekte.",
+			"flavor" : "Glänzend."
+		},
+		"market_baker_recipe" : {
+			"recipe_name" : "Bäckermarkt",
+			"description" : "Frisches Brot und Gebäck. Hält 100 Objekte.",
+			"flavor" : "Riecht wie ... na ja, Brot."
+		},
+		"market_farmer_recipe" : {
+			"recipe_name" : "Bauernmarkt",
+			"description" : "Lokal gewachsene, organische Freilandkarotten. Hält 100 Objekte.",
+			"flavor" : "Keine Wachstumshormone."
+		},
+		"market_weaver_recipe" : {
+			"recipe_name" : "Webermarkt",
+			"description" : "Shop für Kleidung in der Nähe von zu Hause. Hält 48 Objekte.",
+			"flavor" : "Bietet nicht Prada an."
+		},
+		"ore_shelf_recipe" : {
+			"recipe_name" : "Erzregal",
+			"description" : "Stapel deine Ihr Erz ordentlich oder gar nicht. Hält 72 Objekte.",
+			"flavor" : "SChwer."
+		},
+		"stonepile_recipe" : {
+			"recipe_name" : "Steinstapel",
+			"description" : "Genau das, was es auf der Dose steht. Hält 100 Objekte.",
+			"flavor" : "Willst du gesteinigt werden?"
+		},
+		"weaver_basket_recipe" : {
+			"recipe_name" : "Weberkorb",
+			"description" : "Tu etwas Stoff hinein.  Hält 48 Objekte.",
+			"flavor" : "Nicht für Wäsche."
+		},
+		"weaver_clay_shelf_recipe" : {
+			"recipe_name" : "Weberlehmregal",
+			"description" : "Ein Regal. Aus Lehm gemacht. Für Sachen. Hält 48 Objekte.",
+			"flavor" : "Wir brauchen einen Schrank."
+		},
+		"weaver_shelf_recipe" : {
+			"recipe_name" : "Weberregal",
+			"description" : "Ein Regal. Für Sachen. Hält 48 Objekte.",
+			"flavor" : "Wir brauchen einen Schrank."
+		},
+		"woodpile_recipe" : {
+			"recipe_name" : "Holzstapel",
+			"description" : "Ein Stapel aus Holz. Hält 100 Objekte.",
+			"flavor" : "Möchstest du eingie Klötze?"
+		},
+		"herb_garden_recipe" : {
+			"recipe_name" : "Kräutergarten",
+			"description" : "Haltet deine Kräuter an einem Ort. Hält 72 Objekte.",
+			"flavor" : "Pflanze nichts illegales."
+		},
+		"treasure_hoard_sm_recipe" : {
+			"recipe_name" : "Kleiner Schatzhort",
+			"description" : "Ein Haufen glänzender Dinge. Hält 16 Objekte.",
+			"flavor" : "Beware of dragons."
+		},
+		"treasure_hoard_m_recipe" : {
+			"recipe_name" : "Mittlerer Schatzhort",
+			"description" : "Ein größerer Haufen glänzender Dinge. Hält 64 Objekte.",
+			"flavor" : "Hüten Sie sich vor etwas größeren Drachen."
+		},
+		"treasure_vault_recipe" : {
+			"recipe_name" : "Schatzkammer",
+			"description" : "Zeige deine Beute. Hält massive 256 Objekte.",
+			"flavor" : "Hüte dich vor Smaug."
+		},
+		"store_table_wood_recipe" :{
+			"recipe_name" : "Möbelshopauslage - Holz",
+			"description" : "Hält nicht viel, aber zeigt es an potenzielle Käufer. Hält 8 Objekte.",
+			"flavor" : "Größer auf der Innenseite."
+		},
+		"store_table_stone_recipe" :{
+			"recipe_name" : "Möbelshopauslage - Stein",
+			"description" : "Hält nicht viel, aber zeigt es an potenzielle Käufer. Hält 8 Objekte.",
+			"flavor" : "Größer auf der Innenseite."
+		},
+		"store_table_clay_recipe" :{
+			"recipe_name" : "Möbelshopauslage - Lehm",
+			"description" : "Hält nicht viel, aber zeigt es an potenzielle Käufer. Hält 8 Objekte.",
+			"flavor" : "Größer auf der Innenseite."
+		}
+	},
+	"entities" : {
+		"containers" : {
+			"cook_shelf_ghost" : {
+				"description" : "Essen, in Fasson.",
+				"name": "Kochregal"
+			},
+			"armor_shelf_ghost" : {
+				"description" : "Bunkere deinen Mist.",
+				"name" : "Rüstungsregal"
+			},
+			"apothecary_cabinet_ghost" : {
+				"description" : "Ein Schrank für Tränke.",
+				"name": "Apothekenkabinett"
+			},
+			"chest_ghost" : {
+				"description" : "YAARRRRRR",
+				"name": "Schatztruhe"
+			},
+			"clay_barrel_ghost" : {
+				"description" : "Lege etwas Lehm hinein.",
+				"name": "Lehmfass"
+			},
+			"clay_bucket_ghost" : {
+				"description" : "Lege ein klein wenig Lehm hinein.",
+				"name": "Lehmeimer"
+			},
+			"drying_rack_ghost" : {
+				"description" : "Trocknet Sachen.",
+				"name": "Wäscheständer"
+			},
+			"fur_frame_ghost" : {
+				"description" : "PELZ IST MORD",
+				"name": "Pelzgestell"
+			},
+			"hayball_ghost" : {
+				"description" : "<Steppenroller>",
+				"name": "Heuballen"
+			},
+			"ingot_shelf_ghost" : {
+				"description" : "Schweres Metall.",
+				"name": "Barrenregel"
+			},
+			"market_baker_ghost" : {
+				"description" : "Frisches Brot und Gebäck.",
+				"name": "Bäckermarkt"
+			},
+			"market_farmer_ghost" : {
+				"description" : "Hole dir dein lokal gewachsenes organisches Freilandkaninchendörrfleisch hier.",
+				"name": "Bauernmarkt"
+			},
+			"market_weaver_ghost" : {
+				"description" : "Bietet kein Prada an.",
+				"name": "Webermarkt"
+			},
+			"ore_shelf_ghost" : {
+				"description" : "Hi-ho, usw.",
+				"name": "Erzregal"
+			},
+			"stonepile_ghost" : {
+				"description" : "Genau das, was es auf der Dose steht.",
+				"name": "Steinstapel"
+			},
+			"weaver_basket_ghost" : {
+				"description" : "Nicht für Wäsche.",
+				"name": "Weberkorb"
+			},
+			"weaver_clay_shelf_ghost" : {
+				"description" : "Ein Regal für Kleidung, aber aus Lehm gemacht.",
+				"name": "Weberlehmregal"
+			},
+			"weaver_shelf_ghost" : {
+				"description" : "Ein Regal für Kleidung.",
+				"name": "Weberregal"
+			},
+			"woodpile_ghost" : {
+				"description" : "Möchstest du einige Klötze",
+				"name": "Holzstapel"
+			},
+			"herb_garden_ghost" : {
+				"description" : "Ein schöner Ort für deine Kräuter, zum wachsen.",
+				"name": "Kräutergarten"
+			},
+			"treasure_hoard_sm_ghost" : {
+				"description" : "Ein Haufen glänzender Dinge.",
+				"name" : "Kleiner Schatzhort"
+			},
+			"treasure_hoard_m_ghost" : {
+				"description" : "Ein größerer Haufen glänzender Dinge.",
+				"name" : "Mittlerer Schatzhort"
+			},
+			"treasure_vault_ghost" : {
+				"description" : "Voll mit bling bling.",
+				"name": "Schatzkammer"
+			},
+			"store_table_wood_ghost" : {
+				"description" : "Eine klassische Auslage für ein Möbelgeschäft, Lagerbereich oder wo auch immer du sonst so deine Möbel aufbewahrst.",
+				"name" : "Möbelshopauslage - Holz"
+			},
+			"store_table_stone_ghost" : {
+				"description" : "Eine klassische Auslage für ein Möbelgeschäft, Lagerbereich oder wo auch immer du sonst so deine Möbel aufbewahrst.",
+				"name" : "Möbelshopauslage - Stein"
+			},
+			"store_table_clay_ghost" : {
+				"description" : "Eine klassische Auslage für ein Möbelgeschäft, Lagerbereich oder wo auch immer du sonst so deine Möbel aufbewahrst.",
+				"name" : "Möbelshopauslage - Lehm"
+			}
+		}
+	}
+}
+
+

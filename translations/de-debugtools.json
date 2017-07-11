@@ -9,17 +9,17 @@
    "tooltip_icon_trace_monitor": "Pfad Monitor",
    "entity_editor": {
       "destination": {
-         "tooltip_region": "Shows as purple lines when you press F11. This is the region from which we generate the adjacency regions. It should fit all of your entity in a neat square.",
-         "tooltip_region_min": "Front Left Corner (usually y=0)",
-         "tooltip_region_max": "Back Right Corner with y set to height desired for walking up to it (usually y=1)",
-         "tooltip_adjacency": "Shows as red lines when you press F11. This is where a hearthling where try to walk to when they walk up to the entity. Click on a square to set it as considered adjacent to the object or not.",
-         "json_description": "Paste this as the destination and region_collision_shape (if applicable) component in the .json of your root entity. DO NOT put it in the ghost!"
+         "tooltip_region": "Zeigt sich als lila Linien, wenn du F11 drückst. Dies ist die Region, aus der wir die angrenzenden Regionen erzeugen. Es sollte alle deine Entität in ein hübsches Quadrat passen.",
+         "tooltip_region_min": "Vordere linke Ecke (meist y=0)",
+         "tooltip_region_max": "Hintere rechte Ecke mit y setzt du die gewünschte Höhe (meist y=1)",
+         "tooltip_adjacency": "Zeigt sich als rote Linien, wenn du F11 drückst. Dies ist der Bereich wohin ein Hearthling geht, wenn er zu der Entität geht. Klicke auf ein Quadrat, um es als angrenzend an das Objekt oder nicht zu setzen.",
+         "json_description": "Füge dies als das 'destination' und als 'region_collision_shape' Komponente (falls zutreffend) in die .json-Datei deiner Entität ein. NICHT in die Ghost einfügen!"
       },
       "mob": {
-         "tooltip_axis_alignment": "Whether this entity is force aligned to the X or Z axis. If enabled, the entity will usually snap to grid lines (visible when you press z)",
-         "tooltip_model_origin": "The center of this model (with scale numbers applied) about which the mesh/actual voxels rotate. This will be 0,0,0 if you model is an even number of voxels. Be sure to center the model in the .qb file. If your model is an odd number of voxels, move larger half of the model into the upper right quadrant in Qubicle Constuctor, multiply 0.5 by the scale of the model to get the new origin. Ex: if scale = 0.1, then origin = -0.05, 0, 0.05",
-         "tooltip_region_origin": "The center of the region of the model. This is the point about which the region for adjacency rotates.",
-         "json_description": "Paste this as the mob component in the ghost.json of your item. Make sure the ghost is mixed into the root entity."
+         "tooltip_axis_alignment": "Legt fest ob diese Einheit auf die X- oder Z-Achse ausgerichtet ist. Wenn diese Option aktiviert ist, wird die Entität normalerweise ins Rasternetz eingefügt (Wird sichtbar wenn du Z drückst)",
+         "tooltip_model_origin": "Die Mitte dieses Modells (mit Skalenzahlen angewendet), um die sich die Mesh/aktuellen Voxel drehen. Dies ist 0,0,0 wenn man eine gerade Anzahl von Voxeln modelliert. Achte darauf das Modell in der .qb-Datei zu zentrieren. Wenn dein Modell eine ungerade Anzahl von Voxeln hat, beweg die größere Hälfte des Modells in den oberen rechten Quadranten in Qubicle Constuctor, multipliziere Sie mit 0,5 durch die Skala des Modells, um den neuen Ursprung zu erhalten. Bsp: wenn die Skala = 0.1, dann ist der Ursprung = -0.05, 0, 0.05",
+         "tooltip_region_origin": "Das Zentrum der Region des Modells. Dies ist der Punkt über den sich der Bereich für das Angrenzen dreht.",
+         "json_description": "Fügen Sie diese als die Mob-Komponente in die Ghost.json deiner Eintität. Vergewissere dich, dass der Ghost in deiner Hauptdatei hinterlegt ist."
       }
    },
    "debugtools_mixintos": {

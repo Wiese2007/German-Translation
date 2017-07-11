@@ -1,0 +1,152 @@
+{
+	"jobs": {
+		"carpenter": {
+			"recipes" : {
+				"case_small_recipe" : {
+		      "recipe_name" : "Kleine Kiste",
+		      "description" : "Kann einige Materialien lagern. Hält bis zu 10 Objekte.",
+		      "flavor" : "Klein aber fein!"
+		    },
+				"case_large_recipe" : {
+		      "recipe_name" : "Kleine Kiste",
+		      "description" : "Kann eine große Menge an Materialien lagern. Hält bis zu 48 Objekte.",
+		      "flavor" : "Gut organisiert!"
+		    }
+			}
+		},
+		"herbalist": {
+			"recipes" : {
+				"plants_name" : "Pflanzen",
+
+				"gardener-bench_recipe" : {
+		      "recipe_name" : "Gärtnerwerkbank",
+		      "description" : "Pflanzen haben nicht nur heilende Eigenschaften.",
+		      "flavor" : "Nützlich und dekorativ. Ein schöner Kombi."
+		    },
+				"books_recipe" : {
+		      "recipe_name" : "Bücher",
+		      "description" : "Manchmal ist es sinnvoll, dein Wissen aufzuschreiben.",
+		      "flavor" : "Hoffentlich muss ich nicht alle diese Bücher lesen."
+		    },
+				"bookshelf_recipe" : {
+		      "recipe_name" : "Bücherregal",
+		      "description" : "Dekoratives leeres Bücherregal.",
+		      "flavor" : "Toll! Mehr Platz für meine Objekte."
+		    },
+		    "bookshelf_herbalist_recipe" : {
+		      "recipe_name" : "Heilbücherregal",
+		      "description" : "Dekoratives Regal für alle deine Heilbücher.",
+		      "flavor" : "Auch ein Kräuterarzt braucht manchmal etwas Hilfe."
+		    },
+				"herb_corbel_recipe" : {
+		      "recipe_name" : "Kräuterregal",
+		      "description" : "Dekoratives Regal zum trocknen gesammelter Kräuter.",
+		      "flavor" : "Sie riechen so verführerisch."
+		    },
+				"herb_table_recipe" : {
+		      "recipe_name" : "Kräutertisch",
+		      "description" : "Schreibtisch für professionelle Kräuterkundler.",
+		      "flavor" : "Lass mich einige Rezepte schreiben…"
+		    },
+		    "jar_large_recipe" : {
+		      "recipe_name" : "Großes Glas",
+		      "description" : "Der sicherste Ort für Elixiere und Kräuter. Hält bis zu 32 Objekte.",
+		      "flavor" : "Es ist eine wirklich großes Lager ... Schrecklich!"
+		    },
+				"herb_case_large_recipe" : {
+		      "recipe_name" : "Große Kräuterkiste",
+		      "description" : "Lagere eine große Menge an frischen Kräutern. Hält bis zu 48 Objekte.",
+		      "flavor" : "Gut organisiert!"
+		    },
+		    "jar_small_recipe" : {
+		      "recipe_name" : "Kleines Glas",
+		      "description" : "Kleiner, aber feiner Behälter. Hält bis zu 8 Objekte.",
+		      "flavor" : "Uh! Habe ich Kekse darinnen gerochen????"
+		    },
+				"planter-box_small_brightbell_recipe" : {
+		      "recipe_name" : "Kleine Glockenblumen Pflanzkiste",
+		      "description" : "Lässt notwendige Kräuter in deimem Haus wachsen.",
+		      "flavor" : "Es ist so erstaunlich sie wachsen zu sehen!"
+		    },
+				"planter-box_small_fostsnap_recipe" : {
+		      "recipe_name" : "Kleine Eisblumen Pflanzkiste",
+		      "description" : "Lässt notwendige Kräuter in deimem Haus wachsen.",
+		      "flavor" : "Es ist so erstaunlich sie wachsen zu sehen!"
+		    },
+				"planter-box_large_recipe" : {
+		      "recipe_name" : "Große Pflanzkiste",
+		      "description" : "Erhöhe die Produktion von Kräutern mit einer großen Kiste.",
+		      "flavor" : "Es ist so erstaunlich sie wachsen zu sehen!"
+		    }
+			}
+		}
+	},
+	"entities" : {
+		"workbenches" : {
+			"gardener-bench_ghost" : {
+        "display_name": "Gärtnerwerkbank",
+        "description" : "Hilfreich und dekorativ."
+			}
+		},
+		"storage" : {
+			"case_small_ghost" : {
+        "display_name": "Kleine Kiste",
+        "description" : "Lagert über 10 Objekten."
+      },
+			"case_large_ghost" : {
+        "display_name": "Große Kiste",
+        "description" : "Lagert eine große Menge von 48 Objekten."
+      },
+			"herb_case_large_ghost" : {
+        "display_name": "Große Kräuterkiste",
+        "description" : "Lagert bis zu 48 Einheiten von frischen Kräutern."
+      },
+      "jar_large_ghost" : {
+        "display_name": "Großes Glas",
+        "description" : "Der sicherste Ort für Elixiere und Kräuter."
+      },
+      "jar_small_ghost" : {
+				"display_name": "Kleines Glas",
+        "description" : "Kleiner, aber feiner Behälter."
+      }
+		},
+    "furniture" : {
+      "bookshelf_ghost" : {
+				"display_name": "Bücherregal",
+        "description" : "Vielleicht braucht jemand mehr Lagerplatz…"
+      },
+			"bookshelf_herbalist_ghost" : {
+				"display_name": "Heilbücherregal",
+        "description" : "Beinhaltet alle deine heilenden Erkenntnisse."
+      },
+			"herb_table_ghost" : {
+				"display_name": "Kräutertisch",
+        "description" : "Mehr Platz um heilende Gegenstände zu produzieren."
+      }
+    },
+		"decoration" : {
+			"books_ghost" : {
+				"display_name": "Bücher",
+        "description" : "Dekorativ und nützlich."
+      },
+			"herb_corbel_ghost" : {
+				"display_name": "Kräuterregal",
+        "description" : "Ideal um gesammelt Kräuter zu trocknen."
+      }
+    },
+		"plants" : {
+			"planter-box_small_brightbell_ghost" : {
+				"display_name": "Kleine Glockenblume Pflanzkiste",
+        "description" : "Lässt notwendige Kräuter in deimem Haus wachsen."
+      },
+			"planter-box_small_fostsnap_ghost" : {
+				"display_name": "Kleine Eisblume Pflanzkiste",
+        "description" : "Lässt notwendige Kräuter in deimem Haus wachsen."
+      },
+			"planter-box_large_ghost" : {
+				"display_name": "Große Pflanzkiste",
+        "description" : "Erhöht die Produktion von Kräutern."
+      }
+		}
+	}
+}

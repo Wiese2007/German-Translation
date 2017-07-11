@@ -1,0 +1,1688 @@
+{
+	"ui":	{
+		"game":	{
+			"zones_mode":	{
+				"stockpile":	{
+					"filters":	{
+						"tooltip_gem": "Edelsteine und Pulver",
+						"tooltip_jewellery": "Schmuck"
+					}
+				}
+			},
+			"crafter_menu":	{
+				"items":	{
+					"jeweler":	{
+						"display_name": "Juwelier Handwerksmenü",
+						"description": "Stelle hier Schmuck und Edelsteine her",
+						"required_job_text": "Benötigt einen Juwelier"
+					},
+					"leader":	{
+						"display_name": "Anführer Herstellungsmenü",
+						"description": "Führe und Herrsche",
+						"required_job_text": "Benötigt einen Anführer"
+					}
+				}
+			}		
+		},
+		"data":	{
+			"constants":	{
+				"awakened_plant_resource_name": "Erwachte Pflanze"
+			},
+			"gm":	{
+				"campaigns":	{
+					"royals":	{
+						"dialog_nodes":	{
+							"kingdom_foundation":	{
+								"dialog_title_001": "Der Stadtälteste",
+								"bulletin_title_001": "Vorschlag für ein Königreich",
+								"bulletin_title_002": "Warte auf eine bessere Zeit",
+								"choice_000": "Warte",
+								"choice_001": "Heil dem neuen König!",
+								"bulletin_message":	{
+									"000": "Hallo Meister. Es scheint mir, dass die Stadt sehr wohlhaben ist. Die Gildenmeister und ich haben diskutiert, ob wir uns weiterentwickeln sollten. Die Welt da draußen wird jeden Tag gefährlicher und die anderen Städte schmieden Allianzen, um den kommenden Bedrohungen zu widerstehen.",
+									"001": "Aber wir sind eine freie Stadt voller Händler, reiche Bürger und Meisterhandwerker. Unsere Armee schützt uns! Unsere Krieger sind gut ausgebildet und gut ausgerüstet. Es besteht keine Notwendigkeit für eine Allianz.",
+									"002": "Wir können den Bedrohungen allein standhalten und unser eigenes Königreich bauen. Aber es wird ein harter Weg sein. Wir können es uns ruhig leisten unsere Ressourcen und unsere Wohlstand zu plündern, bevor die Stadt zu eine Hauptstadt wird.",
+									"003": "Meister, es ist deine Entscheidung. Sollen wir diesen Weg gehen und ein mächtiges Reich werden? Oder sollen wir noch warten.....",
+									"004": "Ich akzeptiere deine Entscheidung aufdass es die Klügere für unsere Stadt ist. Aber ich komme zurück, denn die Gildenmeister und Ältesten können nicht ewig warten."
+								}
+							},
+							"throne_talk":	{
+								"bulletin_message":	{
+									"000": "Ich habe heute mit dem Meisterschmied diskutiert und er hat mir gesagt, dass er einen außergewöhnlichen Thron schaffen kann. Einen Thron der eines Königs würdig ist."
+								}
+							},
+							"throne_unlock":	{
+								"bulletin_title_001": "Königsthron-Rezept freigeschaltet"
+							},
+							"throne_dialog":	{
+								"dialog_title_001": "Der Stadtälteste",
+								"bulletin_title_001": "Erste Schritte sind getan",
+								"bulletin_message":	{
+									"000": "Meister, unsere Stadt hat eine wunderschöne Handwerksarbeit gemacht. Der goldene Thron ist fertig! Aber wir brauchen viel mehr. Der nächste Schritt ist genug Hearthlinge für unser aufsteigendes Königreich zu gewinnen. Ich denke mehr als zwei Dutzende sollten erst einmal genügen.",
+									"001": "Außerdem, Meister, brauchen wir mehr Gold um alle die Geschmeide für unseren Anführer zu fertigen. So ist es jetzt eure Verantwortung mehr Reichtum anzuhäufen, mehr Hearthlinge zu gewinnen und eine Quelle von Golderz zu finden."
+								}
+							},
+							"king_armor_unlock":	{
+								"bulletin_title_001": "Goldrüstung freigeschaltet",
+								"bulletin_title_002": "Königskrone freigeschaltet"
+							},
+							"king_recipe_002_dialog":	{
+								"dialog_title_001": "Der Stadtälteste",
+								"bulletin_title_001": "Handwerkskunst",
+								"bulletin_message":	{
+									"000": "Wie Ihr sehen könnt, haben wir einige Rezepte in den alten Schriftrollen gefunden. Wir haben sie studiert und fanden erstaunliche Dinge heraus. Jahre, bevor wir uns hier niederließen, gab es eine Zeit in der dieses Land Teil eines reichen Königreichs war und ein weiser König über die Länder herrschte. Wir fanden alte Gemälde seiner Rüstung und seiner Krone und waren in der Lage Blaupausen dieser alten Reliquien zu zeichnen.",
+									"001": "Ihr solltet jetzt mit unserem Meisterschmied und Meisterjuwelier sprechen und diese einzigartigen Reliquien anfertigen zu lassen. Bitte besuch Sie und befiehl Ihnen dies zu tun. Wir brauchen außerdem auch mehr Bürger und noch mehr Reichtum um voranzukommen."
+								}
+							},
+							"castle_build_dialog":	{
+								"dialog_title_001": "Der Stadtälteste",
+								"bulletin_title_001": "Die weisen Mönche",
+								"bulletin_title_002": "Das Schloß",
+								"choice_000": "Bezahl die Mönche",
+								"bulletin_message":	{
+									"000": "So es ist endlich Zeit für den größten Schritt. Ihr habt den Thron und die Kronen fertigen lassen und sogar die Rüstung für den Anführer. Aber da ist noch etwas Größeres, etwas was wir umbedingt brauchen. Denn jedes Königreich hat ein Herz.",
+									"001": "Das Herz eines Königreichs ist das Schloss. Es ist der Ort des gesprochenen Gesetzes und der Ort des Seins für den Anführer. Das Haus des Krieges und des Friedens. Gebaut aus dem härtesten Steinen. Verziert mit den seltensten und feinsten Möbeln und Trophäen aus fernen Ländern.",
+									"002": "Wir müssen so etwas bauen, Meister! Und das Schicksal ist mit uns. Vor einigen Tagen war ein reisender Architekt, der unsere Stadt besuchte. Ich gab ihm einige Münzen und er setzte sich hin und entwarf einen Bauplan für eine kleine Burg, gerade genug für einen König und eine Königin.",
+									"003": "Aber es gibt einige Möbelstücke und Dekorationen, die nicht von unseren Webern, Tischlern und Maurern gefertigt werden konnten. So schickte ich Briefe an meine Freunde die Mönche.",
+									"004": "Die gute Nachricht ist, dass sie die Handwerksrezepte bekommen haben, um uns auszuhelfen. Die schlechte Nachricht ist, dass sie nach 100 Steinblöcken für eine neue Kapelle und eine größere Bibliothek gefragt haben."
+								}
+							},
+							"monk_stone_fail_dialog":	{
+								"dialog_title_001": "Der Stadtälteste",
+								"bulletin_title_001": "Nicht genug Ressourcen",
+								"choice_000": "Schickt jetzt Stein",
+								"bulletin_message": {
+									"000": "Meister, es gibt nicht genügend Stein in unserem Lager, um Sie den Mönchen zu schicken. Wir müssen warten bis wir mehr gesammelt haben."
+								}
+							},
+							"monk_answer_dialog":	{
+								"dialog_title_001": "Der Stadtälteste",
+								"bulletin_title_001": "Die weisen Mönche",
+								"bulletin_message":	{
+									"000": "Meister, ich bin so glücklich, die Stadt jubelt. Die Mönche ... sie ... sie weigerten sich die Steine anzunehmen, die wir für sie abgebaut hatten. Sie sagten mir, dass es ein Test des Herzens und nicht des Reichtums war. Sie schicken mir eine große Truhe voller Rollen mit Blaupausen.",
+									"001": "Alle Handwerker haben sich versammelt. Da waren Malereien und Texte für fast jeden Handwerker dabei. Sie lesen sich gerade durch all das alte Zeug. Sei noch für eine kleine Weile geduldig und wir bekommen Ergebnisse."
+								}
+							},
+							"unlock_castle_recipe_ascendancy":	{
+								"bulletin_title_000": "Königsstuhl freigeschaltet",
+								"bulletin_title_001": "Königsbett freigeschaltet",
+								"bulletin_title_002": "Silberrüstungsgestell freigeschaltet",
+								"bulletin_title_003": "Metzgertisch freigeschaltet",
+								"bulletin_title_004": "Königlicher Teppich freigeschaltet",
+								"bulletin_title_005": "Kohlebeckensäule freigeschaltet",
+								"bulletin_title_006": "Kleines Kohlebecken freigeschaltet",
+								"bulletin_title_007": "Bronzerüstungsgestell freigeschaltet",
+								"bulletin_title_008": "Eisenrüstungsgestell freigeschaltet",
+								"bulletin_title_009": "Könlgicher Baum Wandteppich Winter freigeschaltet",
+								"bulletin_title_010": "Könlgicher Baum Wandteppich Frühling freigeschaltet",
+								"bulletin_title_011": "Könlgicher Baum Wandteppich Sommer freigeschaltet",
+								"bulletin_title_012": "Könlgicher Baum Wandteppich Herbst freigeschaltet",
+								"bulletin_title_013": "Waffengestell freigeschaltet",
+								"bulletin_title_014": "Ansprachenpult freigeschaltet",
+								"bulletin_title_015": "Kriegskarte freigeschaltet"
+							},
+							"last_step_dialog":	{
+								"dialog_title_001": "Der Stadtälteste",
+								"bulletin_title_001": "Der Führertalisman",
+								"bulletin_message":	{
+									"000": "Wir haben viele Ziele auf unserem Weg zu einem Königreich erreicht. Ihr könnt jetzt eine schöne Burg für den neuen Anführer bauen. Der Hearthling, denn Ihr auswählt, sollte klug, stark und aufgeschlossen sein.",
+									"001": "Der Anführer muss im Streitfall urteilen können. In Kriegszeiten wird es notwendig sein  Soldaten in die Schlacht zu schicken. Und diese Welt ist voll von neuen, seltsamen und manchmal magischen Dingen, die nur von den Aufgeschlossenen verstanden werden können.",
+									"002": "Aber das ist alles über die Persönlichkeit des Anführers. Eine Sache, wenn ich die alten Schriftrollen richtig verstanden habe, ist fast so wichtig wie das. Das Symbol eines wahren Herrschers.",
+									"003": "Ich habe mich mit dem Juwelier und dem Schmied für viele Nächte zusammengesetzt und haben altes Wissen, Gold und Edelsteine zusammengesetzt. Was herauskam ist ein schönes Schwert, das es nicht wert ist mit ihm zu kämpfen, aber ein richtiges Symbol der Führung.",
+									"004": "Lasst unsere Leute dieses Schwert fertigen und Ihr werdet imstande sein den begabtesten Hearthling zu dem Anführer unserer Stadt zu ernennen ... und dann ... werden wir vielleicht eines Tages das neue Königreich dieses Landes werden."
+								}
+							},
+							"unlock_golden_sword":	{
+								"bulletin_title_000": "Goldenes Schwert freigeschaltet"
+							},
+							"unlock_leader_sword":	{
+								"bulletin_title_000": "Anführerschwert freigeschaltet"
+							}
+						}		
+					}
+				}			
+			}
+		}
+	},
+	"data":	{
+		"buffs":	{
+			"speed_up_low_buff":	{
+					"display_name": "Geschwindigkeitsamulett",
+					"description": "Kleiner Topas mit geringem Energiebuff"
+			},
+			"speed_up_med_buff":	{
+					"display_name": "Geschwindigkeitssegen",
+					"description": "Gold und ein Topas liefern Energie"
+			},
+			"speed_up_high_buff":	{
+				"display_name": "Speed of Gods",
+					"description": "Feiner Topas von feinstem Gold gehalten"
+			},
+			"moon_new_buff":	{
+					"display_name": "Frische",
+					"description": "Bleib ein bisschen länger auf"
+			},
+			"moon_half_buff":	{
+					"display_name": "Ruhelos",
+					"description": "Mitternacht kann dich nicht stoppen"
+			},	
+			"moon_full_buff":	{
+					"display_name": "Schlaflosigkeit",
+					"description": "Kein Schlaf nötig"
+			},
+			"strength_up_low_buff":	{
+					"display_name": "Muskel",
+					"description": "Gewährt bessere Muskeln"
+			},
+			"strength_up_med_buff":	{
+					"display_name": "Mehr Stärke",
+					"description": "Kann einen Mühlstein heben"
+			},
+			"strength_up_high_buff":	{
+					"display_name": "Überlegene Stärke",
+					"description": "Unaufhaltsam"
+			},
+			"health_up_low_buff":	{
+					"display_name": "Blutzauber",
+					"description": "gesündere Hearthling"
+			},
+			"health_up_med_buff":	{
+					"display_name": "Blutsegen",
+					"description": "Verstärkte Gesundheit"
+			},
+			"health_up_high_buff":	{
+					"display_name": "Blut eines Gottes",
+					"description": "Unzerstörbar"
+			},
+			"combat_elixir_buff":	{
+					"display_name": "Kampfkraft",
+					"description": "Stärkt, beschleunigt und härtet"
+			},
+			"speed_elixir_buff":	{
+					"display_name": "Beschleunigung",
+					"description": "Renn, Renn"
+			},
+			"experience_elixir_buff":	{
+					"display_name": "Erfahrung",
+					"description": "Lass uns alles ausprobieren"
+			},
+			"blood_eye_buff":	{
+					"display_name": "Blutauge",
+					"description": "Schärft die Sicht"
+			},
+			"serpent_eye_buff":	{
+					"display_name": "Schlangenauge",
+					"description": "Zeigt die schwächen des Zieles"
+			},
+			"sharpshooter_eye_buff":	{
+					"display_name": "Scharfschütze",
+					"description": "Ihr trefft immer die anfälligsten Punkte"
+			},
+			"decree_of_progression_buff":	{
+				"display_name": "Fortschritt",
+				"description": "Gewinne Erfahrung ... schneller"
+			},
+			"decree_of_crafting_buff":	{
+				"display_name": "Inspiriert",
+				"description": "Inspiriert von künstlern"
+			},
+			"decree_of_production_buff":	{
+				"display_name": "Ruhelos",
+				"description": "Arbeite, Arbete..."
+			},
+			"order_attack_buff":	{
+				"display_name": "Angriff!",
+				"description": "Schließt die Linien und greift an!"
+			},
+			"order_last_stand_buff":	{
+				"display_name": "Letzter Stand",
+				"description": "Kein Rückzug"
+			},
+			"order_storm_the_front_buff":	{
+				"display_name": "Stürmt die Front",
+				"description": "Keine Gnade!"
+			},
+			"speech_of_contemplation_buff":	{
+				"display_name": "Betrachtung",
+				"description": "Erlebe die innere Sicht"
+			},
+			"speech_of_fury_buff":	{
+				"display_name": "Raserei",
+				"description": "Mit herausragender Wut"
+			},
+			"speech_of_the_heart_buff":	{
+				"display_name": "Starkes Herz",
+				"description": "Eisen Herz und furchtlos"
+			},
+			"speech_of_the_wise_buff":	{
+				"display_name": "Weise",
+				"description": "Weisheit ... für eine kurze Zeit"
+			}
+		}
+	},
+	"entities":	{
+		"armor":	{
+			"silver_circlet":	{
+				"display_name": "Silberreif",
+				"description": "Schönes geschmiedetes Silber für den Kleriker"
+			},
+			"gold_circlet":	{
+				"display_name": "Goldreif",
+				"description": "Feines geschmiedetes Gold für den Kleriker"
+			},
+			"king_armor":	{
+				"display_name": "Die Königsrüstung",
+				"description": "Meisterlich geschmiedete königliche Goldrüstung"
+			},
+			"amulets":	{
+				"silver_amulet_topaz":	{
+					"display_name": "Silbernes Amulett der Geschwindigkeit",
+					"description": "Topase geben dem Arbeiter Geschwindigkeit"
+				},
+				"gold_amulet_topaz":	{
+					"display_name": "Goldenes Amulett der Geschwindigkeit",
+					"description": "Topase geben dem Arbeiter Geschwindigkeit"
+				},
+				"gold_amulet_topaz_fine":	{
+					"display_name": "Feines goldenes Amulett der Geschwindigkeit",
+					"description": "Topase und Gold geben Geschwindigkeit"
+				},
+				"silver_amulet_ruby":	{
+					"display_name": "Blutamulett",
+					"description": "Bietet gesündere Hearthlinge"
+				},
+				"gold_amulet_ruby":	{
+					"display_name": "Amulett der Gesundheit",
+					"description": "Verstärkte Gesundheit"
+				},
+				"gold_amulet_ruby_fine":	{
+					"diplay_name": "Amulett des Lebens",
+					"description": "Unzerstörbar"
+				}
+			},
+			"cloth":	{
+				"emerald_archer_hood":	{
+					"display_name": "Smaragd Bogenschützenhaube",
+					"description": "Ein Smaragd ist in die Kapuze eingebettet"
+				},
+				"copper_threaded_robe":	{
+					"display_name": "Kupferfädenrobe",
+					"description": "Feines Tuch aus Kupferfäden gewebt"
+				},
+				"silver_threaded_robe":	{
+					"display_name": "Silberfädenrobe",
+					"description": "Silber in einer heiligen Robe"
+				},
+				"gold_threaded_robe":	{
+					"display_name": "Goldfädenrobe",
+					"description": "Die beste Robe, die ein Kleriker haben kann"
+				}
+			},
+			"crowns":	{
+				"king_crown":	{
+					"display_name": "Die Königskrone",
+					"description": "Ziert nur einen königlichen Kopf"
+				}
+			},
+			"obsidian":	{
+				"obsidian_great_helm":	{
+					"display_name": "Obsidian Großhelm",
+					"description": "Gehärteter Obsidian gepaart mit Metall"
+				},
+				"obsidian_scale_helm":	{
+					"display_name": "Obsidian Schuppenhelm",
+					"description": "Obsidianhelm für den Fußsoldaten"
+				},
+				"obsidian_plate_armor":	{
+					"display_name": "Obsidian Plattenrüstung",
+					"description": "Leichte Steinplattenrüstung"
+				},
+				"obsidian_scale_mail":	{
+					"display_name": "Obsidian Schuppenrüstung",
+					"description": "Steinrüstung für Fußsoldaten"
+				},
+				"obsidian_plated_shield":	{	
+					"display_name": "Obsidian beschichteter Schild",
+					"description": "Gehärtet mit denschwarzen Steinen"
+				},
+				"obsidian_topaz_shield":	{
+					"display_name": "Obsidian-Topas Schild",
+					"description": "Mit Topas verbesserter Obsidian beschichteter Schild"
+				}
+			},
+			"rings":	{
+				"silver_ring_obsidian":	{
+					"display_name": "Ring des Neumondes",
+					"description": "Träger braucht weniger Schlaf"
+				},
+				"gold_ring_obsidian":	{
+					"display_name": "Ring des Halbmondes",
+					"description": "Schlaf später, Arbeit jetzt"
+				},
+				"gold_ring_obsidian_fine":	{
+					"display_name": "Ring der Schlaflosgkeit",
+					"description": "Arbeit von Sonnenuntergang bis Sonnenuntergang"
+				},
+				"silver_ring_emerald":	{
+					"display_name": "Ring der Natur",
+					"description": "Geist verbunden mit der Mutter Erde"
+				},
+				"gold_ring_emerald":	{
+					"display_name": "Ring des Naturgeistes",
+					"description": "Gestärkt durch ein raffinierten Smaragd"
+				},
+				"gold_ring_emerald_fine":	{
+					"display_name": "Ring der Naturkraft",
+					"description": "Stärke des reinsten Smaragds"
+				}
+			},
+			"diadems":	{
+				"blood_eye":	{
+					"display_name": "Blutauge",
+					"description": "Diadem für den erfahrenen Bogenschützen"
+				},
+				"serpent_eye":	{
+					"display_name": "Schlangenauge",
+					"description": "Smaragd mit Bogenschützenfähigkeiten"
+				},
+				"sharpshooter_eye":	{
+					"display_name": "Scharfschützenauge",
+					"description": "Implantierter Diamant"
+				}
+			}
+		},
+		"consumables":	{
+			"healing_tonic":	{
+				"medium_healing_tonic":	{
+					"display_name": "Mittelstark heilendes Elixier",
+					"description": "Heilt eine geringe Menge an Gesundheit"
+				},
+				"large_healing_tonic":	{
+					"display_name": "Stark heilendes Elixier",
+					"description": "Stark heilende Wirkung"
+				},
+				"superior_healing_tonic":	{
+					"display_name": "Überlegenes heilendes Elixier",
+					"description": "Große heilende Wirkung"
+				},
+				"ultimate_healing_tonic":	{
+					"display_name": "Ultimatives heilendes Elixier",
+					"description": "Das beste herstellbare Heilelixier"
+				},
+				"amber_healing_tonic":	{
+					"display_name": "Bernstein heilenedes Elixier",
+					"description": "Heilt eine gute Menge an Gesundheit"
+				},
+				"concentrated_amber_healing_tonic":	{
+					"display_name": "Konzentriertes Bernstein Elixier",
+					"description": "Konzentriertes Bernsteinpulver in einem Elixier"
+				}
+			},
+			"speed_elixir":	{
+				"speed_elixir_ghost":	{
+					"display_name": "Geschwindigkeitselixier",
+					"description": "Beschleunigt die Stadt"
+					}
+			},
+			"combat_elixir":	{
+				"combat_elixir_ghost":	{
+					"display_name": "Kampfelixier",
+					"description": "Bereit zum Kampf, Sir!"
+					}
+			},
+			"experience_elixir":	{
+				"experience_elixir_ghost":	{
+					"display_name": "Erfahrungselixier",
+					"description": "Wissen in einer Flasche"
+				}
+			},
+			"decrees":	{
+				"decree_of_progression":	{
+					"decree_of_progression_ghost":	{
+						"display_name": "Dekret des Fortschrittes",
+						"description": "Das Dekret des Führers lässt das Dorf schneller vorankommen"
+					}
+				},
+				"decree_of_crafting":	{
+					"decree_of_crafting_ghost":	{
+						"display_name": "Dekret des Handwerks",
+						"description": "Das Dekret inspiriert die Handwerker zu feineren Arbeiten"
+					}
+				},
+				"decree_of_production":	{
+					"decree_of_production_ghost":	{
+						"display_name": "Dekret der Produktion",
+						"description": "Der Führer befiehlt jedem ohne Rasz zu arbeiten"
+					}
+				}
+			},
+			"orders":	{
+				"order_attack":	{
+					"order_attack_ghost":	{
+						"display_name": "Befehl zum Angriff",
+						"description": "Greift den Feind an!"
+					}
+				},
+				"order_last_stand":	{
+					"order_last_stand_ghost":	{
+						"display_name": "Befehl für den letzten Stand",
+						"description": "Verwendet um bei einer Belagerung zu widerstehen"
+					}
+				},
+				"order_storm_the_front":	{
+					"order_storm_the_front_ghost":	{
+						"display_name": "Befehl die Front zu stürmen",
+						"description": "Möge die Macht mit dir sein"
+					}
+				}
+			},
+			"speeches":	{
+				"speech_of_contemplation":	{
+					"speech_of_contemplation_ghost":	{
+						"display_name": "Rede der Besinnung",
+						"description": "Lasst eure Gedanken euch über den Horizont bringen"
+					}
+				},
+				"speech_of_fury":	{
+					"speech_of_fury_ghost":	{
+						"display_name": "Rede der Raserei",
+						"description": "Erwecke die Raserei von Geist und Seele"
+					}
+				},
+				"speech_of_the_heart":	{
+					"speech_of_the_heart_ghost":	{
+						"display_name": "Rede des Herzens",
+						"description": "Dein Herz ist stärker als Angst und Schmerz"
+					}
+				},
+				"speech_of_the_wise":	{
+					"speech_of_the_wise_ghost":	{
+						"display_name": "Rede der Weisheit",
+						"description": "Weisheit wird durch Erfahrung, Intelligenz und Alter verdient"
+					}
+				}
+			}
+		},
+		"decoration":	{
+			"amber_torch_pole":	{
+				"amber_torch_pole_ghost":	{
+					"display_name": "Kristallfackel",
+					"description": "Lichtkristall auf einem Pole"
+				}
+			},
+			"amber_torch_wall":	{
+				"amber_torch_wall_ghost":	{
+					"display_name": "Wandgebundene Kristallfackel",
+					"description": "Lichtkristall für die Wand"
+				}
+			},
+			"light_crystal_town":	{
+				"light_crystal_town_ghost":	{
+					"display_name": "Großer Lichtkristall",
+					"description": "Bietet Licht für eine große Fläche"
+				}
+			},
+			"topaz_looking_glas":	{
+				"topaz_looking_glas_ghost":	{
+					"display_name": "Topasglaskugel",
+					"description": "Schau hinein und finde es heraus"
+				}
+			},
+			"gold_candelabra":	{
+				"gold_candelabra_ghost":	{
+					"display_name": "Goldene Kandelaber",
+					"description": "Ein Muss in einem reichen Haus"
+				}
+			},
+			"night_candle":	{
+				"night_candle_ghost":	{
+					"display_name": "Nachtkerze",
+					"description": "Eine einzelne Kerze, um Licht zu bringen"
+				}
+			},
+			"golden_topaz_mirror":	{
+				"golden_topaz_mirror_ghost":	{
+					"display_name": "Goldener Topasspiegel",
+					"description": "Reflektiert bläulich"
+				}
+			},
+			"golden_goblet":	{
+				"golden_goblet_ghost":	{
+					"display_name": "Goldener Kelch",
+					"description": "Kelch für den König"
+				}
+			},
+			"rack_silver_mail":	{
+				"rack_silver_mail_ghost":	{
+					"display_name": "Silberrüstungsgestell",
+					"description": "Zeige die Arbeit deiner Handwerker"
+				}
+			},
+			"castle_rug":	{
+				"castle_rug_ghost":	{
+					"display_name": "Königlicher Teppich",
+					"description": "Gemacht in den Farben der Königlichen"
+				}
+			},
+			"brazier_column":	{
+				"brazier_colomn_ghost":	{
+					"display_name": "Kohlebeckensäule",
+					"description": "Schön aussehendes Kohlebecken"
+				}
+			},
+			"brazier_small":	{
+				"brazier_small_ghost":	{
+					"display_name":	"Kleines Kohlebecken",
+					"description": "Fußbodenbecken"
+				}
+			},
+			"rack_iron_mail":	{
+				"rack_iron_mail_ghost":	{
+					"display_name": "Eisenrüstungsgestell",
+					"description": "Der Schmied ist stolz darauf"
+				}
+			},
+			"rack_bronze_armor":	{
+				"rack_bronze_armor_ghost":	{
+					"display_name": "Bronzerüstungsgestell",
+					"description": "Polierte Bronze zum genießen"
+				}
+			},
+			"wall_tapestry":	{
+				"wall_tapestry_tree_winter":	{
+					"wall_tapestry_tree_winter_ghost":	{
+						"display_name": "Könlgicher Baum Wandteppich Winter",
+						"description": "Ein Wandteppich des königlichen Baumes im Winter"
+						}
+					},
+				"wall_tapestry_tree_spring":	{
+					"wall_tapestry_tree_spring_ghost":	{
+						"display_name": "Könlgicher Baum Wandteppich Frühling",
+						"description": "Ein Wandteppich des königlichen Baumes im Frühling"
+					}
+				},
+				"wall_tapestry_tree_summer":	{
+					"wall_tapestry_tree_summer_ghost":	{
+						"display_name": "Könlgicher Baum Wandteppich Sommer",
+						"description": "Ein Wandteppich des königlichen Baumes im Sommer"
+					}
+				},
+				"wall_tapestry_tree_autumn":	{
+					"wall_tapestry_tree_autumn_ghost":	{
+						"display_name": "Könlgicher Baum Wandteppich Herbst",
+						"description": "Ein Wandteppich des königlichen Baumes im Herbst"
+					}
+				}
+			},
+			"weapon_rack":	{
+				"weapon_rack_ghost":	{
+					"display_name": "Waffengestell",
+					"description": "Alle Waffen des Schmiedes"
+				}
+			}
+		},
+		"figurines_statues":	{
+			"jade_castle":	{
+				"display_name": "Schloss aus Jade",
+				"description": "Schlossfigur gemacht aus Jade"
+			},
+			"jade_colosseum":	{
+				"display_name": "Kolosseum aus Jade",
+				"description": "Kolosseumfigur gemacht aus Jade"
+			},
+			"jade_elephant":	{
+				"display_name": "Elefant aus Jade",
+				"description": "Elefantfigur gemacht aus glänzener Jade"
+			},
+			"jade_fisher_hut":	{
+				"display_name": "Fischerhütte aus Jade",
+				"description": "Fischerhütte gemacht aus Jade"
+			},
+			"jade_island":	{
+				"display_name": "Insel aus Jade",
+				"description": "Schöne Insel-Szene"
+			},
+			"jade_snake":	{
+				"display_name": "Schlange aus Jade",
+				"description": "Grüne Mamba gemacht aus Jade"
+			},
+			"jade_temple":	{
+				"display_name": "Tempel aus Jade",
+				"description": "Tempel der alten Zeit aus Jade gemacht"
+			},
+			"jade_wolfman":	{
+				"display_name": "Wolfmann aus Jade",
+				"description": "Wolfmannfigur gemacht aus Jade"
+			}
+		},
+		"furniture":	{
+			"king_throne":	{
+				"display_name": "Königsthron",
+				"description": "Ein goldener Thron für den König"
+			},
+			"wooden_king_chair":	{
+				"wooden_king_chair_ghost":	{
+					"display_name": "Hölzerner Königstuhl",
+					"description": "Der beste Stuhl für seine Majestät"
+				}
+			},
+			"king_bed":	{
+				"king_bed_ghost":	{
+					"display_name": "Das Königsbett",
+					"description": "Waschbärfell und Gold für schöne Träume"
+				}
+			},
+			"butcher_table":	{
+				"butcher_table_ghost":	{
+					"display_name": "Metzgertisch",
+					"description": "Blut, Fleisch und Nahrung"
+				}
+			}
+		},
+		"plants":	{
+			"awakened_brightbell":	{
+				"display_name": "Erwachte Glockenblume",
+				"description": "Überlegene Glockenblume"
+			},
+			"awakened_frostsnap":	{
+				"display_name": "Erwachte Eisblume",
+				"description": "Überlegene Eisblume"
+			},
+			"awakened_cactus_flower":	{
+				"display_name": "Erwachte Kaktusblume",
+				"description": "Überlegene Kaktusblume"
+			}
+		},
+		"refined":	{
+			"amber":	{
+				"display_name": "Bernsteinkristall",
+				"description": "Ein Stück des alten Harzes."
+			},
+			"topaz":	{
+				"display_name": "Topaskristall",
+				"description": "Eine blaue Scherbe von Mutter Erde"
+			},
+			"obsidian":	{
+				"display_name": "Obsidianstein",
+				"description": "Hart wie die Schppe eines Drachen"
+			},
+			"emerald":	{
+				"display_name": "Schlangenauge",
+				"description": "Erschaffen aus der Liebe der Erde"
+			},
+			"ruby":	{
+				"display_name": "RubinkKristalll",
+				"description": "Ein Tropfen magisches Blut."
+			},
+			"diamond":	{
+					"display_name": "Diamantkristall",
+					"description": "Der Stern der Edelsteine."
+			},
+			"faceted_gem":	{
+				"faceted_amber":	{
+					"display_name": "Facettierter Bernstein",
+					"description": "Das Beste der besten Bernsteinedelsteine"
+				},
+				"faceted_amber_fine":	{
+					"display_name": "Schöner, facettierter Bernstein",
+					"description": "Das Beste der besten Bernsteinedelsteine"
+				},
+				"faceted_diamond":	{
+					"display_name": "Facettierter Diamant",
+					"description": "Rein, klar, funkelnd"
+				},
+				"faceted_diamond_fine":	{
+					"display_name": "Schöner, facettierter Diamant",
+					"description": "Rein, klar, funkelnd"
+				},
+				"faceted_ruby":	{
+					"display_name": "Facettierter Rubin",
+					"description": "Die Leidenschaft eines Juweliers"
+				},
+				"faceted_ruby_fine":	{
+					"display_name": "Schöner, facettierter Rubin",
+					"description": "Die Leidenschaft eines Juweliers"
+				},
+				"faceted_emerald":	{
+					"display_name": "Facettierter Smaragd",
+					"description": "Geschnitten wie die Natur es erzählt hat"
+				},
+				"faceted_emerald_fine":	{
+					"display_name": "Schöner, facettierter Smaragd",
+					"description": "Geschnitten wie die Natur es erzählt hat"
+				},
+				"faceted_topaz":	{
+					"display_name": "Facettierter Topas",
+					"description": "Schneidet in das Herz"
+				},
+				"faceted_topaz_fine":	{
+					"display_name": "Schöner, facettierter Topas",
+					"description": "Schneidet in das Herz"
+				},
+				"gold_scale":	{
+					"display_name": "Goldschuppe",
+					"description": "Wird verwendet um Reichtum zu zeigen"
+				},
+				"obsidian_scale":	{
+					"display_name": "Obsidianschuppe",
+					"description": "Zur weiteren Verwendung gemacht"
+				}
+			},
+			"thread":	{
+				"copper_thread":	{
+					"display_name": "Kupferfaden",
+					"description": "Fein gesponnenes Kupfer"
+				},
+				"silver_thread":	{
+					"display_name": "Silberfaden",
+					"description": "Silber gesponnen zu einem Draht"
+				},
+				"gold_thread":	{
+					"display_name": "Goldfaden",
+					"description": "Zu einem dünnen Draht aus Gold geschmiedet"
+				}
+			},
+			"raw_glas":	{
+				"display_name": "Ein Brocken rohes Glas",
+				"description": "Geschmolzen aber roh"
+			},
+			"sheet_of_glas":	{
+				"display_name": "Glasscheiben",
+				"description": "Für bessere Fenster"
+			}
+		},
+		"resources":	{
+			"awakened_wood":	{
+				"display_name": "Erwachtes Holz",
+				"description": "Gehackt aber noch am Leben"
+			},
+			"bag_o_gems":	{
+				"display_name": "Edelsteinbeutel",
+				"description": "Beutel voll mit Edelsteinen"
+			},
+			"precious_stone_ore":	{
+				"display_name": "Edelsteinerz",
+				"description": "Ein Klumpen Stein mit Edelsteinen"
+			},
+			"raw_amber":	{
+				"display_name": "Roher Bernstein",
+				"description": "Ein unentdeckter Funke."
+			},
+			"raw_topaz":	{
+					"display_name": "Roher Topas",
+					"description": "Wie verstecktes reines Wasser."
+			},
+			"raw_obsidian":	{
+					"display_name": "Roher Obsidian",
+					"description": "Verwendbar mit nur ein wenig Handwerk."
+			},
+			"raw_emerald":	{
+					"display_name": "Roher Smaragd",
+					"description": "Ein grüner Funke der reinen Natur."
+			},
+			"raw_ruby":	{
+					"display_name": "Roher Rubin",
+					"description": "Reines Blut der Erde."
+			},
+			"raw_diamond":	{
+				"display_name": "Roher Diamant",
+				"description": "Reinigen, um großen Reichtum zu verdienen."
+			},
+			"gem":	{
+				"amber_powder":	{
+						"display_name": "Bernsteinpulver",
+						"description": "Zermalmt zur Herstellung von Tränken."
+				},
+				"ruby_powder":	{
+					"display_name": "Rubinpulver",
+					"description": "Ein Pulver am besten für die Heilung verwendet."
+				},
+				"emerald_powder":	{
+					"display_name": "Smaragdpulver",
+					"description": "Ein Funke der Magie der Natur."
+				},
+				"topaz_powder": {
+					"display_name": "Topaspulver",
+					"description": "Verwendete diese zur Reinigung."
+				}
+			},
+			"quartz_sand":	{
+				"display_name":	"Quarzsand",
+				"description": "Nicht der gewöhnliche Sand"
+			}
+		},
+		"trees":	{
+			"acacia_tree":	{
+				"awakened_acacia_tree_sapling":	{
+					"awakened_acacia_tree_sapling_ghost":	{
+						"display_name": "Erwachter Akazienschößling",
+						"description": "Wächst schneller"
+					},
+					"awakened_acacia_tree_sapling_iconic":	{
+						"display_name": "Erwachter Akazienschößling",
+						"description": "Bereit in guten Boden gepflanzt zu werden"
+					}
+				},
+				"awakened_small_acacia_tree":	{
+					"display_name": "Erwachter Akazienbaum",
+					"description": "Ein junger Akazienbaum"
+				},
+				"awakened_medium_acacia_tree":	{
+					"display_name": "Erwachter Akazienbaum",
+					"description": "Wächst ist aber noch nicht ausgewachsen"
+				},
+				"awakened_large_acacia_tree":	{
+					"display_name": "Smaragdakazie",
+					"description": "Bereit für mysteriöses Holz geerntet zu werden"
+				}
+			},
+			"oak_tree":	{
+				"awakened_oak_tree_sapling":	{
+					"awakened_oak_tree_sapling_ghost":	{
+						"display_name": "Erwachter Eichenschößling",
+						"description": "Wächst viel schneller"
+					},
+					"awakened_oak_tree_sapling_iconic": {
+						"display_name": "Erwachter Eichenschößling",
+						"description": "Bereit in guten Boden gepflanzt zu werden"
+					}
+				},
+				"awakened_small_oak_tree":	{
+					"display_name": "Erwachter Eichenbaum",
+					"description": "Klein und mit Smaragdaroma"
+				},
+				"awakened_medium_oak_tree":	{
+					"display_name": "Erwachter Eichenbaum",
+					"description": "Wächst und wird stärker"
+				},
+				"awakened_large_oak_tree":	{
+					"display_name": "Erwachter ausgewachsener Eichenbaum",
+					"description": "Wächst weiter, sei geduldig um einen uralten Baum zu bekommen"
+				},
+				"awakened_ancient_oak_tree":	{
+					"display_name": "Smaragdeiche",
+					"description": "Der Baum der Elfenlegenden"
+				}
+			}
+		},
+		"weapons":	{
+			"golden_sword":	{
+				"golden_sword_ghost":	{
+					"display_name": "Goldenes Schwert",
+					"description": "Die feinste Waffe aus Gold"
+				}
+			},
+			"leader_sword":	{
+				"display_name":	"Anführerschwert",
+				"description": "Der Talisman des Anführers"
+			}
+		}
+	},
+	"jobs":	{
+		"carpenter":	{
+			"recipes":	{
+				"wooden_king_chair_recipe":	{
+					"recipe_name": "Hölzerner Königstuhl",
+					"description": "Der beste Stuhl für seine Majestät",
+					"flavor": "Eure Majestät gereiche einen Stuhl"
+				},
+				"king_bed_recipe":	{
+					"recipe_name": "Das Königsbett",
+					"description": "Waschbärfell und Gold für schöne Träume",
+					"flavor": "Shhhht...wecke nicht den König auf, geh geh"
+				},
+				"butcher_table_recipe":	{
+					"recipe_name": "Metzgertisch",
+					"description": "Blut, Fleisch und Nahrung",
+					"flavor": "Chop, chop, chop"
+				},
+				"leader_war_map_recipe":	{
+					"recipe_name": "Anführer Kriegskarte",
+					"description": "Plane deine Taktik vor dem Krieg.",
+					"flavor": "Ich mag all die beweglichen Figuren"
+				},
+				"leader_speech_table_recipe":	{
+					"recipe_name": "Ansprachenpult",
+					"description": "Um von Gesetz und Traditionen zu sprechen",
+					"flavor": "Du musst zuhören, wenn der Anführer spricht"
+				}
+			}
+		},
+		"herbalist":	{
+			"recipes":	{
+				"medium_healing_tonic_recipe":	{
+					"recipe_name": "Mittleres heilendes Elixir",
+					"description": "Heilt eine kleine Menge Gesundheit",
+					"flavor": "Konzentrierte Essenz der Kräuter"
+				},
+				"large_healing_tonic_recipe":	{
+					"recipe_name": "Großes heilendes Elixir",
+					"description": "Stark heilender Effekt",
+					"flavor": "Riecht wie Erdbeere mit Curry"
+				},
+				"superior_healing_tonic_recipe":	{
+					"recipe_name": "Überlegenes heilendes Elixir",
+					"description": "Große heilende Wirkung",
+					"flavor": "Argh, schmeckt wie Riesenblut"
+				},
+				"ultimate_healing_tonic_recipe":	{
+					"recipe_name": "Ultimative heilendes Elixir",
+					"description": "Das beste herstellbare Heilelixir",
+					"flavor": "Heilt innerhalb eines Augenzwinkerns"
+				},
+				"amber_healing_tonic_recipe":	{
+					"recipe_name": "Bernstein Heilelixir",
+					"description": "Heilt eine gute Menge Gesundheit",
+					"flavor": "Bernsteinpulver und Kräuter für die Gesundheit"
+				},
+				"concentrated_amber_healing_tonic_recipe":	{
+					"recipe_name": "Konzentriertes Bernstein Heilelixir",
+					"description": "Konzentriertes Bernsteinpulver in einem Elixir",
+					"flavor": "Schmeckt scharf und ein bisschen wie Honig"
+				},
+				"speed_elixir_recipe":	{
+					"recipe_name": "Geschwindigkeitselixier",
+					"description": "Beschleunigt die Stadt",
+					"flavor": "Großer Effekt aber ohne guten Geschmack"
+				},
+				"combat_elixir_recipe":	{
+					"recipe_name": "Kampfelixir",
+					"description": "Bereit zum Kampf, Sir!",
+					"flavor": "Macht deine Zähne dreckig"
+				},
+				"experience_elixir_recipe":	{
+					"recipe_name": "Erfahrungselixier",
+					"description": "Wissen in einer Flasche",
+					"flavor": "Du wirst nie Wissen, bis du es getrunken hast"
+				},
+				"plant_life_name": "Erwachte Pflanzen",
+				"awakened_oak_tree_sapling_recipe":	{
+					"recipe_name": "Erwachter Eichenschößling",
+					"description": "Wächst viel schneller",
+					"flavor": "Die Magie der Natur macht das"
+				},
+				"awakened_acacia_tree_sapling_recipe":	{
+					"recipe_name": "Erwachter Akazienbaum",
+					"description": "Wächst viel schneller",
+					"flavor": "Mit Smaragdpulver erwacht"
+				},
+				"awakened_brightbell_recipe":	{
+					"recipe_name": "Erwachte Glockenblume",
+					"description": "Überlegene Glockenblume",
+					"flavor": "Lass die Glockenblume erstrahlen"
+				},
+				"awakened_frostsnap_recipe":	{
+					"recipe_name": "Erwachte Eisblume",
+					"description": "Überlegene Eisblume",
+					"flavor": "Gefrierend kalt, wenn man Sie berührt"
+				},
+				"awakened_cactus_flower_recipe":	{
+					"recipe_name": "Erwachte Kaktusblume",
+					"description": "Überlegene Kaktusblume",
+					"flavor": "Die Schönheit der Wüste"
+				}
+			}
+		},
+		"jeweler":	{
+			"jeweler_description":	{
+				"display_name": "Juwelier",
+				"description": "Der Handwerker der feinsten Juwelen und Edelsteine",
+				"requirements": "Eine Zange herstellt von erfahrenen Schmieden.",
+				"level_1_data":	{
+					"perk_000_name": "Kristallraffinierung",
+					"perk_000_description": "Erste Erfahrung in der Edelsteinverarbeitung."
+				},
+				"level_2_data":	{
+					"perk_000_name": "Edelstein quetscht",
+					"perk_000_description": "Einige Rezepte um Kristallpulver herzustellen."
+				},
+				"level_3_data":	{
+					"perk_000_name": "Juwelier",
+					"perk_000_description": "Erster Schritt auf dem Weg zum Meisters der Juwelen."
+				},
+				"level_4_data":	{
+					"perk_000_name": "Erfahrener Edelsteinschneider",
+					"perk_000_description": "Schneiden der Kristall-Essenzen."
+				},
+				"level_5_data":	{
+					"perk_000_name": "Fortgeschrittener Juwelier",
+					"perk_000_description": "Reiniger der Kristallherzen."
+				},
+				"level_6_data":	{
+					"title": "Meister des Schmucks",
+					"perk_000_name": "Meister des Schmucks",
+					"perk_000_description": "Könige und Königinnen tragen diese Stücke der Kunst."
+				}
+			},
+			"jeweler_workbench":	{
+				"jeweler_workbench_ghost":	{
+					"display_name": "Juwelier Waschschale",
+					"description": "Eine Waschschale zum reinigen der Kristalle."
+				}
+			},
+			"jeweler_tong":	{
+				"display_name": "Zange",
+				"description": "Das Grundwerkzeug für den Juwelier:",
+				"jeweler_tong_iconic":	{
+					"display_name": "Zange",
+					"description": "Das Grundwerkzeug für den Juwelier."
+				},
+				"jeweler_tong_talisman":	{
+					"display_name": "Zange",
+					"description": "Erforderlich um einen Hearthling in einen Juwelier zu ernennen."
+				}
+			},
+			"jeweler_gem_crusher":	{
+				"jeweler_gem_crusher_ghost":	{
+					"display_name": "Edelsteinbrecher",
+					"description": "Ein gehärteter Stempel zum Zerkleinern von Kristallen."
+				}
+			},
+			"jeweler_gem_cutter_table":	{
+				"jeweler_gem_cutter_table_ghost":	{
+					"display_name": "Edelsteinschneidetisch",
+					"description": "Tisch zum Schneiden von Edelsteinen."
+				}
+			},
+			"jeweler_smelting_oven":	{
+				"jeweler_smelting_oven_ghost":	{
+					"display_name": "Schmelzofen",
+					"description": "Nur zum Schmelzen von Quarzsand"
+				}
+			},
+			"jeweler_outfit": {
+				"display_name": "Juwelier Arbeitsleder",
+				"description": "Uniform für alle Juweliere"
+			},
+			"recipes":	{
+				"workbenches_name": "Werkbanken",
+				"jeweler_workbench_recipe":	{
+					"recipe_name": "Waschschale",
+					"description": "Eine Waschschale zum reinigen der Kristalle",
+					"flavor": "Mach deine Hände schmutzig, verdiene Reichtum"
+				},
+				"jeweler_gem_crusher_recipe":	{
+					"recipe_name": "Edelsteinbrecher",
+					"description": "Ein gehärteter Hammer, um Edelsteine in Stücke zu zerbrechen",
+					"flavor": "Breche, zerkleinere und fräse Edelsteine zu Staub"
+				},
+				"jeweler_gem_cutter_table_recipe":	{
+					"recipe_name": "Edelsteinschneidetisch",
+					"description": "Ausgestattet mit allem für den professionellen Edelsteinschneider",
+					"flavor": "Nicht den Juwelier stören, wenn er hier arbeitet"
+				},
+				"jeweler_smelting_oven_recipe":	{
+					"recipe_name": "Schmelzofen",
+					"description": "Nur zum Schmelzen von Quarzsand",
+					"flavor": "Zu heiß für Töpferei und Schmiedekunst"
+				},
+				"cleaning_name": "Kristalle reinigen",
+				"bag_o_gems_recipe":	{
+					"recipe_name": "Edelsteinbeutel",
+					"description": "Beutel voller Edelsteine",
+					"flavor": "Eine Juweliertasche voller kostbarer Steine"
+				},
+				"clean_raw_amber_recipe":	{
+					"description": "Ein Stück uraltes Harzes.",
+					"recipe_name": "Bernstein",
+					"flavor": "Einmal das Blut eines Baumes, Tausende von Jahren später ein Kristall."
+				},
+				"clean_raw_topaz_recipe":	{
+					"description": "Ein Kristall aus reinem Wasser oder Luft",
+					"recipe_name": "Topas",
+					"flavor": "Ein blauer Topas, selten und rein."
+				},
+				"clean_raw_obsidian_recipe":	{
+					"description": "Der dunkelste und härteste gefundene Stein",
+					"recipe_name": "Obsidian",
+					"flavor": "Eine schwarze Scherbe, fast so hart wie eine Drachenschuppe."
+				},
+				"clean_raw_emerald_recipe":	{
+					"description": "Reine Natur in einen Kristall verbannt.",
+					"recipe_name": "Smaragd",
+					"flavor": "Vielleicht ist das Wesen der Natur selbst"
+				},
+				"clean_raw_ruby_recipe":	{
+					"description": "Das Kristallblut der Mutter Erde.",
+					"recipe_name": "Rubin",
+					"flavor": "Magie, Zeit und ein Tropfen Blut schuf diesen Kristall."
+				},
+				"clean_raw_diamond_recipe":	{
+					"description": "Die reinsten und seltensten aller Kristalle.",
+					"recipe_name": "Diamant",
+					"flavor": "Du kannst Ihn verkaufen oder behalten, egal wie du wirst reich."
+				},
+				"smelting_name": "Schmelzen",
+				"raw_glas_recipe":	{
+					"recipe_name": "Geschmolzenes rohes Glas",
+					"description": "Braucht viel Hitze und Quarzsand",
+					"flavor": "Der richtige Sand mit der richtigen Hitze macht schönes Glas"
+				},
+				"crushing_crystals_name": "Kristallpulver",
+				"crush_amber_recipe":	{
+					"description": "Ein Pulver für Tränke und Handwerk.",
+					"recipe_name": "Bernsteinpulver",
+					"flavor": "Zerbröckelt zu Staub, aber nicht nutzlos."
+				},
+				"crush_topaz_recipe":	{
+					"description": "Pulver aus Luft und Wasser.",
+					"recipe_name": "Topaspulver",
+					"flavor": "Das Pulver flüstert wie Wind und riecht wie sauberes Wasser."
+				},
+				"crush_ruby_recipe":	{
+					"description": "Pulver aus Blut.",
+					"recipe_name": "Rubinpulver",
+					"flavor": "Starkes Pulver für Gesundheit, Ausdauer und Kraft."
+				},
+				"crush_emerald_recipe":	{
+					"description": "Pulver der Natur",
+					"recipe_name": "Smaragdpulver",
+					"flavor": "Gefunden in den tiefsten Dschungeln im Herzen der Natur."
+				},
+				"gem_cutting_name": "Edelsteinschneiden",
+				"cut_amber_recipe":	{
+					"recipe_name": "Facettierter Bernstein",
+					"description": "Das Beste der besten Bernsteinedelsteine",
+					"flavor": "Ein Sonnenstrahl in einem Kristall gebannt"
+				},
+				"cut_topaz_recipe":	{
+					"recipe_name": "Facettierter Topas",
+					"description": "Bis zum Herz geschnitten",
+					"flavor": "Der klarste Tropfen Wasser in einem Juwel"
+				},
+				"cut_ruby_recipe":	{
+					"recipe_name": "Facettierter Rubin",
+					"description": "Die Leidenschaft eines Juweliers",
+					"flavor": "Ist es ein Juwel? Oder das Blut von Gaia?"
+				},
+				"cut_emerald_recipe":	{
+					"recipe_name": "Facettierter Smaragd",
+					"description": "Geschnitten wie die Natur es erzählt hat",
+					"flavor": "Juweliere nennen das ein Schlangenauge"
+				},
+				"cut_diamond_recipe":	{
+					"recipe_name": "Facettierter Diamant",
+					"description": "Rein, klar, funkelnd",
+					"flavor": "Gebrochen aus dem Himmel selbst"
+				},
+				"obsidian_scale_recipe":	{
+					"recipe_name": "Obsidianschuppe",
+					"description": "Für die weitere Verwendung gemacht",
+					"flavor": "Eine Schuppe der Dunkelheit für Rüstungen"
+				},
+				"gold_scale_recipe":	{
+					"recipe_name": "Goldschuppe",
+					"description": "Für weitere Verwendung, um Reichtum zu zeigen",
+					"flavor": "Goldene Schuppenpanzer und Platten benötigen dies"
+				},
+				"sheet_of_glas_recipe":	{
+					"recipe_name": "Glasscheiben",
+					"description": "Hergestelltes Glas",
+					"flavor": "Sie können durchschauen...."
+				},
+				"metal_thread_name": "Metallfäden",
+				"copper_thread_recipe":	{
+					"recipe_name": "Kupferfaden",
+					"description": "Fein gesponnenes Kupfer",
+					"flavor": "Braucht feines Schmieden, um Kupfer dünn wie ein Haar zu bekommen"
+				},
+				"silver_thread_recipe":	{
+					"recipe_name": "Silberfaden",
+					"description": "Silber gesponnen zu Draht",
+					"flavor": "Vielleicht kann der Weber daraus Roben machen"
+				},
+				"gold_thread_recipe":	{
+					"recipe_name": "Goldfaden",
+					"description": "Zu einem dünnen Draht aus Gold geschmiedet",
+					"flavor": "Eine Zaubererrobe muss goldene Fäden haben"
+				},
+				"circlet_diadem_name": "Reife und Diademe",
+				"silver_circlet_recipe":	{
+					"recipe_name": "Silberreif",
+					"description": "Für erfahrene Kleriker gemacht",
+					"flavor": "Nur ein feines, gefertigtes Stück Silber"
+				},
+				"gold_circlet_recipe":	{
+					"recipe_name": "Goldreif",
+					"description": "Feines gefertigtes Gold für den Kleriker",
+					"flavor": "Ohne Edelstein aber fein hergestellt"
+				},
+				"king_crown_recipe":	{
+					"recipe_name": "Die Königskrone",
+					"description": "Ziert nur einen königlichen Kopf",
+					"flavor": "Ein Blaupause entdeckte auf einer alten Schriftrolle"
+				},
+				"queen_crown_recipe":	{
+					"recipe_name": "Die Krone der Königin",
+					"description": "Nur für ihre Majestät",
+					"flavor": "Feinstes Gold für den königlichen Kopf"
+				},
+				"amulets_rings_name": "Amulette und Ringe",
+				"silver_amulet_topaz_recipe":	{
+					"recipe_name": "Geschwindigkeitsamulett",
+					"description": "Beschleunigt einen Arbeiter",
+					"flavor": "Du kannst nicht widerstehen, dies zu nehmen"
+				},
+				"gold_amulet_topaz_recipe":	{
+					"recipe_name": "Topasamulett",
+					"description": "Beschleunigt einen Arbeiter",
+					"flavor": "Nimm es und lauf"
+				},
+				"gold_amulet_topaz_fine_recipe":	{
+					"recipe_name": "Glänzendes Topasamulett",
+					"description": "Maximal beschleunigte Arbeiter",
+					"flavor": "Fast schneller als Licht"
+				},
+				"silver_amulet_ruby_recipe":	{
+					"recipe_name": "Blutamulett",
+					"description": "Bietet gesündere Hearthlinge",
+					"flavor": "Das Blut der Erde stärkt das Blut"
+				},
+				"gold_amulet_ruby_recipe":	{
+					"recipe_name": "Amulett der Gesundheit",
+					"description": "Verstärkte Gesundheit",
+					"flavor": "Du wirst mit diesem Amulett nie krank werden"
+				},
+				"gold_amulet_ruby_fine_recipe":	{
+					"recipe_name": "Amulett des Lebens",
+					"description": "Unzerstörbar",
+					"flavor": "Wunden und Verletzungen sind nicht mehr wichtig"
+				},
+				"silver_ring_obsidian_recipe":	{
+					"recipe_name": "Ring des Neumondes",
+					"description": "Schlafen weniger",
+					"flavor": "Mit einem Stein der Nacht brauchst du weniger Schlaf"
+				},
+				"gold_ring_obsidian_recipe":	{
+					"recipe_name": "Ring des Halbmondes",
+					"description": "Schlaf später, Arbeit jetzt",
+					"flavor": "Ein Funke des tiefsten Schwarz lässt dich wach bleiben"
+				},
+				"silver_ring_emerald_recipe":	{
+					"recipe_name": "Ring der Natur",
+					"description": "Geist mit Mutter Erde verbunden",
+					"flavor": "Wenn du anlegst kannst du Erde, Wasser und Wind riechen"
+				},
+				"gold_ring_emerald_recipe":	{
+					"recipe_name": "Ring des Naturgeistes",
+					"description": "Gestärkt durch ein raffinierten Smaragd",
+					"flavor": "Du wirst dich wie ein Ent fühlen"
+				},
+				"gold_ring_emerald_fine_recipe":	{
+					"recipe_name": "Ring der Naturkraft",
+					"description": "Stärke des reinsten Smaragds",
+					"flavor": "Master of the Elements"
+				},
+				"blood_eye_recipe":	{
+					"recipe_name": "Blutauge",
+					"description": "Diadem für den erfahrenen Bogenschütze",
+					"flavor": "Der Rubin verbindet sich mit deinem Leben"
+				},
+				"serpent_eye_recipe":	{
+					"recipe_name": "Schlangenauge",
+					"description": "Smaragd mit Bogenschützenfähigkeiten",
+					"flavor": "Grüne Sicht für die Nacht"
+				},
+				"sharpshooter_eye_recipe":	{
+					"recipe_name": "Scharfschützenauge",
+					"description": "Implantierter Diamant",
+					"flavor": "Wenn der Schmerz nachlässt, kann man alles sehen"
+				},
+				"decoration_name": "Dekoration",
+				"amber_torch_pole_recipe":	{
+					"recipe_name": "Kristallfackel",
+					"description": "Lichtkristall auf einem Pfahl",
+					"flavor": "Bringt ein warmes Licht"
+				},
+				"amber_torch_wall_recipe":	{
+					"recipe_name": "Wandgebundene Kristallfackel",
+					"description": "Lichtkristall für die Wand",
+					"flavor": "Schöne kleine Lichtquelle"
+				},
+				"light_crystal_town_recipe":	{
+					"recipe_name": "Großer Lichtkristall",
+					"description": "Bringt Licht auf eine große Fläche",
+					"flavor": "Bernstein gebacken zu einem großen Kristall"
+				},
+				"topaz_looking_glas_recipe":	{
+					"recipe_name": "Topasglaskugel",
+					"description": "Schau hinein und finde es heraus",
+					"flavor": "Zukunft, Vergangenheit oder Schicksal..."
+				},
+				"gold_candelabra_recipe":	{
+					"recipe_name": "Goldener Kandelaber",
+					"description": "Ein Muss in jedem reichen Haus",
+					"flavor": "Könnte in einem Tempel stehen"
+				},
+				"night_candle_recipe":	{
+					"recipe_name": "Nachtkerze",
+					"description": "Eine einzelne Kerze, um Licht zu bringen",
+					"flavor": "Vergiss nicht Sie auszublasen"
+				},
+				"golden_topaz_mirror_recipe":	{
+					"recipe_name": "Goldener Topasspiegel",
+					"description": "Reflektiert bläulich",
+					"flavor": "Blau lässt dich jünger aussehen"
+				},
+				"golden_goblet_recipe":	{
+					"recipe_name": "Goldener Kelch",
+					"description": "Ein Kelch für den Könige",
+					"flavor": "Bietet Ambrosia für die reichsten"
+				},
+				"figurines_statues_name": "Figuren und Statuen",
+				"jade_castle_recipe":	{
+					"recipe_name": "Schloss aus Jade",
+					"description": "Schlossfigur gemacht aus Jade",
+					"flavor": "Fein geschnitten und mit schönen Details"
+				},
+				"jade_colosseum_recipe":	{
+					"recipe_name": "Kolosseum aus Jade",
+					"description": "Kolosseumfigur gemacht aus Jade",
+					"flavor": "Fein geschnitten mit der Liebe eines Juweliers"
+				},
+				"jade_elephant_recipe":	{
+					"recipe_name": "Elefant aus Jade",
+					"description": "Elefantenfigur gemacht aus glänzender Jade",
+					"flavor": "Fast lebendig"
+				},
+				"jade_fisher_hut_recipe":	{
+					"recipe_name": "Fischerhütte aus Jade",
+					"description": "Fisherhütte gemacht aus Jade",
+					"flavor": "Hat viele Stunden gebraucht, um das aus Jade zu schnitzen"
+				},
+				"jade_island_recipe":	{
+					"recipe_name": "Insel aus Jade",
+					"description": "Fein geschnitten Insel-Szene",
+					"flavor": "Freitag ..wo bist du?"
+				},
+				"jade_snake_recipe":	{
+					"recipe_name": "Schlange aus Jade",
+					"description": "Grüne Mamba gemacht aus Jade",
+					"flavor": "Lass die Schlange dich nicht beißen"
+				},
+				"jade_temple_recipe":	{
+					"recipe_name": "Temple aus Jade",
+					"description": "Tempel der alten Zeit gemacht aus Jade",
+					"flavor": "Kleiner Schrein für unbekannte Götter"
+				},
+				"jade_wolfman_recipe":	{
+					"recipe_name": "Wolfmann aus Jade",
+					"description": "Wolfmannfigur Monster",
+					"flavor": "Ein Wolfmann? Was für eine Kreatur der Dunkelheit"
+				},
+				"weapons_name": "Waffen",
+				"leader_sword_recipe":	{
+					"recipe_name": "Anführerschwert",
+					"description": "Aus einem goldenen Schwert gemacht",
+					"flavor": "Juwelen und Gold gerade genug für den kommenden Anführer"
+				}
+			}
+		},
+		"blacksmith":	{
+			"recipes":	{
+				"jeweler_tong_recipe":	{
+					"description": "Jewelierzange",
+					"recipe_name": "Jewelierzange",
+					"flavor": "Grundlegende Mechanik aber unerlässlich für einen Juwelier."
+				},
+				"obsidian_great_helm_recipe":	{
+					"recipe_name": "Obsidian Großhelm",
+					"description": "Gehärteter Obsidian gepaart mit Metall",
+					"flavor": "Keine Kopfschmerzen, nachdem eine Keule deinen Kopf getroffen hat"
+				},
+				"obsidian_scale_helm_recipe":	{
+					"recipe_name": "Obsidian Schuppenhelm",
+					"description": "Obsidianhelm für den Fußsoldaten",
+					"flavor": "Eine gute Vorbeugung gegen einen Knockdown"
+				},
+				"obsidian_plate_armor_recipe":	{
+					"recipe_name": "Obsidian Plattenrüstung",
+					"description": "Leichte Steinplattenrüstung",
+					"flavor": "Pfeile und Klingen können diese Rüstung nicht durchdringen"
+				},
+				"obsidian_scale_mail_recipe":	{
+					"recipe_name": "Obsidian Schuppenrüstung",
+					"description": "Fußsoldaten Steinrüstung",
+					"flavor": "Guter Schutz gegen Feinde"
+				},
+				"obsidian_plated_shield_recipe":	{	
+					"recipe_name": "Obsidian beschichteter Schild",
+					"description": "Gehärtet mit dem schwarzen Stein",
+					"flavor": "Nur Meister des Kampfes können diesen schweren Schild benutzen"
+				},
+				"obsidian_topaz_shield_recipe":	{
+					"recipe_name": "Obsidian-Topas Schild",
+					"description": "Topas verbesserter Obsidianschild",
+					"flavor": "Schneller zu schwingen mit Topasenergie"
+				},
+				"furniture_name": "Möbel",
+				"leader_throne_recipe":	{
+					"recipe_name": "Anführerthron",
+					"description": "Ein goldener Thron für den König",
+					"flavor": "Das einzige worauf ein Anführer sitzen möchte"
+				},
+				"king_armor_recipe":	{
+					"recipe_name": "Die Rüstung des Königs",
+					"description": "Meisterhaft hergestellte königliche Goldrüstung",
+					"flavor": "Nicht das Beste für einen Krieg, aber die beste Handwerksarbeit"
+				},
+				"rack_silver_mail_recipe":	{
+					"recipe_name": "Silberrüstungsgestell",
+					"description": "Zeige die Arbeit deiner Handwerker",
+					"flavor": "Setzen Sie sie in eine Waffenkammer oder einfach für den Glanz"
+				},
+				"rack_iron_mail_recipe":	{
+					"recipe_name": "Eisenrüstungsgestell",
+					"description": "Der Schmied ist stolz darauf",
+					"flavor": "Eisenere Manifestation der Handwerkskunst des Schmieds "
+				},
+				"rack_bronze_armor_recipe":	{
+					"recipe_name": "Bronzerüstungsgestell",
+					"description": "Polierte Bronze zum genießen",
+					"flavor": "Du willst es einfach nur tragen"
+				},
+				"weapon_rack_recipe":	{
+					"recipe_name": "Waffengestell",
+					"description": "Alle Waffen des Schmiedes",
+					"flavor": "Schön anzusehen, aber unbrauchbar für den Kampf"
+				},
+				"golden_sword_recipe":	{
+					"recipe_name": "Goldenes Schwert",
+					"description": "Braucht der Juwelier, um zum Anführerschwert zu werden",
+					"flavor": "Die besten Objekte können kommen nicht nur von einem Handwerker"
+				}
+			}
+		},
+		"leader":	{
+			"leader_description":	{
+				"display_name": "Anführer",
+				"description": "Herrscher des Königreichs",
+				"requirements": "Führer des Anführerschwertes",
+				"level_1_data":	{
+					"perk_000_name": "Klanchef",
+					"perk_000_description": "Klanchef von wenigen"
+				},
+				"level_2_data":	{
+					"perk_000_name": "Stammführer",
+					"perk_000_description": "Stammführer einer handvoll Klans"
+				},
+				"level_3_data":	{
+					"perk_000_name": "Ritter des Baumes",
+					"perk_000_description": "Führer erfahrener Truppen"
+				},
+				"level_4_data":	{
+					"perk_000_name": "Herrscher",
+					"perk_000_description": "Führer eines kleinen Landes"
+				},
+				"level_5_data":	{
+					"perk_000_name": "Monarch",
+					"perk_000_description": "Anführer der Herrscher"
+				},
+				"level_6_data":	{
+					"title": "",
+					"perk_000_name": "Majestät",
+					"perk_000_description": "Hochfürst des Landes"
+				}
+			},
+			"leader_workbench":	{
+				"leader_workbench_ghost":	{
+					"display_name": "Thron des Anführers",
+					"description": "Um Gesetze zu sprechen und zum regieren"
+				}
+			},
+			"leader_sword":	{
+				"display_name": "Anführerschwert",
+				"description": "Symbol der Führung",
+				"leader_sword_iconic":	{
+					"display_name": "Anführerschwert",
+					"description": "Symbol der Führung"
+				},
+				"leader_sword_talisman":	{
+					"display_name": "Anführerschwert",
+					"description": "Wird benötigt um einen Ritter zu einem Anführer zu ernennen."
+				}
+			},
+			"leader_throne":	{
+				"leader_throne_ghost":	{
+					"display_name": "Thron des Anführers",
+					"description": "Setz dich, um das Land zu regieren"
+				}
+			},
+			"leader_war_map":	{
+				"leader_war_map_ghost":	{
+					"display_name": "Anführer Kriegskarte",
+					"description": "Plane deine Taktik vor dem Krieg."
+				}
+			},
+			"leader_speech_table":	{
+				"leader_speech_table_ghost":	{
+					"display_name": "Ansprachenpult",
+					"description": "Um von Gesetz und Traditionen zu sprechen"
+				}
+			},
+			"leader_outfit": {
+				"display_name": "Anführerrobe",
+				"description": "Dar beste handgefertigte Stoff"
+			},
+			"recipes":	{
+				"decrees_name": "Erlass",
+				"decree_of_progression_recipe":	{
+					"recipe_name": "Dekret des Fortschrittes",
+					"description": "Der Dekret des Führers lässt das Dorf schneller vorankommen",
+					"flavor": "Für das Königreich"
+				},
+				"decree_of_crafting_recipe":	{
+					"recipe_name": "Dekret des Handwerks",
+					"description": "Der Dekret inspiriert die Handwerker zu feineren Arbeiten",
+					"flavor": "Ein Juwel und etwas Holz ... ein feines und ein gutes"
+				},
+				"decree_of_production_recipe":	{
+					"recipe_name": "Dekret der Produktion",
+					"description": "Der Führer befiehlt jedem ohne Rast zu arbeiten",
+					"flavor": "Von der Macht eines Topas beschleunigt, ist keine Ruhe nötig"
+				},
+				"speeches_name": "Ansprachen",
+				"speech_of_contemplation_recipe":	{
+					"recipe_name": "Rede der Besinnung",
+					"description": "Lasst eure Gedanken euch über den Horizont bringen",
+					"flavor": "Meditation, langsames atmen und nichts fühlen... lass alles los"
+				},
+				"speech_of_fury_recipe":	{
+					"recipe_name": "Rede der Raserei",
+					"description": "Erwecke die Raserei von Geist und Seele",
+					"flavor": "Wenn dein Herz in deiner Brust stark schlägt, hat die Rede dich berührt" 
+				},
+				"speech_of_the_heart_recipe":	{
+					"recipe_name": "Rede des Herzens",
+					"description": "Dein Herz ist stärker als Angst und Schmerz",
+					"flavor": "Stärkt das Herz und den Verstand, um Angst und Magie zu widerstehen"
+				},
+				"speech_of_the_wise_recipe":	{
+					"recipe_name": "Rede der Weisheit",
+					"description": "Weisheit wird durch Erfahrung, Intelligenz und Alter verdient",
+					"flavor": "Hört auf die Älteren - Jünglinge"
+				},
+				"orders_name": "Orders",
+				"order_attack_recipe":	{
+						"recipe_name": "Befehl zum Angriff",
+						"description": "Greift den Feind an",
+						"flavor": "Kaltherziges, taktisches Vergehen"	
+				},
+				"order_last_stand_recipe":	{
+					"recipe_name": "Befehl für den letzten Stand",
+					"description": "Verwendet um bei einer Belagerung zu widerstehen",
+					"flavor": "Überlebe die Belagerung"
+				},
+				"order_storm_the_front_recipe":	{
+					"recipe_name": "Befehl die Front zu stürmen",
+					"description": "Mögen die Macht mit euch sein",
+					"flavor": "Renne und Kämpfe"
+				},
+				"diplomacy_name": "Diplomatie"
+			}
+		},
+		"mason":	{
+			"recipes":	{
+				"brazier_column_recipe":	{
+					"recipe_name": "Kohlebeckensäule",
+					"description": "Schön aussehendes Kohlebecken",
+					"flavor": "Hat nicht viel von einer Lichtquelle"
+				},
+				"brazier_small_recipe":	{
+					"recipe_name":	"Kleines Kohlebecken",
+					"description": "Fußbodenbecken",
+					"flavor": "Tritt nicht rein"
+				}
+			}
+		},
+		"weaver":	{
+			"recipes":	{
+				"emerald_archer_hood_recipe":	{
+					"recipe_name": "Smaragd Bogenschützenhaube",
+					"description": "Eine Kapuze mit eingebettetem Smaragd",
+					"flavor": "Nicht nur Schmuck, es ist die Stärke der Natur"
+				},
+				"copper_threaded_robe_recipe":	{
+					"recipe_name": "Kupferfädenrobe",
+					"description": "Tuch und gesponnenes Kupfer als leichte Rüstung",
+					"flavor": "Metall! Ich will kein Metall tragen ... aber es fühlt sich schön an"
+				},
+				"silver_threaded_robe_recipe":	{
+					"recipe_name": "Silberfädenrobe",
+					"description": "Stoffrüstung mit funkelndem Silber",
+					"flavor": "Ich mag das funkelnde - Dieb"
+				},
+				"gold_threaded_robe_recipe":	{
+					"recipe_name": "Goldfädenrobe",
+					"description": "Gold gewebt in die beste Klerikerrobe",
+					"flavor": "Man kann nichts besseres als Gold tragen"
+				},
+				"castle_rug_recipe":	{
+					"recipe_name": "Königlicher Teppich",
+					"description": "Gemacht in den Farben der Königlichen",
+					"flavor": "Grün wie ein Baum und golden wie die Königlichen"
+				},
+				"wall_tapestry_tree_winter_recipe":	{
+					"recipe_name": "Königlicher Baum Wandteppich Winter",
+					"description": "Ein Wandteppich des königlichen Baumes im Winter",
+					"flavor": "Genau das, was der Thronraum braucht"
+				},
+				"wall_tapestry_tree_spring_recipe":	{
+					"recipe_name": "Königlicher Baum Wandteppich Frühling",
+					"description": "Ein Wandteppich des königlichen Baumes im Frühling",
+					"flavor": "Genau das, was der Thronraum braucht"
+				},
+				"wall_tapestry_tree_summer_recipe":	{
+					"recipe_name": "Königlicher Baum Wandteppich Sommer",
+					"description": "Ein Wandteppich des königlichen Baumes im Sommer",
+					"flavor": "Genau das, was der Thronraum braucht"
+				},
+				"wall_tapestry_tree_autumn_recipe":	{
+					"recipe_name": "Königlicher Baum Wandteppich Herbst",
+					"description": "Ein Wandteppich des königlichen Baumes im Herbst",
+					"flavor": "Genau das, was der Thronraum braucht"
+				}
+			}
+		}
+	}
+}	

@@ -1,0 +1,58 @@
+{
+	"entities":{
+		"trees":{
+			"acacia_tree":{
+				"small_acacia_stump":{
+					"display_name":"Kleiner Akazienbaumstumpf",
+					"description":""
+				},
+				"large_acacia_stump":{
+					"display_name":"Großer Akazienbaumstumpf",
+					"description":""
+				}
+			},
+			"juniper_tree":{
+				"small_juniper_stump":{
+					"display_name":"Kleiner Wacholderbaumstumpf",
+					"description":""
+				},
+				"medium_juniper_stump":{
+					"display_name":"Mittlerer Wacholderbaumstumpf",
+					"description":""
+				},
+				"large_juniper_stump":{
+					"display_name":"Großer Wacholderbaumstumpf",
+					"description":""
+				}
+			},
+			"oak_tree":{
+				"small_oak_stump":{
+					"display_name":"Kleiner Eichenbaumstumpf",
+					"description":""
+				},
+				"medium_oak_stump":{
+					"display_name":"Mittlerer Eichenbaumstumpf",
+					"description":""
+				},
+				"large_oak_stump":{
+					"display_name":"Großer Eichenbaumstumpf",
+					"description":""
+				}
+			},
+			"pine_tree":{
+				"small_pine_stump":{
+					"display_name":"Kleiner Kiefernbaumstumpf",
+					"description":""
+				},
+				"medium_pine_stump":{
+					"display_name":"Mittlerer Kiefernbaumstumpf",
+					"description":""
+				},
+				"large_pine_stump":{
+					"display_name":"Großer Kiefernbaumstumpf",
+					"description":""
+				}
+			}
+		}
+	}
+}

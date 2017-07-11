@@ -94,7 +94,7 @@
 			"bookcase_small": {
 				"bookcase_small_ghost": {
 					"display_name": "Kleines Bücherregal",
-					"description": "Da ist Speck in diesem hier."
+					"description": "Da ist Speck in einem."
 				}
 			},
 			"burning_logs": {
@@ -106,7 +106,7 @@
 			"cart": {
 				"cart_ghost": {
 					"display_name": "Wagen",
-					"description": "Das meist frustrierenste ist, dass du willst das es eine Funktion hat."
+					"description": "Das frustrierenste ist, dass du willst das es eine Funktion hat."
 				}
 			},
 			"crate_chair": {
@@ -259,8 +259,8 @@
 				},
 				"bookcase_small_recipe": {
 					"recipe_name": "Kleines Bücherregal",
-					"description": "Da ist Speck in diesem hier.",
-					"flavor": ""
+					"description": "Da ist Speck in einem.",
+					"flavor": "Ich rieche etwas...."
 				},
 				"boiling_cabinet_recipe": {
 					"recipe_name": "Kochschrank",
@@ -294,8 +294,8 @@
 				},
 				"cart_recipe": {
 					"recipe_name": "Wagen",
-					"description": "Das meist frustrierenste ist, dass du willst das es eine Funktion hat.",
-					"flavor": ""
+					"description": "Das frustrierenste ist, dass du willst das es eine Funktion hat.",
+					"flavor": "Pandemics schlechter Witz"
 				},
 				"bluecloth_wood_table_recipe": {
 					"recipe_name": "Blau gekleideter Tisch",

@@ -1,16 +1,15 @@
 {
    "ui": {
       "customize_hearthling": {
-         "title": "Passe deinen Hearthling an",
-         "role": "Rolle"
+         "title": "Passe deinen Hearthling an"
       },
       "data": {
          "tooltips": {
             "nextButton": {
-               "description": "Wählen den nächsten aus der Liste."
+               "description": "Wähle den nächsten aus der Liste."
             },
             "previousButton": {
-               "description": "Wählen den vorherigen aus der Liste."
+               "description": "Wähle den vorherigen aus der Liste."
             },
             "maleButton": {
                "description": "Werde Männlich, es werden zufällige Modelle und Farben ausgewählen."

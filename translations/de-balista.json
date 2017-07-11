@@ -1,0 +1,27 @@
+{
+   "turrets": {
+      "balista_turret": {
+         "balista_turret": {
+            "display_name" : "Ballistaturmt",
+            "description" : "Eine schwere und weitreichende Ballista mit langsamen aber krafvollen Schüssen"
+         }
+      },
+      "consumable": {
+         "balista_bolt": {
+            "balista_bolt": {
+               "display_name" : "Ballistabolzen 3X",
+               "description" : "Drei schwere Ballistabolzen, verwendet in Ballistas",
+               "shot_description" : "Hier kommt es!",
+               "shot_name" : "Ballistabolzen"
+            }
+         }
+      },
+       "recipes": {
+         "balista_turret": {
+           "balista_turret_recipe": {
+               "flavor_text" : "Dies ist eine Ballista par excellence, seine Arme sind mit Bronzeplatten verstärkt und mit Pferdhaar gespannt"
+            }
+         }
+      }
+   }
+}

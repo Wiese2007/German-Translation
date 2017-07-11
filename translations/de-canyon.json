@@ -1,24 +1,36 @@
 {
-   "data": {
-      "biome": {
-         "canyon": {
+	"data": {
+		"biome": {
+			"canyon": {
             "display_name": "Schlucht",
             "description": "Enge Schluchten mit steilen Felswänden, durch fließendes Wasser in die Erde geschnitten.",
-            "random_location_names": {
+				"random_location_names": {
                "000": " zum Donnerberg ",
                "001": " zu den stürmischen Wänden",
                "002": " zu den Scharlachbergen",
                "003": " zum Adlerkliff"
-            }
-         }
-      }
-   },
-   "entities":{
-      "decoration":{
-         "bones":{
+				}
+			}
+		}
+	},
+	"entities":{
+		"decoration":{
+			"bones":{
             "display_name":"Knochen",
-            "description":"Einmal was es ein Tier, jetzt ist es Teil der Erde."
-         }
-      }
-   }
+            "description":"Früher war es ein Tier, jetzt ist es Teil der Erde."
+			},
+			"rock_pillar":{
+				"display_name":"Felsensäule",
+				"description":"Trotzt der Schwerkraft!"
+			},
+			"rock_arc":{
+				"display_name":"Felsenbrücke",
+				"description":"Hübsch, selten und gefährlich."
+			},
+			"skull":{
+				"display_name":"Schädel",
+				"description":"Früher war es ein Tier, jetzt ist es Teil der Erde"
+			}
+		}
+	}
 }

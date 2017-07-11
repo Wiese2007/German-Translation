@@ -1,0 +1,173 @@
+{
+   "type" : "entity",
+   "mixins": "stonehearth:mixins:base_human", 
+   "components": {
+      "render_info" : {
+         "animation_table" : "stonehearth:skeletons:humanoid:male"      
+      },
+      "model_variants": {
+         "default": {
+            "models": [
+               "stonehearth/entities/humans/male/head.qb",
+               "stonehearth/entities/humans/male/body.qb"
+            ]
+         }
+      }
+   },
+   "entity_data" : {
+      "stonehearth:customization_variants" : {
+         "customization_options": "stonehearth:humans:male:customizations",
+         "root": {
+            "hair_and_skin_color": {
+               "weights": {
+                  "hair_and_skin_color": 1
+               }
+            },
+            "age": {
+               "weights": {
+                  "young": 3,
+                  "old": 1
+               }
+            }
+         },
+         "packages": {
+            "hair_and_skin_color": {
+               "hair_color": {
+                  "weights": {
+                     "Schwarz": 3,
+                     "Braun": 3,
+                     "Sand": 1,
+                     "Blau": 1,
+                     "Grün": 1,
+                     "Grau": 1,
+                     "Graustufen": 1,
+                     "Eis": 1,
+                     "Icki": 1,
+                     "Lavendel": 1,
+                     "Limette": 1,
+                     "Orange": 1,
+                     "Pink": 1,
+                     "Lila": 1,
+                     "Silber": 1,
+                     "Verrückt": 1,
+                     "Verrückt2": 1,
+                     "Flamme": 1,
+                     "Weiß": 1
+                  }
+               },
+               "skin_color": {
+                  "weights": {
+                     "Braun_1": 1
+                  }
+               }
+            },
+            "young": {
+               "eyebrows": {
+                  "weights": {
+                     "[none]": 1,
+                     "Gerade_Augenbrauen": 1
+                  }
+               },
+               "facial_hair": {
+                  "weights": {
+                     "[none]": 3,
+                     "Koteletten": 2,
+                     "Kinnbart": 1,
+                     "Bart": 1,
+                     "kitty_Großer_Ziegenbart": 1,
+                     "kitty_Burlyjack": 1,
+                     "kitty_Zwerg": 1,
+                     "kitty_Fuchsbart": 1,
+                     "kitty_Ziegenbart": 1,
+                     "kitty_Macho": 1,
+                     "kitty_Magi": 1,
+                     "kitty_Mächtige_Pus": 1,
+                     "kitty_Orkus": 1,
+                     "kitty_Pharao": 1,
+                     "kitty_Seito": 1,
+                     "kitty_Lehrer": 1,
+                     "kitty_Talian": 1,
+                     "kitty_Der_Epische": 1,
+                     "kitty_ZZ_Scott": 1
+                  }
+               },
+               "head_hair": {
+                  "weights": {
+                     "Haare_1": 1,
+                     "Haare_2": 1,
+                     "Haare_3": 1,
+                     "Haare_4": 1,
+                     "8bit_Mohawk": 1,
+                     "8bit_Mohawk2": 1,
+                     "kitty_Keltisch": 1,
+                     "kitty_Keltisch_v2": 1,
+                     "kitty_Zwerg": 1,
+                     "kitty_Ostlong": 1,
+                     "kitty_Lustige_Locken": 1,
+                     "kitty_Geeky": 1,
+                     "kitty_Gentleman": 1,
+                     "kitty_Kopfhörer1": 1,
+                     "kitty_Kopfhörer2": 1,
+                     "kitty_Mönchschitt": 1,
+                     "kitty_Zeitungsjunge": 1,
+                     "kitty_Punkster": 1,
+                     "kitty_Zottig": 1,
+                     "kitty_Einfach": 1,
+                     "kitty_Glatter_Mohawk": 1,
+                     "kitty_Stachelig": 1,
+                     "kitty_Gespaltene_Haarlichkeit": 1,
+                     "kitty_Talian": 1,
+                     "kitty_Kriegergeflecht": 1,
+                     "mel_Verrückter_Mohawk_Rechts": 1,
+                     "wiese_Japan": 1
+                  }
+               }
+            },
+            "old": {
+               "eyebrows": {
+                  "weights": {
+                     "[none]": 1,
+                     "Gerade_Augenbrauen": 1
+                  }
+               },
+               "facial_hair": {
+                  "weights": {
+                     "Koteletten": 2,
+                     "Kinnbart": 1,
+                     "Bart": 1,
+                     "kitty_Großer_Ziegenbart": 1,
+                     "kitty_Burlyjack": 1,
+                     "kitty_Zwerg": 1,
+                     "kitty_Fuchsbart": 1,
+                     "kitty_Ziegenbart": 1,
+                     "kitty_Macho": 1,
+                     "kitty_Magi": 1,
+                     "kitty_Mächtige_Pus": 1,
+                     "kitty_Orkus": 1,
+                     "kitty_Pharao": 1,
+                     "kitty_Seito": 1,
+                     "kitty_Lehrer": 1,
+                     "kitty_Talian": 1,
+                     "kitty_Der_Epische": 1,
+                     "kitty_ZZ_Scott": 1
+                  }
+               },
+               "head_hair": {
+                  "weights": {
+                     "Haare_Alt_1": 1,
+                     "Haare_Alt_2": 1,
+                     "Glatze_1": 1,
+                     "Glatze_2": 1,
+                     "8bit_Mohawk": 1,
+                     "8bit_Mohawk2": 1,
+                     "kitty_Mönchschitt": 1,
+                     "kitty_Zottiger_Alter_Mann": 1,
+                     "kitty_Glatter_Mohawk": 1,
+                     "wiese_Japan": 1
+                  }
+               }
+            }  
+         }
+      }
+   }
+}

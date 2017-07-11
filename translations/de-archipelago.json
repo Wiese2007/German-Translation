@@ -1,21 +1,104 @@
 {
 	"entities":{
 		"beach":{
-			"starfish":{
-				"display_name":"Sternfisch",
-				"description":"A.k.a. Seestern, der Sternfisch ist kein Fisch. Es ist ein Stachelhäuter!"
+			"bottle":{
+				"display_name":"Flasche",
+				"description":"Flasche"
+			},
+			"broken_boat":{
+				"display_name":"Zerbrochenes Boot",
+				"description":"Ernte es für Holz und Gold."
 			},
 			"oyster":{
 				"display_name":"Auster",
 				"description":"Perlenhaus.",
 				"unripe_description":"Ein leere Schale."
 			},
-			"broken_boat":{
-				"display_name":"Zerbrochenes Boot",
-				"description":"Ernte es für Holz und Gold."
+			"seaweed":{
+				"display_name":"Seetang"
+			},
+			"starfish":{
+				"display_name":"Sternfisch",
+				"description":"A.k.a. Seestern, der Sternfisch ist kein Fisch. Es ist ein Stachelhäuter!"
+			}
+		},
+		"critters":{
+			"crab":{
+				"display_name":"Krabbe",
+				"description":"Spüre die Prise"
+			},
+			"fish":{
+				"display_name":"Fisch",
+				"description":"Unterwasser Poyos"
+			},
+			"sea_turtle":{
+				"display_name":"Schildkröte",
+				"description":"Ozean-Reptilien mit Flossen"
+			}
+		},
+		"crops":{
+			"palm_tree_crop":{
+				"display_name":"Palmen Setzling",
+				"description": "Sind die Bäume alle? Machen Sie sich bereit, an der Wiederaufforstung teilzunehmen.",
+				"growth_stage_0":{
+					"name":"Samenbehälter",
+					"description":"Es ist nur eine begrabene Kokosnuss."
+				},
+				"growth_stage_1":{
+					"name":"Palmen Samling",
+					"description":"Es hat sich endlich durch die Schale gebohrt."
+				},
+				"growth_stage_2":{
+					"name":"Palmen Sproße",
+					"description":"Versucht die Sonne zu erreichen."
+				},
+				"growth_stage_3":{
+					"name":"Palmen Setzling",
+					"description":"Bereit, in einen größeren Topf geplanzt zu werden."
+				}
 			}
 		},
 		"decoration":{
+			"anchor":{
+				"display_name":"Anker",
+				"description":"Schwer! Um dein Schiff zu halten",
+				"recipe":{
+					"description":"Kann auf den Boden gelegt oder an Wände gehangen werden",
+					"flavor":"Wenn ein Boot ein Kopf wäre, wären seine Anker Ohrringe?"
+				}
+			},
+			"fish_container":{
+				"display_name":"Fischbehälter",
+				"description":"Bereit exportiert zu werden"
+			},
+			"fruit_container":{
+				"display_name":"Obstbehälter",
+				"description":"Bereit, exportiert zu werden",
+				"recipe":{
+					"description":"Einfacher Weg deine Früchte so zu verkaufen.",
+					"flavor":"Achtet darauf die Früchte nicht zu zerschlagen!"
+				}
+			},
+			"hammock":{
+				"display_name":"Hängematte",
+				"description":"Mach ein Nickerchen nach dem Mittagessen",
+				"recipe":{
+					"description":"Zum schlafen benutzt",
+					"flavor":"Krabben können dich von unten kneifen..."
+				}
+			},
+			"lei":{
+				"display_name":"Blumengirlande",
+				"description":"Blumen hängen an der Wand",
+				"recipe":{
+					"description":"Zum an eine Wand hängen.",
+					"flavor":"Blumen können den Wänden zusätzliche Schönheit verleihen!"
+				}
+			},
+			"pearl_container":{
+				"display_name":"Perlenbehälter",
+				"description":"Bereit exportiert zu werden"
+			},
 			"pirate_flag":{
 				"display_name":"Piratenflagge",
 				"description":"Kein guter Weg um Freunde zu finden",
@@ -24,12 +107,28 @@
 					"flavor":"Aaaarrrrgggghhhh!"
 				}
 			},
+			"raft":{
+				"display_name":"Floß",
+				"description":"Primitives Segelboot",
+				"recipe":{
+					"description":"Der Ausgangspunkt jeder Marineflotte.",
+					"flavor":"Vielleicht kannst du mit Ihm segeln, wenn du stark genug träumst!"
+				}
+			},
 			"sand_castle":{
 				"display_name":"Sandburg",
 				"description":"Die Sandprinzessin ist in einer anderen Sandburg",
 				"recipe":{
 					"description":"Verwende Sand (Lehm) um deine Traumburg zu bauen",
 					"flavor":"4 Jahre in Architektur-Schule um das zu bauen?"
+				}
+			},
+			"ship_wheel":{
+				"display_name":"Schiffsrad",
+				"description":"So kannst du deine Träume steuern",
+				"recipe":{
+					"description":"Könnte verwendet werden um ein Schiff zu steuern, aber heutzutage wird es meist als Dekorationen verwendet",
+					"flavor":"Du weisst womit es sich gut machen würde? Ein Schiff!"
 				}
 			},
 			"tiki_torch":{
@@ -46,13 +145,96 @@
 				"display_name":"Kokosnuss",
 				"description":"Immer erfrischend"
 			},
+			"crab":{
+				"display_name":"Frische Krabbe",
+				"description":"Nicht bereit, gegessen zu werden"
+			},
+			"crab_cake":{
+				"display_name":"Krabbenkuchen",
+				"description":"Ein Patty aus geflocktem oder gehacktem Krabbenfleisch, wird gebraten serviert.",
+				"recipe":{
+					"description":"Ein Patty aus geflocktem oder gehacktem Krabbenfleisch, wird gebraten serviert.",
+					"flavor":"Knackig außen, innen weich"
+				}
+			},
+			"crab_omelette":{
+				"display_name":"Krabben-Omelett",
+				"description": "Köstliches Ei eingewickelt in Krabbenfleisch"
+			},
+			"crab_rotten":{
+				"display_name":"Verrottete Krabbe",
+				"description":"Krabben verderben sehr schnell..."
+			},
+			"fish":{
+				"display_name":"Frischer Fisch",
+				"description":"Nicht bereit, gegessen zu werden"
+			},
+			"fish_cooked":{
+				"display_name":"Gekochter Fisch",
+				"description":"Gebraten und lecker",
+				"recipe":{
+					"description":"Lass es im Ofen aufheizen.",
+					"flavor":"Knackig außen, innen weich"
+				}
+			},
+			"fish_rotten":{
+				"display_name":"Verrotteter Fisch",
+				"description":"Fische verderben sehr schnell..."
+			},
+			"fish_stew":{
+				"display_name":"Fischeintopf",
+				"description": "Warm und lecker",
+				"recipe":{
+					"description":"Eine warme, herzhafte Brühe, wo der Fisch sehr weich wird.",
+					"flavor": "Fantastisch leicht zu machen"
+				}
+			},
+			"fish_stew_serving":{
+				"display_name": "Schüssel mit schmackhaften Fischeintopf"
+			},
 			"papaya_basket":{
 				"display_name":"Korb mit Papayas",
 				"description":"Voll mit Papayafrüchten"
 			},
 			"papaya_serving":{
 				"display_name":"Papayafrucht",
-				"description":"Eine hälfte einer Frucht"
+				"description":"Eine Hälfte einer Frucht"
+			},
+			"sashimi":{
+				"display_name":"Sashimi",
+				"description":"Frischer roher Fisch in dünne Stücke geschnitten"
+			}
+		},
+		"gizmos":{
+			"cocobomb":{
+				"display_name":"KokusBomb",
+				"description":"Spiel nicht mit deinem Essen.",
+				"recipe":{
+					"description":"Nach dem platzieren, wird es explodieren, sobald es ein Feinde schlägt. Es schädligt und verbrennt Feinde in der Nähe der Explosion.",
+					"flavor":"Alles ist besser mit Explosionen"
+				}
+			},
+			"crab_trap":{
+				"display_name":"Krabbenfalle",
+				"description":"Lockt Krabben an und fängt sie."
+			},
+			"float_bobber":{
+				"display_name":"Schwimmer",
+				"description":"Lockt Fische an."
+			}
+		},
+		"monsters":{
+			"cocoling":{
+				"display_name":"Cocoling",
+				"description":"Keine Kokosnuss. Nicht erfrischend"
+			},
+			"cocoling_spawner":{
+				"display_name":"Uralter Spawner",
+				"description":"Alt aber gut."
+			},
+			"fake_container":{
+				"display_name":"Geheimnisvolle Kiste",
+				"description":"Brich Sie auf um zu überprüfen, was drinnen ist"
 			}
 		},
 		"resources":{
@@ -69,12 +251,21 @@
 				"description":"Reich an Mineralien, bau es ruhig ab"
 			}
 		},
+		"toys":{
+			"beachball":{
+				"display_name":"Strandball",
+				"description":"Für jeden Strand und jedes Weasserspiel"
+			}
+		},
 		"trees":{
 			"common_palm":{
 				"description":"Ein Symbol des tropischen Inselparadieses.",
 				"unripe_description":"Keine Kokosnüsse aktuell. Ein Symbol des tropischen Inselparadieses."
 			},
 			"palm_tree":{
+				"sapling_palm_tree":{
+					"display_name":"Palmen Setzling"
+				},
 				"small_palm_tree":{
 					"display_name":"Kleine Palme"
 				},
@@ -104,9 +295,91 @@
 				"unripe_description":"Noch nicht reif für die Ernte"
 			}
 		},
-		"volcano":{
-			"display_name":"Vulkan",
-			"description":"Heiß! Gut für verrückte Rituale."
+		"weapons":{
+			"slap_fish":{
+				"display_name":"Ohrfeigenfisch",
+				"description":"Ouch!"
+			},
+			"crab_pincer":{
+				"display_name":"Krabbenzange",
+				"description":"Spür das Kneifen!"
+			}
+		}
+	},
+	"jobs":{
+		"fisher":{
+			"fisher_description":{
+				"display_name":"Fischer",
+				"description":"Wird Krabben fangen, Perlen ernten und andere mit Wasser verbundenen Tätigkeiten erledigen",
+				"requirements":"Hergestellt von deinem Haupthandwerker",
+				"level_0":{
+					"perk_name":"Fischen",
+					"perk_description":"Der Fischer kann Werkzeuge herstellen um Fische zu fangen."
+				},
+				"level_1":{
+					"perk_name":"Krabben",
+					"perk_description":"Der Fischer kann jetzt Fallen herstellen und platzieren um Krabben zu fangen."
+				},
+				"level_u":{
+					"perk_name":"Nicht fertig",
+					"perk_description":"Weitere Fähigkeiten und Vorteile sind für ein zukünftiges Update geplant. Wahrscheinlich mit automatisierter Fisch / Krabben Ernte in höheren Levels. Ich hoffe Ihr möögt die Klasse so weit :)"
+				}
+			},
+			"fisher_bucket":{
+				"display_name":"Fischereimer",
+				"description":"Mehrzweck-Eimer",
+				"fisher_bucket_talisman":{
+					"display_name":"Fischereimer",
+					"description":"Erforderlich um einen Hearthling in einen Fischer zu befördern"
+				}
+			},
+			"fisher_outfit":{
+				"display_name":"Fischeroutfit",
+				"description":"Übliches Fischeroutfit"
+			},
+			"recipes":{
+				"fisher_tools_name":"Fischer Werkzeuge",
+				"fisher_bucket_recipe":{
+					"recipe_name":"Fischereimer",
+					"description":"Erforderlich um einen Hearthling in einen Fischer zu befördern.",
+					"flavor":"Mehrzweck-Eimer"
+				},
+				"crab_pincer_recipe":{
+					"recipe_name":"Krabbenzange",
+					"description":"Eine Waffe, die du in deiner Hand tragen kannst!",
+					"flavor":"Reinige es bevor du es in die Hand nimmst!"
+				},
+				"crab_trap_recipe":{
+					"recipe_name":"Krabbenfalle",
+					"description":"Zieht Krabben an und fängt Sie ein. Es kann nach ein paar Verwendungen brechen und braucht momentan noch eine manuelle Ernte.",
+					"flavor":"Krabben werden um Sie herum spawnen, wenn keine in der Nähe sind."
+				},
+				"fish_container_recipe":{
+					"recipe_name":"Fischbehälter",
+					"description":"Einfacher deine Fische auf diese Weise zu verkaufen.",
+					"flavor":"Bereit exportiert zu werden"
+				},
+				"float_bobber_recipe":{
+					"recipe_name":"Schwimmer",
+					"description":"Platziere es in das Wasser, um einen Angelplatz in diesem Bereich zu erstellen. Fische werden dorthin schwimmen und vom Fischer gefischt werden.",
+					"flavor":"Es dauert ein wenig bis Fische spawnen"
+				},
+				"pearl_container_recipe":{
+					"recipe_name":"Perlenbehälter",
+					"description":"Einfacher deine Perlen auf diese Weise zu verkaufen.",
+					"flavor":"Bereit exportiert zu werden"
+				},
+				"sashimi_recipe":{
+					"recipe_name":"Sashimi",
+					"description":"Frischer roher Fisch in dünne Stücke geschnitten",
+					"flavor":"Nicht wirklich schwer vorzubereiten"
+				},
+				"slap_fish_recipe":{
+					"recipe_name":"Ohrfeigenfisch",
+					"description":"Ouch!",
+					"flavor":"Er ist ehr ekelhaft als gefährlich"
+				}
+			}
 		}
 	},
 	"ui": {
@@ -118,7 +391,23 @@
 						"little_pier":"Kleiner Pier",
 						"open_house":"Offenes Haus",
 						"small_beach_house":"Kleines Strandhaus",
-						"small_boat":"Kleines Boot"
+						"carpenter_house":"Zimmermanns Haus",
+						"small_boat":"Kleines Boot",
+						"double_outrigger_boat":"Doppelauslegerboot",
+						"explorer_ship":"Kundschafterschiff",
+						"long_ship":"Langschiff",
+						"trader_ship":"Händlerschiff"
+					}
+				}
+			},
+			"menu":{
+				"crafter_menu":{
+					"items":{
+						"fisher":{
+							"display_name":"Fischer Herstellungsmenü",
+							"description":"Stellt Fischer verwandte Objekte her",
+							"required_job_text":"Benötigt einen Fischer"
+						}
 					}
 				}
 			}
@@ -141,32 +430,65 @@
 				"random_location_names": {
                				"000": " zum Malaio Archipel",
               				"001": " zum Mauna Loa Archipel",
-               				"002": " zum Kilak Archipel",
-               				"003": " zum Mergui Archipel"
+               				"002": " zum Kylahe Archipel",
+               				"003": " zum Kona Kai Archipel"
 				}
 			}
 		},
-		"commands":{
-			"chop_tree":{
-				"display_name":"Baum fällen",
-				"description":"Fäll diesen Baum"
+		"build":{
+			"building_brushes":{
+				"colors":{
+					"#f1f1a4":"Sand 1 (Archipel)",
+					"#f0ea99":"Sand 2 (Archipel)",
+					"#f0e187":"Sand 3 (Archipel)"
+				}
 			}
 		},
 		"gm":{
 			"campaigns":{
 				"archipelago":{
+					"common":{
+						"captain_miranda":"Kaptain Miranda"
+					},
 					"arcs":{
 						"trigger":{
 							"introduction":{
 								"title":"Eine Hilfe von den Meeren",
-								"dialog_title":"Kapitän Miranda",
-								"message_start":"Hey.<br>Möchtest du Hilfe mit diesem Ort? Ich kann dir ein paar Dinge beibringen, wenn du neu auf den Inseln bist",
-								"message_decline":"Nun, ich habe es versucht.<br>Viel Glück.",
+								"message_start":"Hey, schön dich kennen zu lernen! Ich bin Miranda.<br>Brauchst du Hilfe?<br> Ich könnte über ein paar Sachen reden, wenn du neu auf den Inseln bist.",
+								"message_decline":"Nun, passt auf euch auf.<br>Viel Glück.",
 								"message_accept":"Ja! Endlich nimmt jemand meine Hilfe an!<br>Er... Ich meinte, folge mir!",
-								"message_trees":"Das wichtigste zuerst.<br>Wie immer wirst du zuerstnach Holz und Nahrung suchen, nicht wahr?<br>Hier findest du beides an der gleichen Stelle!<br>Siehst du die Palme?<br>Wenn du Sie erntest, erhälst du Kokosnüsse. Die füllen aber nicht wirklich.<br>Später, wenn du möchtest, kannst du Sie für Holz fällen (Wählen dazu einfach eine Palme aus und klick dann auf den 'Axt'-Befehl auf der unteren linken Seite)",
+								"message_trees":"Am Anfang werdet Ihr nach Holz und Nahrung suchen, nicht wahr?<br>Hier findest du beides an der gleichen Stelle!<br>Siehst du die Palme?<br>Wenn du Sie erntest, erhälst du Kokosnüsse. Die füllen aber nicht wirklich.<br>Später, wenn du möchtest, kannst du Sie für Holz fällen (Wählen dazu einfach eine Palme aus und klick dann auf den 'Axt'-Befehl auf der unteren linken Seite)",
 								"message_oysters":"Oh, und diese großen Austern sind genial. Du kannst von von Zeit zu Zeit Perlen aus Ihnen ernten, die für einen guten Preis verkauft werden können. <br>Sagen erwähnen das Sie auch seltene schwarze Perlen produzieren, aber ich hab selber noch nie eine gesehen.",
 								"message_broken_boats":"Wenn du etwas Gold willst, schauen dich um und manchmal kannst du einige unglückliche Bootwracks finden. <br>Du kannst Sie ausschlachten und gute Schätze finden.",
-								"message_bye":"Ich denke, das ist alles für jetzt. <br>Vielleicht komme ich eines Tages zurück um zu überprüfen, wie Ihr Jungs euch macht. <br>Ich muss diesen Wind in den Segeln ausnutzen! Mein Schiff füllt sich nicht von alleine mit Waren und Schätzen <br>Tschüss und viel Glück."
+								"message_bye":"Ich denke, das ist alles für jetzt.<br>Vielleicht komme ich eines Tages zurück um zu überprüfen, wie Ihr Jungs euch macht. <br>Ich muss diesen Wind in den Segeln ausnutzen! Mein Schiff füllt sich nicht von alleine mit Waren und Schätzen <br>Tschüss und viel Glück."
+							},
+							"miranda_before_selling_clay":{
+								"title":"Zuviel Lehm auf meinem Schiff",
+								"message_start":"Ich habe einige Geschäfte mit einem Rayya-Händler gemacht. Wusstest du, dass die viel Lehm, super billig, haben? Ich konnte einfach nicht ablehnen, aber jetzt habe ich zu viel davon!",
+								"message_convincing":"Ich kann so schwer beladen nicht mit dem Schiff segeln! Was sagst du? Kann ich dir etwas davon verkaufen? Ich glaube Ihr werdet es sowieso brauchen, da Ihr nicht viel Land habt um es selber auszugraben ..."
+							},
+							"miranda_clay_shop":"Captain Miranda's clay excess",
+							"miranda_notice_a_lost_crate":{
+								"title":"Hast du eine Kiste verloren?",
+								"message_start":"Übrigens, während wir handelten, bemerkte ich diese Kiste in der Nähe deines Lagers. Ich vermute, es ist deine, also stelle ich Sie in die Nähe deiner Lagerflagge ab.",
+								"choice":"Uhm? Welche Kiste?",
+								"this_crate":"Diese Kiste?"
+							},
+							"teaches_how_to_break_crate":{
+								"title":"Neugierig?",
+								"message_start":"Willst du nicht die Kiste öffnen? Vielleicht ist es wichtig oder bringt die einen Gewinn!<br> Um Sie zu öffnen, verwenden Sie das Ernte-Tools (das gleiche, das du verwendest um Bäume oder Pflanzen zu ernten)"
+							},
+							"miranda_talks_about_cocolings":{
+								"title":"Kokuslings",
+								"message_start":"Es tut mir leid, dass du gestern angegriffen wurdest. Diese Kokuslinge erscheinen in letzter Zeit überall...",
+								"choice":"Die kleinen bösen Kokosnüsse?",
+								"message_2":"Ja. Sie verursachen auch auf vielen anderen Inseln Probleme!<br> Wir wissen immer noch nicht, wie Sie hierher kommen oder warum ...<br> Es gibt viele andere Insulaner, die versuchen, dieses Geheimnis herauszufinden.",
+								"choice_end":"Ich werde helfen, wenn es möglich ist."
+							},
+							"miranda_notice_another_crate":{
+								"title":"Eine andere Kiste...",
+								"message_start":"Vorsicht, ich habe gerade noch eine Kiste auf deiner Insel gesehen! Besser bringt Ihr eure Wachen in Position bevor Ihr Sie öffnet.",
+								"choice":"Zeig Sie mir!"
 							}
 						}
 					}
@@ -179,11 +501,17 @@
 					"display_name": "Archipel",
 					"categories":{
 						"camp":"Strandcamp",
-						"town":"Piratenversteck",
+						"boats":"Boote",
 						"tier3":"Königlicher Hafen"
 					}
 				}
 			}
+		}
+	},
+	"modding_mods":{
+		"frostfeast":{
+			"display_name": "Gefrorenes Archipel",
+			"description": "Wasser überall! Oder Sand! Was auch immer am beliebtesten ist. Mit extra Schnee?"
 		}
 	}
 }

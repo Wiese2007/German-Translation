@@ -1,6 +1,9 @@
 { 
    "ui": {
       "game": {
+         "entities": {
+            "dehydration_notification": "[name(i18n_data.citizen)] ist sehr durstig!"
+         },         
          "common": {
             "bye": "Bienenhaus. Check!"
          },
@@ -63,6 +66,26 @@
       }
    },   
    "data": {
+      "happiness": {
+         "thoughts" : {
+            "thirst": {
+               "values" : {
+                  "stuffed": {
+                     "display_name": "Hydratisiert",
+                     "tooltip": "Konnte nicht einen weiteren Tropfen trinken!"
+                  },
+                  "thirsty": {
+                     "display_name": "Ausgedörrt",
+                     "tooltip": "Ein wenig durstig"
+                  },
+                  "dehydrated": {
+                     "display_name": "Dehydriert",
+                     "tooltip": "Sehr durstig"
+                  }
+               }
+            }
+         }
+      },      
       "buffs": {
          "well_fed": {
             "well_fed": {
@@ -111,7 +134,12 @@
                "recipe_name" : "Angelrute",
                "description" : "Ein grundlegendes Werkzeug für den Fischfang",
                "flavor" : ""
-            },            
+            },
+            "rickety_well_recipe" : {
+               "recipe_name" : "Klappriger Brunnen",
+               "description" : "Eine zerbrechliche Quelle für sauberes Wasser.",
+               "flavor"      : "Ein Steinmetz könnte das verbessern!"
+            },
             "scarecrow_recipe" : {
                "recipe_name" : "Vogelscheuche",
                "description" : "Um Schädlinge zuvergraulen"
@@ -305,7 +333,17 @@
                "description": "Eine Quelle sauberen Wassers",
                "display_name": "Steinbrunnen"
             }            
-         }
+         },
+         "rickety_well" : {
+            "well" : {
+               "description"  : "Eine Quelle für sauberes Wasser",
+               "display_name" : "Ein klappriger Brunnen"
+            },
+            "well_ghost" : {
+               "description"  : "Eine Quelle für sauberes Wasser",
+               "display_name" : "Ein klappriger Brunnen"
+            }            
+         }         
       },
       "misc": {
          "default_object" : {

@@ -1,0 +1,112 @@
+{
+   "entities": {
+      "decoration": {
+         "rune_stone_wall_brazier": {
+            "rune_stone_wall_brazier_ghost": {
+               "display_name": "Hängendes Runensteinkohlebecken",
+               "description": "Etwas liegt in der Flamme..."
+            }
+         },
+         "rune_stone_brazier": {
+            "rune_stone_brazier_ghost": {
+               "display_name": "Runensteinkohlebecken",
+               "description": "Etwas liegt in der Flamme..."
+            }
+         },         
+         "rune_firepit": {
+            "rune_firepit_ghost": {
+               "display_name": "Runisches Lagerfeuer",
+               "description": "Manche sagen, dass man die Geister der Steinältesten in den Flammen sehen kann..."
+            }
+         },         
+         "rune_stone": {
+            "rune_stone_ghost": {
+               "display_name": "Runenstein",
+               "description": "Mächte und Geheimnisse der Steinältesten liegen darin"
+            }
+         },
+         "rune_stone_small": {
+            "rune_stone_small_ghost": {
+               "display_name": "Kleiner Runenstein",
+               "description": "Mächte und Geheimnisse der Steinältesten liegen darin"           
+            }
+         },
+
+         "rune_wood_wall_lantern": {
+            "rune_wood_wall_lantern_ghost": {
+               "display_name": "Hängende Waldrunenlanterne",
+               "description": "Etwas liegt im Glühen..."           
+            }
+         },
+         "rune_wood_garden_lantern": {
+            "rune_wood_garden_lantern_ghost": {
+               "display_name": "Waldrunenlanterne",
+               "description": "Etwas liegt im Glühen..."           
+            }
+         },
+         "rune_wood": {
+            "rune_wood_ghost": {
+               "display_name": "Waldrune",
+               "description": "Mächte und Geheimnisse der Waldältesten liegen darin"           
+            }
+         },
+         "rune_wood_small": {
+            "rune_wood_small_ghost": {
+               "display_name": "Kleine Waldrune",
+               "description": "Mächte und Geheimnisse der Waldältesten liegen darin"           
+            }
+         }
+      }   
+   },
+   
+   "jobs" : {
+
+      "mason": {
+
+         "recipes": {
+            "rune_stone_wall_brazier_recipe": {
+               "description": "Brennt mit einer mystischen grünen Flamme...",
+               "recipe_name": "Hängendes Runensteinkohlebecken"
+            },
+            "rune_stone_brazier_recipe": {
+               "description": "Brennt mit einer mystischen grünen Flamme...",
+               "recipe_name": "Runensteinkohlebecken"
+            },
+            "rune_firepit_recipe": {
+               "description": "Brennt mit einer mystischen grünen Flamme...",
+               "recipe_name": "Runisches Lagerfeuer"
+            },            
+            "rune_stone_recipe": {
+               "description": "Mit seltsamen Symbolen beschriftet",
+               "recipe_name": "Runenstein"
+            },
+            "rune_stone_small_recipe": {
+               "description": "Mit seltsamen Symbolen beschriftet",
+               "recipe_name": "Kleiner Runenstein"
+            }
+         }
+      },
+
+      "carpenter": {
+
+         "recipes": {
+            "rune_wood_wall_lantern_recipe": {
+               "description": "Glüht mit einem mystischen grünen Licht...",
+               "recipe_name": "Hängende Waldrunenlanterne"
+            },      
+            "rune_wood_garden_lantern_recipe": {
+               "description": "Glüht mit einem mystischen grünen Licht...",
+               "recipe_name": "Waldrunenlanterne"
+            },      
+            "rune_wood_recipe": {
+               "description": "Mit seltsamen Symbolen beschriftet",
+               "recipe_name": "Waldrune"
+            },         
+            "rune_wood_small_recipe": {
+               "description": "Mit seltsamen Symbolen beschriftet",
+               "recipe_name": "Kleine Waldrune"
+            }         
+         }
+      }
+   }
+}
