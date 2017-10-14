@@ -35,28 +35,16 @@
                "hair_color": {
                   "weights": {
                      "Schwarz": 3,
-                     "Braun": 1,
-                     "Blau": 1,
-                     "Grün": 1,
-                     "Grau": 1,
-                     "Graustufen": 1,
-                     "Eis": 1,
-                     "Icki": 1,
-                     "Lavendel": 1,
-                     "Limette": 1,
-                     "Orange": 1,
-                     "Pink": 1,
-                     "Orange": 1,
-                     "Silber": 1,
-                     "Verrückt": 1,
-                     "Verrückt2": 1,
-                     "Flamme": 1,
-                     "Weiß": 1
+                     "Braun": 3,
+                     "Rot": 1,
+                     "Sand": 1,
+                     "Blond": 1,
+                     "Platin": 1
                   }
                },
                "skin_color": {
                   "weights": {
-                     "Braun_2": 1
+                     "Weiß": 1
                   }
                }
             },

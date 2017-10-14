@@ -1,0 +1,630 @@
+{
+   "entities": {
+      "consumables": {
+         "seeds": {
+            "juniper_tree_seeds": {
+               "display_name": "Juniper Berries",
+               "description": "Learn to grow juniper trees."
+            },
+            "pine_tree_seeds": {
+               "display_name": "Pine Cones",
+               "description": "Learn to grow pine trees."
+            },
+            "cactus_tree_seeds": {
+               "display_name": "Tree Cactus Seeds",
+               "description": "Learn to grow tree-like cacti."
+            },
+            "berry_bush_seeds": {
+               "display_name": "Dried Berries",
+               "description": "Learn to grow berry bushes."
+            },
+            "pear_cactus_seeds": {
+               "display_name": "Dried Prickly Pears",
+               "description": "Learn to grow prickly pear cacti."
+            },
+            "tumbleweed_seeds": {
+               "display_name": "Tumbleweed Seeds",
+               "description": "Learn to grow tumbleweeds."
+            }
+         }
+      },
+      "crops": {
+         "juniper_tree_crop": {
+            "display_name": "Juniper Tree Sapling",
+            "description": "Need logs? These tall trees can help if you lack space.",
+            "growth_stage": {
+               "000": {
+                  "name": "Juniper Berry",
+                  "description": "Even a mighty tree has humble beginnings."
+               },
+               "001": {
+                  "name": "Juniper Tree Seedling",
+                  "description": "It's just getting started."
+               },
+               "002": {
+                  "name": "Juniper Tree Sprout",
+                  "description": "Reach for the sun, little juniperling."
+               },
+               "003": {
+                  "name": "Juniper Tree Sapling",
+                  "description": "Ready to be transferred to a bigger plot."
+               }
+            }
+         },
+         "pine_tree_crop": {
+            "display_name": "Pine Tree Sapling",
+            "description": "Winter is coming? Now you can have as many pine trees as you want.",
+            "growth_stage": {
+               "000": {
+                  "name": "Pine Cone",
+                  "description": "Even a mighty tree has humble beginnings."
+               },
+               "001": {
+                  "name": "Pine Tree Seedling",
+                  "description": "It's just getting started."
+               },
+               "002": {
+                  "name": "Pine Tree Sprout",
+                  "description": "Perfect size for a baby mammooth."
+               },
+               "003": {
+                  "name": "Pine Tree Sapling",
+                  "description": "Ready to be transferred to a bigger plot."
+               }
+            }
+         },
+         "cactus_tree_crop": {
+            "display_name": "Tree Cactus Sapling",
+            "description": "Need wood? These cacti grow slowly but require very little space.",
+            "growth_stage": {
+               "000": {
+                  "name": "Tree Cactus Seed",
+                  "description": "Even a mighty cactus has humble beginnings."
+               },
+               "001": {
+                  "name": "Tree Cactus Seedling",
+                  "description": "It's just getting started."
+               },
+               "002": {
+                  "name": "Tree Cactus Sprout",
+                  "description": "Beware of the spikes!"
+               },
+               "003": {
+                  "name": "Tree Cactus Sapling",
+                  "description": "Ready to be transferred to a bigger plot."
+               }
+            }
+         },
+         "berry_bush_crop": {
+            "display_name": "Berry Bush Sapling",
+            "description": "Plant some berry bushes if you need berries",
+            "growth_stage": {
+               "000": {
+                  "name": "Dried Berries",
+                  "description": "Be patient, plants need time to grow."
+               },
+               "001": {
+                  "name": "Berry Bush Seedling",
+                  "description": "It's just getting started."
+               },
+               "002": {
+                  "name": "Berry Bush Sprout",
+                  "description": "I can almost smell the berries."
+               },
+               "003": {
+                  "name": "Berry Bush Sapling",
+                  "description": "Ready to be transferred to a bigger plot."
+               }
+            }
+         },
+         "pear_cactus_crop": {
+            "display_name": "Prickly Pear Cactus Sapling",
+            "description": "Plant some prickly pear cacti if you need more fruit.",
+            "growth_stage": {
+               "000": {
+                  "name": "Dried Prickly Pears",
+                  "description": "Be patient, plants need time to grow."
+               },
+               "001": {
+                  "name": "Prickly Pear Cactus Seedling",
+                  "description": "It's just getting started."
+               },
+               "002": {
+                  "name": "Prickly Pear Cactus Sprout",
+                  "description": "Don't touch the spikes!"
+               },
+               "003": {
+                  "name": "Prickly Pear Cactus Sapling",
+                  "description": "Ready to be transferred to a bigger plot."
+               }
+            }
+         },
+         "tumbleweed_crop": {
+            "display_name": "Tumbleweed",
+            "description": "This plant's fiber can be spun into thread",
+            "growth_stage": {
+               "000": {
+                  "name": "Tumbleweed Seedling",
+                  "description": "Still a long way to grow."
+               },
+               "001": {
+                  "name": "Tumbleweed Sprout",
+                  "description": "Sprout, little one!"
+               },
+               "002": {
+                  "name": "Stubby Tumbleweed",
+                  "description": "Look at those little branches!"
+               },
+               "003": {
+                  "name": "Immature Tumbleweed",
+                  "description": "Still not dry enough for weaving."
+               },
+               "004": {
+                  "name": "Mature Tumbleweed",
+                  "description": "Ready for weaving!"
+               }
+            }
+         }
+      },
+      "decoration": {
+         "mixintypes": {
+            "window_box_brightbell": "override",
+            "window_box_brightbell_fine": "override",
+            "window_box_frostsnap": "override",
+            "window_box_frostsnap_fine":"override",
+            "potted_cactus": "override",
+            "potted_cactus_fine": "override",
+            "golden_clay_wall_planter": "override",
+            "golden_clay_wall_planter_fine": "override"
+         },
+         "window_box_brightbell": {
+            "window_box_brightbell_ghost": {
+               "display_name": "Wooden Brightbell Box",
+               "description": "A tidy home for the plant."
+            }
+         },
+         "window_box_brightbell_fine": {
+            "window_box_brightbell_fine_ghost": {
+               "display_name": "Fine Wooden Brightbell Box",
+               "description": "A cozy home for the plant."
+            }
+         },
+         "window_box_frostsnap": {
+            "window_box_frostsnap_ghost": {
+               "display_name": "Wooden Frostsnap Box",
+               "description": "A tidy home for the plant."
+            }
+         },
+         "window_box_frostsnap_fine": {
+            "window_box_frostsnap_fine_ghost": {
+               "display_name": "Fine Wooden Frostsnap Box",
+               "description": "A cozy home for the plant."
+            }
+         },
+         "potted_cactus": {
+            "potted_cactus_ghost": {
+               "display_name": "Wooden Cactus Box",
+               "description": "Careful, it's still prickly."
+            }
+         },
+         "potted_cactus_fine": {
+            "potted_cactus_fine_ghost": {
+               "display_name": "Fine Wooden Cactus Box",
+               "description": "Careful, it's still prickly."
+            }
+         },
+         "golden_clay_wall_planter": {
+            "golden_clay_wall_planter_ghost": {
+               "display_name": "Clay Cactus Box",
+               "description": "Careful, it's still prickly."
+            }
+         },
+         "golden_clay_wall_planter_fine": {
+            "golden_clay_wall_planter_fine_ghost": {
+               "display_name": "Fine Clay Cactus Box",
+               "description": "Careful, it's still prickly."
+            }
+         },
+         "clay_window_brightbell": {
+            "clay_window_brightbell_ghost": {
+               "display_name": "Clay Brightbell Box",
+               "description": "A tidy home for the plant."
+            }
+         },
+         "clay_window_brightbell_fine": {
+            "clay_window_brightbell_fine_ghost": {
+               "display_name": "Fine Clay Brightbell Box",
+               "description": "A cozy home for the plant."
+            }
+         },
+         "clay_window_frostsnap": {
+            "clay_window_frostsnap_ghost": {
+               "display_name": "Clay Frostsnap Box",
+               "description": "A tidy home for the plant."
+            }
+         },
+         "clay_window_frostsnap_fine": {
+            "clay_window_frostsnap_fine_ghost": {
+               "display_name": "Fine Clay Frostsnap Box",
+               "description": "A cozy home for the plant."
+            }
+         },
+         "clay_window_foxlily": {
+            "clay_window_foxlily_ghost": {
+               "display_name": "Clay Fox Lily Box",
+               "description": "A tidy home for the plant."
+            }
+         },
+         "clay_window_foxlily_fine": {
+            "clay_window_foxlily_fine_ghost": {
+               "display_name": "Fine Clay Fox Lily Box",
+               "description": "A cozy home for the plant."
+            }
+         },
+         "clay_window_silkweed": {
+            "clay_window_silkweed_ghost": {
+               "display_name": "Clay Silkweed Box",
+               "description": "A tidy home for the plant."
+            }
+         },
+         "clay_window_silkweed_fine": {
+            "clay_window_silkweed_fine_ghost": {
+               "display_name": "Fine Clay Silkweed Box",
+               "description": "A cozy home for the plant."
+            }
+         },
+         "clay_window_tumbleweed": {
+            "clay_window_tumbleweed_ghost": {
+               "display_name": "Clay Tumbleweed Box",
+               "description": "A tidy home for the plant."
+            }
+         },
+         "clay_window_tumbleweed_fine": {
+            "clay_window_tumbleweed_fine_ghost": {
+               "display_name": "Fine Clay Tumbleweed Box",
+               "description": "A cozy home for the plant."
+            }
+         },
+         "wooden_window_foxlily": {
+            "wooden_window_foxlily_ghost": {
+               "display_name": "Wooden Fox Lily Box",
+               "description": "A tidy home for the plant."
+            }
+         },
+         "wooden_window_foxlily_fine": {
+            "wooden_window_foxlily_fine_ghost": {
+               "display_name": "Fine Wooden Fox Lily Box",
+               "description": "A cozy home for the plant."
+            }
+         },
+         "wooden_window_silkweed": {
+            "wooden_window_silkweed_ghost": {
+               "display_name": "Wooden Silkweed Box",
+               "description": "A tidy home for the plant."
+            }
+         },
+         "wooden_window_silkweed_fine": {
+            "wooden_window_silkweed_fine_ghost": {
+               "display_name": "Fine Wooden Silkweed Box",
+               "description": "A cozy home for the plant."
+            }
+         },
+         "wooden_window_tumbleweed": {
+            "wooden_window_tumbleweed_ghost": {
+               "display_name": "Wooden Tumbleweed Box",
+               "description": "A tidy home for the plant."
+            }
+         },
+         "wooden_window_tumbleweed_fine": {
+            "wooden_window_tumbleweed_fine_ghost": {
+               "display_name": "Fine Wooden Tumbleweed Box",
+               "description": "A cozy home for the plant."
+            }
+         },
+         "bed_brightbell": {
+            "bed_brightbell_ghost": {
+               "display_name": "Brightbell Bed",
+               "description": "Brightbells can be harvested by the Herbalist.",
+               "unripe_description": "Brightbells require more time to regrow."
+            }
+         },
+         "bed_frostsnap": {
+            "bed_frostsnap_ghost": {
+               "display_name": "Frostsnap Bed",
+               "description": "Frostsnaps can be harvested by the Herbalist.",
+               "unripe_description": "Frostsnaps require more time to regrow."
+            }
+         },
+         "bed_cactus_flower": {
+            "bed_cactus_flower_ghost": {
+               "display_name": "Cactus Bed",
+               "description": "Cacti can be harvested by the Herbalist.",
+               "unripe_description": "Cacti require more time to regrow."
+            }
+         },
+         "bed_silkweed": {
+            "bed_silkweed_ghost": {
+               "display_name": "Silkweed Bed",
+               "description": "Silkweeds can be harvested by the Herbalist.",
+               "unripe_description": "Silkweeds require more time to regrow."
+            }
+         },
+         "bed_tumbleweed": {
+            "bed_tumbleweed_ghost": {
+               "display_name": "Tumbleweed Bed",
+               "description": "Tumbleweeds can be harvested by the Herbalist.",
+               "unripe_description": "Tumbleweeds require more time to regrow."
+            }
+         },
+         "pot_brightbell": {
+            "pot_brightbell_ghost": {
+               "display_name": "Potted Brightbell",
+               "description": "A small Brightbell specimen, suitable for shelves."
+            }
+         },
+         "pot_frostsnap": {
+            "pot_frostsnap_ghost": {
+               "display_name": "Potted Frostsnap",
+               "description": "Little Frostsnap to enrich your interiors."
+            }
+         },
+         "pot_cactus_flower": {
+            "pot_cactus_flower_ghost": {
+               "display_name": "Potted Cactus",
+               "description": "Prickly, but adorable, isn't it?"
+            }
+         },
+         "pot_silkweed": {
+            "pot_silkweed_ghost": {
+               "display_name": "Potted Silkweed",
+               "description": "Dwarven Silkweed cultivated with the sole purpose of being planted in a pot."
+            }
+         },
+         "pot_tumbleweed": {
+            "pot_tumbleweed_ghost": {
+               "display_name": "Potted Tumbleweed",
+               "description": "Doesn't require water."
+            }
+         }
+      },
+      "plants": {
+         "brightbell_plant": {
+            "display_name": "Brightbell",
+            "mixintypes": {"display_name": "override"}
+         },
+         "frostsnap_plant": {
+            "display_name": "Frost Snap",
+            "mixintypes": {"display_name": "override"}
+         },
+         "silkweed": {
+            "silkweed": {
+               "display_name": "Silkweed",
+               "mixintypes": {"display_name": "override"}
+            }
+         },
+         "berry_bush": {
+            "sapling_berry_bush": {
+               "description": "Berry Bush Sapling",
+               "sapling_berry_bush_ghost": {
+                  "display_name": "Berry Bush Sapling",
+                  "description": "Baby berry bush."
+               }
+            }
+         },
+         "pear_cactus": {
+            "sapling_pear_cactus": {
+               "description": "Prickly Pear Cactus Sapling",
+               "sapling_pear_cactus_ghost": {
+                  "display_name": "Prickly Pear Cactus Sapling",
+                  "description": "Baby prickly pear cactus."
+               }
+            }
+         }
+      },
+      "refined": {
+         "wooden_window_box": {
+            "display_name": "Wooden Window Planter",
+            "description": "Empty, but Herbalist can bring some life to it"
+         },
+         "clay_window_box": {
+            "display_name": "Clay Window Planter",
+            "description": "Empty, but Herbalist can bring some life to it"
+         },
+         "clay_pot_small": {
+            "display_name": "Small Clay Pot",
+            "description": "Empty, but Herbalist can bring some life to it"
+         }
+      },
+      "trees": {
+         "juniper_tree": {
+            "sapling_juniper_tree": {
+               "description": "Baby juniper tree.",
+               "sapling_juniper_tree_ghost": {
+                  "display_name": "Juniper Tree Sapling",
+                  "description": "Baby juniper tree."
+               },
+               "sapling_juniper_tree_iconic": {
+                  "description": "Plant it in the earth and watch it grow."
+               }
+            }
+         },
+         "pine_tree": {
+            "sapling_pine_tree": {
+               "description": "Baby pine tree.",
+               "sapling_pine_tree_ghost": {
+                  "display_name": "Pine Tree Sapling",
+                  "description": "Baby pine tree."
+               },
+               "sapling_pine_tree_iconic": {
+                  "description": "Plant it in the earth and watch it grow."
+               }
+            }
+         },
+         "cactus_tree": {
+            "sapling_cactus_tree": {
+               "description": "Baby tree cactus.",
+               "sapling_cactus_tree_ghost": {
+                  "display_name": "Tree Cactus Sapling",
+                  "description": "Baby tree cactus."
+               },
+               "sapling_cactus_tree_iconic": {
+                  "description": "Plant it in the earth and watch it grow."
+               }
+            }
+         }
+      }
+   },
+   "filters": {
+      "plants": "Plants",
+      "tooltip_fiber": "Fibers",
+      "tooltip_herb": "Herbal Material",
+      "tooltip_tree": "Saplings",
+      "tooltip_sprout": "Plant Specimens",
+      "tooltip_plant_bed": "Plant Beds",
+      "tooltip_garden": "Garden Decorations"
+   },
+   "jobs": {
+      "carpenter": {
+         "recipes": {
+            "wooden_window_box_recipe": {
+               "recipe_name": "Wooden Window Planter",
+               "description": "Empty, but Herbalist can bring some life to it",
+               "flavor": "You'll need plants, though."
+            }
+         }
+      },
+      "potter": {
+         "recipes": {
+            "clay_window_box_recipe": {
+               "recipe_name": "Clay Window Planter",
+               "description": "Empty, but Herbalist can bring some life to it",
+               "flavor": "Plants don't appear out of nowhere."
+            },
+            "clay_pot_small_recipe": {
+               "recipe_name": "Small Clay Pot",
+               "description": "Empty, but Herbalist can bring some life to it",
+               "flavor": "Plants don't appear out of nowhere."
+            }
+         }
+      },
+      "herbalist": {
+         "recipes": {
+            "plant_beds_name": "Plant Beds",
+            "seeds_name": "Seeds",
+            "wooden_window_brightbell_recipe": {
+               "recipe_name": "Wooden Brightbell Box",
+               "description": "A planter box full of brightbell flowers, built to be placed below window frames.",
+               "flavor": "A brightbell a day keeps the Ogres away!"
+            },
+            "wooden_window_frostsnap_recipe": {
+               "recipe_name": "Wooden Frostsnap Box",
+               "description": "A planter box full of Frostsnap flowers, built to be placed below window frames.",
+               "flavor": "The capstone of a civilized dwelling."
+            },
+            "wooden_window_cactus_recipe": {
+               "recipe_name": "Wooden Cactus Box",
+               "description": "Plant a cactus in a wooden box.",
+               "flavor": "\"YOWCH!\" --Every cactus farmer, ever"
+            },
+            "clay_window_cactus_recipe": {
+               "recipe_name": "Clay Cactus Box",
+               "description": "Plant a cactus in a clay box.",
+               "flavor": "\"YOWCH!\" --Every cactus potter, ever"
+            },
+            "clay_window_brightbell_recipe": {
+               "recipe_name": "Clay Brightbell Box",
+               "description": "A planter box full of brightbell flowers, formed to be placed below window frames.",
+               "flavor": "A brightbell a day keeps the bugs away!"
+            },
+            "clay_window_frostsnap_recipe": {
+               "recipe_name": "Clay Frostsnap Box",
+               "description": "A planter box full of Frostsnap flowers, formed to be placed below window frames.",
+               "flavor": "The capstone of a civilized dwelling."
+            },
+            "clay_window_foxlily_recipe": {
+               "recipe_name": "Clay Fox Lily Box",
+               "description": "A planter box full of fox lilies, formed to be placed below window frames.",
+               "flavor": "Traders brought these fox lilies from far away."
+            },
+            "clay_window_silkweed_recipe": {
+               "recipe_name": "Clay Silkweed Box",
+               "description": "A planter box full of silkweed, formed to be placed below window frames.",
+               "flavor": "The decorative silkweed variety is a bit smaller."
+            },
+            "clay_window_tumbleweed_recipe": {
+               "recipe_name": "Clay Tumbleweed Box",
+               "description": "A planter box full of tumbleweed, formed to be placed below window frames.",
+               "flavor": "Still better than an empty box."
+            },
+            "wooden_window_foxlily_recipe": {
+               "recipe_name": "Wooden Fox Lily Box",
+               "description": "A planter box full of fox lilies, built to be placed below window frames.",
+               "flavor": "Traders brought these fox lilies from far away."
+            },
+            "wooden_window_silkweed_recipe": {
+               "recipe_name": "Wooden Silkweed Box",
+               "description": "A planter box full of silkweed, built to be placed below window frames.",
+               "flavor": "The decorative silkweed variety is a bit smaller."
+            },
+            "wooden_window_tumbleweed_recipe": {
+               "recipe_name": "Wooden Tumbleweed Box",
+               "description": "A planter box full of tumbleweed, built to be placed below window frames.",
+               "flavor": "Still better than an empty box."
+            },
+            "bed_brightbell_recipe": {
+               "recipe_name": "Brightbell Bed",
+               "description": "Brightbells will regrow slowly allowing new plants to be collected by the Herbalist.",
+               "flavor": "A brightbell a day keeps the bugs away!"
+            },
+            "bed_frostsnap_recipe": {
+               "recipe_name": "Frostsnap Bed",
+               "description": "Frostsnaps will regrow slowly allowing new plants to be collected by the Herbalist.",
+               "flavor": "The capstone of a civilized dwelling."
+            },
+            "bed_cactus_flower_recipe": {
+               "recipe_name": "Cactus Bed",
+               "description": "Cacti will regrow slowly allowing new plants to be collected by the Herbalist.",
+               "flavor": "\"YOWCH!\" --Every cactus planter, ever"
+            },
+            "bed_silkweed_recipe": {
+               "recipe_name": "Silkweed Bed",
+               "description": "Silkweed will regrow slowly allowing new plants to be collected by the Herbalist.",
+               "flavor": "Manually harvesting fiber plants is the only way of obtaining fiber early on."
+            },
+            "bed_tumbleweed_recipe": {
+               "recipe_name": "Tumbleweed Bed",
+               "description": "Tumbleweed will regrow slowly allowing new plants to be collected by the Herbalist.",
+               "flavor": "Still better than bare ground."
+            },
+            "pot_brightbell_recipe": {
+               "recipe_name": "Potted Brightbell",
+               "description": "A small Brightbell specimen, suitable for shelves."
+            },
+            "pot_frostsnap_recipe": {
+               "recipe_name": "Potted Frostsnap",
+               "description": "Little Frostsnap to enrich your interiors."
+            },
+            "pot_cactus_flower_recipe": {
+               "recipe_name": "Potted Cactus",
+               "description": "Prickly, but adorable, isn't it?"
+            },
+            "pot_silkweed_recipe": {
+               "recipe_name": "Potted Silkweed",
+               "description": "Dwarven Silkweed cultivated with the sole purpose of being planted in a pot."
+            },
+            "pot_tumbleweed_recipe": {
+               "recipe_name": "Potted Tumbleweed",
+               "description": "Doesn't require water."
+            }
+         }
+      }
+   },
+   "ui": {
+      "data": {
+         "constants": {
+            "sprout_name": "Plant Specimen",
+            "herb_resource_name": "Herbal Material",
+         }
+      }
+   }
+}

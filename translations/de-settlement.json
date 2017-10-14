@@ -3,7 +3,9 @@
 		"gardener": {
 			"display_name": "Gärtner Handwerks-Menü",
 			"description": "Stellt dekorative Gegenstaände mit Blumen her.",
+            		"requirements": "Benötigt einen Farmer",
 			"requirements": "Benötigt einen Gärtner"
+            		"craft_gardener": "Gärtner Menu"
 		}
 	},
 	"entities": {
@@ -388,6 +390,10 @@
 				"name": "Feines Litsogras",
 				"description": "Fast vollständig ausgereift"
 			},
+        		"litso_grass_4" : {
+            			"name": "Litsogras",
+            			"description": "Voll ausgereifte gelbe Stiele"
+        		},
 			"ember_plant": {
 				"display_name": "Emberpflanze",
 				"description": "Eine kurze blühende Pflanze mit rot glühenden Pollen"
@@ -403,6 +409,10 @@
 			"ember_plant_3": {
 				"name": "Feine Emberpflanze",
 				"description": "Erste Anzeichen der Blüte"
+        		},
+        		"ember_plant_4" : {
+            			"name": "Zarte Emberpflanze",
+            			"description": "Vollblütige Emberpflanze"
 			}
 		},
 		"decorations": {

@@ -1,0 +1,1300 @@
+{
+   "entities": {
+      "decoration": {
+         "banner_wall_big_fine": {
+            "banner_wall_big_fine_ghost": {
+               "display_name": "Fine Big Wall Banner",
+               "description": "Show your town pride with this banner."
+            }
+         },
+         "banner_wall_small_fine": {
+            "banner_wall_small_fine_ghost": {
+               "display_name": "Fine Small Wall Banner",
+               "description": "Show your town pride with this banner."
+            }
+         },
+         "bird_bath_fine": {
+            "bird_bath_fine_ghost": {
+               "display_name": "Fine Bird Bath",
+               "description": "Tranquil."
+            }
+         },
+         "blown_glass_vase_fine": {
+            "blown_glass_vase_fine_ghost": {
+               "display_name": "Fine Blown Glass Vase",
+               "description": "Miraculous"
+            }
+         },
+         "clay_lamp_fine": {
+            "clay_lamp_fine_ghost": {
+               "display_name": "Fine Clay Oil Lamp",
+               "description": "Its flame brings a warm glow at night."
+            }
+         },
+         "clay_wall_lamp_fine": {
+            "clay_wall_lamp_fine_ghost": {
+               "display_name": "Fine Wall Clay Lamp",
+               "description": "Provides a warm glow at night."
+            }
+         },
+         "curtains_fine": {
+            "curtains_fine_ghost": {
+               "display_name": "Fine Curtains",
+               "description": "Dresses up a window."
+            }
+         },
+         "decorative_teapot_fine": {
+            "decorative_teapot_fine_ghost": {
+               "display_name": "Fine Decorative Teapot",
+               "description": "A reminder of humble beginnings"
+            }
+         },
+         "decorative_tray_fine": {
+            "decorative_tray_fine_ghost": {
+               "display_name": "Fine Decorative Tray",
+               "description": "Adds flash and hospitality"
+            }
+         },
+         "decorative_vase_fine": {
+            "decorative_vase_fine_ghost": {
+               "display_name": "Fine Decorative Vase",
+               "description": "The metals of the earth reborn"
+            }
+         },
+         "fur_rug_fine": {
+            "fur_rug_fine_ghost": {
+               "display_name": "Fine Fur Rug",
+               "description": "Made from animal pelts."
+            }
+         },
+         "gargoyle_fine": {
+            "gargoyle_fine_ghost": {
+               "display_name": "Fine Wall Gargoyle",
+               "description": "Gothic-style carving to decorate your walls."
+            }
+         },
+         "golden_clay_wall_planter_fine": {
+            "golden_clay_wall_planter_fine_ghost": {
+               "display_name": "Fine Golden Clay Planter",
+               "description": "Livens up walls"
+            }
+         },
+         "potted_cactus_fine": {
+            "potted_cactus_fine_ghost": {
+               "display_name": "Fine Potted Cactus",
+               "description": "Careful, it's still prickly."
+            }
+         },
+         "stone_brazier_fine": {
+            "stone_brazier_fine_ghost": {
+               "display_name": "Fine Stone Brazier",
+               "description": "Provides warm and cozy fire at night"
+            }
+         },
+         "stone_garden_lantern_fine": {
+            "stone_garden_lantern_fine_ghost": {
+               "display_name": "Fine Stone Garden Lantern",
+               "description": "An ancient-looking lantern with great ambiance."
+            }
+         },
+         "stone_wall_lantern_fine": {
+            "stone_wall_lantern_fine_ghost": {
+               "display_name": "Fine Stone Wall Lantern",
+               "description": "Easily attached to walls"
+            }
+         },
+         "tapestry_wall_fine": {
+            "tapestry_wall_fine_ghost": {
+               "display_name": "Fine Wall-Mounted Tapestry",
+               "description": "A decorative scene, woven in colored thread and cord."
+            }
+         },
+         "throw_rug_fine": {
+            "throw_rug_fine_ghost": {
+               "display_name": "Fine Decorative Throw Rug",
+               "description": "Brightens up that old dusty floor."
+            }
+         },
+         "tile_floor_mosaic_fine": {
+            "tile_floor_mosaic_fine_ghost": {
+               "display_name": "Fine Tile Floor Mosaic",
+               "description": "Cool on the bare feet"
+            }
+         },
+         "tile_wall_mosaic_fine": {
+            "tile_wall_mosaic_fine_ghost": {
+               "display_name": "Fine Tile Wall Mosaic",
+               "description": "Soothing decorative patterns"
+            }
+         },
+         "tower_brazier_fine": {
+            "tower_brazier_fine_ghost": {
+               "display_name": "Fine Tower Brazier",
+               "description": "Provides warm and cozy fire at night"
+            }
+         },
+         "banner_wall_standard": {
+            "banner_wall_standard_ghost": {
+               "display_name": "Wall-Mounted Standard",
+               "description": "Show your town pride with this standard."
+            }
+         },
+         "banner_wall_standard_fine": {
+            "banner_wall_standard_fine_ghost": {
+               "display_name": "Fine Wall-Mounted Standard",
+               "description": "Show your town pride with this standard."
+            }
+         },
+         "pond": {
+            "pond_ghost": {
+               "display_name": "Stone Pond",
+               "description": "Shallow enough to prevent anyone from drowning."
+            }
+         },
+      },
+      "furniture": {
+         "stone_bench_fine": {
+            "stone_bench_fine_ghost": {
+               "display_name": "Fine Stone Bench",
+               "description": "Outdoor seating for moments of relaxation"
+            }
+         },
+         "stone_chair_fine": {
+            "stone_chair_fine_ghost": {
+               "display_name": "Fine Stone Chair",
+               "description": "For sitting"
+            }
+         },
+         "stone_table_fine": {
+            "stone_table_fine_ghost": {
+               "display_name": "Fine Stone Table",
+               "description": "Its weight adds a sense of gravitas"
+            }
+         },
+         "clothed_dining_table": {
+            "clothed_dining_table_ghost": {
+               "display_name": "Clothed Dining Table",
+               "description": "Adds a pinch of civilised elegance"
+            }
+         },
+         "clothed_dining_table_fine": {
+            "clothed_dining_table_fine_ghost": {
+               "display_name": "Fine Clothed Dining Table",
+               "description": "Adds a pinch of civilised elegance"
+            }
+         },
+         "clothed_stone_table": {
+            "clothed_stone_table_ghost": {
+               "display_name": "Clothed Stone Table",
+               "description": "Let's hope the cloth isn't as heavy as the table"
+            }
+         },
+         "clothed_stone_table_fine": {
+            "clothed_stone_table_fine_ghost": {
+               "display_name": "Fine Clothed Stone Table",
+               "description": "Let's hope the cloth isn't as heavy as the table"
+            }
+         },
+         "comfy_arch_backed_chair": {
+            "comfy_arch_backed_chair_ghost": {
+               "display_name": "Comfy Cathedral-Arch Chair",
+               "description": "Just in case kneeling exhausted you"
+            }
+         },
+         "comfy_arch_backed_chair_fine": {
+            "comfy_arch_backed_chair_fine_ghost": {
+               "display_name": "Fine Comfy Cathedral-Arch Chair",
+               "description": "Just in case kneeling exhausted you"
+            }
+         },
+         "comfy_stone_chair": {
+            "comfy_stone_chair_ghost": {
+               "display_name": "Comfy Stone Chair",
+               "description": "Surprisingly ununcomfortable"
+            }
+         },
+         "comfy_stone_chair_fine": {
+            "comfy_stone_chair_fine_ghost": {
+               "display_name": "Fine Comfy Stone Chair",
+               "description": "Surprisingly ununcomfortable"
+            }
+         },
+         "hardly_a_bed": {
+            "hardly_a_bed_ghost": {
+               "display_name": "Stone Bed",
+               "description": "Soft for a piece of stone"
+            }
+         },
+         "comfy_stone_bed": {
+            "comfy_stone_bed_ghost": {
+               "display_name": "Comfy Stone Bed",
+               "description": "Sleeping in a comfy bed makes Hearthlings happier"
+            }
+         },
+         "comfy_stone_bed_fine": {
+            "comfy_stone_bed_fine_ghost": {
+               "display_name": "Fine Comfy Stone Bed",
+               "description": "Sleeping in a comfy bed makes Hearthlings happier"
+            }
+         },
+         "comfy_clay_bed": {
+            "comfy_clay_bed_ghost": {
+               "display_name": "Comfy Clay Bed",
+               "description": "Sleeping in a comfy bed makes Hearthlings happier"
+            }
+         },
+         "comfy_clay_bed_fine": {
+            "comfy_clay_bed_fine_ghost": {
+               "display_name": "Fine Comfy Clay Bed",
+               "description": "Sleeping in a comfy bed makes Hearthlings happier"
+            }
+         },
+         "bookcase": {
+            "bookcase_ghost": {
+               "display_name": "Wooden Bookcase",
+               "description": "Except it has no books."
+            }
+         },
+         "bookcase_fine": {
+            "bookcase_fine_ghost": {
+               "display_name": "Fine Wooden Bookcase",
+               "description": "Except it has no books."
+            }
+         },
+         "comfy_stool": {
+            "comfy_stool_ghost": {
+               "display_name": "Comfy Wooden Stool",
+               "description": "Leaning too much may cause gravitation problems."
+            }
+         },
+         "comfy_stool_fine": {
+            "comfy_stool_fine_ghost": {
+               "display_name": "Fine Comfy Wooden Stool",
+               "description": "Leaning too much may cause gravitation problems."
+            }
+         },
+         "dresser_narrow": {
+            "dresser_narrow_ghost": {
+               "display_name": "Narrow Wooden Dresser",
+               "description": "One tile narrower than regular dresser"
+            }
+         },
+         "dresser_narrow_fine": {
+            "dresser_narrow_fine_ghost": {
+               "display_name": "Fine Narrow Wooden Dresser",
+               "description": "One tile narrower than regular dresser"
+            }
+         },
+         "shelf": {
+            "shelf_ghost": {
+               "display_name": "Wooden Shelf",
+               "description": "Empty, but makes the room more cosy."
+            }
+         },
+         "shelf_fine": {
+            "shelf_fine_ghost": {
+               "display_name": "Fine Wooden Shelf",
+               "description": "Empty, but makes the room more cosy."
+            }
+         },
+         "simple_wooden_stool": {
+            "simple_wooden_stool_ghost": {
+               "display_name": "Simple Wooden Stool",
+               "description": "While sitting food is 20% more effective."
+            }
+         },
+         "simple_wooden_stool_fine": {
+            "simple_wooden_stool_fine_ghost": {
+               "display_name": "Fine Simple Wooden Stool",
+               "description": "While sitting food is 20% more effective."
+            }
+         },
+         "wardrobe": {
+            "wardrobe_ghost": {
+               "display_name": "Wooden Wardrobe",
+               "description": "Hides your stuff and cracks in the wall"
+            }
+         },
+         "wardrobe_fine": {
+            "wardrobe_fine_ghost": {
+               "display_name": "Fine Wooden Wardrobe",
+               "description": "Hides your stuff and cracks in the wall"
+            }
+         }
+      },
+      "construction": {
+         "iron_double_door": {
+            "iron_double_door_ghost": {
+               "display_name": "Double Ironclad Door",
+               "description": "Studier than wooden or stone doors"
+            }
+         },
+         "iron_double_doorway": {
+            "iron_double_doorway_ghost": {
+               "display_name": "Double Ironclad Doorway",
+               "description": "Iron doesn't help much in case of an empty doorway"
+            }
+         },
+         "picket_fence_narrow": {
+            "picket_fence_narrow_ghost": {
+               "display_name": "Narrow Picket Fence",
+               "description": "If it's not white, is our life unfulfilled?"
+            }
+         },
+         "picket_fence_narrow_fine": {
+            "picket_fence_narrow_fine_ghost": {
+               "display_name": "Fine Narrow Picket Fence",
+               "description": "If it's not white, is our life unfulfilled?"
+            }
+         },
+         "cobblestone_fence_narrow": {
+            "cobblestone_fence_narrow_ghost": {
+               "display_name": "Narrow Cobblestone Fence",
+               "description": "A rustic, sturdy wall segment."
+            }
+         },
+         "latticed_clay_window_frame": {
+            "latticed_clay_window_frame_ghost": {
+               "display_name": "Red Latticed Window",
+               "mixintypes": {"display_name": "override"}
+            }
+         },
+         "tall_clay_window": {
+            "tall_clay_window_ghost": {
+               "display_name": "Tall Tan Clay Window",
+               "mixintypes": {"display_name": "override"}
+            }
+         },
+         "tan_tall_latticed_window": {
+            "tan_tall_latticed_window_ghost": {
+               "display_name": "Tall Tan Latticed Window",
+               "description": "Lets the desert in, but not the bugs!"
+            }
+         },
+         "blue_tall_clay_window": {
+            "blue_tall_clay_window_ghost": {
+               "display_name": "Tall Blue Clay Window",
+               "description": "Still lets in the soft desert air"
+            }
+         },
+         "blue_tall_latticed_window": {
+            "blue_tall_latticed_window_ghost": {
+               "display_name": "Tall Blue Latticed Window",
+               "description": "Lets the desert in, but not the bugs!"
+            }
+         },
+         "green_tall_clay_window": {
+            "green_tall_clay_window_ghost": {
+               "display_name": "Tall Green Clay Window",
+               "description": "Still lets in the soft desert air"
+            }
+         },
+         "green_tall_latticed_window": {
+            "green_tall_latticed_window_ghost": {
+               "display_name": "Tall Green Latticed Window",
+               "description": "Lets the desert in, but not the bugs!"
+            }
+         },
+         "red_tall_clay_window": {
+            "red_tall_clay_window_ghost": {
+               "display_name": "Tall Red Clay Window",
+               "description": "Still lets in the soft desert air"
+            }
+         },
+         "red_tall_latticed_window": {
+            "red_tall_latticed_window_ghost": {
+               "display_name": "Tall Red Latticed Window",
+               "description": "Lets the desert in, but not the bugs!"
+            }
+         },
+         "wooden_latticed_window": {
+            "wooden_latticed_window_ghost": {
+               "display_name": "Wooden Latticed Window",
+               "description": "So much for privacy..."
+            }
+         },
+         "wooden_latticed_window_fine": {
+            "wooden_latticed_window_fine_ghost": {
+               "display_name": "Fine Wooden Latticed Window",
+               "description": "So much for privacy..."
+            }
+         },
+         "wooden_latticed_window_tall": {
+            "wooden_latticed_window_tall_ghost": {
+               "display_name": "Tall Wooden Latticed Window",
+               "description": "Extra height adds an air of elegance"
+            }
+         },
+         "wooden_latticed_window_tall_fine": {
+            "wooden_latticed_window_tall_fine_ghost": {
+               "display_name": "Fine Tall Wooden Latticed Window",
+               "description": "Extra height adds an air of elegance"
+            }
+         },
+         "wooden_latticed_window_wide": {
+            "wooden_latticed_window_wide_ghost": {
+               "display_name": "Wide Wooden Latticed Window",
+               "description": "It's a panoramic view!"
+            }
+         },
+         "wooden_latticed_window_wide_fine": {
+            "wooden_latticed_window_wide_fine_ghost": {
+               "display_name": "Fine Wide Wooden Latticed Window",
+               "description": "It's a panoramic view!"
+            }
+         },
+         "stone_window_frame": {
+            "stone_window_frame_ghost": {
+               "display_name": "Stone Window Frame",
+               "description": "So much for privacy..."
+            }
+         },
+         "stone_window_frame_fine": {
+            "stone_window_frame_fine_ghost": {
+               "display_name": "Fine Stone Window Frame",
+               "description": "So much for privacy..."
+            }
+         },
+         "stone_window_frame_tall": {
+            "stone_window_frame_tall_ghost": {
+               "display_name": "Tall Stone Window Frame",
+               "description": "Extra height adds an air of elegance"
+            }
+         },
+         "stone_window_frame_tall_fine": {
+            "stone_window_frame_tall_fine_ghost": {
+               "display_name": "Fine Tall Stone Window Frame",
+               "description": "Extra height adds an air of elegance"
+            }
+         },
+         "stone_window_frame_wide": {
+            "stone_window_frame_wide_ghost": {
+               "display_name": "Wide Stone Window Frame",
+               "description": "It's a panoramic view!"
+            }
+         },
+         "stone_window_frame_wide_fine": {
+            "stone_window_frame_wide_fine_ghost": {
+               "display_name": "Fine Wide Stone Window Frame",
+               "description": "It's a panoramic view!"
+            }
+         },
+         "stone_latticed_window": {
+            "stone_latticed_window_ghost": {
+               "display_name": "Stone Latticed Window",
+               "description": "So much for privacy..."
+            }
+         },
+         "stone_latticed_window_fine": {
+            "stone_latticed_window_fine_ghost": {
+               "display_name": "Fine Stone Latticed Window",
+               "description": "So much for privacy..."
+            }
+         },
+         "stone_latticed_window_tall": {
+            "stone_latticed_window_tall_ghost": {
+               "display_name": "Tall Stone Latticed Window",
+               "description": "Extra height adds an air of elegance"
+            }
+         },
+         "stone_latticed_window_tall_fine": {
+            "stone_latticed_window_tall_fine_ghost": {
+               "display_name": "Fine Tall Stone Latticed Window",
+               "description": "Extra height adds an air of elegance"
+            }
+         },
+         "stone_latticed_window_wide": {
+            "stone_latticed_window_wide_ghost": {
+               "display_name": "Wide Stone Latticed Window",
+               "description": "It's a panoramic view!"
+            }
+         },
+         "stone_latticed_window_wide_fine": {
+            "stone_latticed_window_wide_fine_ghost": {
+               "display_name": "Fine Wide Stone Latticed Window",
+               "description": "It's a panoramic view!"
+            }
+         },
+         "wooden_arch_window": {
+            "wooden_arch_window_ghost": {
+               "display_name": "Wooden Cathedral-Arch Window",
+               "description": "Seems a bit old-fashioned"
+            }
+         },
+         "wooden_arch_window_fine": {
+            "wooden_arch_window_fine_ghost": {
+               "display_name": "Fine Wooden Cathedral-Arch Window",
+               "description": "Seems just a bit old-fashioned"
+            }
+         },
+         "wooden_arch_window_tall": {
+            "wooden_arch_window_tall_ghost": {
+               "display_name": "Tall Wooden Cathedral-Arch Window",
+               "description": "Hard to decide whether pretty or spooky"
+            }
+         },
+         "wooden_arch_window_tall_fine": {
+            "wooden_arch_window_tall_fine_ghost": {
+               "display_name": "Fine Tall Wooden Cathedral-Arch Window",
+               "description": "Difficult to decide whether pretty or spooky"
+            }
+         },
+         "stone_arch_window": {
+            "stone_arch_window_ghost": {
+               "display_name": "Stone Cathedral-Arch Window",
+               "description": "Seems a bit old-fashioned"
+            }
+         },
+         "stone_arch_window_fine": {
+            "stone_arch_window_fine_ghost": {
+               "display_name": "Fine Stone Cathedral-Arch Window",
+               "description": "Seems just a bit old-fashioned"
+            }
+         },
+         "stone_arch_window_tall": {
+            "stone_arch_window_tall_ghost": {
+               "display_name": "Tall Stone Cathedral-Arch Window",
+               "description": "Hard to decide whether pretty or spooky"
+            }
+         },
+         "stone_arch_window_tall_fine": {
+            "stone_arch_window_tall_fine_ghost": {
+               "display_name": "Fine Tall Stone Cathedral-Arch Window",
+               "description": "Difficult to decide whether pretty or spooky"
+            }
+         },
+         "wooden_diamond_window_tall": {
+            "wooden_diamond_window_tall_ghost": {
+               "display_name": "Tall Wooden Diamond Window",
+               "description": "Even more for privacy..."
+            }
+         },
+         "wooden_diamond_window_tall_fine": {
+            "wooden_diamond_window_tall_fine_ghost": {
+               "display_name": "Fine Tall Wooden Diamond Window",
+               "description": "Even more for privacy..."
+            }
+         },
+         "wooden_diamond_window_wide": {
+            "wooden_diamond_window_wide_ghost": {
+               "display_name": "Wide Wooden Diamond Window",
+               "description": "Privacy all the way... wide"
+            }
+         },
+         "wooden_diamond_window_wide_fine": {
+            "wooden_diamond_window_wide_fine_ghost": {
+               "display_name": "Fine Wide Wooden Diamond Window",
+               "description": "Privacy all the way... wide"
+            }
+         },
+         "stone_diamond_window": {
+            "stone_diamond_window_ghost": {
+               "display_name": "Stone Diamond Window",
+               "description": "So much for privacy..."
+            }
+         },
+         "stone_diamond_window_fine": {
+            "stone_diamond_window_fine_ghost": {
+               "display_name": "Fine Stone Diamond Window",
+               "description": "So much for privacy..."
+            }
+         },
+         "stone_diamond_window_tall": {
+            "stone_diamond_window_tall_ghost": {
+               "display_name": "Tall Stone Diamond Window",
+               "description": "Even more for privacy..."
+            }
+         },
+         "stone_diamond_window_tall_fine": {
+            "stone_diamond_window_tall_fine_ghost": {
+               "display_name": "Fine Tall Stone Diamond Window",
+               "description": "Even more for privacy..."
+            }
+         },
+         "stone_diamond_window_wide": {
+            "stone_diamond_window_wide_ghost": {
+               "display_name": "Wide Stone Diamond Window",
+               "description": "Privacy all the way... wide"
+            }
+         },
+         "stone_diamond_window_wide_fine": {
+            "stone_diamond_window_wide_fine_ghost": {
+               "display_name": "Fine Wide Stone Diamond Window",
+               "description": "Privacy all the way... wide"
+            }
+         },
+         "wooden_double_door_2": {
+            "wooden_double_door_2_ghost": {
+               "display_name": "Reinforced Double Wooden Door",
+               "description": "Compared to usual door, this is much safer and slightly heavier"
+            }
+         },
+         "wooden_double_door_2_fine": {
+            "wooden_double_door_2_fine_ghost": {
+               "display_name": "Fine Reinforced Double Wooden Door",
+               "description": "Compared to usual door, this is way more stylish and slightly heavier"
+            }
+         },
+         "wooden_tunnel_door_2": {
+            "display_name": "Reinforced Wooden Tunnel Door",
+            "description": "Sturdy enough for blocking off tunnels"
+         },
+         "wooden_tunnel_door_2_fine": {
+            "display_name": "Fine Reinforced Wooden Tunnel Door",
+            "description": "Stylish enough for blocking off tunnels"
+         },
+         "stone_doorway": {
+            "stone_doorway_ghost": {
+               "display_name": "Stone Doorway",
+               "description": "First step towards privacy"
+            }
+         },
+         "stone_doorway_fine": {
+            "stone_doorway_fine_ghost": {
+               "display_name": "Fine Stone Doorway",
+               "description": "First step towards privacy"
+            }
+         },
+         "stone_double_doorway": {
+            "stone_double_doorway_ghost": {
+               "display_name": "Double Stone Doorway",
+               "description": "A larger frame. It makes quite an impression."
+            }
+         },
+         "stone_double_doorway_fine": {
+            "stone_double_doorway_fine_ghost": {
+               "display_name": "Fine Double Stone Doorway",
+               "description": "A larger frame. It makes quite an impression."
+            }
+         },
+         "stone_tunnel_doorway": {
+            "display_name": "Stone Tunnel Doorway",
+            "description": "Useful for decorating tunnels"
+         },
+         "stone_tunnel_doorway_fine": {
+            "display_name": "Fine Stone Tunnel Doorway",
+            "description": "Useful for decorating tunnels"
+         },
+         "stone_wooden_door": {
+            "stone_wooden_door_ghost": {
+               "display_name": "Stone-Wooden Door",
+               "description": "Privacy at last!"
+            }
+         },
+         "stone_wooden_door_fine": {
+            "stone_wooden_door_fine_ghost": {
+               "display_name": "Fine Stone-Wooden Door",
+               "description": "Privacy at last!"
+            }
+         },
+         "stone_wooden_door_2": {
+            "stone_wooden_door_2_ghost": {
+               "display_name": "Reinforced Stone-Wooden Door",
+               "description": "Sturdier than your average door."
+            }
+         },
+         "stone_wooden_door_2_fine": {
+            "stone_wooden_door_2_fine_ghost": {
+               "display_name": "Fine Reinforced Stone-Wooden Door",
+               "description": "Sturdier than your average door."
+            }
+         },
+         "stone_wooden_double_door": {
+            "stone_wooden_double_door_ghost": {
+               "display_name": "Double Stone-Wooden Door",
+               "description": "A larger door. It makes quite an impression."
+            }
+         },
+         "stone_wooden_double_door_fine": {
+            "stone_wooden_double_door_fine_ghost": {
+               "display_name": "Fine Double Stone-Wooden Door",
+               "description": "A larger door. It makes quite an impression."
+            }
+         },
+         "stone_wooden_double_door_2": {
+            "stone_wooden_double_door_2_ghost": {
+               "display_name": "Reinforced Double Stone-Wooden Door",
+               "description": "Compared to usual door, this is much safer and slightly heavier"
+            }
+         },
+         "stone_wooden_double_door_2_fine": {
+            "stone_wooden_double_door_2_fine_ghost": {
+               "display_name": "Fine Reinforced Double Stone-Wooden Door",
+               "description": "Compared to usual door, this is way more stylish and slightly heavier"
+            }
+         },
+         "stone_wooden_tunnel_door": {
+            "display_name": "Stone-Wooden Tunnel Door",
+            "description": "Useful for blocking off tunnels"
+         },
+         "stone_wooden_tunnel_door_fine": {
+            "display_name": "Fine Stone-Wooden Tunnel Door",
+            "description": "Useful for blocking off tunnels"
+         },
+         "stone_wooden_tunnel_door_2": {
+            "display_name": "Reinforced Stone-Wooden Tunnel Door",
+            "description": "Sturdy enough for blocking off tunnels"
+         },
+         "stone_wooden_tunnel_door_2_fine": {
+            "display_name": "Fine Reinforced Stone-Wooden Tunnel Door",
+            "description": "Stylish enough for blocking off tunnels"
+         },
+         "wooden_window_frame_shutter": {
+            "wooden_window_frame_shutter_ghost": {
+               "display_name": "Shuttered Wooden Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "wooden_window_frame_shutter_fine": {
+            "wooden_window_frame_shutter_fine_ghost": {
+               "display_name": "Fine Shuttered Wooden Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "wooden_window_frame_tall_shutter": {
+            "wooden_window_frame_tall_shutter_ghost": {
+               "display_name": "Shuttered Tall Wooden Window",
+               "description": "Cool in so many ways"
+            }
+         },
+         "wooden_window_frame_tall_shutter_fine": {
+            "wooden_window_frame_tall_shutter_fine_ghost": {
+               "display_name": "Fine Shuttered Tall Wooden Window",
+               "description": "Cool in so many ways"
+            }
+         },
+         "wooden_window_frame_shutter_blue": {
+            "wooden_window_frame_shutter_blue_ghost": {
+               "display_name": "Blue-Shuttered Wooden Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "wooden_window_frame_shutter_blue_fine": {
+            "wooden_window_frame_shutter_blue_fine_ghost": {
+               "display_name": "Fine Blue-Shuttered Wooden Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "wooden_window_frame_tall_shutter_blue": {
+            "wooden_window_frame_tall_shutter_blue_ghost": {
+               "display_name": "Blue-Shuttered Tall Wooden Window",
+               "description": "Cool in so many ways"
+            }
+         },
+         "wooden_window_frame_tall_shutter_blue_fine": {
+            "wooden_window_frame_tall_shutter_blue_fine_ghost": {
+               "display_name": "Fine Blue-Shuttered Tall Wooden Window",
+               "description": "Cool in so many ways"
+            }
+         },
+         "wooden_window_frame_shutter_green": {
+            "wooden_window_frame_shutter_green_ghost": {
+               "display_name": "Green-Shuttered Wooden Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "wooden_window_frame_shutter_green_fine": {
+            "wooden_window_frame_shutter_green_fine_ghost": {
+               "display_name": "Fine Green-Shuttered Wooden Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "wooden_window_frame_tall_shutter_green": {
+            "wooden_window_frame_tall_shutter_green_ghost": {
+               "display_name": "Green-Shuttered Tall Wooden Window",
+               "description": "Cool in so many ways"
+            }
+         },
+         "wooden_window_frame_tall_shutter_green_fine": {
+            "wooden_window_frame_tall_shutter_green_fine_ghost": {
+               "display_name": "Fine Green-Shuttered Tall Wooden Window",
+               "description": "Cool in so many ways"
+            }
+         },
+         "wooden_window_frame_shutter_red": {
+            "wooden_window_frame_shutter_red_ghost": {
+               "display_name": "Red-Shuttered Wooden Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "wooden_window_frame_shutter_red_fine": {
+            "wooden_window_frame_shutter_red_fine_ghost": {
+               "display_name": "Fine Red-Shuttered Wooden Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "wooden_window_frame_tall_shutter_red": {
+            "wooden_window_frame_tall_shutter_red_ghost": {
+               "display_name": "Red-Shuttered Tall Wooden Window",
+               "description": "Cool in so many ways"
+            }
+         },
+         "wooden_window_frame_tall_shutter_red_fine": {
+            "wooden_window_frame_tall_shutter_red_fine_ghost": {
+               "display_name": "Fine Red-Shuttered Tall Wooden Window",
+               "description": "Cool in so many ways"
+            }
+         },
+         "stone_window_frame_shutter": {
+            "stone_window_frame_shutter_ghost": {
+               "display_name": "Shuttered Stone Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "stone_window_frame_shutter_fine": {
+            "stone_window_frame_shutter_fine_ghost": {
+               "display_name": "Fine Shuttered Stone Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "stone_window_frame_tall_shutter": {
+            "stone_window_frame_tall_shutter_ghost": {
+               "display_name": "Shuttered Tall Stone Window",
+               "description": "Cool in so many ways"
+            }
+         },
+         "stone_window_frame_tall_shutter_fine": {
+            "stone_window_frame_tall_shutter_fine_ghost": {
+               "display_name": "Fine Shuttered Tall Stone Window",
+               "description": "Cool in so many ways"
+            }
+         },
+         "stone_window_frame_shutter_blue": {
+            "stone_window_frame_shutter_blue_ghost": {
+               "display_name": "Blue-Shuttered Stone Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "stone_window_frame_shutter_blue_fine": {
+            "stone_window_frame_shutter_blue_fine_ghost": {
+               "display_name": "Fine Blue-Shuttered Stone Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "stone_window_frame_tall_shutter_blue": {
+            "stone_window_frame_tall_shutter_blue_ghost": {
+               "display_name": "Blue-Shuttered Tall Stone Window",
+               "description": "Cool in so many ways"
+            }
+         },
+         "stone_window_frame_tall_shutter_blue_fine": {
+            "stone_window_frame_tall_shutter_blue_fine_ghost": {
+               "display_name": "Fine Blue-Shuttered Tall Stone Window",
+               "description": "Cool in so many ways"
+            }
+         },
+         "stone_window_frame_shutter_green": {
+            "stone_window_frame_shutter_green_ghost": {
+               "display_name": "Green-Shuttered Stone Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "stone_window_frame_shutter_green_fine": {
+            "stone_window_frame_shutter_green_fine_ghost": {
+               "display_name": "Fine Green-Shuttered Stone Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "stone_window_frame_tall_shutter_green": {
+            "stone_window_frame_tall_shutter_green_ghost": {
+               "display_name": "Green-Shuttered Tall Stone Window",
+               "description": "Cool in so many ways"
+            }
+         },
+         "stone_window_frame_tall_shutter_green_fine": {
+            "stone_window_frame_tall_shutter_green_fine_ghost": {
+               "display_name": "Fine Green-Shuttered Tall Stone Window",
+               "description": "Cool in so many ways"
+            }
+         },
+         "stone_window_frame_shutter_red": {
+            "stone_window_frame_shutter_red_ghost": {
+               "display_name": "Red-Shuttered Stone Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "stone_window_frame_shutter_red_fine": {
+            "stone_window_frame_shutter_red_fine_ghost": {
+               "display_name": "Fine Red-Shuttered Stone Window",
+               "description": "Prevents the room from overheating"
+            }
+         },
+         "stone_window_frame_tall_shutter_red": {
+            "stone_window_frame_tall_shutter_red_ghost": {
+               "display_name": "Red-Shuttered Tall Stone Window",
+               "description": "Cool in so many ways"
+            }
+         },
+         "stone_window_frame_tall_shutter_red_fine": {
+            "stone_window_frame_tall_shutter_red_fine_ghost": {
+               "display_name": "Fine Red-Shuttered Tall Stone Window",
+               "description": "Cool in so many ways"
+            }
+         }
+      },
+      "containers": {
+         "stone_chest_fine": {
+            "stone_chest_fine_ghost": {
+               "display_name": "Fine Stone Chest",
+               "description": "Stores up to 64 items"
+            }
+         }
+      }
+   },
+   "jobs": {
+      "carpenter": {
+         "recipes": {
+            "picket_fence_narrow_recipe": {
+               "description": "Keeps people off your property.",
+               "recipe_name": "Narrow Picket Fence",
+               "flavor": "If it's not white, is our life unfulfilled?"
+            },
+            "wooden_arch_window_recipe": {
+               "description": "Seems a bit old-fashioned.",
+               "recipe_name": "Wooden Cathedral-Arch Window",
+               "flavor": "It took me a while to spot the arches."
+            },
+            "wooden_arch_window_tall_recipe": {
+               "description": "Hard to decide whether pretty or spooky.",
+               "recipe_name": "Tall Wooden Cathedral-Arch Window",
+               "flavor": "At least it doesn't make strange noises, does it?"
+            },
+            "wooden_diamond_window_tall_recipe": {
+               "description": "Even more for privacy!",
+               "recipe_name": "Tall Wooden Diamond Window",
+               "flavor": "You won't get lost, though."
+            },
+            "wooden_diamond_window_wide_recipe": {
+               "description": "Privacy all the way... wide",
+               "recipe_name": "Wide Wooden Diamond Window",
+               "flavor": "...except at eye height."
+            },
+            "wooden_double_door_2_recipe": {
+               "description": "Compared to usual door, this is much safer and slightly heavier.",
+               "recipe_name": "Double Reinforced Wooden Door",
+               "flavor": "Or the other way round."
+            },
+            "wooden_tunnel_door_2_recipe": {
+               "description": "Sturdy enough for blocking off tunnels.",
+               "recipe_name": "Reinforced Wooden Tunnel Door",
+               "flavor": "But not to block bipedal creatures."
+            },
+            "stone_wooden_door_recipe": {
+               "description": "Private property ahead.",
+               "recipe_name": "Stone-Wooden Door",
+               "flavor": "Seems a bit narrow, though."
+            },
+            "stone_wooden_door_2_recipe": {
+               "description": "Now this looks sturdy!",
+               "recipe_name": "Reinforced Stone-Wooden Door",
+               "flavor": "At least from a rabbit's perspective."
+            },
+            "stone_wooden_double_door_recipe": {
+               "description": "What an entrance!",
+               "recipe_name": "Double Stone-Wooden Door",
+               "flavor": "When you think of it, it looks more like an exit."
+            },
+            "stone_wooden_double_door_2_recipe": {
+               "description": "Sturdy and durable. For a door.",
+               "recipe_name": "Reinforced Double Stone-Wooden Door",
+               "flavor": "Place a few and you have a small castle!"
+            },
+            "stone_wooden_tunnel_door_recipe": {
+               "description": "Well-suited for blocking off tunnels.",
+               "recipe_name": "Stone-Wooden Tunnel Door",
+               "flavor": "And light, too."
+            },
+            "stone_wooden_tunnel_door_2_recipe": {
+               "description": "Wooden door cannot be any stronger than this.",
+               "recipe_name": "Reinforced Stone-Wooden Tunnel Door",
+               "flavor": "Caution: not woodworm-proof."
+            },
+            "clothed_dining_table_recipe": {
+               "description": "Adds a pinch of civilised elegance.",
+               "recipe_name": "Clothed Dining Table",
+               "flavor": "Still eating on bare tables? How middle class."
+            },
+            "comfy_arch_backed_chair_recipe": {
+               "description": "Just in case kneeling exhausted you.",
+               "recipe_name": "Comfy Cathedral-Arch Chair",
+               "flavor": "Suitable for less zealous followers."
+            },
+            "wooden_window_frame_shutter_recipe": {
+               "description": "Prevents the room from overheating.",
+               "recipe_name": "Shuttered Wooden Window",
+               "flavor": "It says 'Designed in Italy'. What is Italy?"
+            },
+            "wooden_window_frame_tall_shutter_recipe": {
+               "description": "Cool in so many ways.",
+               "recipe_name": "Shuttered Tall Wooden Window",
+               "flavor": "Adds style, substracts light."
+            },
+            "wooden_window_frame_shutter_blue_recipe": {
+               "description": "Prevents the room from overheating.",
+               "recipe_name": "Blue-Shuttered Wooden Window",
+               "flavor": "It says 'Designed in Italy'. What is Italy?"
+            },
+            "wooden_window_frame_tall_shutter_blue_recipe": {
+               "description": "Cool in so many ways.",
+               "recipe_name": "Blue-Shuttered Tall Wooden Window",
+               "flavor": "Adds style, substracts light."
+            },
+            "wooden_window_frame_shutter_green_recipe": {
+               "description": "Prevents the room from overheating.",
+               "recipe_name": "Green-Shuttered Wooden Window",
+               "flavor": "It says 'Designed in Italy'. What is Italy?"
+            },
+            "wooden_window_frame_tall_shutter_green_recipe": {
+               "description": "Cool in so many ways.",
+               "recipe_name": "Green-Shuttered Tall Wooden Window",
+               "flavor": "Adds style, substracts light."
+            },
+            "stone_window_frame_shutter_recipe": {
+               "description": "Prevents the room from overheating.",
+               "recipe_name": "Shuttered Stone Window",
+               "flavor": "It says 'Designed in Italy'. What is Italy?"
+            },
+            "stone_window_frame_tall_shutter_recipe": {
+               "description": "Cool in so many ways.",
+               "recipe_name": "Shuttered Tall Stone Window",
+               "flavor": "Adds style, substracts light."
+            },
+            "stone_window_frame_shutter_blue_recipe": {
+               "description": "Prevents the room from overheating.",
+               "recipe_name": "Blue-Shuttered Stone Window",
+               "flavor": "It says 'Designed in Italy'. What is Italy?"
+            },
+            "stone_window_frame_tall_shutter_blue_recipe": {
+               "description": "Cool in so many ways.",
+               "recipe_name": "Blue-Shuttered Tall Stone Window",
+               "flavor": "Adds style, substracts light."
+            },
+            "stone_window_frame_shutter_green_recipe": {
+               "description": "Prevents the room from overheating.",
+               "recipe_name": "Green-Shuttered Stone Window",
+               "flavor": "It says 'Designed in Italy'. What is Italy?"
+            },
+            "stone_window_frame_tall_shutter_green_recipe": {
+               "description": "Cool in so many ways.",
+               "recipe_name": "Green-Shuttered Tall Stone Window",
+               "flavor": "Adds style, substracts light."
+            },
+            "bookcase_recipe": {
+               "description": "Except it has no books.",
+               "recipe_name": "Wooden Bookcase",
+               "flavor": "Covers the walls greatly, tho."
+            },
+            "comfy_stool_recipe": {
+               "description": "Leaning too much may cause gravitation problems.",
+               "recipe_name": "Comfy Wooden Stool",
+               "flavor": "Life is way easier with pillows."
+            },
+            "dresser_narrow_recipe": {
+               "description": "One tile narrower than regular dresser.",
+               "recipe_name": "Narrow Wooden Dresser",
+               "flavor": "Fills even-tiles spaces like never before!"
+            },
+            "shelf_recipe": {
+               "description": "Empty, but makes the room more cosy.",
+               "recipe_name": "Wooden Shelf",
+               "flavor": "Especially if you like looking at boards."
+            },
+            "simple_wooden_stool_recipe": {
+               "description": "While sitting food is 20% more effective.",
+               "recipe_name": "Simple Wooden Stool",
+               "flavor": "Good if you prefer a rustical touch."
+            },
+            "wardrobe_recipe": {
+               "description": "Hides your stuff and cracks in the wall.",
+               "recipe_name": "Wooden Wardrobe",
+               "flavor": "Does the latter way better."
+            },
+            "wooden_latticed_window_recipe": {
+               "description": "Lets light into the room.",
+               "recipe_name": "Wooden Latticed Window",
+               "flavor": "So much for privacy..."
+            },
+            "wooden_latticed_window_tall_recipe": {
+               "description": "Extra height adds an air of elegance.",
+               "recipe_name": "Tall Wooden Latticed Window"
+            },
+            "wooden_latticed_window_wide_recipe": {
+               "description": "It's got a panoramic view!",
+               "recipe_name": "Wide Wooden Latticed Window"
+            }
+         }
+      },
+      "mason": {
+         "recipes": {
+            "cobblestone_fence_narrow_recipe": {
+               "description": "A rustic, sturdy wall segment.",
+               "recipe_name": "Narrow Cobblestone Fence",
+               "flavor": "Use the earth itself to form the walls of the pasture? Genius!"
+            },
+            "stone_window_frame_recipe": {
+               "description": "Lets light into the room.",
+               "recipe_name": "Stone Window Frame",
+               "flavor": "So much for privacy..."
+            },
+            "stone_window_frame_tall_recipe": {
+               "description": "Extra height adds an air of elegance.",
+               "recipe_name": "Tall Stone Window Frame"
+            },
+            "stone_window_frame_wide_recipe": {
+               "description": "It's got a panoramic view!",
+               "recipe_name": "Wide Stone Window Frame"
+            },
+            "stone_arch_window_recipe": {
+               "description": "Seems a bit old-fashioned.",
+               "recipe_name": "Stone Cathedral-Arch Window",
+               "flavor": "It took me a while to spot the arches."
+            },
+            "stone_arch_window_tall_recipe": {
+               "description": "Hard to decide whether pretty or spooky.",
+               "recipe_name": "Tall Stone Cathedral-Arch Window",
+               "flavor": "At least it doesn't make strange noises, does it?"
+            },
+            "stone_diamond_window_recipe": {
+               "description": "So much for privacy...",
+               "recipe_name": "Stone Diamond Window",
+               "flavor": "Now carved in stone!"
+            },
+            "stone_diamond_window_tall_recipe": {
+               "description": "Even more for privacy!",
+               "recipe_name": "Tall Stone Diamond Window",
+               "flavor": "You won't get lost, though."
+            },
+            "stone_diamond_window_wide_recipe": {
+               "description": "Privacy all the way... wide.",
+               "recipe_name": "Wide Stone Diamond Window",
+               "flavor": "...except at eye height."
+            },
+            "stone_doorway_recipe": {
+               "description": "First step towards privacy.",
+               "recipe_name": "Stone Doorway",
+               "flavor": "The Carpenter can mount door in doorways for more privacy."
+            },
+            "stone_double_doorway_recipe": {
+               "description": "A larger frame. It makes quite an impression.",
+               "recipe_name": "Stone Double Doorway",
+               "flavor": "Tiny creatures may be impressed, indeed."
+            },
+            "stone_tunnel_doorway_recipe": {
+               "description": "Useful for decorating tunnels.",
+               "recipe_name": "Stone Tunnel Doorway"
+            },
+            "clothed_stone_table_recipe": {
+               "description": "Let's hope the cloth isn't as heavy as the table.",
+               "recipe_name": "Clothed Stone Table",
+               "flavor": "At least it hides all the imperfections."
+            },
+            "comfy_stone_chair_recipe": {
+               "description": "Surprisingly ununcomfortable.",
+               "recipe_name": "Comfy Stone Chair",
+               "flavor": "\"Heavens! What am I sitting on?\" --Dowager Countess of Grantham"
+            },
+            "hardly_a_bed_recipe": {
+               "description": "Soft for a piece of stone.",
+               "recipe_name": "Stone Bed",
+               "flavor": "At least allows to dream of comfort."
+            },
+            "comfy_stone_bed_recipe": {
+               "description": "Sleeping in a comfy bed makes Hearthlings happier.",
+               "recipe_name": "Comfy Stone Bed",
+               "flavor": "\"And I seem to find the happiness I seek!\" --Lewis Armstronk"
+            },
+            "stone_latticed_window_recipe": {
+               "description": "Lets light into the room.",
+               "recipe_name": "Stone Latticed Window",
+               "flavor": "So much for privacy..."
+            },
+            "stone_latticed_window_tall_recipe": {
+               "description": "Extra height adds an air of elegance.",
+               "recipe_name": "Tall Stone Latticed Window"
+            },
+            "stone_latticed_window_wide_recipe": {
+               "description": "It's got a panoramic view!",
+               "recipe_name": "Wide Stone Latticed Window"
+            },
+            "pond_recipe": {
+               "description": "Shallow enough to prevent anyone from drowning.",
+               "recipe_name": "Stone Pond",
+               "flavor": "\"Relax, take it easy now.\" --Michael Holbrook Penniman"
+            }
+         }
+      },
+      "potter": {
+         "recipes": {
+            "comfy_clay_bed_recipe": {
+               "description": "Sleeping in a comfy bed makes Hearthlings happier.",
+               "recipe_name": "Comfy Clay Bed",
+               "flavor": "Sultan Shahryar himself would oversleep in it."
+            },
+            "latticed_clay_window_frame_recipe": {
+               "recipe_name": "Red Latticed Window",
+               "mixintypes": {"recipe_name": "override"}
+            },
+            "tall_clay_window_recipe": {
+               "recipe_name": "Tall Tan Clay Window",
+               "mixintypes": {"recipe_name": "override"}
+            },
+            "tan_tall_latticed_window_recipe": {
+               "recipe_name": "Tall Tan Latticed Window",
+               "description": "Lets the desert in, but not the bugs!",
+               "flavor": "Adds a bit of oriental elegance to the mix."
+            },
+            "blue_tall_clay_window_recipe": {
+               "recipe_name": "Tall Blue Clay Window",
+               "description": "Still lets in the soft desert air",
+               "flavor": "\"Windowsill can cool a really tall pie\" -Aaryn, Pragmatist"
+            },
+            "blue_tall_latticed_window_recipe": {
+               "recipe_name": "Tall Blue Latticed Window",
+               "description": "Lets the desert in, but not the bugs!",
+               "flavor": "Adds a bit of oriental elegance to the mix."
+            },
+            "green_tall_clay_window_recipe": {
+               "recipe_name": "Tall Green Clay Window",
+               "description": "Still lets in the soft desert air",
+               "flavor": "\"Windowsill can cool a really tall pie\" -Aaryn, Pragmatist"
+            },
+            "green_tall_latticed_window_recipe": {
+               "recipe_name": "Tall Green Latticed Window",
+               "description": "Lets the desert in, but not the bugs!",
+               "flavor": "Adds a bit of oriental elegance to the mix."
+            },
+            "red_tall_clay_window_recipe": {
+               "recipe_name": "Tall Red Clay Window",
+               "description": "Still lets in the soft desert air",
+               "flavor": "\"Windowsill can cool a really tall pie\" -Aaryn, Pragmatist"
+            },
+            "red_tall_latticed_window_recipe": {
+               "recipe_name": "Tall Red Latticed Window",
+               "description": "Lets the desert in, but not the bugs!",
+               "flavor": "Adds a bit of oriental elegance to the mix."
+            }
+         }
+      },
+      "weaver": {
+         "recipes": {
+            "banner_wall_standard_recipe": {
+               "description": "Show your town pride with this standard.",
+               "recipe_name": "Wall-Mounted Standard",
+               "flavor": "Hoist the colours high!"
+            }
+         }
+      },
+      "engineer": {
+         "recipes": {
+            "iron_double_door_recipe": {
+               "description": "Thick, sturdy iron door. Also comes with a thick, sturdy lock.",
+               "recipe_name": "Double Ironclad Door"
+            },
+            "iron_double_doorway_recipe": {
+               "description": "Iron doesn't help much in case of an empty doorway.",
+               "recipe_name": "Double Ironclad Doorway"
+            }
+         }
+      }
+   }
+}

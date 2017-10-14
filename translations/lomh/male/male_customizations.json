@@ -10,104 +10,260 @@
       "hair_color": {
          "type": "material_map",
          "values": {
-            "Schwarz": "/stonehearth/data/materials/material_maps/hair_black_material_map.json",
-            "Braun": "/stonehearth/data/materials/material_maps/hair_brown_material_map.json",
-            "Rot": "/stonehearth/data/materials/material_maps/hair_red_material_map.json",
-            "Sandfarben": "/stonehearth/data/materials/material_maps/hair_sandy_material_map.json",
-            "Blond": "/stonehearth/data/materials/material_maps/hair_blonde_material_map.json",
-            "Platin": "/stonehearth/data/materials/material_maps/hair_platinum_material_map.json",
-            "Blau": "/locksofmanyhair/data/materials/material_maps/hair_blue_material_map.json",
-            "Grün": "/locksofmanyhair/data/materials/material_maps/hair_green_material_map.json",
-            "Grau": "/locksofmanyhair/data/materials/material_maps/hair_grey_material_map.json",
-            "Graustufen": "/locksofmanyhair/data/materials/material_maps/hair_greyscale_material_map.json",
-            "Eis": "/locksofmanyhair/data/materials/material_maps/hair_ice_material_map.json",
-            "Icki": "/locksofmanyhair/data/materials/material_maps/hair_icki_material_map.json",
-            "Lavendel": "/locksofmanyhair/data/materials/material_maps/hair_lavender_material_map.json",
-            "Limette": "/locksofmanyhair/data/materials/material_maps/hair_lime_material_map.json",
-            "Orange": "/locksofmanyhair/data/materials/material_maps/hair_orange_material_map.json",
-            "Pink": "/locksofmanyhair/data/materials/material_maps/hair_pink_material_map.json",
-            "Lila": "/locksofmanyhair/data/materials/material_maps/hair_purple_material_map.json",
-            "Silber": "/locksofmanyhair/data/materials/material_maps/hair_silver_material_map.json",
-            "Verrückt": "/locksofmanyhair/data/materials/material_maps/hair_crazy_material_map.json",
-            "Verrückt2": "/locksofmanyhair/data/materials/material_maps/hair_crazy2_material_map.json",
-            "Flamme": "/locksofmanyhair/data/materials/material_maps/hair_flame_material_map.json",
-            "Weiß": "/locksofmanyhair/data/materials/material_maps/hair_white_material_map.json"            
+            "Schwarz":  {
+               "file": "/stonehearth/data/materials/material_maps/hair_black_material_map.json"
+            },
+            "Braun":  {
+               "file": "/stonehearth/data/materials/material_maps/hair_brown_material_map.json"
+            },
+            "Rot": {
+               "file": "/stonehearth/data/materials/material_maps/hair_red_material_map.json"
+            },
+            "Sand": {
+               "file": "/stonehearth/data/materials/material_maps/hair_sandy_material_map.json"
+            },
+            "Blond": {
+               "file": "/stonehearth/data/materials/material_maps/hair_blonde_material_map.json"
+            },
+            "Platin": {
+               "file": "/stonehearth/data/materials/material_maps/hair_platinum_material_map.json"
+	         },
+            "Blau": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_blue_material_map.json"
+	         },
+            "Grün": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_green_material_map.json"
+	         },
+            "Grau": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_grey_material_map.json"
+	         },
+            "Graustufen": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_greyscale_material_map.json"
+	         },
+            "Eis": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_ice_material_map.json"
+	         },
+            "Icki": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_icki_material_map.json"
+	         },
+            "Lavendel": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_lavender_material_map.json"
+	         },
+            "Limette": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_lime_material_map.json"
+	         },
+            "Orange": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_orange_material_map.json"
+	         },
+            "Pink": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_pink_material_map.json"
+	         },
+            "Lila": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_purple_material_map.json"
+	         },
+            "Silber": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_silver_material_map.json"
+	         },
+            "Verrückt": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_crazy_material_map.json"
+	         },
+            "Verrückt2": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_crazy2_material_map.json"
+	         },
+            "Flamme": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_flame_material_map.json"
+	         },
+            "Weiß": {
+               "file": "/locksofmanyhair/data/materials/material_maps/hair_white_material_map.json" 
+            }
          }
       },
       "skin_color": {
          "type": "material_map",
          "values": {
-            "Weiß": "/stonehearth/data/materials/material_maps/skin_white_material_map.json",
-            "Braun_1": "/stonehearth/data/materials/material_maps/skin_brown1_material_map.json",
-            "Braun_2": "/stonehearth/data/materials/material_maps/skin_brown2_material_map.json"
+            "Weiß":  {
+               "file": "/stonehearth/data/materials/material_maps/skin_white_material_map.json"
+            },
+            "Braun_1": {
+               "file": "/stonehearth/data/materials/material_maps/skin_brown1_material_map.json"
+            },
+            "Braun_2": {
+               "file": "/stonehearth/data/materials/material_maps/skin_brown2_material_map.json"
+            }
          }
       },
       "facial_hair": {
          "type": "model",
          "values": {
-            "[none]": "",
-            "Kinnbart": "/locksofmanyhair/entities/humans/male/chin_beard.qb",
-            "Koteletten": "/locksofmanyhair/entities/humans/male/chops.qb",
-            "Bart": "/locksofmanyhair/entities/humans/male/beard.qb",
-            "kitty_Großer_Ziegenbart": "/locksofmanyhair/entities/humans/male/beard_kitty_biggoatee.qb",
-            "kitty_Burlyjack": "/locksofmanyhair/entities/humans/male/beard_kitty_burlyjack.qb",
-            "kitty_Zwerg": "/locksofmanyhair/entities/humans/male/beard_kitty_dwarfkin.qb",
-            "kitty_Fuchsbart": "/locksofmanyhair/entities/humans/male/beard_kitty_foxybeard.qb",
-            "kitty_Ziegenbart": "/locksofmanyhair/entities/humans/male/beard_kitty_Goatee.qb",
-            "kitty_Macho": "/locksofmanyhair/entities/humans/male/beard_kitty_macho.qb",
-            "kitty_Magi": "/locksofmanyhair/entities/humans/male/beard_kitty_magi.qb",
-            "kitty_Mächtige_Pus": "/locksofmanyhair/entities/humans/male/beard_kitty_mightypus.qb",
-            "kitty_Orkus": "/locksofmanyhair/entities/humans/male/beard_kitty_orkus.qb",
-            "kitty_Pharao": "/locksofmanyhair/entities/humans/male/beard_kitty_Pharaoh.qb",
-            "kitty_Seito": "/locksofmanyhair/entities/humans/male/beard_kitty_Seito.qb",
-            "kitty_Lehrer": "/locksofmanyhair/entities/humans/male/beard_kitty_Sensei.qb",
-            "kitty_Talian": "/locksofmanyhair/entities/humans/male/beard_kitty_talian.qb",
-            "kitty_Der_Epische": "/locksofmanyhair/entities/humans/male/beard_kitty_theEpic.qb",
-            "kitty_ZZ_Scott": "/locksofmanyhair/entities/humans/male/beard_kitty_Zzcot.qb"
+            "[none]": {
+               "file": ""
+            },
+            "Kinnbart": {
+               "file": "/locksofmanyhair/entities/humans/male/chin_beard.qb"
+            },
+            "Koteletten": {
+               "file": "/locksofmanyhair/entities/humans/male/chops.qb"
+            },
+            "Bart": {
+               "file": "/locksofmanyhair/entities/humans/male/beard.qb"
+            },
+            "kitty_Großer_Ziegenbart": {
+               "file": "/locksofmanyhair/entities/humans/male/beard_kitty_biggoatee.qb"
+            },
+            "kitty_Burlyjack": {
+               "file": "/locksofmanyhair/entities/humans/male/beard_kitty_burlyjack.qb"
+            },
+            "kitty_Zwerg": {
+               "file": "/locksofmanyhair/entities/humans/male/beard_kitty_dwarfkin.qb"
+            },
+            "kitty_Fuchsbart": {
+               "file": "/locksofmanyhair/entities/humans/male/beard_kitty_foxybeard.qb"
+            },
+            "kitty_Ziegenbart": {
+               "file": "/locksofmanyhair/entities/humans/male/beard_kitty_Goatee.qb"
+            },
+            "kitty_Macho": {
+               "file": "/locksofmanyhair/entities/humans/male/beard_kitty_macho.qb"
+            },
+            "kitty_Magi": {
+               "file": "/locksofmanyhair/entities/humans/male/beard_kitty_magi.qb"
+            },
+            "kitty_Mächtige_Pus": {
+               "file": "/locksofmanyhair/entities/humans/male/beard_kitty_mightypus.qb"
+            },
+            "kitty_Orkus": {
+               "file": "/locksofmanyhair/entities/humans/male/beard_kitty_orkus.qb"
+            },
+            "kitty_Pharao": {
+               "file": "/locksofmanyhair/entities/humans/male/beard_kitty_Pharaoh.qb"
+            },
+            "kitty_Seito": {
+               "file": "/locksofmanyhair/entities/humans/male/beard_kitty_Seito.qb"
+            },
+            "kitty_Lehrer": {
+               "file": "/locksofmanyhair/entities/humans/male/beard_kitty_Sensei.qb"
+            },
+            "kitty_Talian": {
+               "file": "/locksofmanyhair/entities/humans/male/beard_kitty_talian.qb"
+            },
+            "kitty_Der_Epische": {
+               "file": "/locksofmanyhair/entities/humans/male/beard_kitty_theEpic.qb"
+            },
+            "kitty_ZZ_Scott": {
+               "file": "/locksofmanyhair/entities/humans/male/beard_kitty_Zzcot.qb"
+            }
          }
       },
       "eyebrows": {
          "type": "model",
          "values": {
-            "[none]": "",
-            "Gerade_Augenbrauen": "/locksofmanyhair/entities/humans/male/brows.qb"
+            "[none]": {
+               "file": ""
+            },
+            "Gerade_Augenbrauen": {
+               "file": "/locksofmanyhair/entities/humans/male/brows.qb"
+            }
          }
       },
       "head_hair": {
          "type": "model",
          "values": {
-            "Haare_1": "/locksofmanyhair/entities/humans/male/hair_1.qb",
-            "Haare_2": "/locksofmanyhair/entities/humans/male/hair_2.qb",
-            "Haare_3": "/locksofmanyhair/entities/humans/male/hair_3.qb",
-            "Haare_4": "/locksofmanyhair/entities/humans/male/hair_4.qb",
-            "Haare_Alt_1": "/locksofmanyhair/entities/humans/male/hair_old_1.qb",
-            "Haare_Alt_2": "/locksofmanyhair/entities/humans/male/hair_old_2.qb",
-            "Glatze_1": "rayyas_children/entities/humans/male_2/head_bald_1.qb",
-            "Glatze_2": "rayyas_children/entities/humans/male_2/head_bald_2.qb",
-            "8bit_Mohawk": "/locksofmanyhair/entities/humans/male/hair_8bit_hawk.qb",
-            "8bit_Mohawk2": "/locksofmanyhair/entities/humans/male/hair_8bit_hawk2.qb",
-            "kitty_Keltisch": "/locksofmanyhair/entities/humans/male/hair_kitty_celtin.qb",
-            "kitty_Keltisch_v2": "/locksofmanyhair/entities/humans/male/hair_kitty_celtin_v2.qb",
-            "kitty_Zwerg": "/locksofmanyhair/entities/humans/male/hair_kitty_dwarfkin.qb",
-            "kitty_Ostlong": "/locksofmanyhair/entities/humans/male/hair_kitty_eastlong.qb",
-            "kitty_Lustige_Locken": "/locksofmanyhair/entities/humans/male/hair_kitty_fancycurls.qb",
-            "kitty_Geeky": "/locksofmanyhair/entities/humans/male/hair_kitty_geeky.qb",
-            "kitty_Gentleman": "/locksofmanyhair/entities/humans/male/hair_kitty_gentleman.qb",
-            "kitty_Kopfhörer1": "/locksofmanyhair/entities/humans/male/hair_kitty_guyphones1.qb",
-            "kitty_Kopfhörer2": "/locksofmanyhair/entities/humans/male/hair_kitty_guyphones2.qb",
-            "kitty_Mönchschitt": "/locksofmanyhair/entities/humans/male/hair_kitty_monkcut.qb",
-            "kitty_Zeitungsjunge": "/locksofmanyhair/entities/humans/male/hair_kitty_newsboy.qb",
-            "kitty_Punkster": "/locksofmanyhair/entities/humans/male/hair_kitty_punkster.qb",
-            "kitty_Zottig": "/locksofmanyhair/entities/humans/male/hair_kitty_shaggy.qb",
-            "kitty_Zottiger_Alter_Mann": "/locksofmanyhair/entities/humans/male/hair_kitty_shaggyoldmann.qb",
-            "kitty_Einfach": "/locksofmanyhair/entities/humans/male/hair_kitty_simple.qb",
-            "kitty_Glatter_Mohawk": "/locksofmanyhair/entities/humans/male/hair_kitty_slickhawk.qb",
-            "kitty_Stachelig": "/locksofmanyhair/entities/humans/male/hair_kitty_spiky.qb",
-            "kitty_Gespaltene_Haarlichkeit": "/locksofmanyhair/entities/humans/male/hair_kitty_splithairsonality.qb",
-            "kitty_Talian": "/locksofmanyhair/entities/humans/male/hair_kitty_talian.qb",
-            "kitty_Kriegergeflecht": "/locksofmanyhair/entities/humans/male/hair_kitty_warriorbraid.qb",
-            "mel_Verrückter_Mohawk_Rechts": "/locksofmanyhair/entities/humans/male/hair_mel_fauxhawk_right.qb",
-            "wiese_Japan": "/locksofmanyhair/entities/humans/male/hair_wiese_japan.qb"
+            "Haare_1": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_1.qb"
+            },
+            "Haare_2": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_2.qb"
+            },
+            "Haare_3": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_3.qb"
+            },
+            "Haare_4": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_4.qb"
+            },
+            "Haare_Alt_1": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_old_1.qb"
+            },
+            "Haare_Alt_2": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_old_2.qb"
+            },
+            "Glatze_1": {
+               "file": "rayyas_children/entities/humans/male_2/head_bald_1.qb"
+            },
+            "Glatze_2": {
+               "file": "rayyas_children/entities/humans/male_2/head_bald_2.qb"
+            },
+            "8bit_Mohawk": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_8bit_hawk.qb"
+            },
+            "8bit_Mohawk2": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_8bit_hawk2.qb"
+            },
+            "kitty_Keltisch": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_celtin.qb"
+            },
+            "kitty_Keltisch_v2": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_celtin_v2.qb"
+            },
+            "kitty_Zwerg": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_dwarfkin.qb"
+            },
+            "kitty_Ostlong": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_eastlong.qb"
+            },
+            "kitty_Lustige_Locken": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_fancycurls.qb"
+            },
+            "kitty_Geeky": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_geeky.qb"
+            },
+            "kitty_Gentleman": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_gentleman.qb"
+            },
+            "kitty_Kopfhörer1": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_guyphones1.qb"
+            },
+            "kitty_Kopfhörer2": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_guyphones2.qb"
+            },
+            "kitty_Mönchschitt": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_monkcut.qb"
+            },
+            "kitty_Zeitungsjunge": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_newsboy.qb"
+            },
+            "kitty_Punkster": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_punkster.qb"
+            },
+            "kitty_Zottig": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_shaggy.qb"
+            },
+            "kitty_Zottiger_Alter_Mann": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_shaggyoldmann.qb"
+            },
+            "kitty_Einfach": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_simple.qb"
+            },
+            "kitty_Glatter_Mohawk": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_slickhawk.qb"
+            },
+            "kitty_Stachelig": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_spiky.qb"
+            },
+            "kitty_Gespaltene_Haarlichkeit": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_splithairsonality.qb"
+            },
+            "kitty_Talian": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_talian.qb"
+            },
+            "kitty_Kriegergeflecht": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_kitty_warriorbraid.qb"
+            },
+            "mel_Verrückter_Mohawk_Rechts": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_mel_fauxhawk_right.qb"
+            },
+            "wiese_Japan": {
+               "file": "/locksofmanyhair/entities/humans/male/hair_wiese_japan.qb"
+            }
          }
       }
    }

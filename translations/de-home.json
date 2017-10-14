@@ -1,21 +1,132 @@
 {
 	"jobs": {
+		"blacksmith": {
+			"recipes" : {
+				"utensils_recipe" : {
+					"recipe_name" : "Bronze Utensilien",
+		      "description" : "Nützliche Utensilien für deine Werkstatt.",
+		      "flavor" : "Ohh ich liebe diesen Löffel!"
+				}
+			}
+		},
+		"cook": {
+			"recipes" : {
+				"storage_name" : "Lager",
+				"furniture_name" : "Möbel",
+
+				"corbel_cook_recipe" : {
+					"recipe_name" : "Gewürzregal",
+		      "description" : "Scharfes Essen ist köstlicher.",
+		      "flavor" : "Lassen mich ein wenig Koriander hinzufügen…"
+				},
+
+				"barrels_berrie_recipe" : {
+					"recipe_name" : "Beerenfässer",
+		      "description" : "Frischer Berrensaft macht Hearthlinge glücklicher. Platz für 92 Gegenstände.",
+		      "flavor" : "Prost meine Freunde!"
+				},
+
+				"dishes-cabinet_recipe" : {
+					"recipe_name" : "Küchenschrank",
+		      "description" : "Werkbank zum dekorieren deiner Taverne.",
+		      "flavor" : "Eine weitere Dekoration an dieser Wand bitte!"
+				},
+
+				"pantry_cook_recipe" : {
+					"recipe_name" : "Zutatenregal",
+					"description" : "Praktische Aufbewahrung für 64 Kochzutaten.",
+					"flavor" : "Endlich habe ich genug Platz dafür!"
+				},
+				"shelf_cook_recipe" : {
+					"recipe_name" : "Geschirrregal",
+					"description" : "Dekoratives Regal für alle deine Rezepte und dein Geschirr.",
+					"flavor" : "Du hast wirklich einige schöne Teller."
+				},
+				"tavern_table_large_recipe" : {
+					"recipe_name" : "Großer Tavernentisch",
+					"description" : "Ein Tisch für große Wiedervereinigungen.",
+					"flavor" : "Das ist ein massiver Tisch."
+				},
+				"tavern_table_large_cloth_recipe" : {
+					"recipe_name" : "Großer Tavernentisch",
+					"description" : "Ein großer Tisch mit einer Tischdecke.",
+					"flavor" : "Ohh ich liebe diese Farbe!"
+				},
+				"tavern_table_large_fiber_recipe" : {
+					"recipe_name" : "Großer Tavernentisch",
+					"description" : "Ein großer Tisch mit einer Tischdecke.",
+					"flavor" : "Ohh ich liebe diese Farbe!"
+				},
+				"tavern_table_large_fur_recipe" : {
+					"recipe_name" : "Großer Tavernentisch",
+					"description" : "Ein großer Tisch mit einer Tischdecke.",
+					"flavor" : "Ohh ich liebe diese Farbe!"
+				},
+				"tavern_table_small_cloth_recipe" : {
+					"recipe_name" : "Kleiner Tavernentisch",
+					"description" : "Ein kleiner Tisch mit einer Tischdecke.",
+					"flavor" : "Ohh ich liebe diese Farbe!"
+				},
+				"tavern_table_small_fiber_recipe" : {
+					"recipe_name" : "Kleiner Tavernentisch",
+					"description" : "Ein kleiner Tisch mit einer Tischdecke.",
+					"flavor" : "Ohh ich liebe diese Farbe!"
+				},
+				"tavern_table_small_fur_recipe" : {
+					"recipe_name" : "Kleiner Tavernentisch",
+					"description" : "Ein kleiner Tisch mit einer Tischdecke.",
+					"flavor" : "Ohh ich liebe diese Farbe!"
+				},
+				"utensils_holder_cook_recipe" : {
+					"recipe_name" : "Utensilienhalter",
+					"description" : "Endlich ein guter Platz für deine Utensilien.",
+					"flavor" : "Gut arrangiert…"
+				},
+				"wash_barrel_recipe" : {
+					"recipe_name" : "Waschzuber",
+					"description" : "Nur ein sauberer Teller ist gutes Geschirr.",
+					"flavor" : "Schau! Wie es strahlt."
+				}
+			}
+		},
+
 		"carpenter": {
 			"recipes" : {
+				"barrel_recipe" : {
+		      "recipe_name" : "Holzfass",
+		      "description" : "Sicherer Platz mit diesem Artikel. Hält bis zu 32 Gegenstände",
+		      "flavor" : "Ich liebe den Beerensaft!"
+		    },
 				"case_small_recipe" : {
 		      "recipe_name" : "Kleine Kiste",
 		      "description" : "Kann einige Materialien lagern. Hält bis zu 10 Objekte.",
 		      "flavor" : "Klein aber fein!"
 		    },
 				"case_large_recipe" : {
-		      "recipe_name" : "Kleine Kiste",
-		      "description" : "Kann eine große Menge an Materialien lagern. Hält bis zu 48 Objekte.",
+		      "recipe_name" : "Große Kiste",
+		      "description" : "Kann eine große Menge an Materialien lagern. Hält bis zu 48 Gegenstände.",
 		      "flavor" : "Gut organisiert!"
+		    },
+				"pantry_recipe" : {
+					"recipe_name" : "Holzregal",
+					"description" : "Dekoratives leeres Holzregal.",
+					"flavor" : "Viele neue Speichermöglichkeiten."
+				},
+				"shelf_recipe" : {
+					"recipe_name" : "Holzregal",
+					"description" : "Dekoratives leeres Holzregal.",
+					"flavor" : "Großartig! Mehr Platz für Gegenstände."
+				},
+				"table_recipe" : {
+		      "recipe_name" : "Holztisch",
+		      "description" : "Ein großer Holztisch für deine Werkstatt.",
+		      "flavor" : "Wie nützlich! Ein schöner Holztisch."
 		    }
 			}
 		},
 		"herbalist": {
 			"recipes" : {
+				"storage_name" : "Lager",
 				"plants_name" : "Pflanzen",
 
 				"gardener-bench_recipe" : {
@@ -28,49 +139,49 @@
 		      "description" : "Manchmal ist es sinnvoll, dein Wissen aufzuschreiben.",
 		      "flavor" : "Hoffentlich muss ich nicht alle diese Bücher lesen."
 		    },
-				"bookshelf_recipe" : {
-		      "recipe_name" : "Bücherregal",
-		      "description" : "Dekoratives leeres Bücherregal.",
-		      "flavor" : "Toll! Mehr Platz für meine Objekte."
-		    },
-		    "bookshelf_herbalist_recipe" : {
-		      "recipe_name" : "Heilbücherregal",
-		      "description" : "Dekoratives Regal für alle deine Heilbücher.",
-		      "flavor" : "Auch ein Kräuterarzt braucht manchmal etwas Hilfe."
-		    },
-				"herb_corbel_recipe" : {
+				"corbel_herbalist_recipe" : {
 		      "recipe_name" : "Kräuterregal",
 		      "description" : "Dekoratives Regal zum trocknen gesammelter Kräuter.",
 		      "flavor" : "Sie riechen so verführerisch."
 		    },
-				"herb_table_recipe" : {
+		    "shelf_herbalist_library_recipe" : {
+		      "recipe_name" : "Bücherregal mit Heilbüchern",
+		      "description" : "Dekoratives Regal für alle deine heilenden Bücher.",
+		      "flavor" : "Auch ein Kräuterarzt braucht manchmal Hilfe."
+		    },
+				"table_herbalist_recipe" : {
 		      "recipe_name" : "Kräutertisch",
 		      "description" : "Schreibtisch für professionelle Kräuterkundler.",
 		      "flavor" : "Lass mich einige Rezepte schreiben…"
 		    },
-		    "jar_large_recipe" : {
-		      "recipe_name" : "Großes Glas",
-		      "description" : "Der sicherste Ort für Elixiere und Kräuter. Hält bis zu 32 Objekte.",
-		      "flavor" : "Es ist eine wirklich großes Lager ... Schrecklich!"
-		    },
-				"herb_case_large_recipe" : {
+				"case_large_herbs_recipe" : {
 		      "recipe_name" : "Große Kräuterkiste",
-		      "description" : "Lagere eine große Menge an frischen Kräutern. Hält bis zu 48 Objekte.",
+		      "description" : "Lagere eine große Menge an frischen Kräutern. Hält bis zu 48 Gegenstände.",
 		      "flavor" : "Gut organisiert!"
 		    },
 		    "jar_small_recipe" : {
 		      "recipe_name" : "Kleines Glas",
-		      "description" : "Kleiner, aber feiner Behälter. Hält bis zu 8 Objekte.",
+		      "description" : "Kleiner, aber feiner Behälter. Hält bis zu 8 Gegenstände.",
 		      "flavor" : "Uh! Habe ich Kekse darinnen gerochen????"
+		    },
+				"jar_large_recipe" : {
+		      "recipe_name" : "Großes Glas",
+		      "description" : "Der sicherste Ort für Elixiere und Kräuter. Hält bis zu 32 Gegenstände.",
+		      "flavor" : "Es ist eine wirklich großes Lager ... Schrecklich!"
 		    },
 				"planter-box_small_brightbell_recipe" : {
 		      "recipe_name" : "Kleine Glockenblumen Pflanzkiste",
-		      "description" : "Lässt notwendige Kräuter in deimem Haus wachsen.",
+		      "description" : "Lässt notwendige Kräuter in deinem Haus wachsen.",
 		      "flavor" : "Es ist so erstaunlich sie wachsen zu sehen!"
 		    },
-				"planter-box_small_fostsnap_recipe" : {
+				"planter-box_small_frostsnap_recipe" : {
 		      "recipe_name" : "Kleine Eisblumen Pflanzkiste",
-		      "description" : "Lässt notwendige Kräuter in deimem Haus wachsen.",
+		      "description" : "Lässt notwendige Kräuter in deinem Haus wachsen.",
+		      "flavor" : "Es ist so erstaunlich sie wachsen zu sehen!"
+		    },
+				"planter-box_small_cactus_rayya_recipe" : {
+		      "recipe_name" : "Kleine Kaktusblumen Pflanzkiste",
+		      "description" : "Lässt notwendige Kräuter in deinem Haus wachsen.",
 		      "flavor" : "Es ist so erstaunlich sie wachsen zu sehen!"
 		    },
 				"planter-box_large_recipe" : {
@@ -79,73 +190,183 @@
 		      "flavor" : "Es ist so erstaunlich sie wachsen zu sehen!"
 		    }
 			}
+		},
+
+		"potter": {
+			"recipes" : {
+				"decoration_name" : "Dekorationen",
+
+				"crockery_recipe" : {
+					"recipe_name" : "Geschirr",
+					"description" : "Schönes Porzellangeschirr für besondere Anlässe.",
+					"flavor" : "Schönes Teeservice."
+				},
+				"shelf_rayya_recipe" : {
+		      "recipe_name" : "Lehmregal",
+		      "description" : "Dekoratives leeres Lehmregal.",
+					"flavor" : "Großartig! Mehr Platz für Gegenstände."
+		    },
+				"table_rayya_recipe" : {
+		      "recipe_name" : "Lehmtisch",
+		      "description" : "Ein großer Lehmtisch für deine Werkstatt.",
+		      "flavor" : "Wie nützlich! Ein schöner Lehmtisch."
+		    }
+			}
 		}
 	},
 	"entities" : {
 		"workbenches" : {
+			"dishes-cabinet_ghost" : {
+        "display_name": "Küchenschrank",
+        "description" : "Werkbank zum dekorieren deiner Taverne."
+			},
 			"gardener-bench_ghost" : {
         "display_name": "Gärtnerwerkbank",
         "description" : "Hilfreich und dekorativ."
 			}
 		},
 		"storage" : {
+			"barrel_ghost" : {
+        			"display_name": "Holzfass",
+        			"description" : "Hält bis zu 32 Gegenstände."
+      },
+			"barrels_berrie_ghost" : {
+        			"display_name": "Beerenfässer",
+        			"description" : "Hält bis zu 63 Gegenstände."
+      },
 			"case_small_ghost" : {
-        "display_name": "Kleine Kiste",
-        "description" : "Lagert über 10 Objekten."
+        			"display_name": "Kleine Kiste",
+        			"description" : "Hält bis zu 10 Gegenstände."
       },
 			"case_large_ghost" : {
-        "display_name": "Große Kiste",
-        "description" : "Lagert eine große Menge von 48 Objekten."
+       				 "display_name": "Große Kiste",
+        			 "description" : "Hält eine große Menge bis zu 48 Gegenstände."
       },
-			"herb_case_large_ghost" : {
-        "display_name": "Große Kräuterkiste",
-        "description" : "Lagert bis zu 48 Einheiten von frischen Kräutern."
+			"case_large_herbs_ghost" : {
+        			"display_name": "Große Kräuterkiste",
+        			"description" : "Hält bis zu 48 frische Kräuter."
       },
-      "jar_large_ghost" : {
-        "display_name": "Großes Glas",
-        "description" : "Der sicherste Ort für Elixiere und Kräuter."
+      			"jar_large_ghost" : {
+        			"display_name": "Großes Glas",
+        			"description" : "Der sicherste Ort für Elixiere und Kräuter."
       },
-      "jar_small_ghost" : {
+      			"jar_small_ghost" : {
 				"display_name": "Kleines Glas",
-        "description" : "Kleiner, aber feiner Behälter."
-      }
+        			"description" : "Kleiner, aber feiner Behälter."
+      },
+			"pantry_cook_ghost" : {
+				"display_name": "Zutatenregal",
+				"description" : "Praktische Aufbewahrung für 64 Kochzutaten."
+			}
 		},
     "furniture" : {
-      "bookshelf_ghost" : {
-				"display_name": "Bücherregal",
-        "description" : "Vielleicht braucht jemand mehr Lagerplatz…"
+			"pantry_ghost" : {
+				"display_name": "Holzregal",
+        			"description" : "Ein leerer Speicher für neue Gegenstände."
       },
-			"bookshelf_herbalist_ghost" : {
-				"display_name": "Heilbücherregal",
-        "description" : "Beinhaltet alle deine heilenden Erkenntnisse."
+      "shelf_ghost" : {
+				"display_name": "Holzregal",
+        			"description" : "Vielleicht braucht jemand mehr Speicherplatz…"
       },
-			"herb_table_ghost" : {
+			"shelf_rayya_ghost" : {
+				"display_name": "Lehmregal",
+        			"description" : "Vielleicht braucht jemand mehr Speicherplatz…"
+      },
+			"shelf_cook_ghost" : {
+				"display_name": "Geschirrregal",
+				"description" : "Regal für deine Rezepte und dein Geschirr."
+			},
+			"shelf_herbalist_library_ghost" : {
+				"display_name": "Bücherregal mit Heilbüchern",
+        			"description" : "Sammelt all dein Heilwissen."
+      },
+			"table_ghost" : {
+				"display_name": "Holztisch",
+        			"description" : "Ein großer Holztisch für deine Werkstatt."
+      },
+			"table_rayya_ghost" : {
+				"display_name": "Lehmtisch",
+        			"description" : "Ein großer Lehmtisch für deine Werkstatt."
+      },
+			"table_herbalist_ghost" : {
 				"display_name": "Kräutertisch",
-        "description" : "Mehr Platz um heilende Gegenstände zu produzieren."
-      }
+        			"description" : "Mehr Platz um heilende Gegenstände zu produzieren."
+      },
+			"tavern_table_large_ghost" : {
+				"display_name": "Großer Tavernentisch",
+        			"description" : "Ein Tisch für große Wiedervereinigungen."
+      },
+			"tavern_table_large_cloth_ghost" : {
+				"display_name": "Großer Tavernentisch",
+				"description" : "Ein großer Tisch mit einer Tischdecke."
+			},
+			"tavern_table_large_fiber_ghost" : {
+				"display_name": "Großer Tavernentisch",
+				"description" : "Ein großer Tisch mit einer Tischdecke."
+			},
+			"tavern_table_large_fur_ghost" : {
+				"display_name": "Großer Tavernentisch",
+				"description" : "Ein großer Tisch mit einer Tischdecke."
+			},
+			"tavern_table_small_cloth_ghost" : {
+				"display_name": "Kleiner Tavernentisch",
+				"description" : "Ein kleiner Tisch mit einer Tischdecke."
+			},
+			"tavern_table_small_fiber_ghost" : {
+				"display_name": "Kleiner Tavernentisch",
+        			"description" : "Ein kleiner Tisch mit einer Tischdecke."
+      },
+			"tavern_table_small_fur_ghost" : {
+				"display_name": "Kleiner Tavernentisch",
+				"description" : "Ein kleiner Tisch mit einer Tischdecke."
+			}
     },
 		"decoration" : {
 			"books_ghost" : {
 				"display_name": "Bücher",
-        "description" : "Dekorativ und nützlich."
+        			"description" : "Dekorativ und nützlich."
       },
-			"herb_corbel_ghost" : {
+			"corbel_cook_ghost" : {
+				"display_name": "Gewürzregal",
+				"description" : "Scharfes Essen ist köstlicher."
+			},
+			"corbel_herbalist_ghost" : {
 				"display_name": "Kräuterregal",
-        "description" : "Ideal um gesammelt Kräuter zu trocknen."
+        			"description" : "Ideal um gesammelt Kräuter zu trocknen."
+      },
+			"crockery_ghost" : {
+				"display_name": "Geschirr",
+        			"description" : "Schönes Porzellangeschirr."
+      },
+			"utensils_ghost" : {
+				"display_name": "Bronze Utensilien",
+				"description" : "Nützliche Utensilien für deine Werkstatt."
+			},
+			"utensils_holder_cook_ghost" : {
+				"display_name": "Utensilienhalter",
+				"description" : "Deine Utensilien, gut organisiert…"
+			},
+			"wash_barrel_ghost" : {
+				"display_name": "Waschzuber",
+        			"description" : "Lass dein Geschirr glänzen."
       }
     },
 		"plants" : {
 			"planter-box_small_brightbell_ghost" : {
 				"display_name": "Kleine Glockenblume Pflanzkiste",
-        "description" : "Lässt notwendige Kräuter in deimem Haus wachsen."
+       				"description" : "Lässt notwendige Kräuter in deinem Haus wachsen."
       },
-			"planter-box_small_fostsnap_ghost" : {
+			"planter-box_small_frostsnap_ghost" : {
 				"display_name": "Kleine Eisblume Pflanzkiste",
-        "description" : "Lässt notwendige Kräuter in deimem Haus wachsen."
+        			"description" : "Lässt notwendige Kräuter in deinem Haus wachsen."
+      },
+			"planter-box_small_cactus_rayya_ghost" : {
+				"display_name": "Kleine Kaktusblumen Pflanzkiste",
+        			"description" : "Planze Kräuter in deiner Werkstatt."
       },
 			"planter-box_large_ghost" : {
 				"display_name": "Große Pflanzkiste",
-        "description" : "Erhöht die Produktion von Kräutern."
+        			"description" : "Erhöht die Produktion von Kräutern."
       }
 		}
 	}

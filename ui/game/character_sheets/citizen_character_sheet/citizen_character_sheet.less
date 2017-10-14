@@ -414,23 +414,14 @@
          left: 17px;
       }
 
-      #happinessBarFrame {
-         position: absolute;
-         width: 518px;
-         height: 79px;
-         left: 93px;
-         bottom: 20px;
-         background-image: url(http://radiant/stonehearth/ui/game/character_sheets/citizen_character_sheet/images/morale_bar.png);
-         background-repeat: no-repeat;
-         z-index: 2;
-      }
-
       #happinessBar {
          position: absolute;
          height: 50px;
-         left: 102px;
-         bottom: 39px;
-         width: 500px;
+         left: 92px;
+         bottom: 21px;
+         border-width: 10px 9px 20px 9px;
+         border-image: url(images/morale_bar.png) 11 8 20 8;
+         border-style: solid;
 
          .moodBarSegment {
             float: left;
@@ -442,18 +433,17 @@
          }
 
          .inactiveMood {
-            height: 50px;
+            height: 51px;
             bottom: 48px;
             position: relative;
             background: rgba(60, 60, 60, 0.75);
          }
 
-         #barShade {
-            z-index: 1;
+         .barShade {
             position: relative;
-            height: 23px;
-            top: 27px;
-            left: 0px;
+            float: left;
+            height: 25px;
+            bottom: 20px;
             background-color: rgba(1, 1, 1, 0.13);
          }
 
@@ -509,13 +499,15 @@
 
    #thoughtsSection {
       font-size: 15px;
-      height: 310px;
+      height: 238px;
+      text-shadow: none;
 
       #thoughtEntries {
          margin-left: 10px;
          margin-top: 16px;
          overflow-y: auto;
          height: 240px;
+         width: 681px;
       }
 
       .thoughtsColumn {
@@ -525,22 +517,24 @@
       }
 
       #positiveThoughts {
-         margin-left: 105px;
+         margin-left: 7px;
       }
 
       #negativeThoughts {
          margin-right: 22px;
       }
 
-      .happinessDeltaSymbol {
-         font-size: 22px;
-         float: left;
-         margin-top: 1px;
-         margin-left: 5px;
-         letter-spacing: 1.5px;
+      .happinessDelta {
+         .outlined(black, 1.5px, 1px);
+         font-size: 14px;
+         float: right;
+         margin-top: 7px;
       }
 
       .thoughtEntryRow {
+         &:hover:not(.disabled) {
+            -webkit-filter: brightness(1.4);
+         }
          background-image: url(images/thought_entry_bg.png);
          background-repeat: no-repeat;
          height: 44px;
@@ -549,27 +543,34 @@
       .thoughtEntryData {
          height: 37px;
          padding-bottom: 11px;
+         padding-left: 11px;
+         padding-right: 11px;
          position: relative;
       }
 
       .thoughtDisplayName {
+         .outlined(black, 1.5px, 1px);
          font-size: 13px;
-         margin-left: 10px;
+         color: white;
          margin-top: 7px;
+         margin-left: 6px;
          float: left;
       }
 
       .duration {
-         float: right;
+         float: left;
+         width: 30px;
          font-size: 13px;
-         margin-right: 12px;
-         margin-top: 8px;
+         font-weight: bold;
+         color: @mudBrownColor;
+         margin-top: 7px;
       }
 
       .thoughtStack {
+         .outlined(black, 1.5px, 1px);
          position: absolute;
-         right: 45px;
-         top: 11px;
+         right: 262px;
+         top: 30px;
          color: #e7c46d;
          float: right;
          font-family: @controlFontFamily;
@@ -598,7 +599,7 @@
       background: #A9956C;
       border-left: 1px solid #9c8a64;
       top: 14px;
-      left: 400px;
+      left: 344px;
    }
 
    .buffedValue{
@@ -657,6 +658,66 @@
       margin-left: 8px;
       background-image: url('./images/buff_arrow.png');
       color: green;
+   }
+}
+
+.moodBarTooltip {
+   width: 350px;
+
+   .moodTitle {
+      .controlFont;
+      display: inline-block;
+      font-size: 17px;
+      position: absolute;
+      top: 8px;
+      left: 10px;
+      bottom: 28px;
+   }
+   .currentMood {
+      font-size: 17px;
+      left: 100px;
+      color: white;
+   }
+   .hoveredMoodDescription {
+      display: block;
+      background-color: @darkGreyBrownColor;
+      height: 66px;
+      width: 350px;
+      margin-top: 22px;
+      padding-top: 8px;
+      color: #989898;
+
+      .hoveredMoodTitle {
+         position: relative;
+         margin-left: 8px;
+         margin-right: 8px;
+         color: @barleyBrownColor;
+
+         .name {
+            display: inline-block;
+            font-family: @controlFontFamily;
+            float: left;
+            color: @barleyBrownColor;
+         }
+         .threshold {
+            display: inline-block;
+            font-size: 12px;
+            font-family: @baseFontFamily;
+            float: right;
+            color: #b8a26c;
+         }
+      }
+
+      .gameplayText {
+         display: block;
+         position: relative;
+         margin-top: 28px;
+         margin-left: 10px;
+         font-size: 13px;
+         font-weight: bold;
+         clear: both;
+         font-family: @baseFontFamily;
+      }
    }
 }
 

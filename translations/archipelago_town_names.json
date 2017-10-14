@@ -1,0 +1,82 @@
+{
+   "town_pieces": {
+      "mixintypes":{
+         "optional_prefix":"override"
+      },
+      "optional_prefix": [
+         "Schwarz",
+         "Rein",
+         "Golden",
+         "Verloren",
+         "Rot",
+         "Salzig"
+      ],
+
+      "mixintypes":{
+         "town_name":"override"
+      },
+      "town_name": [
+         "Anker",
+         "Alter Anker",
+         "Schwarzbart",
+         "Kokosnuss",
+         "Korsar",
+         "Fluch",
+         "Davy Jones",
+         "Toter Mann",
+         "Trockener Rum",
+         "Kraken",
+         "Macaw",
+         "Meerjungfrau",
+         "Affe",
+         "Meuterei",
+         "Nemo",
+         "Altes Salz",
+         "Quartiermeister",
+         "Rum",
+         "Sand",
+         "Seehund",
+         "Seetang",
+         "Haifischflosse",
+         "Schiffswrack",
+         "Stürmisch",
+         "Sonnenuntergang",
+         "Sturm",
+         "Zahn",
+         "Schildkröte",
+         "Schatz",
+         "Turtle",
+         "Wasser",
+         "Wale"
+      ],
+
+      "mixintypes":{
+         "suffix":"override"
+      },
+      "suffix": [
+         " Atoll",
+         " Bucht",
+         " Strand",
+         " Riff",
+         " Küste",
+         " Bucht",
+         " Enklave",
+         " Hafen",
+         " Oase",
+         " Versteck",
+         " Insel",
+         " Eiland",
+         " Lagune",
+         " Paradies",
+         " Tücke",
+         " Piers",
+         " Punkt",
+         " Port",
+         " Zuflucht",
+         " Rückzug",
+         " Heiligtum",
+         " Sand",
+         " Kai"
+      ]
+   }
+}

@@ -117,7 +117,7 @@
 				"page2_subtitle2": "Klicke und zieh auf dem Boden, um ein Lager anzulegen"
          },
          "citizen_character_sheet": {
-				"title": "Charakter Information",
+				"title": "Charakterübersicht",
             "health": "HP",
 				"morale": "Moral",
 				"experience": "Erfahrung",
@@ -143,7 +143,12 @@
 				"backpack_tab_name": "Rucksack",
 				"journal_no_entries": "keine Einträge",
 				"retired": "Ruhestand nach:",
-            "traits": "Wesenszüge"
+            "traits": "Wesenszüge",
+            "above": "über",
+            "below": "drunter",
+            "currently": "Aktuell:",
+            "no_unhappy_thoughts": "Keine unglücklichen Gedanken ... bisher!",
+            "no_happy_thoughts": "Noch keine glücklichen Gedanken!"
          },
          "pet_character_sheet": {
 				"title": "Haustier Info",
@@ -158,18 +163,18 @@
          "tutorials": {
             "camera": {
 					"camera_pan_title": "Um die Kamera zu bewegen",
-					"camera_pan_1": "Halte die Leertaste und bewege dann die Maus",
-					"camera_pan_2": "Oder nutz einfach die WASD Tasten",
+					"camera_pan_1": "Halte und bewege dann die Maus",
+					"camera_pan_2": "Oder nutze deine Tastatur",
 					"camera_pan_3": "Oder drück das Mausrad und beweg die Maus",
 					"camera_orbit_title": "Um die Kamera zu drehen",
 					"camera_orbit_1": "Rechtsklick und ziehe um die Kamera zu drehen",
-					"camera_orbit_2": "Q und E funktionieren auch",
+					"camera_orbit_2": "Tasten funktionieren auch",
 					"camera_zoom_title": "Um rein und raus zu zoomen",
 					"camera_zoom_1": "Dreh das Mausrad",
-					"camera_zoom_2": "Oder verwende die + und - Tasten",
+					"camera_zoom_2": "Oder verwende die Tasten",
                "camera_follow_title": "Um einen Hearthling zu folgen",
                "camera_follow_1": "Wählen den Hearthling aus dem du folgen willst",
-               "camera_follow_2": "Drücke die J Taste"
+               "camera_follow_2": "Drücke die Taste"
             }
          },
          "save_view": {
@@ -268,7 +273,7 @@
 			},
 			"citizens": {
 				"title": "Einwohner",
-				"work_orders_title": "Arbeitsaufträge",
+				"work_orders_title": "Hearthlingübersicht",
 				"worker_details": "Details",
 				"workers_list_headers": {
 					"name": "Name",
@@ -403,13 +408,13 @@
 						},
 						"mining_ui": {
 							"display_name": "Tunnel",
-							"description": "Grabe Tunnel und Höhlen &nbsp; &nbsp; &nbsp; ",
+							"description": "Grabe Tunnel und Höhlen",
 							"tip_title": "Klicke und zieh um in diese Schicht graben",
 							"tip_description": "Rechtsklick zum verlassen"
 						},
 						"mine_block": {
 							"display_name": "Blöcke",
-							"description": "Trage einzelne Blöcke ab &nbsp;  &nbsp;  &nbsp; ",
+							"description": "Trage einzelne Blöcke ab",
 							"tip_title": "Klicke und zieh zum graben",
 							"tip_description": "Rechtsklick zum verlassen"
 						},
@@ -486,7 +491,7 @@
 							"display_name": "Platziere ein Element",
 							"description": "Platziere Waren, wie Möbel und Dekorationen",
 							"tip_title": "Klicken zum platzieren der Waren",
-							"tip_description": "Rotiere mit der , und der . Taste"
+							"tip_description": "Rotiere mit der [str(left_binding)] und der [str(right_binding)] Taste"
 						},
 						"cannot_place_item": {
 							"tip_title": "Dieses Element kann nicht platzieren werden",
@@ -683,7 +688,7 @@
 					"wall_segment_tip_title": "Klicke um freistehende Mauern zu platzieren",
 					"wall_segment_tip_description": "Halte SHIFT um die Wände zu verbinden",
 					"build_title_building_designer": "Gebäude Designer",
-					"build_floor_tip_title": "Klicke und zieh um einen Fussboden zu bauen. Für Treppen min ein Loch mit Länge von 6 Voxeln freilassen!",
+					"build_floor_tip_title": "Klicke und zieh um einen Fussboden zu bauen. Für Treppen mindestens ein Loch mit 6 Voxeln länge freilassen!",
 					"build_floor_tip_description": "Rechtsklick zum verlassen",
 					"build_slab_tip_title": "Klicke und zieh um Platten zu bauen",
 					"build_slab_tip_description": "Rechtsklick zum verlassen",
@@ -696,11 +701,11 @@
 					"doodad_tip_title": "Klicke auf eine Wand, um eine Tür oder ein Fenster zu setzen",
 					"doodad_tip_description": "Rechtsklick zum verlassen",
 					"draw_template_title": "Klicke um eine Vorlage zu erstellen",
-					"draw_template_description": "Rotiere mit der , und der . Taste",
+					"draw_template_description": "Rotiere mit der [str(left_binding)] und der [str(right_binding)] Taste",
 					"build_road_tip_title": "Klicke und zieh um eine Strasse zu bauen",
 					"build_road_tip_description": "Rechtsklick zum verlassen",
 					"stairs_tip_title": "Klicke um Treppen zu platzieren",
-					"stairs_tip_description": "Rechtsklick zum verlassen. Rotiere mit der , und der . Taste"
+					"stairs_tip_description": "Rechtsklick zum verlassen. Rotiere mit der [str(left_binding)] und der [str(right_binding)] Taste"
 				},
 				"building_cost": {
 					"required_item": "Benötigte Waren"
@@ -957,7 +962,7 @@
 					"praises": "Lob",
 					"gripes": "Meckereien",
 					"praise_empty": "Heute ist nichts lobenswertes passiert.",
-					"gripe_empty": "Whoa. Ich denke, niemand hatte heute etwas zu meckern."
+					"gripe_empty": "WoW! Ich denke, niemand hatte heute etwas zu meckern."
 				},
 				"networth": {
 					"town_description": "Die [str(descriptor)] [str(noun)] von [str(town_name)]",
@@ -1167,11 +1172,12 @@
 				"title": "Einstellungen",
 				"graphics": "Grafik",
             "gameplay": "Gameplay",
+            "controls": "Kontrollen",
 				"card": "Grafikkarte: ",
             "gfx_cardinfo": "[str(gpuRenderer)] ([str(gpuDriver)])",
 				"gfx_enable_shadows": "Aktiviere Schatten",
 				"gfx_enable_vsync": "Aktiviere Vertical Sync",
-				"gfx_enable_fullscreen": "Vollbild (erfordert einen Neustart)",
+				"gfx_enable_fullscreen": "Vollbild",
 				"gfx_msaa": "Anti-Alasing Level",
 				"gfx_shadows": "Schatten Details",
 				"gfx_max_lights": "Maximale Anzahl an Lichtern",
@@ -1200,11 +1206,15 @@
 				"enable_lua_jit": "Benutzte Lua JIT (benötigt einen Neustart)",
 				"send_anon_data": "Anonymes Feedback senden (um Stonehearth noch besser zu machen!)",
 				"language_select": "Sprache",
+            "unsaved_changes_dialog": {
+               "title": "Änderungen verwerfen?",
+               "message": "Möchtest du die nicht gespeicherte Änderungen verwerfen?"
+            },
             "gameplay_tab": {
                "title": "Gameplay",
                "experimental": "Experimental",
 					"experimental_description": "Diese Einstellungen sind noch in der Entwicklung und können nicht stabil sein! Aktivieren auf eigene Gefahr!",
-					"enable_speed_3": "Aktiviere 'Super' Geschwindigkeit (benötigt einen UI Neustart)",
+					"enable_speed_3": "Aktiviere 'Super' Geschwindigkeit",
 					"enable_speed_3_note": "Die Leistung des Spiels ist möglicherweise langsamer mit größeren Städten. Verwendung auf eigene Gefahr!",
 					"enable_speed_3_description": "Fügt eine neue Geschwindigkeitsoption für 4fache Geschwindigkeit rechts unten hinzu!",
 					"default_storage_filter_none": "Speicherfilter standardmäßig auf Nichts",
@@ -1232,6 +1242,117 @@
 						"message": "Das Spiel muss neu geladen werden, um die Änderungen zu übernehmen. Jetzt neu laden?",
                   "accept": "Ok",
 						"cancel": "Abbrechen"
+               }
+            },
+            "controls_tab": {
+               "key_binding_prompt": "Drücke Entf zum loslösen",
+               "reset_to_defaults": "Auf Standardeinstellung zurücksetzen",
+               "unbound": "Ungebunden",
+               "conflict_dialog": {
+                  "title": "Verknüfungskonflikt",
+                  "message": "\"<strong>[str(combo)]</strong>\" wird bereits verwendet von [str(conflicts)].",
+                  "choice_replace": "Vorhandene loslösen",
+                  "choice_keep": "Alle behalten",
+                  "choice_cancel": "Abbrechen"
+               },
+               "key_category_names": {
+                  "other": "Andere",
+                  "camera": "Kamera",
+                  "vision": "Sicht",
+                  "speed": "Geschwindigkeit",
+                  "menus": "Menüs",
+                  "harvest": "Wekzeuge",
+                  "zone": "Zonen",
+                  "build": "Gebäude",
+                  "craft": "Handwerk",
+                  "fight": "Kampf",
+                  "ui": "Benutzer Interface",
+                  "debug": "Debug"
+               },
+               "key_binding_names": {
+                  "cam_drag": "Kamera ziehen",
+                  "cam_home": "Zentriere Kamera",
+                  "cam_pan_fwrd": "Kamera nach oben bewegen",
+                  "cam_pan_back": "Kamera nach unten bewegen",
+                  "cam_pan_left": "Kamera nach links bewegen",
+                  "cam_pan_right": "Kamera nach rechts bewegen",
+                  "cam_orb_left": "Kamera nach links drehen",
+                  "cam_orb_right": "Kamera nach rechts drehen",
+                  "cam_orb_up": "Kamera nach oben drehen",
+                  "cam_orb_down": "Kamera nach unten drehen",
+                  "cam_zoom_in": "Reinzoomen",
+                  "cam_zoom_out": "Rauszommen",
+                  "cam_follow": "Kamera folgen",
+                  "vision_building_toggle": "Gebäudeansicht umschalten",
+                  "vision_xray_toggle": "Röntgenansicht umschalten",
+                  "vision_slice_toggle": "Schnittansicht umschalten",
+                  "vision_slice_up": "Schnitt nach oben",
+                  "vision_slice_down": "Schnitt nach unten",
+                  "speed_pause": "Pause",
+                  "speed_toggle_pause": "Pause umschalten",
+                  "speed_play": "Normale Geschwindigkeit",
+                  "speed_ff": "Doppelte Geschwindigkeit",
+                  "speed_three": "Super Geschwindigkeit",
+                  "town_overview": "Stadtüberischt - Menü",
+                  "citizen_manager": "Hearthlingsübersicht - Menü",
+                  "harvest_menu": "Ernte - Menü",
+                  "harvest_harvest": "Ernte Werkzeug",
+                  "harvest_mine": "Tunnel Werkzeug",
+                  "harvest_mine_block": "Blöcke Werkzeug",
+                  "harvest_cancel": "Aufgabe abbrechen Werkzeug",
+                  "harvest_loot": "Plündern Werkzeug",
+                  "harvest_clear": "Löschen Werkzeug",
+                  "zone_menu": "Zonen - Menü",
+                  "zone_stockpile": "Lager Werkzeug",
+                  "zone_farm": "Farm Werkzeug",
+                  "zone_trapping": "Fallenzonen Werkzeug",
+                  "zone_pasture": "Weide Werkzeug",
+                  "build_menu": "Bau - Menü",
+                  "build_template": "Gebäudevorlagen",
+                  "build_custom": "Designe Gebäude",
+                  "build_place": "Objekt platzieren",
+                  "build_ladder": "Leiter bauen",
+                  "build_rotate_left": "Objekt links rotieren",
+                  "build_rotate_right": "Objekt rechts rotieren",
+                  "craft_menu": "Handwerks - Menü",
+                  "craft_carpenter": "Schreiner - Menü",
+                  "craft_weaver": "Weber - Menü",
+                  "craft_mason": "Steinmetz - Menü",
+                  "craft_blacksmith": "Schmied - Menü",
+                  "craft_cook": "Koch - Menü",
+                  "craft_potter": "Töpfer - Menü",
+                  "craft_herbalist": "Kräuterarzt - Menü",
+                  "craft_engineer": "Ingeneur - Menü",
+                  "fight_menu": "Kampf - Menü",
+                  "fight_alert": "Stadtalarm",
+                  "fight_party_1": "Kamofgruppe 1",
+                  "fight_party_2": "Kamofgruppe 2",
+                  "fight_party_3": "Kamofgruppe 3",
+                  "fight_party_4": "Kamofgruppe 4",
+                  "bulletin_manager": "Benachrichtigungs - Menü",
+                  "ui_quicksave": "Schnellspeichern",
+                  "ui_quickload": "Schnellladen",
+                  "ui_refresh": "Aktualisieren",
+                  "toggle_fullscreen": "Volbild umschalten",
+                  "toggle": "BI umschalten",
+                  "ui_print_screen": "Screenshot erstellen",
+                  "debug_console": "Stonehearthkonsole",
+                  "debug_navgrid": "Zeige/Verstecke Navigationsgitter",
+                  "debug_navgrid_water_tight": "Zeige/Verstecke Tiefen-Navigationsgitter",
+                  "debug_lifetime_tracking": "Toggle Lifetime Tracking",
+                  "debug_toggle_step_paths": "Step Pathfinder Service",
+                  "debug_step_topology": "Step Topology Service",
+                  "debug_reload": "Speichern & Neuladen",
+                  "debug_toggle_save_stress_test": "Toggle Save Stress Test",
+                  "debug_toggle_debug_nodes": "Debugknoten umschalten",
+                  "debug_toggle_perfhud": "Leistungsmonitor umschalten",
+                  "debug_toggle_flame_graph": "Toggle Flame Graph",
+                  "debug_switch_debug_shapes": "Switch Debug Shapes View",
+                  "debug_crash": "Erzwinge Absturz",
+                  "debug_toggle_cpu_profiler": "Toggle Lua Profiler",
+                  "debug_render_show_stats": "Zeige Renderstati",
+                  "debug_render_debug_view": "Renderer Debug View",
+                  "debug_show_terrain_coordinates": "Zeige Geländekoordinaten"
                }
             }
          },
@@ -1329,7 +1450,7 @@
 			},
 			"error_dialog_js": {
 				"title": "UI Fehler",
-				"reset_hint": "Drück F5 um die UI zu reseten.",
+            "reset_button": "UI neuladen",
 				"copy_button": "In die Zwischenablage kopieren"
 			}
 		},
@@ -1456,23 +1577,28 @@
 				},
 				"content": {
 					"display_name": "Zufrieden",
-					"town_description": "Deine Einwohner sind mit dem Stand der Dinge zufrieden."
+					"town_description": "Deine Einwohner sind in der Regel damit zufrieden, wie die Dinge sind.",
+               "description": "Nichts Gutes, nichts Schlimmes."
 				},
 				"jubilant": {
 					"display_name": "Jubelnd",
-					"town_description": "Deine Einwohner sind unglaublich glücklich hier zu leben!"
+					"town_description": "Deine Einwohner sind unglaublich glücklich hier zu leben!",
+               "description": "Die Bewegungsgeschwindigkeit ist um 10% erhöht."
 				},
 				"forlorn": {
 					"display_name": "Verloren",
-					"town_description": "Deine Einwohner haben aktuell eine unglaublich harte Zeit."
+					"town_description": "Deine Einwohner haben in letzter Zeit eine unglaublich harte Zeit.",
+               "description": "Die Bewegungsgeschwindigkeit ist um 10% verringert."
 				},
 				"merry": {
 					"display_name": "Fröhlich",
-					"town_description": "Deine Einwohner sind im allgemeinen glücklich."
+					"town_description": "Deine Einwohner sind im ganzen ziemlich glücklich",
+               "description": "Die Bewegungsgeschwindigkeit ist um 5% erhöht."
 				},
 				"glum": {
 					"display_name": "Trübsinnig",
-					"town_description": "Deine Einwohner fühlen sich insgesamt nicht gut."
+					"town_description": "Deine Einwohner fühlen sich insgesamt nicht gut.",
+               "description": "Die Bewegungsgeschwindigkeit ist um 5% verringert."
             },
             "exp_bar": {
                "description": "Dieses Hearthlings Fortschritt zum nächsten Level."
@@ -1492,7 +1618,7 @@
                "description": "Klicke hier, um das Geschlecht des Hearthlings zu [str(gender)] zu ändern."
             },
             "customization_lock": {
-               "description": "Dieses Hearthling's [str(customization)] wird während des Wesenszugs- und Fähigkeiten neurollens gespeichert."
+               "description": "Dieses Hearthlings [str(customization)] wird während des Merkmal und Fähigkeiten neurollens gespeichert."
             },
             "customization_lock_all": {
                "description": "Hier klicken, um alle Namen- und Aussehensoptionen zu sperren."
@@ -1609,7 +1735,7 @@
 						"title": "Ein Händler nähert sich eurer Stadt.",
 						"days": " Tagen",
 						"hours": " Stunden",
-						"trade_details": "Hallo [str(i18n_data.town_name)]! Ich bin zwar gerade auf der Durchreise, aber ich wäre bereit ein oder zwei Handel zu machen, wenn Ihr interessiert seit. Wenn Ihr mir <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)](en/er)</strong> macht, werde ich in [str(i18n_data.num_days)] Tagen zurückkommen und werde Euch <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)](en/er)</strong> im Austausch geben. Klingt das gut?",
+						"trade_details": "Hallo [str(i18n_data.town_name)]! Ich bin zwar gerade nur auf der Durchreise, aber ich wäre gewillt ein oder zwei Handel mit euch zu tätigen, aber natürlich nur wenn Ihr interessiert seit. Wenn Ihr mir <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)](en/er)</strong> macht, werde ich in [str(i18n_data.num_days)] Tagen zurückkommen und werde Euch <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)](en/er)</strong> im Austausch geben. Klingt das gut?",
 						"waiting_title": "Der Händler wird in [str(i18n_data.hour_counter)] [str(i18n_data.period)] zurück sein!",
 						"waiting_text": "Der Händler wird in [str(i18n_data.hour_counter)] [str(i18n_data.period)] zurück sein um euch <strong>[str(i18n_data.reward_number)] [str(i18n_data.reward_item)]</strong> zu geben, wenn Ihr <strong>[str(i18n_data.want_number)] [str(i18n_data.want_item)](en/er)</strong> für Ihn bereit haltet!",
 						"return_title": "Der Händler ist zurück!",
@@ -1618,7 +1744,7 @@
 					},
 					"returning_crop_trader_encounter": {
 						"title": "Ein Händler bringt Samen aus einem fernen Land.",
-						"trade_details": "Hallo [str(i18n_data.town_name)]! Ich bin nur auf der Durchreise, aber ich wäre bereit ein oder zwei Handel zu machen, wenn Ihr interessiert seid. Wenn Ihr mir [str(i18n_data.want_number)] [str(i18n_data.want_item)] macht, werde ich in [str(i18n_data.num_days)] Tagen zurückommen und könnte in der Lage sein Euch [str(i18n_data.reward_item)] im Austausch anzubieten. Klingt das gut?",
+						"trade_details": "Hallo [str(i18n_data.town_name)]! Ich bin nur auf der Durchreise, aber ich wäre bereit ein oder zwei schnelle Handel mit Euch zu vereinbaren. Wenn Ihr mir [str(i18n_data.want_number)] [str(i18n_data.want_item)] macht, werde ich in [str(i18n_data.num_days)] Tagen zurückommen und würde in der Lage sein Euch [str(i18n_data.reward_item)] im Austausch anzubieten. Klingt das gut?",
 						"waiting_title": "Der Händler wird in [str(i18n_data.hour_counter)] [str(i18n_data.period)] zurück sein!",
 						"waiting_text": "Der Händler wird in [str(i18n_data.hour_counter)] [str(i18n_data.period)] zurück sein um euch [str(i18n_data.reward_item)] zu geben, wenn Ihr [str(i18n_data.want_number)] [str(i18n_data.want_item)](en) für Ihn bereit haltet!",
 						"return_title": "Der Händler ist zurück!",
@@ -1627,25 +1753,25 @@
 					},
 					"rugs_shop": {
 						"shop_info": {
-							"name": "Havaad's feine Teppiche und Kleider",
+							"name": "Havaads feine Teppiche und Kleider",
 							"title": "Eine einfacher Händler ist mit Waren zum Verkauf eingetroffen"
 						}
 					},
 					"stonecutter_shop": {
 						"shop_info": {
-							"name": "Rufus Garrow´s Steinmetz-Shop",
+							"name": "Rufus Garrows Steinmetzladen",
 							"title": "Rufus Garrow ist mit Ware zum Verkauf eingetroffen"
 						}
 					},
 					"tannery_shop": {
 						"shop_info": {
-							"name": "Jess Vexed's Gerberei und Wildnis-Zubehör",
+							"name": "Jess Vexeds Gerberei und Wildniszubehör",
 							"title": "Eine robuste Überlebenskünstlerin stoppt mit Ihren Waren"
 						}
 					},
 					"woodcutter_shop": {
 						"shop_info": {
-							"name": "Norm Windriser´s Holzfäller-Shop",
+							"name": "Norm Windrisers Holzfällerladen",
 							"title": "Norm Windriser ist mit Waren zum Verkauf eingetroffen"
 						}
 					},
@@ -1659,7 +1785,7 @@
 						"reward_message": "Mit dem Erlass von Prinzessin Diana von den Ascendancy, wir erkennen:",
 						"reward_message_ctd": "Für Handlungen der unglaublichen Tapferkeit im Kampf, ist diese Stadt hiermit berechtigt für:",
 						"tier_2_bldg_template": "Stufe 2 Gebäude Vorlagen",
-						"tier_2_shops": "Stufe 2 Shops",
+						"tier_2_shops": "Stufe 2 Läden",
 						"tier_2_BGM": "Stufe 2 BGM"
 					},
 					"generosity_tier_2_reached": {
@@ -1801,31 +1927,31 @@
 							"tier_2_shops": {
 								"weapon_armor_shop": {
 									"shop_info": {
-										"name": "Sark Blackhammer's Arsenal-Shop",
-										"title": "Sark Blackhammer ist mit Ausrüstung zum Verkauf angekommen"
+										"name": "Sark Schwarzhammers Rüstungsladen",
+										"title": "Sark Schwarzhammer ist mit Ausrüstung zum Verkauf angekommen"
 									}
 								},
 								"farming_supplies_shop": {
 									"shop_info": {
-										"name": "Farmer Gem's Hofbedarf",
-										"title": "Farmer Gem's Versorgungswagen rollt in die Stadt"
+										"name": "Farmer Gems Hofbedarf",
+										"title": "Farmer Gems Versorgungswagen rollt in die Stadt"
 									}
 								},
 								"bakery_shop": {
 									"shop_info": {
-										"name": "Jordan Sugarcane's Brote und Suppen",
-										"title": "Jordan Sugarcane ist mit Backwaren zum Verkauf angekommen"
+										"name": "Jordan Zuckerrohrs Brote und Suppen",
+										"title": "Jordan Zuckerrohr ist mit Backwaren zum Verkauf angekommen"
 									}
 								},
 								"container_shop": {
 									"shop_info": {
-										"name": "Jo Boxen's Behälterlager",
+										"name": "Jo Boxens Behälterlager",
 										"title": "Jo Boxen erscheint mit einer Box aus Kisten"
 									}
 								},
 								"door_shop": {
 									"shop_info": {
-										"name": "Edgar Planckton's Türen-Shop",
+										"name": "Edgar Plancktons Türenladen",
 										"title": "Edgar Planckton ist mit Türen zum Verkauf angekommen"
 									}
 								}
@@ -1919,7 +2045,7 @@
 										"002": "Wahrsager Kobold, offensichtlich! Kobold der Zukunft sehen können! Er sagen die alten sterben weg und neuer Stern steigen. Gut für Ogo, schlecht für alle anderen, eingeschlossen euch!"
 									},
 									"bulletin_title": "Die Augen des Kobolds werden rund",
-									"dialog_title": "Ogo's Bannerman"
+									"dialog_title": "Ogos Bannerman"
 								},
 								"snooty_introduction": {
 									"choice_000": "Huh.",
@@ -1930,7 +2056,7 @@
 										"002": "Muahahahahah! Dies? Dies Ihrer Stadt? Ich lache bis ich weinen!"
 									},
 									"bulletin_title": "Ein Kobold mit einem zudringlichen Grinsen schlittert in die Stadt",
-									"dialog_title": "Ogo's Bannerman"
+									"dialog_title": "Ogos Bannerman"
 								},
 								"ogo_introduction": {
 									"choice_000": "Ogo wer?",
@@ -1943,7 +2069,7 @@
 										"004": "Ich Bannergoblin von Ogo Skullbonker! Wenn Sie die kleinen Chefs besiegt, Ihr bringt Ogos Auge auf euch! Und Ogos Auge weiß alles! Sie Tribut geben, oder Augen will euer Ende sehen!"
 									},
 									"bulletin_title": "Der Kobold streckt sich",
-									"dialog_title": "Ogo's Bannerman"
+									"dialog_title": "Ogos Bannerman"
 								},
 								"ogo_description": {
 									"choice_000": "Wahrsager?",
@@ -1955,7 +2081,7 @@
 										"003": "Ogo Skullbonker, Meister der Meister, haben großes Schicksal um Herrschaft über alles! Wahrsager sagen so! Wahrsager nie falsch. Wahrsager sagen: Sie werden dazu beitragen!"
 									},
 									"bulletin_title": "Die Augen des Kobolds glühen mit Eifer!",
-									"dialog_title": "Ogo's Bannerman"
+									"dialog_title": "Ogos Bannerman"
 								},
 								"conclusion": {
 									"bulletin_message": {
@@ -1965,7 +2091,7 @@
 										"003": "Wie auch immer, Zeit zu gehen bügeln mein Banner. Bald zurück! Bereit sein, ja? Neues Leben unter Kobold regeln erwartet!"
 									},
 									"bulletin_title": "Die Augen des Kobolds werden schmal",
-									"dialog_title": "Ogo's Bannerman"
+									"dialog_title": "Ogos Bannerman"
 								}
 							}
 						}
@@ -2070,7 +2196,7 @@
 									"bulletin_message": {
 										"000": "Wenn du Sie besiegen willst, bevor Sie dich besiegen - dann schlag als erster zu!",
 										"001": "Da sind Wölfe in den Wäldern. Goblinwölfe. Schnapp Sie dir, bevor Sie dich schnappen.",
-										"002": "Ogo's Streitkräfte sind auf dem Weg. Da sind Wölfe in deinen Wäldern.",
+										"002": "Ogos Streitkräfte sind auf dem Weg. Da sind Wölfe in deinen Wäldern.",
 										"003": "Kleines menschliches Lager: Suche deine Feinde, während sie noch schlafen.",
 										"004": "Goblinwölfe sind trainiert auf Kommando anzugreifen. Befreie Sie bevor das Kommando erhalten und du wirst heute Nacht ruhig schlafen."
 									},
@@ -2315,7 +2441,7 @@
 								"create_camp": {
 									"ogo_tent": {
 										"ogo_tent": {
-											"display_name": "Ogo's Zelt",
+											"display_name": "Ogos Zelt",
 											"description": "Gemacht aus gebleichten Fellen."
 										},
 										"ogo": {
@@ -2325,7 +2451,7 @@
 									},
 									"ogo_throne": {
 										"ogo_throne": {
-											"display_name": "Ogo's Thron",
+											"display_name": "Ogos Thron",
 											"description": "Dekoriert mit massiven Babystoßzähnen"
 										}
 									},
@@ -2349,7 +2475,7 @@
 													"bulletin_title": "Der verhüllte Orkspäher erscheint",
 													"dialog_title": "Erdene, Red Kiln Späher",
 													"choice_000": "Yup! Es WAR ziemlich cool",
-													"choice_001": "Du siehst ... betrübt aus?"
+													"choice_001": "Du siehst betrübt aus?"
 												},
 												"erdene_departs": {
 													"bulletin_message": {
@@ -2373,7 +2499,7 @@
 													},
 													"bulletin_title": "Erdene denkt nach",
 													"dialog_title": "Erdene, Red Kiln Späher",
-													"choice_000": "Ogo's wer?",
+													"choice_000": "Ogo was?",
 													"choice_001": "Willst du mit uns kämpfen?"
 												},
 												"ogo_poem_2": {
@@ -2564,7 +2690,7 @@
 														"000": "Nehmt alle Dinge!!!!"
 													},
 													"bulletin_title": "Die Goblins erheben ihre Waffen",
-													"dialog_title": "Ogo's Bannermann"
+													"dialog_title": "Ogos Bannermann"
 												},
 												"ogo_attacks": {
 													"bulletin_message": {
@@ -2590,7 +2716,7 @@
 					"ogo_army_raid": {
 						"mission": {
 							"sighted_bulletin": {
-								"title": "Ogo's Armee erscheint!"
+								"title": "Ogos Armee erscheint!"
 							}
 						}
 					}
@@ -3035,19 +3161,19 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "Eure kostbaren Cid-Vertrag können Euch jetzt nicht schützen, dummen Menschen!"
+														"00": "Euren kostbaren Cid-Vertrag können Euch jetzt nicht schützen, dummen Menschen!"
 													},
 													"bulletin_title": "Ogerchef",
 													"dialog_title": "Ogerchef",
-													"choice_000": "Her damit"
+													"choice_000": "Komm doch!"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Kümmerliche Stadt! Ihr montieren Zeichen von Ruby! Ihr wagen es mich, Chef Grunt Bashbrain herausfordern ?!"
+														"00": "Kümmerliche Stadt! Ihr montieren Zeichen von Ruby! Ihr wagen es MICH! Chef Grunt Bashbrain herausfordern?!"
 													},
 													"bulletin_title": "Ein Oger stampft in die Stadt",
 													"dialog_title": "Ogerchef",
-													"choice_000": "Ihr mich nicht erschrecken!"
+													"choice_000": "Ihr könnt uns nicht schrecken!"
 												}
 											}
 										}
@@ -3079,7 +3205,7 @@
 													"bulletin_message": {
 														"00": "Lange es her ist, seit wir den Lila Schimmer vom Generaltoken gesehen. Der Red Kiln mehr profitieren, wenn mehr Feinde wie Ihr zum kämpfen."
 													},
-													"bulletin_title": "Ein Trupp Orks marschiert in perfekter Synchronität in deine Richtung",
+													"bulletin_title": "Ein Trupp Orks marschiert im perfekten Gleichschritt in deine Richtung",
 													"dialog_title": "Orktruppen",
 													"choice_000": "Vielen Dank"
 												}
@@ -3099,17 +3225,17 @@
 												},
 												"msg3": {
 													"bulletin_message": {
-														"00": "Vielleicht würden Sie nicht verstehen, was diese Erfahrung uns gegeben hat in dieser Zeit der politischen Unruhen. Aber das ist nicht wichtig. Die Kriegsherr will Euch wiedertreffen. Für jetzt ich heiße Ihnen alles Gute, Menschen."
+														"00": "Vielleicht würden Sie nicht verstehen, was diese Erfahrung uns gegeben hat in dieser Zeit der ... politisch? ... Unruhen. Aber das nicht wichtig. Kriegsherr will Euch wiedertreffen. Für jetzt ich heiße Ihnen alles Gute, Menschen."
 													},
 													"bulletin_title": "Orktruppen",
 													"dialog_title": "Orktruppen",
-													"choice_000": "Tschüß"
+													"choice_000": "Tschüß!"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Ich gratuliere Euch zu Eurem Sieg. Ihr habt euch als geschickten und ehrenhafter Feind bewährt."
+														"00": "Ich gratulieren zu Euem Sieg. Ihr haben euch als geschickten und ehrenhafte Feind bewahrt."
 													},
-													"bulletin_title": "Der Ork beugt sich respektvoll über den Ausgang der Schlacht",
+													"bulletin_title": "Der Ork beugt sich respektvoll bezüglich dem Ausgang der Schlacht",
 													"dialog_title": "Orktruppen",
 													"choice_000": "Danke"
 												}
@@ -3121,16 +3247,16 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "Die Niederlage meines Chefs und seiner Krieger fordert von uns die Anerkennung Ihrer Stärke. Lassen Sie uns in der Schlacht mit Ehre und Tapferkeit kämpfen und größer als Gleiche hervorkommen"
+														"00": "Die Niederlage mein Chef und seiner Horde fordern von uns Anerkennung Ihrer Stärke. Lassen uns in der Schlacht mit Ehre und Tapferkeit kämpfen und größer als Gleiche hervorkommen"
 													},
 													"bulletin_title": "Kriegsherr Oghar Norwind",
 													"dialog_title": "Kriegsherr Oghar Norwind"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Wie ich vorhergesagt , bringt uns das Schicksal noch einmal zusammen."
+														"00": "Wie ich vorhergesagt, bringt uns das Schicksal noch einmal zusammen."
 													},
-													"bulletin_title": "Kriegsherr Oghar Norwind strides towards you with fearless bravado",
+													"bulletin_title": "Kriegsherr Oghar Norwind schreitet mit furchtloser Prahlerei auf Euch zu.",
 													"dialog_title": "Kriegsherr Oghar Norwind"
 												}
 											}
@@ -3141,14 +3267,14 @@
 											"dialog_nodes": {
 												"msg2": {
 													"bulletin_message": {
-														"00": "Ich kehre jetzt nach Hause. Wort kommen zu mir, wegen des Verlustes der Weisheit unseres Khans , dass unser Schamanen zu Tief in dunkle und unerkennbaren Dinge eingetaucht ist. Dennoch, wenn Ihr jemals wieder mit uns Kämpfen und Ihre Fähigkeiten zu verbessern wolt, platziert einen Gong der vier Farben, und wir werden gerne wiederkommen  um Eurer Herausforderung zu begegnen."
+														"00": "Ich kehren jetzt nach Hause. Wort kommen zu mir, wegen Verlust Weisheit unser Khanes, dass unser Schamane zu tief in dunkle, unerkennbaren Dinge eingetaucht ist. Dennoch, wenn Ihr jemals wieder mit uns kämpfen und Fähigkeiten verbessern wollen, platziert einen Gong der vier Farben, und wir gerne wiederkommen um Eurer Herausforderung zu begegnen."
 													},
 													"bulletin_title": "Kriegsherr Oghar Norwind",
 													"dialog_title": "Kriegsherr Oghar Norwind"
 												},
 												"msg1": {
 													"bulletin_message": {
-														"00": "Erdene hatte Recht über Euch. Ihr seid eindeutig würdige Gegner . Wir werden die Stärke die wir durch euch gewonnen haben nicht vergessen. "
+														"00": "Erdene hatten Recht über Euch. Ihr seid würdig Gegner. Wir werden die Stärke die wir euch gewonnen haben nicht vergessen. "
 													},
 													"bulletin_title": "Der Kriegsherr nickt demütig",
 													"dialog_title": "Kriegsherr Oghar Norwind",
@@ -3761,7 +3887,7 @@
 							"003": "Es ist irgendwie befriedigend etwas so viel größeres abzuholzen!",
 							"004": "Ich bin Paul Revere! Ich meine Bunyon!",
 							"005": "Wie viel Holz wohl ein Waldmurmeltier fällen kann, wenn ein Murmeltier Holz fällen könnte? Nun wenn mein Name Waldmurmeltier wäre, wäre die Antwort: VERDAMMT VIEL! Notiz an mich selber: Später herauszufinden wie ein Murmeltier aussieht.",
-							"006": "Lumber lumber lumber, must be lumber, in a woodman's world. Ah-aaaa, all the things I could do, if I had a  little lumber, it's a woodman's worrrllld. Ahhh-AAAAAIIEEE---BAAAAUUUMMM FFFÄÄÄLLLLTTT!!!!!",
+							"006": "Lumber lumber lumber, must be lumber, in a woodman's world. Ah-aaaa, all the things I could do, if I had a  little lumber, it's a woodman's worrrllld. Ähmmm... ACHHHHTTTUNNNGGG!!! BAAAAUUUMMM FFFÄÄÄLLLLTTT!!!!!",
 							"007": "Ich hörte, ich soll nicht mehr singen, wenn ich Holzhacke. Was auch Immer!",
 							"008": "Oh nein! Mr. Eichhörnchen Es tut mir leid. Ich wollte dein Haus nicht fällen. Ich sag dir was - zieh einfach bei mir ein! Nüsse gehen aufs Haus. Oh. Vielleicht hätte ich das Haus nicht erwähnen sollen ..."
 						},
@@ -3814,7 +3940,7 @@
 					"text": "Bei Heiterkeit",
 					"logs": {
 						"generic": {
-							"000": "Fühlt sich gut am Leben zu sein!",
+							"000": "Fühlt sich gut an, am Leben zu sein!",
 							"001": "Ein weiterer toller Tag in der Stadt.",
 							"002": "Sooo Friedlich!",
 							"003": "Dies scheint ein ziemlich windgeschützte Stelle.",
@@ -3832,7 +3958,7 @@
 					}
 				},
 				"villager_death": {
-					"text": "Bei Totesfällen:",
+					"text": "Bei Todesfällen:",
 					"logs": {
 						"generic": {
 							"dead_friend_and_teacher": {
@@ -4178,11 +4304,11 @@
 						"psychopathic_misanthrope": {
 							"000": "Es gibt nichts zu essen, aber [str(entry.recent_food)]? 10 Tage, bis ich jemanden wegen seienm Fleisch töte.",
 							"001": "Ich habe so viel von dieser Nahrung gegessen, ich kann es in meinem Schlaf schmecken.",
-							"002": "Wenn ich noch ein [str(entry.recent_food)] schwöre ich ... ICH werde anfangen aus dem Mund zu schäumen."
+							"002": "Wenn ich noch ein [str(entry.recent_food)] esse - schwöre ich ... ICH werde anfangen aus dem Mund zu schäumen."
 						},
 						"diligent_sweetheart": {
 							"000": "Mehr [str(entry.recent_food)]? Vielleicht können wir etwas davon trocknen, um es später zu essen?",
-							"001": "Ich will mich nicht beschweren, aber alles, was ich letztens gegessen habe ist essen wie dieses [str(entry.recent_food)]. Es beginnt meinen Mund weh zu tun.",
+							"001": "Ich will mich nicht beschweren, aber alles was ich letztens gegessen habe - ist Essen wie dieses [str(entry.recent_food)]. Es beginnt meinen Mund weh zu tun.",
 							"002": "[str(entry.recent_food)]! Muss ... weiter... kauen ....!"
 						},
 						"hopeless_optimist": {
@@ -4588,7 +4714,7 @@
 			"building_templates": {
 				"tier2": {
 					"black_forest_inn": {
-						"display_name": "Schwarzes Waldgasthausn"
+						"display_name": "Schwarzes Waldgasthaus"
                },
                "corner_house": {
 						"display_name": "Eckhaus"
@@ -4843,6 +4969,30 @@
                "display_name": "Rechthaberisch",
                "description": "[name(i18n_data.entity)] hat eine Meinung über alles und jeden, und ist nicht schüchtern sie zu teilen."
             }
+         },
+         "magnificent_beard": {
+            "magnificent_beard_trait": {
+               "display_name": "Herrlicher Bart",
+               "description": "Dieser Hearthling hat einen wirklich prächtigen Bart."
+            }
+         },
+         "stoic": {
+            "stoic_trait": {
+               "display_name": "Stoisch",
+               "description": "Wegen ihres ausgeglichenen Temperaments braucht es viel, um dieses Hearthling glücklich oder traurig zu machen."
+            }
+         },
+         "gourmand": {
+            "gourmand_trait": {
+               "display_name": "Vielfraß",
+               "description": "Nur die schmackhaftesten Speisen sind [name(i18n_data.entity)] auf seinem/ihrem Teller willkommen. Sie werden glücklich, wenn sie qualitativ hochwertigere Lebensmittel essen, aber Mahlzeiten niedriger Qualität sind ziemlich unangenehm."
+            }
+         },
+         "goat": {
+            "goat_trait": {
+               "display_name": "Ziege",
+               "description": "[name(i18n_data.entity)] wird grundsätzlich alles essen. Sie sind überhaupt nicht wählerisch, manchmal zum Ekel der anderen."
+            }
          }
       },
 		"happiness": {
@@ -4899,39 +5049,43 @@
 					"pain_moderate": {
 						"display_name": "Schmerz (Mäßig)",
 						"tooltip": "Agh, ich bin in einer rauen Kondition!"
-					},
-					"pain_scratched": {
+               },
+               "pain_scratched": {
 						"display_name": "Schmerz (Zerkratzt)",
 						"tooltip": "Ich bin ein wenig lädiert."
-					},
-					"pain_severe": {
+               },
+               "pain_severe": {
 						"display_name": "Schmerz (Stark)",
-						"tooltip": "!!!"
-					}
-				},
-				"sleeping": {
-					"slept_on_ground": {
+                  "tooltip": "!!!"
+               }
+            },
+            "sleeping": {
+               "slept_on_ground": {
 						"display_name": "Auf dem Boden geschlafen",
 						"tooltip": "Mein Rücken bringt mich noch um, da ich auf dem Boden geschlafen habe. Wann werden wir anständige Betten bekommen?"
-					},
-					"slept_in_shared_bed": {
+               },
+               "slept_in_shared_bed": {
 						"display_name": "In einem gemeinsamen Bett geschlafen",
 						"tooltip": "Ich teile im Moment mein Bett mit jemand anderem. Es ist nicht das Schlimmste, aber ich wünschte wirklich, ich hätte meine eigenes."
-					},
+               },
                "slept_in_shared_room": {
                   "display_name": "In einem gemeinsamen Raum geschlafen",
                   "tooltip": "Ich teile mein Zimmer mit jemand anderem. Ich könnte ein wenig mehr Privatsphäre nutzen."
                },
+               "well_rested": {
+                  "display_name": "Gut ausgeruht",
+                  "tooltip": "Ahh, in meinem eigenen Bett zu schlafen, ohne das schnarchen von anderen Leuten, erfrischt mich immer.."
+               },                             
                "slept_outside": {
                   "display_name": "Schlief draußen",
                   "tooltip": "Ich wünschte, ich hätte einen Obdach und Schutz vor den Elementen."
                },
-					"slept_in_comfy_bed": {
+               "slept_in_comfy_bed": {
 						"display_name": "In einem bequemen Bett geschlafen",
 						"tooltip": "Mein Bett ist wirklich komfortabel. Ich fühlte mich erfrischt, als ich aufwachte!"
-					}
-				},
-				"eating": {
+               }
+            },
+            "eating": {
                "ate_unpalatable": {
                   "display_name": "Aß etwas schreckliches",
                   "tooltip": "[str (foodname)] zu essen war eine meiner schlechteren Entscheidungen, die ich heute gemacht habe."
@@ -4944,22 +5098,30 @@
                   "display_name": "Ich aß eine Pflanze! Bääähhh!",
                   "tooltip": "Da ist was falsch gelaufen .... Ich habe versehentlich etwas gegessen, dass mein Essen isst."
                },
-					"ate_fine": {
-						"display_name": "Aß eine feine Mahlzeit",
-						"tooltip": "Meine letzte Mahlzeit war unglaublich! Wer auch immer die [str(foodname)] gemacht hat, hat wirklich sein Herz hieingelegt."
-					},
-					"ate_tasty": {
-						"display_name": "Aß eine leckere Mahlzeit",
-						"tooltip": "Das [str(foodname)] was ich gegessen habe war ziemlich lecker! Ich erinnere mich noch an die Kombination von Aromen."
-					},
-					"ate_raw": {
+               "offended_palate": {
+                  "display_name": "Beleidigter Gaumen",
+                  "tooltip": "Bleh, Ich hasse es Sachen wie [str(foodname)] zu essen. Da ist kein \"zazz\" darin!"
+               },
+               "pleased_palate": {
+                  "display_name": "Freudiger Gaumen",
+                  "tooltip": "Mmm, jamm jamm. Ich sollte den anderen umbedingt sagen, wie gut [str(foodname)] heute war!"
+               },
+               "ate_fine": {
+		  "display_name": "Aß eine feine Mahlzeit",
+		  "tooltip": "Meine letzte Mahlzeit war unglaublich! Wer auch immer die [str(foodname)] gemacht hat, hat wirklich sein Herz hieingelegt."
+               },
+               "ate_tasty": {
+	          "display_name": "Aß eine leckere Mahlzeit",
+		  "tooltip": "Das [str(foodname)] was ich gegessen habe war ziemlich lecker! Ich erinnere mich noch an die Kombination von Aromen."
+               },
+               "ate_raw": {
 						"display_name": "Meine Mahlzeit war roh",
 						"tooltip": "Ich habe vor kurzem eine rohe [str(foodname)] gegessen. Ich kann mir nur vorstellen, wie viel besser es geschmekct hätte, wenn es gekocht gewesen wäre."
-					},
-					"ate_bland": {
+               },
+               "ate_bland": {
 						"display_name": "Aß eine langweilige Mahlzeit",
 						"tooltip": "Ich erinnere mich eine fade [str(foodname)] gegessen zu haben. Es gab mir die Kraft weiterzumachen, aber das Essen war sooo langweilig."
-					},
+               },
 					"values": {
 						"ate_cooked": {
 							"display_name": "Meine Mahlzeit war gekocht",
@@ -5054,6 +5216,10 @@
                   "discouraged": {
                      "display_name": "Entmutigt",
                      "tooltip": "Sheesh, [str(target_name)] macht keinen Spaß, wenn Er/Sie schlecht gelaunt ist."
+                  },
+                  "deeper_understanding": {
+                     "display_name": "Ein tieferes Verständnis",
+                     "tooltip": "[str(target_name)] hat gerade seine Prioritäten."
                   }
                },
                "gregarious": {
@@ -5091,17 +5257,33 @@
                         "tooltip": "Jeder andere scheint in einer besseren Stimmung zu sein als ich. Vielleicht sollte ich die Dinge anders betrachten."
                      }
                   }
+               },
+               "goat": {
+                  "values": {
+                     "ate_not_bad_food": {
+                        "display_name": "Mmm, nicht schlecht",
+                        "tooltip": "Mein [str(foodname)] heute war ein bisschen lecker, aber nicht viel anders als das was ich sonst esse."
+                     },
+                     "ate_some_food": {
+                        "display_name": "Aß etwas zu essen",
+                        "tooltip": "Ich hatte heute [str(foodname)]. Es war in Ordnung, aber ich sehe nicht, was daran so einen große Sache sein soll."
+                     }
+                  }
                }
             },
-				"violence": {
-					"values": {
-						"townmember_died": {
+            "violence": {
+               "values": {
+                  "townmember_died": {
 							"display_name": "Ein Stadeinwohner ist gestorben",
 							"tooltip": "Ein Einwohner der Stadt ist gestorben. Wenn wir nur wachsamer gewesen wären!"
-						},
-						"pet_died": {
+                  },
+                  "pet_died": {
 							"display_name": "Mein Haustier starb",
 							"tooltip": "Mein(e) arme(r) [str(pet_name] starb vor kurzem. Ich werde Sie/Ihn sehr vermissen."
+                  },
+                  "saved_from_mortal_wounds": {
+                     "display_name": "Vor tödlicher Wunde gerettet",
+                     "tooltip": "Ich wäre fast gestorben, wären nicht die anderen für mich da gewesen! Ich bin dankbar für diese zweite Chance."
                   }
                }
             },
@@ -5143,15 +5325,82 @@
                         "tooltip": "Ein süßes/süßer [str(species)] hat mich heute vollgekackt. Es gibt mir ein warmes und wunscheliges Gefühl."
                      }
                   }
-					}
-				}
-			}
-		}
-	},
-	"entities": {
-		"armor": {
-			"knights_shield": {
-				"shield_talisman": {
+               }
+            }
+         }
+      },
+      "hotkeys": {
+         "keys": {
+            "build_roof": {
+               "display_name": "Dachwerkzeug"
+            },
+            "build_slab": {
+               "display_name": "Plattenwerkzeug"
+            },
+            "build_erase": {
+               "display_name": "Löschwerkzeug"
+            },
+            "ui_character": {
+               "display_name": "Charakterübersicht"
+            },
+            "fight_move": {
+               "display_name": "Gehe nach Standort"
+            },
+            "ui_move_place_item": {
+               "display_name": "Verschiebe/Platziere Objekt"
+            },
+            "fight_cancelOrders": {
+               "display_name": "Kampfbefehl abbrechen"
+            },
+            "build_wall": {
+               "display_name": "Freistehendes Wandwerkzeug"
+            },
+            "fight_defend": {
+               "display_name": "Standort verteidigen"
+            },
+            "build_floor_grow": {
+               "display_name": "Bodenwerkzeug"
+            },
+            "build_decoration": {
+               "display_name": "Dekorationswerkzeug"
+            },
+            "build_furniture": {
+               "display_name": "Möbelwerkzeug"
+            },
+            "build_stair": {
+               "display_name": "Treppenwerkzeug"
+            },
+            "build_window": {
+               "display_name": "Fensterwerkzeug"
+            },
+            "build_floor": {
+               "display_name": "Fundamentwerkzeug"
+            },
+            "build_road": {
+               "display_name": "Straßenwerkzeug"
+            },
+            "build_door": {
+               "display_name": "Türwerkzeug"
+            },
+            "build_wall_grow": {
+               "display_name": "Wandwerkzeug"
+            },
+            "fight_attack": {
+               "display_name": "Angriffsbewegung"
+            },
+            "ui_notification_popup": {
+               "display_name": "Öffne Nachrichtenübersicht"
+            },
+            "ui_undeploy_item": {
+               "display_name": "Objektplatzierung aufheben"
+            }
+         }
+      }
+   },
+   "entities": {
+      "armor": {
+         "knights_shield": {
+            "shield_talisman": {
 					"display_name": "Ritterschild",
 					"description": "Ernennt einen Hearthling zu einem Ritter"
 				},
@@ -6884,8 +7133,8 @@
 			},
 			"not_much_of_a_bed": {
 				"not_much_of_a_bed_ghost": {
-					"display_name": "Gemeines Bett",
-					"description": "Gemein wie in Arm, nicht grausam... OBWOHL ... das ist es auch."
+					"display_name": "Holzbett",
+					"description": "Ein gemeines und grausames Bett."
 				}
 			},
 			"park_bench": {
@@ -7143,7 +7392,7 @@
 				},
 				"goblin_boss_banner": {
 					"goblin_boss_banner_ghost": {
-						"display_name": "Ogo Skullbonker's Standarte",
+						"display_name": "Ogo Skullbonkers Standarte",
 						"description": "Zeigt deutlich den Goblin-Chef-Status."
 					}
 				},
@@ -7296,7 +7545,7 @@
 					"description": "Ein Krieger des Red Kiln"
 				},
 				"orc_boss_banner": {
-					"display_name": "Kriegsherr Oghar Grakbash's Banner",
+					"display_name": "Kriegsherr Oghar Grakbashs Banner",
 					"description": "Gemacht um die Schwachen einzuschüchtern"
 				},
 				"orc_hut": {
@@ -8571,8 +8820,8 @@
 				},
 				"not_much_of_a_bed_recipe": {
 					"description": "Etwas bequemer als auf einem Brett zu schlafen.",
-					"recipe_name": "Gemeines Bett",
-					"flavor": "Gemein wie in Arm, nicht grausam. Allerdings ist es das auch."
+					"recipe_name": "Holzbett",
+					"flavor": "Ein gemeines und grausames Bett."
 				},
 				"park_bench_recipe": {
 					"description": "Sitzgelegenheit im Freien, für Momente der Entspannung.",
@@ -9454,7 +9703,7 @@
 				"potter_kiln_recipe": {
 					"description": "Härtet Lehm Objekte.",
 					"recipe_name": "Töpferofen",
-					"flavor": "'Durch Wärme und Mühsal erkennen wir unser endgültiges Selbst.' -Silora, Acolyte von Rayya's Geheimnissen"
+					"flavor": "'Durch Wärme und Mühsal erkennen wir unser endgültiges Selbst.' -Silora, Acolyte von Rayyas Geheimnissen"
 				},
 				"clay_safety_standard_recipe": {
 					"description": "Wird verwendet um einen Sicherheitspunkt festzulegen",
@@ -9559,7 +9808,7 @@
 				"golden_clay_wall_planter_recipe": {
 					"description": "Erhellt eine Wand",
 					"recipe_name": "Goldener Lehmwandpflanzer",
-					"flavor": "Woher die Blumen kommen? Vom Pflanzer natürlich! --Akolyth von Rayya's Mysterien"
+					"flavor": "Woher die Blumen kommen? Vom Pflanzer natürlich! --Akolyth von Rayyas Mysterien"
 				},
 				"unfired_clay_vase_recipe": {
 					"description": "Eine einfache Vase die auf der Töpferscheibe hergestellt wurde um für komplexere Rezepturen verwendet zu werden.",
@@ -9693,57 +9942,47 @@
 					"perk_001_name": "Jobmöglichkeit",
 					"perk_000_description": "Der Trapper wird sich gelegentlich dafür entscheiden ein besonders feines Tier in ein Haustier zu verwandeln!",
 					"perk_001_description": "Der Trapper qualifiziert sich nun für andere Jobs. Öffne das Ernennungsmenü für mehr Einzelheiten."
-				},
-				"level_6_data": {
+            },
+            "level_6_data": {
 					"perk_000_name": "Der tödlichsteste Fang (nicht implementiert!)",
 					"perk_000_description": "Lege besondere Fallenzonen um habgierige Nachbarn 'abzuschrecken'",
 					"title": "Meistertrapper"
-				},
-				"level_5_data": {
+            },
+            "level_5_data": {
 					"perk_000_name": "Verzahnte Fallen",
 					"perk_000_description": "Bessere Fallenbewaffnungsfähigkeiten erhöhen die Chance des Trappers Beute zu fangen, um 25%."
-				},
-				"level_4_data": {
+            },
+            "level_4_data": {
 					"perk_000_name": "Rucksackgröße +2",
 					"perk_000_description": "Der Trapper ist effizienter beim Einpacken der Beute geworden."
-				}
-			},
-			"snare_trap": {
+            }
+         },
+         "snare_trap": {
 				"display_name": "Schlingfalle",
-				"description": "Sichere Methode seine Beute zu lähmen",
-				"commands": {
-					"harvest_trapped_beast": {
-						"display_name": "Wildtier ernten",
-						"description": "Tötet das eingeschlossene Tier und ernte es für Materialien!"
-					},
-					"tame_trapped_beast": {
-						"display_name": "Wildtier zähmen",
-						"description": "Machen dir Freunde! Befreunde das gefangene Tier und machen es zu deinem Haustier."
-					}
-				}
-			},
-			"trapper_buffs": {
-				"speed_1_buff": {
+				"description": "Sichere Methode seine Beute zu lähmen"
+         },
+         "trapper_buffs": {
+            "speed_1_buff": {
 					"description": "Lange Spaziergänge haben die Geschwindkeit des Trappers erhöht.",
 					"display_name": "Trappergeschwindigkeit erhöht um 10"
-				}
-			},
-			"trapper_knife": {
+            }
+         },
+         "trapper_knife": {
 				"display_name": "Trappermesser",
 				"description": "Ein Trappermesser",
-				"trapper_knife_iconic": {
+            "trapper_knife_iconic": {
 					"display_name": "Trappermesser",
 					"description": "Einfaches Trappermesser."
-				},
-				"trapper_knife_talisman": {
+            },
+            "trapper_knife_talisman": {
 					"display_name": "Trappermesser",
 					"description": "Wird benötigt um einen Hearthling zu einem Trapper zu ernennen."
-				}
-			},
-			"trapper_outfit": {
+            }
+         },
+         "trapper_outfit": {
 				"display_name": "Trapper-Uniform"
-			},
-			"trapping_grounds": {
+         },
+         "trapping_grounds": {
 				"display_name": "Fangzone",
 				"description": "Trapper fangen kleine Tiere für Essen und Materialien in dieser Zone."
          }
@@ -9877,12 +10116,12 @@
 				"weaver_loom_recipe": {
 					"description": "Fügt Faden um Faden hinzu, bis Tuch rauskommt.",
 					"recipe_name": "Webstuhl",
-					"flavor": "Geduldige Spinnen, Weber und Schriftsteller ziehen den Wandteppich des Schicksals enger. --Rayya's Rhyme"
+					"flavor": "Geduldige Spinnen, Weber und Schriftsteller ziehen den Wandteppich des Schicksals enger. --Rayyas Rhyme"
 				},
 				"weaver_spinning_wheel_recipe": {
 					"description": "Spinnt stacheliges, kratziges Chaos zu Faden",
 					"recipe_name": "Spinnrad",
-					"flavor": "Die Spinne lächelt: Alle acht Augen funkeln aus dem Nichts, ein paar süß und ein paar bitter.'"
+					"flavor": "Die Spinne lächelt: Alle acht Augen funkeln aus dem Nichts, ein paar süß und ein paar bitter."
 				},
 				"weaver_workbench_recipe": {
 					"description": "Wird verwendet um komplexe Handwerke aus Faden und Stoff zu machen.",

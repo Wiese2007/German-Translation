@@ -1,0 +1,16 @@
+{
+   "data": {
+      "commands": {
+         "autoharvest_on": {
+            "display_name": "Autoernten ist aktiviert",
+            "description": "Klicke um es auszuschalten.",
+            "disabled_description": "Kann jetzt nicht ausgeschaltet werden, versuche es später noch einmal."
+         },
+         "autoharvest_off": {
+            "display_name": "Autoernten ist deaktiviert",
+            "description": "Klicke um es anzuschalten.",
+            "disabled_description": "Kann jetzt nicht angeschaltet werden, versuche es später noch einmal."
+         }
+      }
+   }
+}

@@ -1,12 +1,12 @@
 {
    "tooltip_icon_entity_inspector": "KI Inspektor",
-   "tooltip_icon_campaign_browser": "Kampagnen Browser",
-   "tooltip_icon_item_dropper": "Objekt Spawner",
-   "tooltip_icon_object_browser": "Objekt Browser",
-   "tooltip_icon_perfmon": "Performance Monitor",
-   "tooltip_icon_entity_editor": "Einheiten Editor",
-   "tooltip_icon_job_monitor": "Job Monitor",
-   "tooltip_icon_trace_monitor": "Pfad Monitor",
+   "tooltip_icon_campaign_browser": "Kampagnenbrowser",
+   "tooltip_icon_item_dropper": "Objektspawner",
+   "tooltip_icon_object_browser": "Objektbrowser",
+   "tooltip_icon_perfmon": "Performancemonitor",
+   "tooltip_icon_entity_editor": "Einheiteneditor",
+   "tooltip_icon_job_monitor": "Jobmonitor",
+   "tooltip_icon_trace_monitor": "Pfadmonitor",
    "entity_editor": {
       "destination": {
          "tooltip_region": "Zeigt sich als lila Linien, wenn du F11 drückst. Dies ist die Region, aus der wir die angrenzenden Regionen erzeugen. Es sollte alle deine Entität in ein hübsches Quadrat passen.",

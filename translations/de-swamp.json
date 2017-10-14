@@ -1,0 +1,98 @@
+{
+	"data": {
+		"biome": {
+			"swamp": {
+				"display_name": "Sumpf",
+				"description": "Flaches von Wasser überflutetes Land, mit dichter Vegetation. Achte auf deine Schritte.",
+				"random_location_names": {
+					"000": " Monbos Sumpf"
+				}
+			}
+		},
+		"population": {
+			"firefly_clan": {
+				"display_name": "Feuerfliegen Klan",
+				"quote": "",
+				"long_description": "TODO",
+				"post_selection_description": ", TODO."
+			}
+		}
+	},
+	"entities": {
+		"furniture": {
+			"hammock": {
+				"display_name": "Hängematte",
+				"description": "TODO"
+			}
+		},
+		"gizmos": {
+			"camp_standard": {
+				"display_name": "Lagerstandarte",
+				"description": "Wie weißt du sonst, dass du nach Hause gekommen bist"
+			}
+		},
+		"plants": {
+			"cattail": {
+				"display_name": "Katzenschwanz",
+				"description": "Die Fasern der Pflanze können zu Fäden gesponnen werden. Sie sind aber auch essbar.",
+				"unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen"
+			},
+			"fern": {
+				"display_name": "Fern",
+				"description": "Die Fasern der Pflanze können zu Fäden gesponnen werden.",
+				"unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen"
+			},
+			"giant_flower": {
+				"display_name": "Gipfelblume",
+				"description": "Kann für Heilkräuter geerntet werden",
+				"unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen"
+			},
+			"white_mushroom": {
+				"display_name": "Weißer Pilz",
+				"description": "Erntefähig für eine dürftige Nahrungsversorgung.",
+				"unripe_description": "Diese Pflanze wurde geerntet und ist noch nicht zurückgewachsen"
+			}
+		},
+		"resources": {
+			"cattail": {
+				"display_name": "Katzenschwanz",
+				"description": "In Fäden spinnbar. Und essbar."
+			},
+			"giant_flower": {
+				"display_name": "Gipfelblume",
+				"description": "Ein Kraut, das gewöhnlich für medizinische Zwecke verwendet wird"
+			},
+			"white_mushroom": {
+				"display_name": "Weißer Pilz",
+				"description": "Bereit zum Essen"
+			},
+			"fern": {
+				"display_name": "Fern",
+				"description": "In Fäden spinnbar"
+			}
+		},
+		"trees": {
+			"bogger": {
+				"display_name": "Boggerbaum",
+				"description": "Er strahlt eine geheimnisvolle Aura aus"
+			},
+			"swirl": {
+				"display_name": "Strudelbaum",
+				"description": "Ein beeindruckendes Exemplar."
+			}
+		}
+	},
+	"jobs": {
+		"shaman": {
+			"shaman_description": {
+				"display_name": "Schamane",
+				"description": "Schamane beschreibung",
+				"requirements": "Schamane anforderung"
+			},
+			"shaman_workbench": {
+				"display_name": "Schamane Werkbank",
+				"description": "Schamanen werden es benutzen, um ihre Sachen zu fertigen"
+			}
+		}
+	}
+}
